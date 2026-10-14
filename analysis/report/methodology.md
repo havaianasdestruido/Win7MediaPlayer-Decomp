@@ -179,12 +179,18 @@ this corpus. What was **verified by running it**:
     `relocations`, `dwarf`, `disassemble`, `disassemble_all`, plus `list-objdump-architectures`;
   * `rea inspect-pe-resources <image>` for the PE resource tree;
   * `rea inspect-artifact <file>` for non-PE artifacts (used on the skin package and the XML inputs).
-* 162 REA operations were executed over the corpus (~237 s wall clock) and stored under
+* 168 REA operations were executed over the corpus and stored under
   `analysis/report/rea-evidence/<module>/` with a ledger (`manifest.json`) recording the exact argv,
   exit code, duration, output SHA-256, REA evidence id, provider and subject hash for each operation.
-  Large JSON outputs are stored gzip-compressed; `rea_batch.py --decompress` restores them.
-* Every one of the 28 PE images was covered by the objdump and PE-resource lanes; 21 also have full
-  disassembly archives.
+  Large JSON outputs are stored gzip-compressed (16 of the operation outputs here);
+  `rea_batch.py --decompress <slug>` restores them.
+* Every one of the 28 PE images was covered by the objdump header/section/symbol/relocation lanes
+  and the PE-resource lane; **27** additionally have a full `disassemble_all` archive (16 of them
+  gzip-stored). The remaining image, `setup_wm.exe` (2.0 MB), exceeds the evidence-archiving cap
+  (`--disasm-max-bytes`, set to 1.6 MB to keep the repository within its size budget); for the
+  disassembly cross-check in `validation.md` §4 the same `objdump -D` invocation REA performs was
+  run directly for that one module, and `analysis/report/disasm.md` labels that module's source
+  as `direct-objdump` rather than `rea-evidence`.
 
 What REA **could not** do here, and why (documented rather than worked around silently):
 

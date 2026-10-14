@@ -1,12 +1,12 @@
 {
  "generated_by": "analysis/tools/recon_build.py",
- "generated_at": "2026-10-14T22:00:56Z",
+ "generated_at": "2026-10-14T22:45:23Z",
  "cmake": "cmake version 4.4.4",
  "compiler": "gcc (Debian 12.2.0-14+deb12u1) 12.2.0",
  "configured": true,
  "built": true,
  "build_dir": "analysis/report/data/build",
- "elapsed_s": 2.6,
+ "elapsed_s": 2.9,
  "modules": [
   {
    "slug": "wmpdmc_exe",
