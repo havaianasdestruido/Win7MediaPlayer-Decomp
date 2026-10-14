@@ -1,0 +1,170 @@
+{
+ "module": "wmpdmccore_dll_mui",
+ "artifact": "bin/pt-BR/WMPDMCCore.dll.mui",
+ "sha256": "680979d9d171a607492d67d7ed1393f07d906bd6ab35a29aadfe3bce9e2a6611",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 4096,
+  "size": 1812,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "RT_MESSAGETABLE": 1,
+  "RT_STRING": 1,
+  "RT_VERSION": 1
+ },
+ "pefile_walk_count": 4,
+ "walker_cross_check": {
+  "raw_walker": 4,
+  "pefile_walker": 4,
+  "agree": true
+ },
+ "messages_total": 5,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2a0",
+   "data_entry_offset": "0x2f0",
+   "depth": 3,
+   "data_rva": 4408,
+   "size": 184,
+   "sha256": "2c98c0650de768d7570c068a6aebbd4b66e428f3e5b4290709a4ce25ac4eb671",
+   "bytes_read": 184,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "language_tag": "pt-BR",
+    "localized_type_ids": [],
+    "localized_type_names": [],
+    "matches_sibling": null,
+    "matches_same_artifact": null
+   },
+   "extracted": "analysis/report/resources/wmpdmccore_dll_mui/MUI/1_pt-BR.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 7
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2b8",
+   "data_entry_offset": "0x300",
+   "depth": 3,
+   "data_rva": 4592,
+   "size": 52,
+   "sha256": "99c96041c8e7617ae886a4dcf9846c5e40932946c2cd397835483347651e252b",
+   "bytes_read": 52,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "7",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 1
+   },
+   "extracted": "analysis/report/resources/wmpdmccore_dll_mui/RT_STRING/7_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 11
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2d0",
+   "data_entry_offset": "0x310",
+   "depth": 3,
+   "data_rva": 4644,
+   "size": 216,
+   "sha256": "2337e418abc0166d793772544a7fea53467b41dd9f112f845bd1415b10b7e00a",
+   "bytes_read": 216,
+   "truncated": false,
+   "type": "RT_MESSAGETABLE",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "messages": 5,
+    "blocks": 3
+   },
+   "extracted": "analysis/report/resources/wmpdmccore_dll_mui/RT_MESSAGETABLE/1_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2e8",
+   "data_entry_offset": "0x320",
+   "depth": 3,
+   "data_rva": 4860,
+   "size": 1048,
+   "sha256": "096e5a190be27038b6efb26e12875101001b17a92a24c84ad767db3537c77015",
+   "bytes_read": 1048,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Biblioteca do Controlador de M\u00c3\u00addia Digital do Windows Media Player",
+    "FileVersion": "12.0.7600.16385 (win7_rtm.090713-1255)",
+    "InternalName": "WMPDMCCore",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+    "OriginalFilename": "WMPDMCCore.dll.mui",
+    "ProductName": "Sistema Operacional Microsoft\u00c2\u00ae Windows\u00c2\u00ae",
+    "ProductVersion": "12.0.7600.16385",
+    "StringFileInfo_utf8": {
+     "FileDescription": "Biblioteca do Controlador de M\u00eddia Digital do Windows Media Player",
+     "LegalCopyright": "\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+     "ProductName": "Sistema Operacional Microsoft\u00ae Windows\u00ae"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmpdmccore_dll_mui/RT_VERSION/1_pt-BR.json"
+  }
+ ]
+}

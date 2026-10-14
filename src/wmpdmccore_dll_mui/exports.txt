@@ -1,0 +1,2 @@
+# Exported symbols — bin/pt-BR/WMPDMCCore.dll.mui (SHA-256 680979d9d171a607492d67d7ed1393f07d906bd6ab35a29aadfe3bce9e2a6611)
+# (no exported symbols; this image is an executable or a resource-only module)

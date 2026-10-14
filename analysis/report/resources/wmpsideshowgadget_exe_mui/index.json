@@ -1,0 +1,267 @@
+{
+ "module": "wmpsideshowgadget_exe_mui",
+ "artifact": "bin/pt-BR/WMPSideShowGadget.exe.mui",
+ "sha256": "1718e05409e1926f8814a89bed277ed9a77c2d0f8f5f7fead42c65cd3e886321",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 4096,
+  "size": 3048,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "RT_STRING": 5,
+  "RT_VERSION": 1
+ },
+ "pefile_walk_count": 7,
+ "walker_cross_check": {
+  "raw_walker": 7,
+  "pefile_walker": 7,
+  "agree": true
+ },
+ "messages_total": 0,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2a0",
+   "data_entry_offset": "0x338",
+   "depth": 3,
+   "data_rva": 4528,
+   "size": 176,
+   "sha256": "d0f79967123339acfad9b8582399e29f4a6c9feeab05e4e4ad6ac841546c09f6",
+   "bytes_read": 176,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "language_tag": "pt-BR",
+    "localized_type_ids": [
+     6,
+     16
+    ],
+    "localized_type_names": [
+     "RT_STRING",
+     "RT_VERSION"
+    ],
+    "matches_sibling": null,
+    "matches_same_artifact": true
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe_mui/MUI/1_pt-BR.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 63
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2b8",
+   "data_entry_offset": "0x348",
+   "depth": 3,
+   "data_rva": 4704,
+   "size": 210,
+   "sha256": "bbe36f50e5b746e817e1e64b16d25a985bf4452dfa0572ae5b60b29f8b073317",
+   "bytes_read": 210,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "63",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 8
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe_mui/RT_STRING/63_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 64
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2d0",
+   "data_entry_offset": "0x358",
+   "depth": 3,
+   "data_rva": 4916,
+   "size": 450,
+   "sha256": "bbc9127fddeab09e7ce495e3927f582b6d2b032e49e70f748fe12c5ba0f52acd",
+   "bytes_read": 450,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "64",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 14
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe_mui/RT_STRING/64_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 65
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2e8",
+   "data_entry_offset": "0x368",
+   "depth": 3,
+   "data_rva": 5368,
+   "size": 398,
+   "sha256": "3465af9836fd067d7ac7169fa88963083cdb5da6c4c4867c58cde75b865717ce",
+   "bytes_read": 398,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "65",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 12
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe_mui/RT_STRING/65_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 69
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x300",
+   "data_entry_offset": "0x378",
+   "depth": 3,
+   "data_rva": 5768,
+   "size": 72,
+   "sha256": "aa553e352d79cbb74da5513df8f47f7bbc5f5e67c9a71a8d5d7bf554d4c0fbcd",
+   "bytes_read": 72,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "69",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 1
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe_mui/RT_STRING/69_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 76
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x318",
+   "data_entry_offset": "0x388",
+   "depth": 3,
+   "data_rva": 5840,
+   "size": 216,
+   "sha256": "e9caf06b389770f41497b677a5bf651ed6797f21a92dcdc006b85140edae9ccf",
+   "bytes_read": 216,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "76",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 1
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe_mui/RT_STRING/76_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x330",
+   "data_entry_offset": "0x398",
+   "depth": 3,
+   "data_rva": 6056,
+   "size": 1088,
+   "sha256": "bb079d567c258da9e72741d01458b6c3d1a673bfa0575dc1b0cda2ae387d5a59",
+   "bytes_read": 1088,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Gadget do Windows Media Player para dispositivos compat\u00c3\u00adveis com o Windows SideShow",
+    "FileVersion": "12.0.7600.16385 (win7_rtm.090713-1255)",
+    "InternalName": "WMPSideShowGadget",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+    "OriginalFilename": "WMPSideShowGadget",
+    "ProductName": "Sistema Operacional Microsoft\u00c2\u00ae Windows\u00c2\u00ae",
+    "ProductVersion": "12.0.7600.16385",
+    "StringFileInfo_utf8": {
+     "FileDescription": "Gadget do Windows Media Player para dispositivos compat\u00edveis com o Windows SideShow",
+     "LegalCopyright": "\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+     "ProductName": "Sistema Operacional Microsoft\u00ae Windows\u00ae"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe_mui/RT_VERSION/1_pt-BR.json"
+  }
+ ]
+}

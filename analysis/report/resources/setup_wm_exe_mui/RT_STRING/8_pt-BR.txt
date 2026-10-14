@@ -1,0 +1,14 @@
+113	Aguarde enquanto o Assistente para Instalação baixa os arquivos no computador.
+114	Instalando...
+115	O Windows está sendo atualizado com o Windows Media Player. Depois que a atualização estiver concluída, você poderá configurar as opções do Player.
+116	Selecione as Opções de Privacidade
+117	A Microsoft se compromete em proteger sua privacidade. Para oferecer uma experiência otimizada, os dados são trocados pela Internet e podem ser salvos em seu computador.
+118	Selecionar o Player de Vídeo e Música Padrão
+119	Atualização do Windows Media Player
+120	Há uma atualização do Windows Media Player disponível. Verifique as informações a seguir.
+121	A instalação do Windows Media Player está concluída
+122	Obrigado por escolher o Windows Media Player.
+123	Bem-Vindo ao Windows Media Player
+124	Tire proveito de uma reprodução rápida e flexível de música e vídeo com o Windows Media Player.
+126	Não é possível concluir a instalação do Windows Media Player
+127	Reverter Windows Media Player

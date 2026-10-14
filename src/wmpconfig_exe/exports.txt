@@ -1,0 +1,2 @@
+# Exported symbols — bin/wmpconfig.exe (SHA-256 0f1726e36b8a016069b7d9eef811f5ca3799bfed355423f70f51947e67d2ef4f)
+# (no exported symbols; this image is an executable or a resource-only module)

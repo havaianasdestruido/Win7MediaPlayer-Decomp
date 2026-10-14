@@ -1,0 +1,3 @@
+9900	Clipe de Som
+9902	Clipe de Filme
+9903	Som no Formato AIFF

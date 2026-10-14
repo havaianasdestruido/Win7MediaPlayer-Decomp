@@ -1,0 +1,138 @@
+{
+ "module": "wmpdmccore_dll",
+ "artifact": "bin/WMPDMCCore.dll",
+ "sha256": "9334fde75c4e6d018f3c698b0a6b5d415f65d71716906af037147b61b3911242",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 425984,
+  "size": 5024,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "RT_VERSION": 1,
+  "WEVT_TEMPLATE": 1
+ },
+ "pefile_walk_count": 3,
+ "walker_cross_check": {
+  "raw_walker": 3,
+  "pefile_walker": 3,
+  "agree": true
+ },
+ "messages_total": 0,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x64e80",
+   "data_entry_offset": "0x64eb8",
+   "depth": 3,
+   "data_rva": 430768,
+   "size": 240,
+   "sha256": "c7cf9ff4ae741bc5fd4b7926ba68399bdee7a3001c3e6d5c93a98cd3b367498e",
+   "bytes_read": 240,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "language_tag": "en-US",
+    "localized_type_ids": [],
+    "localized_type_names": [],
+    "matches_sibling": null,
+    "matches_same_artifact": null
+   },
+   "extracted": "analysis/report/resources/wmpdmccore_dll/MUI/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "WEVT_TEMPLATE"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x64e98",
+   "data_entry_offset": "0x64ec8",
+   "depth": 3,
+   "data_rva": 426256,
+   "size": 3514,
+   "sha256": "836aabd9a7deb21f93369f24e8e19dd406ffe7e42a3bf8c1fc882fa545bca722",
+   "bytes_read": 3514,
+   "truncated": false,
+   "type": "WEVT_TEMPLATE",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "magic": "CRIM",
+    "declared_size": 3512,
+    "note": "ETW event-manifest template; binary schema not decoded here"
+   },
+   "extracted": "analysis/report/resources/wmpdmccore_dll/WEVT_TEMPLATE/raw/1_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x64eb0",
+   "data_entry_offset": "0x64ed8",
+   "depth": 3,
+   "data_rva": 429776,
+   "size": 992,
+   "sha256": "1d908038cb878716ecfb2a260b1298d591bbd274f71b3d90a98bb2c774a71297",
+   "bytes_read": 992,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Windows Media Player Digital Media Controller Library",
+    "FileVersion": "12.0.7601.23403 (win7sp1_ldr.160325-0600)",
+    "InternalName": "WMPDMCCore",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. All rights reserved.",
+    "OriginalFilename": "WMPDMCCore.dll",
+    "ProductName": "Microsoft\u00c2\u00ae Windows\u00c2\u00ae Operating System",
+    "ProductVersion": "12.0.7601.23403",
+    "StringFileInfo_utf8": {
+     "LegalCopyright": "\u00a9 Microsoft Corporation. All rights reserved.",
+     "ProductName": "Microsoft\u00ae Windows\u00ae Operating System"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmpdmccore_dll/RT_VERSION/1_en-US.json"
+  }
+ ]
+}

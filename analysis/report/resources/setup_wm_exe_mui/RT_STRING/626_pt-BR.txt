@@ -1,0 +1,15 @@
+10000	Arquivo de Vídeo do Windows Media (wmv)
+10002	Arquivo de áudio MP3 (mp3)
+10003	Arquivo de filme (mpeg)
+10004	Arquivo de áudio AIFF (aiff)
+10005	Arquivo de imagem do Windows (jpg)
+10006	Programa de TV Gravado pela Microsoft (dvr-ms)
+10007	Arquivo de Vídeo MP4
+10008	Arquivo de Áudio MP4
+10009	Arquivo de Filme do QuickTime
+10010	Inclui arquivos com as extensões .au e .snd.
+10011	Inclui os arquivos com as extensões .mid, .midi e .rmi.
+10012	Inclui os arquivos com as extensões .wma e .wax.
+10013	Inclui os arquivos com as extensões .wav.
+10014	Inclui os arquivos com as extensões .asf, .asx, .wpl, .wm, .wmx, .wmd e .wmz.
+10015	Inclui os arquivos com as extensões .avi.

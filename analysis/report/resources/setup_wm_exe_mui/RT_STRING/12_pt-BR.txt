@@ -1,0 +1,20 @@
+176	O computador está executando a versão mais recente do Windows Media Player e todos os seus componentes. Não há atualização disponível no momento.
+177	A instalação está sendo iniciada...
+178	%s (%lu de %lu itens)
+179	Não foi possível concluir a Instalação porque o servidor de atualizações não estava disponível. O Windows Media Player não foi instalado.
+180	Falha ao baixar um ou mais componentes opcionais. Outros arquivos já baixados podem ser instalados com segurança. Deseja instalar esses arquivos agora?
+181	Configurando o ponto de Restauração do Sistema...
+182	Não foi possível concluir a Instalação. Para obter assistência, clique em Ajuda na Web.
+183	O Windows foi atualizado com sucesso
+184	Não foi possível concluir a instalação; o Windows Media Player não foi instalado. Reinicie o Windows e execute a Instalação do Windows Media Player novamente.
+185	O Windows Media Player requer %lu MB. A atualização levará aproximadamente %lu minutos em uma conexão de 28,8 KBps.
+186	Seu administrador de rede desativou este recurso.
+187	Os seguintes programas dependem do Windows Media Player para serem executados de forma apropriada e devem ser removidos antes de você reverter para uma versão anterior do Player. A Instalação será encerrada sem fazer nenhuma alteração em seu computador.
+188	O Windows Media Player está sendo usado por outros componentes deste computador; é recomendável não fazer a reversão neste momento. Tem certeza de que deseja reverter o Player?
+189	Obrigado por instalar o Media Player multifuncional! Descubra novas formas de entretenimento digital, execute-as e leve-as com você a qualquer lugar, nos diversos players portáteis e em computadores com o Windows XP.
+
+
+190	Durante a instalação, o Windows Media Player será definido como o player padrão para executar seu conteúdo de mídia digital, como músicas, vídeos, programas de TV, CDs e DVDs. Esse processo de instalação permite que você personalize os padrões e outras opções de instalação.
+191	Você está prestes a alterar as configurações de privacidade que afetarão a maneira como os cookies são tratados no Windows Media Player e em qualquer outro programa que dependa dessas configurações de privacidade.
+
+O Player usa a plataforma da Internet para comunicar informações de conexão com os servidores durante o streaming. Essas informações são usadas por provedores de conteúdo para fornecer serviços. Modificar suas configurações de cookie afetará a maneira como as informações são enviadas aos servidores.

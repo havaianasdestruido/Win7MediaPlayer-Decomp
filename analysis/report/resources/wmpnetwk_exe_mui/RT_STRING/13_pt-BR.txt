@@ -1,0 +1,2 @@
+199	Dispositivo Desconhecido (%1)
+203	Windows Media Player Sharing

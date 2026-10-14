@@ -1,0 +1,16 @@
+9904	Som no Formato AU
+9905	Videoclipe
+9906	Clipe de Filme
+9907	Sequência MIDI
+9908	Som Wave
+9909	Arquivo de Áudio/Vídeo do Windows Media
+9910	Lista de reprodução de Áudio/Vídeo do Windows Media
+9911	Atalho para Windows Media Audio
+9912	Arquivo Windows Media Audio
+9913	Lista de reprodução de Áudio/Vídeo do Windows Media
+9914	Arquivo de Áudio/Vídeo do Windows Media
+9915	Arquivo de Capa do Windows Media Player
+9916	Pacote de Capas do Windows Media Player
+9917	CD de Áudio
+9918	Faixa de Áudio de CD
+9919	Arquivo do Windows Media Player

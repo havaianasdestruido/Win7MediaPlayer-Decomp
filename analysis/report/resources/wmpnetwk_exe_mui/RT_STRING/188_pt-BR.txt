@@ -1,0 +1,8 @@
+3000	Configurar opções de energia para quando dispositivos e computadores reproduzirem mídia do seu computador.
+3001	Configurações de multimídia
+3002	Determinar o que o computador faz quando um dispositivo ou computador reproduzir mídia dele.
+3003	Ao compartilhar mídia
+3004	Dispositivos e computadores não poderão reproduzir mídia do seu computador quando ele estiver em suspensão.
+3005	Permitir que o computador entre em suspensão
+3006	Dispositivos e computadores poderão reproduzir mídia do seu computador a menos que você o ponha em suspensão.
+3007	Impedir suspensão quando ocioso

@@ -1,0 +1,4 @@
+10220	  Esse componente deve ser instalado para o software funcionar.
+10221	  Esse é um componente compartilhado e não deve ser desinstalado.
+10222	270
+10223	60

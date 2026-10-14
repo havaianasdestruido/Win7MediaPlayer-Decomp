@@ -1,0 +1,8 @@
+# Exported symbols — bin/mpvis.DLL (SHA-256 5b1cf8de17dc039349e1af0bc0d728e3de3c0a96d9c50e81fc909b8ceb4927e0)
+# Image export name: Tolerance.DLL
+
+    1  0x00016f30  DllCanUnloadNow
+    2  0x00016f44  DllGetClassObject
+    3  0x00016e98  DllMain
+    4  0x00016f60  DllRegisterServer
+    5  0x00017014  DllUnregisterServer

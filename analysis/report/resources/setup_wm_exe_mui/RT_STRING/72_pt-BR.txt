@@ -1,0 +1,4 @@
+1136	Windows Media Player
+1137	Obtendo Atualizações para %s
+1138	O computador está executando a versão mais recente de %s e todos os seus componentes. Não há atualizações disponíveis no momento.
+1139	Uma atualização de %s está disponível. Deseja atualizar agora?

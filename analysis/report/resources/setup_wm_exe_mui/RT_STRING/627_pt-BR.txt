@@ -1,0 +1,13 @@
+10016	Inclui os arquivos e CDs de áudio com as extensões .cda.
+10017	Reprodução de vídeo DVD.
+10018	Inclui os arquivos com as extensões .wmv e .wvx.
+10020	Inclui os arquivos com as extensões .mp2, .mp3 e .m3u.
+10021	Inclui os arquivos com as extensões .mpeg, .mpg, .mpe, .mv1, .m2v, .mod, .mpv2, .mp2v e .mpa.
+10022	Inclui arquivos com as extensões .aif, .aifc e .aiff.
+10023	Inclui os arquivos com as extensões .asf, .asx, .wpl, .wm, .wmx, .wmd e .wmz.
+10024	Programa de TV Gravado pela Microsoft
+10025	Inclui arquivos com extensões .mp4, .m4v, .mp4v, .3gp, .3gpp, .3g2 e .3gp2.
+10026	Inclui arquivos com extensões .m4a.
+10027	Inclui os arquivos com as extensões .mov.
+10028	Inclui arquivos com as extensões adts, .adt e .aac.
+10029	Inclui arquivos com extensões .m2ts, .m2t, .mts, .ts e .tts.

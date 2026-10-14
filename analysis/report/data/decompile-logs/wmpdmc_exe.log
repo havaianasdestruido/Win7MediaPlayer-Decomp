@@ -1,0 +1,4 @@
+ERROR    | 2026-10-14 21:37:18,131 | angr.state_plugins.unicorn_engine | failed loading "unicornlib.so", unicorn support disabled ('NoneType' object has no attribute 'unicorn_py3')
+ERROR    | 2026-10-14 21:38:55,564 | angr.analyses.calling_convention.fact_collector.SimEngineFactCollectorVEX | Unsupported Dirty amd64g_dirtyhelper_FSTENV.
+ERROR    | 2026-10-14 21:40:38,483 | angr.analyses.decompiler.clinic | More than one variable are available for atom Load(addr=(vvar_333{r56|8b} + 0x40<64>), size=4, endness=Iend_LE). Consider fixing it using phi nodes.
+[wmpdmc_exe] cfg 75.7s functions=13515 selected=60 decompiled=60 elapsed=258s

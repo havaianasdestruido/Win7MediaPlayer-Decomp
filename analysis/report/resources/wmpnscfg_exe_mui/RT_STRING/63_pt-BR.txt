@@ -1,0 +1,2 @@
+1001	Microsoft Corporation
+1002	Esta tarefa atualiza a lista de pastas em cache e as permissões de segurança nos novos arquivos da biblioteca de mídia compartilhada de um usuário.

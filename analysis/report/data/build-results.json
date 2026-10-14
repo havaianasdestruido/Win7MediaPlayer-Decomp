@@ -1,0 +1,467 @@
+{
+ "generated_by": "analysis/tools/recon_build.py",
+ "generated_at": "2026-10-14T22:00:56Z",
+ "cmake": "cmake version 4.4.4",
+ "compiler": "gcc (Debian 12.2.0-14+deb12u1) 12.2.0",
+ "configured": true,
+ "built": true,
+ "build_dir": "analysis/report/data/build",
+ "elapsed_s": 2.6,
+ "modules": [
+  {
+   "slug": "wmpdmc_exe",
+   "module": "WMPDMC.exe",
+   "target": "wmp_recon_wmpdmc_exe",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 3f6564d520c416147702a463a50724fd36c46c3a44a8447af89788586fc5efee",
+    "  ok   151/151 resource payload digests",
+    "  ok   1/1 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpdmccore_dll",
+   "module": "WMPDMCCore.dll",
+   "target": "wmp_recon_wmpdmccore_dll",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 9334fde75c4e6d018f3c698b0a6b5d415f65d71716906af037147b61b3911242",
+    "  ok   3/3 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpmediasharing_dll",
+   "module": "WMPMediaSharing.dll",
+   "target": "wmp_recon_wmpmediasharing_dll",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 714d193de7f062968c11a8a946f1fa066d03e1fc5a7bd90dbabc372605416413",
+    "  ok   4/4 resource payload digests",
+    "  ok   7/7 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpnssui_dll",
+   "module": "WMPNSSUI.dll",
+   "target": "wmp_recon_wmpnssui_dll",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 28d793e5077afb34b57fd3ac404413a60f06a3985fcc4aa16cccb8525411f8bb",
+    "  ok   4/4 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpsideshowgadget_exe",
+   "module": "WMPSideShowGadget.exe",
+   "target": "wmp_recon_wmpsideshowgadget_exe",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 0f8f45cd381f60a41cca4834188157d25906911108d7280cb2540d2245327a9d",
+    "  ok   26/26 resource payload digests",
+    "  ok   1/1 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "mpvis_dll",
+   "module": "mpvis.DLL",
+   "target": "wmp_recon_mpvis_dll",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 5b1cf8de17dc039349e1af0bc0d728e3de3c0a96d9c50e81fc909b8ceb4927e0",
+    "  ok   9/9 resource payload digests",
+    "  ok   3/3 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "setup_wm_exe",
+   "module": "setup_wm.exe",
+   "target": "wmp_recon_setup_wm_exe",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 f069226052de289452ef5ff9dd67557193c15308c5351bc7b70b6692b350951b",
+    "  ok   62/62 resource payload digests",
+    "  ok   4/4 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmlaunch_exe",
+   "module": "wmlaunch.exe",
+   "target": "wmp_recon_wmlaunch_exe",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 8ea713b95f32c31a11bb1dded4cc8b9620014600f122fff3852c082d9af67b1b",
+    "  ok   3/3 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpconfig_exe",
+   "module": "wmpconfig.exe",
+   "target": "wmp_recon_wmpconfig_exe",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 0f1726e36b8a016069b7d9eef811f5ca3799bfed355423f70f51947e67d2ef4f",
+    "  ok   20/20 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpenc_exe",
+   "module": "wmpenc.exe",
+   "target": "wmp_recon_wmpenc_exe",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 b8b174ae012a8a25a9d706f7f169e7a2553ab8ffe0ccef2beb34fe803ec0634a",
+    "  ok   3/3 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmplayer_exe",
+   "module": "wmplayer.exe",
+   "target": "wmp_recon_wmplayer_exe",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 883d9616dfc7586fa88c58013f70e055df9328f3cfc3ef39898c15c6970fb0db",
+    "  ok   34/34 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpnetwk_exe",
+   "module": "wmpnetwk.exe",
+   "target": "wmp_recon_wmpnetwk_exe",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 306467d280e99d0616e839278a4db5bed684f002ae284c3678cabb5251459cb3",
+    "  ok   6/6 resource payload digests",
+    "  ok   4/4 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpnscfg_exe",
+   "module": "wmpnscfg.exe",
+   "target": "wmp_recon_wmpnscfg_exe",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 10888bb9c3799e1e8b010c0f9088ced376aad63a509fce1727c457b022cdc717",
+    "  ok   13/13 resource payload digests",
+    "  ok   1/1 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpnssci_dll",
+   "module": "wmpnssci.dll",
+   "target": "wmp_recon_wmpnssci_dll",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 3a3871983f2d9a57739c70365dc3f417d9bf02f5c0c4cc3272ea9f3d380ef962",
+    "  ok   48/48 resource payload digests",
+    "  ok   16/16 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmprph_exe",
+   "module": "wmprph.exe",
+   "target": "wmp_recon_wmprph_exe",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 395fce3d66ab1ed9a4fb2238172eaefc5cf78fc7a8b34c30686d638d16d9efca",
+    "  ok   4/4 resource payload digests",
+    "  ok   3/3 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpshare_exe",
+   "module": "wmpshare.exe",
+   "target": "wmp_recon_wmpshare_exe",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 ab95a6aa118e853d71b326b68a409f24a6276f47e34ca9e8049f7d49b4825a51",
+    "  ok   19/19 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpdmc_exe_mui",
+   "module": "WMPDMC.exe.mui",
+   "target": "wmp_recon_wmpdmc_exe_mui",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 a3ac34616e24ec5580fe2eec9775ff265db6ebae5e0a833aeadd05809c9de87a",
+    "  ok   20/20 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpdmccore_dll_mui",
+   "module": "WMPDMCCore.dll.mui",
+   "target": "wmp_recon_wmpdmccore_dll_mui",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 680979d9d171a607492d67d7ed1393f07d906bd6ab35a29aadfe3bce9e2a6611",
+    "  ok   4/4 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpmediasharing_dll_mui",
+   "module": "WMPMediaSharing.dll.mui",
+   "target": "wmp_recon_wmpmediasharing_dll_mui",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 84218d150099d2bb3bdfd874b366770f681c7f3ab956954aee64e40789d99ae6",
+    "  ok   3/3 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpsideshowgadget_exe_mui",
+   "module": "WMPSideShowGadget.exe.mui",
+   "target": "wmp_recon_wmpsideshowgadget_exe_mui",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 1718e05409e1926f8814a89bed277ed9a77c2d0f8f5f7fead42c65cd3e886321",
+    "  ok   7/7 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "mpvis_dll_mui",
+   "module": "mpvis.dll.mui",
+   "target": "wmp_recon_mpvis_dll_mui",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 781a2dd1ca11e2654bec3d601a3b286dc289f13c8408f41126420ee6181de7c5",
+    "  ok   4/4 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "setup_wm_exe_mui",
+   "module": "setup_wm.exe.mui",
+   "target": "wmp_recon_setup_wm_exe_mui",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 f3837229bf6be289b39b2c5e8462654552c5b9f1bfb0d8e2f8f7bbe5a3165d56",
+    "  ok   59/59 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmlaunch_exe_mui",
+   "module": "wmlaunch.exe.mui",
+   "target": "wmp_recon_wmlaunch_exe_mui",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 bdc4a23d97dafb70a4d6fe38e834cfcf0b241456982cb87cf076e7c217553bd1",
+    "  ok   2/2 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmplayer_exe_mui",
+   "module": "wmplayer.exe.mui",
+   "target": "wmp_recon_wmplayer_exe_mui",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 27ad95b6130d6f394bf74fe9c550cb65b166f7b05301ab5effd0f5b4ae62a714",
+    "  ok   3/3 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpnetwk_exe_mui",
+   "module": "wmpnetwk.exe.mui",
+   "target": "wmp_recon_wmpnetwk_exe_mui",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 d8728825ec8dc4a3c42c1621da4b632167582512da73b391ca21f8b5026a7fd9",
+    "  ok   14/14 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpnscfg_exe_mui",
+   "module": "wmpnscfg.exe.mui",
+   "target": "wmp_recon_wmpnscfg_exe_mui",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 45bf774e8ba7f906c6556ab1e08fd7b69a5a4da6fc75f4ccc62ab167333ba11d",
+    "  ok   4/4 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpnssci_dll_mui",
+   "module": "wmpnssci.dll.mui",
+   "target": "wmp_recon_wmpnssci_dll_mui",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 2b59918607d8e28691e6d1f9ebf2e8d80b14ecd55925f7b87f069aa75c43fe54",
+    "  ok   6/6 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  },
+  {
+   "slug": "wmpnssui_dll_mui",
+   "module": "wmpnssui.dll.mui",
+   "target": "wmp_recon_wmpnssui_dll_mui",
+   "configured": true,
+   "compiled": true,
+   "ran": true,
+   "exit_code": 0,
+   "checks_failed": 0,
+   "output_tail": [
+    "  ok   image sha256 15d5f17f3d3f7a5de60e2c2e73bd39da274236c14da785ce20a5fefbf7240dfb",
+    "  ok   4/4 resource payload digests",
+    "  ok   0/0 recovered GUIDs located in the image",
+    "  RESULT PASS: 0 failed check(s)"
+   ]
+  }
+ ],
+ "unresolved_type_renderings": {},
+ "summary": {
+  "modules": 28,
+  "compiled": 28,
+  "ran": 28,
+  "all_checks_passed": 28
+ }
+}

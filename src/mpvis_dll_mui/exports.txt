@@ -1,0 +1,2 @@
+# Exported symbols — bin/pt-BR/mpvis.dll.mui (SHA-256 781a2dd1ca11e2654bec3d601a3b286dc289f13c8408f41126420ee6181de7c5)
+# (no exported symbols; this image is an executable or a resource-only module)

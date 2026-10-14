@@ -1,0 +1,75 @@
+# `bin/pt-BR/wmpnscfg.exe.mui` — module dossier
+
+> Assembled by `analysis/tools/module_report.py` from the PE inventory, resource
+> extraction, string scan, decompilation index and COM surface. Claims are tagged
+> **[verified]** (read directly from the artifact), **[inferred]** (a reading of the
+> evidence) or **[unresolved]** (unknown, with the remaining work stated).
+
+## 1. Identity **[verified]**
+
+* Path: `bin/pt-BR/wmpnscfg.exe.mui`; size 3,072 bytes.
+* SHA-256: `45bf774e8ba7f906c6556ab1e08fd7b69a5a4da6fc75f4ccc62ab167333ba11d`
+* Format: PE32+ (IMAGE_FILE_MACHINE_AMD64), subsystem `IMAGE_SUBSYSTEM_WINDOWS_GUI`, linker 9.0, image base `0x180000000`, entry point RVA `0x0`.
+* Built: 2010-11-20 11:17:48Z (PE TimeDateStamp 1290251868).
+* PDB: ; overlay: none; TLS: no; CLR: no.
+* DLL characteristics: ASLR, DEP.
+
+### Version resource **[verified]**
+
+* CompanyName: `Microsoft Corporation`
+* FileDescription: `Aplicativo de Configuração do Serviço de compartilhamento de rede do Windows Media Player`
+* FileVersion: `12.0.7601.17514 (win7sp1_rtm.101119-1850)`
+* ProductName: `Sistema Operacional Microsoft® Windows®`
+* ProductVersion: `12.0.7601.17514`
+* OriginalFilename: `WMPNSCFG.EXE.MUI`
+* LegalCopyright: `© Microsoft Corporation. Todos os direitos reservados.`
+
+## 2. Sections **[verified]**
+
+| Section | RVA | Virtual size | Raw size | Entropy | Flags |
+|---|---|---|---|---|---|
+| `.rsrc` | `0x1000` | 4,096 | 2,560 | 3.94 | CNT_INITIALIZED_DATA, MEM_READ |
+
+## 3. API surface **[verified]**
+
+* Imported DLLs: **0**; imported functions: **0**; delay-loaded DLLs: **0**; exported symbols: **0**.
+
+| Family | DLLs | Functions |
+|---|---|---|
+
+Full per-DLL function listing: [`imports.txt`](imports.txt); raw objdump symbol evidence: `analysis/report/rea-evidence/wmpnscfg_exe_mui/objdump-symbols.json`.
+
+## 4. Resources **[verified]**
+
+* Resource entries: **4** (raw directory walk; pefile cross-check agrees); message strings decoded: 0.
+* Types: MUI×1, RT_STRING×2, RT_VERSION×1.
+
+* `MUI` payload (1, pt-BR): language tag `pt-BR`, declares localised types [6, 16] — matches sibling `.mui` file: None.
+* `RT_STRING` 7 (pt-BR): 1 non-empty strings → `analysis/report/resources/wmpnscfg_exe_mui/RT_STRING/7_pt-BR.txt`.
+* `RT_STRING` 63 (pt-BR): 2 non-empty strings → `analysis/report/resources/wmpnscfg_exe_mui/RT_STRING/63_pt-BR.txt`.
+Per-entry detail: `analysis/report/resources/wmpnscfg_exe_mui/index.json`.
+
+## 5. String and identifier evidence **[verified]**
+
+* Literals: 4 ASCII, 32 UTF-16LE (35 unique).
+* GUIDs 0, URLs 0, UPnP URNs 0, registry paths 0, referenced modules 1.
+
+
+Curated extract: [`strings/highlights.md`](strings/highlights.md); full data: `analysis/report/data/strings/wmpnscfg_exe_mui.json`.
+
+## 6. Decompiled behaviour **[verified for the emitted functions]**
+
+* Tool: angr 9.2.213 (CFGFast + Decompiler), status `not recorded`.
+* CFG: 0 functions, 0 call edges, built in 0.06s; selection rule: n/a.
+* Emitted pseudocode: 0 functions (? decompiled successfully).
+
+Index: [`decompiled/index.md`](decompiled/index.md). Decompiler output is reconstructed pseudocode, **not** original source.
+
+> no functions recovered by CFGFast — image has no executable code section (resource-only module such as a .mui payload)
+
+## 8. Interpretation and open items
+
+* Role **[inferred]**: Aplicativo de Configuração do Serviço de compartilhamento de rede do Windows Media Player
+* [unresolved] decompilation status is `None` — the function index may be incomplete
+* [unresolved] `MUI` payload type-list not recovered (resource 1)
+

@@ -1,0 +1,2 @@
+# Exported symbols — bin/WMPDMC.exe (SHA-256 3f6564d520c416147702a463a50724fd36c46c3a44a8447af89788586fc5efee)
+# (no exported symbols; this image is an executable or a resource-only module)

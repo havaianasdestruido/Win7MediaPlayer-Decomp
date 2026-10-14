@@ -1,0 +1,435 @@
+{
+ "module": "wmplayer_exe_mui",
+ "artifact": "bin/pt-BR/wmplayer.exe.mui",
+ "counts": {
+  "ascii": 4,
+  "utf16": 34,
+  "unique": 38
+ },
+ "strings": [
+  {
+   "text": "!This program cannot be run in DOS mode.",
+   "offset": "0x4d",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "RichE",
+   "offset": "0xa0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".rsrc",
+   "offset": "0x1c0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX",
+   "offset": "0xba8",
+   "kind": "ascii",
+   "rva": "0x19a8",
+   "va": "0x1800019a8",
+   "tags": []
+  },
+  {
+   "text": "pt-BR",
+   "offset": "0x398",
+   "kind": "utf16",
+   "rva": "0x1198",
+   "va": "0x180001198",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "%1!.1023s!Windows Media Player n",
+   "offset": "0x3bc",
+   "kind": "utf16",
+   "rva": "0x11bc",
+   "va": "0x1800011bc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o est",
+   "offset": "0x3fe",
+   "kind": "utf16",
+   "rva": "0x11fe",
+   "va": "0x1800011fe",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " corretamente instalado e deve ser reinstalado.%n%nDeseja instalar o Player pelo site da Microsoft?",
+   "offset": "0x40a",
+   "kind": "utf16",
+   "rva": "0x120a",
+   "va": "0x18000120a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Para concluir a instala",
+   "offset": "0x4dc",
+   "kind": "utf16",
+   "rva": "0x12dc",
+   "va": "0x1800012dc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player, reinicie o computador e fa",
+   "offset": "0x50e",
+   "kind": "utf16",
+   "rva": "0x130e",
+   "va": "0x18000130e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "a logon como administrador ou como um membro do grupo Administradores.",
+   "offset": "0x57a",
+   "kind": "utf16",
+   "rva": "0x137a",
+   "va": "0x18000137a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O arquivo %1!.1023S! tem um n",
+   "offset": "0x610",
+   "kind": "utf16",
+   "rva": "0x1410",
+   "va": "0x180001410",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "mero de vers",
+   "offset": "0x64c",
+   "kind": "utf16",
+   "rva": "0x144c",
+   "va": "0x18000144c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o %2!d!.%3!d!.%4!d!.%5!d! onde %6!d!.%7!d!.%8!d!.%9!d! era esperado.%n",
+   "offset": "0x666",
+   "kind": "utf16",
+   "rva": "0x1466",
+   "va": "0x180001466",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Para usar o Windows Media Player, efetue logoff do Windows, fa",
+   "offset": "0x6fc",
+   "kind": "utf16",
+   "rva": "0x14fc",
+   "va": "0x1800014fc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "a logon novamente e inicie o Windows Media Player.%n",
+   "offset": "0x77a",
+   "kind": "utf16",
+   "rva": "0x157a",
+   "va": "0x18000157a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VS_VERSION_INFO",
+   "offset": "0x7ee",
+   "kind": "utf16",
+   "rva": "0x15ee",
+   "va": "0x1800015ee",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "StringFileInfo",
+   "offset": "0x84a",
+   "kind": "utf16",
+   "rva": "0x164a",
+   "va": "0x18000164a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "041604B0",
+   "offset": "0x86e",
+   "kind": "utf16",
+   "rva": "0x166e",
+   "va": "0x18000166e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CompanyName",
+   "offset": "0x886",
+   "kind": "utf16",
+   "rva": "0x1686",
+   "va": "0x180001686",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft Corporation",
+   "offset": "0x8a0",
+   "kind": "utf16",
+   "rva": "0x16a0",
+   "va": "0x1800016a0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileDescription",
+   "offset": "0x8d2",
+   "kind": "utf16",
+   "rva": "0x16d2",
+   "va": "0x1800016d2",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Windows Media Player",
+   "offset": "0x8f4",
+   "kind": "utf16",
+   "rva": "0x16f4",
+   "va": "0x1800016f4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileVersion",
+   "offset": "0x926",
+   "kind": "utf16",
+   "rva": "0x1726",
+   "va": "0x180001726",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7601.23517 (win7sp1_ldr.160812-0732)",
+   "offset": "0x940",
+   "kind": "utf16",
+   "rva": "0x1740",
+   "va": "0x180001740",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InternalName",
+   "offset": "0x99a",
+   "kind": "utf16",
+   "rva": "0x179a",
+   "va": "0x18000179a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "wmplayer.exe",
+   "offset": "0x9b4",
+   "kind": "utf16",
+   "rva": "0x17b4",
+   "va": "0x1800017b4",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LegalCopyright",
+   "offset": "0x9d6",
+   "kind": "utf16",
+   "rva": "0x17d6",
+   "va": "0x1800017d6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Microsoft Corporation.  Todos os direitos reservados.",
+   "offset": "0x9f6",
+   "kind": "utf16",
+   "rva": "0x17f6",
+   "va": "0x1800017f6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "OriginalFilename",
+   "offset": "0xa6a",
+   "kind": "utf16",
+   "rva": "0x186a",
+   "va": "0x18000186a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "wmplayer.exe.mui",
+   "offset": "0xa8c",
+   "kind": "utf16",
+   "rva": "0x188c",
+   "va": "0x18000188c",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductName",
+   "offset": "0xab6",
+   "kind": "utf16",
+   "rva": "0x18b6",
+   "va": "0x1800018b6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sistema Operacional Microsoft",
+   "offset": "0xad0",
+   "kind": "utf16",
+   "rva": "0x18d0",
+   "va": "0x1800018d0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Windows",
+   "offset": "0xb0c",
+   "kind": "utf16",
+   "rva": "0x190c",
+   "va": "0x18000190c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductVersion",
+   "offset": "0xb26",
+   "kind": "utf16",
+   "rva": "0x1926",
+   "va": "0x180001926",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7601.23517",
+   "offset": "0xb44",
+   "kind": "utf16",
+   "rva": "0x1944",
+   "va": "0x180001944",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VarFileInfo",
+   "offset": "0xb6a",
+   "kind": "utf16",
+   "rva": "0x196a",
+   "va": "0x18000196a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Translation",
+   "offset": "0xb8a",
+   "kind": "utf16",
+   "rva": "0x198a",
+   "va": "0x18000198a",
+   "tags": [
+    "utf16le"
+   ]
+  }
+ ],
+ "by_tag": {
+  "api-name": [
+   "CompanyName",
+   "FileDescription",
+   "FileVersion"
+  ],
+  "module-name": [
+   "wmplayer.exe",
+   "wmplayer.exe.mui"
+  ],
+  "utf16le": [
+   " Microsoft Corporation.  Todos os direitos reservados.",
+   " Windows",
+   " corretamente instalado e deve ser reinstalado.%n%nDeseja instalar o Player pelo site da Microsoft?",
+   "%1!.1023s!Windows Media Player n",
+   "041604B0",
+   "12.0.7601.23517",
+   "12.0.7601.23517 (win7sp1_ldr.160812-0732)",
+   "CompanyName",
+   "FileDescription",
+   "FileVersion",
+   "InternalName",
+   "LegalCopyright",
+   "Microsoft Corporation",
+   "O arquivo %1!.1023S! tem um n",
+   "OriginalFilename",
+   "Para concluir a instala",
+   "Para usar o Windows Media Player, efetue logoff do Windows, fa",
+   "ProductName",
+   "ProductVersion",
+   "Sistema Operacional Microsoft",
+   "StringFileInfo",
+   "Translation",
+   "VS_VERSION_INFO",
+   "VarFileInfo",
+   "Windows Media Player",
+   "a logon como administrador ou como um membro do grupo Administradores.",
+   "a logon novamente e inicie o Windows Media Player.%n",
+   "mero de vers",
+   "o %2!d!.%3!d!.%4!d!.%5!d! onde %6!d!.%7!d!.%8!d!.%9!d! era esperado.%n",
+   "o do Windows Media Player, reinicie o computador e fa",
+   "o est",
+   "pt-BR",
+   "wmplayer.exe",
+   "wmplayer.exe.mui"
+  ]
+ }
+}

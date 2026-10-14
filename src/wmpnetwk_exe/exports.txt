@@ -1,0 +1,2 @@
+# Exported symbols — bin/wmpnetwk.exe (SHA-256 306467d280e99d0616e839278a4db5bed684f002ae284c3678cabb5251459cb3)
+# (no exported symbols; this image is an executable or a resource-only module)

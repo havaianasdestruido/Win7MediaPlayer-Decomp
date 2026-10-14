@@ -1,0 +1,2 @@
+# Exported symbols — bin/pt-BR/wmpnssui.dll.mui (SHA-256 15d5f17f3d3f7a5de60e2c2e73bd39da274236c14da785ce20a5fefbf7240dfb)
+# (no exported symbols; this image is an executable or a resource-only module)

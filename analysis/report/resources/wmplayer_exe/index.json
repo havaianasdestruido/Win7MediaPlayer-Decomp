@@ -1,0 +1,1135 @@
+{
+ "module": "wmplayer_exe",
+ "artifact": "bin/wmplayer.exe",
+ "sha256": "883d9616dfc7586fa88c58013f70e055df9328f3cfc3ef39898c15c6970fb0db",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 24576,
+  "size": 153776,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "RT_GROUP_ICON": 2,
+  "RT_ICON": 29,
+  "RT_MANIFEST": 1,
+  "RT_VERSION": 1
+ },
+ "pefile_walk_count": 34,
+ "walker_cross_check": {
+  "raw_walker": 34,
+  "pefile_walker": 34,
+  "agree": true
+ },
+ "messages_total": 0,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x33a8",
+   "data_entry_offset": "0x36c8",
+   "depth": 3,
+   "data_rva": 178136,
+   "size": 216,
+   "sha256": "e9c151e4dc0d3c4a260b439dac5c4c810f4faa95a2aec8137496fa64cd4e0a1c",
+   "bytes_read": 216,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "language_tag": "en-US",
+    "localized_type_ids": [
+     3,
+     11,
+     14,
+     16
+    ],
+    "localized_type_names": [
+     "RT_ICON",
+     "RT_MESSAGETABLE",
+     "RT_GROUP_ICON",
+     "RT_VERSION"
+    ],
+    "matches_sibling": false,
+    "matches_same_artifact": false
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/MUI/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x33c0",
+   "data_entry_offset": "0x36d8",
+   "depth": 3,
+   "data_rva": 26384,
+   "size": 2664,
+   "sha256": "1d355e41847f582d6c0f56b63ae6e3bc0dcfc366d0cd0fd286df57ee9aa3afcb",
+   "bytes_read": 2664,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2664,
+    "sha256": "1d355e41847f582d6c0f56b63ae6e3bc0dcfc366d0cd0fd286df57ee9aa3afcb"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/1_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x33d8",
+   "data_entry_offset": "0x36e8",
+   "depth": 3,
+   "data_rva": 29048,
+   "size": 1640,
+   "sha256": "a63d81f9259052f82858b117aa71cb83229819bc7cf4a051e5edfb933c027c53",
+   "bytes_read": 1640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "2",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1640,
+    "sha256": "a63d81f9259052f82858b117aa71cb83229819bc7cf4a051e5edfb933c027c53"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/2_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x33f0",
+   "data_entry_offset": "0x36f8",
+   "depth": 3,
+   "data_rva": 30688,
+   "size": 744,
+   "sha256": "7ca0c68f6f17686e4f95e4cf9ef0d48cb5a58216092b055411862a4d86b269d1",
+   "bytes_read": 744,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "3",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 744,
+    "sha256": "7ca0c68f6f17686e4f95e4cf9ef0d48cb5a58216092b055411862a4d86b269d1"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/3_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 4
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3408",
+   "data_entry_offset": "0x3708",
+   "depth": 3,
+   "data_rva": 31432,
+   "size": 488,
+   "sha256": "7ebd7657097aab19be057d565285baf3c7cf16fb50798fea8b53486d11b1d4e0",
+   "bytes_read": 488,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "4",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 488,
+    "sha256": "7ebd7657097aab19be057d565285baf3c7cf16fb50798fea8b53486d11b1d4e0"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/4_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 5
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3420",
+   "data_entry_offset": "0x3718",
+   "depth": 3,
+   "data_rva": 31920,
+   "size": 296,
+   "sha256": "4e8d49bc26d114a9a98071bdcd794a50c01c0b207cb8dfbb91deebe91741d441",
+   "bytes_read": 296,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "5",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 296,
+    "sha256": "4e8d49bc26d114a9a98071bdcd794a50c01c0b207cb8dfbb91deebe91741d441"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/5_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3438",
+   "data_entry_offset": "0x3728",
+   "depth": 3,
+   "data_rva": 32216,
+   "size": 5672,
+   "sha256": "310bdbb20cfd30fe15b19944135886fb6728e2e34c537a23079fec6c71db39d5",
+   "bytes_read": 5672,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "6",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 5672,
+    "sha256": "310bdbb20cfd30fe15b19944135886fb6728e2e34c537a23079fec6c71db39d5"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/6_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 7
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3450",
+   "data_entry_offset": "0x3738",
+   "depth": 3,
+   "data_rva": 37888,
+   "size": 3752,
+   "sha256": "b2f57ea269c49681b070ab450a9310811f6f28be5fcb082595c0f7f0b16aa836",
+   "bytes_read": 3752,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "7",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 3752,
+    "sha256": "b2f57ea269c49681b070ab450a9310811f6f28be5fcb082595c0f7f0b16aa836"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/7_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 8
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3468",
+   "data_entry_offset": "0x3748",
+   "depth": 3,
+   "data_rva": 41640,
+   "size": 2216,
+   "sha256": "a127846549f4ade08f34d8de9bce020c33cbe90264739e4e68ac74239dd59fe7",
+   "bytes_read": 2216,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "8",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2216,
+    "sha256": "a127846549f4ade08f34d8de9bce020c33cbe90264739e4e68ac74239dd59fe7"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/8_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 9
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3480",
+   "data_entry_offset": "0x3758",
+   "depth": 3,
+   "data_rva": 43856,
+   "size": 1736,
+   "sha256": "ae59ea75b688f818bb3138e7aca4683acc679b71d22118c344fab28f48ba4815",
+   "bytes_read": 1736,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "9",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1736,
+    "sha256": "ae59ea75b688f818bb3138e7aca4683acc679b71d22118c344fab28f48ba4815"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/9_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3498",
+   "data_entry_offset": "0x3768",
+   "depth": 3,
+   "data_rva": 45592,
+   "size": 1384,
+   "sha256": "07788e45cc9156afbc5f501e44d8f27c873c6cda5f75af6e40deae60e876b943",
+   "bytes_read": 1384,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "10",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1384,
+    "sha256": "07788e45cc9156afbc5f501e44d8f27c873c6cda5f75af6e40deae60e876b943"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/10_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 11
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x34b0",
+   "data_entry_offset": "0x3778",
+   "depth": 3,
+   "data_rva": 46976,
+   "size": 36799,
+   "sha256": "396d5a0eea5e0fda8bc47558d1f8a8d3960c03a861fceaa398ba494c48762417",
+   "bytes_read": 36799,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "11",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 36799,
+    "sha256": "396d5a0eea5e0fda8bc47558d1f8a8d3960c03a861fceaa398ba494c48762417"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/11_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 12
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x34c8",
+   "data_entry_offset": "0x3788",
+   "depth": 3,
+   "data_rva": 83776,
+   "size": 16936,
+   "sha256": "da5372e7173ac7ed0c3b75c6b950fc5d824999823c1d4bcff61c3b8a84a04adf",
+   "bytes_read": 16936,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "12",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 16936,
+    "sha256": "da5372e7173ac7ed0c3b75c6b950fc5d824999823c1d4bcff61c3b8a84a04adf"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/12_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 13
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x34e0",
+   "data_entry_offset": "0x3798",
+   "depth": 3,
+   "data_rva": 100712,
+   "size": 9640,
+   "sha256": "ae168d2f48c1335ce1bb5f04f0b0b9f8bd7e16a1704c35ebe0a73de2baae5016",
+   "bytes_read": 9640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "13",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 9640,
+    "sha256": "ae168d2f48c1335ce1bb5f04f0b0b9f8bd7e16a1704c35ebe0a73de2baae5016"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/13_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x34f8",
+   "data_entry_offset": "0x37a8",
+   "depth": 3,
+   "data_rva": 110352,
+   "size": 4264,
+   "sha256": "83d7b203761cb3c7653c34e0c44cbd55cdc8d139fbde824fac68fd1f2f2923cf",
+   "bytes_read": 4264,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "14",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 4264,
+    "sha256": "83d7b203761cb3c7653c34e0c44cbd55cdc8d139fbde824fac68fd1f2f2923cf"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/14_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 15
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3510",
+   "data_entry_offset": "0x37b8",
+   "depth": 3,
+   "data_rva": 114616,
+   "size": 2440,
+   "sha256": "e33a93074e9b2d5340380af52d18787c01cd018acbdd22f26185c77e32c86a60",
+   "bytes_read": 2440,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "15",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2440,
+    "sha256": "e33a93074e9b2d5340380af52d18787c01cd018acbdd22f26185c77e32c86a60"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/15_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3528",
+   "data_entry_offset": "0x37c8",
+   "depth": 3,
+   "data_rva": 117056,
+   "size": 1128,
+   "sha256": "f3845de9360a025e12dacf3847593a30a16752cf3c573d6086761c8ba05b7d89",
+   "bytes_read": 1128,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "16",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1128,
+    "sha256": "f3845de9360a025e12dacf3847593a30a16752cf3c573d6086761c8ba05b7d89"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/16_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 17
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3540",
+   "data_entry_offset": "0x37d8",
+   "depth": 3,
+   "data_rva": 118416,
+   "size": 296,
+   "sha256": "cab229a7a07c177a832b7dc9ceae9fd40c4855ee7c94abb32cbecf3ad523c7f9",
+   "bytes_read": 296,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "17",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 296,
+    "sha256": "cab229a7a07c177a832b7dc9ceae9fd40c4855ee7c94abb32cbecf3ad523c7f9"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/17_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 18
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3558",
+   "data_entry_offset": "0x37e8",
+   "depth": 3,
+   "data_rva": 118712,
+   "size": 1384,
+   "sha256": "987fda04835bb529d2c7a34d0e7130beb7f90b98d60e011623065bd11843b2f9",
+   "bytes_read": 1384,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "18",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1384,
+    "sha256": "987fda04835bb529d2c7a34d0e7130beb7f90b98d60e011623065bd11843b2f9"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/18_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 19
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3570",
+   "data_entry_offset": "0x37f8",
+   "depth": 3,
+   "data_rva": 120096,
+   "size": 488,
+   "sha256": "dee7943afde52a441f3a417914969a9ab8b2ca5f65593036a7a7988e4632444e",
+   "bytes_read": 488,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "19",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 488,
+    "sha256": "dee7943afde52a441f3a417914969a9ab8b2ca5f65593036a7a7988e4632444e"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/19_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 20
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3588",
+   "data_entry_offset": "0x3808",
+   "depth": 3,
+   "data_rva": 120584,
+   "size": 1736,
+   "sha256": "845dda43992e47ede4e5ed0e6ff5469951cd69d34586e5b32d3119ff540469b9",
+   "bytes_read": 1736,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "20",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1736,
+    "sha256": "845dda43992e47ede4e5ed0e6ff5469951cd69d34586e5b32d3119ff540469b9"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/20_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 21
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x35a0",
+   "data_entry_offset": "0x3818",
+   "depth": 3,
+   "data_rva": 122320,
+   "size": 744,
+   "sha256": "dfc1c6ed954b5adaaa5fd6e0fbc7026cffebc68086105d5c9017573b8c3d46ec",
+   "bytes_read": 744,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "21",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 744,
+    "sha256": "dfc1c6ed954b5adaaa5fd6e0fbc7026cffebc68086105d5c9017573b8c3d46ec"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/21_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 22
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x35b8",
+   "data_entry_offset": "0x3828",
+   "depth": 3,
+   "data_rva": 123064,
+   "size": 2216,
+   "sha256": "d91e004d31271666b172a76dff93016452d82dc9fab7b7b8f5ba5c6105a15f45",
+   "bytes_read": 2216,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "22",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2216,
+    "sha256": "d91e004d31271666b172a76dff93016452d82dc9fab7b7b8f5ba5c6105a15f45"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/22_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 23
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x35d0",
+   "data_entry_offset": "0x3838",
+   "depth": 3,
+   "data_rva": 125280,
+   "size": 1640,
+   "sha256": "a5f543a6841a1780a228117d22c43b21007fd2a9bf030276685497b094ba3eab",
+   "bytes_read": 1640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "23",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1640,
+    "sha256": "a5f543a6841a1780a228117d22c43b21007fd2a9bf030276685497b094ba3eab"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/23_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 24
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x35e8",
+   "data_entry_offset": "0x3848",
+   "depth": 3,
+   "data_rva": 126920,
+   "size": 3752,
+   "sha256": "08556094eac00a4cdfe4b257876b9e6b376ae28b5a10af084d8f408969c4eeb4",
+   "bytes_read": 3752,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "24",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 3752,
+    "sha256": "08556094eac00a4cdfe4b257876b9e6b376ae28b5a10af084d8f408969c4eeb4"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/24_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 25
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3600",
+   "data_entry_offset": "0x3858",
+   "depth": 3,
+   "data_rva": 130672,
+   "size": 1128,
+   "sha256": "4797a960eb855413a49dbae0b60dd2a799b02b33c3cc0a6e0a0fa491b436e772",
+   "bytes_read": 1128,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "25",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1128,
+    "sha256": "4797a960eb855413a49dbae0b60dd2a799b02b33c3cc0a6e0a0fa491b436e772"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/25_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 26
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3618",
+   "data_entry_offset": "0x3868",
+   "depth": 3,
+   "data_rva": 131800,
+   "size": 2440,
+   "sha256": "0c01273f550daa1ad9838b8cad0cb1811537943bbac74b1eba135fa42003af98",
+   "bytes_read": 2440,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "26",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2440,
+    "sha256": "0c01273f550daa1ad9838b8cad0cb1811537943bbac74b1eba135fa42003af98"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/26_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 27
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3630",
+   "data_entry_offset": "0x3878",
+   "depth": 3,
+   "data_rva": 134240,
+   "size": 4264,
+   "sha256": "604e291a6dda3256fd1baf735542ca3b77a301da157ac6c193d7326f2924dd8f",
+   "bytes_read": 4264,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "27",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 4264,
+    "sha256": "604e291a6dda3256fd1baf735542ca3b77a301da157ac6c193d7326f2924dd8f"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/27_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 28
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3648",
+   "data_entry_offset": "0x3888",
+   "depth": 3,
+   "data_rva": 138504,
+   "size": 9640,
+   "sha256": "f4d0bbc61883e4cba11e29483229612fec0a1f6baa028d53ecd38894d5b59561",
+   "bytes_read": 9640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "28",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 9640,
+    "sha256": "f4d0bbc61883e4cba11e29483229612fec0a1f6baa028d53ecd38894d5b59561"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/28_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 29
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3660",
+   "data_entry_offset": "0x3898",
+   "depth": 3,
+   "data_rva": 148144,
+   "size": 27642,
+   "sha256": "1ff0982b45d0f2f0a015640dbd5082fb7557666639b12dddcc65818e1ac1598e",
+   "bytes_read": 27642,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "29",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 27642,
+    "sha256": "1ff0982b45d0f2f0a015640dbd5082fb7557666639b12dddcc65818e1ac1598e"
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_ICON/raw/29_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "name",
+     "name": "IDR_MAINFRAME"
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3678",
+   "data_entry_offset": "0x38a8",
+   "depth": 3,
+   "data_rva": 118184,
+   "size": 230,
+   "sha256": "9fe75ad2756a7c1b813ed61cb27cf4450f1d0aa33f44690d958dc7fadddbdbfd",
+   "bytes_read": 230,
+   "truncated": false,
+   "type": "RT_GROUP_ICON",
+   "name": "IDR_MAINFRAME",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_GROUP_ICON/IDR_MAINFRAME_en-US.ico",
+   "decoded": {
+    "ico_bytes": 92061
+   }
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 120
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3690",
+   "data_entry_offset": "0x38b8",
+   "depth": 3,
+   "data_rva": 175792,
+   "size": 188,
+   "sha256": "eea3b836be5263a09c21c6b7fab7cefb3855525971090817b0115d814c6bc4dd",
+   "bytes_read": 188,
+   "truncated": false,
+   "type": "RT_GROUP_ICON",
+   "name": "120",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_GROUP_ICON/120_en-US.ico",
+   "decoded": {
+    "ico_bytes": 57584
+   }
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x36a8",
+   "data_entry_offset": "0x38c8",
+   "depth": 3,
+   "data_rva": 177208,
+   "size": 928,
+   "sha256": "740acfb09ae15c6fbc8e7211436ce30936ee50668cb442067b9752c30ee1c0e5",
+   "bytes_read": 928,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Windows Media Player",
+    "FileVersion": "12.0.7601.24499 (win7sp1_ldr.190612-0600)",
+    "InternalName": "wmplayer.exe",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. All rights reserved.",
+    "OriginalFilename": "wmplayer.exe",
+    "ProductName": "Microsoft\u00c2\u00ae Windows\u00c2\u00ae Operating System",
+    "ProductVersion": "12.0.7601.24499",
+    "StringFileInfo_utf8": {
+     "LegalCopyright": "\u00a9 Microsoft Corporation. All rights reserved.",
+     "ProductName": "Microsoft\u00ae Windows\u00ae Operating System"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_VERSION/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 24
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x36c0",
+   "data_entry_offset": "0x38d8",
+   "depth": 3,
+   "data_rva": 175984,
+   "size": 1222,
+   "sha256": "c9ca9efa8bb29699c51d93a364c1c30dd62e80953a7e23c2eea69b20c2a74035",
+   "bytes_read": 1222,
+   "truncated": false,
+   "type": "RT_MANIFEST",
+   "name": "1",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmplayer_exe/RT_MANIFEST/raw/1_en-US.bin"
+  }
+ ]
+}

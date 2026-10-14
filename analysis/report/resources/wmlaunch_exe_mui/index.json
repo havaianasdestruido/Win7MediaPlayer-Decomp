@@ -1,0 +1,104 @@
+{
+ "module": "wmlaunch_exe_mui",
+ "artifact": "bin/pt-BR/wmlaunch.exe.mui",
+ "sha256": "bdc4a23d97dafb70a4d6fe38e834cfcf0b241456982cb87cf076e7c217553bd1",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 4096,
+  "size": 1324,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "RT_VERSION": 1
+ },
+ "pefile_walk_count": 2,
+ "walker_cross_check": {
+  "raw_walker": 2,
+  "pefile_walker": 2,
+  "agree": true
+ },
+ "messages_total": 0,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x260",
+   "data_entry_offset": "0x280",
+   "depth": 3,
+   "data_rva": 4264,
+   "size": 176,
+   "sha256": "f74a64bcc0f2f90086583a9622fdd61eea55161d83ec0a283302fea7c725cc42",
+   "bytes_read": 176,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "language_tag": "pt-BR",
+    "localized_type_ids": [],
+    "localized_type_names": [],
+    "matches_sibling": null,
+    "matches_same_artifact": null
+   },
+   "extracted": "analysis/report/resources/wmlaunch_exe_mui/MUI/1_pt-BR.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x278",
+   "data_entry_offset": "0x290",
+   "depth": 3,
+   "data_rva": 4440,
+   "size": 980,
+   "sha256": "2fe3112d88e742bffbf62acc9cd1447096a60e9bd99201bad24b1a378fae1770",
+   "bytes_read": 980,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Iniciador do Windows Media Player",
+    "FileVersion": "12.0.7600.16385 (win7_rtm.090713-1255)",
+    "InternalName": "wmlaunch.exe",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+    "OriginalFilename": "wmlaunch.exe.mui",
+    "ProductName": "Sistema Operacional Microsoft\u00c2\u00ae Windows\u00c2\u00ae",
+    "ProductVersion": "12.0.7600.16385",
+    "StringFileInfo_utf8": {
+     "LegalCopyright": "\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+     "ProductName": "Sistema Operacional Microsoft\u00ae Windows\u00ae"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmlaunch_exe_mui/RT_VERSION/1_pt-BR.json"
+  }
+ ]
+}

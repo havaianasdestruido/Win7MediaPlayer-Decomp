@@ -1,0 +1,476 @@
+{
+ "module": "mpvis_dll_mui",
+ "artifact": "bin/pt-BR/mpvis.dll.mui",
+ "counts": {
+  "ascii": 5,
+  "utf16": 37,
+  "unique": 42
+ },
+ "strings": [
+  {
+   "text": "!This program cannot be run in DOS mode.",
+   "offset": "0x4d",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "RichE",
+   "offset": "0xa0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".rsrc",
+   "offset": "0x1c0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "J:f\\",
+   "offset": "0x34e",
+   "kind": "ascii",
+   "rva": "0x114e",
+   "va": "0x18000114e",
+   "tags": []
+  },
+  {
+   "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDING",
+   "offset": "0x930",
+   "kind": "ascii",
+   "rva": "0x1730",
+   "va": "0x180001730",
+   "tags": []
+  },
+  {
+   "text": "pt-BR",
+   "offset": "0x3c0",
+   "kind": "utf16",
+   "rva": "0x11c0",
+   "va": "0x1800011c0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Alquimia",
+   "offset": "0x3da",
+   "kind": "utf16",
+   "rva": "0x11da",
+   "va": "0x1800011da",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Desfoque",
+   "offset": "0x3ec",
+   "kind": "utf16",
+   "rva": "0x11ec",
+   "va": "0x1800011ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "SwitchBlur",
+   "offset": "0x3fe",
+   "kind": "utf16",
+   "rva": "0x11fe",
+   "va": "0x1800011fe",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Deslocamento",
+   "offset": "0x414",
+   "kind": "utf16",
+   "rva": "0x1214",
+   "va": "0x180001214",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ciclo de Processamento Padr",
+   "offset": "0x42e",
+   "kind": "utf16",
+   "rva": "0x122e",
+   "va": "0x18000122e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Deslocamento Linear",
+   "offset": "0x46a",
+   "kind": "utf16",
+   "rva": "0x126a",
+   "va": "0x18000126a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Deslocamento Alongado",
+   "offset": "0x492",
+   "kind": "utf16",
+   "rva": "0x1292",
+   "va": "0x180001292",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "SuperStar",
+   "offset": "0x4be",
+   "kind": "utf16",
+   "rva": "0x12be",
+   "va": "0x1800012be",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WonderWave",
+   "offset": "0x4d2",
+   "kind": "utf16",
+   "rva": "0x12d2",
+   "va": "0x1800012d2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Shift O' Scope",
+   "offset": "0x4e8",
+   "kind": "utf16",
+   "rva": "0x12e8",
+   "va": "0x1800012e8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Funktional",
+   "offset": "0x506",
+   "kind": "utf16",
+   "rva": "0x1306",
+   "va": "0x180001306",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Bass Bounce",
+   "offset": "0x524",
+   "kind": "utf16",
+   "rva": "0x1324",
+   "va": "0x180001324",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Aleat",
+   "offset": "0x53e",
+   "kind": "utf16",
+   "rva": "0x133e",
+   "va": "0x18000133e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VS_VERSION_INFO",
+   "offset": "0x56a",
+   "kind": "utf16",
+   "rva": "0x136a",
+   "va": "0x18000136a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "StringFileInfo",
+   "offset": "0x5c6",
+   "kind": "utf16",
+   "rva": "0x13c6",
+   "va": "0x1800013c6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "041604B0",
+   "offset": "0x5ea",
+   "kind": "utf16",
+   "rva": "0x13ea",
+   "va": "0x1800013ea",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CompanyName",
+   "offset": "0x602",
+   "kind": "utf16",
+   "rva": "0x1402",
+   "va": "0x180001402",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft Corporation",
+   "offset": "0x61c",
+   "kind": "utf16",
+   "rva": "0x141c",
+   "va": "0x18000141c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileDescription",
+   "offset": "0x64e",
+   "kind": "utf16",
+   "rva": "0x144e",
+   "va": "0x18000144e",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Visualiza",
+   "offset": "0x670",
+   "kind": "utf16",
+   "rva": "0x1470",
+   "va": "0x180001470",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player",
+   "offset": "0x686",
+   "kind": "utf16",
+   "rva": "0x1486",
+   "va": "0x180001486",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileVersion",
+   "offset": "0x6c2",
+   "kind": "utf16",
+   "rva": "0x14c2",
+   "va": "0x1800014c2",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "offset": "0x6dc",
+   "kind": "utf16",
+   "rva": "0x14dc",
+   "va": "0x1800014dc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InternalName",
+   "offset": "0x732",
+   "kind": "utf16",
+   "rva": "0x1532",
+   "va": "0x180001532",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "mpvis.dll",
+   "offset": "0x74c",
+   "kind": "utf16",
+   "rva": "0x154c",
+   "va": "0x18000154c",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LegalCopyright",
+   "offset": "0x766",
+   "kind": "utf16",
+   "rva": "0x1566",
+   "va": "0x180001566",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Microsoft Corporation. Todos os direitos reservados.",
+   "offset": "0x786",
+   "kind": "utf16",
+   "rva": "0x1586",
+   "va": "0x180001586",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "OriginalFilename",
+   "offset": "0x7fa",
+   "kind": "utf16",
+   "rva": "0x15fa",
+   "va": "0x1800015fa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "mpvis.dll.mui",
+   "offset": "0x81c",
+   "kind": "utf16",
+   "rva": "0x161c",
+   "va": "0x18000161c",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductName",
+   "offset": "0x83e",
+   "kind": "utf16",
+   "rva": "0x163e",
+   "va": "0x18000163e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sistema Operacional Microsoft",
+   "offset": "0x858",
+   "kind": "utf16",
+   "rva": "0x1658",
+   "va": "0x180001658",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Windows",
+   "offset": "0x894",
+   "kind": "utf16",
+   "rva": "0x1694",
+   "va": "0x180001694",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductVersion",
+   "offset": "0x8ae",
+   "kind": "utf16",
+   "rva": "0x16ae",
+   "va": "0x1800016ae",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385",
+   "offset": "0x8cc",
+   "kind": "utf16",
+   "rva": "0x16cc",
+   "va": "0x1800016cc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VarFileInfo",
+   "offset": "0x8f2",
+   "kind": "utf16",
+   "rva": "0x16f2",
+   "va": "0x1800016f2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Translation",
+   "offset": "0x912",
+   "kind": "utf16",
+   "rva": "0x1712",
+   "va": "0x180001712",
+   "tags": [
+    "utf16le"
+   ]
+  }
+ ],
+ "by_tag": {
+  "api-name": [
+   "CompanyName",
+   "FileDescription",
+   "FileVersion"
+  ],
+  "module-name": [
+   "mpvis.dll",
+   "mpvis.dll.mui"
+  ],
+  "utf16le": [
+   " Microsoft Corporation. Todos os direitos reservados.",
+   " Windows",
+   "041604B0",
+   "12.0.7600.16385",
+   "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "Aleat",
+   "Alquimia",
+   "Bass Bounce",
+   "Ciclo de Processamento Padr",
+   "CompanyName",
+   "Desfoque",
+   "Deslocamento",
+   "Deslocamento Alongado",
+   "Deslocamento Linear",
+   "FileDescription",
+   "FileVersion",
+   "Funktional",
+   "InternalName",
+   "LegalCopyright",
+   "Microsoft Corporation",
+   "OriginalFilename",
+   "ProductName",
+   "ProductVersion",
+   "Shift O' Scope",
+   "Sistema Operacional Microsoft",
+   "StringFileInfo",
+   "SuperStar",
+   "SwitchBlur",
+   "Translation",
+   "VS_VERSION_INFO",
+   "VarFileInfo",
+   "Visualiza",
+   "WonderWave",
+   "mpvis.dll",
+   "mpvis.dll.mui",
+   "o do Windows Media Player",
+   "pt-BR"
+  ]
+ }
+}

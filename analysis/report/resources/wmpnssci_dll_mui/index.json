@@ -1,0 +1,235 @@
+{
+ "module": "wmpnssci_dll_mui",
+ "artifact": "bin/pt-BR/wmpnssci.dll.mui",
+ "sha256": "2b59918607d8e28691e6d1f9ebf2e8d80b14ecd55925f7b87f069aa75c43fe54",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 4096,
+  "size": 3400,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "RT_DIALOG": 1,
+  "RT_STRING": 3,
+  "RT_VERSION": 1
+ },
+ "pefile_walk_count": 6,
+ "walker_cross_check": {
+  "raw_walker": 6,
+  "pefile_walker": 6,
+  "agree": true
+ },
+ "messages_total": 0,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2b0",
+   "data_entry_offset": "0x330",
+   "depth": 3,
+   "data_rva": 4504,
+   "size": 184,
+   "sha256": "d9ff35c10d812a131d5ab5c9bbbfc58f61d35d214b126427b8d879fb209f1175",
+   "bytes_read": 184,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "language_tag": "pt-BR",
+    "localized_type_ids": [],
+    "localized_type_names": [],
+    "matches_sibling": null,
+    "matches_same_artifact": null
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll_mui/MUI/1_pt-BR.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 5
+    },
+    {
+     "kind": "id",
+     "id": 1000
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2c8",
+   "data_entry_offset": "0x340",
+   "depth": 3,
+   "data_rva": 4688,
+   "size": 1232,
+   "sha256": "dc74771d36adc5d0c3c53365a8d93e2f45603f6e0318f2e72c51beb44466c007",
+   "bytes_read": 1232,
+   "truncated": false,
+   "type": "RT_DIALOG",
+   "name": "1000",
+   "language": "pt-BR",
+   "decoded": {
+    "template": "DLGTEMPLATEEX",
+    "title": null,
+    "items": 24,
+    "cx": 278,
+    "cy": 249
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll_mui/RT_DIALOG/1000_pt-BR.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 13
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2e0",
+   "data_entry_offset": "0x350",
+   "depth": 3,
+   "data_rva": 5920,
+   "size": 90,
+   "sha256": "41492083a01d096c49dae7c1f62acda9f4450c5bc7788359cdbdedd1495b07a9",
+   "bytes_read": 90,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "13",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 1
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll_mui/RT_STRING/13_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 44
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2f8",
+   "data_entry_offset": "0x360",
+   "depth": 3,
+   "data_rva": 6012,
+   "size": 178,
+   "sha256": "1778aa6ed5f62de9066780eedfe8069b47136613340c7f7d50939dd47c7e3f5d",
+   "bytes_read": 178,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "44",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 3
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll_mui/RT_STRING/44_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 45
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x310",
+   "data_entry_offset": "0x370",
+   "depth": 3,
+   "data_rva": 6192,
+   "size": 236,
+   "sha256": "44777bcb5052780825a85cd5ae41d9f93dcd3495d21acf81dddb792a0ccd125a",
+   "bytes_read": 236,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "45",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 3
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll_mui/RT_STRING/45_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x328",
+   "data_entry_offset": "0x380",
+   "depth": 3,
+   "data_rva": 6428,
+   "size": 1068,
+   "sha256": "9dcda986a351d9526c44d3980966cc10606a32feaba146ab94993f01454c0b0f",
+   "bytes_read": 1068,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "DLL de Interface de Controle de Servi\u00c3\u00a7o de Compartilhamento de Rede do Windows Media Player",
+    "FileVersion": "12.0.7600.16385 (win7_rtm.090713-1255)",
+    "InternalName": "",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+    "OriginalFilename": "WMPNSSCI.DLL.MUI",
+    "ProductName": "Sistema Operacional Microsoft\u00c2\u00ae Windows\u00c2\u00ae",
+    "ProductVersion": "12.0.7600.16385",
+    "StringFileInfo_utf8": {
+     "FileDescription": "DLL de Interface de Controle de Servi\u00e7o de Compartilhamento de Rede do Windows Media Player",
+     "LegalCopyright": "\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+     "ProductName": "Sistema Operacional Microsoft\u00ae Windows\u00ae"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll_mui/RT_VERSION/1_pt-BR.json"
+  }
+ ]
+}

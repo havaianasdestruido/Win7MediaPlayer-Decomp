@@ -1,0 +1,2 @@
+402	Invalid Args
+404	Invalid Var

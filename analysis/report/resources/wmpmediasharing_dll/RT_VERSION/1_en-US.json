@@ -1,0 +1,17 @@
+{
+ "StringFileInfo": {
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows Media Player Media Sharing Interface DLL",
+  "FileVersion": "12.0.7600.16385 (win7_rtm.090713-1255)",
+  "InternalName": "",
+  "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. All rights reserved.",
+  "OriginalFilename": "WMPMediaSharing.DLL",
+  "ProductName": "Microsoft\u00c2\u00ae Windows\u00c2\u00ae Operating System",
+  "ProductVersion": "12.0.7600.16385"
+ },
+ "StringFileInfo_utf8": {
+  "LegalCopyright": "\u00a9 Microsoft Corporation. All rights reserved.",
+  "ProductName": "Microsoft\u00ae Windows\u00ae Operating System"
+ },
+ "parse_error": "TypeError: unsupported format string passed to bytes.__format__"
+}

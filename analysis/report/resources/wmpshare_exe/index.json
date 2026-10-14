@@ -1,0 +1,646 @@
+{
+ "module": "wmpshare_exe",
+ "artifact": "bin/wmpshare.exe",
+ "sha256": "ab95a6aa118e853d71b326b68a409f24a6276f47e34ca9e8049f7d49b4825a51",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 20480,
+  "size": 94736,
+  "present": true
+ },
+ "type_counts": {
+  "RT_GROUP_ICON": 1,
+  "RT_ICON": 16,
+  "RT_MANIFEST": 1,
+  "RT_VERSION": 1
+ },
+ "pefile_walk_count": 19,
+ "walker_cross_check": {
+  "raw_walker": 19,
+  "pefile_walker": 19,
+  "agree": true
+ },
+ "messages_total": 0,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1d18",
+   "data_entry_offset": "0x1ed0",
+   "depth": 3,
+   "data_rva": 21536,
+   "size": 2664,
+   "sha256": "1d355e41847f582d6c0f56b63ae6e3bc0dcfc366d0cd0fd286df57ee9aa3afcb",
+   "bytes_read": 2664,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2664,
+    "sha256": "1d355e41847f582d6c0f56b63ae6e3bc0dcfc366d0cd0fd286df57ee9aa3afcb"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/1_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1d30",
+   "data_entry_offset": "0x1ee0",
+   "depth": 3,
+   "data_rva": 24200,
+   "size": 1640,
+   "sha256": "a63d81f9259052f82858b117aa71cb83229819bc7cf4a051e5edfb933c027c53",
+   "bytes_read": 1640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "2",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1640,
+    "sha256": "a63d81f9259052f82858b117aa71cb83229819bc7cf4a051e5edfb933c027c53"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/2_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1d48",
+   "data_entry_offset": "0x1ef0",
+   "depth": 3,
+   "data_rva": 25840,
+   "size": 744,
+   "sha256": "7ca0c68f6f17686e4f95e4cf9ef0d48cb5a58216092b055411862a4d86b269d1",
+   "bytes_read": 744,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "3",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 744,
+    "sha256": "7ca0c68f6f17686e4f95e4cf9ef0d48cb5a58216092b055411862a4d86b269d1"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/3_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 4
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1d60",
+   "data_entry_offset": "0x1f00",
+   "depth": 3,
+   "data_rva": 26584,
+   "size": 488,
+   "sha256": "7ebd7657097aab19be057d565285baf3c7cf16fb50798fea8b53486d11b1d4e0",
+   "bytes_read": 488,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "4",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 488,
+    "sha256": "7ebd7657097aab19be057d565285baf3c7cf16fb50798fea8b53486d11b1d4e0"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/4_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 5
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1d78",
+   "data_entry_offset": "0x1f10",
+   "depth": 3,
+   "data_rva": 27072,
+   "size": 296,
+   "sha256": "4e8d49bc26d114a9a98071bdcd794a50c01c0b207cb8dfbb91deebe91741d441",
+   "bytes_read": 296,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "5",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 296,
+    "sha256": "4e8d49bc26d114a9a98071bdcd794a50c01c0b207cb8dfbb91deebe91741d441"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/5_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1d90",
+   "data_entry_offset": "0x1f20",
+   "depth": 3,
+   "data_rva": 27368,
+   "size": 5672,
+   "sha256": "310bdbb20cfd30fe15b19944135886fb6728e2e34c537a23079fec6c71db39d5",
+   "bytes_read": 5672,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "6",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 5672,
+    "sha256": "310bdbb20cfd30fe15b19944135886fb6728e2e34c537a23079fec6c71db39d5"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/6_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 7
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1da8",
+   "data_entry_offset": "0x1f30",
+   "depth": 3,
+   "data_rva": 33040,
+   "size": 3752,
+   "sha256": "b2f57ea269c49681b070ab450a9310811f6f28be5fcb082595c0f7f0b16aa836",
+   "bytes_read": 3752,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "7",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 3752,
+    "sha256": "b2f57ea269c49681b070ab450a9310811f6f28be5fcb082595c0f7f0b16aa836"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/7_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 8
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1dc0",
+   "data_entry_offset": "0x1f40",
+   "depth": 3,
+   "data_rva": 36792,
+   "size": 2216,
+   "sha256": "a127846549f4ade08f34d8de9bce020c33cbe90264739e4e68ac74239dd59fe7",
+   "bytes_read": 2216,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "8",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2216,
+    "sha256": "a127846549f4ade08f34d8de9bce020c33cbe90264739e4e68ac74239dd59fe7"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/8_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 9
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1dd8",
+   "data_entry_offset": "0x1f50",
+   "depth": 3,
+   "data_rva": 39008,
+   "size": 1736,
+   "sha256": "ae59ea75b688f818bb3138e7aca4683acc679b71d22118c344fab28f48ba4815",
+   "bytes_read": 1736,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "9",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1736,
+    "sha256": "ae59ea75b688f818bb3138e7aca4683acc679b71d22118c344fab28f48ba4815"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/9_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1df0",
+   "data_entry_offset": "0x1f60",
+   "depth": 3,
+   "data_rva": 40744,
+   "size": 1384,
+   "sha256": "07788e45cc9156afbc5f501e44d8f27c873c6cda5f75af6e40deae60e876b943",
+   "bytes_read": 1384,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "10",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1384,
+    "sha256": "07788e45cc9156afbc5f501e44d8f27c873c6cda5f75af6e40deae60e876b943"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/10_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 11
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1e08",
+   "data_entry_offset": "0x1f70",
+   "depth": 3,
+   "data_rva": 42128,
+   "size": 36799,
+   "sha256": "396d5a0eea5e0fda8bc47558d1f8a8d3960c03a861fceaa398ba494c48762417",
+   "bytes_read": 36799,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "11",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 36799,
+    "sha256": "396d5a0eea5e0fda8bc47558d1f8a8d3960c03a861fceaa398ba494c48762417"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/11_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 12
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1e20",
+   "data_entry_offset": "0x1f80",
+   "depth": 3,
+   "data_rva": 78928,
+   "size": 16936,
+   "sha256": "da5372e7173ac7ed0c3b75c6b950fc5d824999823c1d4bcff61c3b8a84a04adf",
+   "bytes_read": 16936,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "12",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 16936,
+    "sha256": "da5372e7173ac7ed0c3b75c6b950fc5d824999823c1d4bcff61c3b8a84a04adf"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/12_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 13
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1e38",
+   "data_entry_offset": "0x1f90",
+   "depth": 3,
+   "data_rva": 95864,
+   "size": 9640,
+   "sha256": "ae168d2f48c1335ce1bb5f04f0b0b9f8bd7e16a1704c35ebe0a73de2baae5016",
+   "bytes_read": 9640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "13",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 9640,
+    "sha256": "ae168d2f48c1335ce1bb5f04f0b0b9f8bd7e16a1704c35ebe0a73de2baae5016"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/13_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1e50",
+   "data_entry_offset": "0x1fa0",
+   "depth": 3,
+   "data_rva": 105504,
+   "size": 4264,
+   "sha256": "83d7b203761cb3c7653c34e0c44cbd55cdc8d139fbde824fac68fd1f2f2923cf",
+   "bytes_read": 4264,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "14",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 4264,
+    "sha256": "83d7b203761cb3c7653c34e0c44cbd55cdc8d139fbde824fac68fd1f2f2923cf"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/14_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 15
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1e68",
+   "data_entry_offset": "0x1fb0",
+   "depth": 3,
+   "data_rva": 109768,
+   "size": 2440,
+   "sha256": "e33a93074e9b2d5340380af52d18787c01cd018acbdd22f26185c77e32c86a60",
+   "bytes_read": 2440,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "15",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2440,
+    "sha256": "e33a93074e9b2d5340380af52d18787c01cd018acbdd22f26185c77e32c86a60"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/15_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1e80",
+   "data_entry_offset": "0x1fc0",
+   "depth": 3,
+   "data_rva": 112208,
+   "size": 1128,
+   "sha256": "f3845de9360a025e12dacf3847593a30a16752cf3c573d6086761c8ba05b7d89",
+   "bytes_read": 1128,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "16",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1128,
+    "sha256": "f3845de9360a025e12dacf3847593a30a16752cf3c573d6086761c8ba05b7d89"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_ICON/raw/16_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "name",
+     "name": "IDR_MAINFRAME"
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1e98",
+   "data_entry_offset": "0x1fd0",
+   "depth": 3,
+   "data_rva": 113336,
+   "size": 230,
+   "sha256": "9fe75ad2756a7c1b813ed61cb27cf4450f1d0aa33f44690d958dc7fadddbdbfd",
+   "bytes_read": 230,
+   "truncated": false,
+   "type": "RT_GROUP_ICON",
+   "name": "IDR_MAINFRAME",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_GROUP_ICON/IDR_MAINFRAME_en-US.ico",
+   "decoded": {
+    "ico_bytes": 92061
+   }
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1eb0",
+   "data_entry_offset": "0x1fe0",
+   "depth": 3,
+   "data_rva": 114232,
+   "size": 980,
+   "sha256": "d1824dfce758c985a567293208dcf955c05519d63a8cda724b788285e9fee751",
+   "bytes_read": 980,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Windows Media Player Folder Sharing Executable",
+    "FileVersion": "12.0.7601.24499 (win7sp1_ldr.190612-0600)",
+    "InternalName": "wmpshare.exe",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. All rights reserved.",
+    "OriginalFilename": "wmpshare.exe",
+    "ProductName": "Microsoft\u00c2\u00ae Windows\u00c2\u00ae Operating System",
+    "ProductVersion": "12.0.7601.24499",
+    "StringFileInfo_utf8": {
+     "LegalCopyright": "\u00a9 Microsoft Corporation. All rights reserved.",
+     "ProductName": "Microsoft\u00ae Windows\u00ae Operating System"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_VERSION/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 24
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1ec8",
+   "data_entry_offset": "0x1ff0",
+   "depth": 3,
+   "data_rva": 113568,
+   "size": 657,
+   "sha256": "0929990617f45ce56c6492dddfed77d8b3b7c442f5fe7d75859a8fe293b1e364",
+   "bytes_read": 657,
+   "truncated": false,
+   "type": "RT_MANIFEST",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "first_line": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>",
+    "root_element": "assembly"
+   },
+   "extracted": "analysis/report/resources/wmpshare_exe/RT_MANIFEST/1_en-US.xml"
+  }
+ ]
+}

@@ -1,0 +1,144 @@
+{
+ "module": "wmpmediasharing_dll_mui",
+ "artifact": "bin/pt-BR/WMPMediaSharing.dll.mui",
+ "sha256": "84218d150099d2bb3bdfd874b366770f681c7f3ab956954aee64e40789d99ae6",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 4096,
+  "size": 1696,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "RT_MESSAGETABLE": 1,
+  "RT_VERSION": 1
+ },
+ "pefile_walk_count": 3,
+ "walker_cross_check": {
+  "raw_walker": 3,
+  "pefile_walker": 3,
+  "agree": true
+ },
+ "messages_total": 4,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x280",
+   "data_entry_offset": "0x2b8",
+   "depth": 3,
+   "data_rva": 4336,
+   "size": 176,
+   "sha256": "e5c4c0ffcb5bcbbc4dac977c0223ed3a549aea587381f123a97677723d592df7",
+   "bytes_read": 176,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "language_tag": "pt-BR",
+    "localized_type_ids": [
+     11,
+     16
+    ],
+    "localized_type_names": [
+     "RT_MESSAGETABLE",
+     "RT_VERSION"
+    ],
+    "matches_sibling": null,
+    "matches_same_artifact": true
+   },
+   "extracted": "analysis/report/resources/wmpmediasharing_dll_mui/MUI/1_pt-BR.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 11
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x298",
+   "data_entry_offset": "0x2c8",
+   "depth": 3,
+   "data_rva": 4512,
+   "size": 244,
+   "sha256": "ff872b403fd1feefb0136f65b19a7aaa9ce7f6e14a08d22996bebaba24f6bba7",
+   "bytes_read": 244,
+   "truncated": false,
+   "type": "RT_MESSAGETABLE",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "messages": 4,
+    "blocks": 3
+   },
+   "extracted": "analysis/report/resources/wmpmediasharing_dll_mui/RT_MESSAGETABLE/1_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2b0",
+   "data_entry_offset": "0x2d8",
+   "depth": 3,
+   "data_rva": 4756,
+   "size": 1036,
+   "sha256": "1c920375b8aae99516262d488b7bf13dd4fd74ae86c0afbf9838a0180079a89c",
+   "bytes_read": 1036,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "DLL de Interface de Compartilhamento de M\u00c3\u00addia do Windows Media Player",
+    "FileVersion": "12.0.7600.16385 (win7_rtm.090713-1255)",
+    "InternalName": "",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+    "OriginalFilename": "WMPMediaSharing.DLL.MUI",
+    "ProductName": "Sistema Operacional Microsoft\u00c2\u00ae Windows\u00c2\u00ae",
+    "ProductVersion": "12.0.7600.16385",
+    "StringFileInfo_utf8": {
+     "FileDescription": "DLL de Interface de Compartilhamento de M\u00eddia do Windows Media Player",
+     "LegalCopyright": "\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+     "ProductName": "Sistema Operacional Microsoft\u00ae Windows\u00ae"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmpmediasharing_dll_mui/RT_VERSION/1_pt-BR.json"
+  }
+ ]
+}

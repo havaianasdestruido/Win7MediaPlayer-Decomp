@@ -1,0 +1,19 @@
+401	O dispositivo não oferece suporte ao comando UPnP. Uma atualização do dispositivo pode solucionar o problema. Contate o fabricante do dispositivo para obter as atualizações mais recentes.
+402	O dispositivo não oferece suporte ao formato do comando UPnP. Uma atualização do dispositivo pode solucionar o problema. Contate o fabricante do dispositivo para obter as atualizações mais recentes.
+403	O dispositivo não oferece suporte à variável do comando UPnP. Uma atualização do dispositivo pode solucionar o problema. Contate o fabricante do dispositivo para obter as atualizações mais recentes.
+404	O dispositivo está reportando um erro no dispositivo. Reinicie-o e tente novamente.
+
+Caso não possa solucionar o problema, pode ser necessário atualizar o dispositivo. Contate o fabricante do dispositivo para obter as atualizações mais recentes.
+405	Ocorreu falha no dispositivo ao executar o comando UPnP. Verifique se o dispositivo de mídia está ligado e conectado à rede e tente novamente.
+
+Caso não consiga solucionar o problema, talvez seja necessário atualizar o dispositivo. Contate o fabricante do dispositivo para obter as atualizações mais recentes.
+406	O dispositivo não pôde executar o comando em seu estado atual. Tente novamente.
+407	O item de mídia está corrompido ou vazio. Verifique se o arquivo pode ser reproduzido no dispositivo de armazenamento de mídia.
+408	O dispositivo não pôde ler o arquivo de mídia. Verifique se o arquivo pode ser reproduzido no dispositivo de armazenamento de mídia.
+409	O dispositivo requer um codec que ofereça suporte a este formato de mídia. Uma atualização do dispositivo pode solucionar o problema. Contate o fabricante do dispositivo para obter as atualizações mais recentes.
+410	Seu dispositivo está bloqueado por outro usuário ou dispositivo no momento. Tente novamente mais tarde.
+411	Você não está conectado a nenhuma rede no momento. Conecte-se a uma rede e tente novamente.
+412	O modo de busca não é aceito pelo dispositivo.
+413	O local de busca desejado não é válido ou não está presente na mídia.
+414	O dispositivo requer um codec que ofereça suporte a este formato de mídia. Uma atualização do dispositivo pode solucionar o problema. Contate o fabricante do dispositivo para obter as atualizações mais recentes.
+415	O dispositivo está ocupado processando. Tente novamente mais tarde.

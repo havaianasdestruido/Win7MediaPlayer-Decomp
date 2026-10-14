@@ -1,0 +1,829 @@
+{
+ "module": "wmpsideshowgadget_exe",
+ "artifact": "bin/WMPSideShowGadget.exe",
+ "sha256": "0f8f45cd381f60a41cca4834188157d25906911108d7280cb2540d2245327a9d",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 135168,
+  "size": 46624,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "RT_GROUP_ICON": 1,
+  "RT_ICON": 9,
+  "RT_MANIFEST": 1,
+  "RT_RCDATA": 13,
+  "RT_VERSION": 1
+ },
+ "pefile_walk_count": 26,
+ "walker_cross_check": {
+  "raw_walker": 26,
+  "pefile_walker": 26,
+  "agree": true
+ },
+ "messages_total": 0,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1c980",
+   "data_entry_offset": "0x1cbe0",
+   "depth": 3,
+   "data_rva": 181576,
+   "size": 216,
+   "sha256": "2c5b1675fb7c9dabf630904aa9912a439ba2caff54c3bf0cf40b216ee24ce884",
+   "bytes_read": 216,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "language_tag": "en-US",
+    "localized_type_ids": [
+     6,
+     16
+    ],
+    "localized_type_names": [
+     "RT_STRING",
+     "RT_VERSION"
+    ],
+    "matches_sibling": true,
+    "matches_same_artifact": false
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/MUI/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1c998",
+   "data_entry_offset": "0x1cbf0",
+   "depth": 3,
+   "data_rva": 138360,
+   "size": 1640,
+   "sha256": "495440325b6cb1f6c119c3dc3252afeba49a92f15272d7dc4ce8d084382eafb9",
+   "bytes_read": 1640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1640,
+    "sha256": "495440325b6cb1f6c119c3dc3252afeba49a92f15272d7dc4ce8d084382eafb9"
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_ICON/raw/1_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1c9b0",
+   "data_entry_offset": "0x1cc00",
+   "depth": 3,
+   "data_rva": 140000,
+   "size": 744,
+   "sha256": "38c145a4fc47e19669c5161c0805202084166afeeda9ddbb80e9d2be02550d8d",
+   "bytes_read": 744,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "2",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 744,
+    "sha256": "38c145a4fc47e19669c5161c0805202084166afeeda9ddbb80e9d2be02550d8d"
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_ICON/raw/2_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1c9c8",
+   "data_entry_offset": "0x1cc10",
+   "depth": 3,
+   "data_rva": 140744,
+   "size": 296,
+   "sha256": "1562c0839829b9f1a9769d9047b524b545e6908d935c31c0056bf4e075841e41",
+   "bytes_read": 296,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "3",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 296,
+    "sha256": "1562c0839829b9f1a9769d9047b524b545e6908d935c31c0056bf4e075841e41"
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_ICON/raw/3_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 4
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1c9e0",
+   "data_entry_offset": "0x1cc20",
+   "depth": 3,
+   "data_rva": 141040,
+   "size": 3752,
+   "sha256": "cc908db1a0169b9bb05aa6ce5c25809a3fe780c37eb48cae65bc11bb9a89503c",
+   "bytes_read": 3752,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "4",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 3752,
+    "sha256": "cc908db1a0169b9bb05aa6ce5c25809a3fe780c37eb48cae65bc11bb9a89503c"
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_ICON/raw/4_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 5
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1c9f8",
+   "data_entry_offset": "0x1cc30",
+   "depth": 3,
+   "data_rva": 144792,
+   "size": 2216,
+   "sha256": "83143d1d2ff5ab4c2748ffa1110a093758db5910b7bc8c48cc26d04b3d39ccae",
+   "bytes_read": 2216,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "5",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2216,
+    "sha256": "83143d1d2ff5ab4c2748ffa1110a093758db5910b7bc8c48cc26d04b3d39ccae"
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_ICON/raw/5_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1ca10",
+   "data_entry_offset": "0x1cc40",
+   "depth": 3,
+   "data_rva": 147008,
+   "size": 1384,
+   "sha256": "af4f1a96e1eb432ac972b7e7116d41bb1fb88894ece9a508407edf59bd9eaada",
+   "bytes_read": 1384,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "6",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1384,
+    "sha256": "af4f1a96e1eb432ac972b7e7116d41bb1fb88894ece9a508407edf59bd9eaada"
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_ICON/raw/6_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 7
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1ca28",
+   "data_entry_offset": "0x1cc50",
+   "depth": 3,
+   "data_rva": 148392,
+   "size": 9640,
+   "sha256": "ae168d2f48c1335ce1bb5f04f0b0b9f8bd7e16a1704c35ebe0a73de2baae5016",
+   "bytes_read": 9640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "7",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 9640,
+    "sha256": "ae168d2f48c1335ce1bb5f04f0b0b9f8bd7e16a1704c35ebe0a73de2baae5016"
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_ICON/raw/7_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 8
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1ca40",
+   "data_entry_offset": "0x1cc60",
+   "depth": 3,
+   "data_rva": 158032,
+   "size": 4264,
+   "sha256": "83d7b203761cb3c7653c34e0c44cbd55cdc8d139fbde824fac68fd1f2f2923cf",
+   "bytes_read": 4264,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "8",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 4264,
+    "sha256": "83d7b203761cb3c7653c34e0c44cbd55cdc8d139fbde824fac68fd1f2f2923cf"
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_ICON/raw/8_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 9
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1ca58",
+   "data_entry_offset": "0x1cc70",
+   "depth": 3,
+   "data_rva": 162296,
+   "size": 1128,
+   "sha256": "f3845de9360a025e12dacf3847593a30a16752cf3c573d6086761c8ba05b7d89",
+   "bytes_read": 1128,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "9",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1128,
+    "sha256": "f3845de9360a025e12dacf3847593a30a16752cf3c573d6086761c8ba05b7d89"
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_ICON/raw/9_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 5000
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1ca70",
+   "data_entry_offset": "0x1cc80",
+   "depth": 3,
+   "data_rva": 163560,
+   "size": 10264,
+   "sha256": "a5c4dac709f480b3d8b416de808c4524ef90997055d2c67ce3e55563879acfed",
+   "bytes_read": 10264,
+   "truncated": false,
+   "type": "RT_RCDATA",
+   "name": "5000",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_RCDATA/raw/5000_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 6000
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1ca88",
+   "data_entry_offset": "0x1cc90",
+   "depth": 3,
+   "data_rva": 173824,
+   "size": 357,
+   "sha256": "1d58c6328032b08e36e9ef1778bc609be031178c87baca4d078f469db052dcd6",
+   "bytes_read": 357,
+   "truncated": false,
+   "type": "RT_RCDATA",
+   "name": "6000",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_RCDATA/raw/6000_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 6001
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1caa0",
+   "data_entry_offset": "0x1cca0",
+   "depth": 3,
+   "data_rva": 174184,
+   "size": 213,
+   "sha256": "208f63d6f9ca1e1793467d5632453f21e0bbe00ea01035dfc6af29c3d2df48ce",
+   "bytes_read": 213,
+   "truncated": false,
+   "type": "RT_RCDATA",
+   "name": "6001",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_RCDATA/raw/6001_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 6002
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1cab8",
+   "data_entry_offset": "0x1ccb0",
+   "depth": 3,
+   "data_rva": 174400,
+   "size": 989,
+   "sha256": "afdee93c918a18b956e35fe93d1130e007d9e86d02188f7c13e3a6c726e69c1c",
+   "bytes_read": 989,
+   "truncated": false,
+   "type": "RT_RCDATA",
+   "name": "6002",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_RCDATA/raw/6002_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 6006
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1cad0",
+   "data_entry_offset": "0x1ccc0",
+   "depth": 3,
+   "data_rva": 177240,
+   "size": 355,
+   "sha256": "57958e36a0865b0ef1b99d4ff74cabb00b7b357b53c046be4246b4a2dbfac40f",
+   "bytes_read": 355,
+   "truncated": false,
+   "type": "RT_RCDATA",
+   "name": "6006",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_RCDATA/raw/6006_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 6007
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1cae8",
+   "data_entry_offset": "0x1ccd0",
+   "depth": 3,
+   "data_rva": 177600,
+   "size": 608,
+   "sha256": "03890f6504f455120260be3e6f062268d559ef191955b85b3450434524e43c65",
+   "bytes_read": 608,
+   "truncated": false,
+   "type": "RT_RCDATA",
+   "name": "6007",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_RCDATA/raw/6007_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 6008
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1cb00",
+   "data_entry_offset": "0x1cce0",
+   "depth": 3,
+   "data_rva": 178208,
+   "size": 1034,
+   "sha256": "95d3f3df5ff6029207ee653a74f4d63c32452805f2b0e235f4d73c1b9565141e",
+   "bytes_read": 1034,
+   "truncated": false,
+   "type": "RT_RCDATA",
+   "name": "6008",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_RCDATA/raw/6008_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 6009
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1cb18",
+   "data_entry_offset": "0x1ccf0",
+   "depth": 3,
+   "data_rva": 179248,
+   "size": 1046,
+   "sha256": "d81a5e82744e76717e9dd40fc6892717e98ffb4926c3c16a503f9dcc1514dd9e",
+   "bytes_read": 1046,
+   "truncated": false,
+   "type": "RT_RCDATA",
+   "name": "6009",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_RCDATA/raw/6009_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 6010
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1cb30",
+   "data_entry_offset": "0x1cd00",
+   "depth": 3,
+   "data_rva": 180296,
+   "size": 322,
+   "sha256": "c064338d516fdcd957759629e24abe11c9f0725c1b533ba0c099920e1657761d",
+   "bytes_read": 322,
+   "truncated": false,
+   "type": "RT_RCDATA",
+   "name": "6010",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_RCDATA/raw/6010_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 6011
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1cb48",
+   "data_entry_offset": "0x1cd10",
+   "depth": 3,
+   "data_rva": 180624,
+   "size": 547,
+   "sha256": "1ede99395508bcaeadc82a56a00cc64c9c425558502fe3c253544fc056ba9875",
+   "bytes_read": 547,
+   "truncated": false,
+   "type": "RT_RCDATA",
+   "name": "6011",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_RCDATA/raw/6011_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 6012
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1cb60",
+   "data_entry_offset": "0x1cd20",
+   "depth": 3,
+   "data_rva": 181176,
+   "size": 193,
+   "sha256": "05a609673b8b590d1226430d73a30302d8f3d3fd7f0fe691d9af0264642187e5",
+   "bytes_read": 193,
+   "truncated": false,
+   "type": "RT_RCDATA",
+   "name": "6012",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_RCDATA/raw/6012_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 6013
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1cb78",
+   "data_entry_offset": "0x1cd30",
+   "depth": 3,
+   "data_rva": 181376,
+   "size": 195,
+   "sha256": "68ce06a2628c5ca02d70423c60c67d7d8519b7ff05c039a28df9b4f1318023b1",
+   "bytes_read": 195,
+   "truncated": false,
+   "type": "RT_RCDATA",
+   "name": "6013",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_RCDATA/raw/6013_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 6014
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1cb90",
+   "data_entry_offset": "0x1cd40",
+   "depth": 3,
+   "data_rva": 175392,
+   "size": 1842,
+   "sha256": "e70758b0bf8cdd4c754e88842e56771e45efabf409582aba7f7f78207adb6f8f",
+   "bytes_read": 1842,
+   "truncated": false,
+   "type": "RT_RCDATA",
+   "name": "6014",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_RCDATA/raw/6014_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 100
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1cba8",
+   "data_entry_offset": "0x1cd50",
+   "depth": 3,
+   "data_rva": 163424,
+   "size": 132,
+   "sha256": "ca82878ac6f8f5d26249f03257b496eebf06e2d20e02349a0b871bf92766535c",
+   "bytes_read": 132,
+   "truncated": false,
+   "type": "RT_GROUP_ICON",
+   "name": "100",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_GROUP_ICON/100_en-US.ico",
+   "decoded": {
+    "ico_bytes": 25214
+   }
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1cbc0",
+   "data_entry_offset": "0x1cd60",
+   "depth": 3,
+   "data_rva": 137328,
+   "size": 1028,
+   "sha256": "9999a127009b8ab33815587f8b6fda13f33e4208b9f9d93e0b4c5314ef47fe2a",
+   "bytes_read": 1028,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Windows Media Player Gadget for Windows SideShow capable devices",
+    "FileVersion": "12.0.7600.16385 (win7_rtm.090713-1255)",
+    "InternalName": "WMPSideShowGadget",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. All rights reserved.",
+    "OriginalFilename": "WMPSideShowGadget",
+    "ProductName": "Microsoft\u00c2\u00ae Windows\u00c2\u00ae Operating System",
+    "ProductVersion": "12.0.7600.16385",
+    "StringFileInfo_utf8": {
+     "LegalCopyright": "\u00a9 Microsoft Corporation. All rights reserved.",
+     "ProductName": "Microsoft\u00ae Windows\u00ae Operating System"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_VERSION/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 24
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x1cbd8",
+   "data_entry_offset": "0x1cd70",
+   "depth": 3,
+   "data_rva": 136592,
+   "size": 734,
+   "sha256": "bcc0a858e060d371e2c1dc86732433a83b437c7e20c64b844b2992f305d939bf",
+   "bytes_read": 734,
+   "truncated": false,
+   "type": "RT_MANIFEST",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "first_line": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>",
+    "root_element": "assembly"
+   },
+   "extracted": "analysis/report/resources/wmpsideshowgadget_exe/RT_MANIFEST/1_en-US.xml"
+  }
+ ]
+}

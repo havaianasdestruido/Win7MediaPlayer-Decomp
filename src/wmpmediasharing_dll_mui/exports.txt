@@ -1,0 +1,2 @@
+# Exported symbols — bin/pt-BR/WMPMediaSharing.dll.mui (SHA-256 84218d150099d2bb3bdfd874b366770f681c7f3ab956954aee64e40789d99ae6)
+# (no exported symbols; this image is an executable or a resource-only module)

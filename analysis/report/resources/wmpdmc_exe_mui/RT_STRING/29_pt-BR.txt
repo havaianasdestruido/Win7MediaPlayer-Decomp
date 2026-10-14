@@ -1,0 +1,13 @@
+450	Erro de dispositivo
+452	Falha ao recuperar informações de mídia do servidor de mídia
+453	O dispositivo não está respondendo
+454	Sem conexão de rede
+455	Falha ao recuperar a descrição do dispositivo
+456	Falha ao localizar os serviços UPnP do dispositivo
+457	Falha ao inicializar a lista de reprodução
+458	O dispositivo não pôde ser encontrado
+459	Dispositivo offline
+460	Erro no dispositivo
+461	Erro interno do dispositivo
+462	Dispositivo não pode ser controlado
+463	Dispositivo ocupado

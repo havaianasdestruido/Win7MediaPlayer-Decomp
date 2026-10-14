@@ -1,0 +1,7 @@
+# Exported symbols — bin/wmpnssci.dll (SHA-256 3a3871983f2d9a57739c70365dc3f417d9bf02f5c0c4cc3272ea9f3d380ef962)
+# Image export name: wmpnssci.DLL
+
+    1  0x00005390  DllCanUnloadNow
+    2  0x00005434  DllGetClassObject
+    3  0x000055e0  DllRegisterServer
+    4  0x00005774  DllUnregisterServer

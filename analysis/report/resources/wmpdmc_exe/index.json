@@ -1,0 +1,7727 @@
+{
+ "module": "wmpdmc_exe",
+ "artifact": "bin/WMPDMC.exe",
+ "sha256": "3f6564d520c416147702a463a50724fd36c46c3a44a8447af89788586fc5efee",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 966656,
+  "size": 255952,
+  "present": true
+ },
+ "type_counts": {
+  "IMAGE": 118,
+  "MUI": 1,
+  "RT_GROUP_ICON": 2,
+  "RT_ICON": 25,
+  "RT_MANIFEST": 1,
+  "RT_VERSION": 1,
+  "UIFILE": 2,
+  "WEVT_TEMPLATE": 1
+ },
+ "pefile_walk_count": 151,
+ "walker_cross_check": {
+  "raw_walker": 151,
+  "pefile_walker": 151,
+  "agree": true
+ },
+ "messages_total": 0,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 230
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5798",
+   "data_entry_offset": "0xe65b0",
+   "depth": 3,
+   "data_rva": 1153368,
+   "size": 704,
+   "sha256": "03dc55bdad5d0070038024e155972dfae76a2313e4be1c1f94c4a794befd85da",
+   "bytes_read": 704,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "230",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 494,
+    "entry_count": 15,
+    "width": 16,
+    "height": 16,
+    "bits_per_sample": "ptr 0x2a8",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/230_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 231
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe57b0",
+   "data_entry_offset": "0xe65c0",
+   "depth": 3,
+   "data_rva": 1154072,
+   "size": 4920,
+   "sha256": "fab7891637f7e01550b04e7858f3b0c08fd373d37f04c0ed0e6f71e6e837ff37",
+   "bytes_read": 4920,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "231",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 4710,
+    "entry_count": 15,
+    "width": 48,
+    "height": 48,
+    "bits_per_sample": "ptr 0x1320",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/231_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 232
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe57c8",
+   "data_entry_offset": "0xe65d0",
+   "depth": 3,
+   "data_rva": 1139280,
+   "size": 614,
+   "sha256": "2863ff6c6265249b10f9f928aa2bec28428992d8e4beeeb88e8539301c470742",
+   "bytes_read": 614,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "232",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 404,
+    "entry_count": 15,
+    "width": 16,
+    "height": 16,
+    "bits_per_sample": "ptr 0x24e",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/232_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 233
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe57e0",
+   "data_entry_offset": "0xe65e0",
+   "depth": 3,
+   "data_rva": 1139896,
+   "size": 3996,
+   "sha256": "aed7777892ed2ddacbb51ea852a1cc4556cf405aefe3ca1904f9a57d1f6f0327",
+   "bytes_read": 3996,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "233",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 3786,
+    "entry_count": 15,
+    "width": 48,
+    "height": 48,
+    "bits_per_sample": "ptr 0xf84",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/233_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 234
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe57f8",
+   "data_entry_offset": "0xe65f0",
+   "depth": 3,
+   "data_rva": 1143896,
+   "size": 632,
+   "sha256": "5467124564ccf96205ef97e648e16492fbc145abc7a5c015503d9826af5b9bc5",
+   "bytes_read": 632,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "234",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 422,
+    "entry_count": 15,
+    "width": 16,
+    "height": 16,
+    "bits_per_sample": "ptr 0x260",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/234_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 235
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5810",
+   "data_entry_offset": "0xe6600",
+   "depth": 3,
+   "data_rva": 1144528,
+   "size": 5410,
+   "sha256": "f84f79835b1b212b9029b1502a4bd0c8b71e845f41a21f20d8726496831d767b",
+   "bytes_read": 5410,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "235",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 5200,
+    "entry_count": 15,
+    "width": 44,
+    "height": 48,
+    "bits_per_sample": "ptr 0x150a",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/235_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 236
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5828",
+   "data_entry_offset": "0xe6610",
+   "depth": 3,
+   "data_rva": 1149944,
+   "size": 700,
+   "sha256": "3c2a1646e569edb7cdab772c10e214dd4f57e5e3dce563e2bca079bfa285762c",
+   "bytes_read": 700,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "236",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 490,
+    "entry_count": 15,
+    "width": 16,
+    "height": 16,
+    "bits_per_sample": "ptr 0x2a4",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/236_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 237
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5840",
+   "data_entry_offset": "0xe6620",
+   "depth": 3,
+   "data_rva": 1150648,
+   "size": 2718,
+   "sha256": "5212af28d2757a782269551c1d8175a0bc6514aa1c59d5d802a2aa29aee8bf4f",
+   "bytes_read": 2718,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "237",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 2508,
+    "entry_count": 15,
+    "width": 48,
+    "height": 48,
+    "bits_per_sample": "ptr 0xa86",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/237_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 255
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5858",
+   "data_entry_offset": "0xe6630",
+   "depth": 3,
+   "data_rva": 1064360,
+   "size": 490,
+   "sha256": "a6dd6260ebdee980643169e5b925b9ce55ed6164c14a578fb3a5eb37828d60ab",
+   "bytes_read": 490,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "255",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 280,
+    "entry_count": 15,
+    "width": 50,
+    "height": 50,
+    "bits_per_sample": "ptr 0x1d2",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/255_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 256
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5870",
+   "data_entry_offset": "0xe6640",
+   "depth": 3,
+   "data_rva": 1063912,
+   "size": 442,
+   "sha256": "a607183e479bfbedd1b73c0aa7c7ab49f9154d8a4111241f0e12a42282c4f8b5",
+   "bytes_read": 442,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "256",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 232,
+    "entry_count": 15,
+    "width": 9,
+    "height": 9,
+    "bits_per_sample": "ptr 0x1a2",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/256_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 257
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5888",
+   "data_entry_offset": "0xe6650",
+   "depth": 3,
+   "data_rva": 1134320,
+   "size": 590,
+   "sha256": "6dfc5d5c4489977e6c346a36abb6cee8c16b5ab1165c327afe20df0ede39193d",
+   "bytes_read": 590,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "257",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 380,
+    "entry_count": 15,
+    "width": 10,
+    "height": 10,
+    "bits_per_sample": "ptr 0x236",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/257_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 258
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe58a0",
+   "data_entry_offset": "0xe6660",
+   "depth": 3,
+   "data_rva": 1133744,
+   "size": 574,
+   "sha256": "1e5e2470fdd4537ae8bd899b16ad4f64c0e9bdd744157e87615837dc009f22d7",
+   "bytes_read": 574,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "258",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 364,
+    "entry_count": 15,
+    "width": 10,
+    "height": 10,
+    "bits_per_sample": "ptr 0x226",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/258_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 260
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe58b8",
+   "data_entry_offset": "0xe6670",
+   "depth": 3,
+   "data_rva": 1068864,
+   "size": 368,
+   "sha256": "97ebad06e0963904eca87d3b8f504430b4c2e57247e05023124cde7252f9ae50",
+   "bytes_read": 368,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "260",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 158,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x158",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/260_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 261
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe58d0",
+   "data_entry_offset": "0xe6680",
+   "depth": 3,
+   "data_rva": 1069232,
+   "size": 378,
+   "sha256": "94c9b4c2c834d78dd4f8bc5a1f5aebc66833db91a641bf5afb7ac0309ed26590",
+   "bytes_read": 378,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "261",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 168,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x162",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/261_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 262
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe58e8",
+   "data_entry_offset": "0xe6690",
+   "depth": 3,
+   "data_rva": 1069616,
+   "size": 1350,
+   "sha256": "483e8d172088992912387bc34887d79208c06109d6678ce09471ca253689511a",
+   "bytes_read": 1350,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "262",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1140,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x52e",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/262_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 263
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5900",
+   "data_entry_offset": "0xe66a0",
+   "depth": 3,
+   "data_rva": 1070968,
+   "size": 1354,
+   "sha256": "e30e96a10a872d153442db9fb251992c5c238526b5cfba951dddaccfc65ecdf0",
+   "bytes_read": 1354,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "263",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1144,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x532",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/263_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 264
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5918",
+   "data_entry_offset": "0xe66b0",
+   "depth": 3,
+   "data_rva": 1072328,
+   "size": 246,
+   "sha256": "58d598584df40e0bcc61f62937e56375c9e98fac3976ab11fa7e808698f81e8a",
+   "bytes_read": 246,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "264",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 36,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0xde",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/264_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 265
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5930",
+   "data_entry_offset": "0xe66c0",
+   "depth": 3,
+   "data_rva": 1072576,
+   "size": 622,
+   "sha256": "52d2fc7672c3efc6f88eb9b766f625e4faf2915e6c6afa9a6f382d19cef4b5b0",
+   "bytes_read": 622,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "265",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 412,
+    "entry_count": 15,
+    "width": 42,
+    "height": 43,
+    "bits_per_sample": "ptr 0x256",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/265_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 266
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5948",
+   "data_entry_offset": "0xe66d0",
+   "depth": 3,
+   "data_rva": 1073200,
+   "size": 672,
+   "sha256": "85f6c53e573dbcc63131a4deca4f89f13f5c9cd05c4e8d4f90e98bfd9431ea7d",
+   "bytes_read": 672,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "266",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 462,
+    "entry_count": 15,
+    "width": 42,
+    "height": 43,
+    "bits_per_sample": "ptr 0x288",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/266_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 267
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5960",
+   "data_entry_offset": "0xe66e0",
+   "depth": 3,
+   "data_rva": 1073872,
+   "size": 504,
+   "sha256": "72dcb1ea7428a3fd8f6a79c3c2e6afdb809d11956cf91e8c73d135d2277b504b",
+   "bytes_read": 504,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "267",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 294,
+    "entry_count": 15,
+    "width": 42,
+    "height": 43,
+    "bits_per_sample": "ptr 0x1e0",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/267_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 268
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5978",
+   "data_entry_offset": "0xe66f0",
+   "depth": 3,
+   "data_rva": 1074376,
+   "size": 502,
+   "sha256": "5f7436852332d98284699c9d774aa170300e98cf6ef50138985e80af14af42b5",
+   "bytes_read": 502,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "268",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 292,
+    "entry_count": 15,
+    "width": 42,
+    "height": 43,
+    "bits_per_sample": "ptr 0x1de",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/268_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 269
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5990",
+   "data_entry_offset": "0xe6700",
+   "depth": 3,
+   "data_rva": 1074880,
+   "size": 5654,
+   "sha256": "c10df20ca05026c14b27a9e9bf64830f94b3be4fd8fed9e7989bbd3e17f44f85",
+   "bytes_read": 5654,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "269",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 5444,
+    "entry_count": 15,
+    "width": 46,
+    "height": 46,
+    "bits_per_sample": "ptr 0x15fe",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/269_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 270
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe59a8",
+   "data_entry_offset": "0xe6710",
+   "depth": 3,
+   "data_rva": 1080536,
+   "size": 5860,
+   "sha256": "b390ec4e487baf213c99f8bb87f21da63c8fa418dde2026c9f1f38f7c53b31e2",
+   "bytes_read": 5860,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "270",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 5650,
+    "entry_count": 15,
+    "width": 46,
+    "height": 46,
+    "bits_per_sample": "ptr 0x16cc",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/270_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 271
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe59c0",
+   "data_entry_offset": "0xe6720",
+   "depth": 3,
+   "data_rva": 1086400,
+   "size": 5610,
+   "sha256": "306c6c6aac63141883e9007c71af43559b7e02a3c8b786de5011caeac6c2d51f",
+   "bytes_read": 5610,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "271",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 5400,
+    "entry_count": 15,
+    "width": 46,
+    "height": 46,
+    "bits_per_sample": "ptr 0x15d2",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/271_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 272
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe59d8",
+   "data_entry_offset": "0xe6730",
+   "depth": 3,
+   "data_rva": 1092016,
+   "size": 1590,
+   "sha256": "ae5a71684c5ea5249b20adb5cf018a6797f169716f86f83a45c6b28f4aff5092",
+   "bytes_read": 1590,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "272",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1380,
+    "entry_count": 15,
+    "width": 52,
+    "height": 52,
+    "bits_per_sample": "ptr 0x61e",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/272_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 273
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe59f0",
+   "data_entry_offset": "0xe6740",
+   "depth": 3,
+   "data_rva": 1093608,
+   "size": 702,
+   "sha256": "767b047b88e7cc8997493fc6869321e4acf71f10e51f3349c80b824b3160c999",
+   "bytes_read": 702,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "273",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 492,
+    "entry_count": 15,
+    "width": 53,
+    "height": 25,
+    "bits_per_sample": "ptr 0x2a6",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/273_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 274
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5a08",
+   "data_entry_offset": "0xe6750",
+   "depth": 3,
+   "data_rva": 1094312,
+   "size": 750,
+   "sha256": "f1ab96b4232a10fdc4c49424214266254e6639c852ff391e7676a0a8e0ab0952",
+   "bytes_read": 750,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "274",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 540,
+    "entry_count": 15,
+    "width": 53,
+    "height": 25,
+    "bits_per_sample": "ptr 0x2d6",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/274_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 275
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5a20",
+   "data_entry_offset": "0xe6760",
+   "depth": 3,
+   "data_rva": 1095064,
+   "size": 2308,
+   "sha256": "2a1b0685d7b8e662952f7af909c7b24b14fee6a1ebb893758254a7d579ea13fa",
+   "bytes_read": 2308,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "275",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 2098,
+    "entry_count": 15,
+    "width": 53,
+    "height": 27,
+    "bits_per_sample": "ptr 0x8ec",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/275_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 276
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5a38",
+   "data_entry_offset": "0xe6770",
+   "depth": 3,
+   "data_rva": 1097376,
+   "size": 2320,
+   "sha256": "df4dceb10bc803dcaf0d0b360fa53a9cf80df86c8ddc62a30fd4ce0fd681dbe0",
+   "bytes_read": 2320,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "276",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 2110,
+    "entry_count": 15,
+    "width": 53,
+    "height": 27,
+    "bits_per_sample": "ptr 0x8f8",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/276_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 277
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5a50",
+   "data_entry_offset": "0xe6780",
+   "depth": 3,
+   "data_rva": 1099696,
+   "size": 2190,
+   "sha256": "8312256b264bd6ab019489d525571533adb849a22b77ce0cfd548895dd3a8e8c",
+   "bytes_read": 2190,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "277",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1980,
+    "entry_count": 15,
+    "width": 53,
+    "height": 27,
+    "bits_per_sample": "ptr 0x876",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/277_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 278
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5a68",
+   "data_entry_offset": "0xe6790",
+   "depth": 3,
+   "data_rva": 1101888,
+   "size": 688,
+   "sha256": "a95ed91625d780ed4f0a5d5f5a7dd22a5c3df42390593f3c44b9f6727fbf9078",
+   "bytes_read": 688,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "278",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 478,
+    "entry_count": 15,
+    "width": 53,
+    "height": 25,
+    "bits_per_sample": "ptr 0x298",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/278_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 279
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5a80",
+   "data_entry_offset": "0xe67a0",
+   "depth": 3,
+   "data_rva": 1102576,
+   "size": 728,
+   "sha256": "1f45aa676a95472d8fb031e5be652587646c8b7ae74fb5e1caab038c1e45199e",
+   "bytes_read": 728,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "279",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 518,
+    "entry_count": 15,
+    "width": 53,
+    "height": 25,
+    "bits_per_sample": "ptr 0x2c0",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/279_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 280
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5a98",
+   "data_entry_offset": "0xe67b0",
+   "depth": 3,
+   "data_rva": 1103304,
+   "size": 2320,
+   "sha256": "2133565070bd53bcafbfa4f65782d31cc187c357ddbf75d5b4beb236ef7a3ce6",
+   "bytes_read": 2320,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "280",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 2110,
+    "entry_count": 15,
+    "width": 53,
+    "height": 27,
+    "bits_per_sample": "ptr 0x8f8",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/280_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 281
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5ab0",
+   "data_entry_offset": "0xe67c0",
+   "depth": 3,
+   "data_rva": 1105624,
+   "size": 2330,
+   "sha256": "f0f54a295eca64fd9e9cb682153567ec849b0a22172c16869771832432bdb3b7",
+   "bytes_read": 2330,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "281",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 2120,
+    "entry_count": 15,
+    "width": 53,
+    "height": 27,
+    "bits_per_sample": "ptr 0x902",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/281_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 282
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5ac8",
+   "data_entry_offset": "0xe67d0",
+   "depth": 3,
+   "data_rva": 1107960,
+   "size": 2174,
+   "sha256": "f0954f23352d3411add73d3e5d8c43143f32880bfbf4262e21c3c77cb29026ec",
+   "bytes_read": 2174,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "282",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1964,
+    "entry_count": 15,
+    "width": 53,
+    "height": 27,
+    "bits_per_sample": "ptr 0x866",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/282_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 283
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5ae0",
+   "data_entry_offset": "0xe67e0",
+   "depth": 3,
+   "data_rva": 1112248,
+   "size": 524,
+   "sha256": "0993da14933c653a1fbad0a56ec58199ee18ec45b0207671c4186744f0a65062",
+   "bytes_read": 524,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "283",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 314,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x1f4",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/283_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 284
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5af8",
+   "data_entry_offset": "0xe67f0",
+   "depth": 3,
+   "data_rva": 1112776,
+   "size": 1374,
+   "sha256": "54716802e08b73ff3df75379def07aaad0a3fba3a6fb4563d5851cbbf5f8386c",
+   "bytes_read": 1374,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "284",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1164,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x546",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/284_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 285
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5b10",
+   "data_entry_offset": "0xe6800",
+   "depth": 3,
+   "data_rva": 1114152,
+   "size": 740,
+   "sha256": "f1df1ed02681ed5879f94265926c69099a805c0d17dae619d3d2e9f33303aac3",
+   "bytes_read": 740,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "285",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 530,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x2cc",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/285_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 286
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5b28",
+   "data_entry_offset": "0xe6810",
+   "depth": 3,
+   "data_rva": 1114896,
+   "size": 874,
+   "sha256": "1351acfd867eec4103c0f28134885a57a77d68bf0f26564359a8094f5cdf9c56",
+   "bytes_read": 874,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "286",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 664,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x352",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/286_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 287
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5b40",
+   "data_entry_offset": "0xe6820",
+   "depth": 3,
+   "data_rva": 1115776,
+   "size": 794,
+   "sha256": "44850966e442f9fea9aa0c60d0b0650e1b6f91d3c269871ba1a0c2d792a1843b",
+   "bytes_read": 794,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "287",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 584,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x302",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/287_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 288
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5b58",
+   "data_entry_offset": "0xe6830",
+   "depth": 3,
+   "data_rva": 1116576,
+   "size": 734,
+   "sha256": "5445cf7147e15e1860eeda256844454776a51f0121a9f8a96531dc414786a789",
+   "bytes_read": 734,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "288",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 524,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x2c6",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/288_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 289
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5b70",
+   "data_entry_offset": "0xe6840",
+   "depth": 3,
+   "data_rva": 1117312,
+   "size": 1526,
+   "sha256": "c9f63990be1ae74810f5719236efcdca3bc263481008a1781159c41ea083717d",
+   "bytes_read": 1526,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "289",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1316,
+    "entry_count": 15,
+    "width": 39,
+    "height": 25,
+    "bits_per_sample": "ptr 0x5de",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/289_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 290
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5b88",
+   "data_entry_offset": "0xe6850",
+   "depth": 3,
+   "data_rva": 1118840,
+   "size": 1540,
+   "sha256": "713545d5b008cbf020b419dbb39053e732776f9554701b1a3bc2245514b0254e",
+   "bytes_read": 1540,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "290",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1330,
+    "entry_count": 15,
+    "width": 39,
+    "height": 25,
+    "bits_per_sample": "ptr 0x5ec",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/290_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 291
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5ba0",
+   "data_entry_offset": "0xe6860",
+   "depth": 3,
+   "data_rva": 1120384,
+   "size": 370,
+   "sha256": "4fc5fcfe7a62fe4d1a977fd9fd2ea929ab841936d6e0ef31a4df23d9920f86b2",
+   "bytes_read": 370,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "291",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 160,
+    "entry_count": 15,
+    "width": 39,
+    "height": 25,
+    "bits_per_sample": "ptr 0x15a",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/291_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 292
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5bb8",
+   "data_entry_offset": "0xe6870",
+   "depth": 3,
+   "data_rva": 1121128,
+   "size": 1530,
+   "sha256": "f0d2b52bf7e7017740db13a3ed14683b6ba619d2b633a85aabefb53f38f68aab",
+   "bytes_read": 1530,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "292",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1320,
+    "entry_count": 15,
+    "width": 39,
+    "height": 25,
+    "bits_per_sample": "ptr 0x5e2",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/292_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 293
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5bd0",
+   "data_entry_offset": "0xe6880",
+   "depth": 3,
+   "data_rva": 1120760,
+   "size": 368,
+   "sha256": "91835eded0515f9c68509e980464cf6a7c77fdb81526be39edb0d4425ac58721",
+   "bytes_read": 368,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "293",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 158,
+    "entry_count": 15,
+    "width": 39,
+    "height": 25,
+    "bits_per_sample": "ptr 0x158",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/293_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 294
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5be8",
+   "data_entry_offset": "0xe6890",
+   "depth": 3,
+   "data_rva": 1122664,
+   "size": 1984,
+   "sha256": "6410bcb98e0215b4d9f7921637c50ff82ebfdeedba3e508cc5f21f5465f93085",
+   "bytes_read": 1984,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "294",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1774,
+    "entry_count": 15,
+    "width": 39,
+    "height": 25,
+    "bits_per_sample": "ptr 0x7a8",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/294_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 295
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5c00",
+   "data_entry_offset": "0xe68a0",
+   "depth": 3,
+   "data_rva": 1124648,
+   "size": 1974,
+   "sha256": "31c419b0a8a0abe06edc4f08ae78e6c90b89741e1345070cfc632a2a6f7cb650",
+   "bytes_read": 1974,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "295",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1764,
+    "entry_count": 15,
+    "width": 39,
+    "height": 25,
+    "bits_per_sample": "ptr 0x79e",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/295_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 296
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5c18",
+   "data_entry_offset": "0xe68b0",
+   "depth": 3,
+   "data_rva": 1126624,
+   "size": 1968,
+   "sha256": "79d61d5f5d15267da97a77a3aff1bd55156785f0f4288d8d58abe49f54e2e317",
+   "bytes_read": 1968,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "296",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1758,
+    "entry_count": 15,
+    "width": 39,
+    "height": 25,
+    "bits_per_sample": "ptr 0x798",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/296_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 297
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5c30",
+   "data_entry_offset": "0xe68c0",
+   "depth": 3,
+   "data_rva": 1128592,
+   "size": 1958,
+   "sha256": "091ff84b05952d5ec0d866a78febea625334493d579524cede2f236f26fc050e",
+   "bytes_read": 1958,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "297",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1748,
+    "entry_count": 15,
+    "width": 39,
+    "height": 25,
+    "bits_per_sample": "ptr 0x78e",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/297_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 298
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5c48",
+   "data_entry_offset": "0xe68d0",
+   "depth": 3,
+   "data_rva": 1065384,
+   "size": 3478,
+   "sha256": "269edf9d94b337cb38d3e942813a227ddcda86993fbba19690d70d0c88512032",
+   "bytes_read": 3478,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "298",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 3220,
+    "entry_count": 15,
+    "width": 310,
+    "height": 51,
+    "bits_per_sample": "ptr 0xd4e",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/298_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 299
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5c60",
+   "data_entry_offset": "0xe68e0",
+   "depth": 3,
+   "data_rva": 1065088,
+   "size": 290,
+   "sha256": "feb86eb9201d642f343e877b463fb6b6db29889641c62b63f9e4f0bd2bfc03d6",
+   "bytes_read": 290,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "299",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 80,
+    "entry_count": 15,
+    "width": 4,
+    "height": 6,
+    "bits_per_sample": "ptr 0x10a",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/299_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 300
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5c78",
+   "data_entry_offset": "0xe68f0",
+   "depth": 3,
+   "data_rva": 1130552,
+   "size": 240,
+   "sha256": "b9a18191886a7676da261237e2143b45f746b373c883edf90ae3887c407d508c",
+   "bytes_read": 240,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "300",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 30,
+    "entry_count": 15,
+    "width": 16,
+    "height": 9,
+    "bits_per_sample": "ptr 0xd8",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/300_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 301
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5c90",
+   "data_entry_offset": "0xe6900",
+   "depth": 3,
+   "data_rva": 1130792,
+   "size": 602,
+   "sha256": "584f97ace44f5427f5175a6d39e264bd928ce54a662a4057d26e56f7ab667adf",
+   "bytes_read": 602,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "301",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 392,
+    "entry_count": 15,
+    "width": 16,
+    "height": 9,
+    "bits_per_sample": "ptr 0x242",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/301_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 302
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5ca8",
+   "data_entry_offset": "0xe6910",
+   "depth": 3,
+   "data_rva": 1131400,
+   "size": 584,
+   "sha256": "94e3448757cc478079985b0b660da29eaf43cb117998d873e238a53c11811abb",
+   "bytes_read": 584,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "302",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 374,
+    "entry_count": 15,
+    "width": 16,
+    "height": 9,
+    "bits_per_sample": "ptr 0x230",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/302_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 303
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5cc0",
+   "data_entry_offset": "0xe6920",
+   "depth": 3,
+   "data_rva": 1131984,
+   "size": 382,
+   "sha256": "e9e0bd35fdc062bdb7fcc75f14e2adaf522471c5a1ec748b01d473b9ec97a04b",
+   "bytes_read": 382,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "303",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 172,
+    "entry_count": 15,
+    "width": 16,
+    "height": 9,
+    "bits_per_sample": "ptr 0x166",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/303_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 304
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5cd8",
+   "data_entry_offset": "0xe6930",
+   "depth": 3,
+   "data_rva": 1132368,
+   "size": 604,
+   "sha256": "1dafc8e560d37bf211c5af90917f6423a57892a0fa07ce808b307e8dc373d1bc",
+   "bytes_read": 604,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "304",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 394,
+    "entry_count": 15,
+    "width": 16,
+    "height": 9,
+    "bits_per_sample": "ptr 0x244",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/304_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 305
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5cf0",
+   "data_entry_offset": "0xe6940",
+   "depth": 3,
+   "data_rva": 1132976,
+   "size": 282,
+   "sha256": "3eef12b7c74332df8d9b113c9965b6062dcbca9f9fac4bb80587bbc01dc53698",
+   "bytes_read": 282,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "305",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 72,
+    "entry_count": 15,
+    "width": 149,
+    "height": 9,
+    "bits_per_sample": "ptr 0x102",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/305_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 306
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5d08",
+   "data_entry_offset": "0xe6950",
+   "depth": 3,
+   "data_rva": 1133264,
+   "size": 480,
+   "sha256": "172e40d2f0f34746ca7ddec501419df9403381d6ecc8c6180f31aa0dce8cd319",
+   "bytes_read": 480,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "306",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 270,
+    "entry_count": 15,
+    "width": 171,
+    "height": 9,
+    "bits_per_sample": "ptr 0x1c8",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/306_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 307
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5d20",
+   "data_entry_offset": "0xe6960",
+   "depth": 3,
+   "data_rva": 1064856,
+   "size": 232,
+   "sha256": "ce33e15cc817b0d4384fb15270fdc99bd2cd4497cb68fe4a7f569fc0f11c57dc",
+   "bytes_read": 232,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "307",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 22,
+    "entry_count": 15,
+    "width": 3,
+    "height": 3,
+    "bits_per_sample": "ptr 0xd0",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/307_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 308
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5d38",
+   "data_entry_offset": "0xe6970",
+   "depth": 3,
+   "data_rva": 1110136,
+   "size": 1364,
+   "sha256": "501fe3c54874bff725a28df97cff336567bc48206392dc02d23767f02b3870e6",
+   "bytes_read": 1364,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "308",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1154,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x53c",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/308_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 309
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5d50",
+   "data_entry_offset": "0xe6980",
+   "depth": 3,
+   "data_rva": 1111504,
+   "size": 744,
+   "sha256": "811b6fb06b064b021aacea16edd62509ef95bb3a5656e89b9c41a14bfe6574e2",
+   "bytes_read": 744,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "309",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 534,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x2d0",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/309_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 314
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5d68",
+   "data_entry_offset": "0xe6990",
+   "depth": 3,
+   "data_rva": 1134912,
+   "size": 1064,
+   "sha256": "f04a851722655fa6e6668f3b8df539121e7805cd53c88a7bad849588e397c3a4",
+   "bytes_read": 1064,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "314",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 838,
+    "entry_count": 15,
+    "width": 102,
+    "height": 34,
+    "bits_per_sample": "ptr 0x400",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/314_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 315
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5d80",
+   "data_entry_offset": "0xe69a0",
+   "depth": 3,
+   "data_rva": 1135976,
+   "size": 348,
+   "sha256": "eaad19936a0957f4afae938136aeb3b7e744b817cc5f0a23d5e24bacab259084",
+   "bytes_read": 348,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "315",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 138,
+    "entry_count": 15,
+    "width": 80,
+    "height": 13,
+    "bits_per_sample": "ptr 0x144",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/315_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 316
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5d98",
+   "data_entry_offset": "0xe69b0",
+   "depth": 3,
+   "data_rva": 1136328,
+   "size": 602,
+   "sha256": "ac33d7d90a6304b00522a60b38ad3430161a4038f5a80913872aded62db259d3",
+   "bytes_read": 602,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "316",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 392,
+    "entry_count": 15,
+    "width": 80,
+    "height": 13,
+    "bits_per_sample": "ptr 0x242",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/316_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 317
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5db0",
+   "data_entry_offset": "0xe69c0",
+   "depth": 3,
+   "data_rva": 1136936,
+   "size": 768,
+   "sha256": "71cda13c66af86d5ae75fe68de1f890d502ab6bb25a68f75517a15965214801c",
+   "bytes_read": 768,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "317",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 558,
+    "entry_count": 15,
+    "width": 12,
+    "height": 13,
+    "bits_per_sample": "ptr 0x2e8",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/317_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 318
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5dc8",
+   "data_entry_offset": "0xe69d0",
+   "depth": 3,
+   "data_rva": 1137704,
+   "size": 788,
+   "sha256": "ce8499096f5d7ecc371bfa942741b356e41fb16be1a6790733f45f01344fa28f",
+   "bytes_read": 788,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "318",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 578,
+    "entry_count": 15,
+    "width": 12,
+    "height": 13,
+    "bits_per_sample": "ptr 0x2fc",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/318_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 319
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5de0",
+   "data_entry_offset": "0xe69e0",
+   "depth": 3,
+   "data_rva": 1138496,
+   "size": 780,
+   "sha256": "b0ab185d3a3efcdd8d9aa76f72add7af632f630ef87b864c535156c36bcdfdb6",
+   "bytes_read": 780,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "319",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 570,
+    "entry_count": 15,
+    "width": 12,
+    "height": 13,
+    "bits_per_sample": "ptr 0x2f4",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/319_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 330
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5df8",
+   "data_entry_offset": "0xe69f0",
+   "depth": 3,
+   "data_rva": 1158992,
+   "size": 462,
+   "sha256": "99ad62c287f37321ba354a017c7b8838b79bf4fd7bb677315d215e2b676477af",
+   "bytes_read": 462,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "330",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 252,
+    "entry_count": 15,
+    "width": 39,
+    "height": 25,
+    "bits_per_sample": "ptr 0x1b6",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/330_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 331
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5e10",
+   "data_entry_offset": "0xe6a00",
+   "depth": 3,
+   "data_rva": 1159456,
+   "size": 462,
+   "sha256": "dcc1686c632e4125ea0ad4e32611f2c1715413ebd85179accb200c3ca46fe86f",
+   "bytes_read": 462,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "331",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 252,
+    "entry_count": 15,
+    "width": 39,
+    "height": 25,
+    "bits_per_sample": "ptr 0x1b6",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/331_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 332
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5e28",
+   "data_entry_offset": "0xe6a10",
+   "depth": 3,
+   "data_rva": 1159920,
+   "size": 604,
+   "sha256": "df6787c7bcb4ecc0c3bc9a4b66540b89e3e69b709248a9b48724b7efd15327f6",
+   "bytes_read": 604,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "332",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 394,
+    "entry_count": 15,
+    "width": 53,
+    "height": 27,
+    "bits_per_sample": "ptr 0x244",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/332_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 333
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5e40",
+   "data_entry_offset": "0xe6a20",
+   "depth": 3,
+   "data_rva": 1161144,
+   "size": 1066,
+   "sha256": "047846809c4d13a023e54f4f19806ada3989aa0c87dd01a54a937895907c9ae4",
+   "bytes_read": 1066,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "333",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 856,
+    "entry_count": 15,
+    "width": 46,
+    "height": 46,
+    "bits_per_sample": "ptr 0x412",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/333_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 334
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5e58",
+   "data_entry_offset": "0xe6a30",
+   "depth": 3,
+   "data_rva": 1162216,
+   "size": 1096,
+   "sha256": "01cdd3772309ac91006d2d47965fb60fffbdfa1edef6b354909cba408fd89d5f",
+   "bytes_read": 1096,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "334",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 886,
+    "entry_count": 15,
+    "width": 46,
+    "height": 46,
+    "bits_per_sample": "ptr 0x430",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/334_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 335
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5e70",
+   "data_entry_offset": "0xe6a40",
+   "depth": 3,
+   "data_rva": 1160528,
+   "size": 616,
+   "sha256": "aad76d28111a03b3cdf80558587d6115c39aead1d98eed5dede85430e5e9f590",
+   "bytes_read": 616,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "335",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 406,
+    "entry_count": 15,
+    "width": 53,
+    "height": 27,
+    "bits_per_sample": "ptr 0x250",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/335_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 336
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5e88",
+   "data_entry_offset": "0xe6a50",
+   "depth": 3,
+   "data_rva": 1164504,
+   "size": 348,
+   "sha256": "e71deab2b1842a3d6c574c9cd3208bfcd263a23247cbe8fd310981b11defa9d4",
+   "bytes_read": 348,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "336",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 138,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x144",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/336_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 337
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5ea0",
+   "data_entry_offset": "0xe6a60",
+   "depth": 3,
+   "data_rva": 1164856,
+   "size": 342,
+   "sha256": "9acfe9ecf1a6ea54289ff39dfd525c63cd9a3b767bb7ac00bb8babf13cff7761",
+   "bytes_read": 342,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "337",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 132,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x13e",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/337_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 338
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5eb8",
+   "data_entry_offset": "0xe6a70",
+   "depth": 3,
+   "data_rva": 1167264,
+   "size": 384,
+   "sha256": "ca986ec5658638907dba5503f337eefe6c1add55a0c30f7a0eab636b7a319573",
+   "bytes_read": 384,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "338",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 174,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x168",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/338_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 339
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5ed0",
+   "data_entry_offset": "0xe6a80",
+   "depth": 3,
+   "data_rva": 1167648,
+   "size": 388,
+   "sha256": "84b2acfcf8381c1216d6466bfb931aebe71f41c0c31a38943568f02cc3afd969",
+   "bytes_read": 388,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "339",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 178,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x16c",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/339_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 340
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5ee8",
+   "data_entry_offset": "0xe6a90",
+   "depth": 3,
+   "data_rva": 1168040,
+   "size": 446,
+   "sha256": "f3d82108c9b3482593b2442a5ef748bfb29cc8ccb315d7be746bf1fe4d2d9648",
+   "bytes_read": 446,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "340",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 236,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x1a6",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/340_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 341
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5f00",
+   "data_entry_offset": "0xe6aa0",
+   "depth": 3,
+   "data_rva": 1168488,
+   "size": 434,
+   "sha256": "8db4a61e3ae3685c59716a49128c4350f3a04226c6cc5eaf5c18cae05c703216",
+   "bytes_read": 434,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "341",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 224,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x19a",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/341_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 342
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5f18",
+   "data_entry_offset": "0xe6ab0",
+   "depth": 3,
+   "data_rva": 1168928,
+   "size": 530,
+   "sha256": "e4bf3330f778be41be033fbea7d43993a2928d5885a616794e1c9aa1fb9e5836",
+   "bytes_read": 530,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "342",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 320,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x1fa",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/342_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 343
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5f30",
+   "data_entry_offset": "0xe6ac0",
+   "depth": 3,
+   "data_rva": 1169464,
+   "size": 526,
+   "sha256": "30bf820eb676c66054eabf6a996d7bfce5052663f1fd87ec1a972c0770e9fc9b",
+   "bytes_read": 526,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "343",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 316,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x1f6",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/343_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 344
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5f48",
+   "data_entry_offset": "0xe6ad0",
+   "depth": 3,
+   "data_rva": 1169992,
+   "size": 624,
+   "sha256": "7660f59b2c19345e963f416d441b8285803619fe86e1db3dc6ce93887d044f09",
+   "bytes_read": 624,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "344",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 414,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x258",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/344_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 345
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5f60",
+   "data_entry_offset": "0xe6ae0",
+   "depth": 3,
+   "data_rva": 1170616,
+   "size": 624,
+   "sha256": "ebb3dddd012cd1fb735343398e8c7a23271e7bdb0ebd4e75d2293c1b9fd43e27",
+   "bytes_read": 624,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "345",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 414,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x258",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/345_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 346
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5f78",
+   "data_entry_offset": "0xe6af0",
+   "depth": 3,
+   "data_rva": 1171240,
+   "size": 560,
+   "sha256": "381ef85696403c1bc69af7e594d2b39cde5e9c0c95ecf8d101dbeccfe26d6693",
+   "bytes_read": 560,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "346",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 350,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x218",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/346_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 347
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5f90",
+   "data_entry_offset": "0xe6b00",
+   "depth": 3,
+   "data_rva": 1171800,
+   "size": 554,
+   "sha256": "2bfcf4620b58b5bb3b957d1a27d178d20a6e0afe0f0408ed14512925b0e66b74",
+   "bytes_read": 554,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "347",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 344,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x212",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/347_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 348
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5fa8",
+   "data_entry_offset": "0xe6b10",
+   "depth": 3,
+   "data_rva": 1172360,
+   "size": 376,
+   "sha256": "59b40d581d685a8ee63e6ae4d714a25e348228ab59555d099798930ecbb1811e",
+   "bytes_read": 376,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "348",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 166,
+    "entry_count": 15,
+    "width": 42,
+    "height": 43,
+    "bits_per_sample": "ptr 0x160",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/348_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 349
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5fc0",
+   "data_entry_offset": "0xe6b20",
+   "depth": 3,
+   "data_rva": 1172736,
+   "size": 388,
+   "sha256": "598ce907dee09f9beb6c97c3cfbc4b0b06a49a0bd451cf5e6130f9df36f8cffc",
+   "bytes_read": 388,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "349",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 178,
+    "entry_count": 15,
+    "width": 42,
+    "height": 43,
+    "bits_per_sample": "ptr 0x16c",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/349_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 350
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5fd8",
+   "data_entry_offset": "0xe6b30",
+   "depth": 3,
+   "data_rva": 1173128,
+   "size": 516,
+   "sha256": "edd0b00408f69084c04c2debdc91b5bdf98b616cc7c92c3a53b8399e5ada344a",
+   "bytes_read": 516,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "350",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 306,
+    "entry_count": 15,
+    "width": 42,
+    "height": 43,
+    "bits_per_sample": "ptr 0x1ec",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/350_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 351
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe5ff0",
+   "data_entry_offset": "0xe6b40",
+   "depth": 3,
+   "data_rva": 1173648,
+   "size": 524,
+   "sha256": "37847b04225a877df439cd8605dc5e24213d85852e48fbbfa19755c315210bb8",
+   "bytes_read": 524,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "351",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 314,
+    "entry_count": 15,
+    "width": 42,
+    "height": 43,
+    "bits_per_sample": "ptr 0x1f4",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/351_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 352
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6008",
+   "data_entry_offset": "0xe6b50",
+   "depth": 3,
+   "data_rva": 1174176,
+   "size": 644,
+   "sha256": "4892d62a1b5885ff0182b427313de3af541caa2bc0f9c1a9c784f25f9d29131f",
+   "bytes_read": 644,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "352",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 434,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x26c",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/352_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 353
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6020",
+   "data_entry_offset": "0xe6b60",
+   "depth": 3,
+   "data_rva": 1174824,
+   "size": 638,
+   "sha256": "2a89b8f18becd0332427fcd444254d240c6fe79c8db26e7f4313c074b6f66bd5",
+   "bytes_read": 638,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "353",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 428,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x266",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/353_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 354
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6038",
+   "data_entry_offset": "0xe6b70",
+   "depth": 3,
+   "data_rva": 1175464,
+   "size": 624,
+   "sha256": "3d4ebaf7e892838c326208f9ed1f3b8b482564cfd14305450c025a1679482026",
+   "bytes_read": 624,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "354",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 414,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x258",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/354_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 355
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6050",
+   "data_entry_offset": "0xe6b80",
+   "depth": 3,
+   "data_rva": 1176088,
+   "size": 600,
+   "sha256": "c3308cff887be9328fa2fc80e2220d2d53e9bc5733a2e9fdbaf86f6f6deb9b01",
+   "bytes_read": 600,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "355",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 390,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x240",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/355_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 356
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6068",
+   "data_entry_offset": "0xe6b90",
+   "depth": 3,
+   "data_rva": 1176688,
+   "size": 316,
+   "sha256": "77eeb031d05c95db297fd146eb22b6dcd05ad8f0e0edfd9ed396951fd7c8dd1f",
+   "bytes_read": 316,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "356",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 106,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x124",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/356_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 357
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6080",
+   "data_entry_offset": "0xe6ba0",
+   "depth": 3,
+   "data_rva": 1177008,
+   "size": 318,
+   "sha256": "dc862e2a986ef9fb3bb7abb2d48cdf3c77abbe5ec94dd6d3be48118da12371f1",
+   "bytes_read": 318,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "357",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 108,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x126",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/357_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 358
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6098",
+   "data_entry_offset": "0xe6bb0",
+   "depth": 3,
+   "data_rva": 1177328,
+   "size": 426,
+   "sha256": "c6d5c4877e5dc4809f0618cdceaa138a8bf6947dd2f6bb11c486be0c8d73ceb1",
+   "bytes_read": 426,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "358",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 216,
+    "entry_count": 15,
+    "width": 39,
+    "height": 25,
+    "bits_per_sample": "ptr 0x192",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/358_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 359
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe60b0",
+   "data_entry_offset": "0xe6bc0",
+   "depth": 3,
+   "data_rva": 1177760,
+   "size": 426,
+   "sha256": "fe5adbe59680b1e9fa07f84c54d41f43b2816c9b9573825cde14f90c10f5568b",
+   "bytes_read": 426,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "359",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 216,
+    "entry_count": 15,
+    "width": 39,
+    "height": 25,
+    "bits_per_sample": "ptr 0x192",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/359_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 360
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe60c8",
+   "data_entry_offset": "0xe6bd0",
+   "depth": 3,
+   "data_rva": 1178192,
+   "size": 262,
+   "sha256": "07d11c8f1a38c1d95a9736f45c6275767c1cc79beb9d582ca0619160499aab5a",
+   "bytes_read": 262,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "360",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 52,
+    "entry_count": 15,
+    "width": 150,
+    "height": 9,
+    "bits_per_sample": "ptr 0xee",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/360_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 361
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe60e0",
+   "data_entry_offset": "0xe6be0",
+   "depth": 3,
+   "data_rva": 1178456,
+   "size": 264,
+   "sha256": "8630420bcd2bf69511cea983716c3a93fa80d744df5443daafdef73017d6982f",
+   "bytes_read": 264,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "361",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 54,
+    "entry_count": 15,
+    "width": 150,
+    "height": 9,
+    "bits_per_sample": "ptr 0xf0",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/361_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 362
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe60f8",
+   "data_entry_offset": "0xe6bf0",
+   "depth": 3,
+   "data_rva": 1178720,
+   "size": 264,
+   "sha256": "8630420bcd2bf69511cea983716c3a93fa80d744df5443daafdef73017d6982f",
+   "bytes_read": 264,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "362",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 54,
+    "entry_count": 15,
+    "width": 150,
+    "height": 9,
+    "bits_per_sample": "ptr 0xf0",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/362_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 363
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6110",
+   "data_entry_offset": "0xe6c00",
+   "depth": 3,
+   "data_rva": 1178984,
+   "size": 262,
+   "sha256": "07d11c8f1a38c1d95a9736f45c6275767c1cc79beb9d582ca0619160499aab5a",
+   "bytes_read": 262,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "363",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 52,
+    "entry_count": 15,
+    "width": 150,
+    "height": 9,
+    "bits_per_sample": "ptr 0xee",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/363_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 364
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6128",
+   "data_entry_offset": "0xe6c10",
+   "depth": 3,
+   "data_rva": 1179248,
+   "size": 320,
+   "sha256": "9488cf6a7b8e6ad097ec7bdb71ac082cc8dbafd64b1cca559cf49abc03e7a5f8",
+   "bytes_read": 320,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "364",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 110,
+    "entry_count": 15,
+    "width": 16,
+    "height": 9,
+    "bits_per_sample": "ptr 0x128",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/364_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 365
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6140",
+   "data_entry_offset": "0xe6c20",
+   "depth": 3,
+   "data_rva": 1179568,
+   "size": 324,
+   "sha256": "e59a26d67992dc7ded9b0f223ceee8606a04d997a8e54b3e377f2477394e505f",
+   "bytes_read": 324,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "365",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 114,
+    "entry_count": 15,
+    "width": 16,
+    "height": 9,
+    "bits_per_sample": "ptr 0x12c",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/365_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 366
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6158",
+   "data_entry_offset": "0xe6c30",
+   "depth": 3,
+   "data_rva": 1179896,
+   "size": 432,
+   "sha256": "467191f8389c4683951828fc8c0505b4ff2327edac382d87d1dc672026696425",
+   "bytes_read": 432,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "366",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 222,
+    "entry_count": 15,
+    "width": 12,
+    "height": 13,
+    "bits_per_sample": "ptr 0x198",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/366_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 367
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6170",
+   "data_entry_offset": "0xe6c40",
+   "depth": 3,
+   "data_rva": 1180328,
+   "size": 434,
+   "sha256": "b6aa2d5e58284db0510600b26d20542bafc8150642fb082b365d9693a0a80df1",
+   "bytes_read": 434,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "367",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 224,
+    "entry_count": 15,
+    "width": 12,
+    "height": 13,
+    "bits_per_sample": "ptr 0x19a",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/367_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 368
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6188",
+   "data_entry_offset": "0xe6c50",
+   "depth": 3,
+   "data_rva": 1180768,
+   "size": 256,
+   "sha256": "78d3786b0d6ef16438e046786d3ead913f24dd5de5f5db57b2fea3f9c002c911",
+   "bytes_read": 256,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "368",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 46,
+    "entry_count": 15,
+    "width": 80,
+    "height": 13,
+    "bits_per_sample": "ptr 0xe8",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/368_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 369
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe61a0",
+   "data_entry_offset": "0xe6c60",
+   "depth": 3,
+   "data_rva": 1181024,
+   "size": 256,
+   "sha256": "0500afb012aa1ba0aa41570f2f7193078cf8521b2c70fa8a23f9576e60f8909f",
+   "bytes_read": 256,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "369",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 46,
+    "entry_count": 15,
+    "width": 80,
+    "height": 13,
+    "bits_per_sample": "ptr 0xe8",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/369_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 370
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe61b8",
+   "data_entry_offset": "0xe6c70",
+   "depth": 3,
+   "data_rva": 1163312,
+   "size": 600,
+   "sha256": "3e0bd0276745206b5c78aed2c77eb4734f3b3a5a4b64adabbed3297293a1b292",
+   "bytes_read": 600,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "370",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 390,
+    "entry_count": 15,
+    "width": 53,
+    "height": 27,
+    "bits_per_sample": "ptr 0x240",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/370_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 371
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe61d0",
+   "data_entry_offset": "0xe6c80",
+   "depth": 3,
+   "data_rva": 1163912,
+   "size": 592,
+   "sha256": "32afa314f65c1d06ec41e7d80b5f0f714cc42c5c4418415e1698b8fd5f0b7b52",
+   "bytes_read": 592,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "371",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 382,
+    "entry_count": 15,
+    "width": 53,
+    "height": 27,
+    "bits_per_sample": "ptr 0x238",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/371_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 372
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe61e8",
+   "data_entry_offset": "0xe6c90",
+   "depth": 3,
+   "data_rva": 1181280,
+   "size": 2268,
+   "sha256": "68d11d43b2fd07b2af5e70b3a51472fa98a9d02b7cbcfe456c594df03cdf9dc4",
+   "bytes_read": 2268,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "372",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 2010,
+    "entry_count": 15,
+    "width": 310,
+    "height": 51,
+    "bits_per_sample": "ptr 0x894",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/372_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 373
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6200",
+   "data_entry_offset": "0xe6ca0",
+   "depth": 3,
+   "data_rva": 1183552,
+   "size": 1714,
+   "sha256": "00eb2cf4daef81714c001e5633fc835ed39776c644274798f07953773422af39",
+   "bytes_read": 1714,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "373",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 1456,
+    "entry_count": 15,
+    "width": 310,
+    "height": 51,
+    "bits_per_sample": "ptr 0x66a",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/373_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 374
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6218",
+   "data_entry_offset": "0xe6cb0",
+   "depth": 3,
+   "data_rva": 1185272,
+   "size": 526,
+   "sha256": "5a6bdde3cacbbafdc1891ddf76dd40695ab8b2098a9a718406e1cedd4e5ec9f2",
+   "bytes_read": 526,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "374",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 316,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x1f6",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/374_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 375
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6230",
+   "data_entry_offset": "0xe6cc0",
+   "depth": 3,
+   "data_rva": 1185800,
+   "size": 532,
+   "sha256": "00280893768ecad91c60a70f7acd2f45e8586b3112c941380bfe35367a13f60a",
+   "bytes_read": 532,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "375",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 322,
+    "entry_count": 15,
+    "width": 25,
+    "height": 25,
+    "bits_per_sample": "ptr 0x1fc",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/375_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 376
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6248",
+   "data_entry_offset": "0xe6cd0",
+   "depth": 3,
+   "data_rva": 1165200,
+   "size": 512,
+   "sha256": "b2e5daa8f24813c24a24581d7f35ceec0e546e833f54fd4992a3976f547af310",
+   "bytes_read": 512,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "376",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 302,
+    "entry_count": 15,
+    "width": 53,
+    "height": 25,
+    "bits_per_sample": "ptr 0x1e8",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/376_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 377
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6260",
+   "data_entry_offset": "0xe6ce0",
+   "depth": 3,
+   "data_rva": 1165712,
+   "size": 488,
+   "sha256": "630a01c812c63c68bfbb478970e8ec517824d475b54014cf62e5ff55aec18f85",
+   "bytes_read": 488,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "377",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 278,
+    "entry_count": 15,
+    "width": 53,
+    "height": 25,
+    "bits_per_sample": "ptr 0x1d0",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/377_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 378
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6278",
+   "data_entry_offset": "0xe6cf0",
+   "depth": 3,
+   "data_rva": 1166200,
+   "size": 532,
+   "sha256": "1d7ea0f677017bfe74d1f140d00b7280f9a2f07e33d45d6325cecb76f4b085d6",
+   "bytes_read": 532,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "378",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 322,
+    "entry_count": 15,
+    "width": 53,
+    "height": 25,
+    "bits_per_sample": "ptr 0x1fc",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/378_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "IMAGE"
+    },
+    {
+     "kind": "id",
+     "id": 379
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6290",
+   "data_entry_offset": "0xe6d00",
+   "depth": 3,
+   "data_rva": 1166736,
+   "size": 526,
+   "sha256": "b37011aaccfdbdd50ef0112f39a3eba68f0f1448be49f31ff5a0d1d8d5a0c691",
+   "bytes_read": 526,
+   "truncated": false,
+   "type": "IMAGE",
+   "name": "379",
+   "language": "en-US",
+   "decoded": {
+    "byte_order": "little",
+    "ifd_offset": 316,
+    "entry_count": 15,
+    "width": 53,
+    "height": 25,
+    "bits_per_sample": "ptr 0x1f6",
+    "compression": 8,
+    "photometric": 2,
+    "samples_per_pixel": 4,
+    "tag_ids": [
+     254,
+     256,
+     257,
+     258,
+     259,
+     262,
+     273,
+     277,
+     278,
+     279,
+     282,
+     283,
+     284,
+     296,
+     338
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/IMAGE/raw/379_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe62a8",
+   "data_entry_offset": "0xe6d10",
+   "depth": 3,
+   "data_rva": 1222328,
+   "size": 280,
+   "sha256": "6f8bcb22d0293780a6b91d9c77d9b7ca50994cf7e6f06aaab18a8c2a6b6d8913",
+   "bytes_read": 280,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "language_tag": "en-US",
+    "localized_type_ids": [
+     4,
+     5,
+     6,
+     9,
+     11,
+     16
+    ],
+    "localized_type_names": [
+     "RT_MENU",
+     "RT_DIALOG",
+     "RT_STRING",
+     "RT_ACCELERATOR",
+     "RT_MESSAGETABLE",
+     "RT_VERSION"
+    ],
+    "matches_sibling": true,
+    "matches_same_artifact": false
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/MUI/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "UIFILE"
+    },
+    {
+     "kind": "id",
+     "id": 201
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe62c0",
+   "data_entry_offset": "0xe6d20",
+   "depth": 3,
+   "data_rva": 1186336,
+   "size": 33354,
+   "sha256": "d89320857bca491feaa97f146f134f322e6e67017fb315f2e7368802f0ff1146",
+   "bytes_read": 33354,
+   "truncated": false,
+   "type": "UIFILE",
+   "name": "201",
+   "language": "en-US",
+   "decoded": {
+    "format": "WMP DUI markup (<duixml>)",
+    "root": "<duixml>",
+    "lines": 725,
+    "resids": 62
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/UIFILE/201_en-US.xml"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "UIFILE"
+    },
+    {
+     "kind": "id",
+     "id": 202
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe62d8",
+   "data_entry_offset": "0xe6d30",
+   "depth": 3,
+   "data_rva": 1219696,
+   "size": 2625,
+   "sha256": "58ca41a523f0e4a31eeaaf1618255252eccd069f4385eeab68c369e491ee84cf",
+   "bytes_read": 2625,
+   "truncated": false,
+   "type": "UIFILE",
+   "name": "202",
+   "language": "en-US",
+   "decoded": {
+    "format": "WMP DUI markup (<duixml>)",
+    "root": "<duixml>",
+    "lines": 75,
+    "resids": 4
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/UIFILE/202_en-US.xml"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "WEVT_TEMPLATE"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe62f0",
+   "data_entry_offset": "0xe6d40",
+   "depth": 3,
+   "data_rva": 974872,
+   "size": 1570,
+   "sha256": "ae14a5b1e1f2f5f8b9ba38845f8ec47122c46fea2c694d199479a7b50a039e97",
+   "bytes_read": 1570,
+   "truncated": false,
+   "type": "WEVT_TEMPLATE",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "magic": "CRIM",
+    "declared_size": 1568,
+    "note": "ETW event-manifest template; binary schema not decoded here"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/WEVT_TEMPLATE/raw/1_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6308",
+   "data_entry_offset": "0xe6d50",
+   "depth": 3,
+   "data_rva": 977432,
+   "size": 1640,
+   "sha256": "4eeaacd8194d4fc207632afdf6e1138f5f7a58b66d2a0bf8fd10c4cad19788c0",
+   "bytes_read": 1640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1640,
+    "sha256": "4eeaacd8194d4fc207632afdf6e1138f5f7a58b66d2a0bf8fd10c4cad19788c0"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/1_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6320",
+   "data_entry_offset": "0xe6d60",
+   "depth": 3,
+   "data_rva": 979072,
+   "size": 744,
+   "sha256": "d328a1341b4a912367aba07b75f414dd1ac9132401731dc3ff787046020203ad",
+   "bytes_read": 744,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "2",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 744,
+    "sha256": "d328a1341b4a912367aba07b75f414dd1ac9132401731dc3ff787046020203ad"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/2_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6338",
+   "data_entry_offset": "0xe6d70",
+   "depth": 3,
+   "data_rva": 979816,
+   "size": 488,
+   "sha256": "b55fba0dae01aadf8e19e557bd61adb1060c6dd7c329d9965bef772ba2c0db85",
+   "bytes_read": 488,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "3",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 488,
+    "sha256": "b55fba0dae01aadf8e19e557bd61adb1060c6dd7c329d9965bef772ba2c0db85"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/3_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 4
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6350",
+   "data_entry_offset": "0xe6d80",
+   "depth": 3,
+   "data_rva": 980304,
+   "size": 296,
+   "sha256": "8f6e3debedb90f3fbc1f73457568e655c9a632a047a9f51f42c681d8109de1ba",
+   "bytes_read": 296,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "4",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 296,
+    "sha256": "8f6e3debedb90f3fbc1f73457568e655c9a632a047a9f51f42c681d8109de1ba"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/4_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 5
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6368",
+   "data_entry_offset": "0xe6d90",
+   "depth": 3,
+   "data_rva": 980600,
+   "size": 3752,
+   "sha256": "a16f91ee9bbeea4ab736993f90f4f5cd6afd799ad647b4fb60eaa974e32a677a",
+   "bytes_read": 3752,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "5",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 3752,
+    "sha256": "a16f91ee9bbeea4ab736993f90f4f5cd6afd799ad647b4fb60eaa974e32a677a"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/5_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6380",
+   "data_entry_offset": "0xe6da0",
+   "depth": 3,
+   "data_rva": 984352,
+   "size": 2216,
+   "sha256": "a94c56ab991dfcca8caf7d1fa921209315f3efed9744c2eed0be8d37007ed2da",
+   "bytes_read": 2216,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "6",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2216,
+    "sha256": "a94c56ab991dfcca8caf7d1fa921209315f3efed9744c2eed0be8d37007ed2da"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/6_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 7
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6398",
+   "data_entry_offset": "0xe6db0",
+   "depth": 3,
+   "data_rva": 986568,
+   "size": 1736,
+   "sha256": "298ddcdcfffe38a4141848649babd58f1fe7a5dd98b17147c026ef40560b61d7",
+   "bytes_read": 1736,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "7",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1736,
+    "sha256": "298ddcdcfffe38a4141848649babd58f1fe7a5dd98b17147c026ef40560b61d7"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/7_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 8
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe63b0",
+   "data_entry_offset": "0xe6dc0",
+   "depth": 3,
+   "data_rva": 988304,
+   "size": 1384,
+   "sha256": "d346d4a7ef3664e35714242e8332478920cdd1f93954916765e64c4435b103c9",
+   "bytes_read": 1384,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "8",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1384,
+    "sha256": "d346d4a7ef3664e35714242e8332478920cdd1f93954916765e64c4435b103c9"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/8_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 9
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe63c8",
+   "data_entry_offset": "0xe6dd0",
+   "depth": 3,
+   "data_rva": 989688,
+   "size": 37998,
+   "sha256": "5ba32d3b08f8a38b3eeed2fdf21560b02e3bffa02e6a5f8f791ce27bf4933194",
+   "bytes_read": 37998,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "9",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 37998,
+    "sha256": "5ba32d3b08f8a38b3eeed2fdf21560b02e3bffa02e6a5f8f791ce27bf4933194"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/9_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe63e0",
+   "data_entry_offset": "0xe6de0",
+   "depth": 3,
+   "data_rva": 1027688,
+   "size": 9640,
+   "sha256": "45bde6583d8aa313f85bc751a2b4016782d7dcd12d4771f4d211ed16350e4346",
+   "bytes_read": 9640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "10",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 9640,
+    "sha256": "45bde6583d8aa313f85bc751a2b4016782d7dcd12d4771f4d211ed16350e4346"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/10_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 11
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe63f8",
+   "data_entry_offset": "0xe6df0",
+   "depth": 3,
+   "data_rva": 1037328,
+   "size": 4264,
+   "sha256": "167ffb1312165b7bec8721ca9bf078e8e6a2f2b75bb78b3630494f6bf8780b66",
+   "bytes_read": 4264,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "11",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 4264,
+    "sha256": "167ffb1312165b7bec8721ca9bf078e8e6a2f2b75bb78b3630494f6bf8780b66"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/11_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 12
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6410",
+   "data_entry_offset": "0xe6e00",
+   "depth": 3,
+   "data_rva": 1041592,
+   "size": 2440,
+   "sha256": "9dbbdda09316d8fcf4d8ffc00a8bf24b274a66c7b05586451448b7b78a5a91f7",
+   "bytes_read": 2440,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "12",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2440,
+    "sha256": "9dbbdda09316d8fcf4d8ffc00a8bf24b274a66c7b05586451448b7b78a5a91f7"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/12_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 13
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6428",
+   "data_entry_offset": "0xe6e10",
+   "depth": 3,
+   "data_rva": 1044032,
+   "size": 1128,
+   "sha256": "ce8a720ad6af9591d5095d16e1c7ab0f7c7be9fb8cd923f3372beba4942a6e75",
+   "bytes_read": 1128,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "13",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1128,
+    "sha256": "ce8a720ad6af9591d5095d16e1c7ab0f7c7be9fb8cd923f3372beba4942a6e75"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/13_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6440",
+   "data_entry_offset": "0xe6e20",
+   "depth": 3,
+   "data_rva": 1045352,
+   "size": 744,
+   "sha256": "371a00cbc826e95c9846e8dc42dcb1cb04686895190bd6483d4d2b31fdc92bb0",
+   "bytes_read": 744,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "14",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 744,
+    "sha256": "371a00cbc826e95c9846e8dc42dcb1cb04686895190bd6483d4d2b31fdc92bb0"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/14_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 15
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6458",
+   "data_entry_offset": "0xe6e30",
+   "depth": 3,
+   "data_rva": 1046096,
+   "size": 488,
+   "sha256": "d446ab8b4ce98717a9f87ab345ecd067820bd24b767fc70b2beb2be7a52e14b3",
+   "bytes_read": 488,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "15",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 488,
+    "sha256": "d446ab8b4ce98717a9f87ab345ecd067820bd24b767fc70b2beb2be7a52e14b3"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/15_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6470",
+   "data_entry_offset": "0xe6e40",
+   "depth": 3,
+   "data_rva": 1046584,
+   "size": 424,
+   "sha256": "1afb67dfedf4dba280ba97eaf2b83e625f1ecd838696ed7635e241584e099aa1",
+   "bytes_read": 424,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "16",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 424,
+    "sha256": "1afb67dfedf4dba280ba97eaf2b83e625f1ecd838696ed7635e241584e099aa1"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/16_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 17
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6488",
+   "data_entry_offset": "0xe6e50",
+   "depth": 3,
+   "data_rva": 1047008,
+   "size": 296,
+   "sha256": "de05493e5b09275219b11a6877a9930f0e0e089f5d9418cf24123b946be32ef2",
+   "bytes_read": 296,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "17",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 296,
+    "sha256": "de05493e5b09275219b11a6877a9930f0e0e089f5d9418cf24123b946be32ef2"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/17_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 18
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe64a0",
+   "data_entry_offset": "0xe6e60",
+   "depth": 3,
+   "data_rva": 1047304,
+   "size": 2216,
+   "sha256": "ca9d60b8747bd3994e0498ffb2e2b9c02e99f17bb01ef4f48390152d12aa510d",
+   "bytes_read": 2216,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "18",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2216,
+    "sha256": "ca9d60b8747bd3994e0498ffb2e2b9c02e99f17bb01ef4f48390152d12aa510d"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/18_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 19
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe64b8",
+   "data_entry_offset": "0xe6e70",
+   "depth": 3,
+   "data_rva": 1049520,
+   "size": 1736,
+   "sha256": "f8ec5d36c9e19b36ef3821b4bd120c2d1762151b6a662569c1e5964d303cef7e",
+   "bytes_read": 1736,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "19",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1736,
+    "sha256": "f8ec5d36c9e19b36ef3821b4bd120c2d1762151b6a662569c1e5964d303cef7e"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/19_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 20
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe64d0",
+   "data_entry_offset": "0xe6e80",
+   "depth": 3,
+   "data_rva": 1051256,
+   "size": 1544,
+   "sha256": "421a7df87dff076c284be75a520a22aa7230aa573ad57081421624961e989cc8",
+   "bytes_read": 1544,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "20",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1544,
+    "sha256": "421a7df87dff076c284be75a520a22aa7230aa573ad57081421624961e989cc8"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/20_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 21
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe64e8",
+   "data_entry_offset": "0xe6e90",
+   "depth": 3,
+   "data_rva": 1052800,
+   "size": 1384,
+   "sha256": "1948e44e073c3a4f86e85574b685894e17e0ee76cc47ed3fead6fe394e45e79e",
+   "bytes_read": 1384,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "21",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1384,
+    "sha256": "1948e44e073c3a4f86e85574b685894e17e0ee76cc47ed3fead6fe394e45e79e"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/21_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 22
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6500",
+   "data_entry_offset": "0xe6ea0",
+   "depth": 3,
+   "data_rva": 1054184,
+   "size": 4264,
+   "sha256": "c4b565c1163dea932c565fb58d36b09e3ec113a7d08e67af3e94b61d69bcf575",
+   "bytes_read": 4264,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "22",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 4264,
+    "sha256": "c4b565c1163dea932c565fb58d36b09e3ec113a7d08e67af3e94b61d69bcf575"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/22_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 23
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6518",
+   "data_entry_offset": "0xe6eb0",
+   "depth": 3,
+   "data_rva": 1058448,
+   "size": 2440,
+   "sha256": "a60e9d5152e66418758b9863a286090612c606834ec2dd9ee5fba646c3affd8d",
+   "bytes_read": 2440,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "23",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2440,
+    "sha256": "a60e9d5152e66418758b9863a286090612c606834ec2dd9ee5fba646c3affd8d"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/23_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 24
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6530",
+   "data_entry_offset": "0xe6ec0",
+   "depth": 3,
+   "data_rva": 1060888,
+   "size": 1720,
+   "sha256": "aaa56ad31816ea0fae1add9217c534b8ad754d61b55115dfc08ce9d0d99d6b28",
+   "bytes_read": 1720,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "24",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1720,
+    "sha256": "aaa56ad31816ea0fae1add9217c534b8ad754d61b55115dfc08ce9d0d99d6b28"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/24_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 25
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6548",
+   "data_entry_offset": "0xe6ed0",
+   "depth": 3,
+   "data_rva": 1062608,
+   "size": 1128,
+   "sha256": "ce8a720ad6af9591d5095d16e1c7ab0f7c7be9fb8cd923f3372beba4942a6e75",
+   "bytes_read": 1128,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "25",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1128,
+    "sha256": "ce8a720ad6af9591d5095d16e1c7ab0f7c7be9fb8cd923f3372beba4942a6e75"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_ICON/raw/25_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 107
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6560",
+   "data_entry_offset": "0xe6ee0",
+   "depth": 3,
+   "data_rva": 1045160,
+   "size": 188,
+   "sha256": "f3b91cd61ad62d929214282c6c3f9200ae0814ea2321fed35a84207ca287f78f",
+   "bytes_read": 188,
+   "truncated": false,
+   "type": "RT_GROUP_ICON",
+   "name": "107",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_GROUP_ICON/107_en-US.ico",
+   "decoded": {
+    "ico_bytes": 67940
+   }
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 116
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6578",
+   "data_entry_offset": "0xe6ef0",
+   "depth": 3,
+   "data_rva": 1063736,
+   "size": 174,
+   "sha256": "ff4989eca989e9d65d14a1c6da3cc807713c1f7de72c1d037d404f2f3cdbd4da",
+   "bytes_read": 174,
+   "truncated": false,
+   "type": "RT_GROUP_ICON",
+   "name": "116",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_GROUP_ICON/116_en-US.ico",
+   "decoded": {
+    "ico_bytes": 18582
+   }
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe6590",
+   "data_entry_offset": "0xe6f00",
+   "depth": 3,
+   "data_rva": 976448,
+   "size": 984,
+   "sha256": "7f951f7ff5aafbe08cffa7b963971d97624a9c0294da2d7a8c346713bc265aa4",
+   "bytes_read": 984,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Windows Media Player Digital Media Controller Application",
+    "FileVersion": "12.0.7601.17514 (win7sp1_rtm.101119-1850)",
+    "InternalName": "WMPDMC",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. All rights reserved.",
+    "OriginalFilename": "WMPDMC.exe",
+    "ProductName": "Microsoft\u00c2\u00ae Windows\u00c2\u00ae Operating System",
+    "ProductVersion": "12.0.7601.17514",
+    "StringFileInfo_utf8": {
+     "LegalCopyright": "\u00a9 Microsoft Corporation. All rights reserved.",
+     "ProductName": "Microsoft\u00ae Windows\u00ae Operating System"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_VERSION/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 24
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0xe65a8",
+   "data_entry_offset": "0xe6f10",
+   "depth": 3,
+   "data_rva": 974176,
+   "size": 691,
+   "sha256": "d377c9a6b42116ed338162538657cea1a1081e35f88ba530aff1d695731bb3e4",
+   "bytes_read": 691,
+   "truncated": false,
+   "type": "RT_MANIFEST",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "first_line": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>",
+    "root_element": "assembly"
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe/RT_MANIFEST/1_en-US.xml"
+  }
+ ]
+}

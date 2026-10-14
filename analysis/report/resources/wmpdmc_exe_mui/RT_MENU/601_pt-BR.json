@@ -1,0 +1,37 @@
+{
+ "items": [
+  {
+   "depth": 0,
+   "option": "0x0090",
+   "text": "",
+   "popup": true,
+   "end_of_level": true,
+   "id": null
+  },
+  {
+   "depth": 1,
+   "option": "0x0000",
+   "text": "&Mover para Cima\tCtrl+Seta para Cima",
+   "popup": false,
+   "end_of_level": false,
+   "id": 602
+  },
+  {
+   "depth": 1,
+   "option": "0x0000",
+   "text": "Mover para &Baixo\tCtrl+Seta para Baixo",
+   "popup": false,
+   "end_of_level": false,
+   "id": 603
+  },
+  {
+   "depth": 1,
+   "option": "0x0080",
+   "text": "&Remover da lista\tDel",
+   "popup": false,
+   "end_of_level": true,
+   "id": 604
+  }
+ ],
+ "item_count": 4
+}

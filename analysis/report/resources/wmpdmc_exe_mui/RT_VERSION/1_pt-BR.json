@@ -1,0 +1,18 @@
+{
+ "StringFileInfo": {
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Aplicativo Controlador de M\u00c3\u00addia Digital do Windows Media Player",
+  "FileVersion": "12.0.7600.16385 (win7_rtm.090713-1255)",
+  "InternalName": "WMPDMC",
+  "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation.  Todos os direitos reservados.",
+  "OriginalFilename": "WMPDMC.exe.mui",
+  "ProductName": "Sistema Operacional Microsoft\u00c2\u00ae Windows\u00c2\u00ae",
+  "ProductVersion": "12.0.7600.16385"
+ },
+ "StringFileInfo_utf8": {
+  "FileDescription": "Aplicativo Controlador de M\u00eddia Digital do Windows Media Player",
+  "LegalCopyright": "\u00a9 Microsoft Corporation.  Todos os direitos reservados.",
+  "ProductName": "Sistema Operacional Microsoft\u00ae Windows\u00ae"
+ },
+ "parse_error": "TypeError: unsupported format string passed to bytes.__format__"
+}

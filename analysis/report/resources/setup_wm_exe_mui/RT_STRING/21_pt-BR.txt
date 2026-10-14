@@ -1,0 +1,14 @@
+321	Os Requisitos de Sistema não foram atendidos.
+322	Outra atualização está em andamento. Aguarde até sua conclusão e execute a Instalação do Windows Media Player novamente, ou, se parecer que a atualização parou de responder, reinicie o Windows e execute a Instalação do Windows Media Player.
+323	Atualização do computador em andamento; não é possível continuar a Instalação:
+324	Para instalar o Windows Media Player, o computador deve estar executando o Windows XP Media Center Edition 2005 ou posterior.
+326	Nenhuma atualização do Windows Media Player para o seu computador está disponível para download e instalação neste momento.
+327	Obtendo informações da loja: aguarde...
+328	http://go.microsoft.com/fwlink/?LinkId=120762
+329	Algumas informações não foram importadas para o Player, inclusive classificações e contadores.
+330	A instalação não pôde copiar alguns ou todos os arquivos de capa.
+331	Não há espaço livre em disco suficiente para desinstalar o Windows Media Player. O disco deve ter pelo menos 50 MB de espaço livre. Libere espaço adicional no disco rígido e continue com a instalação.
+332	Atualizar Software de Loja
+333	Há menos de 50 MB de espaço livre em disco no computador. Recomenda-se cancelar a instalação, excluir arquivos desnecessários do disco rígido e retomar a instalação.
+334	Idiomas incompatíveis do Windows Media Player.
+335	A versão do Windows Media Player que você está tentando instalar é igual à instalada atualmente, exceto pelo idioma. Para alterar o idioma, primeiro desinstale o Player atual usando Adicionar e Remover Programas, e instale a versão de idioma desejada.

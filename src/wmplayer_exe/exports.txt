@@ -1,0 +1,2 @@
+# Exported symbols — bin/wmplayer.exe (SHA-256 883d9616dfc7586fa88c58013f70e055df9328f3cfc3ef39898c15c6970fb0db)
+# (no exported symbols; this image is an executable or a resource-only module)

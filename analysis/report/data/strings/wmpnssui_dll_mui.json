@@ -1,0 +1,441 @@
+{
+ "module": "wmpnssui_dll_mui",
+ "artifact": "bin/pt-BR/wmpnssui.dll.mui",
+ "counts": {
+  "ascii": 5,
+  "utf16": 34,
+  "unique": 39
+ },
+ "strings": [
+  {
+   "text": "!This program cannot be run in DOS mode.",
+   "offset": "0x4d",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "RichE",
+   "offset": "0xa0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".rsrc",
+   "offset": "0x1c0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "a,dc[\"~",
+   "offset": "0x36d",
+   "kind": "ascii",
+   "rva": "0x116d",
+   "va": "0x18000116d",
+   "tags": []
+  },
+  {
+   "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD",
+   "offset": "0x9d4",
+   "kind": "ascii",
+   "rva": "0x17d4",
+   "va": "0x1800017d4",
+   "tags": []
+  },
+  {
+   "text": "pt-BR",
+   "offset": "0x3e0",
+   "kind": "utf16",
+   "rva": "0x11e0",
+   "va": "0x1800011e0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Reproduzir em*Permitir transmiss",
+   "offset": "0x404",
+   "kind": "utf16",
+   "rva": "0x1204",
+   "va": "0x180001204",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para este dispositivo*Bloquear transmiss",
+   "offset": "0x446",
+   "kind": "utf16",
+   "rva": "0x1246",
+   "va": "0x180001246",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para este dispositivo",
+   "offset": "0x49c",
+   "kind": "utf16",
+   "rva": "0x129c",
+   "va": "0x18000129c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Falha ao Reproduzir",
+   "offset": "0x4cc",
+   "kind": "utf16",
+   "rva": "0x12cc",
+   "va": "0x1800012cc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Erro",
+   "offset": "0x4f4",
+   "kind": "utf16",
+   "rva": "0x12f4",
+   "va": "0x1800012f4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de streaming de m",
+   "offset": "0x506",
+   "kind": "utf16",
+   "rva": "0x1306",
+   "va": "0x180001306",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Iniciar",
+   "offset": "0x564",
+   "kind": "utf16",
+   "rva": "0x1364",
+   "va": "0x180001364",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Parar",
+   "offset": "0x57c",
+   "kind": "utf16",
+   "rva": "0x137c",
+   "va": "0x18000137c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Informa",
+   "offset": "0x590",
+   "kind": "utf16",
+   "rva": "0x1390",
+   "va": "0x180001390",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft-Windows-WMPNSSUI",
+   "offset": "0x5b0",
+   "kind": "utf16",
+   "rva": "0x13b0",
+   "va": "0x1800013b0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VS_VERSION_INFO",
+   "offset": "0x5f2",
+   "kind": "utf16",
+   "rva": "0x13f2",
+   "va": "0x1800013f2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "StringFileInfo",
+   "offset": "0x64e",
+   "kind": "utf16",
+   "rva": "0x144e",
+   "va": "0x18000144e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "041604B0",
+   "offset": "0x672",
+   "kind": "utf16",
+   "rva": "0x1472",
+   "va": "0x180001472",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CompanyName",
+   "offset": "0x68a",
+   "kind": "utf16",
+   "rva": "0x148a",
+   "va": "0x18000148a",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft Corporation",
+   "offset": "0x6a4",
+   "kind": "utf16",
+   "rva": "0x14a4",
+   "va": "0x1800014a4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileDescription",
+   "offset": "0x6d6",
+   "kind": "utf16",
+   "rva": "0x14d6",
+   "va": "0x1800014d6",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Extens",
+   "offset": "0x6f8",
+   "kind": "utf16",
+   "rva": "0x14f8",
+   "va": "0x1800014f8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es do shell WMPNSS do Windows Media Player",
+   "offset": "0x706",
+   "kind": "utf16",
+   "rva": "0x1506",
+   "va": "0x180001506",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileVersion",
+   "offset": "0x762",
+   "kind": "utf16",
+   "rva": "0x1562",
+   "va": "0x180001562",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "6.1.7600.16385 (win7_rtm.090713-1255)",
+   "offset": "0x77c",
+   "kind": "utf16",
+   "rva": "0x157c",
+   "va": "0x18000157c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InternalName",
+   "offset": "0x7ce",
+   "kind": "utf16",
+   "rva": "0x15ce",
+   "va": "0x1800015ce",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMPNSSUI",
+   "offset": "0x7e8",
+   "kind": "utf16",
+   "rva": "0x15e8",
+   "va": "0x1800015e8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LegalCopyright",
+   "offset": "0x802",
+   "kind": "utf16",
+   "rva": "0x1602",
+   "va": "0x180001602",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Microsoft Corporation. Todos os direitos reservados.",
+   "offset": "0x822",
+   "kind": "utf16",
+   "rva": "0x1622",
+   "va": "0x180001622",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "OriginalFilename",
+   "offset": "0x896",
+   "kind": "utf16",
+   "rva": "0x1696",
+   "va": "0x180001696",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMPNSSUI.dll.mui",
+   "offset": "0x8b8",
+   "kind": "utf16",
+   "rva": "0x16b8",
+   "va": "0x1800016b8",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductName",
+   "offset": "0x8e2",
+   "kind": "utf16",
+   "rva": "0x16e2",
+   "va": "0x1800016e2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sistema Operacional Microsoft",
+   "offset": "0x8fc",
+   "kind": "utf16",
+   "rva": "0x16fc",
+   "va": "0x1800016fc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Windows",
+   "offset": "0x938",
+   "kind": "utf16",
+   "rva": "0x1738",
+   "va": "0x180001738",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductVersion",
+   "offset": "0x952",
+   "kind": "utf16",
+   "rva": "0x1752",
+   "va": "0x180001752",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "6.1.7600.16385",
+   "offset": "0x970",
+   "kind": "utf16",
+   "rva": "0x1770",
+   "va": "0x180001770",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VarFileInfo",
+   "offset": "0x996",
+   "kind": "utf16",
+   "rva": "0x1796",
+   "va": "0x180001796",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Translation",
+   "offset": "0x9b6",
+   "kind": "utf16",
+   "rva": "0x17b6",
+   "va": "0x1800017b6",
+   "tags": [
+    "utf16le"
+   ]
+  }
+ ],
+ "by_tag": {
+  "api-name": [
+   "CompanyName",
+   "FileDescription",
+   "FileVersion"
+  ],
+  "module-name": [
+   "WMPNSSUI.dll.mui"
+  ],
+  "utf16le": [
+   " Microsoft Corporation. Todos os direitos reservados.",
+   " Windows",
+   "041604B0",
+   "6.1.7600.16385",
+   "6.1.7600.16385 (win7_rtm.090713-1255)",
+   "CompanyName",
+   "Erro",
+   "Extens",
+   "Falha ao Reproduzir",
+   "FileDescription",
+   "FileVersion",
+   "Informa",
+   "Iniciar",
+   "InternalName",
+   "LegalCopyright",
+   "Microsoft Corporation",
+   "Microsoft-Windows-WMPNSSUI",
+   "OriginalFilename",
+   "Parar",
+   "ProductName",
+   "ProductVersion",
+   "Reproduzir em*Permitir transmiss",
+   "Sistema Operacional Microsoft",
+   "StringFileInfo",
+   "Translation",
+   "VS_VERSION_INFO",
+   "VarFileInfo",
+   "WMPNSSUI",
+   "WMPNSSUI.dll.mui",
+   "es de streaming de m",
+   "es do shell WMPNSS do Windows Media Player",
+   "o para este dispositivo",
+   "o para este dispositivo*Bloquear transmiss",
+   "pt-BR"
+  ]
+ }
+}

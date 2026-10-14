@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <device>
+    <UDN>uuid:32d0d20f-2613-46a1-add3-5198c3d6a24d</UDN>
+    <friendlyName>%FRIENDLYNAME%</friendlyName>
+    <deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType>
+    <manufacturer>Microsoft Corporation</manufacturer>
+    <manufacturerURL>http://www.microsoft.com</manufacturerURL>
+    <modelName>%MODELNAME%</modelName>
+    <modelNumber>%MODELNUMBER%</modelNumber>
+    <modelURL>http://go.microsoft.com/fwlink/?LinkId=105926</modelURL>
+    <serialNumber>%SERIALNUMBER%</serialNumber>
+    %DLNAELEMENT%%REMOTEELEMENT%%MAGICPACKETELEMENT%    <iconList>
+        <icon>
+            <mimetype>image/jpeg</mimetype>
+            <width>120</width>
+            <height>120</height>
+            <depth>24</depth>
+            <url>Network Sharing\wmpnss_color120.jpg</url>
+        </icon>
+        <icon>
+            <mimetype>image/png</mimetype>
+            <width>120</width>
+            <height>120</height>
+            <depth>24</depth>
+            <url>Network Sharing\wmpnss_color120.png</url>
+        </icon>
+        <icon>
+            <mimetype>image/jpeg</mimetype>
+            <width>48</width>
+            <height>48</height>
+            <depth>24</depth>
+            <url>Network Sharing\wmpnss_color48.jpg</url>
+        </icon>
+        <icon>
+            <mimetype>image/png</mimetype>
+            <width>48</width>
+            <height>48</height>
+            <depth>24</depth>
+            <url>Network Sharing\wmpnss_color48.png</url>
+        </icon>
+        <icon>
+            <mimetype>image/bmp</mimetype>
+            <width>48</width>
+            <height>48</height>
+            <depth>16</depth>
+            <url>Network Sharing\wmpnss_color48.bmp</url>
+        </icon>
+        <icon>
+            <mimetype>image/jpeg</mimetype>
+            <width>32</width>
+            <height>32</height>
+            <depth>24</depth>
+            <url>Network Sharing\wmpnss_color32.jpg</url>
+        </icon>
+        <icon>
+            <mimetype>image/bmp</mimetype>
+            <width>32</width>
+            <height>32</height>
+            <depth>16</depth>
+            <url>Network Sharing\wmpnss_color32.bmp</url>
+        </icon>
+        <icon>
+            <mimetype>image/jpeg</mimetype>
+            <width>120</width>
+            <height>120</height>
+            <depth>24</depth>
+            <url>Network Sharing\wmpnss_bw120.jpg</url>
+        </icon>
+        <icon>
+            <mimetype>image/png</mimetype>
+            <width>120</width>
+            <height>120</height>
+            <depth>24</depth>
+            <url>Network Sharing\wmpnss_bw120.png</url>
+        </icon>
+        <icon>
+            <mimetype>image/jpeg</mimetype>
+            <width>48</width>
+            <height>48</height>
+            <depth>24</depth>
+            <url>Network Sharing\wmpnss_bw48.jpg</url>
+        </icon>
+        <icon>
+            <mimetype>image/png</mimetype>
+            <width>48</width>
+            <height>48</height>
+            <depth>24</depth>
+            <url>Network Sharing\wmpnss_bw48.png</url>
+        </icon>
+        <icon>
+            <mimetype>image/bmp</mimetype>
+            <width>48</width>
+            <height>48</height>
+            <depth>16</depth>
+            <url>Network Sharing\wmpnss_bw48.bmp</url>
+        </icon>
+        <icon>
+            <mimetype>image/jpeg</mimetype>
+            <width>32</width>
+            <height>32</height>
+            <depth>24</depth>
+            <url>Network Sharing\wmpnss_bw32.jpg</url>
+        </icon>
+        <icon>
+            <mimetype>image/bmp</mimetype>
+            <width>32</width>
+            <height>32</height>
+            <depth>16</depth>
+            <url>Network Sharing\wmpnss_bw32.bmp</url>
+        </icon>
+    </iconList>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+        <controlURL></controlURL>
+        <eventSubURL></eventSubURL>
+        <SCPDURL>Network Sharing\ConnectionManager.xml</SCPDURL>
+      </service>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId>
+        <controlURL></controlURL>
+        <eventSubURL></eventSubURL>
+        <SCPDURL>Network Sharing\ContentDirectory.xml</SCPDURL>
+      </service>
+      <service>
+        <serviceType>urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1</serviceType>
+        <serviceId>urn:microsoft.com:serviceId:X_MS_MediaReceiverRegistrar</serviceId>
+        <controlURL></controlURL>
+        <eventSubURL></eventSubURL>
+        <SCPDURL>Network Sharing\MediaReceiverRegistrar.xml</SCPDURL>
+      </service>     
+    </serviceList>
+   </device>
+</root>

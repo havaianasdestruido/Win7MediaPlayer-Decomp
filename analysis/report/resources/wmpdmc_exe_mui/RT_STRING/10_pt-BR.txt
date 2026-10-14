@@ -1,0 +1,17 @@
+144	Interromper
+145	Tocar
+146	Pausar
+147	Volume
+148	Ativar Mudo
+149	Som
+150	Faixa Anterior
+151	Próxima Faixa
+152	Ocultar detalhes
+153	Mostrar detalhes
+154	HRESULT: 0x%x
+Erro de UPnP: %u
+155	HRESULT: 0x%x
+156	Erro Desconhecido
+157	Carregando...
+158	Ligar repetição
+159	Desligar repetição

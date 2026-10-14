@@ -1,0 +1,21 @@
+{
+ "raw_size": 204,
+ "template": "DLGTEMPLATEEX",
+ "dlg_ver": 1,
+ "signature": "0xffff",
+ "help_id": 0,
+ "ex_style": "0x00012000",
+ "style": "0x40000050",
+ "items": 2,
+ "x": 0,
+ "y": 0,
+ "cx": 399,
+ "cy": 134,
+ "menu": null,
+ "window_class": null,
+ "title": null,
+ "has_setfont": true,
+ "tail_offset": 32,
+ "tail_hex": "0800000000005400610068006f006d00",
+ "items_parsed": false
+}

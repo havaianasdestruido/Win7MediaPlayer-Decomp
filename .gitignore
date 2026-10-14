@@ -1,0 +1,6 @@
+# Generated at analysis time — never part of the reconstructed sources.
+__pycache__/
+*.pyc
+# angr scratch runtime database (see analysis/tools/decompile.py: RTDB_BASE)
+*_angr_rtdb/
+*_angr_rtdb_*/

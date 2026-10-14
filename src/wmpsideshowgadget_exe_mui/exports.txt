@@ -1,0 +1,2 @@
+# Exported symbols — bin/pt-BR/WMPSideShowGadget.exe.mui (SHA-256 1718e05409e1926f8814a89bed277ed9a77c2d0f8f5f7fead42c65cd3e886321)
+# (no exported symbols; this image is an executable or a resource-only module)

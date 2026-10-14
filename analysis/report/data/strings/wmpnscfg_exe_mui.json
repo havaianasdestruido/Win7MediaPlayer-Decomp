@@ -1,0 +1,400 @@
+{
+ "module": "wmpnscfg_exe_mui",
+ "artifact": "bin/pt-BR/wmpnscfg.exe.mui",
+ "counts": {
+  "ascii": 4,
+  "utf16": 32,
+  "unique": 35
+ },
+ "strings": [
+  {
+   "text": "!This program cannot be run in DOS mode.",
+   "offset": "0x4d",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "RichE",
+   "offset": "0xa0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".rsrc",
+   "offset": "0x1c0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD",
+   "offset": "0xa04",
+   "kind": "ascii",
+   "rva": "0x1804",
+   "va": "0x180001804",
+   "tags": []
+  },
+  {
+   "text": "pt-BR",
+   "offset": "0x3c0",
+   "kind": "utf16",
+   "rva": "0x11c0",
+   "va": "0x1800011c0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": ";Servi",
+   "offset": "0x3d8",
+   "kind": "utf16",
+   "rva": "0x11d8",
+   "va": "0x1800011d8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de Compartilhamento de Rede do Windows Media Player",
+   "offset": "0x3e6",
+   "kind": "utf16",
+   "rva": "0x11e6",
+   "va": "0x1800011e6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft Corporation",
+   "offset": "0x47c",
+   "kind": "utf16",
+   "rva": "0x127c",
+   "va": "0x18000127c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Esta tarefa atualiza a lista de pastas em cache e as permiss",
+   "offset": "0x4a8",
+   "kind": "utf16",
+   "rva": "0x12a8",
+   "va": "0x1800012a8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de seguran",
+   "offset": "0x522",
+   "kind": "utf16",
+   "rva": "0x1322",
+   "va": "0x180001322",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "a nos novos arquivos da biblioteca de m",
+   "offset": "0x53e",
+   "kind": "utf16",
+   "rva": "0x133e",
+   "va": "0x18000133e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia compartilhada de um usu",
+   "offset": "0x58e",
+   "kind": "utf16",
+   "rva": "0x138e",
+   "va": "0x18000138e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio.",
+   "offset": "0x5c6",
+   "kind": "utf16",
+   "rva": "0x13c6",
+   "va": "0x1800013c6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VS_VERSION_INFO",
+   "offset": "0x5de",
+   "kind": "utf16",
+   "rva": "0x13de",
+   "va": "0x1800013de",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "StringFileInfo",
+   "offset": "0x63a",
+   "kind": "utf16",
+   "rva": "0x143a",
+   "va": "0x18000143a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "041604B0",
+   "offset": "0x65e",
+   "kind": "utf16",
+   "rva": "0x145e",
+   "va": "0x18000145e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CompanyName",
+   "offset": "0x676",
+   "kind": "utf16",
+   "rva": "0x1476",
+   "va": "0x180001476",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileDescription",
+   "offset": "0x6c2",
+   "kind": "utf16",
+   "rva": "0x14c2",
+   "va": "0x1800014c2",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Aplicativo de Configura",
+   "offset": "0x6e4",
+   "kind": "utf16",
+   "rva": "0x14e4",
+   "va": "0x1800014e4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Servi",
+   "offset": "0x716",
+   "kind": "utf16",
+   "rva": "0x1516",
+   "va": "0x180001516",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de compartilhamento de rede do Windows Media Player",
+   "offset": "0x72c",
+   "kind": "utf16",
+   "rva": "0x152c",
+   "va": "0x18000152c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileVersion",
+   "offset": "0x79e",
+   "kind": "utf16",
+   "rva": "0x159e",
+   "va": "0x18000159e",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7601.17514 (win7sp1_rtm.101119-1850)",
+   "offset": "0x7b8",
+   "kind": "utf16",
+   "rva": "0x15b8",
+   "va": "0x1800015b8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InternalName",
+   "offset": "0x812",
+   "kind": "utf16",
+   "rva": "0x1612",
+   "va": "0x180001612",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LegalCopyright",
+   "offset": "0x832",
+   "kind": "utf16",
+   "rva": "0x1632",
+   "va": "0x180001632",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Microsoft Corporation. Todos os direitos reservados.",
+   "offset": "0x852",
+   "kind": "utf16",
+   "rva": "0x1652",
+   "va": "0x180001652",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "OriginalFilename",
+   "offset": "0x8c6",
+   "kind": "utf16",
+   "rva": "0x16c6",
+   "va": "0x1800016c6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMPNSCFG.EXE.MUI",
+   "offset": "0x8e8",
+   "kind": "utf16",
+   "rva": "0x16e8",
+   "va": "0x1800016e8",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductName",
+   "offset": "0x912",
+   "kind": "utf16",
+   "rva": "0x1712",
+   "va": "0x180001712",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sistema Operacional Microsoft",
+   "offset": "0x92c",
+   "kind": "utf16",
+   "rva": "0x172c",
+   "va": "0x18000172c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Windows",
+   "offset": "0x968",
+   "kind": "utf16",
+   "rva": "0x1768",
+   "va": "0x180001768",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductVersion",
+   "offset": "0x982",
+   "kind": "utf16",
+   "rva": "0x1782",
+   "va": "0x180001782",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7601.17514",
+   "offset": "0x9a0",
+   "kind": "utf16",
+   "rva": "0x17a0",
+   "va": "0x1800017a0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VarFileInfo",
+   "offset": "0x9c6",
+   "kind": "utf16",
+   "rva": "0x17c6",
+   "va": "0x1800017c6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Translation",
+   "offset": "0x9e6",
+   "kind": "utf16",
+   "rva": "0x17e6",
+   "va": "0x1800017e6",
+   "tags": [
+    "utf16le"
+   ]
+  }
+ ],
+ "by_tag": {
+  "api-name": [
+   "CompanyName",
+   "FileDescription",
+   "FileVersion"
+  ],
+  "module-name": [
+   "WMPNSCFG.EXE.MUI"
+  ],
+  "utf16le": [
+   " Microsoft Corporation. Todos os direitos reservados.",
+   " Windows",
+   "041604B0",
+   "12.0.7601.17514",
+   "12.0.7601.17514 (win7sp1_rtm.101119-1850)",
+   ";Servi",
+   "Aplicativo de Configura",
+   "CompanyName",
+   "Esta tarefa atualiza a lista de pastas em cache e as permiss",
+   "FileDescription",
+   "FileVersion",
+   "InternalName",
+   "LegalCopyright",
+   "Microsoft Corporation",
+   "OriginalFilename",
+   "ProductName",
+   "ProductVersion",
+   "Sistema Operacional Microsoft",
+   "StringFileInfo",
+   "Translation",
+   "VS_VERSION_INFO",
+   "VarFileInfo",
+   "WMPNSCFG.EXE.MUI",
+   "a nos novos arquivos da biblioteca de m",
+   "dia compartilhada de um usu",
+   "es de seguran",
+   "o de Compartilhamento de Rede do Windows Media Player",
+   "o de compartilhamento de rede do Windows Media Player",
+   "o do Servi",
+   "pt-BR",
+   "rio."
+  ]
+ }
+}

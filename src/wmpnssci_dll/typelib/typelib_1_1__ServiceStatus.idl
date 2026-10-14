@@ -1,0 +1,116 @@
+// Reconstructed type-library IDL — analysis/report/resources/wmpnssci_dll/typelib/typelib_1_1.tlb
+//
+// PROVENANCE: mechanically rendered from the MSFT binary type library
+// embedded as RT_TYPELIB resource 1 (payload sha256 ba725589c858299e955526c85e77366feec84f4758f2da2dd8ac4e7033719825),
+// by analysis/tools/typelib.py. GUIDs, kinds, member names, member IDs and virtual
+// table order are read straight out of the library; parameter- and return-type
+// rendering is derived from its TYPEDESC entries. This is a re-serialisation of
+// shipped data, not recovered source code.
+// library GUID {453E9E02-8BA4-474C-BFA0-37727E44F6AE} — version 0x1 — LCID 0x0409
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+// TKIND_ENUM ServiceStatus {{B78E1E54-0885-40C0-87BC-2E5B93C95F1C}} version 0.0 (typeinfo #0, 0 functions, 5 variables)
+typedef enum ServiceStatus {
+    StatusUnknown = 0,  // VT_I4
+    StatusStopped = 1,  // VT_I4
+    StatusScanning = 2,  // VT_I4
+    StatusBusy = 3,  // VT_I4
+    StatusReady = 4,  // VT_I4
+} ServiceStatus;
+
+// TKIND_ENUM EventReason {{31D0E2AD-8AE5-41CE-A743-B815F4279005}} version 0.0 (typeinfo #1, 0 functions, 5 variables)
+typedef enum EventReason {
+    ReasonUnknown = 1000,  // VT_I4
+    ReasonDeviceAdded = 1001,  // VT_I4
+    ReasonDeviceRemoved = 1002,  // VT_I4
+    ReasonDeviceAuthorizationChanged = 1003,  // VT_I4
+    ReasonDevicePropertyChanged = 1004,  // VT_I4
+} EventReason;
+
+// TKIND_ENUM AuthorizationStatus {{08933D12-EEED-4AD2-9238-4E916639D0C4}} version 0.0 (typeinfo #2, 0 functions, 4 variables)
+typedef enum AuthorizationStatus {
+    Unknown = 0,  // VT_I4
+    Unauthorized = 1,  // VT_I4
+    Allowed = 2,  // VT_I4
+    Denied = 3,  // VT_I4
+} AuthorizationStatus;
+
+// TKIND_DISPATCH INSSProperty {{B27C1EAC-B909-462C-A051-F85DA63D616B}} version 0.0 (typeinfo #3, 2 functions, 0 variables)
+    interface INSSProperty : <external hRef 0x01000001> {
+        HRESULT Name([out] BSTR* pbstrResult);  // memid 1, vtable slot 7, INVOKE_PROPERTYGET
+        HRESULT Value([out] VARIANT* pvResult);  // memid 0, vtable slot 8, INVOKE_PROPERTYGET
+    }
+
+// TKIND_COCLASS Property {{FC434359-AF3E-4F09-852E-B5D3384F241D}} version 0.0 (typeinfo #4, 0 functions, 0 variables)
+    coclass Property {
+        [default] interface INSSProperty; // 0x0000012c
+    }
+
+// TKIND_DISPATCH INSSProperties {{DF2F700E-48CC-40CE-BBF7-73187286C42D}} version 0.0 (typeinfo #5, 3 functions, 0 variables)
+    interface INSSProperties : <external hRef 0x01000001> {
+        HRESULT Item([in] long Index, [out] INSSProperty** ppResult);  // memid 0, vtable slot 7, INVOKE_PROPERTYGET
+        HRESULT Count([out] long* plResult);  // memid 1, vtable slot 8, INVOKE_PROPERTYGET
+        HRESULT GetProperty([in] BSTR Name, [out] INSSProperty** ppResult);  // memid 2, vtable slot 9
+    }
+
+// TKIND_COCLASS Properties {{AD5D2BA9-B6A0-45B6-9ED5-B59B85806D56}} version 0.0 (typeinfo #6, 0 functions, 0 variables)
+    coclass Properties {
+        [default] interface INSSProperties; // 0x000001f4
+    }
+
+// TKIND_DISPATCH INSSDevice {{055B0E0E-3113-4CAE-9EEE-6E63211BEE37}} version 0.0 (typeinfo #7, 7 functions, 0 variables)
+    interface INSSDevice : <external hRef 0x01000001> {
+        HRESULT MACAddress([out] BSTR* pbstrResult);  // memid 1, vtable slot 7, INVOKE_PROPERTYGET
+        HRESULT Authorization([out] AuthorizationStatus* peResult);  // memid 2, vtable slot 8, INVOKE_PROPERTYGET
+        HRESULT Authorization([in] AuthorizationStatus <unnamed>);  // memid 2, vtable slot 9, INVOKE_PROPERTYPUT
+        HRESULT Disabled([out] VARIANT_BOOL* pbResult);  // memid 3, vtable slot 10, INVOKE_PROPERTYGET
+        HRESULT Disabled([in] VARIANT_BOOL <unnamed>);  // memid 3, vtable slot 11, INVOKE_PROPERTYPUT
+        HRESULT Properties([out] INSSProperties** ppResult);  // memid 4, vtable slot 12, INVOKE_PROPERTYGET
+        HRESULT ShowDevicePropertyPage([in] LONGLONG hWnd);  // memid 5, vtable slot 13
+    }
+
+// TKIND_COCLASS Device {{86223118-F443-4F05-B0CF-8963A15747A6}} version 0.0 (typeinfo #8, 0 functions, 0 variables)
+    coclass Device {
+        [default] interface INSSDevice; // 0x000002bc
+    }
+
+// TKIND_DISPATCH INSSDevices {{73DE3C35-FAF7-4934-B337-C260D5926858}} version 0.0 (typeinfo #9, 3 functions, 0 variables)
+    interface INSSDevices : <external hRef 0x01000001> {
+        HRESULT Item([in] long Index, [out] INSSDevice** ppResult);  // memid 0, vtable slot 7, INVOKE_PROPERTYGET
+        HRESULT Count([out] long* plResult);  // memid 1, vtable slot 8, INVOKE_PROPERTYGET
+        HRESULT GetDevice([in] BSTR MACAddress, [out] INSSDevice** ppResult);  // memid 2, vtable slot 9
+    }
+
+// TKIND_COCLASS Devices {{6DE2D8B3-50B2-45B7-9DE3-0825CE8B7F2D}} version 0.0 (typeinfo #10, 0 functions, 0 variables)
+    coclass Devices {
+        [default] interface INSSDevices; // 0x00000384
+    }
+
+// TKIND_INTERFACE INSSNotify {{ADC0EDF5-FE64-48FF-A711-CB4AB0F5C2CA}} version 0.0 (typeinfo #11, 1 functions, 0 variables)
+    interface INSSNotify : <external hRef 0xf4ffffff> {
+        HRESULT Notify([in] EventReason Reason, [in] BSTR ID, [in] VARIANT* Data);  // memid 1610678272, vtable slot 3
+    }
+
+// TKIND_DISPATCH INSSManager {{204F4950-212A-414F-9B27-73BD87423F25}} version 0.0 (typeinfo #12, 9 functions, 0 variables)
+    interface INSSManager : <external hRef 0x01000001> {
+        HRESULT AllowByDefault([out] VARIANT_BOOL* pbResult);  // memid 1, vtable slot 7, INVOKE_PROPERTYGET
+        HRESULT AllowByDefault([in] VARIANT_BOOL <unnamed>);  // memid 1, vtable slot 8, INVOKE_PROPERTYPUT
+        HRESULT Status([out] ServiceStatus* peResult);  // memid 2, vtable slot 9, INVOKE_PROPERTYGET
+        HRESULT InitializeLibrarySharing([in] BSTR UserSID);  // memid 3, vtable slot 10
+        HRESULT GetAllDevices([out] INSSDevices** ppResult);  // memid 4, vtable slot 11
+        HRESULT GetDevices([in] AuthorizationStatus Authorization, [out] INSSDevices** ppResult);  // memid 5, vtable slot 12
+        HRESULT RemoveDevice([in] BSTR MACAddress);  // memid 6, vtable slot 13
+        HRESULT Advise([in] IUnknown* DeviceNotify, [out] BSTR* pbstrResult);  // memid 7, vtable slot 14
+        HRESULT Unadvise([in] BSTR Cookie);  // memid 8, vtable slot 15
+    }
+
+// TKIND_COCLASS NSSManager {{92498132-4D1A-4297-9B78-9E2E4BA99C07}} version 0.0 (typeinfo #13, 0 functions, 0 variables)
+    coclass NSSManager {
+        [default] interface INSSManager; // 0x000004b0
+    }
+
+/* Interpretation limits (see analysis/report/methodology.md):
+ */

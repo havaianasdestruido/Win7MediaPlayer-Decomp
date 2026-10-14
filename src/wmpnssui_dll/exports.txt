@@ -1,0 +1,7 @@
+# Exported symbols — bin/WMPNSSUI.dll (SHA-256 28d793e5077afb34b57fd3ac404413a60f06a3985fcc4aa16cccb8525411f8bb)
+# Image export name: WMPNSSUI.dll
+
+    1  0x00002304  DllCanUnloadNow
+    2  0x00002318  DllGetClassObject
+    3  0x000023bc  DllRegisterServer
+    4  0x000023bc  DllUnregisterServer

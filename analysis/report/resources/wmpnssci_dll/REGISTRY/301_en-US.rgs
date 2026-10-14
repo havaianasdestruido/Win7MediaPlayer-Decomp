@@ -1,0 +1,26 @@
+HKCR
+{
+	WMPNSSCI.NSSManager.1 = s 'NSSManager Class'
+	{
+		CLSID = s '{92498132-4d1a-4297-9b78-9e2e4ba99c07}'
+	}
+	WMPNSSCI.NSSManager = s 'NSSManager Class'
+	{
+		CLSID = s '{92498132-4d1a-4297-9b78-9e2e4ba99c07}'
+		CurVer = s 'WMPNSSCI.NSSManager.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {92498132-4d1a-4297-9b78-9e2e4ba99c07} = s 'NSSManager Class'
+		{
+			ProgID = s 'WMPNSSCI.NSSManager.1'
+			VersionIndependentProgID = s 'WMPNSSCI.NSSManager'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Free'
+			}
+			'TypeLib' = s '{453e9e02-8ba4-474c-bfa0-37727e44f6ae}'
+		}
+	}
+}

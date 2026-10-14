@@ -1,0 +1,16 @@
+128	Contatando dispositivo de rede...
+129	Contatando servidor de mídia...
+130	Dispositivo de Rede
+131	Servidor de Mídia
+132	Aguarde
+133	Limpar Lista
+134	Título Desconhecido
+135	Artista Desconhecido
+136	Álbum Desconhecido
+137	Nenhum item de mídia na lista no momento. Para adicionar mídia, arraste e solte itens aqui ou use 'Reproduzir em' para este dispositivo.
+138	Nome do Dispositivo
+139	Fabricante do Dispositivo
+140	Modelo do Dispositivo
+141	Adicionar à lista
+142	Próximo
+143	Anterior

@@ -1,0 +1,3 @@
+101	Serviço de Compartilhamento de Rede do Windows Media Player
+102	Compartilha bibliotecas do Windows Media Player com outros players e dispositivos de mídia da rede por meio de Universal Plug and Play
+103	Erro Desconhecido %1!d!

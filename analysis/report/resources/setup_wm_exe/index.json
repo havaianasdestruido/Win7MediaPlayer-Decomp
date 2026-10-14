@@ -1,0 +1,2028 @@
+{
+ "module": "setup_wm_exe",
+ "artifact": "bin/setup_wm.exe",
+ "sha256": "f069226052de289452ef5ff9dd67557193c15308c5351bc7b70b6692b350951b",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 577536,
+  "size": 1505776,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "RT_BITMAP": 28,
+  "RT_GROUP_ICON": 2,
+  "RT_ICON": 28,
+  "RT_MANIFEST": 1,
+  "RT_VERSION": 1,
+  "WEVT_TEMPLATE": 1
+ },
+ "pefile_walk_count": 62,
+ "walker_cross_check": {
+  "raw_walker": 62,
+  "pefile_walker": 62,
+  "agree": true
+ },
+ "messages_total": 0,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88cb8",
+   "data_entry_offset": "0x89278",
+   "depth": 3,
+   "data_rva": 2083040,
+   "size": 272,
+   "sha256": "c541b12f16e9ea3ce9f4bb6378626cc5a79663c9e420a95dd7d336ca58f37639",
+   "bytes_read": 272,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "language_tag": "en-US",
+    "localized_type_ids": [],
+    "localized_type_names": [],
+    "matches_sibling": null,
+    "matches_same_artifact": null
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/MUI/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "WEVT_TEMPLATE"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88cd0",
+   "data_entry_offset": "0x89288",
+   "depth": 3,
+   "data_rva": 582016,
+   "size": 1210,
+   "sha256": "0fe323d2e3a2a17560a3793ff6ccc0bb5c3f364488302af27a83c73734985b3f",
+   "bytes_read": 1210,
+   "truncated": false,
+   "type": "WEVT_TEMPLATE",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "magic": "CRIM",
+    "declared_size": 1208,
+    "note": "ETW event-manifest template; binary schema not decoded here"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/WEVT_TEMPLATE/raw/1_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 235
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88ce8",
+   "data_entry_offset": "0x89298",
+   "depth": 3,
+   "data_rva": 1023928,
+   "size": 74862,
+   "sha256": "4e6088abe0519532a3d46cb45c149aaac82320482984f03654ebbc857e897835",
+   "bytes_read": 74862,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "235",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 74862,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/235_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 236
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88d00",
+   "data_entry_offset": "0x892a8",
+   "depth": 3,
+   "data_rva": 1173656,
+   "size": 74862,
+   "sha256": "c0d063d7b737a6142db4eefc43079cc2fcd2f8388ac1ab82b3c875e9f0291090",
+   "bytes_read": 74862,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "236",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 74862,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/236_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 237
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88d18",
+   "data_entry_offset": "0x892b8",
+   "depth": 3,
+   "data_rva": 1323384,
+   "size": 74862,
+   "sha256": "0b235af86d6b61a6a3edc49c8ebecc0aead800084958b90e5cafee06745b6a6f",
+   "bytes_read": 74862,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "237",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 74862,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/237_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 238
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88d30",
+   "data_entry_offset": "0x892c8",
+   "depth": 3,
+   "data_rva": 1473112,
+   "size": 74862,
+   "sha256": "668ccdf1b0a161106190f59b2cef875e25523a7b5bb1733502ff3b57ce6f6af9",
+   "bytes_read": 74862,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "238",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 74862,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/238_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 239
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88d48",
+   "data_entry_offset": "0x892d8",
+   "depth": 3,
+   "data_rva": 1622840,
+   "size": 74862,
+   "sha256": "04d0b2bb647c44d839a57a84e85a0a326347364b27076bb34b2d0be6cd29c76e",
+   "bytes_read": 74862,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "239",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 74862,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/239_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 240
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88d60",
+   "data_entry_offset": "0x892e8",
+   "depth": 3,
+   "data_rva": 1772568,
+   "size": 74862,
+   "sha256": "9cbab168bdb2fc1157802520c282a4b9524f9df8709eafe73b34f6f2f029423b",
+   "bytes_read": 74862,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "240",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 74862,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/240_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 241
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88d78",
+   "data_entry_offset": "0x892f8",
+   "depth": 3,
+   "data_rva": 715488,
+   "size": 10176,
+   "sha256": "1c2b9af2e0aa78b3225402d04e99e25eac481ebf09143eb526b3148c91564ff5",
+   "bytes_read": 10176,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "241",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 10176,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/241_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 242
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88d90",
+   "data_entry_offset": "0x89308",
+   "depth": 3,
+   "data_rva": 734984,
+   "size": 10176,
+   "sha256": "bf613405c1da220ecd78b1180548006d816ebb58c220d3687fe81d5a5f81cc3a",
+   "bytes_read": 10176,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "242",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 10176,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/242_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 243
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88da8",
+   "data_entry_offset": "0x89318",
+   "depth": 3,
+   "data_rva": 758464,
+   "size": 14256,
+   "sha256": "3205665bd45f7569255eb2f81f75aff65ac59a4a2a396720c0b9c0bdbc7f2947",
+   "bytes_read": 14256,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "243",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 14256,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/243_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 244
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88dc0",
+   "data_entry_offset": "0x89328",
+   "depth": 3,
+   "data_rva": 786000,
+   "size": 14256,
+   "sha256": "6cea3d675079617544d97e9cc776d8cbd0c3c63b06705d7718c933f58bc09203",
+   "bytes_read": 14256,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "244",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 14256,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/244_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 245
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88dd8",
+   "data_entry_offset": "0x89338",
+   "depth": 3,
+   "data_rva": 874200,
+   "size": 74862,
+   "sha256": "25dcc7de2218e1c12cea2bbaca70f494dbe3e8ce4e7e4fa2f4af3e4f34c70677",
+   "bytes_read": 74862,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "245",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 74862,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/245_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 246
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88df0",
+   "data_entry_offset": "0x89348",
+   "depth": 3,
+   "data_rva": 1098792,
+   "size": 74862,
+   "sha256": "1bce23b0459547a7ab5b43bf570d032fc365fdcc472326545aad917df9bb2563",
+   "bytes_read": 74862,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "246",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 74862,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/246_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 247
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88e08",
+   "data_entry_offset": "0x89358",
+   "depth": 3,
+   "data_rva": 1398248,
+   "size": 74862,
+   "sha256": "5956c312ec37b0ebc7dd87dd480b77ca55745a038f2385871b9934e59e975362",
+   "bytes_read": 74862,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "247",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 74862,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/247_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 248
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88e20",
+   "data_entry_offset": "0x89368",
+   "depth": 3,
+   "data_rva": 1697704,
+   "size": 74862,
+   "sha256": "e3f9e334a70445677ddef2b706562f1699c55926808c83fba0f8ee3444821c1b",
+   "bytes_read": 74862,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "248",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 74862,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/248_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 254
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88e38",
+   "data_entry_offset": "0x89378",
+   "depth": 3,
+   "data_rva": 800256,
+   "size": 73938,
+   "sha256": "66c784d62e1dd80e085a8e67bdf977e00588831b214d00216181f1502ecf8426",
+   "bytes_read": 73938,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "254",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 73938,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/254_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 255
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88e50",
+   "data_entry_offset": "0x89388",
+   "depth": 3,
+   "data_rva": 949064,
+   "size": 74862,
+   "sha256": "791d4c10b89e3f0a1ef444112976a6944cf1f74e4aaa734c3a2f419029f41597",
+   "bytes_read": 74862,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "255",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 74862,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/255_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 258
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88e68",
+   "data_entry_offset": "0x89398",
+   "depth": 3,
+   "data_rva": 2014912,
+   "size": 32502,
+   "sha256": "ac078e31b5d2de1a2154773af233c51ca4ee3a5bcdd5f1be019fe09e25e7c32c",
+   "bytes_read": 32502,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "258",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 32502,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/258_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 259
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88e80",
+   "data_entry_offset": "0x893a8",
+   "depth": 3,
+   "data_rva": 2079920,
+   "size": 926,
+   "sha256": "6689d76670232035be28f84ee135a0956d8e7dfe11121c44028b9094c5f9cb44",
+   "bytes_read": 926,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "259",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 926,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/259_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 260
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88e98",
+   "data_entry_offset": "0x893b8",
+   "depth": 3,
+   "data_rva": 2080848,
+   "size": 818,
+   "sha256": "199a92358b1669711621f05962122ecf76cb9655e9f19e01b2b8ebd62b2342a7",
+   "bytes_read": 818,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "260",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 818,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/260_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 262
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88eb0",
+   "data_entry_offset": "0x893c8",
+   "depth": 3,
+   "data_rva": 706144,
+   "size": 9338,
+   "sha256": "aa112ebb1978f0aedb9d9b882873aeaed5ec0eb9e446bdbe30d5b2b7d833740f",
+   "bytes_read": 9338,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "262",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 9338,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/262_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 263
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88ec8",
+   "data_entry_offset": "0x893d8",
+   "depth": 3,
+   "data_rva": 2081672,
+   "size": 1362,
+   "sha256": "4c27df1402913c38702ae16389a18f531452ecf9b9ec249f8eba0ca9f3e3ae57",
+   "bytes_read": 1362,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "263",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1362,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/263_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 264
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88ee0",
+   "data_entry_offset": "0x893e8",
+   "depth": 3,
+   "data_rva": 725664,
+   "size": 9314,
+   "sha256": "31a5cfa2e8b71dda3ee81fbbb5053a11414af256e538f62cb5f6df15134bad44",
+   "bytes_read": 9314,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "264",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 9314,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/264_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 266
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88ef8",
+   "data_entry_offset": "0x893f8",
+   "depth": 3,
+   "data_rva": 1547976,
+   "size": 74862,
+   "sha256": "1570b40dd0559ec6ab3a7693c69e481b80817a8bca665fa695e126ec325e9183",
+   "bytes_read": 74862,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "266",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 74862,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/266_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 268
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88f10",
+   "data_entry_offset": "0x89408",
+   "depth": 3,
+   "data_rva": 1248520,
+   "size": 74862,
+   "sha256": "ec9216c052e9a24130c0ee965cb386c5dbaba1aa76631ec7f48f917e48daf0c7",
+   "bytes_read": 74862,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "268",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 74862,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/268_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 1110
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88f28",
+   "data_entry_offset": "0x89418",
+   "depth": 3,
+   "data_rva": 1847432,
+   "size": 167478,
+   "sha256": "fbee7ff3c3a24454a953473fa62114ca540546c0788cb4ffc1c106c95cc8c381",
+   "bytes_read": 167478,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "1110",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 167478,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/1110_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 1113
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88f40",
+   "data_entry_offset": "0x89428",
+   "depth": 3,
+   "data_rva": 2047416,
+   "size": 32502,
+   "sha256": "ac078e31b5d2de1a2154773af233c51ca4ee3a5bcdd5f1be019fe09e25e7c32c",
+   "bytes_read": 32502,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "1113",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 32502,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/1113_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 1114
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88f58",
+   "data_entry_offset": "0x89438",
+   "depth": 3,
+   "data_rva": 745160,
+   "size": 13298,
+   "sha256": "e81b02e67e32e530372b999b4b5676efd2303b5be9e76b1b1b7b1092fb3b45ff",
+   "bytes_read": 13298,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "1114",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 13298,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/1114_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 1115
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88f70",
+   "data_entry_offset": "0x89448",
+   "depth": 3,
+   "data_rva": 772720,
+   "size": 13274,
+   "sha256": "425e913e4a68424189e46338a50750c8787e0ef8b5718dec7ae56ed6a03355d3",
+   "bytes_read": 13274,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "1115",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 13274,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_BITMAP/raw/1115_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88f88",
+   "data_entry_offset": "0x89458",
+   "depth": 3,
+   "data_rva": 583232,
+   "size": 2664,
+   "sha256": "1d355e41847f582d6c0f56b63ae6e3bc0dcfc366d0cd0fd286df57ee9aa3afcb",
+   "bytes_read": 2664,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2664,
+    "sha256": "1d355e41847f582d6c0f56b63ae6e3bc0dcfc366d0cd0fd286df57ee9aa3afcb"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/1_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88fa0",
+   "data_entry_offset": "0x89468",
+   "depth": 3,
+   "data_rva": 585896,
+   "size": 1640,
+   "sha256": "a63d81f9259052f82858b117aa71cb83229819bc7cf4a051e5edfb933c027c53",
+   "bytes_read": 1640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "2",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1640,
+    "sha256": "a63d81f9259052f82858b117aa71cb83229819bc7cf4a051e5edfb933c027c53"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/2_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88fb8",
+   "data_entry_offset": "0x89478",
+   "depth": 3,
+   "data_rva": 587536,
+   "size": 744,
+   "sha256": "7ca0c68f6f17686e4f95e4cf9ef0d48cb5a58216092b055411862a4d86b269d1",
+   "bytes_read": 744,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "3",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 744,
+    "sha256": "7ca0c68f6f17686e4f95e4cf9ef0d48cb5a58216092b055411862a4d86b269d1"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/3_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 4
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88fd0",
+   "data_entry_offset": "0x89488",
+   "depth": 3,
+   "data_rva": 588280,
+   "size": 488,
+   "sha256": "7ebd7657097aab19be057d565285baf3c7cf16fb50798fea8b53486d11b1d4e0",
+   "bytes_read": 488,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "4",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 488,
+    "sha256": "7ebd7657097aab19be057d565285baf3c7cf16fb50798fea8b53486d11b1d4e0"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/4_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 5
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x88fe8",
+   "data_entry_offset": "0x89498",
+   "depth": 3,
+   "data_rva": 588768,
+   "size": 296,
+   "sha256": "4e8d49bc26d114a9a98071bdcd794a50c01c0b207cb8dfbb91deebe91741d441",
+   "bytes_read": 296,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "5",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 296,
+    "sha256": "4e8d49bc26d114a9a98071bdcd794a50c01c0b207cb8dfbb91deebe91741d441"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/5_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89000",
+   "data_entry_offset": "0x894a8",
+   "depth": 3,
+   "data_rva": 589064,
+   "size": 5672,
+   "sha256": "310bdbb20cfd30fe15b19944135886fb6728e2e34c537a23079fec6c71db39d5",
+   "bytes_read": 5672,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "6",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 5672,
+    "sha256": "310bdbb20cfd30fe15b19944135886fb6728e2e34c537a23079fec6c71db39d5"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/6_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 7
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89018",
+   "data_entry_offset": "0x894b8",
+   "depth": 3,
+   "data_rva": 594736,
+   "size": 3752,
+   "sha256": "b2f57ea269c49681b070ab450a9310811f6f28be5fcb082595c0f7f0b16aa836",
+   "bytes_read": 3752,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "7",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 3752,
+    "sha256": "b2f57ea269c49681b070ab450a9310811f6f28be5fcb082595c0f7f0b16aa836"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/7_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 8
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89030",
+   "data_entry_offset": "0x894c8",
+   "depth": 3,
+   "data_rva": 598488,
+   "size": 2216,
+   "sha256": "a127846549f4ade08f34d8de9bce020c33cbe90264739e4e68ac74239dd59fe7",
+   "bytes_read": 2216,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "8",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2216,
+    "sha256": "a127846549f4ade08f34d8de9bce020c33cbe90264739e4e68ac74239dd59fe7"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/8_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 9
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89048",
+   "data_entry_offset": "0x894d8",
+   "depth": 3,
+   "data_rva": 600704,
+   "size": 1736,
+   "sha256": "ae59ea75b688f818bb3138e7aca4683acc679b71d22118c344fab28f48ba4815",
+   "bytes_read": 1736,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "9",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1736,
+    "sha256": "ae59ea75b688f818bb3138e7aca4683acc679b71d22118c344fab28f48ba4815"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/9_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89060",
+   "data_entry_offset": "0x894e8",
+   "depth": 3,
+   "data_rva": 602440,
+   "size": 1384,
+   "sha256": "07788e45cc9156afbc5f501e44d8f27c873c6cda5f75af6e40deae60e876b943",
+   "bytes_read": 1384,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "10",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1384,
+    "sha256": "07788e45cc9156afbc5f501e44d8f27c873c6cda5f75af6e40deae60e876b943"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/10_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 11
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89078",
+   "data_entry_offset": "0x894f8",
+   "depth": 3,
+   "data_rva": 603824,
+   "size": 36799,
+   "sha256": "396d5a0eea5e0fda8bc47558d1f8a8d3960c03a861fceaa398ba494c48762417",
+   "bytes_read": 36799,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "11",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 36799,
+    "sha256": "396d5a0eea5e0fda8bc47558d1f8a8d3960c03a861fceaa398ba494c48762417"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/11_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 12
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89090",
+   "data_entry_offset": "0x89508",
+   "depth": 3,
+   "data_rva": 640624,
+   "size": 16936,
+   "sha256": "da5372e7173ac7ed0c3b75c6b950fc5d824999823c1d4bcff61c3b8a84a04adf",
+   "bytes_read": 16936,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "12",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 16936,
+    "sha256": "da5372e7173ac7ed0c3b75c6b950fc5d824999823c1d4bcff61c3b8a84a04adf"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/12_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 13
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x890a8",
+   "data_entry_offset": "0x89518",
+   "depth": 3,
+   "data_rva": 657560,
+   "size": 9640,
+   "sha256": "ae168d2f48c1335ce1bb5f04f0b0b9f8bd7e16a1704c35ebe0a73de2baae5016",
+   "bytes_read": 9640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "13",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 9640,
+    "sha256": "ae168d2f48c1335ce1bb5f04f0b0b9f8bd7e16a1704c35ebe0a73de2baae5016"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/13_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x890c0",
+   "data_entry_offset": "0x89528",
+   "depth": 3,
+   "data_rva": 667200,
+   "size": 4264,
+   "sha256": "83d7b203761cb3c7653c34e0c44cbd55cdc8d139fbde824fac68fd1f2f2923cf",
+   "bytes_read": 4264,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "14",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 4264,
+    "sha256": "83d7b203761cb3c7653c34e0c44cbd55cdc8d139fbde824fac68fd1f2f2923cf"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/14_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 15
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x890d8",
+   "data_entry_offset": "0x89538",
+   "depth": 3,
+   "data_rva": 671464,
+   "size": 2440,
+   "sha256": "e33a93074e9b2d5340380af52d18787c01cd018acbdd22f26185c77e32c86a60",
+   "bytes_read": 2440,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "15",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2440,
+    "sha256": "e33a93074e9b2d5340380af52d18787c01cd018acbdd22f26185c77e32c86a60"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/15_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x890f0",
+   "data_entry_offset": "0x89548",
+   "depth": 3,
+   "data_rva": 673904,
+   "size": 1128,
+   "sha256": "f3845de9360a025e12dacf3847593a30a16752cf3c573d6086761c8ba05b7d89",
+   "bytes_read": 1128,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "16",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1128,
+    "sha256": "f3845de9360a025e12dacf3847593a30a16752cf3c573d6086761c8ba05b7d89"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/16_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 17
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89108",
+   "data_entry_offset": "0x89558",
+   "depth": 3,
+   "data_rva": 675264,
+   "size": 1640,
+   "sha256": "a63d81f9259052f82858b117aa71cb83229819bc7cf4a051e5edfb933c027c53",
+   "bytes_read": 1640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "17",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1640,
+    "sha256": "a63d81f9259052f82858b117aa71cb83229819bc7cf4a051e5edfb933c027c53"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/17_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 18
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89120",
+   "data_entry_offset": "0x89568",
+   "depth": 3,
+   "data_rva": 676904,
+   "size": 744,
+   "sha256": "7ca0c68f6f17686e4f95e4cf9ef0d48cb5a58216092b055411862a4d86b269d1",
+   "bytes_read": 744,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "18",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 744,
+    "sha256": "7ca0c68f6f17686e4f95e4cf9ef0d48cb5a58216092b055411862a4d86b269d1"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/18_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 19
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89138",
+   "data_entry_offset": "0x89578",
+   "depth": 3,
+   "data_rva": 677648,
+   "size": 488,
+   "sha256": "7ebd7657097aab19be057d565285baf3c7cf16fb50798fea8b53486d11b1d4e0",
+   "bytes_read": 488,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "19",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 488,
+    "sha256": "7ebd7657097aab19be057d565285baf3c7cf16fb50798fea8b53486d11b1d4e0"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/19_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 20
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89150",
+   "data_entry_offset": "0x89588",
+   "depth": 3,
+   "data_rva": 678136,
+   "size": 296,
+   "sha256": "4e8d49bc26d114a9a98071bdcd794a50c01c0b207cb8dfbb91deebe91741d441",
+   "bytes_read": 296,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "20",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 296,
+    "sha256": "4e8d49bc26d114a9a98071bdcd794a50c01c0b207cb8dfbb91deebe91741d441"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/20_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 21
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89168",
+   "data_entry_offset": "0x89598",
+   "depth": 3,
+   "data_rva": 678432,
+   "size": 3752,
+   "sha256": "b2f57ea269c49681b070ab450a9310811f6f28be5fcb082595c0f7f0b16aa836",
+   "bytes_read": 3752,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "21",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 3752,
+    "sha256": "b2f57ea269c49681b070ab450a9310811f6f28be5fcb082595c0f7f0b16aa836"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/21_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 22
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89180",
+   "data_entry_offset": "0x895a8",
+   "depth": 3,
+   "data_rva": 682184,
+   "size": 2216,
+   "sha256": "a127846549f4ade08f34d8de9bce020c33cbe90264739e4e68ac74239dd59fe7",
+   "bytes_read": 2216,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "22",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2216,
+    "sha256": "a127846549f4ade08f34d8de9bce020c33cbe90264739e4e68ac74239dd59fe7"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/22_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 23
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89198",
+   "data_entry_offset": "0x895b8",
+   "depth": 3,
+   "data_rva": 684400,
+   "size": 1736,
+   "sha256": "ae59ea75b688f818bb3138e7aca4683acc679b71d22118c344fab28f48ba4815",
+   "bytes_read": 1736,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "23",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1736,
+    "sha256": "ae59ea75b688f818bb3138e7aca4683acc679b71d22118c344fab28f48ba4815"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/23_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 24
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x891b0",
+   "data_entry_offset": "0x895c8",
+   "depth": 3,
+   "data_rva": 686136,
+   "size": 1384,
+   "sha256": "07788e45cc9156afbc5f501e44d8f27c873c6cda5f75af6e40deae60e876b943",
+   "bytes_read": 1384,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "24",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1384,
+    "sha256": "07788e45cc9156afbc5f501e44d8f27c873c6cda5f75af6e40deae60e876b943"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/24_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 25
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x891c8",
+   "data_entry_offset": "0x895d8",
+   "depth": 3,
+   "data_rva": 687520,
+   "size": 9640,
+   "sha256": "ae168d2f48c1335ce1bb5f04f0b0b9f8bd7e16a1704c35ebe0a73de2baae5016",
+   "bytes_read": 9640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "25",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 9640,
+    "sha256": "ae168d2f48c1335ce1bb5f04f0b0b9f8bd7e16a1704c35ebe0a73de2baae5016"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/25_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 26
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x891e0",
+   "data_entry_offset": "0x895e8",
+   "depth": 3,
+   "data_rva": 697160,
+   "size": 4264,
+   "sha256": "83d7b203761cb3c7653c34e0c44cbd55cdc8d139fbde824fac68fd1f2f2923cf",
+   "bytes_read": 4264,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "26",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 4264,
+    "sha256": "83d7b203761cb3c7653c34e0c44cbd55cdc8d139fbde824fac68fd1f2f2923cf"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/26_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 27
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x891f8",
+   "data_entry_offset": "0x895f8",
+   "depth": 3,
+   "data_rva": 701424,
+   "size": 2440,
+   "sha256": "e33a93074e9b2d5340380af52d18787c01cd018acbdd22f26185c77e32c86a60",
+   "bytes_read": 2440,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "27",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2440,
+    "sha256": "e33a93074e9b2d5340380af52d18787c01cd018acbdd22f26185c77e32c86a60"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/27_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 28
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89210",
+   "data_entry_offset": "0x89608",
+   "depth": 3,
+   "data_rva": 703864,
+   "size": 1128,
+   "sha256": "f3845de9360a025e12dacf3847593a30a16752cf3c573d6086761c8ba05b7d89",
+   "bytes_read": 1128,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "28",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1128,
+    "sha256": "f3845de9360a025e12dacf3847593a30a16752cf3c573d6086761c8ba05b7d89"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_ICON/raw/28_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 70
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89228",
+   "data_entry_offset": "0x89618",
+   "depth": 3,
+   "data_rva": 675032,
+   "size": 230,
+   "sha256": "9fe75ad2756a7c1b813ed61cb27cf4450f1d0aa33f44690d958dc7fadddbdbfd",
+   "bytes_read": 230,
+   "truncated": false,
+   "type": "RT_GROUP_ICON",
+   "name": "70",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_GROUP_ICON/70_en-US.ico",
+   "decoded": {
+    "ico_bytes": 92061
+   }
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 71
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89240",
+   "data_entry_offset": "0x89628",
+   "depth": 3,
+   "data_rva": 704992,
+   "size": 174,
+   "sha256": "453f125598a8d87f0c67185af56f0b9af1e9903970d8b72574d01bf9ee321a85",
+   "bytes_read": 174,
+   "truncated": false,
+   "type": "RT_GROUP_ICON",
+   "name": "71",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_GROUP_ICON/71_en-US.ico",
+   "decoded": {
+    "ico_bytes": 29926
+   }
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89258",
+   "data_entry_offset": "0x89638",
+   "depth": 3,
+   "data_rva": 705168,
+   "size": 976,
+   "sha256": "305df1825fe694af1c8770ea9491cb92a2dcd68e95e000c85b7f77320ddacaf1",
+   "bytes_read": 976,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Microsoft Windows Media Configuration Utility",
+    "FileVersion": "12.0.7601.17514 (win7sp1_rtm.101119-1850)",
+    "InternalName": "setup_wm.exe",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. All rights reserved.",
+    "OriginalFilename": "setup_wm.exe",
+    "ProductName": "Microsoft\u00c2\u00ae Windows\u00c2\u00ae Operating System",
+    "ProductVersion": "12.0.7601.17514",
+    "StringFileInfo_utf8": {
+     "LegalCopyright": "\u00a9 Microsoft Corporation. All rights reserved.",
+     "ProductName": "Microsoft\u00ae Windows\u00ae Operating System"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_VERSION/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 24
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x89270",
+   "data_entry_offset": "0x89648",
+   "depth": 3,
+   "data_rva": 580736,
+   "size": 1275,
+   "sha256": "b4fa16345f78a12b00ed348d4e1a219e7a221549640fb739759a1a4e78210fea",
+   "bytes_read": 1275,
+   "truncated": false,
+   "type": "RT_MANIFEST",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "first_line": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>",
+    "root_element": "assembly"
+   },
+   "extracted": "analysis/report/resources/setup_wm_exe/RT_MANIFEST/1_en-US.xml"
+  }
+ ]
+}

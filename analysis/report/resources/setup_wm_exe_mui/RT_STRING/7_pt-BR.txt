@@ -1,0 +1,11 @@
+100	Windows Media Player
+101	A instalação não pode continuar
+102	Um ou mais dos problemas a seguir ocorreram durante a instalação.
+103	Verifique antes de continuar a instalação
+104	Ocorreram um ou mais dos problemas a seguir, que podem afetar a instalação. Verifique as informações a seguir e tome a ação corretiva necessária.
+105	Obrigado por escolher o Windows Media Player
+106	Este software está licenciado sob o contrato a seguir. Durante o processo de instalação, o Windows Media Player contatará um servidor da Microsoft para determinar e configurar a loja online padrão.
+107	Personalizar as Opções de Instalação
+109	Selecionar o Player de Vídeo e Música Padrão
+110	Configure sua área de trabalho e as definições padrão do Windows Media Player.
+111	Baixando...

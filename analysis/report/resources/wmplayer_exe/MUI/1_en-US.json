@@ -1,0 +1,41 @@
+{
+ "magic": "0xfecdfecd",
+ "size": 216,
+ "total_size_field": 216,
+ "size_matches_payload": true,
+ "version_field": "0x00010000",
+ "dword0x10": 0,
+ "dword0x14": 17,
+ "dword0x18": 0,
+ "dword0x1c": 2,
+ "note": "words above are reported verbatim; their meaning is not established here",
+ "language_tag": "en-US",
+ "localized_type_ids": [
+  3,
+  11,
+  14,
+  16
+ ],
+ "localized_type_names": [
+  "RT_ICON",
+  "RT_MESSAGETABLE",
+  "RT_GROUP_ICON",
+  "RT_VERSION"
+ ],
+ "same_artifact_numeric_types": [
+  3,
+  14,
+  16,
+  24
+ ],
+ "type_list_matches_same_artifact": false,
+ "mui_sibling": "bin/pt-BR/wmplayer.exe.mui",
+ "mui_sibling_numeric_types": [
+  11,
+  16
+ ],
+ "type_list_matches_sibling": false,
+ "uninterpreted_dwords_0x20..": [
+  "0x9453d315"
+ ]
+}

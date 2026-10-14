@@ -1,0 +1,9 @@
+704	Required tag
+705	Read only tag
+706	Parameter Mismatch
+708	Unsupported or invalid search criteria
+709	Unsupported or invalid sort criteria
+710	No such container
+711	Restricted object
+712	Bad metadata
+713	Restricted parent object

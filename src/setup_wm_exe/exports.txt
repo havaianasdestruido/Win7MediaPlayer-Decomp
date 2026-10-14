@@ -1,0 +1,2 @@
+# Exported symbols — bin/setup_wm.exe (SHA-256 f069226052de289452ef5ff9dd67557193c15308c5351bc7b70b6692b350951b)
+# (no exported symbols; this image is an executable or a resource-only module)

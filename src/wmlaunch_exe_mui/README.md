@@ -1,0 +1,74 @@
+# `bin/pt-BR/wmlaunch.exe.mui` — module dossier
+
+> Assembled by `analysis/tools/module_report.py` from the PE inventory, resource
+> extraction, string scan, decompilation index and COM surface. Claims are tagged
+> **[verified]** (read directly from the artifact), **[inferred]** (a reading of the
+> evidence) or **[unresolved]** (unknown, with the remaining work stated).
+
+## 1. Identity **[verified]**
+
+* Path: `bin/pt-BR/wmlaunch.exe.mui`; size 2,048 bytes.
+* SHA-256: `bdc4a23d97dafb70a4d6fe38e834cfcf0b241456982cb87cf076e7c217553bd1`
+* Format: PE32+ (IMAGE_FILE_MACHINE_AMD64), subsystem `IMAGE_SUBSYSTEM_WINDOWS_GUI`, linker 9.0, image base `0x180000000`, entry point RVA `0x0`.
+* Built: 2009-07-14 00:23:47Z (PE TimeDateStamp 1247531027).
+* PDB: ; overlay: none; TLS: no; CLR: no.
+* DLL characteristics: ASLR, DEP.
+
+### Version resource **[verified]**
+
+* CompanyName: `Microsoft Corporation`
+* FileDescription: `Iniciador do Windows Media Player`
+* FileVersion: `12.0.7600.16385 (win7_rtm.090713-1255)`
+* ProductName: `Sistema Operacional Microsoft® Windows®`
+* ProductVersion: `12.0.7600.16385`
+* InternalName: `wmlaunch.exe`
+* OriginalFilename: `wmlaunch.exe.mui`
+* LegalCopyright: `© Microsoft Corporation. Todos os direitos reservados.`
+
+## 2. Sections **[verified]**
+
+| Section | RVA | Virtual size | Raw size | Entropy | Flags |
+|---|---|---|---|---|---|
+| `.rsrc` | `0x1000` | 4,096 | 1,536 | 3.85 | CNT_INITIALIZED_DATA, MEM_READ |
+
+## 3. API surface **[verified]**
+
+* Imported DLLs: **0**; imported functions: **0**; delay-loaded DLLs: **0**; exported symbols: **0**.
+
+| Family | DLLs | Functions |
+|---|---|---|
+
+Full per-DLL function listing: [`imports.txt`](imports.txt); raw objdump symbol evidence: `analysis/report/rea-evidence/wmlaunch_exe_mui/objdump-symbols.json`.
+
+## 4. Resources **[verified]**
+
+* Resource entries: **2** (raw directory walk; pefile cross-check agrees); message strings decoded: 0.
+* Types: MUI×1, RT_VERSION×1.
+
+* `MUI` payload (1, pt-BR): language tag `pt-BR`, declares localised types [] — matches sibling `.mui` file: None.
+Per-entry detail: `analysis/report/resources/wmlaunch_exe_mui/index.json`.
+
+## 5. String and identifier evidence **[verified]**
+
+* Literals: 4 ASCII, 23 UTF-16LE (27 unique).
+* GUIDs 0, URLs 0, UPnP URNs 0, registry paths 0, referenced modules 2.
+
+
+Curated extract: [`strings/highlights.md`](strings/highlights.md); full data: `analysis/report/data/strings/wmlaunch_exe_mui.json`.
+
+## 6. Decompiled behaviour **[verified for the emitted functions]**
+
+* Tool: angr 9.2.213 (CFGFast + Decompiler), status `not recorded`.
+* CFG: 0 functions, 0 call edges, built in 0.06s; selection rule: n/a.
+* Emitted pseudocode: 0 functions (? decompiled successfully).
+
+Index: [`decompiled/index.md`](decompiled/index.md). Decompiler output is reconstructed pseudocode, **not** original source.
+
+> no functions recovered by CFGFast — image has no executable code section (resource-only module such as a .mui payload)
+
+## 8. Interpretation and open items
+
+* Role **[inferred]**: Iniciador do Windows Media Player (internal name `wmlaunch.exe`)
+* [unresolved] decompilation status is `None` — the function index may be incomplete
+* [unresolved] `MUI` payload type-list not recovered (resource 1)
+

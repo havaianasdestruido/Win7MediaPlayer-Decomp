@@ -1,0 +1,2 @@
+# Exported symbols — bin/wmpshare.exe (SHA-256 ab95a6aa118e853d71b326b68a409f24a6276f47e34ca9e8049f7d49b4825a51)
+# (no exported symbols; this image is an executable or a resource-only module)

@@ -1,0 +1,240 @@
+{
+ "module": "wmpnetwk_exe",
+ "artifact": "bin/wmpnetwk.exe",
+ "sha256": "306467d280e99d0616e839278a4db5bed684f002ae284c3678cabb5251459cb3",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 1462272,
+  "size": 76480,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "RT_1017": 1,
+  "RT_MANIFEST": 1,
+  "RT_VERSION": 1,
+  "TYPELIB": 1,
+  "WEVT_TEMPLATE": 1
+ },
+ "pefile_walk_count": 6,
+ "walker_cross_check": {
+  "raw_walker": 6,
+  "pefile_walker": 6,
+  "agree": true
+ },
+ "messages_total": 0,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x15e8e0",
+   "data_entry_offset": "0x15e960",
+   "depth": 3,
+   "data_rva": 1538488,
+   "size": 264,
+   "sha256": "51d8b38c334709a80a2f32df0f97736acd6ec956a03908b1c8f9e8cc86824e23",
+   "bytes_read": 264,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "language_tag": "en-US",
+    "localized_type_ids": [],
+    "localized_type_names": [],
+    "matches_sibling": null,
+    "matches_same_artifact": null
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe/MUI/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "TYPELIB"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x15e8f8",
+   "data_entry_offset": "0x15e970",
+   "depth": 3,
+   "data_rva": 1528736,
+   "size": 9752,
+   "sha256": "c78541f2af521a45ec98885185410f5ef9f0765c1bdd2a7d3f4fe7b4a69aa4a8",
+   "bytes_read": 9752,
+   "truncated": false,
+   "type": "TYPELIB",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "format": "MSFT type library",
+    "version_field": "0x00010002",
+    "lcid": "0x0409",
+    "type_count": 3,
+    "decoded_by": "analysis/tools/typelib.py"
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe/TYPELIB/typelib_1_en-US.tlb"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "WEVT_TEMPLATE"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x15e910",
+   "data_entry_offset": "0x15e980",
+   "depth": 3,
+   "data_rva": 1464528,
+   "size": 59130,
+   "sha256": "486cff7acca6bd681f71e4ad51929b868a99b06ff0709944fcd2155347003c89",
+   "bytes_read": 59130,
+   "truncated": false,
+   "type": "WEVT_TEMPLATE",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "magic": "CRIM",
+    "declared_size": 59128,
+    "note": "ETW event-manifest template; binary schema not decoded here"
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe/WEVT_TEMPLATE/raw/1_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x15e928",
+   "data_entry_offset": "0x15e990",
+   "depth": 3,
+   "data_rva": 1463488,
+   "size": 1040,
+   "sha256": "1640742c9c4e24c631ce0f78c8ee969ae3acd397f20e085e52454c9d7c0ca5a4",
+   "bytes_read": 1040,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Windows Media Player Network Sharing Service",
+    "FileVersion": "12.0.7601.17514 (win7sp1_rtm.101119-1850)",
+    "InternalName": "Windows Media Player Network Sharing Service",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. All rights reserved.",
+    "OriginalFilename": "WMPNetwk.exe",
+    "ProductName": "Microsoft\u00c2\u00ae Windows\u00c2\u00ae Operating System",
+    "ProductVersion": "12.0.7601.17514",
+    "StringFileInfo_utf8": {
+     "LegalCopyright": "\u00a9 Microsoft Corporation. All rights reserved.",
+     "ProductName": "Microsoft\u00ae Windows\u00ae Operating System"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe/RT_VERSION/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 24
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x15e940",
+   "data_entry_offset": "0x15e9a0",
+   "depth": 3,
+   "data_rva": 1462784,
+   "size": 698,
+   "sha256": "3a3fd8faea8d7e9655781a46a8c6f4a553d3f97fd16ff50ae243da503a9c7b6c",
+   "bytes_read": 698,
+   "truncated": false,
+   "type": "RT_MANIFEST",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "first_line": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>",
+    "root_element": "assembly"
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe/RT_MANIFEST/1_en-US.xml"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 1017
+    },
+    {
+     "kind": "id",
+     "id": 1501
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x15e958",
+   "data_entry_offset": "0x15e9b0",
+   "depth": 3,
+   "data_rva": 1523664,
+   "size": 5069,
+   "sha256": "5ad80993cd3dcdb6e41988698064d5b4f64ce7511b3c727d9f31c7f5ed06532f",
+   "bytes_read": 5069,
+   "truncated": false,
+   "type": "RT_1017",
+   "name": "1501",
+   "language": "en-US",
+   "decoded": {
+    "first_line": "<?xml version=\"1.0\"?>",
+    "root_element": "root"
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe/RT_1017/1501_en-US.xml"
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+ERROR    | 2026-10-14 21:45:42,524 | angr.state_plugins.unicorn_engine | failed loading "unicornlib.so", unicorn support disabled ('NoneType' object has no attribute 'unicorn_py3')
+ERROR    | 2026-10-14 21:45:49,135 | angr.analyses.decompiler.structured_codegen.c | Store data lifted to a C type with a different size. Decompilation output will be wrong.
+ERROR    | 2026-10-14 21:45:52,698 | angr.analyses.decompiler.structured_codegen.c | Store data lifted to a C type with a different size. Decompilation output will be wrong.
+ERROR    | 2026-10-14 21:45:52,699 | angr.analyses.decompiler.structured_codegen.c | Store data lifted to a C type with a different size. Decompilation output will be wrong.
+[wmpenc_exe] cfg 0.8s functions=390 selected=60 decompiled=60 elapsed=13s

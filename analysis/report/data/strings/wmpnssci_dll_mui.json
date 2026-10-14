@@ -1,0 +1,587 @@
+{
+ "module": "wmpnssci_dll_mui",
+ "artifact": "bin/pt-BR/wmpnssci.dll.mui",
+ "counts": {
+  "ascii": 4,
+  "utf16": 49,
+  "unique": 52
+ },
+ "strings": [
+  {
+   "text": "!This program cannot be run in DOS mode.",
+   "offset": "0x4d",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "RichE",
+   "offset": "0xa0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".rsrc",
+   "offset": "0x1c0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX",
+   "offset": "0xf48",
+   "kind": "ascii",
+   "rva": "0x1d48",
+   "va": "0x180001d48",
+   "tags": []
+  },
+  {
+   "text": "pt-BR",
+   "offset": "0x440",
+   "kind": "utf16",
+   "rva": "0x1240",
+   "va": "0x180001240",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "MS Shell Dlg",
+   "offset": "0x476",
+   "kind": "utf16",
+   "rva": "0x1276",
+   "va": "0x180001276",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Detalhes do Dispositivo",
+   "offset": "0x52c",
+   "kind": "utf16",
+   "rva": "0x132c",
+   "va": "0x18000132c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Fabricante:",
+   "offset": "0x57c",
+   "kind": "utf16",
+   "rva": "0x137c",
+   "va": "0x18000137c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Modelo:",
+   "offset": "0x5f4",
+   "kind": "utf16",
+   "rva": "0x13f4",
+   "va": "0x1800013f4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "mero do modelo:",
+   "offset": "0x668",
+   "kind": "utf16",
+   "rva": "0x1468",
+   "va": "0x180001468",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "gina da Web do dispositivo:",
+   "offset": "0x6cc",
+   "kind": "utf16",
+   "rva": "0x14cc",
+   "va": "0x1800014cc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Informa",
+   "offset": "0x744",
+   "kind": "utf16",
+   "rva": "0x1544",
+   "va": "0x180001544",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es sobre Solu",
+   "offset": "0x756",
+   "kind": "utf16",
+   "rva": "0x1556",
+   "va": "0x180001556",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de Problemas",
+   "offset": "0x774",
+   "kind": "utf16",
+   "rva": "0x1574",
+   "va": "0x180001574",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "mero de s",
+   "offset": "0x7b4",
+   "kind": "utf16",
+   "rva": "0x15b4",
+   "va": "0x1800015b4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rie:",
+   "offset": "0x7c8",
+   "kind": "utf16",
+   "rva": "0x15c8",
+   "va": "0x1800015c8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Endere",
+   "offset": "0x810",
+   "kind": "utf16",
+   "rva": "0x1610",
+   "va": "0x180001610",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o MAC:",
+   "offset": "0x81e",
+   "kind": "utf16",
+   "rva": "0x161e",
+   "va": "0x18000161e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Identificador exclusivo:",
+   "offset": "0x86c",
+   "kind": "utf16",
+   "rva": "0x166c",
+   "va": "0x18000166c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o IP:   ",
+   "offset": "0x8ea",
+   "kind": "utf16",
+   "rva": "0x16ea",
+   "va": "0x1800016ea",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Dispositivo Desconhecido (%1)",
+   "offset": "0x930",
+   "kind": "utf16",
+   "rva": "0x1730",
+   "va": "0x180001730",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Dispositivo de Rede",
+   "offset": "0x998",
+   "kind": "utf16",
+   "rva": "0x1798",
+   "va": "0x180001798",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o dispon",
+   "offset": "0x9c4",
+   "kind": "utf16",
+   "rva": "0x17c4",
+   "va": "0x1800017c4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel(P",
+   "offset": "0x9d6",
+   "kind": "utf16",
+   "rva": "0x17d6",
+   "va": "0x1800017d6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "gina da Web do fabricante indispon",
+   "offset": "0x9e2",
+   "kind": "utf16",
+   "rva": "0x17e2",
+   "va": "0x1800017e2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "gina da Web do modelo indispon",
+   "offset": "0xa36",
+   "kind": "utf16",
+   "rva": "0x1836",
+   "va": "0x180001836",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel*P",
+   "offset": "0xa74",
+   "kind": "utf16",
+   "rva": "0x1874",
+   "va": "0x180001874",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "gina da Web da apresenta",
+   "offset": "0xa80",
+   "kind": "utf16",
+   "rva": "0x1880",
+   "va": "0x180001880",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o indispon",
+   "offset": "0xab4",
+   "kind": "utf16",
+   "rva": "0x18b4",
+   "va": "0x1800018b4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Dispositivo Desconhecido",
+   "offset": "0xad2",
+   "kind": "utf16",
+   "rva": "0x18d2",
+   "va": "0x1800018d2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VS_VERSION_INFO",
+   "offset": "0xb22",
+   "kind": "utf16",
+   "rva": "0x1922",
+   "va": "0x180001922",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "StringFileInfo",
+   "offset": "0xb7e",
+   "kind": "utf16",
+   "rva": "0x197e",
+   "va": "0x18000197e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "041604B0",
+   "offset": "0xba2",
+   "kind": "utf16",
+   "rva": "0x19a2",
+   "va": "0x1800019a2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CompanyName",
+   "offset": "0xbba",
+   "kind": "utf16",
+   "rva": "0x19ba",
+   "va": "0x1800019ba",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft Corporation",
+   "offset": "0xbd4",
+   "kind": "utf16",
+   "rva": "0x19d4",
+   "va": "0x1800019d4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileDescription",
+   "offset": "0xc06",
+   "kind": "utf16",
+   "rva": "0x1a06",
+   "va": "0x180001a06",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "DLL de Interface de Controle de Servi",
+   "offset": "0xc28",
+   "kind": "utf16",
+   "rva": "0x1a28",
+   "va": "0x180001a28",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de Compartilhamento de Rede do Windows Media Player",
+   "offset": "0xc74",
+   "kind": "utf16",
+   "rva": "0x1a74",
+   "va": "0x180001a74",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileVersion",
+   "offset": "0xce6",
+   "kind": "utf16",
+   "rva": "0x1ae6",
+   "va": "0x180001ae6",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "offset": "0xd00",
+   "kind": "utf16",
+   "rva": "0x1b00",
+   "va": "0x180001b00",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InternalName",
+   "offset": "0xd56",
+   "kind": "utf16",
+   "rva": "0x1b56",
+   "va": "0x180001b56",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LegalCopyright",
+   "offset": "0xd76",
+   "kind": "utf16",
+   "rva": "0x1b76",
+   "va": "0x180001b76",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Microsoft Corporation. Todos os direitos reservados.",
+   "offset": "0xd96",
+   "kind": "utf16",
+   "rva": "0x1b96",
+   "va": "0x180001b96",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "OriginalFilename",
+   "offset": "0xe0a",
+   "kind": "utf16",
+   "rva": "0x1c0a",
+   "va": "0x180001c0a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMPNSSCI.DLL.MUI",
+   "offset": "0xe2c",
+   "kind": "utf16",
+   "rva": "0x1c2c",
+   "va": "0x180001c2c",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductName",
+   "offset": "0xe56",
+   "kind": "utf16",
+   "rva": "0x1c56",
+   "va": "0x180001c56",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sistema Operacional Microsoft",
+   "offset": "0xe70",
+   "kind": "utf16",
+   "rva": "0x1c70",
+   "va": "0x180001c70",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Windows",
+   "offset": "0xeac",
+   "kind": "utf16",
+   "rva": "0x1cac",
+   "va": "0x180001cac",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductVersion",
+   "offset": "0xec6",
+   "kind": "utf16",
+   "rva": "0x1cc6",
+   "va": "0x180001cc6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385",
+   "offset": "0xee4",
+   "kind": "utf16",
+   "rva": "0x1ce4",
+   "va": "0x180001ce4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VarFileInfo",
+   "offset": "0xf0a",
+   "kind": "utf16",
+   "rva": "0x1d0a",
+   "va": "0x180001d0a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Translation",
+   "offset": "0xf2a",
+   "kind": "utf16",
+   "rva": "0x1d2a",
+   "va": "0x180001d2a",
+   "tags": [
+    "utf16le"
+   ]
+  }
+ ],
+ "by_tag": {
+  "api-name": [
+   "CompanyName",
+   "FileDescription",
+   "FileVersion"
+  ],
+  "module-name": [
+   "WMPNSSCI.DLL.MUI"
+  ],
+  "utf16le": [
+   " Microsoft Corporation. Todos os direitos reservados.",
+   " Windows",
+   "041604B0",
+   "12.0.7600.16385",
+   "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "CompanyName",
+   "DLL de Interface de Controle de Servi",
+   "Detalhes do Dispositivo",
+   "Dispositivo Desconhecido",
+   "Dispositivo Desconhecido (%1)",
+   "Dispositivo de Rede",
+   "Endere",
+   "Fabricante:",
+   "FileDescription",
+   "FileVersion",
+   "Identificador exclusivo:",
+   "Informa",
+   "InternalName",
+   "LegalCopyright",
+   "MS Shell Dlg",
+   "Microsoft Corporation",
+   "Modelo:",
+   "OriginalFilename",
+   "ProductName",
+   "ProductVersion",
+   "Sistema Operacional Microsoft",
+   "StringFileInfo",
+   "Translation",
+   "VS_VERSION_INFO",
+   "VarFileInfo",
+   "WMPNSSCI.DLL.MUI",
+   "es sobre Solu",
+   "gina da Web da apresenta",
+   "gina da Web do dispositivo:",
+   "gina da Web do fabricante indispon",
+   "gina da Web do modelo indispon",
+   "mero de s",
+   "mero do modelo:",
+   "o IP:   ",
+   "o MAC:",
+   "o de Compartilhamento de Rede do Windows Media Player",
+   "o de Problemas",
+   "o dispon",
+   "o indispon",
+   "pt-BR",
+   "rie:",
+   "vel(P",
+   "vel*P"
+  ]
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "module": "wmpenc_exe",
+ "artifact": "bin/wmpenc.exe",
+ "sha256": "b8b174ae012a8a25a9d706f7f169e7a2553ab8ffe0ccef2beb34fe803ec0634a",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 36864,
+  "size": 2488,
+  "present": true
+ },
+ "type_counts": {
+  "REGISTRY": 1,
+  "RT_MANIFEST": 1,
+  "RT_VERSION": 1
+ },
+ "pefile_walk_count": 3,
+ "walker_cross_check": {
+  "raw_walker": 3,
+  "pefile_walker": 3,
+  "agree": true
+ },
+ "messages_total": 0,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "REGISTRY"
+    },
+    {
+     "kind": "id",
+     "id": 100
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x6080",
+   "data_entry_offset": "0x60b8",
+   "depth": 3,
+   "data_rva": 38760,
+   "size": 586,
+   "sha256": "80837a1778cd149e84d3be08efac621824ad0ade5c504e9a385f0c94b639426d",
+   "bytes_read": 586,
+   "truncated": false,
+   "type": "REGISTRY",
+   "name": "100",
+   "language": "en-US",
+   "decoded": {
+    "format": "ATL registrar script (RGS)",
+    "bytes": 586,
+    "guids": [
+     "{A137EF16-7BAA-4D2D-8BFD-7FCE6D5A1D57}",
+     "{A9D431C2-6D56-4727-9690-ADBE66B9184A}",
+     "{AEE3E4A8-EF01-4024-A0F1-809D9B096E14}"
+    ],
+    "statement_lines": 21
+   },
+   "extracted": "analysis/report/resources/wmpenc_exe/REGISTRY/100_en-US.rgs"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x6098",
+   "data_entry_offset": "0x60c8",
+   "depth": 3,
+   "data_rva": 37816,
+   "size": 944,
+   "sha256": "72297419a49f429e09261b0df5ec52b8f66820ff4eafba328eba74320662ac9d",
+   "bytes_read": 944,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Windows Media Player Encoder Helper",
+    "FileVersion": "12.0.7600.16385 (win7_rtm.090713-1255)",
+    "InternalName": "wmpenc.exe",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. All rights reserved.",
+    "OriginalFilename": "wmpenc.exe",
+    "ProductName": "Microsoft\u00c2\u00ae Windows\u00c2\u00ae Operating System",
+    "ProductVersion": "12.0.7600.16385",
+    "StringFileInfo_utf8": {
+     "LegalCopyright": "\u00a9 Microsoft Corporation. All rights reserved.",
+     "ProductName": "Microsoft\u00ae Windows\u00ae Operating System"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmpenc_exe/RT_VERSION/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 24
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x60b0",
+   "data_entry_offset": "0x60d8",
+   "depth": 3,
+   "data_rva": 37120,
+   "size": 694,
+   "sha256": "087c9d261686983b26122d331a51e8c0891213df06557e4745e9882a9fb3fe63",
+   "bytes_read": 694,
+   "truncated": false,
+   "type": "RT_MANIFEST",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "first_line": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>",
+    "root_element": "assembly"
+   },
+   "extracted": "analysis/report/resources/wmpenc_exe/RT_MANIFEST/1_en-US.xml"
+  }
+ ]
+}

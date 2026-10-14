@@ -1,0 +1,10 @@
+336	Não é Possível Concluir Instalação da Loja
+337	Não foi possível concluir a Instalação; %s não foi instalado. É necessário reiniciar o Windows agora.
+338	%s não foi instalado. Para adicionar essa loja ao Windows Media Player, execute a Instalação de %s novamente .
+339	Não foi possível concluir a Instalação de %s.
+340	%s foi instalado.
+342	Descrição online do Programa de Aperfeiçoamento da Experiência do Usuário
+344	Feche %s antes de continuar.
+345	Para adicionar esta loja ao Windows Media Player, você deve ter feito logon no computador como administrador ou membro do grupo Administradores. Clique em Concluir, faça logoff do computador e faça logon como administrador.
+346	Não é possível desinstalar %s, porque as pastas necessárias para a desinstalação já foram excluídas.
+347	Há uma atualização disponível para %s. Clique em Aceito para baixar o software ou em Não Aceito para cancelar a atualização.

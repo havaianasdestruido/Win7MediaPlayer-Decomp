@@ -1,0 +1,17 @@
+192	http://go.microsoft.com/fwlink/?linkid=47486
+193	http://go.microsoft.com/fwlink/?LinkId=120762
+194	Uma atualização do Windows Media está disponível. Deseja atualizar agora?
+195	O(s) formato(s) %s inclui(em) arquivos com as extensões %s.
+196	Opções de Privacidade
+197	Declaração de Privacidade
+198	Você está prestes a alterar as configurações de privacidade que afetarão a maneira como os cookies são tratados em qualquer outro programa que dependa dessas configurações.
+
+O Windows Media Player usa a plataforma da Internet para se comunicar com servidores que transmitem conteúdo e com provedores de conteúdo. A modificação das configurações de cookie afetará o conteúdo que você pode acessar.
+200	Selecione os tipos de arquivo que deseja que o Windows Media Player reproduza por padrão.
+201	O Windows Media Player não foi instalado. Para atualizar o Windows, execute a instalação do Windows Media Player novamente.
+202	Para que suas alterações tenham efeito, você precisa reiniciar o Windows. Salve seu trabalho e feche todos os programas. Em seguida, clique em Reiniciar para reiniciar o Windows.
+203	FW_BOLD
+204	Italic
+205	13
+206	22
+207	LEFT

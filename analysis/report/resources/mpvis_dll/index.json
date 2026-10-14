@@ -1,0 +1,345 @@
+{
+ "module": "mpvis_dll",
+ "artifact": "bin/mpvis.DLL",
+ "sha256": "5b1cf8de17dc039349e1af0bc0d728e3de3c0a96d9c50e81fc909b8ceb4927e0",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 278528,
+  "size": 29568,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "REGISTRY": 1,
+  "RT_BITMAP": 5,
+  "RT_VERSION": 1,
+  "TYPELIB": 1
+ },
+ "pefile_walk_count": 9,
+ "walker_cross_check": {
+  "raw_walker": 9,
+  "pefile_walker": 9,
+  "agree": true
+ },
+ "messages_total": 0,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3eae0",
+   "data_entry_offset": "0x3eba8",
+   "depth": 3,
+   "data_rva": 307864,
+   "size": 232,
+   "sha256": "c31aaa560c5aebdc73abec26f3e0fb82c754caf14d58bcb50c825ef6af325464",
+   "bytes_read": 232,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "language_tag": "en-US",
+    "localized_type_ids": [
+     6,
+     16
+    ],
+    "localized_type_names": [
+     "RT_STRING",
+     "RT_VERSION"
+    ],
+    "matches_sibling": null,
+    "matches_same_artifact": false
+   },
+   "extracted": "analysis/report/resources/mpvis_dll/MUI/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "REGISTRY"
+    },
+    {
+     "kind": "id",
+     "id": 101
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3eaf8",
+   "data_entry_offset": "0x3ebb8",
+   "depth": 3,
+   "data_rva": 280088,
+   "size": 1208,
+   "sha256": "e956fd38034d5131b1ec1e62c16298716c428adec95c6baf6453b27fbb08ffad",
+   "bytes_read": 1208,
+   "truncated": false,
+   "type": "REGISTRY",
+   "name": "101",
+   "language": "en-US",
+   "decoded": {
+    "format": "ATL registrar script (RGS)",
+    "bytes": 1208,
+    "guids": [
+     "{0AA02E8D-F851-4CB0-9F64-BBA9BE7A983D}",
+     "{C58F1580-0DF3-401C-93B1-2D9DDA61CF04}"
+    ],
+    "statement_lines": 43
+   },
+   "extracted": "analysis/report/resources/mpvis_dll/REGISTRY/101_en-US.rgs"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "TYPELIB"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3eb10",
+   "data_entry_offset": "0x3ebc8",
+   "depth": 3,
+   "data_rva": 305304,
+   "size": 2556,
+   "sha256": "33024fd3bb72a4d7afda62f4fb7371f026d3160f8a0fe3e3f312f4098b1f9db2",
+   "bytes_read": 2556,
+   "truncated": false,
+   "type": "TYPELIB",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "format": "MSFT type library",
+    "version_field": "0x00010002",
+    "lcid": "0x0409",
+    "type_count": 2,
+    "decoded_by": "analysis/tools/typelib.py"
+   },
+   "extracted": "analysis/report/resources/mpvis_dll/TYPELIB/typelib_1_en-US.tlb"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 206
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3eb28",
+   "data_entry_offset": "0x3ebd8",
+   "depth": 3,
+   "data_rva": 281296,
+   "size": 1320,
+   "sha256": "6005e7104be5b0ac3e0e3626a6d83341fc6e1414aa5559c1d37cc72fb65b507d",
+   "bytes_read": 1320,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "206",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1320,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/mpvis_dll/RT_BITMAP/raw/206_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 207
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3eb40",
+   "data_entry_offset": "0x3ebe8",
+   "depth": 3,
+   "data_rva": 282616,
+   "size": 1576,
+   "sha256": "2fe3a1ecf864ccf2af2e8532abacb0ed09c1f3d401ae538307cb54e72aed92f8",
+   "bytes_read": 1576,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "207",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1576,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/mpvis_dll/RT_BITMAP/raw/207_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 208
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3eb58",
+   "data_entry_offset": "0x3ebf8",
+   "depth": 3,
+   "data_rva": 284192,
+   "size": 2600,
+   "sha256": "5568e667ef9acf44f950458c5d4ee43fd0bd4381912ccfc39152be977d547a84",
+   "bytes_read": 2600,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "208",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2600,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/mpvis_dll/RT_BITMAP/raw/208_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 209
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3eb70",
+   "data_entry_offset": "0x3ec08",
+   "depth": 3,
+   "data_rva": 286792,
+   "size": 5160,
+   "sha256": "1a7c1e84719c5fd76b30be31095c5d61602eb4d874a80b17a3609127938859f6",
+   "bytes_read": 5160,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "209",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 5160,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/mpvis_dll/RT_BITMAP/raw/209_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 210
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3eb88",
+   "data_entry_offset": "0x3ec18",
+   "depth": 3,
+   "data_rva": 291952,
+   "size": 13352,
+   "sha256": "63738781cdd4db3c4bca3c7b7bd0f2b0f2e6abbfd6cd92c902c72287bd53f814",
+   "bytes_read": 13352,
+   "truncated": false,
+   "type": "RT_BITMAP",
+   "name": "210",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 13352,
+    "note": "DIB payload (BITMAPINFOHEADER + pixels), not decoded"
+   },
+   "extracted": "analysis/report/resources/mpvis_dll/RT_BITMAP/raw/210_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x3eba0",
+   "data_entry_offset": "0x3ec28",
+   "depth": 3,
+   "data_rva": 279152,
+   "size": 936,
+   "sha256": "c6d6db9e35917592ec82fe8d6b33894f71dbc88d897040cc79156b0927ed3767",
+   "bytes_read": 936,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Windows Media Player Visualization",
+    "FileVersion": "12.0.7600.16385 (win7_rtm.090713-1255)",
+    "InternalName": "mpvis.dll",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. All rights reserved.",
+    "OriginalFilename": "mpvis.dll",
+    "ProductName": "Microsoft\u00c2\u00ae Windows\u00c2\u00ae Operating System",
+    "ProductVersion": "12.0.7600.16385",
+    "StringFileInfo_utf8": {
+     "LegalCopyright": "\u00a9 Microsoft Corporation. All rights reserved.",
+     "ProductName": "Microsoft\u00ae Windows\u00ae Operating System"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/mpvis_dll/RT_VERSION/1_en-US.json"
+  }
+ ]
+}

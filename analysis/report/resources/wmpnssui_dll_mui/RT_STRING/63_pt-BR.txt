@@ -1,0 +1,6 @@
+1001	Reproduzir em
+1002	Permitir transmissão para este dispositivo
+1003	Bloquear transmissão para este dispositivo
+1004	Falha ao Reproduzir
+1005	Erro
+1006	Opções de streaming de mídia

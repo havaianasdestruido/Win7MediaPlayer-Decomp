@@ -1,0 +1,23 @@
+{
+ "magic": "0xfecdfecd",
+ "size": 200,
+ "total_size_field": 200,
+ "size_matches_payload": true,
+ "version_field": "0x00010000",
+ "dword0x10": 0,
+ "dword0x14": 18,
+ "dword0x18": 0,
+ "dword0x1c": 0,
+ "note": "words above are reported verbatim; their meaning is not established here",
+ "language_tag": "pt-BR",
+ "localized_type_ids": [],
+ "localized_type_names": [],
+ "same_artifact_numeric_types": [
+  5,
+  6,
+  11,
+  16
+ ],
+ "type_list_matches_same_artifact": null,
+ "uninterpreted_dwords_0x20..": []
+}

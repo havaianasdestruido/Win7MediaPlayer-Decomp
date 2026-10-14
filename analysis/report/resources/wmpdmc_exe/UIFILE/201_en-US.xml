@@ -1,0 +1,724 @@
+<duixml>
+<stylesheets>
+<style resid="SeekScrollBar"> 
+<if id="atom(thumb)">
+<WMPDMCThumbHC contentalign="middlecenter" accstate="0x00100000" content="sgraphic(300,2)"/>
+<if custom="2">
+<if highcontrast="0">
+<WMPDMCThumbHC content="sgraphic(303,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCThumbHC content="sgraphic(365,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCThumbHC content="sgraphic(364,2)"/>
+</if>
+</if> 
+<if custom="1">
+<if highcontrast="0">
+<WMPDMCThumbHC content="sgraphic(301,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCThumbHC content="sgraphic(365,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCThumbHC content="sgraphic(364,2)"/>
+</if>
+</if> 
+<if keyfocused="true">
+<WMPDMCThumbHC contentalign="middlecenter | focusrect"/>
+</if>
+<if mousefocused="true">
+<if highcontrast="0">
+<WMPDMCThumbHC content="sgraphic(302,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCThumbHC content="sgraphic(364,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCThumbHC content="sgraphic(365,2)"/>
+</if>
+</if>
+<if captured="true">
+<if highcontrast="0">
+<WMPDMCThumbHC content="sgraphic(304,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCThumbHC content="sgraphic(365,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCThumbHC content="sgraphic(364,2)"/>
+</if>
+</if>
+<if enabled="false">
+<WMPDMCThumbHC content="sgraphic(300,2)"/>
+</if>
+</if>
+<if id="atom(pageleft)">
+<if highcontrast="0">
+<WMPDMCButtonHC borderthickness="rect(2rp,0rp,0rp,0rp)" background="sgraphic(305,7)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC borderthickness="rect(2rp,0rp,0rp,0rp)" background="sgraphic(363,7)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC borderthickness="rect(2rp,0rp,0rp,0rp)" background="sgraphic(362,7)"/>
+</if>
+</if>
+<if id="atom(pageright)">
+<WMPDMCButtonHC borderthickness="rect(0rp,0rp,0rp,0rp)"/>
+</if>
+</style> 
+<style resid="MediaListItemEffects">
+<element foreground="windowtext"/> 
+<button accstate="0x00300000"/>
+<WMPDMCPlaylistButton accstate="0x00300000"/>
+<if mousefocused="true">
+<element foreground="themeable(black, highlightText)"/> 
+<button background="themeable(dtb(EXPLORER::LISTVIEW, 1, 2), Highlight)"/>
+<WMPDMCPlaylistButton background="themeable(dtb(EXPLORER::LISTVIEW, 1, 2), Highlight)"/>
+</if>
+<if mousewithin="true">
+<element foreground="themeable(black, highlightText)"/> 
+<button background="themeable(dtb(EXPLORER::LISTVIEW, 1, 2), Highlight)"/>
+<WMPDMCPlaylistButton background="themeable(dtb(EXPLORER::LISTVIEW, 1, 2), Highlight)"/>
+</if>
+<if keyfocused="true">
+<element foreground="themeable(black, highlightText)"/> 
+<button contentalign="focusrect" background="themeable(dtb(EXPLORER::LISTVIEW, 1, 5), Highlight)"/>
+<WMPDMCPlaylistButton contentalign="focusrect" background="themeable(dtb(EXPLORER::LISTVIEW, 1, 5), Highlight)"/>
+<if mousefocused="true">
+<button contentalign="focusrect" background="themeable(dtb(EXPLORER::LISTVIEW, 1, 6), Highlight)"/>
+<WMPDMCPlaylistButton contentalign="focusrect" background="themeable(dtb(EXPLORER::LISTVIEW, 1, 6), Highlight)"/>
+</if>
+<if mousewithin="true">
+<button contentalign="focusrect" background="themeable(dtb(EXPLORER::LISTVIEW, 1, 6), Highlight)"/>
+<WMPDMCPlaylistButton contentalign="focusrect" background="themeable(dtb(EXPLORER::LISTVIEW, 1, 6), Highlight)"/>
+</if>
+</if>
+<if keywithin="true">
+<element foreground="themeable(black, highlightText)"/> 
+<button contentalign="focusrect" background="themeable(dtb(EXPLORER::LISTVIEW, 1, 5), Highlight)"/>
+<WMPDMCPlaylistButton contentalign="focusrect" background="themeable(dtb(EXPLORER::LISTVIEW, 1, 5), Highlight)"/>
+<if mousefocused="true">
+<button contentalign="focusrect" background="themeable(dtb(EXPLORER::LISTVIEW, 1, 6), Highlight)"/>
+<WMPDMCPlaylistButton contentalign="focusrect" background="themeable(dtb(EXPLORER::LISTVIEW, 1, 6), Highlight)"/>
+</if>
+<if mousewithin="true">
+<button contentalign="focusrect" background="themeable(dtb(EXPLORER::LISTVIEW, 1, 6), Highlight)"/>
+<WMPDMCPlaylistButton contentalign="focusrect" background="themeable(dtb(EXPLORER::LISTVIEW, 1, 6), Highlight)"/>
+</if>
+</if>
+<if selected="true">
+<element foreground="themeable(black, highlightText)"/> 
+<button background="themeable(dtb(EXPLORER::LISTVIEW, 1, 3), Highlight)"/>
+<WMPDMCPlaylistButton background="themeable(dtb(EXPLORER::LISTVIEW, 1, 3), Highlight)"/>
+<if keyfocused="false">
+<button background="themeable(dtb(EXPLORER::LISTVIEW, 1, 5), Highlight)"/>
+<WMPDMCPlaylistButton background="themeable(dtb(EXPLORER::LISTVIEW, 1, 5), Highlight)"/>
+</if>
+<if keywithin="false">
+<button background="themeable(dtb(EXPLORER::LISTVIEW, 1, 5), Highlight)"/>
+<WMPDMCPlaylistButton background="themeable(dtb(EXPLORER::LISTVIEW, 1, 5), Highlight)"/>
+</if>
+<if mousefocused="true">
+<button background="themeable(dtb(EXPLORER::LISTVIEW, 1, 6), Highlight)"/>
+<WMPDMCPlaylistButton background="themeable(dtb(EXPLORER::LISTVIEW, 1, 6), Highlight)"/>
+</if>
+<if mousewithin="true">
+<button background="themeable(dtb(EXPLORER::LISTVIEW, 1, 6), Highlight)"/>
+<WMPDMCPlaylistButton background="themeable(dtb(EXPLORER::LISTVIEW, 1, 6), Highlight)"/>
+</if>
+</if> 
+</style> 
+<style resid="WMPDMCScrollStyle">
+<if class="ScrollViewer">
+<CCHScrollBar layoutpos="ninebottom" accessible="true" accdesc="resstr(532)" accname="resstr(531)"/>
+<CCVScrollBar layoutpos="nineright" accessible="true" padding="rect(1rp,0rp,0rp,0rp)" accdesc="resstr(534)" accname="resstr(533)"/>
+<viewer layoutpos="nineclient"/>
+</if>
+</style>
+<style resid="ClearListButtonStyle">
+<button foreground="buttontext" accstate="0x00100000" contentalign="middlecenter" padding="rect(15rp,5rp,15rp,5rp)"/>
+<if keyfocused="true"> 
+<button contentalign="middlecenter | focusrect"/>
+</if>
+<if selected="true">
+<button background="dtb(Button, 1, 5)"/>
+</if>
+<if mousefocused="true">
+<button background="dtb(Button, 1, 2)"/>
+</if>
+<if pressed="true">
+<button background="dtb(Button, 1, 3)"/>
+</if>
+<if enabled="false">
+<button foreground="graytext"/>
+</if>
+</style>
+<style resid="GenericButtonStyle">
+<button contentalign="middlecenter" accstate="0x00100000" padding="rect(3rp,3rp,3rp,3rp)"/>
+<if keyfocused="true"> 
+<button contentalign="middlecenter | focusrect"/>
+</if>
+<if mousefocused="true">
+<button background="dtb(Button, 1, 2)"/>
+</if>
+<if pressed="true">
+<button background="dtb(Button, 1, 3)"/>
+</if>
+</style>
+<style resid="AVTEffects">
+<WMPDMCButtonHC accstate="0x00100000" contentalign="middlecenter"/>
+<if keyfocused="true">
+<WMPDMCButtonHC contentalign="middlecenter|focusrect"/>
+</if>
+<if id="atom(transport_holder)">
+<if highcontrast="0">
+<WMPDMCElementHC content="sgraphic(298,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCElementHC content="sgraphic(373,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCElementHC content="sgraphic(372,2)"/>
+</if>
+</if>
+<if id="atom(prev_button)">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(277,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(335,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(332,2)"/>
+</if>
+<if mousefocused="true">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(275,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(332,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(335,2)"/>
+</if>
+</if>
+<if pressed="true">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(276,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(335,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(332,2)"/>
+</if>
+</if>
+<if enabled="false">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(277,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(335,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(332,2)"/>
+</if>
+</if>
+</if>
+<if id="atom(prev_glyph_resource)">
+<if highcontrast="0">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(274,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(379,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(378,2)"/>
+</if>
+<if enabled="false">
+<if highcontrast="0">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(273,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(379,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(378,2)"/>
+</if>
+</if>
+</if>
+<if id="atom(next_button)">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(282,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(370,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(371,2)"/>
+</if>
+<if mousefocused="true">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(280,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(371,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(370,2)"/>
+</if>
+</if>
+<if pressed="true">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(281,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(370,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(371,2)"/>
+</if>
+</if>
+<if enabled="false">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(282,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(370,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(371,2)"/>
+</if>
+</if>
+</if>
+<if id="atom(next_glyph_resource)">
+<if highcontrast="0">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(279,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(377,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(376,2)"/>
+</if>
+<if enabled="false">
+<if highcontrast="0">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(278,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(377,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(376,2)"/>
+</if>
+</if>
+</if>
+<if id="atom(stop_button)">
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(337,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(336,2)"/>
+</if>
+<if mousefocused="true">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(262,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(336,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(337,2)"/>
+</if>
+</if>
+<if pressed="true">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(263,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(337,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(336,2)"/>
+</if>
+</if>
+</if>
+<if id="atom(stop_glyph_resource)">
+<if highcontrast="0">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(261,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(357,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(356,2)"/>
+</if>
+<if enabled="false">
+<if highcontrast="0">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(260,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(357,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(356,2)"/>
+</if>
+</if>
+</if> 
+<if id="atom(repeat_button)">
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(337,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(336,2)"/>
+</if>
+<if mousefocused="true">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(262,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(336,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(337,2)"/>
+</if>
+</if>
+<if pressed="true">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(263,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(337,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(336,2)"/>
+</if>
+</if>
+</if>
+<if id="atom(repeat_glyph_resource)">
+<if highcontrast="0">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(309,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(353,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(352,2)"/>
+</if>
+<if custom="true">
+<if highcontrast="0">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(308,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(355,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(354,2)"/>
+</if>
+</if>
+</if> 
+<if id="atom(mute_button)">
+<if enabled="true">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(283,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(339,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(338,2)"/>
+</if>
+<if custom="-1">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(287,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(347,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(346,2)"/>
+</if>
+</if>
+<if custom="0">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(283,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(339,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(338,2)"/>
+</if>
+</if>
+<ifgreaterequal custom="1">
+<iflesser custom="30">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(284,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(341,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(340,2)"/>
+</if>
+</iflesser>
+</ifgreaterequal>
+<ifgreaterequal custom="30">
+<iflesser custom="65">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(285,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(343,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(342,2)"/>
+</if>
+</iflesser>
+</ifgreaterequal>
+<ifgreaterequal custom="65">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(286,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(345,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(344,2)"/>
+</if>
+</ifgreaterequal>
+</if>
+<if enabled="false">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(288,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(375,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(374,2)"/>
+</if>
+</if>
+</if>
+<if id="atom(play_pause_glow_resource)">
+<if mousefocused="true">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(272,2)"/>
+</if>
+</if>
+<if id="atom(play_pause_button)">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(271,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(334,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(333,2)"/>
+</if>
+<if mousefocused="true">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(269,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(333,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(334,2)"/>
+</if>
+</if>
+<if pressed="true">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(270,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(334,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(333,2)"/>
+</if>
+</if>
+<if enabled="false">
+<if highcontrast="0">
+<WMPDMCButtonHC content="sgraphic(271,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC content="sgraphic(334,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC content="sgraphic(333,2)"/>
+</if>
+</if>
+</if>
+<if id="atom(play_pause_glyph_resource)">
+<if highcontrast="0">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(268,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(349,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(348,2)"/>
+</if>
+<if custom="false">
+<if highcontrast="0">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(266,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(351,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(350,2)"/>
+</if>
+</if>
+<if enabled="false">
+<if highcontrast="0">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(267,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(349,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(348,2)"/>
+</if>
+<if custom="false">
+<if highcontrast="0">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(265,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(351,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCElementHC contentalign="middlecenter" content="sgraphic(350,2)"/>
+</if>
+</if>
+</if>
+</if>
+</style>
+</stylesheets>
+<element resid="main" accessible="true" layout="borderlayout()" layoutpos="top" background="gradient(argb(255,223,234,247), argb(255,255,255,255), argb(255,223,234,247),4)" sheet="common">
+<element padding="Rect(6rp,10rp,6rp,6rp)" layout="borderlayout()" layoutpos="client" resid="center" background="argb(0,0,0,0)">
+<element id="Atom(device_info_holder)" resid="device_info_holder" layout="borderlayout()" layoutpos="top" contentalign="middlecenter" background="argb(0,0,0,0)">
+<element resid="device_icon_holder" layout="borderlayout()" layoutpos="left" background="argb(0,0,0,0)" margin="Rect(0rp,0rp,8rp,0rp)">
+<element id="Atom(device_icon)" layout="borderlayout()" layoutpos="top" accessible="true" accrole="graphic" accname="resstr(165)" content="icon(2969, 48, 48, library(wmploc.dll))" contentalign="topcenter" minsize="size(48rp,48rp)" height="48rp" width="48rp" resid="device_icon" background="argb(0,0,0,0)"/> 
+</element>
+<element resid="device_info_holder" layout="borderlayout()" layoutpos="client" background="argb(0,0,0,0)">
+<WMPDMCLabel id="Atom(friendly_name_text)" content="resstr(132)" accessible="true" active="mouse" accrole="statictext" accname="resstr(132)" layoutpos="top" contentalign="middleleft|endellipsis" resid="friendly_name_text" font=";bold;;" foreground="windowtext" background="argb(0,0,0,0)"/>
+<element layout="borderlayout()" layoutpos="top" height="16rp" background="argb(0,0,0,0)" margin="Rect(0rp,4rp,0rp,0rp)">
+<element id="atom(connecting_animation_top)" resid="connecting_animation_top" contentalign="middlecenter" layoutpos="none" background="argb(0,0,0,0)"/> 
+<button id="Atom(error_on_device_icon)" resid="error_on_device_icon" accessible="true" active="mouse|keyboard" accrole="pushbutton" layoutpos="none" accstate="0x00100000" sheet="GenericButtonStyle"/>
+<WMPDMCLabel id="Atom(manufacturer_text)" content="resstr(157)" active="mouse" accessible="true" accrole="statictext" contentalign="middleleft|endellipsis" accname="resstr(157)" layoutpos="client" resid="manufacturer_text" foreground="graytext" background="argb(0,0,0,0)" margin="Rect(6rp, 0rp, 0rp, 0rp)"/>
+</element>
+<WMPDMCLabel id="Atom(model_text)" content=" " contentalign="middleleft|endellipsis" active="mouse" accessible="true" accrole="statictext" layoutpos="top" height="16rp" resid="model_text" foreground="graytext" background="argb(0,0,0,0)" margin="Rect(0rp,4rp,0rp,0rp)"/>
+<element layout="borderlayout()" layoutpos="right" margin="Rect(0rp,4rp,0rp,4rp)" background="argb(0,0,0,0)">
+<button id="Atom(Clear_List_Button)" resid="clear_list_button" sheet="ClearListButtonStyle" active="mouse|keyboard" content="resstr(133)" accessible="true" accname="resstr(133)" accrole="pushbutton" layoutpos="top"/>
+</element>
+</element>
+</element> 
+<element layout="borderlayout()" layoutpos="client" background="argb(0,0,0,0)">
+<element id="Atom(playlist_holder)" resid="playlist_holder" layout="ninegridlayout()" layoutpos="client" borderstyle="solid" bordercolor="windowframe" background="sgraphic(256,7)" borderthickness="rect(4rp, 4rp, 4rp, 4rp)">
+<element layout="borderlayout()" layoutpos="client" background="argb(0,0,0,0)">
+<WMPDMCScrollViewer id="Atom(playlist_scroller)" resid="playlist_scroller" layoutpos="client" xbarvisibility="never" xscrollable="false" active="mouse" ybarvisibility="asneeded" yscrollable="true" sheet="WMPDMCScrollStyle">
+<element id="atom(Playlist_ListView)" layout="borderlayout()" layoutpos="client" accessible="true" accname="listview" accrole="list">
+<selector id="Atom(playlist_selector)" layout="borderlayout()" layoutpos="client" resid="playlist_selector" sheet="common"/>
+</element>
+</WMPDMCScrollViewer>
+<element id="Atom(empty_text)" resid="empty_text" layout="flowlayout(1,2)" layoutpos="none" visible="false" background="argb(0,0,0,0)">
+<element layout="verticalflowlayout(0,2)" layoutpos="client" background="argb(0,0,0,0)">
+<element id="Atom(empty_text_content)" resid="empty_text_content" layoutpos="client" content="resstr(137)" accname="resstr(137)" foreground="graytext" contentalign="wrapcenter" accessible="true" accrole="statictext" background="argb(0,0,0,0)" padding="Rect(20rp,0rp,20rp,0rp)"/>
+</element>
+</element>
+</element>
+</element>
+</element>
+<element layout="borderlayout()" layoutpos="bottom">
+<element id="Atom(seek_holder)" resid="seek_holder" layout="borderlayout()" layoutpos="top" direction="0" background="argb(0,0,0,0)" padding="rect(8rp,6rp,8rp,0rp)">
+<WMPDMCElementHC id="Atom(seek_background)" resid="seek_background" layout="ninegridlayout()" layoutpos="client" background="sgraphic(306,7)" borderthickness="rect(10rp,0rp,10rp,0rp)">
+<wmpdmcslider id="atom(seek_bar)" enabled="false" resid="seek_bar" layoutpos="client" accessible="true" accname="resstr(162)" minimum="0" maximum="100" page="5" proportional="true" IsStatusBarStyle="true" JumpToClick="true" accrole="slider" background="argb(0,0,0,0)" sheet="SeekScrollBar"/>
+</WMPDMCElementHC> 
+</element>
+<element layout="borderlayout()" layoutpos="top" background="argb(0,0,0,0)">
+<WMPDMCElementHC id="Atom(transport_holder)" layout="flowlayout(0, 2, 2, 2)" height="52rp" width="310rp" direction="0" sheet="AVTEffects" minsize="size(310rp,52rp)" resid="transport_holder" contentalign="middlecenter" background="argb(0,0,0,0)">
+<element layout="flowlayout(0)" width="82rp" height="52rp" minsize="size(82rp,52rp)" background="argb(0,0,0,0)">
+<element layout="flowlayout(0)" width="20rp" height="52rp" resid="space" minsize="size(20rp,52rp)" background="argb(0,0,0,0)"/>
+<WMPDMCButtonHC id="Atom(repeat_button)" sheet="AVTEffects" accessible="true" active="mouse|keyboard" height="25rp" width="25rp" resid="repeat_button" accrole="pushbutton" accname="resstr(158)" accdesc="resstr(158)" tooltip="true" background="argb(0,0,0,0)" layout="flowlayout(0)">
+<WMPDMCElementHC layout="flowlayout(0)" height="25rp" width="25rp" resid="repeat_glyph_resource" id="atom(repeat_glyph_resource)" sheet="AVTEffects" background="argb(0,0,0,0)"/>
+</WMPDMCButtonHC>
+<element layout="flowlayout(0)" width="4rp" height="52rp" resid="space" minsize="size(4rp,52rp)" background="argb(0,0,0,0)"/>
+<WMPDMCButtonHC id="Atom(stop_button)" sheet="AVTEffects" accessible="true" active="mouse|keyboard" height="25rp" width="25rp" resid="stop_button" accrole="pushbutton" accname="resstr(144)" accdesc="resstr(144)" tooltip="true" background="argb(0,0,0,0)" layout="flowlayout(0)">
+<WMPDMCElementHC layout="flowlayout(0)" height="25rp" width="25rp" resid="stop_glyph_resource" id="atom(stop_glyph_resource)" sheet="AVTEffects" background="argb(0,0,0,0)"/>
+</WMPDMCButtonHC>
+<element layout="flowlayout(0)" width="8rp" height="52rp" resid="space" minsize="size(8rp,52rp)" background="argb(0,0,0,0)"/>
+</element>
+<element layout="flowlayout(0, 2, 0, 0)" width="146rp" height="52rp" minsize="size(146rp,52rp)" background="argb(0,0,0,0)">
+<WMPDMCButtonHC id="Atom(prev_button)" layout="flowlayout(0)" sheet="AVTEffects" accessible="true" active="mouse|keyboard" accdesc="resstr(143)" tooltip="true" height="29rp" width="53rp" resid="prev_button" accrole="pushbutton" padding="rect(0rp,2rp,0rp,0rp)" accname="resstr(150)" background="argb(0,0,0,0)">
+<WMPDMCElementHC layout="flowlayout(0)" height="25rp" width="53rp" resid="prev_glyph_resource" id="atom(prev_glyph_resource)" sheet="AVTEffects" background="argb(0,0,0,0)"/>
+</WMPDMCButtonHC>
+<element layout="flowlayout(0)" width="40rp" height="25rp" resid="space" minsize="size(40rp,25rp)" background="argb(0,0,0,0)"/>
+<WMPDMCButtonHC id="Atom(play_pause_button)" layout="flowlayout(0)" sheet="AVTEffects" accessible="true" active="mouse|keyboard" layoutpos="absolute" height="52rp" width="52rp" x="47rp" y="0rp" resid="play_pause_button" accdesc="resstr(145)" tooltip="true" accrole="pushbutton" accname="resstr(145)" background="argb(0,0,0,0)">
+<WMPDMCElementHC layout="flowlayout(0)" custom="true" height="52rp" width="52rp" resid="play_pause_glyph_resource" id="atom(play_pause_glyph_resource)" sheet="AVTEffects" background="argb(0,0,0,0)">
+<WMPDMCElementHC layout="flowlayout(0)" height="52rp" width="52rp" resid="play_pause_glow_resource" id="atom(play_pause_glow_resource)" sheet="AVTEffects" background="argb(0,0,0,0)"/>
+</WMPDMCElementHC>
+</WMPDMCButtonHC>
+<WMPDMCButtonHC id="Atom(next_button)" layout="flowlayout(0)" sheet="AVTEffects" accessible="true" accdesc="resstr(142)" tooltip="true" active="mouse|keyboard" height="29rp" width="53rp" resid="next_button" accrole="pushbutton" padding="rect(0rp,2rp,0rp,0rp)" accname="resstr(151)" background="argb(0,0,0,0)">
+<WMPDMCElementHC layout="flowlayout(0)" height="25rp" width="53rp" resid="next_glyph_resource" id="atom(next_glyph_resource)" sheet="AVTEffects" background="argb(0,0,0,0)"/>
+</WMPDMCButtonHC>
+</element>
+<element layout="flowlayout(0)" width="82rp" height="52rp" minsize="size(82rp,52rp)" background="argb(0,0,0,0)">
+<element layout="flowlayout(0)" width="12rp" height="52rp" resid="space" minsize="size(12rp,52rp)" background="argb(0,0,0,0)"/>
+<SplitButton resid="mute_split_button" layout="flowlayout(0)" height="25rp" width="39rp" id="atom(mute_split_button)" background="argb(0,0,0,0)">
+<WMPDMCButtonHC layout="flowlayout(0)" accname="resstr(148)" accessible="true" accrole="pushbutton" custom="0" height="25rp" width="25rp" active="mouse|keyboard" id="atom(mute_button)" resid="mute_button" sheet="AVTEffects" accstate="0x00100000" accdesc="resstr(149)" tooltip="true" background="argb(0,0,0,0)"/>
+<WMPDMCButtonHC layout="flowlayout(0)" accessible="true" accrole="pushbutton" height="25rp" width="14rp" accdesc="resstr(147)" tooltip="true" active="mouse|keyboard" sheet="AVTEffects" accname="resstr(147)" resid="volume_button" accstate="0x00100000" id="atom(volume_button)" background="argb(0,0,0,0)"/>
+</SplitButton>
+<element layout="flowlayout(0)" width="31rp" height="52rp" resid="space" minsize="size(31rp,52rp)" background="argb(0,0,0,0)"/>
+</element>
+</WMPDMCElementHC>
+</element>
+</element>
+</element>
+</element>
+<button id="Atom(media_item_content_holder)" layout="borderlayout()" layoutpos="top" accessible="true" accrole="ListItem" sheet="MediaListItemEffects" resid="media_item_content_holder" active="mouse|keyboard">
+<element layoutpos="none" contentalign="topleft" id="Atom(active_media_item_layout)" resid="active_media_item_layout" layout="borderlayout()" background="argb(0,0,0,0)" padding="rect(0rp, 6rp, 0rp, 6rp)">
+<element accessible="true" accrole="graphic" accname="resstr(166)" contentalign="middlecenter" layoutpos="left" visible="false" width="5rp" height="5rp" content="sgraphic(299,2,-1,0,0,1,1)" id="atom(active_media_item_playing_indicator)" resid="active_media_item_playing_indicator" background="argb(0,0,0,0)"/> 
+<element layout="borderlayout()" layoutpos="client" contentalign="middleleft" background="argb(0,0,0,0)">
+<element layout="borderlayout()" layoutpos="left" background="argb(0,0,0,0)" padding="rect(2rp,0rp,8rp,0rp)">
+<element layout="flowlayout(0,2,2,2)" layoutpos="client" contentalign="middlecenter" background="argb(0,0,0,0)" width="53rp" height="53rp" minsize="size(53rp,53rp)">
+<element layout="borderlayout()" layoutpos="top" id="atom(active_media_item_album_art_holder)" resid="active_media_item_album_art_holder" contentalign="middlecenter" background="argb(0,0,0,0)">
+<element layout="borderlayout()" layoutpos="client" id="atom(active_media_item_album_art_holder_border)" resid="active_media_item_album_art_holder_border" contentalign="middlecenter">
+<element accessible="true" accrole="graphic" accname="resstr(164)" contentalign="middlecenter" layoutpos="client" direction="0" id="atom(active_media_item_album_art)" resid="active_media_item_album_art" background="argb(0,0,0,0)"/>
+</element>
+</element>
+</element>
+</element>
+<element layout="borderlayout()" layoutpos="client" padding="rect(0rp,0rp,2rp,0rp)" background="argb(0,0,0,0)">
+<element layout="borderlayout()" layoutpos="client" resid="media_info_holder" contentalign="middlecenter" background="argb(0,0,0,0)">
+<element accessible="true" accrole="statictext" layoutpos="top" id="atom(active_media_item_title)" resid="active_media_item_title" contentalign="middleleft" background="argb(0,0,0,0)"/>
+<element layout="borderlayout()" layoutpos="top" padding="rect(0rp,3rp,0rp,0rp)">
+<element id="Atom(active_media_item_info_icon_holder)" resid="active_media_item_info_icon_holder" layout="borderlayout()" layoutpos="left" active="mouse|keyboard" background="argb(0,0,0,0)">
+<button id="Atom(active_media_item_info_icon)" resid="active_media_item_info_icon" accessible="true" accrole="pushbutton" active="mouse|keyboard" accstate="0x00100000" sheet="GenericButtonStyle" layoutpos="none" margin="rect(0rp, 0rp, 6rp, 0rp)"/>
+</element>
+<element id="atom(active_media_transition_animation)" resid="active_media_transition_animation" contentalign="middlecenter" accessible="true" accrole="graphic" layoutpos="none" margin="rect(0rp, 0rp, 6rp, 0rp)"/> 
+<element accessible="true" accrole="statictext" layoutpos="client" id="atom(active_media_item_album_title)" resid="active_media_item_album_title" background="argb(0,0,0,0)"/>
+</element>
+<element accessible="true" accrole="statictext" layoutpos="top" id="atom(active_media_item_artist)" resid="active_media_item_artist" contentalign="middleleft" padding="rect(0rp,3rp,0rp,0rp)" background="argb(0,0,0,0)"/>
+</element>
+</element>
+<element layout="borderlayout()" layoutpos="right" padding="rect(2rp,0rp,4rp,4rp)" background="argb(0,0,0,0)">
+<element accessible="true" accrole="statictext" accname="resstr(163)" layoutpos="top" id="atom(active_media_item_duration)" resid="active_media_item_duration" contentalign="topright" background="argb(0,0,0,0)"/>
+</element>
+</element>
+</element>
+<element layout="borderlayout()" layoutpos="top" contentalign="topleft" id="Atom(inactive_media_item_layout)" resid="inactive_media_item_layout" background="argb(0,0,0,0)" padding="rect(0rp, 4rp, 0rp, 4rp)">
+<element accessible="true" accrole="graphic" accname="resstr(166)" contentalign="middlecenter" visible="false" layoutpos="left" width="5rp" height="5rp" content="sgraphic(299,2,-1,0,0,1,1)" id="atom(inactive_media_item_playing_indicator)" resid="inactive_media_item_playing_indicator" background="argb(0,0,0,0)"/> 
+<element layout="borderlayout()" layoutpos="client" contentalign="middleleft" background="argb(0,0,0,0)">
+<element accessible="true" accrole="graphic" accname="resstr(164)" contentalign="middlecenter" layoutpos="left" width="16rp" height="16rp" minsize="size(16rp,16rp)" id="atom(inactive_media_item_album_art)" resid="inactive_media_item_album_art" background="argb(0,0,0,0)"/> 
+<element id="atom(inactive_media_transition_animation)" resid="inactive_media_transition_animation" contentalign="middlecenter" accessible="true" accrole="graphic" minsize="size(16rp,16rp)" padding="rect(2rp,2rp,2rp,2rp)" layoutpos="none"/> 
+<element id="Atom(inactive_media_item_info_icon)" resid="inactive_media_item_info_icon" accessible="true" accrole="graphic" contentalign="middlecenter" layoutpos="none" minsize="size(16rp,16rp)" background="argb(0,0,0,0)" padding="rect(3rp,3rp,3rp,3rp)"/>
+<element accessible="true" accrole="statictext" layoutpos="client" id="atom(inactive_media_item_title)" resid="inactive_media_item_title" contentalign="middleleft" background="argb(0,0,0,0)" padding="rect(2rp,0rp,0rp,0rp)"/>
+<element accessible="true" accrole="statictext" layoutpos="right" accname="resstr(163)" id="atom(inactive_media_item_duration)" resid="inactive_media_item_duration" contentalign="middleright" background="argb(0,0,0,0)" padding="rect(2rp,0rp,4rp,0rp)"/>
+</element> 
+</element>
+</button>
+</duixml>

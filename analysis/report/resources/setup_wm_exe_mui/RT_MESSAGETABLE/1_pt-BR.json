@@ -1,0 +1,43 @@
+{
+ "blocks": [
+  {
+   "low_id": 805306368,
+   "high_id": 805306370,
+   "count": 3,
+   "messages": [
+    {
+     "id": 805306368,
+     "text": "Informa\u00e7\u00f5es\r\n",
+     "encoding": "utf-16le",
+     "bytes": 32
+    },
+    {
+     "id": 805306369,
+     "text": "Iniciar\r\n",
+     "encoding": "utf-16le",
+     "bytes": 24
+    },
+    {
+     "id": 805306370,
+     "text": "Parar\r\n",
+     "encoding": "utf-16le",
+     "bytes": 20
+    }
+   ]
+  },
+  {
+   "low_id": 1342177284,
+   "high_id": 1342177284,
+   "count": 1,
+   "messages": [
+    {
+     "id": 1342177284,
+     "text": "Informa\u00e7\u00f5es\r\n",
+     "encoding": "utf-16le",
+     "bytes": 32
+    }
+   ]
+  }
+ ],
+ "messages": 4
+}

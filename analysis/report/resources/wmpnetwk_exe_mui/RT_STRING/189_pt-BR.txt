@@ -1,0 +1,3 @@
+3008	Dispositivos e computadores não poderão reproduzir mídia do seu computador quando ele estiver em Modo Ausente.
+3009	Permitir que o computador entre em Modo Ausente
+3010	O Compartilhamento de Mídia foi habilitado por meio do Windows Media Player.

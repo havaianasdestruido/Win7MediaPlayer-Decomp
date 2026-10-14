@@ -1,0 +1,2 @@
+# Exported symbols — bin/wmprph.exe (SHA-256 395fce3d66ab1ed9a4fb2238172eaefc5cf78fc7a8b34c30686d638d16d9efca)
+# (no exported symbols; this image is an executable or a resource-only module)

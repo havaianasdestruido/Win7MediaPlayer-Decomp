@@ -1,0 +1,405 @@
+{
+ "generated_by": "analysis/tools/typelib.py",
+ "libraries": [
+  {
+   "file": "analysis/report/resources/mpvis_dll/typelib/typelib_1_1.tlb",
+   "module": "mpvis_dll",
+   "header": {
+    "magic": "MSFT",
+    "version_field": "0x00010002",
+    "lcid": "0x0409",
+    "lcid2": 0,
+    "syskind": "SYS_WIN64",
+    "varflags": "0x00000043",
+    "version": "1.0",
+    "flags": "0x00000000",
+    "nrtypeinfos": 2,
+    "library_guid": "{C58F1580-0DF3-401C-93B1-2D9DDA61CF04}",
+    "posguid": 0,
+    "name_table_entries": 12,
+    "nametablechars": 126,
+    "help_string": null,
+    "help_file": null,
+    "nimpinfos": 1,
+    "dispatchpos": 1
+   },
+   "types": [
+    {
+     "index": 0,
+     "kind": "TKIND_COCLASS",
+     "name": "ToleranceVis",
+     "guid": "{0AA02E8D-F851-4CB0-9F64-BBA9BE7A983D}",
+     "member_counts": {
+      "functions": 0,
+      "variables": 0
+     }
+    },
+    {
+     "index": 1,
+     "kind": "TKIND_DISPATCH",
+     "name": "IToleranceVis",
+     "guid": "{9A85D909-C64A-4608-8DC4-76254D869553}",
+     "member_counts": {
+      "functions": 10,
+      "variables": 0
+     }
+    }
+   ],
+   "notes": []
+  },
+  {
+   "file": "analysis/report/resources/wmpmediasharing_dll/typelib/typelib_1_1.tlb",
+   "module": "wmpmediasharing_dll",
+   "header": {
+    "magic": "MSFT",
+    "version_field": "0x00010002",
+    "lcid": "0x0409",
+    "lcid2": 0,
+    "syskind": "SYS_WIN64",
+    "varflags": "0x00000043",
+    "version": "1.0",
+    "flags": "0x00000000",
+    "nrtypeinfos": 7,
+    "library_guid": "{C21E9CE5-B317-463B-A1B1-B5E36EED59D0}",
+    "posguid": 0,
+    "name_table_entries": 45,
+    "nametablechars": 887,
+    "help_string": null,
+    "help_file": null,
+    "nimpinfos": 1,
+    "dispatchpos": 1
+   },
+   "types": [
+    {
+     "index": 0,
+     "kind": "TKIND_ENUM",
+     "name": "WindowsMediaLibrarySharingDeviceAuthorizationStatus",
+     "guid": null,
+     "member_counts": {
+      "functions": 0,
+      "variables": 3
+     }
+    },
+    {
+     "index": 1,
+     "kind": "TKIND_INTERFACE",
+     "name": "IWindowsMediaLibrarySharingDeviceProperty",
+     "guid": "{81E26927-7A7D-40A7-81D4-BDDC02960E3E}",
+     "member_counts": {
+      "functions": 2,
+      "variables": 0
+     }
+    },
+    {
+     "index": 2,
+     "kind": "TKIND_INTERFACE",
+     "name": "IWindowsMediaLibrarySharingDeviceProperties",
+     "guid": "{C4623214-6B06-40C5-A623-B2FF4C076BFD}",
+     "member_counts": {
+      "functions": 3,
+      "variables": 0
+     }
+    },
+    {
+     "index": 3,
+     "kind": "TKIND_INTERFACE",
+     "name": "IWindowsMediaLibrarySharingDevice",
+     "guid": "{3DCCC293-4FD9-4191-A25B-8E57C5D27BD4}",
+     "member_counts": {
+      "functions": 4,
+      "variables": 0
+     }
+    },
+    {
+     "index": 4,
+     "kind": "TKIND_INTERFACE",
+     "name": "IWindowsMediaLibrarySharingDevices",
+     "guid": "{1803F9D6-FE6D-4546-BF5B-992FE8EC12D1}",
+     "member_counts": {
+      "functions": 3,
+      "variables": 0
+     }
+    },
+    {
+     "index": 5,
+     "kind": "TKIND_INTERFACE",
+     "name": "IWindowsMediaLibrarySharingServices",
+     "guid": "{01F5F85E-0A81-40DA-A7C8-21EF3AF8440C}",
+     "member_counts": {
+      "functions": 19,
+      "variables": 0
+     }
+    },
+    {
+     "index": 6,
+     "kind": "TKIND_COCLASS",
+     "name": "WindowsMediaLibrarySharingServices",
+     "guid": "{AD581B00-7B64-4E59-A38D-D2C5BF51DDB3}",
+     "member_counts": {
+      "functions": 0,
+      "variables": 0
+     }
+    }
+   ],
+   "notes": []
+  },
+  {
+   "file": "analysis/report/resources/wmpnetwk_exe/typelib/typelib_1_1.tlb",
+   "module": "wmpnetwk_exe",
+   "header": {
+    "magic": "MSFT",
+    "version_field": "0x00010002",
+    "lcid": "0x0409",
+    "lcid2": 0,
+    "syskind": "SYS_WIN64",
+    "varflags": "0x00000043",
+    "version": "1.0",
+    "flags": "0x00000000",
+    "nrtypeinfos": 3,
+    "library_guid": "{73C381A8-548C-49F8-8AD3-C845D12D3C22}",
+    "posguid": 0,
+    "name_table_entries": 113,
+    "nametablechars": 2083,
+    "help_string": null,
+    "help_file": null,
+    "nimpinfos": 1,
+    "dispatchpos": 1
+   },
+   "types": [
+    {
+     "index": 0,
+     "kind": "TKIND_DISPATCH",
+     "name": "IUPnPService_ConnectionManager",
+     "guid": "{B78EA491-BC9E-446D-9A46-57C6D9D0FC7A}",
+     "member_counts": {
+      "functions": 13,
+      "variables": 0
+     }
+    },
+    {
+     "index": 1,
+     "kind": "TKIND_DISPATCH",
+     "name": "IUPnPService_ContentDirectory",
+     "guid": "{84535BBA-A68E-4839-82CF-2DCCAB12910A}",
+     "member_counts": {
+      "functions": 22,
+      "variables": 0
+     }
+    },
+    {
+     "index": 2,
+     "kind": "TKIND_DISPATCH",
+     "name": "IUPnPService_MediaReceiverRegistrar",
+     "guid": "{4250D219-06C7-4957-AEC3-6DA09B84BA22}",
+     "member_counts": {
+      "functions": 11,
+      "variables": 0
+     }
+    }
+   ],
+   "notes": []
+  },
+  {
+   "file": "analysis/report/resources/wmpnssci_dll/typelib/typelib_1_1.tlb",
+   "module": "wmpnssci_dll",
+   "header": {
+    "magic": "MSFT",
+    "version_field": "0x00010002",
+    "lcid": "0x0409",
+    "lcid2": 0,
+    "syskind": "SYS_WIN64",
+    "varflags": "0x00000043",
+    "version": "1.0",
+    "flags": "0x00000000",
+    "nrtypeinfos": 14,
+    "library_guid": "{453E9E02-8BA4-474C-BFA0-37727E44F6AE}",
+    "posguid": 0,
+    "name_table_entries": 62,
+    "nametablechars": 648,
+    "help_string": null,
+    "help_file": null,
+    "nimpinfos": 2,
+    "dispatchpos": 1
+   },
+   "types": [
+    {
+     "index": 0,
+     "kind": "TKIND_ENUM",
+     "name": "ServiceStatus",
+     "guid": "{B78E1E54-0885-40C0-87BC-2E5B93C95F1C}",
+     "member_counts": {
+      "functions": 0,
+      "variables": 5
+     }
+    },
+    {
+     "index": 1,
+     "kind": "TKIND_ENUM",
+     "name": "EventReason",
+     "guid": "{31D0E2AD-8AE5-41CE-A743-B815F4279005}",
+     "member_counts": {
+      "functions": 0,
+      "variables": 5
+     }
+    },
+    {
+     "index": 2,
+     "kind": "TKIND_ENUM",
+     "name": "AuthorizationStatus",
+     "guid": "{08933D12-EEED-4AD2-9238-4E916639D0C4}",
+     "member_counts": {
+      "functions": 0,
+      "variables": 4
+     }
+    },
+    {
+     "index": 3,
+     "kind": "TKIND_DISPATCH",
+     "name": "INSSProperty",
+     "guid": "{B27C1EAC-B909-462C-A051-F85DA63D616B}",
+     "member_counts": {
+      "functions": 2,
+      "variables": 0
+     }
+    },
+    {
+     "index": 4,
+     "kind": "TKIND_COCLASS",
+     "name": "Property",
+     "guid": "{FC434359-AF3E-4F09-852E-B5D3384F241D}",
+     "member_counts": {
+      "functions": 0,
+      "variables": 0
+     }
+    },
+    {
+     "index": 5,
+     "kind": "TKIND_DISPATCH",
+     "name": "INSSProperties",
+     "guid": "{DF2F700E-48CC-40CE-BBF7-73187286C42D}",
+     "member_counts": {
+      "functions": 3,
+      "variables": 0
+     }
+    },
+    {
+     "index": 6,
+     "kind": "TKIND_COCLASS",
+     "name": "Properties",
+     "guid": "{AD5D2BA9-B6A0-45B6-9ED5-B59B85806D56}",
+     "member_counts": {
+      "functions": 0,
+      "variables": 0
+     }
+    },
+    {
+     "index": 7,
+     "kind": "TKIND_DISPATCH",
+     "name": "INSSDevice",
+     "guid": "{055B0E0E-3113-4CAE-9EEE-6E63211BEE37}",
+     "member_counts": {
+      "functions": 7,
+      "variables": 0
+     }
+    },
+    {
+     "index": 8,
+     "kind": "TKIND_COCLASS",
+     "name": "Device",
+     "guid": "{86223118-F443-4F05-B0CF-8963A15747A6}",
+     "member_counts": {
+      "functions": 0,
+      "variables": 0
+     }
+    },
+    {
+     "index": 9,
+     "kind": "TKIND_DISPATCH",
+     "name": "INSSDevices",
+     "guid": "{73DE3C35-FAF7-4934-B337-C260D5926858}",
+     "member_counts": {
+      "functions": 3,
+      "variables": 0
+     }
+    },
+    {
+     "index": 10,
+     "kind": "TKIND_COCLASS",
+     "name": "Devices",
+     "guid": "{6DE2D8B3-50B2-45B7-9DE3-0825CE8B7F2D}",
+     "member_counts": {
+      "functions": 0,
+      "variables": 0
+     }
+    },
+    {
+     "index": 11,
+     "kind": "TKIND_INTERFACE",
+     "name": "INSSNotify",
+     "guid": "{ADC0EDF5-FE64-48FF-A711-CB4AB0F5C2CA}",
+     "member_counts": {
+      "functions": 1,
+      "variables": 0
+     }
+    },
+    {
+     "index": 12,
+     "kind": "TKIND_DISPATCH",
+     "name": "INSSManager",
+     "guid": "{204F4950-212A-414F-9B27-73BD87423F25}",
+     "member_counts": {
+      "functions": 9,
+      "variables": 0
+     }
+    },
+    {
+     "index": 13,
+     "kind": "TKIND_COCLASS",
+     "name": "NSSManager",
+     "guid": "{92498132-4D1A-4297-9B78-9E2E4BA99C07}",
+     "member_counts": {
+      "functions": 0,
+      "variables": 0
+     }
+    }
+   ],
+   "notes": []
+  },
+  {
+   "file": "analysis/report/resources/wmprph_exe/typelib/typelib_1_1.tlb",
+   "module": "wmprph_exe",
+   "header": {
+    "magic": "MSFT",
+    "version_field": "0x00010002",
+    "lcid": "0x0409",
+    "lcid2": 0,
+    "syskind": "SYS_WIN64",
+    "varflags": "0x00000043",
+    "version": "1.0",
+    "flags": "0x00000000",
+    "nrtypeinfos": 1,
+    "library_guid": "{FA258721-CF24-45D7-A9CB-80047D7FEC35}",
+    "posguid": 0,
+    "name_table_entries": 9,
+    "nametablechars": 145,
+    "help_string": null,
+    "help_file": null,
+    "nimpinfos": 1,
+    "dispatchpos": 1
+   },
+   "types": [
+    {
+     "index": 0,
+     "kind": "TKIND_DISPATCH",
+     "name": "IWMPRichPreviewLauncher",
+     "guid": "{F826A914-4075-4672-8312-5F91CDF3C69E}",
+     "member_counts": {
+      "functions": 4,
+      "variables": 0
+     }
+    }
+   ],
+   "notes": []
+  }
+ ]
+}

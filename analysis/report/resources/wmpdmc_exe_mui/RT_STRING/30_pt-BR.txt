@@ -1,0 +1,16 @@
+464	Mídia não disponível
+465	Item de mídia não é compartilhado
+466	Comando UPnP sem suporte
+467	Falha no comando
+468	Erro de leitura
+469	Sem conteúdo
+470	Formato de mídia não compatível
+471	Busca não compatível
+472	Destino de busca inválido
+473	Tipo mime inválido
+474	Erro inesperado do dispositivo
+475	Formato de comando inválido
+476	Não é possível acessar o local compartilhado
+477	Dispositivo não está pronto
+478	Streaming de mídia não configurado
+479	Variável inválida

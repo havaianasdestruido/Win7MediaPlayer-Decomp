@@ -1,0 +1,35 @@
+// Reconstructed type-library IDL — analysis/report/resources/mpvis_dll/typelib/typelib_1_1.tlb
+//
+// PROVENANCE: mechanically rendered from the MSFT binary type library
+// embedded as RT_TYPELIB resource 1 (payload sha256 33024fd3bb72a4d7afda62f4fb7371f026d3160f8a0fe3e3f312f4098b1f9db2),
+// by analysis/tools/typelib.py. GUIDs, kinds, member names, member IDs and virtual
+// table order are read straight out of the library; parameter- and return-type
+// rendering is derived from its TYPEDESC entries. This is a re-serialisation of
+// shipped data, not recovered source code.
+// library GUID {C58F1580-0DF3-401C-93B1-2D9DDA61CF04} — version 0x1 — LCID 0x0409
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+// TKIND_COCLASS ToleranceVis {{0AA02E8D-F851-4CB0-9F64-BBA9BE7A983D}} version 0.0 (typeinfo #0, 0 functions, 0 variables)
+    coclass ToleranceVis {
+        [default] interface IToleranceVis; // 0x00000064
+    }
+
+// TKIND_DISPATCH IToleranceVis {{9A85D909-C64A-4608-8DC4-76254D869553}} version 0.0 (typeinfo #1, 10 functions, 0 variables)
+    interface IToleranceVis : <typeinfo#167772 not in library> {
+        HRESULT foregroundColor([out] BSTR* pVal);  // memid 200, vtable slot 7, INVOKE_PROPERTYGET
+        HRESULT foregroundColor([in] BSTR <unnamed>);  // memid 200, vtable slot 8, INVOKE_PROPERTYPUT
+        HRESULT backgroundColor([out] BSTR* pVal);  // memid 203, vtable slot 9, INVOKE_PROPERTYGET
+        HRESULT backgroundColor([in] BSTR <unnamed>);  // memid 203, vtable slot 10, INVOKE_PROPERTYPUT
+        HRESULT miniMode([out] BSTR* pVal);  // memid 204, vtable slot 11, INVOKE_PROPERTYGET
+        HRESULT miniMode([in] BSTR <unnamed>);  // memid 204, vtable slot 12, INVOKE_PROPERTYPUT
+        HRESULT alpha([out] long* pVal);  // memid 205, vtable slot 13, INVOKE_PROPERTYGET
+        HRESULT alpha([in] long <unnamed>);  // memid 205, vtable slot 14, INVOKE_PROPERTYPUT
+        HRESULT GetProperty([in] BSTR bstrName, [out] VARIANT* pvarProperty);  // memid 201, vtable slot 15
+        HRESULT SetProperty([in] BSTR bstrName, [in] VARIANT* pvarProperty);  // memid 202, vtable slot 16
+    }
+
+/* Interpretation limits (see analysis/report/methodology.md):
+ */

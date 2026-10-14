@@ -1,0 +1,13 @@
+# block 805306368..805306370 (3 messages)
+805306368	Informações
+
+805306369	Iniciar
+
+805306370	Parar
+
+# block 1342177284..1342177284 (1 messages)
+1342177284	Informações
+
+# block 2415919105..2415919105 (1 messages)
+2415919105	Microsoft-Windows-WMPDMCCore
+
