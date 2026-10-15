@@ -17,20 +17,20 @@
 *Pre-requisite tasks that must be completed before any analysis phase*
 
 - [x] ✅ **P0.1** - Verify repository integrity and binary authenticity
-  - [x] Confirm all 53 input files in `bin/` are byte-identical to upstream
-  - [x] Verify SHA-256 hashes match `analysis/report/data/inventory.json`
-  - [ ] ⚠️ Compare binaries against Microsoft's published update manifests (blocked: no external access)
+  - [x] Confirm all 53 input files in `bin/` are byte-identical to upstream (`7808d47` and `5c564f7`; restored 14 `.jpg`/`.png` icon files re-encoded by ImgBot in PR #1 and added `.imgbotconfig`)
+  - [x] Verify SHA-256 hashes match `analysis/report/data/inventory.json` (`53/53` SHA-256, SHA-1, MD5, and byte-size matches)
+  - [x] Compare binaries against Microsoft's published update manifests (`analysis/tools/manifest_verify.py` → `analysis/report/update-manifests.md`, `analysis/report/data/update-manifests.json`: `53/53` mapped to Windows 7 CBS/WinSxS packages `Microsoft-Windows-MediaPlayer-Package` and `Microsoft-Windows-WMPNetworkSharingService-Package` with `publicKeyToken="31bf3856ad364e35"`, `28/28` valid PE `CheckSum` across 5 servicing KB waves (`RTM 7600.16385`, `KB976932`, `KB3150513`, `KB3179573`, `KB4507449`), `13` embedded `RT_MANIFEST` SxS XMLs verified, `43/53` filenames tracked in `m417z/winbindex` with `7/7` unchanged static assets matching by exact SHA-256)
   
-- [x] ✅ **P0.2** - Environment provisioning
-  - [x] Python 3.11+ with required packages (angr, pefile, capstone, pyelftools, etc.)
-  - [x] Node.js 22+ with REA 6.5.0 installed
-  - [x] CMake 4.4+ and ninja for build validation
-  - [x] GNU objdump 2.40+ for disassembly cross-checks
+- [x] ✅ **P0.2** - Environment provisioning (`requirements.txt`, `analysis/tools/setup_env.sh`)
+  - [x] Python 3.11+ with required packages (`angr==9.2.213`, `pefile==2024.8.26`, `capstone==5.0.6`, `pyelftools==0.33`, `bitstring==3.1.9`)
+  - [x] Node.js 22+ (`v22.22.3`) with REA 6.5.0 (`rea-agents@6.5.0`) installed
+  - [x] CMake 4.4+ (`4.4.4`) and ninja (`1.13.2`) for build validation
+  - [x] GNU objdump 2.40+ (`2.40`) for disassembly cross-checks
   
-- [x] ✅ **P0.3** - Toolchain validation
-  - [x] Verify all tools produce consistent, reproducible outputs
-  - [x] Document tool versions in `methodology.md` §2
-  - [x] Establish evidence archiving conventions
+- [x] ✅ **P0.3** - Toolchain validation (`analysis/tools/phase0_check.py` → `analysis/report/phase0.md`, `analysis/report/data/phase0.json`)
+  - [x] Verify all tools produce consistent, reproducible outputs (two-run determinism checks across `peutils`, `pefile`, `capstone`, `objdump`, `angr CFGFast`, and `rea inspect-pe-resources`)
+  - [x] Document tool versions in `methodology.md` §2 (cross-verified against installed runtime)
+  - [x] Establish evidence archiving conventions (`168/168` REA operations with full provenance & SHA-256 verification, `539/539` resource payloads, `888/888` decompiled function provenance headers)
 
 ---
 
@@ -543,9 +543,9 @@
   - May miss some advanced analysis features
   
 - ⚠️ **B3** - Network restrictions
-  - Cannot download GitHub release assets
-  - Cannot access external binary repositories
-  - Cannot verify binary authenticity against Microsoft manifests
+  - Cannot download GitHub release assets (`objects.githubusercontent.com`)
+  - Cannot query Microsoft Symbol Server (`msdl.microsoft.com`) directly for `.pdb` files (full RSDS GUIDs + ages are extracted in `inventory.json` and `update-manifests.json` for offline symbol lookup)
+  - *(Resolved in Phase 0.1)*: Binary authenticity and WinSxS/CBS update manifest provenance were verified via GitHub-hosted indices (`m417z/winbindex`, `LL520126427/SxSCleaner`, `xqcyberscore/nvt`) and embedded PE/manifest structures (`analysis/report/update-manifests.md`)
 
 ### Technical Challenges
 - ⚠️ **B4** - Decompiler limitations
@@ -569,10 +569,14 @@
 
 ### Full Pipeline Reproduction
 ```bash
-# 0. Toolchain setup (wheel-only install; no compilation needed)
-pip3 install --break-system-packages --only-binary=:all: angr pefile capstone pyelftools cmake ninja
-pip3 install --break-system-packages --only-binary=:all: "bitstring<4"
-npm i -g rea-agents@6.5.0
+# 0. Phase 0: Environment setup, authenticity & toolchain validation
+bash analysis/tools/setup_env.sh
+python3 analysis/tools/manifest_verify.py
+python3 analysis/tools/phase0_check.py
+
+# (or manual install using pinned requirements.txt)
+sudo pip3 install --break-system-packages --prefer-binary -r requirements.txt
+sudo npm i -g rea-agents@6.5.0
 
 # 1. Inventory and identification
 python3 analysis/tools/inventory.py
@@ -619,6 +623,9 @@ python3 analysis/tools/resources.py bin/WMPDMC.exe
 | Artifact Type | Location |
 |---|---|
 | Input binaries | `bin/` |
+| Phase 0 validation | `analysis/report/phase0.md`, `analysis/report/data/phase0.json` |
+| Update manifests & authenticity | `analysis/report/update-manifests.md`, `analysis/report/data/update-manifests.json` |
+| Environment provisioning | `requirements.txt`, `analysis/tools/setup_env.sh` |
 | Inventory data | `analysis/report/inventory.md`, `analysis/report/data/inventory.json` |
 | REA evidence | `analysis/report/rea-evidence/` |
 | Resource data | `analysis/report/data/resources.json`, `analysis/report/resources/<module>/` |
@@ -641,6 +648,9 @@ python3 analysis/tools/resources.py bin/WMPDMC.exe
 
 | Metric | Current Value | Target Value | Status |
 |---|---|---|---|
+| Phase 0 prerequisite checks | 3/3 (P0.1, P0.2, P0.3) | 3/3 | ✅ Complete |
+| Microsoft WinSxS/CBS manifest mapping | 53/53 | 53/53 | ✅ Complete |
+| PE Optional Header CheckSum valid | 28/28 | 28/28 | ✅ Complete |
 | Input files analyzed | 53 | 53 | ✅ Complete |
 | PE images | 28 | 28 | ✅ Complete |
 | Resource payloads | 539 | 539 | ✅ Complete |
