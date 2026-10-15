@@ -143,11 +143,17 @@ def analysis_status(slug: str) -> dict:
     return st
 
 
+REPO_META_FILES = {"LICENSE", "README.md"}
+
+
 def build_inventory(bin_dir: str) -> dict:
     files: list[dict] = []
     pe_infos: list[P.PeInfo] = []
     for dirpath, _dirs, names in os.walk(bin_dir):
+        _dirs[:] = sorted(_dirs, key=lambda d: (0 if d == "pt-BR" else 1, d))
         for name in sorted(names):
+            if os.path.abspath(dirpath) == os.path.abspath(bin_dir) and name in REPO_META_FILES:
+                continue
             path = os.path.join(dirpath, name)
             rel = os.path.relpath(path, os.path.dirname(bin_dir)).replace(os.sep, "/")
             head = P.read_head(path, 4096)
