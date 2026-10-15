@@ -505,6 +505,7 @@ def write_phase0_report(result: dict[str, Any], out_path: str) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--json-only", action="store_true", help="Write JSON output only")
+    ap.add_argument("--check-only", action="store_true", help="Run all checks without rewriting report files")
     args = ap.parse_args()
 
     p0_1 = check_p0_1()
@@ -528,16 +529,17 @@ def main() -> int:
         "p0_3": p0_3,
     }
 
-    os.makedirs(DATA_DIR, exist_ok=True)
-    json_out = os.path.join(DATA_DIR, "phase0.json")
-    with open(json_out, "w", encoding="utf-8") as fh:
-        json.dump(result, fh, indent=2)
-    print(f"[phase0_check] wrote {os.path.relpath(json_out, REPO)}")
+    if not args.check_only:
+        os.makedirs(DATA_DIR, exist_ok=True)
+        json_out = os.path.join(DATA_DIR, "phase0.json")
+        with open(json_out, "w", encoding="utf-8") as fh:
+            json.dump(result, fh, indent=2)
+        print(f"[phase0_check] wrote {os.path.relpath(json_out, REPO)}")
 
-    if not args.json_only:
-        md_out = os.path.join(REPORT_DIR, "phase0.md")
-        write_phase0_report(result, md_out)
-        print(f"[phase0_check] wrote {os.path.relpath(md_out, REPO)}")
+        if not args.json_only:
+            md_out = os.path.join(REPORT_DIR, "phase0.md")
+            write_phase0_report(result, md_out)
+            print(f"[phase0_check] wrote {os.path.relpath(md_out, REPO)}")
 
     if not result["all_passed"]:
         print("[phase0_check] FAILED: one or more Phase 0 checks did not pass", file=sys.stderr)

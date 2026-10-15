@@ -974,6 +974,7 @@ def write_markdown_report(summary: dict[str, Any], out_path: str) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--json-only", action="store_true", help="Write JSON output only")
+    ap.add_argument("--check-only", action="store_true", help="Verify checks without rewriting report files")
     ap.add_argument(
         "--refresh-winbindex",
         action="store_true",
@@ -982,16 +983,17 @@ def main() -> int:
     args = ap.parse_args()
 
     summary = verify_all(refresh_winbindex=args.refresh_winbindex)
-    os.makedirs(DATA_DIR, exist_ok=True)
-    json_out = os.path.join(DATA_DIR, "update-manifests.json")
-    with open(json_out, "w", encoding="utf-8") as fh:
-        json.dump(summary, fh, indent=2)
-    print(f"[manifest_verify] {summary['total_files']} files verified -> {os.path.relpath(json_out, REPO)}")
+    if not args.check_only:
+        os.makedirs(DATA_DIR, exist_ok=True)
+        json_out = os.path.join(DATA_DIR, "update-manifests.json")
+        with open(json_out, "w", encoding="utf-8") as fh:
+            json.dump(summary, fh, indent=2)
+        print(f"[manifest_verify] {summary['total_files']} files verified -> {os.path.relpath(json_out, REPO)}")
 
-    if not args.json_only:
-        md_out = os.path.join(REPORT_DIR, "update-manifests.md")
-        write_markdown_report(summary, md_out)
-        print(f"[manifest_verify] wrote {os.path.relpath(md_out, REPO)}")
+        if not args.json_only:
+            md_out = os.path.join(REPORT_DIR, "update-manifests.md")
+            write_markdown_report(summary, md_out)
+            print(f"[manifest_verify] wrote {os.path.relpath(md_out, REPO)}")
 
     if not summary["all_passed"]:
         print("[manifest_verify] FAILED: one or more authenticity checks did not pass", file=sys.stderr)
