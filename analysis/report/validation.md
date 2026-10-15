@@ -28,29 +28,41 @@ invented or stale, the harness would fail at run time — not just fail to compi
 
 ---
 
-## 2. Check D — original binaries are unmodified, and the layout matches upstream
+## 2. Check D — original binaries are unmodified, and verified against upstream & Microsoft update manifests
 
 * `bin/` contains 55 files: 53 analysis inputs plus the repository's own `LICENSE` and
   `README.md`. Every analysis input is byte-identical to the corresponding file in the
-  upstream commit `5c564f7` ("moved"):
+  initial upstream commit `7808d47` and the post-move commit `5c564f7` ("moved") — including
+  restoration of 14 `.jpg`/`.png` icon files under `bin/Media Renderer/` and
+  `bin/Network Sharing/` that had been re-encoded by ImgBot in PR #1 (`ee46ea3`), plus an
+  `.imgbotconfig` rule protecting `bin/**`:
 
   ```bash
-  git diff --name-only origin/main HEAD -- bin/    # → no output
+  git diff --name-only 5c564f7 HEAD -- bin/         # → no output
+  python3 analysis/tools/manifest_verify.py --check-only
   ```
 
-  (This compares blob hashes, which is the property that matters: the repository's HEAD
-  contains a `bin/` tree whose entries hash identically to the upstream `bin/` tree.)
+  (This compares blob hashes and SHA-256 digests: `53/53` files match `7808d47`, `5c564f7`, and
+  `analysis/report/data/inventory.json`.)
 
 * The earlier repository reorganisation (root-level files → `bin/`) was verified in the same
-  way when it was performed: all **53** original paths had index blob SHAs identical to the
-  pre-move HEAD blob SHAs (53/53), i.e. a pure relocation with no content change.
-* Hashing the whole `bin/` tree before and after this session's tooling runs is part of the
-  rerun procedure (`analysis/report/progress.md` §5); no tool in `analysis/tools/` opens any
-  file under `bin/` for writing — only `open(path, "rb")` appears in the sources.
-* **Not validated:** the provenance of the binaries themselves (whether this exact file set
-  is what shipped in a given Windows 7 media package). Nothing in this environment can verify
-  that; the version resources say which builds they claim to be, and that claim is only
-  corroborated internally (see §6).
+  way: all **53** original paths in `7808d47` have git blob SHA-1 OIDs identical to the
+  post-move `5c564f7` paths (`53/53`), i.e. a pure relocation with no content change.
+* Hashing the whole `bin/` tree before and after tooling runs is automated by
+  `analysis/tools/manifest_verify.py` and `analysis/tools/phase0_check.py`; static audit of
+  all 15 scripts in `analysis/tools/` confirms zero write/append opens targeting `bin/`.
+* **Microsoft update manifest & WinSxS provenance (`analysis/report/update-manifests.md`):**
+  * **53/53** files map to Microsoft's Windows 7 (NT 6.1) CBS/WinSxS package manifests
+    (`Microsoft-Windows-MediaPlayer-Package` and
+    `Microsoft-Windows-WMPNetworkSharingService-Package`, signed under Microsoft Windows
+    Component Publisher `publicKeyToken="31bf3856ad364e35"`).
+  * **28/28** PE images have valid PE Optional Header `CheckSum` values (`MapFileAndCheckSum`
+    algorithm implanted by `link.exe /RELEASE` during Microsoft's official build) and map across
+    5 documented Windows 7 servicing waves (`RTM 7600.16385`, `SP1 KB976932`, `Mar 2016 LDR
+    KB3150513`, `Aug 2016 LDR KB3179573`, and `Jul 2019 Security Rollup KB4507449`).
+  * **43/53** filenames are tracked in Microsoft's published `m417z/winbindex` update manifest
+    index, and **7/7** static WMP 12 assets unchanged between Windows 7 and Windows 10 (`1507`
+    BASE / `KB4019474`) match by exact SHA-256, SHA-1, MD5, and byte size.
 
 ---
 
@@ -200,10 +212,16 @@ name / language triple to the same bytes in the same image, not merely to the sa
    exports and the largest functions. The uncovered remainder is *unexamined*, not validated as
    unimportant. `validation.md` cannot certify that no behaviour lives in the unemitted
    functions.
-3. **Binary provenance and patch level.** The version resources claim specific builds
-   (e.g. `12.0.7601.17514 (win7sp1_rtm.101119-1850)`). Those claims were read correctly, but
-   nothing here can confirm the binaries really are those builds (no Authenticode signature is
-   present to verify against a publisher chain — `authenticode: none` for every image).
+3. **External `.cat` Authenticode catalog verification.** Because Windows 7 inbox/WinSxS binaries
+   are catalog-signed via external `.cat` files (`nt5.cat` / `Package_*_for_KB*.cat` in
+   `%SystemRoot%\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}`) rather than carrying
+   embedded `IMAGE_DIRECTORY_ENTRY_SECURITY` certificates (`authenticode: none` on all 28 PEs),
+   their provenance was verified in Phase 0.1 (`analysis/report/update-manifests.md`) via
+   PE Optional Header `CheckSum` verification (`28/28`), embedded `RT_MANIFEST` SxS assembly
+   identities (`13` XML manifests), Windows 7 (NT 6.1) CBS/WinSxS package lists (`53/53`),
+   Microsoft servicing KB build advisories (`5` waves through `KB4507449`), and `m417z/winbindex`
+   exact SHA-256 matches (`7/7` unchanged static assets). Cryptographic `.cat` signature chain
+   validation would require the external `.cat` files from a Windows 7 SP1 host.
 4. **Symbolic/type fidelity.** angr's recovered types and variable names are reconstructions.
    Where a recovered signature could be checked against an authoritative description shipped in
    the same image (the COM type libraries), it was — and those are reported as verified. For
