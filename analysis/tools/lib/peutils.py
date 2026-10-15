@@ -620,6 +620,13 @@ def enrich_with_pefile(info: PeInfo) -> None:
                     rec["pdb"] = _decoded(pe, dbg.entry.PdbFileName)
                     rec["pdb_guid"] = getattr(dbg.entry, "Signature_Data1", None)
                     rec["age"] = getattr(dbg.entry, "Age", None)
+                    sig_str = getattr(dbg.entry, "Signature_String", None)
+                    if isinstance(sig_str, str) and len(sig_str) >= 32:
+                        rec["pdb_guid_str"] = (
+                            f"{sig_str[:8]}-{sig_str[8:12]}-{sig_str[12:16]}-"
+                            f"{sig_str[16:20]}-{sig_str[20:32]}"
+                        ).lower()
+                        rec["pdb_sym_id"] = sig_str
                 info.debug.append(rec)
         if hasattr(pe, "RICH_HEADER") and pe.RICH_HEADER is not None:
             # pefile exposes RICH values as a flat [id, count, id, count, ...] list

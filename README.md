@@ -41,7 +41,10 @@ Win7MediaPlayer-Decomp/
 │       └── README.md          # Module dossier
 │
 ├── analysis/                 # Analysis tools and reports
-│   ├── tools/                # 10+ analysis scripts
+│   ├── tools/                # 14+ analysis & verification scripts
+│   │   ├── setup_env.sh      # Phase 0: Reproducible environment provisioning
+│   │   ├── manifest_verify.py # Phase 0: Authenticity & Microsoft update manifests
+│   │   ├── phase0_check.py   # Phase 0: Prerequisite & toolchain validation
 │   │   ├── inventory.py      # Phase 1: Binary cataloging
 │   │   ├── rea_batch.py      # Phase 2: REA evidence collection
 │   │   ├── resources.py      # Phase 3: Resource extraction
@@ -54,10 +57,14 @@ Win7MediaPlayer-Decomp/
 │   │   └── recon_build.py    # Phase 6: Validation harness
 │   │
 │   └── report/               # Comprehensive reports
+│       ├── phase0.md         # Phase 0: Prerequisites & toolchain validation
+│       ├── update-manifests.md # Phase 0: Binary authenticity & Microsoft manifests
 │       ├── inventory.md      # Phase 1: Complete binary inventory
 │       ├── methodology.md    # Project methodology
 │       ├── resources/        # Extracted resource payloads
 │       ├── data/             # Machine-readable data
+│       │   ├── phase0.json
+│       │   ├── update-manifests.json
 │       │   ├── inventory.json
 │       │   ├── resources.json
 │       │   ├── strings/
@@ -75,6 +82,7 @@ Win7MediaPlayer-Decomp/
 │       ├── validation.md     # Validation results
 │       └── final-report.md    # Complete project summary
 │
+├── requirements.txt          # Pinned Python analysis dependencies
 ├── TODO.md                   # ⭐ Master task list for 1:1 reconstruction
 └── .gitignore
 ```
@@ -100,6 +108,7 @@ The [TODO.md](TODO.md) file contains:
 
 | Phase | Status | Completion |
 |-------|--------|-------------|
+| Phase 0: Prerequisites & Environment Setup | ✅ Complete | 100% |
 | Phase 1: Inventory & Identification | ✅ Complete | 100% |
 | Phase 2: Toolchain & REA Assessment | ✅ Complete | 100% |
 | Phase 3: Structural Analysis | ✅ Complete | 100% |
@@ -235,12 +244,14 @@ The Windows Media Player 12 ecosystem consists of **three distinct product famil
 ### Environment Setup
 
 ```bash
-# Install Python dependencies (wheel-only, no compilation)
-pip3 install --break-system-packages --only-binary=:all: angr pefile capstone pyelftools cmake ninja
-pip3 install --break-system-packages --only-binary=:all: "bitstring<4"
+# Automated Phase 0 provisioning and verification
+bash analysis/tools/setup_env.sh
+python3 analysis/tools/manifest_verify.py
+python3 analysis/tools/phase0_check.py
 
-# Install REA
-npm i -g rea-agents@6.5.0
+# Or install manually using pinned requirements.txt
+sudo pip3 install --break-system-packages --prefer-binary -r requirements.txt
+sudo npm i -g rea-agents@6.5.0
 ```
 
 ---
@@ -251,6 +262,9 @@ npm i -g rea-agents@6.5.0
 
 ```bash
 # Full pipeline (~25 minutes on 2 vCPU)
+bash analysis/tools/setup_env.sh --check-only
+python3 analysis/tools/manifest_verify.py
+python3 analysis/tools/phase0_check.py
 python3 analysis/tools/inventory.py
 python3 analysis/tools/rea_batch.py
 python3 analysis/tools/resources.py
@@ -278,8 +292,8 @@ ctest --test-dir build
 
 ```bash
 # Confirm no modifications to original binaries
-find bin -type f -print0 | sort -z | xargs -0 sha256sum | sha256sum
-git diff --name-only origin/main HEAD -- bin/  # Should return empty
+python3 analysis/tools/manifest_verify.py --check-only
+git diff --name-only 5c564f7 HEAD -- bin/  # Should return empty
 ```
 
 ---
@@ -288,6 +302,8 @@ git diff --name-only origin/main HEAD -- bin/  # Should return empty
 
 | Report | Description |
 |--------|-------------|
+| [phase0.md](analysis/report/phase0.md) | Phase 0 prerequisite, environment & toolchain validation |
+| [update-manifests.md](analysis/report/update-manifests.md) | Binary authenticity & Microsoft WinSxS/KB update manifest mapping |
 | [final-report.md](analysis/report/final-report.md) | Complete project summary and findings |
 | [methodology.md](analysis/report/methodology.md) | Detailed analysis methods and procedures |
 | [progress.md](analysis/report/progress.md) | Live status of all phases and modules |

@@ -46,9 +46,9 @@ binaries, which is how the language/resource pairing was verified (`data-formats
 | Decompiled pseudocode | `src/<module>/decompiled/` | 888 functions with per-function provenance headers, `index.json` (selection rule, callers/callees, coverage), `_cfg.json` call graphs |
 | Recovered COM definitions | `src/<module>/typelib/` (5 libraries) | `.h` (GUID constants + vtable slot order), `.idl`, `.json` (full type records) |
 | Self-check harness | `src/<module>/recon/`, `src/CMakeLists.txt` | generated C that re-derives every recorded fact from `bin/` at run time |
-| Tooling | `analysis/tools/` (10 programs + `lib/`) | inventory, REA driver, resources, strings, typelib, COM, decompiler, dossiers, disasm cross-check, build harness |
-| Reports | `analysis/report/` | the nine phase reports plus resources, REA evidence, disassembly and data |
-| Raw data | `analysis/report/data/` | `inventory.json`, `resources.json`, `strings/*.json`, `typelibs.json`, `com-surface.json`, `disasm.json`, `build-results.json`, `decompile-logs/` |
+| Tooling | `analysis/tools/` (14 programs + `lib/`) | Phase 0 provisioning (`setup_env.sh`), manifest verification (`manifest_verify.py`), Phase 0 validator (`phase0_check.py`), inventory, REA driver, resources, strings, typelib, COM, decompiler, dossiers, disasm cross-check, build harness |
+| Reports | `analysis/report/` | `phase0.md`, `update-manifests.md`, plus the nine phase reports, resources, REA evidence, disassembly and data |
+| Raw data | `analysis/report/data/` | `phase0.json`, `update-manifests.json`, `inventory.json`, `resources.json`, `strings/*.json`, `typelibs.json`, `com-surface.json`, `disasm.json`, `build-results.json`, `decompile-logs/` |
 | Extracted artifacts | `analysis/report/resources/<module>/<TYPE>/` | decoded payloads: messages, dialogs, menus, accelerators, version info, manifests, icons (assembled `.ico`), registrar scripts, UI markup, TIFF images, type-library payloads |
 
 ---
@@ -68,9 +68,14 @@ Full detail in `validation.md`; the four independent checks:
 3. **Cross-tool structure agreement.** Resource type sets 28/28 and payload digests **539/539**
    identical between the project's raw walker, pefile and REA's independent PE resource parser;
    section names 28/28 in REA's objdump output.
-4. **Input integrity.** `git diff --name-only origin/main HEAD -- bin/` is empty: every analyzed
-   file is byte-identical to the repository's upstream `bin/` tree, and no tool opens `bin/` for
-   writing.
+4. **Input integrity & Microsoft update manifest provenance.** `git diff --name-only 5c564f7 HEAD -- bin/`
+   is empty: all 53 files in `bin/` match the initial upstream commit (`7808d47`) and post-move
+   commit (`5c564f7`), no tool opens `bin/` for writing, all 53 files map to Microsoft's Windows 7
+   (NT 6.1) CBS/WinSxS packages (`Microsoft-Windows-MediaPlayer-Package` and
+   `Microsoft-Windows-WMPNetworkSharingService-Package`, `publicKeyToken="31bf3856ad364e35"`), all
+   28 PE images have valid PE Optional Header `CheckSum` values across 5 servicing KB waves (`RTM
+   7600.16385`, `KB976932`, `KB3150513`, `KB3179573`, `KB4507449`), and 7 unchanged static assets
+   match Microsoft's `m417z/winbindex` manifest index by exact SHA-256 (`update-manifests.md`).
 
 **What is not verified:** runtime behaviour (no Windows, no emulator — every behavioural claim is
 a static reading), completeness of the decompilation sample (888 of 73,277 CFG functions, the cap

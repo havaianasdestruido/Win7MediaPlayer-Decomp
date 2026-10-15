@@ -1,6 +1,6 @@
 {
  "generated_by": "analysis/tools/rea_batch.py",
- "generated_at": "2026-10-14 22:43:40Z",
+ "generated_at": "2026-10-15 20:31:38Z",
  "rea_version": "6.5.0",
  "rea_executable": "rea",
  "rea_limitation": "deep native provider operations (analyze/function/decompile/xrefs/instructions) require Ghidra, Hopper or IDA; none available in this environment",
@@ -9,33 +9,85 @@
    "slug": "wmpdmc_exe",
    "artifact": "bin/WMPDMC.exe",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPDMC.exe",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmc_exe/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "210a8fb4105efead38bc69b9eb3aaa33ed45042cf11291c281af504d16edde62",
+   "evidence_bytes": 2260,
+   "evidence_id": "ev_8792992fc821924c3b563aecfe7545f28492c7236727094cf31fa1689a26ef76",
+   "provider": "gnu.objdump",
+   "subject_sha256": "3f6564d520c416147702a463a50724fd36c46c3a44a8447af89788586fc5efee"
   },
   {
    "slug": "wmpdmc_exe",
    "artifact": "bin/WMPDMC.exe",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPDMC.exe",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmc_exe/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "beb5dfeee7be4aa17dea58d95813c5a1b403272d8516c0296b2aa1fe6d3c5b01",
+   "evidence_bytes": 3509,
+   "evidence_id": "ev_c5251b4f2fabd896940286ea19fb7b65ede8fba7201d6828dfac71f1e81f7ff7",
+   "provider": "gnu.objdump",
+   "subject_sha256": "3f6564d520c416147702a463a50724fd36c46c3a44a8447af89788586fc5efee"
   },
   {
    "slug": "wmpdmc_exe",
    "artifact": "bin/WMPDMC.exe",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPDMC.exe",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmc_exe/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "25920afa7d600383012558873fcd52db9523bb13810a14097c4ccd1a3517141e",
+   "evidence_bytes": 2031,
+   "evidence_id": "ev_9be40f4c7d1ec586b12559f80033a0acd3987de42e2edfb4d819101c7160eb97",
+   "provider": "gnu.objdump",
+   "subject_sha256": "3f6564d520c416147702a463a50724fd36c46c3a44a8447af89788586fc5efee"
   },
   {
    "slug": "wmpdmc_exe",
    "artifact": "bin/WMPDMC.exe",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPDMC.exe",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmc_exe/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "f40aa8d8cec9878955f8b1363d2b561ebd39e79cc5aeaab6733ab9113b5c556b",
+   "evidence_bytes": 1973,
+   "evidence_id": "ev_95662c1e30693db79a683b06608b6796a9f6c1abee8f7c86306b50d7a2068866",
+   "provider": "gnu.objdump",
+   "subject_sha256": "3f6564d520c416147702a463a50724fd36c46c3a44a8447af89788586fc5efee"
   },
   {
    "slug": "wmpdmc_exe",
@@ -44,14 +96,12 @@
    "argv": [
     "rea",
     "inspect-with-objdump",
-    "/home/user/Win7MediaPlayer-Decomp/bin/WMPDMC.exe",
+    "bin/WMPDMC.exe",
     "disassemble_all",
     "--json"
    ],
    "exit_code": 0,
-   "seconds": 2.46,
-   "stderr": "",
-   "status": "collected",
+   "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmc_exe/objdump-disassemble_all.json.gz",
    "storage": "gzip",
    "evidence_sha256": "bd389cbda3119297ed710cc07e4fa25a52bc34e90f1b6f259d1b14e28961c41b",
@@ -64,41 +114,105 @@
    "slug": "wmpdmc_exe",
    "artifact": "bin/WMPDMC.exe",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/WMPDMC.exe",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmc_exe/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "4473de9b5f6b9216d2cb0cea42790726bdd28489d89c511e56158a55e148b265",
+   "evidence_bytes": 107457,
+   "evidence_id": "ev_0f549ad76d759d4e2375ecd5a78a71d3717c067e5909dd4baceb7f3082e1c6e4",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "3f6564d520c416147702a463a50724fd36c46c3a44a8447af89788586fc5efee"
   },
   {
    "slug": "wmpdmccore_dll",
    "artifact": "bin/WMPDMCCore.dll",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPDMCCore.dll",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmccore_dll/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "8fe49ece827accf9ba263abc9570e64bad20570ea6e7939b74f0de307588901d",
+   "evidence_bytes": 2288,
+   "evidence_id": "ev_b556fbb3e859d827ea39cb3172aac01a524791f43f3b92876ef193d980ba60a3",
+   "provider": "gnu.objdump",
+   "subject_sha256": "9334fde75c4e6d018f3c698b0a6b5d415f65d71716906af037147b61b3911242"
   },
   {
    "slug": "wmpdmccore_dll",
    "artifact": "bin/WMPDMCCore.dll",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPDMCCore.dll",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmccore_dll/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "5104a0e6b2b1ac3e9e90dc4f7c907037b444f885e3c5909ba1debb894921fb87",
+   "evidence_bytes": 3537,
+   "evidence_id": "ev_98bdc75cabcba39971b1336f02b565185cdeae24630373219a9e69172e2f15c2",
+   "provider": "gnu.objdump",
+   "subject_sha256": "9334fde75c4e6d018f3c698b0a6b5d415f65d71716906af037147b61b3911242"
   },
   {
    "slug": "wmpdmccore_dll",
    "artifact": "bin/WMPDMCCore.dll",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPDMCCore.dll",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmccore_dll/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "edb536e78703faf8db95bc16efca150549a6fd9a71951e05cc6c5276c4d1f89d",
+   "evidence_bytes": 2059,
+   "evidence_id": "ev_bec1ac060b118713000e12a5dd72bad255076a4b881457faeb2828661beddec1",
+   "provider": "gnu.objdump",
+   "subject_sha256": "9334fde75c4e6d018f3c698b0a6b5d415f65d71716906af037147b61b3911242"
   },
   {
    "slug": "wmpdmccore_dll",
    "artifact": "bin/WMPDMCCore.dll",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPDMCCore.dll",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmccore_dll/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "a34d1124d21caa5e5cb9c8b75f7844c36f242a6d9a97704e72a86a86afa9222b",
+   "evidence_bytes": 2001,
+   "evidence_id": "ev_0bdcdfe55a802b7457d68fbd1a9ef35f9d8e347e32c55e309d2c7c96b669c5b7",
+   "provider": "gnu.objdump",
+   "subject_sha256": "9334fde75c4e6d018f3c698b0a6b5d415f65d71716906af037147b61b3911242"
   },
   {
    "slug": "wmpdmccore_dll",
@@ -107,14 +221,12 @@
    "argv": [
     "rea",
     "inspect-with-objdump",
-    "/home/user/Win7MediaPlayer-Decomp/bin/WMPDMCCore.dll",
+    "bin/WMPDMCCore.dll",
     "disassemble_all",
     "--json"
    ],
    "exit_code": 0,
-   "seconds": 1.77,
-   "stderr": "",
-   "status": "collected",
+   "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmccore_dll/objdump-disassemble_all.json.gz",
    "storage": "gzip",
    "evidence_sha256": "d86a2864b8351ae0b426cb5f93007377e6d899dcd6b2726b1a8ed17decb9464b",
@@ -127,185 +239,480 @@
    "slug": "wmpdmccore_dll",
    "artifact": "bin/WMPDMCCore.dll",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/WMPDMCCore.dll",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmccore_dll/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "c70976956756fd328e8c1aac8ad460308b8aad92558ccfa48f54a8212dc4365d",
+   "evidence_bytes": 4557,
+   "evidence_id": "ev_f02cf15f0a96923e8649862538b30a82a0de244098e3bff0c155639ee60d028b",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "9334fde75c4e6d018f3c698b0a6b5d415f65d71716906af037147b61b3911242"
   },
   {
    "slug": "wmpmediasharing_dll",
    "artifact": "bin/WMPMediaSharing.dll",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPMediaSharing.dll",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpmediasharing_dll/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "717b9e2f49ce6eaacaf7f59e4b842a57f5342dd6d973093068d745e115a772c6",
+   "evidence_bytes": 2323,
+   "evidence_id": "ev_c243a325b0e51817779e681b54091c6dadb50f2601d998428941e161cdfae1d8",
+   "provider": "gnu.objdump",
+   "subject_sha256": "714d193de7f062968c11a8a946f1fa066d03e1fc5a7bd90dbabc372605416413"
   },
   {
    "slug": "wmpmediasharing_dll",
    "artifact": "bin/WMPMediaSharing.dll",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPMediaSharing.dll",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpmediasharing_dll/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "5167bdee2ba0b69b25c386611e90e165d171cc287a68de870d4a776e05f40f4d",
+   "evidence_bytes": 3572,
+   "evidence_id": "ev_8b36e583201fcabbf103c5d5070b9d406f7d8c269f572ca77e5749a8650cfe58",
+   "provider": "gnu.objdump",
+   "subject_sha256": "714d193de7f062968c11a8a946f1fa066d03e1fc5a7bd90dbabc372605416413"
   },
   {
    "slug": "wmpmediasharing_dll",
    "artifact": "bin/WMPMediaSharing.dll",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPMediaSharing.dll",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpmediasharing_dll/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "712a34e37e88ee087866d445f9947bf7c6ce1c3b0df69d826ba3a4685f254730",
+   "evidence_bytes": 2094,
+   "evidence_id": "ev_69a139efc3ab502942f0c0d7787ad8350d849b7d181376bddae9d302eaa4c686",
+   "provider": "gnu.objdump",
+   "subject_sha256": "714d193de7f062968c11a8a946f1fa066d03e1fc5a7bd90dbabc372605416413"
   },
   {
    "slug": "wmpmediasharing_dll",
    "artifact": "bin/WMPMediaSharing.dll",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPMediaSharing.dll",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpmediasharing_dll/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "78911af29ff03735e7e1776773b5a9eac7c7d2f2da877ec9327dd97d1e42e765",
+   "evidence_bytes": 2036,
+   "evidence_id": "ev_21b9cb4684e1694d9c7065a68d2bd56dcb31ca7f9963508a46a454cd6a8bb6d5",
+   "provider": "gnu.objdump",
+   "subject_sha256": "714d193de7f062968c11a8a946f1fa066d03e1fc5a7bd90dbabc372605416413"
   },
   {
    "slug": "wmpmediasharing_dll",
    "artifact": "bin/WMPMediaSharing.dll",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPMediaSharing.dll",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpmediasharing_dll/objdump-disassemble_all.json.gz",
-   "storage": "gzip"
+   "storage": "gzip",
+   "evidence_sha256": "ee4b1c5b3dcc34a1813aca8fcab8412c9df896e4b9ac99358fde3fe539d3be1c",
+   "evidence_bytes": 6012442,
+   "evidence_id": "ev_5d5f0ea311d19dbdfe9b761685ec8308c4f29a8b6740a8b8127d20f6967e8168",
+   "provider": "gnu.objdump",
+   "subject_sha256": "714d193de7f062968c11a8a946f1fa066d03e1fc5a7bd90dbabc372605416413"
   },
   {
    "slug": "wmpmediasharing_dll",
    "artifact": "bin/WMPMediaSharing.dll",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/WMPMediaSharing.dll",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpmediasharing_dll/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "6af30f8b3294dbddee7aeac7650b8ef05b30369c483776739b5dcc8142f55467",
+   "evidence_bytes": 5399,
+   "evidence_id": "ev_af3314fb1844d855f7f7911224639b9799cf1fcf3acac24e521104fb3bc90b41",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "714d193de7f062968c11a8a946f1fa066d03e1fc5a7bd90dbabc372605416413"
   },
   {
    "slug": "wmpnssui_dll",
    "artifact": "bin/WMPNSSUI.dll",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPNSSUI.dll",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssui_dll/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "756f3356f44db2cab169c54a031414e11ed347ce39662d217dffb17c69e497bf",
+   "evidence_bytes": 2274,
+   "evidence_id": "ev_eb9c6550d7d8dc439bcd7485866363602a1a2c3a575db54af4e9e267b9730d5a",
+   "provider": "gnu.objdump",
+   "subject_sha256": "28d793e5077afb34b57fd3ac404413a60f06a3985fcc4aa16cccb8525411f8bb"
   },
   {
    "slug": "wmpnssui_dll",
    "artifact": "bin/WMPNSSUI.dll",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPNSSUI.dll",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssui_dll/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "d7b60524d9469b58af20443c78e52e088ac36855cce2d6142708f9a3a861cedd",
+   "evidence_bytes": 3523,
+   "evidence_id": "ev_1e1952ce6a2282472af606f855eb88cc570627aa229a4d5ecc161ce503f3c4a7",
+   "provider": "gnu.objdump",
+   "subject_sha256": "28d793e5077afb34b57fd3ac404413a60f06a3985fcc4aa16cccb8525411f8bb"
   },
   {
    "slug": "wmpnssui_dll",
    "artifact": "bin/WMPNSSUI.dll",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPNSSUI.dll",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssui_dll/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "2cbddd29f0397643c5a036c6cc2590f807a6fa3f00be594786482f5bdab831bf",
+   "evidence_bytes": 2045,
+   "evidence_id": "ev_66a20dc6fec8a0b980475fbe5f3804e57e05ad5a527d55bb2dc841f861c90c50",
+   "provider": "gnu.objdump",
+   "subject_sha256": "28d793e5077afb34b57fd3ac404413a60f06a3985fcc4aa16cccb8525411f8bb"
   },
   {
    "slug": "wmpnssui_dll",
    "artifact": "bin/WMPNSSUI.dll",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPNSSUI.dll",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssui_dll/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "2eb1991a81fa72a69e2069c789fe06e997376e29436bc9f176226ff78ca8e077",
+   "evidence_bytes": 1987,
+   "evidence_id": "ev_06c8e90a8026f846300256682a3421ab0874a19926af421e511a19b287e523fc",
+   "provider": "gnu.objdump",
+   "subject_sha256": "28d793e5077afb34b57fd3ac404413a60f06a3985fcc4aa16cccb8525411f8bb"
   },
   {
    "slug": "wmpnssui_dll",
    "artifact": "bin/WMPNSSUI.dll",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPNSSUI.dll",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssui_dll/objdump-disassemble_all.json.gz",
-   "storage": "gzip"
+   "storage": "gzip",
+   "evidence_sha256": "032bcce8b538ba8c031d61918a5384b337683692244e62a7cf62f1cbefaf5178",
+   "evidence_bytes": 1260267,
+   "evidence_id": "ev_76aa627dd9d675130c12262ad921b03a3f5eef83f15542c1f2aa57b284067b4e",
+   "provider": "gnu.objdump",
+   "subject_sha256": "28d793e5077afb34b57fd3ac404413a60f06a3985fcc4aa16cccb8525411f8bb"
   },
   {
    "slug": "wmpnssui_dll",
    "artifact": "bin/WMPNSSUI.dll",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/WMPNSSUI.dll",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssui_dll/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "770f5bbd145f4feeea129ff1fcd636e71694acdba1532fb6648055c499aee882",
+   "evidence_bytes": 5228,
+   "evidence_id": "ev_288dbf3681ec5e71fb410defe01f8120b1672c29f699a0c5a400acb426be753e",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "28d793e5077afb34b57fd3ac404413a60f06a3985fcc4aa16cccb8525411f8bb"
   },
   {
    "slug": "wmpsideshowgadget_exe",
    "artifact": "bin/WMPSideShowGadget.exe",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPSideShowGadget.exe",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpsideshowgadget_exe/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "a949045a28f9d3e59a9793dcd6c0e82f3e11c0b2280ebb55a461d171b37acf24",
+   "evidence_bytes": 2337,
+   "evidence_id": "ev_65eae9a805b7e0c418ea450b0e2f616dbfaee3c1fcb3231c283ed01c3c81b163",
+   "provider": "gnu.objdump",
+   "subject_sha256": "0f8f45cd381f60a41cca4834188157d25906911108d7280cb2540d2245327a9d"
   },
   {
    "slug": "wmpsideshowgadget_exe",
    "artifact": "bin/WMPSideShowGadget.exe",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPSideShowGadget.exe",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpsideshowgadget_exe/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "ae3cdfae277b29c1f6e2ea3af0831745dbeccf69ccb7298d10ac353501a8d5a4",
+   "evidence_bytes": 3586,
+   "evidence_id": "ev_4fecb1fda1dbfbf43b87a13548f0c60fac3dd0b144ebd4900598ce2d8d5c49dd",
+   "provider": "gnu.objdump",
+   "subject_sha256": "0f8f45cd381f60a41cca4834188157d25906911108d7280cb2540d2245327a9d"
   },
   {
    "slug": "wmpsideshowgadget_exe",
    "artifact": "bin/WMPSideShowGadget.exe",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPSideShowGadget.exe",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpsideshowgadget_exe/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "fe22ee5712e328117c97e40bb94c953d12dce7f2097ee220d20d36add97cfdfb",
+   "evidence_bytes": 2108,
+   "evidence_id": "ev_2cbd96653ff37f7905a64535b6debbf81f1f85f9424b4f9a6c9e10f0bd8fb6a1",
+   "provider": "gnu.objdump",
+   "subject_sha256": "0f8f45cd381f60a41cca4834188157d25906911108d7280cb2540d2245327a9d"
   },
   {
    "slug": "wmpsideshowgadget_exe",
    "artifact": "bin/WMPSideShowGadget.exe",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPSideShowGadget.exe",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpsideshowgadget_exe/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "f44548b574c433b9bd36a1277d8ff43bba99167b006e0a23ebe2b37d11e3214b",
+   "evidence_bytes": 2050,
+   "evidence_id": "ev_458314f10a1face63782825fcf9c4100e71a6e443947a1b4861732293cd658ff",
+   "provider": "gnu.objdump",
+   "subject_sha256": "0f8f45cd381f60a41cca4834188157d25906911108d7280cb2540d2245327a9d"
   },
   {
    "slug": "wmpsideshowgadget_exe",
    "artifact": "bin/WMPSideShowGadget.exe",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/WMPSideShowGadget.exe",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpsideshowgadget_exe/objdump-disassemble_all.json.gz",
-   "storage": "gzip"
+   "storage": "gzip",
+   "evidence_sha256": "0266c6ac53e174119759352b3e5d1ecddbeee40b8fa94b29886873511212cc79",
+   "evidence_bytes": 6211756,
+   "evidence_id": "ev_e2c5080975b698f7b03a15983078f33c33b0d8151cf7ca6cc40e030e6b169e17",
+   "provider": "gnu.objdump",
+   "subject_sha256": "0f8f45cd381f60a41cca4834188157d25906911108d7280cb2540d2245327a9d"
   },
   {
    "slug": "wmpsideshowgadget_exe",
    "artifact": "bin/WMPSideShowGadget.exe",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/WMPSideShowGadget.exe",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpsideshowgadget_exe/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "6d230aa05dc232a3bec13c5fd1070f9ec0f2a9b6927bd779d1844ab6017c597a",
+   "evidence_bytes": 20368,
+   "evidence_id": "ev_5ce1a2d7923b8b91b39b9934ccb7703039016f0be40847f022b3b094434bb923",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "0f8f45cd381f60a41cca4834188157d25906911108d7280cb2540d2245327a9d"
   },
   {
    "slug": "mpvis_dll",
    "artifact": "bin/mpvis.DLL",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/mpvis.DLL",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/mpvis_dll/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "08676e345d3898e97854a7e275b1529152de9869c24c3a945848c47f2e564136",
+   "evidence_bytes": 2253,
+   "evidence_id": "ev_2311fd7659a51772e769dc3bfcf9d6612015d51ebfe5606e206e157ab40760c7",
+   "provider": "gnu.objdump",
+   "subject_sha256": "5b1cf8de17dc039349e1af0bc0d728e3de3c0a96d9c50e81fc909b8ceb4927e0"
   },
   {
    "slug": "mpvis_dll",
    "artifact": "bin/mpvis.DLL",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/mpvis.DLL",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/mpvis_dll/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "267e01a34520a4be2273a85f2fee969e01d424320f4945f9744388c11f565ccd",
+   "evidence_bytes": 3502,
+   "evidence_id": "ev_ac7beff852d6d423aafb76cf626abf559b521099f7a09eb033d105851190fff0",
+   "provider": "gnu.objdump",
+   "subject_sha256": "5b1cf8de17dc039349e1af0bc0d728e3de3c0a96d9c50e81fc909b8ceb4927e0"
   },
   {
    "slug": "mpvis_dll",
    "artifact": "bin/mpvis.DLL",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/mpvis.DLL",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/mpvis_dll/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "e36b6653f8bc92a4922edbc80b3a857d83485a1ab0c23fd820095c56328cba1f",
+   "evidence_bytes": 2024,
+   "evidence_id": "ev_deb73eaa315d0fbf816dca9610a1946abd458b745a3c2e0d1807e22543862899",
+   "provider": "gnu.objdump",
+   "subject_sha256": "5b1cf8de17dc039349e1af0bc0d728e3de3c0a96d9c50e81fc909b8ceb4927e0"
   },
   {
    "slug": "mpvis_dll",
    "artifact": "bin/mpvis.DLL",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/mpvis.DLL",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/mpvis_dll/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "2960b049fae87400f098bb5cf5bdec8a339c21655ee994638225c8fa8fcae373",
+   "evidence_bytes": 1966,
+   "evidence_id": "ev_339e9d3190e3ee34e9007a95d1c5a91845801507e97948454cfc20e56e326dfa",
+   "provider": "gnu.objdump",
+   "subject_sha256": "5b1cf8de17dc039349e1af0bc0d728e3de3c0a96d9c50e81fc909b8ceb4927e0"
   },
   {
    "slug": "mpvis_dll",
@@ -314,14 +721,12 @@
    "argv": [
     "rea",
     "inspect-with-objdump",
-    "/home/user/Win7MediaPlayer-Decomp/bin/mpvis.DLL",
+    "bin/mpvis.DLL",
     "disassemble_all",
     "--json"
    ],
    "exit_code": 0,
-   "seconds": 1.6,
-   "stderr": "",
-   "status": "collected",
+   "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/mpvis_dll/objdump-disassemble_all.json.gz",
    "storage": "gzip",
    "evidence_sha256": "c399e478bc6633395ad56ab2b76799f417fcbd39e7b220f3603353ba51b62cd1",
@@ -334,81 +739,209 @@
    "slug": "mpvis_dll",
    "artifact": "bin/mpvis.DLL",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/mpvis.DLL",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/mpvis_dll/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "0b241a344d83cbbb0e90cab33fc9c531caa06afe12c36003d421a54e6b7c6e6a",
+   "evidence_bytes": 8347,
+   "evidence_id": "ev_932d55e28c86cf6f3b7fe6963d11d92cf6b59b807b612d64f733ef0f780e9304",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "5b1cf8de17dc039349e1af0bc0d728e3de3c0a96d9c50e81fc909b8ceb4927e0"
   },
   {
    "slug": "setup_wm_exe",
    "artifact": "bin/setup_wm.exe",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/setup_wm.exe",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/setup_wm_exe/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "4b24d2bad2720eb91a113e398141ddd739db4a973b9636076c65198d0c592bb4",
+   "evidence_bytes": 2274,
+   "evidence_id": "ev_42ca9306df0f3a36f664b86debeb7857b39b7bfe2b2c7eeb6c2b07005ce60a7c",
+   "provider": "gnu.objdump",
+   "subject_sha256": "f069226052de289452ef5ff9dd67557193c15308c5351bc7b70b6692b350951b"
   },
   {
    "slug": "setup_wm_exe",
    "artifact": "bin/setup_wm.exe",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/setup_wm.exe",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/setup_wm_exe/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "84b91d588423d4332c7d0af64991d6b650a71dd1d668984416f96bceb0bb55b8",
+   "evidence_bytes": 3523,
+   "evidence_id": "ev_eb264117a22344cb51cd0d0dd704cc8fb744476e6c93d44683e9d225b90d1cdb",
+   "provider": "gnu.objdump",
+   "subject_sha256": "f069226052de289452ef5ff9dd67557193c15308c5351bc7b70b6692b350951b"
   },
   {
    "slug": "setup_wm_exe",
    "artifact": "bin/setup_wm.exe",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/setup_wm.exe",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/setup_wm_exe/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "64d7c5fbe3c1f0e6ce73b7a69d09ec60d6606846ff79ce334286f9f45d34ff3a",
+   "evidence_bytes": 2045,
+   "evidence_id": "ev_2215ef004a37114e4e8a061af8f0593a47ffc6648583ec02260cfce51e434651",
+   "provider": "gnu.objdump",
+   "subject_sha256": "f069226052de289452ef5ff9dd67557193c15308c5351bc7b70b6692b350951b"
   },
   {
    "slug": "setup_wm_exe",
    "artifact": "bin/setup_wm.exe",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/setup_wm.exe",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/setup_wm_exe/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "c58cae47dd9e6d493b0bde68fa2853e20aaaa4b343d231fbb8f14196a6551527",
+   "evidence_bytes": 1987,
+   "evidence_id": "ev_3845676a290f121a3e27b0e2ba77347ede25382bbb9cacfe16a020493f6a9493",
+   "provider": "gnu.objdump",
+   "subject_sha256": "f069226052de289452ef5ff9dd67557193c15308c5351bc7b70b6692b350951b"
   },
   {
    "slug": "setup_wm_exe",
    "artifact": "bin/setup_wm.exe",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/setup_wm.exe",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/setup_wm_exe/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "685f3d0c6c402e5a6086965d92be44de3b0cebe350faec16afa56041ac67ac21",
+   "evidence_bytes": 46090,
+   "evidence_id": "ev_270abaf554ebe54acbb3495aea322eb926a2bca8f5017337b66223248848db65",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "f069226052de289452ef5ff9dd67557193c15308c5351bc7b70b6692b350951b"
   },
   {
    "slug": "wmlaunch_exe",
    "artifact": "bin/wmlaunch.exe",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmlaunch.exe",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmlaunch_exe/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "f289c2480cdc1ae32e356cb5092863b874f24da5d43969cd86e6c7fd96e8d461",
+   "evidence_bytes": 2274,
+   "evidence_id": "ev_b13a41a26450d73bbd007eb2259997e634ed49ce682c3e1303fb924cb986a148",
+   "provider": "gnu.objdump",
+   "subject_sha256": "8ea713b95f32c31a11bb1dded4cc8b9620014600f122fff3852c082d9af67b1b"
   },
   {
    "slug": "wmlaunch_exe",
    "artifact": "bin/wmlaunch.exe",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmlaunch.exe",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmlaunch_exe/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "4fee732d09733f1ba0c698ea00ffa9f2883a8db9a7404be4adf007a7ea2f3a00",
+   "evidence_bytes": 3523,
+   "evidence_id": "ev_b1156f4ec9a1239475b0649bb3a10e16ea5ad72269c18477ccd1875816402dc6",
+   "provider": "gnu.objdump",
+   "subject_sha256": "8ea713b95f32c31a11bb1dded4cc8b9620014600f122fff3852c082d9af67b1b"
   },
   {
    "slug": "wmlaunch_exe",
    "artifact": "bin/wmlaunch.exe",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmlaunch.exe",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmlaunch_exe/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "7f58bfeccee68cb202bc513a373cf80cd981a5ef67b9260a0e9e6af6a861fb50",
+   "evidence_bytes": 2045,
+   "evidence_id": "ev_7a84e043d174c594b82a95cd557aa4358754607b6dfafb9a48f78a900c2dea94",
+   "provider": "gnu.objdump",
+   "subject_sha256": "8ea713b95f32c31a11bb1dded4cc8b9620014600f122fff3852c082d9af67b1b"
   },
   {
    "slug": "wmlaunch_exe",
    "artifact": "bin/wmlaunch.exe",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmlaunch.exe",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmlaunch_exe/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "84bd87c3556b20cf44851a3dc71ff8b8293e017bcdb3269e9efc2e8b7aef6110",
+   "evidence_bytes": 1987,
+   "evidence_id": "ev_556a3b7c9a89ad31b779cb4156fb38605772438ba92106295b67e78fe38476c7",
+   "provider": "gnu.objdump",
+   "subject_sha256": "8ea713b95f32c31a11bb1dded4cc8b9620014600f122fff3852c082d9af67b1b"
   },
   {
    "slug": "wmlaunch_exe",
@@ -417,14 +950,12 @@
    "argv": [
     "rea",
     "inspect-with-objdump",
-    "/home/user/Win7MediaPlayer-Decomp/bin/wmlaunch.exe",
+    "bin/wmlaunch.exe",
     "disassemble_all",
     "--json"
    ],
    "exit_code": 0,
-   "seconds": 2.04,
-   "stderr": "",
-   "status": "collected",
+   "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmlaunch_exe/objdump-disassemble_all.json.gz",
    "storage": "gzip",
    "evidence_sha256": "f7a47ec31bdacffac5bcfef4134c6615ee136a6e53bf898af165ea8e8543d5f3",
@@ -437,281 +968,730 @@
    "slug": "wmlaunch_exe",
    "artifact": "bin/wmlaunch.exe",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/wmlaunch.exe",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmlaunch_exe/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "9f1ebc0d3e91ca0fed99fc64e711708b4adb35df4a3037a3239f20ae4d8ef1e1",
+   "evidence_bytes": 4420,
+   "evidence_id": "ev_770963dfed3b3f27450c2f6fda73c695f052dd68db0c848025871f187c96022e",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "8ea713b95f32c31a11bb1dded4cc8b9620014600f122fff3852c082d9af67b1b"
   },
   {
    "slug": "wmpconfig_exe",
    "artifact": "bin/wmpconfig.exe",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpconfig.exe",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpconfig_exe/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "be66360c386547127ae55bc5bcb32fe8005d423e157d613deb20de5f7ffdd91c",
+   "evidence_bytes": 2281,
+   "evidence_id": "ev_d0eb1a9c64ff00c768236a451b3a4d0954a2267342f72615262f8fb6ce5e3d9b",
+   "provider": "gnu.objdump",
+   "subject_sha256": "0f1726e36b8a016069b7d9eef811f5ca3799bfed355423f70f51947e67d2ef4f"
   },
   {
    "slug": "wmpconfig_exe",
    "artifact": "bin/wmpconfig.exe",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpconfig.exe",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpconfig_exe/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "0d70ecaa27e96a557d19a62730f33afc10c0cbfc315692a37bf37cb811d88f8a",
+   "evidence_bytes": 3530,
+   "evidence_id": "ev_df3eb1ea34fdc52f90e0a94a1eb3a2c20cfb145b8bebd855124b79493f47d11b",
+   "provider": "gnu.objdump",
+   "subject_sha256": "0f1726e36b8a016069b7d9eef811f5ca3799bfed355423f70f51947e67d2ef4f"
   },
   {
    "slug": "wmpconfig_exe",
    "artifact": "bin/wmpconfig.exe",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpconfig.exe",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpconfig_exe/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "756d324e854847bb93a288c71e53bdf4ff36e9ac851d6b3a132bc19add3529a4",
+   "evidence_bytes": 2052,
+   "evidence_id": "ev_8777d43d10b130a956713e526800e612a5ec8084364e66b59ed4fb0f79cf4e55",
+   "provider": "gnu.objdump",
+   "subject_sha256": "0f1726e36b8a016069b7d9eef811f5ca3799bfed355423f70f51947e67d2ef4f"
   },
   {
    "slug": "wmpconfig_exe",
    "artifact": "bin/wmpconfig.exe",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpconfig.exe",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpconfig_exe/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "e8971b4aae4cac55ced0cca0f8244ad2ce18d1ab5f0679184fa915aee420fcd8",
+   "evidence_bytes": 1994,
+   "evidence_id": "ev_851978b277763b63c3634238bf7f8a987e4ac858f2252bbe5b13f58d7309ef9a",
+   "provider": "gnu.objdump",
+   "subject_sha256": "0f1726e36b8a016069b7d9eef811f5ca3799bfed355423f70f51947e67d2ef4f"
   },
   {
    "slug": "wmpconfig_exe",
    "artifact": "bin/wmpconfig.exe",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpconfig.exe",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpconfig_exe/objdump-disassemble_all.json.gz",
-   "storage": "gzip"
+   "storage": "gzip",
+   "evidence_sha256": "3d3a070f56d9b0e33d8e710a82cd68bc84609ab5016c30a367c34e7259a7f4cb",
+   "evidence_bytes": 3696970,
+   "evidence_id": "ev_5b9766b36e72f0a776c5b05bba39fba06a5fe269274912b9b2b2c788305d1361",
+   "provider": "gnu.objdump",
+   "subject_sha256": "0f1726e36b8a016069b7d9eef811f5ca3799bfed355423f70f51947e67d2ef4f"
   },
   {
    "slug": "wmpconfig_exe",
    "artifact": "bin/wmpconfig.exe",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/wmpconfig.exe",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpconfig_exe/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "a92db2fd6c78bee7a796e75141c5d903dbd910bbc742174aa78ac781c1f2342b",
+   "evidence_bytes": 18081,
+   "evidence_id": "ev_9b450232ec25172054ac666800542291095683d778eb4decd1615e5b6d418fce",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "0f1726e36b8a016069b7d9eef811f5ca3799bfed355423f70f51947e67d2ef4f"
   },
   {
    "slug": "wmpenc_exe",
    "artifact": "bin/wmpenc.exe",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpenc.exe",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpenc_exe/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "be231b57ffebf34d6d65dcbc02e769b179518f340cbbcc0a33968840b915cb2f",
+   "evidence_bytes": 2260,
+   "evidence_id": "ev_6cef7e4802d079826f71d6b36e44f88e08eb49b58e95e7ba8c193f0e35a6645e",
+   "provider": "gnu.objdump",
+   "subject_sha256": "b8b174ae012a8a25a9d706f7f169e7a2553ab8ffe0ccef2beb34fe803ec0634a"
   },
   {
    "slug": "wmpenc_exe",
    "artifact": "bin/wmpenc.exe",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpenc.exe",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpenc_exe/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "69364cc526b06c081ae671ea55883e3bc9accd3a11742bc3e6a337c801e99213",
+   "evidence_bytes": 3509,
+   "evidence_id": "ev_ff24743eafeb4b205b606690ffedf878bb64ebd207ac0d5c3a20a319dc278652",
+   "provider": "gnu.objdump",
+   "subject_sha256": "b8b174ae012a8a25a9d706f7f169e7a2553ab8ffe0ccef2beb34fe803ec0634a"
   },
   {
    "slug": "wmpenc_exe",
    "artifact": "bin/wmpenc.exe",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpenc.exe",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpenc_exe/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "54e7e6560cd03d11baa4e4eeba687a3eb48a6491202ee03c8e48153dd8892e9f",
+   "evidence_bytes": 2031,
+   "evidence_id": "ev_66326aad152ebb0f7b5c322d88085830a7c1374be9d3a4a402d93a62b03457ca",
+   "provider": "gnu.objdump",
+   "subject_sha256": "b8b174ae012a8a25a9d706f7f169e7a2553ab8ffe0ccef2beb34fe803ec0634a"
   },
   {
    "slug": "wmpenc_exe",
    "artifact": "bin/wmpenc.exe",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpenc.exe",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpenc_exe/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "311d86ec1a7d55f60e090ba579b9c4e46b60e3088529a219a4e0b04036e209b5",
+   "evidence_bytes": 1973,
+   "evidence_id": "ev_b40a769ef07012b058c138dc3af82a3f80d1e1ff30facbe00b87b3d6b25f4490",
+   "provider": "gnu.objdump",
+   "subject_sha256": "b8b174ae012a8a25a9d706f7f169e7a2553ab8ffe0ccef2beb34fe803ec0634a"
   },
   {
    "slug": "wmpenc_exe",
    "artifact": "bin/wmpenc.exe",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpenc.exe",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpenc_exe/objdump-disassemble_all.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "caa8f04b00495ac28c5cda97bf89705ed05062b5d6f56f7490e983f5a6e5ce69",
+   "evidence_bytes": 973293,
+   "evidence_id": "ev_6d653d5a896a3269205d78aa18cc3338a0a331c3e6af8cc00540933ec422e151",
+   "provider": "gnu.objdump",
+   "subject_sha256": "b8b174ae012a8a25a9d706f7f169e7a2553ab8ffe0ccef2beb34fe803ec0634a"
   },
   {
    "slug": "wmpenc_exe",
    "artifact": "bin/wmpenc.exe",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/wmpenc.exe",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpenc_exe/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "eb0f8ed95ecb067180ede00d1d72bad301bc2b6f1ea0d415ef8f0adeb66bdf80",
+   "evidence_bytes": 4409,
+   "evidence_id": "ev_1c80d7b70b028ccb83c0f5da738dbb0d2875ff7f35f5cb16ac312acea105432e",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "b8b174ae012a8a25a9d706f7f169e7a2553ab8ffe0ccef2beb34fe803ec0634a"
   },
   {
    "slug": "wmplayer_exe",
    "artifact": "bin/wmplayer.exe",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmplayer.exe",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmplayer_exe/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "4519ca44ac8dfec47d6f4ff4bacfc8e2dca8b26f93d2b3cb6503f91773042126",
+   "evidence_bytes": 2274,
+   "evidence_id": "ev_f34b3a1103b38a3dac0111e58ae30fa366f3c057caf95c5c0392ae869901a597",
+   "provider": "gnu.objdump",
+   "subject_sha256": "883d9616dfc7586fa88c58013f70e055df9328f3cfc3ef39898c15c6970fb0db"
   },
   {
    "slug": "wmplayer_exe",
    "artifact": "bin/wmplayer.exe",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmplayer.exe",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmplayer_exe/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "5186f5b8ce43dc73a69790b53e7d5acb0f31e6c9d7ed7ec78c0c246a9409a46e",
+   "evidence_bytes": 3523,
+   "evidence_id": "ev_c90f590c7e9e2484902b9535d10b9cb64dddee5e12e6b993005beac85509675a",
+   "provider": "gnu.objdump",
+   "subject_sha256": "883d9616dfc7586fa88c58013f70e055df9328f3cfc3ef39898c15c6970fb0db"
   },
   {
    "slug": "wmplayer_exe",
    "artifact": "bin/wmplayer.exe",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmplayer.exe",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmplayer_exe/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "7f7836e34395a3c2dcd0c7d2729541d268785999f6aa3ce8b87179683bdc1d5e",
+   "evidence_bytes": 2045,
+   "evidence_id": "ev_0c4e1571fad1e4c1dd0949b8331cdf4ee5222bac4e6c41e6eb06fbbe8ce74852",
+   "provider": "gnu.objdump",
+   "subject_sha256": "883d9616dfc7586fa88c58013f70e055df9328f3cfc3ef39898c15c6970fb0db"
   },
   {
    "slug": "wmplayer_exe",
    "artifact": "bin/wmplayer.exe",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmplayer.exe",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmplayer_exe/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "5b16be5be2c91c80e68287ed16ae6b2c98eead9d1b08647327f30dc385b3e8cf",
+   "evidence_bytes": 1987,
+   "evidence_id": "ev_487292565f2baf2e46eb4af65da88da29c94aff3fd88165674a5a6d62d7a4cc6",
+   "provider": "gnu.objdump",
+   "subject_sha256": "883d9616dfc7586fa88c58013f70e055df9328f3cfc3ef39898c15c6970fb0db"
   },
   {
    "slug": "wmplayer_exe",
    "artifact": "bin/wmplayer.exe",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmplayer.exe",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmplayer_exe/objdump-disassemble_all.json.gz",
-   "storage": "gzip"
+   "storage": "gzip",
+   "evidence_sha256": "3a54ce277d5b7bbd320c55215b5a2cdf2ab4408c67b76c0ca7c8d31d8bc93e47",
+   "evidence_bytes": 6349463,
+   "evidence_id": "ev_edc202daea9c7efca7b5498fab5fb9f3d83588730b1a204038997bf9525b416c",
+   "provider": "gnu.objdump",
+   "subject_sha256": "883d9616dfc7586fa88c58013f70e055df9328f3cfc3ef39898c15c6970fb0db"
   },
   {
    "slug": "wmplayer_exe",
    "artifact": "bin/wmplayer.exe",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/wmplayer.exe",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmplayer_exe/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "4d75c57b3dcbc716d5b45f8e7d4292a699292e3080572078569549dfb51a4b10",
+   "evidence_bytes": 29629,
+   "evidence_id": "ev_42ab1e6de72ef9362ed4eb1edae689a0d21b2c1ae38785745964cab9fbd73a73",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "883d9616dfc7586fa88c58013f70e055df9328f3cfc3ef39898c15c6970fb0db"
   },
   {
    "slug": "wmpnetwk_exe",
    "artifact": "bin/wmpnetwk.exe",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnetwk.exe",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnetwk_exe/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "3612a63f136bb80285abc18275db95df0ba69ab2c52be910aa6a06a881b81018",
+   "evidence_bytes": 2274,
+   "evidence_id": "ev_2c043245d27a1ca3e95b8ae6d7c8a09a9b836e624172a8561c1b87b2a363d851",
+   "provider": "gnu.objdump",
+   "subject_sha256": "306467d280e99d0616e839278a4db5bed684f002ae284c3678cabb5251459cb3"
   },
   {
    "slug": "wmpnetwk_exe",
    "artifact": "bin/wmpnetwk.exe",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnetwk.exe",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnetwk_exe/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "f157a1890476569a1adc88e4c660af55901d3ad95a43194b72e757cf23f510ad",
+   "evidence_bytes": 3523,
+   "evidence_id": "ev_8f854d3124814837d82a953c97d2675bd706ea61c90d837d1af79f10a293cf18",
+   "provider": "gnu.objdump",
+   "subject_sha256": "306467d280e99d0616e839278a4db5bed684f002ae284c3678cabb5251459cb3"
   },
   {
    "slug": "wmpnetwk_exe",
    "artifact": "bin/wmpnetwk.exe",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnetwk.exe",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnetwk_exe/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "a981203319a99658091995ea2c125ef9bf2c78cb4086a8110d4d3be536411536",
+   "evidence_bytes": 2045,
+   "evidence_id": "ev_e3f78b4074e3830df98cb80351a2dde6d7d478146d275cb0a98b8597a92af0b4",
+   "provider": "gnu.objdump",
+   "subject_sha256": "306467d280e99d0616e839278a4db5bed684f002ae284c3678cabb5251459cb3"
   },
   {
    "slug": "wmpnetwk_exe",
    "artifact": "bin/wmpnetwk.exe",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnetwk.exe",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnetwk_exe/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "4a15c1b855e9cea2cd723d558c6c4974068600c02ed503afb94135a01149aff6",
+   "evidence_bytes": 1987,
+   "evidence_id": "ev_6fdf44e3bb27a1a159fbe0c6409325e9f73aeab7955abbf5d4a664846e392e6c",
+   "provider": "gnu.objdump",
+   "subject_sha256": "306467d280e99d0616e839278a4db5bed684f002ae284c3678cabb5251459cb3"
   },
   {
    "slug": "wmpnetwk_exe",
    "artifact": "bin/wmpnetwk.exe",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnetwk.exe",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnetwk_exe/objdump-disassemble_all.json.gz",
-   "storage": "gzip"
+   "storage": "gzip",
+   "evidence_sha256": "9fcdd0ec15256ff8ad277e515aad07315b05201b4ff77d12740fd4d403f7f52e",
+   "evidence_bytes": 35364439,
+   "evidence_id": "ev_1e8758f69fc0ec2e2d270f4b4fc15cc61c973756e5e0bdb1e410e72bd1765406",
+   "provider": "gnu.objdump",
+   "subject_sha256": "306467d280e99d0616e839278a4db5bed684f002ae284c3678cabb5251459cb3"
   },
   {
    "slug": "wmpnetwk_exe",
    "artifact": "bin/wmpnetwk.exe",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/wmpnetwk.exe",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnetwk_exe/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "14e05f9408c1facf5555723381359e79fa932ee57af3b99d3ba945d78dd9898b",
+   "evidence_bytes": 6863,
+   "evidence_id": "ev_84e3ff1e4ad034e10e72b0d1f73fbbabb45b667a806293df1cb4c42b608998c8",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "306467d280e99d0616e839278a4db5bed684f002ae284c3678cabb5251459cb3"
   },
   {
    "slug": "wmpnscfg_exe",
    "artifact": "bin/wmpnscfg.exe",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnscfg.exe",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnscfg_exe/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "2e3f0c63071a508a413848320348d12e6ffaf0f9e2009f00520d958e57e72ae0",
+   "evidence_bytes": 2274,
+   "evidence_id": "ev_7f34b0ccd6e369865010a93cdf8a368014a5eecd4b2c7b6f20faf3ecdc72e182",
+   "provider": "gnu.objdump",
+   "subject_sha256": "10888bb9c3799e1e8b010c0f9088ced376aad63a509fce1727c457b022cdc717"
   },
   {
    "slug": "wmpnscfg_exe",
    "artifact": "bin/wmpnscfg.exe",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnscfg.exe",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnscfg_exe/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "b0043186dbe6209338542f7093e6c7d34847a0ca31752a18157f3576092de2ea",
+   "evidence_bytes": 3523,
+   "evidence_id": "ev_60ac5e47ba1d1718142690ee6dbc64741e8f0cd87f12172e89c8b7836b804b1b",
+   "provider": "gnu.objdump",
+   "subject_sha256": "10888bb9c3799e1e8b010c0f9088ced376aad63a509fce1727c457b022cdc717"
   },
   {
    "slug": "wmpnscfg_exe",
    "artifact": "bin/wmpnscfg.exe",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnscfg.exe",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnscfg_exe/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "e1863e037439e98566c0091defcd909e734da86bd1f6dbbc63d6350d24c24c07",
+   "evidence_bytes": 2045,
+   "evidence_id": "ev_cbd76d910b16d476978b7244a24391f75a856370cb255159dc366c93fea7c68b",
+   "provider": "gnu.objdump",
+   "subject_sha256": "10888bb9c3799e1e8b010c0f9088ced376aad63a509fce1727c457b022cdc717"
   },
   {
    "slug": "wmpnscfg_exe",
    "artifact": "bin/wmpnscfg.exe",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnscfg.exe",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnscfg_exe/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "2f267eaccda0a13f2cd5eda2155e24b68c57539e211e6f22ac0d8511be0cfaa5",
+   "evidence_bytes": 1987,
+   "evidence_id": "ev_a4479b48a601df13d9d3f5fdd1471e9d1383cbf39dc9117f9d0c6eb5f4d6cc71",
+   "provider": "gnu.objdump",
+   "subject_sha256": "10888bb9c3799e1e8b010c0f9088ced376aad63a509fce1727c457b022cdc717"
   },
   {
    "slug": "wmpnscfg_exe",
    "artifact": "bin/wmpnscfg.exe",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnscfg.exe",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnscfg_exe/objdump-disassemble_all.json.gz",
-   "storage": "gzip"
+   "storage": "gzip",
+   "evidence_sha256": "59a727141fdc9663ba4d0bb55d89c354f398c0a8ba65172c989f6dba0a4c0909",
+   "evidence_bytes": 2564799,
+   "evidence_id": "ev_f567398f18489cea835005ae194d05f41d93e56cde98638af665ce221daa8b79",
+   "provider": "gnu.objdump",
+   "subject_sha256": "10888bb9c3799e1e8b010c0f9088ced376aad63a509fce1727c457b022cdc717"
   },
   {
    "slug": "wmpnscfg_exe",
    "artifact": "bin/wmpnscfg.exe",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/wmpnscfg.exe",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnscfg_exe/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "e916d138e0b79c7bb33c54c3288d53c5623e07a3eda9778d4fc417af1c656033",
+   "evidence_bytes": 12559,
+   "evidence_id": "ev_56caffed9fca5b506a82530b8d6cab2ed91d1516c130e80cb74ea36468839da6",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "10888bb9c3799e1e8b010c0f9088ced376aad63a509fce1727c457b022cdc717"
   },
   {
    "slug": "wmpnssci_dll",
    "artifact": "bin/wmpnssci.dll",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnssci.dll",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssci_dll/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "6488dc9d412a3fc2a1ded138c07942db9a2035dcc1e05e0e0e6606f0342ca372",
+   "evidence_bytes": 2274,
+   "evidence_id": "ev_46b88f118ae40a17c1d93c421940d465f09bee19e81c30ada0aaa556b45eb33e",
+   "provider": "gnu.objdump",
+   "subject_sha256": "3a3871983f2d9a57739c70365dc3f417d9bf02f5c0c4cc3272ea9f3d380ef962"
   },
   {
    "slug": "wmpnssci_dll",
    "artifact": "bin/wmpnssci.dll",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnssci.dll",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssci_dll/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "f043a77234ccf9e5c9c6f7af242392e3b3467ade21b533f920743102c9221e04",
+   "evidence_bytes": 3523,
+   "evidence_id": "ev_2be670375e08576614617ba1709714f8e253d85448900ee920a058118e477214",
+   "provider": "gnu.objdump",
+   "subject_sha256": "3a3871983f2d9a57739c70365dc3f417d9bf02f5c0c4cc3272ea9f3d380ef962"
   },
   {
    "slug": "wmpnssci_dll",
    "artifact": "bin/wmpnssci.dll",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnssci.dll",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssci_dll/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "67b715441746fd2d8401d8574a202357410ed3ee077f2556c20770490d5a1255",
+   "evidence_bytes": 2045,
+   "evidence_id": "ev_3c3b133f771016a01798d8c0b63dbb68ea60901c5026530de9a67956d1f9fd02",
+   "provider": "gnu.objdump",
+   "subject_sha256": "3a3871983f2d9a57739c70365dc3f417d9bf02f5c0c4cc3272ea9f3d380ef962"
   },
   {
    "slug": "wmpnssci_dll",
    "artifact": "bin/wmpnssci.dll",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpnssci.dll",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssci_dll/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "18f92d740e9dbea55f7b7f156ea19431adf3d5ae2b4bf7c899eebd84937ff4f6",
+   "evidence_bytes": 1987,
+   "evidence_id": "ev_2e3fb4bc95a672fba324ca968483c839c9fe4be967d6368bca45065cf0bebe16",
+   "provider": "gnu.objdump",
+   "subject_sha256": "3a3871983f2d9a57739c70365dc3f417d9bf02f5c0c4cc3272ea9f3d380ef962"
   },
   {
    "slug": "wmpnssci_dll",
@@ -720,14 +1700,12 @@
    "argv": [
     "rea",
     "inspect-with-objdump",
-    "/home/user/Win7MediaPlayer-Decomp/bin/wmpnssci.dll",
+    "bin/wmpnssci.dll",
     "disassemble_all",
     "--json"
    ],
    "exit_code": 0,
-   "seconds": 1.99,
-   "stderr": "",
-   "status": "collected",
+   "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssci_dll/objdump-disassemble_all.json.gz",
    "storage": "gzip",
    "evidence_sha256": "f3e659d77c1641e9ad738e9b9297950b3f6dbae83582b2c27f87d308301da62a",
@@ -740,689 +1718,1791 @@
    "slug": "wmpnssci_dll",
    "artifact": "bin/wmpnssci.dll",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/wmpnssci.dll",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssci_dll/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "fe20aacfc53efdc6be6a2cd525fda219ab3dbc5c7218c184dce0e3d8cca612ae",
+   "evidence_bytes": 40849,
+   "evidence_id": "ev_c7a376c38b4d855a81fe03eae2efd6d89d8d5f850014be0e439bedc1a63a4549",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "3a3871983f2d9a57739c70365dc3f417d9bf02f5c0c4cc3272ea9f3d380ef962"
   },
   {
    "slug": "wmprph_exe",
    "artifact": "bin/wmprph.exe",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmprph.exe",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmprph_exe/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "42c1d921027102fdf1b30417338cbfad379fafecd867729eeaf297396cd3e965",
+   "evidence_bytes": 2260,
+   "evidence_id": "ev_ec2cc633b06dc5889c43674a1cbb675285fedd603916b5668e2f46492d8a733f",
+   "provider": "gnu.objdump",
+   "subject_sha256": "395fce3d66ab1ed9a4fb2238172eaefc5cf78fc7a8b34c30686d638d16d9efca"
   },
   {
    "slug": "wmprph_exe",
    "artifact": "bin/wmprph.exe",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmprph.exe",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmprph_exe/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "1b83d20d9f84efc09de3fd3cbfbca63e197d16d1c019da41b3b6c9d0e3a7e20d",
+   "evidence_bytes": 3509,
+   "evidence_id": "ev_1ae79e67cb0496d1697575b4753dca61e8c1bb3b950c8fa56dba18588af06f32",
+   "provider": "gnu.objdump",
+   "subject_sha256": "395fce3d66ab1ed9a4fb2238172eaefc5cf78fc7a8b34c30686d638d16d9efca"
   },
   {
    "slug": "wmprph_exe",
    "artifact": "bin/wmprph.exe",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmprph.exe",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmprph_exe/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "b213d4daf610cfb17bb97921823252c4a1786a90e94c97e0c072283185e6799d",
+   "evidence_bytes": 2031,
+   "evidence_id": "ev_843d19870290f62ebc36b36151dc63f8468b3e08af7219f412ab706bf96641dc",
+   "provider": "gnu.objdump",
+   "subject_sha256": "395fce3d66ab1ed9a4fb2238172eaefc5cf78fc7a8b34c30686d638d16d9efca"
   },
   {
    "slug": "wmprph_exe",
    "artifact": "bin/wmprph.exe",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmprph.exe",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmprph_exe/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "e9b674a76687568dbc01d54b85081814a8e49e2e5a6ec115f1511f671204bdcc",
+   "evidence_bytes": 1973,
+   "evidence_id": "ev_32724a8ac2c6cbf9e37736e40855a45b485d41984c188a831b8063de6ff8e062",
+   "provider": "gnu.objdump",
+   "subject_sha256": "395fce3d66ab1ed9a4fb2238172eaefc5cf78fc7a8b34c30686d638d16d9efca"
   },
   {
    "slug": "wmprph_exe",
    "artifact": "bin/wmprph.exe",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmprph.exe",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmprph_exe/objdump-disassemble_all.json.gz",
-   "storage": "gzip"
+   "storage": "gzip",
+   "evidence_sha256": "215f64c4b3a64bbe1042200e799d858d29074083d65f4119a58963141d51e591",
+   "evidence_bytes": 2831725,
+   "evidence_id": "ev_456e81564af20d8b63e089c5c745ee44900e099d9a0bcbf9f57b9da50783777a",
+   "provider": "gnu.objdump",
+   "subject_sha256": "395fce3d66ab1ed9a4fb2238172eaefc5cf78fc7a8b34c30686d638d16d9efca"
   },
   {
    "slug": "wmprph_exe",
    "artifact": "bin/wmprph.exe",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/wmprph.exe",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmprph_exe/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "27ea05723cc5412451368066d8467a191ef40c4c936412b71b0b9d9cef05c538",
+   "evidence_bytes": 5217,
+   "evidence_id": "ev_f9d1a6babee59df4514b4db4c48e8b36d1edcd468018c796677791d17047e6c5",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "395fce3d66ab1ed9a4fb2238172eaefc5cf78fc7a8b34c30686d638d16d9efca"
   },
   {
    "slug": "wmpshare_exe",
    "artifact": "bin/wmpshare.exe",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpshare.exe",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpshare_exe/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "d1903275d741ce90c53fbc5cf529f550131d37e97666ee551e802ef1b6538a7b",
+   "evidence_bytes": 2274,
+   "evidence_id": "ev_1e24f79867b4b2cec24c0a25a5e9d16fb15e020008e1803f9cb4e1b7925b4ab2",
+   "provider": "gnu.objdump",
+   "subject_sha256": "ab95a6aa118e853d71b326b68a409f24a6276f47e34ca9e8049f7d49b4825a51"
   },
   {
    "slug": "wmpshare_exe",
    "artifact": "bin/wmpshare.exe",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpshare.exe",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpshare_exe/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "1dcefc522f89f5bcc2842ac9dd806f1731cc35f5248acc74277015d37c7f06d8",
+   "evidence_bytes": 3523,
+   "evidence_id": "ev_808853e9884f874450309cd0420748f29beb718736ea0e48accf4d07a30497a4",
+   "provider": "gnu.objdump",
+   "subject_sha256": "ab95a6aa118e853d71b326b68a409f24a6276f47e34ca9e8049f7d49b4825a51"
   },
   {
    "slug": "wmpshare_exe",
    "artifact": "bin/wmpshare.exe",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpshare.exe",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpshare_exe/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "7252bd28a203c3a4992df0d5b5f427ef0b9bd440c35a102f9de370770e811a56",
+   "evidence_bytes": 2045,
+   "evidence_id": "ev_7d17b73b2882aa05b4d9673fc4b082841421b59cd88aa1738f7d80ccb7be923c",
+   "provider": "gnu.objdump",
+   "subject_sha256": "ab95a6aa118e853d71b326b68a409f24a6276f47e34ca9e8049f7d49b4825a51"
   },
   {
    "slug": "wmpshare_exe",
    "artifact": "bin/wmpshare.exe",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpshare.exe",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpshare_exe/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "2016d37c647dc02048a0fb9416ae82f0f3cae43926a553bfbc157cf8117b7933",
+   "evidence_bytes": 1987,
+   "evidence_id": "ev_246cab0d70a2696cb55305e4b41d671a56387207b2a608e50457b8a138d8870f",
+   "provider": "gnu.objdump",
+   "subject_sha256": "ab95a6aa118e853d71b326b68a409f24a6276f47e34ca9e8049f7d49b4825a51"
   },
   {
    "slug": "wmpshare_exe",
    "artifact": "bin/wmpshare.exe",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/wmpshare.exe",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpshare_exe/objdump-disassemble_all.json.gz",
-   "storage": "gzip"
+   "storage": "gzip",
+   "evidence_sha256": "e76761727a8fd9ea028b2a5d906471151dd7d9364827d951f15c88a43b18fd0d",
+   "evidence_bytes": 3703221,
+   "evidence_id": "ev_1a6ff213fb91c82f09791f8a53b78d7addb9b0e77299003c180cc2a5381bba30",
+   "provider": "gnu.objdump",
+   "subject_sha256": "ab95a6aa118e853d71b326b68a409f24a6276f47e34ca9e8049f7d49b4825a51"
   },
   {
    "slug": "wmpshare_exe",
    "artifact": "bin/wmpshare.exe",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/wmpshare.exe",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpshare_exe/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "0b755d5fd3062f2ea0275eeacb6b9fd288e3ccaac35d40dda78b09575a653b8e",
+   "evidence_bytes": 17517,
+   "evidence_id": "ev_5e81b5cfdd990af928449f5a2d5292b7fb896993d48fff3db325dce819a6bcf2",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "ab95a6aa118e853d71b326b68a409f24a6276f47e34ca9e8049f7d49b4825a51"
   },
   {
    "slug": "wmpdmc_exe_mui",
    "artifact": "bin/pt-BR/WMPDMC.exe.mui",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPDMC.exe.mui",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmc_exe_mui/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "7c834305a8d647c94dddc4aeab920445cf4fe8b190bc2d8c2b6b259a4ebe5229",
+   "evidence_bytes": 2324,
+   "evidence_id": "ev_bc2a1f109c0ce656f00d18d7861b0390f7911e1fb46fc9e10bde7128b82f1ea0",
+   "provider": "gnu.objdump",
+   "subject_sha256": "a3ac34616e24ec5580fe2eec9775ff265db6ebae5e0a833aeadd05809c9de87a"
   },
   {
    "slug": "wmpdmc_exe_mui",
    "artifact": "bin/pt-BR/WMPDMC.exe.mui",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPDMC.exe.mui",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmc_exe_mui/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "1064db2181335d24a1e1a70f1ac08333a7814cc41efa19054ed3b9fbb8593bed",
+   "evidence_bytes": 2497,
+   "evidence_id": "ev_15f018d8a7086c6ca749a00a1a5ced25dd4d97c8899da349b53add32b3f00b21",
+   "provider": "gnu.objdump",
+   "subject_sha256": "a3ac34616e24ec5580fe2eec9775ff265db6ebae5e0a833aeadd05809c9de87a"
   },
   {
    "slug": "wmpdmc_exe_mui",
    "artifact": "bin/pt-BR/WMPDMC.exe.mui",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPDMC.exe.mui",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmc_exe_mui/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "4e471cf6191001a633e1234f00f3425b5e7b24b7763b68db4087969e456b3c73",
+   "evidence_bytes": 2095,
+   "evidence_id": "ev_6951703a0f060429446b55a12c95f644e09c19fbff7202ae4dbc24a636e2d06a",
+   "provider": "gnu.objdump",
+   "subject_sha256": "a3ac34616e24ec5580fe2eec9775ff265db6ebae5e0a833aeadd05809c9de87a"
   },
   {
    "slug": "wmpdmc_exe_mui",
    "artifact": "bin/pt-BR/WMPDMC.exe.mui",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPDMC.exe.mui",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmc_exe_mui/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "f548c8c0be295b6e57127c12d55c7ccf9a72397900a2fb6a04df4b53dc934e97",
+   "evidence_bytes": 2037,
+   "evidence_id": "ev_688e703fead3917822a84182bd70ff458582b4e92ceb7c2089ca97c6dce52639",
+   "provider": "gnu.objdump",
+   "subject_sha256": "a3ac34616e24ec5580fe2eec9775ff265db6ebae5e0a833aeadd05809c9de87a"
   },
   {
    "slug": "wmpdmc_exe_mui",
    "artifact": "bin/pt-BR/WMPDMC.exe.mui",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPDMC.exe.mui",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmc_exe_mui/objdump-disassemble_all.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "c7f6819ef858999f99054c99ed58d068e8b428c8ae3fd3d63ac7b76a221bb0b1",
+   "evidence_bytes": 765101,
+   "evidence_id": "ev_ba109c93e4473d02f9642773a28157a35d53df2d7499b6783b002af98d457b25",
+   "provider": "gnu.objdump",
+   "subject_sha256": "a3ac34616e24ec5580fe2eec9775ff265db6ebae5e0a833aeadd05809c9de87a"
   },
   {
    "slug": "wmpdmc_exe_mui",
    "artifact": "bin/pt-BR/WMPDMC.exe.mui",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/pt-BR/WMPDMC.exe.mui",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmc_exe_mui/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "e7d2553192f13e8adbb78e183bf5813cdf7b27bc98520bda2dd2dad8c04078e0",
+   "evidence_bytes": 14503,
+   "evidence_id": "ev_c5d6dca004f0bf0a08aea729ee9633fc0b78375f922da46fa4fee55c5c7ad341",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "a3ac34616e24ec5580fe2eec9775ff265db6ebae5e0a833aeadd05809c9de87a"
   },
   {
    "slug": "wmpdmccore_dll_mui",
    "artifact": "bin/pt-BR/WMPDMCCore.dll.mui",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPDMCCore.dll.mui",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmccore_dll_mui/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "59f2e0b50c9d6a75a624432f52b44362196dcad13961d0102824608471d3855a",
+   "evidence_bytes": 2352,
+   "evidence_id": "ev_0c5d8d84148321b55c56903b9ba0d3407ac98448581d9a39554b7d1249e90ce0",
+   "provider": "gnu.objdump",
+   "subject_sha256": "680979d9d171a607492d67d7ed1393f07d906bd6ab35a29aadfe3bce9e2a6611"
   },
   {
    "slug": "wmpdmccore_dll_mui",
    "artifact": "bin/pt-BR/WMPDMCCore.dll.mui",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPDMCCore.dll.mui",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmccore_dll_mui/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "2e023c560a8c88e65f5c20081607d6f6c107e7b5d71e55042103ab59dcfcdd28",
+   "evidence_bytes": 2525,
+   "evidence_id": "ev_7fe9257811cb22067fd23d67c8f90741658f19ac315776b686b9fdc5a55b7e6d",
+   "provider": "gnu.objdump",
+   "subject_sha256": "680979d9d171a607492d67d7ed1393f07d906bd6ab35a29aadfe3bce9e2a6611"
   },
   {
    "slug": "wmpdmccore_dll_mui",
    "artifact": "bin/pt-BR/WMPDMCCore.dll.mui",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPDMCCore.dll.mui",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmccore_dll_mui/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "b7fe80960c27408a1409c4af7a60fa693f95605e3a2bcc96dcd78c161c57ea86",
+   "evidence_bytes": 2123,
+   "evidence_id": "ev_5ab1745b0b1431d42f0a2a78f4acd2118b8f57be06d2a91bbf92d580897cd298",
+   "provider": "gnu.objdump",
+   "subject_sha256": "680979d9d171a607492d67d7ed1393f07d906bd6ab35a29aadfe3bce9e2a6611"
   },
   {
    "slug": "wmpdmccore_dll_mui",
    "artifact": "bin/pt-BR/WMPDMCCore.dll.mui",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPDMCCore.dll.mui",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmccore_dll_mui/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "65d955627671f99baf0c640c4d5646657ab263d91f230608ac8d9413300337c1",
+   "evidence_bytes": 2065,
+   "evidence_id": "ev_80b792ef274e918ebd62cf4794e38b611e2f8629dee92adb4c4f235a84dd5369",
+   "provider": "gnu.objdump",
+   "subject_sha256": "680979d9d171a607492d67d7ed1393f07d906bd6ab35a29aadfe3bce9e2a6611"
   },
   {
    "slug": "wmpdmccore_dll_mui",
    "artifact": "bin/pt-BR/WMPDMCCore.dll.mui",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPDMCCore.dll.mui",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmccore_dll_mui/objdump-disassemble_all.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "1c27c12c196defd5f1746221bb902cccae92b4172678106c72a95134ebfee7d3",
+   "evidence_bytes": 99635,
+   "evidence_id": "ev_f7e25753f7d2f922d554371775898e6dcf63bd75a473cd37039ef7d7999f6e79",
+   "provider": "gnu.objdump",
+   "subject_sha256": "680979d9d171a607492d67d7ed1393f07d906bd6ab35a29aadfe3bce9e2a6611"
   },
   {
    "slug": "wmpdmccore_dll_mui",
    "artifact": "bin/pt-BR/WMPDMCCore.dll.mui",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/pt-BR/WMPDMCCore.dll.mui",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpdmccore_dll_mui/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "684ed1efe58e2aebeaa1b7800aa0ee9fdf1b9116fb59a8ee0361db291653693c",
+   "evidence_bytes": 5102,
+   "evidence_id": "ev_5cecbeb4c2127f470810b69d7380395a04b5e91e890abdd9864a55f18be569ca",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "680979d9d171a607492d67d7ed1393f07d906bd6ab35a29aadfe3bce9e2a6611"
   },
   {
    "slug": "wmpmediasharing_dll_mui",
    "artifact": "bin/pt-BR/WMPMediaSharing.dll.mui",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPMediaSharing.dll.mui",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpmediasharing_dll_mui/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "6bb4f8dd6b5bfad6c95e7347c615ff80c85ce5d291d34e6c10a0efe7c2954eb9",
+   "evidence_bytes": 2387,
+   "evidence_id": "ev_84bc949f15bf4595c84ca892f5233497dd114ac6c006b5358f870f521b517e51",
+   "provider": "gnu.objdump",
+   "subject_sha256": "84218d150099d2bb3bdfd874b366770f681c7f3ab956954aee64e40789d99ae6"
   },
   {
    "slug": "wmpmediasharing_dll_mui",
    "artifact": "bin/pt-BR/WMPMediaSharing.dll.mui",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPMediaSharing.dll.mui",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpmediasharing_dll_mui/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "10f03052fc99a17f2d8bc0ad2665b0a4f7ced72c6c044bca3598eabd6630d3a7",
+   "evidence_bytes": 2560,
+   "evidence_id": "ev_15fdcb8aac838f44d0ba006b12a3ff2562cdffa2584e5ab5b2a6feee42a3f6d2",
+   "provider": "gnu.objdump",
+   "subject_sha256": "84218d150099d2bb3bdfd874b366770f681c7f3ab956954aee64e40789d99ae6"
   },
   {
    "slug": "wmpmediasharing_dll_mui",
    "artifact": "bin/pt-BR/WMPMediaSharing.dll.mui",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPMediaSharing.dll.mui",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpmediasharing_dll_mui/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "41e999f280216ccd61cbd2c34d75d516dd5912a6cc9fafad2297b0ceaa674ad3",
+   "evidence_bytes": 2158,
+   "evidence_id": "ev_2058d9e210579bd3c576c11b6d2a5d2bd25becccc176d55702c03e5be3f2d29c",
+   "provider": "gnu.objdump",
+   "subject_sha256": "84218d150099d2bb3bdfd874b366770f681c7f3ab956954aee64e40789d99ae6"
   },
   {
    "slug": "wmpmediasharing_dll_mui",
    "artifact": "bin/pt-BR/WMPMediaSharing.dll.mui",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPMediaSharing.dll.mui",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpmediasharing_dll_mui/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "5e78e01efa47dfb71a7bb43786d34e97affb4ed01fa2e265ab6484445a6562f4",
+   "evidence_bytes": 2100,
+   "evidence_id": "ev_9a039c68e0d9144224ad5eac6a6e2fa64e41d0410d744b67ff5019ccd9650bb4",
+   "provider": "gnu.objdump",
+   "subject_sha256": "84218d150099d2bb3bdfd874b366770f681c7f3ab956954aee64e40789d99ae6"
   },
   {
    "slug": "wmpmediasharing_dll_mui",
    "artifact": "bin/pt-BR/WMPMediaSharing.dll.mui",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPMediaSharing.dll.mui",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpmediasharing_dll_mui/objdump-disassemble_all.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "86cf6c7b7a3e8fe5626e8af4c30db00cbf2d19bcc8fe491251e3dd8d70f9909d",
+   "evidence_bytes": 105996,
+   "evidence_id": "ev_427d6dabf34c0d8628f7f424085db486f2e74573831387579cbc1e3fbe8299dd",
+   "provider": "gnu.objdump",
+   "subject_sha256": "84218d150099d2bb3bdfd874b366770f681c7f3ab956954aee64e40789d99ae6"
   },
   {
    "slug": "wmpmediasharing_dll_mui",
    "artifact": "bin/pt-BR/WMPMediaSharing.dll.mui",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/pt-BR/WMPMediaSharing.dll.mui",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpmediasharing_dll_mui/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "6a0a25852097caedbadcefaaaaf9c9f8fa301559147476a8367a51a1cba4f10c",
+   "evidence_bytes": 4428,
+   "evidence_id": "ev_7c87737bfd3e8db82b9416b0d2a94cc6cacc85cb30bbbdb546c0d6cf0fd123a7",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "84218d150099d2bb3bdfd874b366770f681c7f3ab956954aee64e40789d99ae6"
   },
   {
    "slug": "wmpsideshowgadget_exe_mui",
    "artifact": "bin/pt-BR/WMPSideShowGadget.exe.mui",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPSideShowGadget.exe.mui",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpsideshowgadget_exe_mui/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "56be98de0f13b272da29a2e9f4756814f222220d5409307cfa7c8e1795fa0159",
+   "evidence_bytes": 2401,
+   "evidence_id": "ev_9ce9e6a7365956be684795c136a48a7ed58bdbfcee8b0bd574008f0ce2334657",
+   "provider": "gnu.objdump",
+   "subject_sha256": "1718e05409e1926f8814a89bed277ed9a77c2d0f8f5f7fead42c65cd3e886321"
   },
   {
    "slug": "wmpsideshowgadget_exe_mui",
    "artifact": "bin/pt-BR/WMPSideShowGadget.exe.mui",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPSideShowGadget.exe.mui",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpsideshowgadget_exe_mui/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "ac45342ab7c94dd840d63b342acb1ccb1dbd61b79662ce01dc290e400d2cbff8",
+   "evidence_bytes": 2574,
+   "evidence_id": "ev_b223268e4c1973373491b9be97f2658213b97fb100323fc3191d19915cd0cf4d",
+   "provider": "gnu.objdump",
+   "subject_sha256": "1718e05409e1926f8814a89bed277ed9a77c2d0f8f5f7fead42c65cd3e886321"
   },
   {
    "slug": "wmpsideshowgadget_exe_mui",
    "artifact": "bin/pt-BR/WMPSideShowGadget.exe.mui",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPSideShowGadget.exe.mui",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpsideshowgadget_exe_mui/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "899e2974991c3cbc8ee29259a5057ede1fbc3df39fd2bff447e620edcea3bd7e",
+   "evidence_bytes": 2172,
+   "evidence_id": "ev_1a7a161353c1c84d759f8ca488ed85cff53ebf9a8c316655302714a409ecbbfd",
+   "provider": "gnu.objdump",
+   "subject_sha256": "1718e05409e1926f8814a89bed277ed9a77c2d0f8f5f7fead42c65cd3e886321"
   },
   {
    "slug": "wmpsideshowgadget_exe_mui",
    "artifact": "bin/pt-BR/WMPSideShowGadget.exe.mui",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPSideShowGadget.exe.mui",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpsideshowgadget_exe_mui/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "79d3a31bf50ad247adb317cf15480759be1d3ee133080aca0aed3b8616d50f3c",
+   "evidence_bytes": 2114,
+   "evidence_id": "ev_a78d181e0ea297e0592a90efa7f028f5c27977db901a8491a05c6b075fd9d30b",
+   "provider": "gnu.objdump",
+   "subject_sha256": "1718e05409e1926f8814a89bed277ed9a77c2d0f8f5f7fead42c65cd3e886321"
   },
   {
    "slug": "wmpsideshowgadget_exe_mui",
    "artifact": "bin/pt-BR/WMPSideShowGadget.exe.mui",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/WMPSideShowGadget.exe.mui",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpsideshowgadget_exe_mui/objdump-disassemble_all.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "0378f9ce10c45748d7c26fb4ec7f021eedebfd173c9625af20fe234770fbe0a2",
+   "evidence_bytes": 136714,
+   "evidence_id": "ev_24d3b9b08a72f162b7031bdf53c2683102e1e1180743b2cfae7e96c6488dca67",
+   "provider": "gnu.objdump",
+   "subject_sha256": "1718e05409e1926f8814a89bed277ed9a77c2d0f8f5f7fead42c65cd3e886321"
   },
   {
    "slug": "wmpsideshowgadget_exe_mui",
    "artifact": "bin/pt-BR/WMPSideShowGadget.exe.mui",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/pt-BR/WMPSideShowGadget.exe.mui",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpsideshowgadget_exe_mui/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "d38836d5a6f7ba4bd85b35e1ba8c32f0857789df0e12ab3dbacfcaeeeeb24729",
+   "evidence_bytes": 6667,
+   "evidence_id": "ev_dfba285ead6db66a8ae73cb77111c85430a5028faa0fb9b8a7691c4134dd0a5a",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "1718e05409e1926f8814a89bed277ed9a77c2d0f8f5f7fead42c65cd3e886321"
   },
   {
    "slug": "mpvis_dll_mui",
    "artifact": "bin/pt-BR/mpvis.dll.mui",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/mpvis.dll.mui",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/mpvis_dll_mui/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "cd83796c041538c625c63a49d5d66db350cc499e7cc31544f453a7a9c3d76b63",
+   "evidence_bytes": 2317,
+   "evidence_id": "ev_1591fcd299c3798f96235c727496a8bfab55f37e44a4dd458d06b125cd65aab2",
+   "provider": "gnu.objdump",
+   "subject_sha256": "781a2dd1ca11e2654bec3d601a3b286dc289f13c8408f41126420ee6181de7c5"
   },
   {
    "slug": "mpvis_dll_mui",
    "artifact": "bin/pt-BR/mpvis.dll.mui",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/mpvis.dll.mui",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/mpvis_dll_mui/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "86574e2e756d06879353c798189bb84ccf3bc52b89a20d8886095461ad4f08a0",
+   "evidence_bytes": 2490,
+   "evidence_id": "ev_4dcb3860f67981b5fd2cc670eedb498ee2f07b5d81b46961b7fac9555b97df40",
+   "provider": "gnu.objdump",
+   "subject_sha256": "781a2dd1ca11e2654bec3d601a3b286dc289f13c8408f41126420ee6181de7c5"
   },
   {
    "slug": "mpvis_dll_mui",
    "artifact": "bin/pt-BR/mpvis.dll.mui",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/mpvis.dll.mui",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/mpvis_dll_mui/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "c45d08d5f89e9e6d2a32e9f3288e38f7c89002cef26bc9a9d915f0f1279abdde",
+   "evidence_bytes": 2088,
+   "evidence_id": "ev_f394bd53b2049c440a490b72f4f6e6832c36af0860c679732c2331ecbfad0d71",
+   "provider": "gnu.objdump",
+   "subject_sha256": "781a2dd1ca11e2654bec3d601a3b286dc289f13c8408f41126420ee6181de7c5"
   },
   {
    "slug": "mpvis_dll_mui",
    "artifact": "bin/pt-BR/mpvis.dll.mui",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/mpvis.dll.mui",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/mpvis_dll_mui/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "b5b3dc541a8550a1e92beb4edb739fcc97576df356e71a98a8867155d2107564",
+   "evidence_bytes": 2030,
+   "evidence_id": "ev_92f8fd3ce467db00df3a07330fc217e841916b2b5cd56b5fee6f5885139a7074",
+   "provider": "gnu.objdump",
+   "subject_sha256": "781a2dd1ca11e2654bec3d601a3b286dc289f13c8408f41126420ee6181de7c5"
   },
   {
    "slug": "mpvis_dll_mui",
    "artifact": "bin/pt-BR/mpvis.dll.mui",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/mpvis.dll.mui",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/mpvis_dll_mui/objdump-disassemble_all.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "4bc5a04d775dc2ecb2954139609c725c18ec658a870fe11c1e2baa09485a445e",
+   "evidence_bytes": 99858,
+   "evidence_id": "ev_015cbbff0a76232b9b17e5b7ed89b5deb3d407078b17419b17731947a1ca99e3",
+   "provider": "gnu.objdump",
+   "subject_sha256": "781a2dd1ca11e2654bec3d601a3b286dc289f13c8408f41126420ee6181de7c5"
   },
   {
    "slug": "mpvis_dll_mui",
    "artifact": "bin/pt-BR/mpvis.dll.mui",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/pt-BR/mpvis.dll.mui",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/mpvis_dll_mui/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "0526758e35a3959c2473c7c64b6b2933e7b6378f1e2d4389d88777905b61beac",
+   "evidence_bytes": 4932,
+   "evidence_id": "ev_e963d431d16d80d0dfc95d74016d9cd30ec09200c67e7b1043e97096d87180aa",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "781a2dd1ca11e2654bec3d601a3b286dc289f13c8408f41126420ee6181de7c5"
   },
   {
    "slug": "setup_wm_exe_mui",
    "artifact": "bin/pt-BR/setup_wm.exe.mui",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/setup_wm.exe.mui",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/setup_wm_exe_mui/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "777b6c55a4d048194f3fffb2a3e7079f04ed553afc0ee7bce39116c7444b4398",
+   "evidence_bytes": 2338,
+   "evidence_id": "ev_ec649e87d15aefa8922c03035311cd1d6923527d27d52162b6dae478c260cb1d",
+   "provider": "gnu.objdump",
+   "subject_sha256": "f3837229bf6be289b39b2c5e8462654552c5b9f1bfb0d8e2f8f7bbe5a3165d56"
   },
   {
    "slug": "setup_wm_exe_mui",
    "artifact": "bin/pt-BR/setup_wm.exe.mui",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/setup_wm.exe.mui",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/setup_wm_exe_mui/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "8942fc235bdec800c5b0342d3b45f077f8ee0be38432806c55171b5c7bd6ffed",
+   "evidence_bytes": 2511,
+   "evidence_id": "ev_4a20e0a2c8b65c9946197e48eb3ea0fced3d13f0f2face1227f987f6e56a4a18",
+   "provider": "gnu.objdump",
+   "subject_sha256": "f3837229bf6be289b39b2c5e8462654552c5b9f1bfb0d8e2f8f7bbe5a3165d56"
   },
   {
    "slug": "setup_wm_exe_mui",
    "artifact": "bin/pt-BR/setup_wm.exe.mui",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/setup_wm.exe.mui",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/setup_wm_exe_mui/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "75e63370fcdfc1c6073fca15fd2a50829da99553bf22735c1ae9819b5ff22d55",
+   "evidence_bytes": 2109,
+   "evidence_id": "ev_a231e57e8a02e19bfdbf5354a0b63a75bb1071b2cf475c5de765e0e30a69bcc3",
+   "provider": "gnu.objdump",
+   "subject_sha256": "f3837229bf6be289b39b2c5e8462654552c5b9f1bfb0d8e2f8f7bbe5a3165d56"
   },
   {
    "slug": "setup_wm_exe_mui",
    "artifact": "bin/pt-BR/setup_wm.exe.mui",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/setup_wm.exe.mui",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/setup_wm_exe_mui/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "b666e18a293fabc351580c809759e9c52a06ba90af1c2ea8c1bfda5dad2f0098",
+   "evidence_bytes": 2051,
+   "evidence_id": "ev_d907b5b3a8fd764075210a940c4311423775245801a6398d319d5c3d535f07ce",
+   "provider": "gnu.objdump",
+   "subject_sha256": "f3837229bf6be289b39b2c5e8462654552c5b9f1bfb0d8e2f8f7bbe5a3165d56"
   },
   {
    "slug": "setup_wm_exe_mui",
    "artifact": "bin/pt-BR/setup_wm.exe.mui",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/setup_wm.exe.mui",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/setup_wm_exe_mui/objdump-disassemble_all.json.gz",
-   "storage": "gzip"
+   "storage": "gzip",
+   "evidence_sha256": "c094d70ad4f9c004b00f32e685aa4920fc78ca85e831f26e21c8885cc9e2572e",
+   "evidence_bytes": 2747481,
+   "evidence_id": "ev_93ed3aa930ddd8a6592fe79e3ec2feeb210ae79924dd4562891c2c5d640d8ca1",
+   "provider": "gnu.objdump",
+   "subject_sha256": "f3837229bf6be289b39b2c5e8462654552c5b9f1bfb0d8e2f8f7bbe5a3165d56"
   },
   {
    "slug": "setup_wm_exe_mui",
    "artifact": "bin/pt-BR/setup_wm.exe.mui",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/pt-BR/setup_wm.exe.mui",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/setup_wm_exe_mui/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "51ca7a59b7b018f5a27a0131700da88d2678a01446625eb42a4dcae692169fa4",
+   "evidence_bytes": 36239,
+   "evidence_id": "ev_4af5820f5d42788c4b8e07bd85d6cc3a7ee98799d4400bc5f04e481808f75b36",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "f3837229bf6be289b39b2c5e8462654552c5b9f1bfb0d8e2f8f7bbe5a3165d56"
   },
   {
    "slug": "wmlaunch_exe_mui",
    "artifact": "bin/pt-BR/wmlaunch.exe.mui",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmlaunch.exe.mui",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmlaunch_exe_mui/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "0b88ce05b3f2e25e4ffe6309305269b58c41bb78f167f55def6b2f9ccb161781",
+   "evidence_bytes": 2338,
+   "evidence_id": "ev_48de02cefbbc01de5276c95462f032724368372a2fb99956df6e2e2fae6989d7",
+   "provider": "gnu.objdump",
+   "subject_sha256": "bdc4a23d97dafb70a4d6fe38e834cfcf0b241456982cb87cf076e7c217553bd1"
   },
   {
    "slug": "wmlaunch_exe_mui",
    "artifact": "bin/pt-BR/wmlaunch.exe.mui",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmlaunch.exe.mui",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmlaunch_exe_mui/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "e6967e3a4d5d916d5a41991200164840cb4a0d6b6332faff19eb6ec59cd8ed4f",
+   "evidence_bytes": 2511,
+   "evidence_id": "ev_c02ee3499f0facd894abf053283db8f2d8fab8dec7751ff771eefbf443ba1160",
+   "provider": "gnu.objdump",
+   "subject_sha256": "bdc4a23d97dafb70a4d6fe38e834cfcf0b241456982cb87cf076e7c217553bd1"
   },
   {
    "slug": "wmlaunch_exe_mui",
    "artifact": "bin/pt-BR/wmlaunch.exe.mui",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmlaunch.exe.mui",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmlaunch_exe_mui/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "263dce173c13b542c8a491c284c23896a6be89a26255e7a0b2f8538176d4e748",
+   "evidence_bytes": 2109,
+   "evidence_id": "ev_6420c70fc2612ae4f3a1e4e4dd2b7cffef6d021f73cc62deb6a236db106bda63",
+   "provider": "gnu.objdump",
+   "subject_sha256": "bdc4a23d97dafb70a4d6fe38e834cfcf0b241456982cb87cf076e7c217553bd1"
   },
   {
    "slug": "wmlaunch_exe_mui",
    "artifact": "bin/pt-BR/wmlaunch.exe.mui",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmlaunch.exe.mui",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmlaunch_exe_mui/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "3db4b52259b88749a6fae235a4f1dace8abb94006213f76f480abbd4ff42e662",
+   "evidence_bytes": 2051,
+   "evidence_id": "ev_213ef8789b86ca4628d4eee5561a624a7282c97d0e370bd1fb914e357d96501a",
+   "provider": "gnu.objdump",
+   "subject_sha256": "bdc4a23d97dafb70a4d6fe38e834cfcf0b241456982cb87cf076e7c217553bd1"
   },
   {
    "slug": "wmlaunch_exe_mui",
    "artifact": "bin/pt-BR/wmlaunch.exe.mui",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmlaunch.exe.mui",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmlaunch_exe_mui/objdump-disassemble_all.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "f14660a2377978b6cfd18b4fd46fb7293285bf18ffdcec83307bdd8872386369",
+   "evidence_bytes": 77893,
+   "evidence_id": "ev_de3ba3f86d06af5997833d3343a040dca78e781059863a70dc7143d8787a237e",
+   "provider": "gnu.objdump",
+   "subject_sha256": "bdc4a23d97dafb70a4d6fe38e834cfcf0b241456982cb87cf076e7c217553bd1"
   },
   {
    "slug": "wmlaunch_exe_mui",
    "artifact": "bin/pt-BR/wmlaunch.exe.mui",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/pt-BR/wmlaunch.exe.mui",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmlaunch_exe_mui/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "bdabf3c602c3ce7f303e0dc4be7adb4928befca0707772ef5cf59b6fc0ef3b1c",
+   "evidence_bytes": 3693,
+   "evidence_id": "ev_c58f89e158e429bbf5e89b0fe51c0004704ab42dac5d4e434174140fa793ceab",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "bdc4a23d97dafb70a4d6fe38e834cfcf0b241456982cb87cf076e7c217553bd1"
   },
   {
    "slug": "wmplayer_exe_mui",
    "artifact": "bin/pt-BR/wmplayer.exe.mui",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmplayer.exe.mui",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmplayer_exe_mui/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "bd596e1fc72e5120f5f264ab3c076f07cf51f5c5f0e45c021967f790c96077ba",
+   "evidence_bytes": 2338,
+   "evidence_id": "ev_6c08d35bb39bcce124226648e896b62d8e3cf14141ab56e5e2806cb82510fd75",
+   "provider": "gnu.objdump",
+   "subject_sha256": "27ad95b6130d6f394bf74fe9c550cb65b166f7b05301ab5effd0f5b4ae62a714"
   },
   {
    "slug": "wmplayer_exe_mui",
    "artifact": "bin/pt-BR/wmplayer.exe.mui",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmplayer.exe.mui",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmplayer_exe_mui/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "d42da13282a87b77d8a0f2d5f9c77416c65d6b86615d22623899719d259d7fb5",
+   "evidence_bytes": 2511,
+   "evidence_id": "ev_334f583cca6f41ef85d43cd2123c40b3277651a8138fda32027dfcc4e450d365",
+   "provider": "gnu.objdump",
+   "subject_sha256": "27ad95b6130d6f394bf74fe9c550cb65b166f7b05301ab5effd0f5b4ae62a714"
   },
   {
    "slug": "wmplayer_exe_mui",
    "artifact": "bin/pt-BR/wmplayer.exe.mui",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmplayer.exe.mui",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmplayer_exe_mui/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "f17a124afd0e9a9c13d4d859260978afa7a496b547da644d8d3929e711d61214",
+   "evidence_bytes": 2109,
+   "evidence_id": "ev_c373acdb67a225d0b25bf3784ada2373b310e074e90d46e2e7475e7194cbaa75",
+   "provider": "gnu.objdump",
+   "subject_sha256": "27ad95b6130d6f394bf74fe9c550cb65b166f7b05301ab5effd0f5b4ae62a714"
   },
   {
    "slug": "wmplayer_exe_mui",
    "artifact": "bin/pt-BR/wmplayer.exe.mui",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmplayer.exe.mui",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmplayer_exe_mui/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "943f33d7034e6277f784d98b48632c5a16978278d28e2d994e21869b718e27ce",
+   "evidence_bytes": 2051,
+   "evidence_id": "ev_c9d20eacdb9f3f2c9fed2ef29a6b2532000fc560fa0438e6275459f9325faf04",
+   "provider": "gnu.objdump",
+   "subject_sha256": "27ad95b6130d6f394bf74fe9c550cb65b166f7b05301ab5effd0f5b4ae62a714"
   },
   {
    "slug": "wmplayer_exe_mui",
    "artifact": "bin/pt-BR/wmplayer.exe.mui",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmplayer.exe.mui",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmplayer_exe_mui/objdump-disassemble_all.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "3e38185c9edf06f023bea0350ae9a0a5d743fe10e7224a2e37efdd74afbce2e5",
+   "evidence_bytes": 119909,
+   "evidence_id": "ev_f6d632be5c45f8e8b79322b6a2e655f6a9f59810819560258d5cb9b86460ae71",
+   "provider": "gnu.objdump",
+   "subject_sha256": "27ad95b6130d6f394bf74fe9c550cb65b166f7b05301ab5effd0f5b4ae62a714"
   },
   {
    "slug": "wmplayer_exe_mui",
    "artifact": "bin/pt-BR/wmplayer.exe.mui",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/pt-BR/wmplayer.exe.mui",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmplayer_exe_mui/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "ab27f94ce2263ae570444d101fdf4248c1759d9b383f3422cdd55c2ac3bf1fd7",
+   "evidence_bytes": 4393,
+   "evidence_id": "ev_abd55b614998b0ce2e3dd23eeb0576861c189c9914004e480a2f46fcb09627db",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "27ad95b6130d6f394bf74fe9c550cb65b166f7b05301ab5effd0f5b4ae62a714"
   },
   {
    "slug": "wmpnetwk_exe_mui",
    "artifact": "bin/pt-BR/wmpnetwk.exe.mui",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnetwk.exe.mui",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnetwk_exe_mui/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "4b5ba56650226d2660614c93bcde88f973e075605b0e73dc7996406f8478d24c",
+   "evidence_bytes": 2338,
+   "evidence_id": "ev_19a6a5f6f2f35e615edf6c2e6b4c3231b1330561db9d40ce4a206bab0edd3126",
+   "provider": "gnu.objdump",
+   "subject_sha256": "d8728825ec8dc4a3c42c1621da4b632167582512da73b391ca21f8b5026a7fd9"
   },
   {
    "slug": "wmpnetwk_exe_mui",
    "artifact": "bin/pt-BR/wmpnetwk.exe.mui",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnetwk.exe.mui",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnetwk_exe_mui/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "1574e8a1383b2a7a079b0ad1f1c9c0105777e18b262a43abf265a5f3d034ae15",
+   "evidence_bytes": 2511,
+   "evidence_id": "ev_e7396e1d2b0813ed843571f5bb0abb6fd9e2517a126ceb372bdc6dd7f217810b",
+   "provider": "gnu.objdump",
+   "subject_sha256": "d8728825ec8dc4a3c42c1621da4b632167582512da73b391ca21f8b5026a7fd9"
   },
   {
    "slug": "wmpnetwk_exe_mui",
    "artifact": "bin/pt-BR/wmpnetwk.exe.mui",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnetwk.exe.mui",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnetwk_exe_mui/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "ab4b0d9ab45ca510b0d08a961066fd142d9c1fe4327328cf19bf12932e8585e8",
+   "evidence_bytes": 2109,
+   "evidence_id": "ev_30f504996fa693550d96b6f5d285bf021fc43a79559cf15a6691d163889254eb",
+   "provider": "gnu.objdump",
+   "subject_sha256": "d8728825ec8dc4a3c42c1621da4b632167582512da73b391ca21f8b5026a7fd9"
   },
   {
    "slug": "wmpnetwk_exe_mui",
    "artifact": "bin/pt-BR/wmpnetwk.exe.mui",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnetwk.exe.mui",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnetwk_exe_mui/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "98efa4ebe857c93102afcd7619707bcd4e875e11660b156959d081f95277c932",
+   "evidence_bytes": 2051,
+   "evidence_id": "ev_06740e10dd5a679ede9cf4d6dbf05badb19670fbcf5adfdd4655ee6e8f74b37f",
+   "provider": "gnu.objdump",
+   "subject_sha256": "d8728825ec8dc4a3c42c1621da4b632167582512da73b391ca21f8b5026a7fd9"
   },
   {
    "slug": "wmpnetwk_exe_mui",
    "artifact": "bin/pt-BR/wmpnetwk.exe.mui",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnetwk.exe.mui",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnetwk_exe_mui/objdump-disassemble_all.json.gz",
-   "storage": "gzip"
+   "storage": "gzip",
+   "evidence_sha256": "90e253e67c436831e01cb6ee2e5583f591c204429e9afcd0a94763559edddbe3",
+   "evidence_bytes": 1758519,
+   "evidence_id": "ev_6ef076e331c1c28158e55598114b49ab3628fbe54f02826f84fd4782cb686b68",
+   "provider": "gnu.objdump",
+   "subject_sha256": "d8728825ec8dc4a3c42c1621da4b632167582512da73b391ca21f8b5026a7fd9"
   },
   {
    "slug": "wmpnetwk_exe_mui",
    "artifact": "bin/pt-BR/wmpnetwk.exe.mui",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/pt-BR/wmpnetwk.exe.mui",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnetwk_exe_mui/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "7c67589351754fbc4c30a4e362cfd07c4368be793ff03b0f188c69c07a064da0",
+   "evidence_bytes": 10697,
+   "evidence_id": "ev_a1798beb0d9d8e4bd3a0914a9eb2cfbcf426e8dbfdba431e436a3c4cc47c84ea",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "d8728825ec8dc4a3c42c1621da4b632167582512da73b391ca21f8b5026a7fd9"
   },
   {
    "slug": "wmpnscfg_exe_mui",
    "artifact": "bin/pt-BR/wmpnscfg.exe.mui",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnscfg.exe.mui",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnscfg_exe_mui/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "35f53b3f45bab94408d62dbd10377f143610c3c4c8ba0a2c9671c8da7f896216",
+   "evidence_bytes": 2338,
+   "evidence_id": "ev_9008c199eddaaed2cebf53b6f2f5d115b8e974bff31c18e42ab4798171b70383",
+   "provider": "gnu.objdump",
+   "subject_sha256": "45bf774e8ba7f906c6556ab1e08fd7b69a5a4da6fc75f4ccc62ab167333ba11d"
   },
   {
    "slug": "wmpnscfg_exe_mui",
    "artifact": "bin/pt-BR/wmpnscfg.exe.mui",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnscfg.exe.mui",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnscfg_exe_mui/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "781cd347ad798ceebb5075465aab2c976b30ccafad0c1be1fa47c3187994134a",
+   "evidence_bytes": 2511,
+   "evidence_id": "ev_ae849d3eb69f866a41c5074dc6907e36f14821368c47db4e34178c6aae9a8961",
+   "provider": "gnu.objdump",
+   "subject_sha256": "45bf774e8ba7f906c6556ab1e08fd7b69a5a4da6fc75f4ccc62ab167333ba11d"
   },
   {
    "slug": "wmpnscfg_exe_mui",
    "artifact": "bin/pt-BR/wmpnscfg.exe.mui",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnscfg.exe.mui",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnscfg_exe_mui/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "ce57772789b3916270f119813b132c6628f249f9ccbbc726049fc6217df71784",
+   "evidence_bytes": 2109,
+   "evidence_id": "ev_1ac7e0c98122d3ebf7863f189bc1350fa195305e6b9eba1a7e7afbaf560a9087",
+   "provider": "gnu.objdump",
+   "subject_sha256": "45bf774e8ba7f906c6556ab1e08fd7b69a5a4da6fc75f4ccc62ab167333ba11d"
   },
   {
    "slug": "wmpnscfg_exe_mui",
    "artifact": "bin/pt-BR/wmpnscfg.exe.mui",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnscfg.exe.mui",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnscfg_exe_mui/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "8de0c44ef8029907a4c8428867eb8dd54df32ec0c352085a1d9c0e4662bab909",
+   "evidence_bytes": 2051,
+   "evidence_id": "ev_c09f24b2b055e60633b9541281195810b3831fca0425beefbf834275aaebd967",
+   "provider": "gnu.objdump",
+   "subject_sha256": "45bf774e8ba7f906c6556ab1e08fd7b69a5a4da6fc75f4ccc62ab167333ba11d"
   },
   {
    "slug": "wmpnscfg_exe_mui",
    "artifact": "bin/pt-BR/wmpnscfg.exe.mui",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnscfg.exe.mui",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnscfg_exe_mui/objdump-disassemble_all.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "7f4dce2a5f8e5fd00ebbb4c4f3fe1017e3f16d366275c65360f7125fb7c4daa2",
+   "evidence_bytes": 133917,
+   "evidence_id": "ev_c1c951120107927ff6eee1164655d227427a9224a3cd8676b1a2b59353cd4489",
+   "provider": "gnu.objdump",
+   "subject_sha256": "45bf774e8ba7f906c6556ab1e08fd7b69a5a4da6fc75f4ccc62ab167333ba11d"
   },
   {
    "slug": "wmpnscfg_exe_mui",
    "artifact": "bin/pt-BR/wmpnscfg.exe.mui",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/pt-BR/wmpnscfg.exe.mui",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnscfg_exe_mui/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "98ebbfe4ce8da930faf926b58299e1ef61ee834cc1972fd5cebbc25e61a6c872",
+   "evidence_bytes": 4950,
+   "evidence_id": "ev_c305f651e55d905b50881feb5652de29d54a715d06bcf256be92bf01f32342a8",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "45bf774e8ba7f906c6556ab1e08fd7b69a5a4da6fc75f4ccc62ab167333ba11d"
   },
   {
    "slug": "wmpnssci_dll_mui",
    "artifact": "bin/pt-BR/wmpnssci.dll.mui",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnssci.dll.mui",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssci_dll_mui/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "efa0dbe3ea0ed41fbf8b62526ba23c76e920c3a08aa201b9ca7e81fba8c1ae36",
+   "evidence_bytes": 2338,
+   "evidence_id": "ev_ceb2e263686d739416e250a7137fa304491b7e5284dd77f96519d7f8c78acf44",
+   "provider": "gnu.objdump",
+   "subject_sha256": "2b59918607d8e28691e6d1f9ebf2e8d80b14ecd55925f7b87f069aa75c43fe54"
   },
   {
    "slug": "wmpnssci_dll_mui",
    "artifact": "bin/pt-BR/wmpnssci.dll.mui",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnssci.dll.mui",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssci_dll_mui/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "75039ad22165b06a9fefad38e9afefb8eda8b2aa4fb7619d08cdae74e9a353cf",
+   "evidence_bytes": 2511,
+   "evidence_id": "ev_4f1f87663a045c1d8f9bd88e768e562e8b8cfb11b6a530ff5362fd677da333e7",
+   "provider": "gnu.objdump",
+   "subject_sha256": "2b59918607d8e28691e6d1f9ebf2e8d80b14ecd55925f7b87f069aa75c43fe54"
   },
   {
    "slug": "wmpnssci_dll_mui",
    "artifact": "bin/pt-BR/wmpnssci.dll.mui",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnssci.dll.mui",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssci_dll_mui/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "5548681d47be20d8e611f6595af47606b0bd2f6ed85dbd10e36763e0210ec40b",
+   "evidence_bytes": 2109,
+   "evidence_id": "ev_200346f8f791aa980516b5746e4c587d47dd625e9ac30644da40bac8e4326088",
+   "provider": "gnu.objdump",
+   "subject_sha256": "2b59918607d8e28691e6d1f9ebf2e8d80b14ecd55925f7b87f069aa75c43fe54"
   },
   {
    "slug": "wmpnssci_dll_mui",
    "artifact": "bin/pt-BR/wmpnssci.dll.mui",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnssci.dll.mui",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssci_dll_mui/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "b851d380006cdaf260dc7bf8952112d900d59769a61a1b214e32a14e37b93b2a",
+   "evidence_bytes": 2051,
+   "evidence_id": "ev_b038012cf203190e48609f9a1b20a8e100e7b8c366b7956d05c9c88d6b3a81f1",
+   "provider": "gnu.objdump",
+   "subject_sha256": "2b59918607d8e28691e6d1f9ebf2e8d80b14ecd55925f7b87f069aa75c43fe54"
   },
   {
    "slug": "wmpnssci_dll_mui",
    "artifact": "bin/pt-BR/wmpnssci.dll.mui",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnssci.dll.mui",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssci_dll_mui/objdump-disassemble_all.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "50de16633709c7d9312b701b4e1a4b198a36e52c00f42ff84853d07af0c9ecc4",
+   "evidence_bytes": 152965,
+   "evidence_id": "ev_58100722fcaba94f451d8dd9ea9d982e58f56f5e23050b0e7e095def73284696",
+   "provider": "gnu.objdump",
+   "subject_sha256": "2b59918607d8e28691e6d1f9ebf2e8d80b14ecd55925f7b87f069aa75c43fe54"
   },
   {
    "slug": "wmpnssci_dll_mui",
    "artifact": "bin/pt-BR/wmpnssci.dll.mui",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/pt-BR/wmpnssci.dll.mui",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssci_dll_mui/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "3ea8308cedd1234a82173d4fa50c6f51705f0354c9082834aceba3f9e6a1be46",
+   "evidence_bytes": 6210,
+   "evidence_id": "ev_69ab00b57b05b7a65702e8cfe36b364989b9e3739266451ebe8cf6619decd1f3",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "2b59918607d8e28691e6d1f9ebf2e8d80b14ecd55925f7b87f069aa75c43fe54"
   },
   {
    "slug": "wmpnssui_dll_mui",
    "artifact": "bin/pt-BR/wmpnssui.dll.mui",
    "operation": "objdump-file_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnssui.dll.mui",
+    "file_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssui_dll_mui/objdump-file_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "eb69cd3965f7fd66ce20ac0ca20a2abf17e4b06973597b50d0566a4473a1df6c",
+   "evidence_bytes": 2338,
+   "evidence_id": "ev_7309d0a427ab11a2fed1b7f8e2cc4cbe22680b4fae83e36414661abb215fad1d",
+   "provider": "gnu.objdump",
+   "subject_sha256": "15d5f17f3d3f7a5de60e2c2e73bd39da274236c14da785ce20a5fefbf7240dfb"
   },
   {
    "slug": "wmpnssui_dll_mui",
    "artifact": "bin/pt-BR/wmpnssui.dll.mui",
    "operation": "objdump-section_headers",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnssui.dll.mui",
+    "section_headers",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssui_dll_mui/objdump-section_headers.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "106f03894c7020a4440d0c98912110043c405724f6b662b15ac4c43bd9c18b79",
+   "evidence_bytes": 2511,
+   "evidence_id": "ev_8e43f04e322d34339be84096e5a1c38e297ef02c9a0a296e0c83e65eb7910aca",
+   "provider": "gnu.objdump",
+   "subject_sha256": "15d5f17f3d3f7a5de60e2c2e73bd39da274236c14da785ce20a5fefbf7240dfb"
   },
   {
    "slug": "wmpnssui_dll_mui",
    "artifact": "bin/pt-BR/wmpnssui.dll.mui",
    "operation": "objdump-symbols",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnssui.dll.mui",
+    "symbols",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssui_dll_mui/objdump-symbols.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "ab7d05d33a97892e7e404fd24dbeedaead2322064ca2e247d41fc5a0e17ebfc5",
+   "evidence_bytes": 2109,
+   "evidence_id": "ev_828a9f3fbc0d2b0afe92071d8d18c48bdf5868311481a4250ae2be2324ebe778",
+   "provider": "gnu.objdump",
+   "subject_sha256": "15d5f17f3d3f7a5de60e2c2e73bd39da274236c14da785ce20a5fefbf7240dfb"
   },
   {
    "slug": "wmpnssui_dll_mui",
    "artifact": "bin/pt-BR/wmpnssui.dll.mui",
    "operation": "objdump-relocations",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnssui.dll.mui",
+    "relocations",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssui_dll_mui/objdump-relocations.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "1ff32b55646e004756f9ae1e1ad5a8ba110d9fd35e13e15bbb201a324e51cbcd",
+   "evidence_bytes": 2051,
+   "evidence_id": "ev_4a007a3583387c0f6a8364ca332207b84ddefa27ccd5d9fdd929935227b766e3",
+   "provider": "gnu.objdump",
+   "subject_sha256": "15d5f17f3d3f7a5de60e2c2e73bd39da274236c14da785ce20a5fefbf7240dfb"
   },
   {
    "slug": "wmpnssui_dll_mui",
    "artifact": "bin/pt-BR/wmpnssui.dll.mui",
    "operation": "objdump-disassemble_all",
+   "argv": [
+    "rea",
+    "inspect-with-objdump",
+    "bin/pt-BR/wmpnssui.dll.mui",
+    "disassemble_all",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssui_dll_mui/objdump-disassemble_all.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "b04c9ce9d76fbe9b8cbf5b81f8204216c8529cfb4c514e43256cb9f632d2b3eb",
+   "evidence_bytes": 94413,
+   "evidence_id": "ev_280c2a268e5abbf7fe5d155fc8eeb3f2b1452835e43fd38c3d4e1965b200a86d",
+   "provider": "gnu.objdump",
+   "subject_sha256": "15d5f17f3d3f7a5de60e2c2e73bd39da274236c14da785ce20a5fefbf7240dfb"
   },
   {
    "slug": "wmpnssui_dll_mui",
    "artifact": "bin/pt-BR/wmpnssui.dll.mui",
    "operation": "pe-resources",
+   "argv": [
+    "rea",
+    "inspect-pe-resources",
+    "bin/pt-BR/wmpnssui.dll.mui",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/wmpnssui_dll_mui/pe-resources.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "d09cf7ce9cfa8892306aa8fe87047b9d4f20d428a5004b52bfb51b7aa6ccb6f9",
+   "evidence_bytes": 5094,
+   "evidence_id": "ev_5443479d816070f36666066c29c4e48f6d2082e8f5a6fa430bc3a28d1b09264c",
+   "provider": "rea-pe-resources",
+   "subject_sha256": "15d5f17f3d3f7a5de60e2c2e73bd39da274236c14da785ce20a5fefbf7240dfb"
   },
   {
    "slug": "revert_wmz",
    "artifact": "bin/Skins/Revert.wmz",
    "operation": "inspect-artifact",
+   "argv": [
+    "rea",
+    "inspect-artifact",
+    "bin/Skins/Revert.wmz",
+    "--json"
+   ],
+   "exit_code": 0,
    "status": "cached",
    "evidence_json": "analysis/report/rea-evidence/revert_wmz/inspect-artifact.json",
-   "storage": "json"
+   "storage": "json",
+   "evidence_sha256": "39fef71fb2e714ae2358c0ca5d5f367a29793e1b2c03cb830d00409c557b19cf",
+   "evidence_bytes": 55505,
+   "evidence_id": "ev_c9927d35670406d3317fc7b8c4db7a317072d1abaadb996849ef6e8d1c62f02c",
+   "provider": "rea-artifact-graph",
+   "subject_sha256": "f305ecc2626811dbc3b5753a57f6fa1b0d7ed8c221bd2c21712e97b4215b5fc2"
   }
  ]
 }

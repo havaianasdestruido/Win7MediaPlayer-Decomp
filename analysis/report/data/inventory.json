@@ -1,6 +1,6 @@
 {
  "generated_by": "analysis/tools/inventory.py",
- "generated_at": "2026-10-14 22:01:18Z",
+ "generated_at": "2026-10-15 20:22:21Z",
  "bin_dir": "bin",
  "file_count": 53,
  "pe_count": 28,
@@ -3653,7 +3653,9 @@
       "size": 35,
       "pdb": "WMPDMC.pdb",
       "pdb_guid": 3615882703,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "d785fdcf-f6fd-4cc9-ada8-64a7fdc26272",
+      "pdb_sym_id": "D785FDCFF6FD4CC9ADA864A7FDC262721"
      }
     ],
     "has_clr": false,
@@ -5018,7 +5020,9 @@
       "size": 39,
       "pdb": "WMPDMCCore.pdb",
       "pdb_guid": 3872101545,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "e6cb94a9-5b3a-4e3c-b321-46653cccc026",
+      "pdb_sym_id": "E6CB94A95B3A4E3CB32146653CCCC0261"
      }
     ],
     "has_clr": false,
@@ -6155,7 +6159,9 @@
       "size": 44,
       "pdb": "WMPMediaSharing.pdb",
       "pdb_guid": 1730366055,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "67234a67-aa45-468b-9dc8-35eb633d038e",
+      "pdb_sym_id": "67234A67AA45468B9DC835EB633D038E1"
      }
     ],
     "has_clr": false,
@@ -7107,7 +7113,9 @@
       "size": 37,
       "pdb": "wmpnssui.pdb",
       "pdb_guid": 4262446330,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "fe0fc4fa-6666-4943-8285-6a3835417ff5",
+      "pdb_sym_id": "FE0FC4FA6666494382856A3835417FF51"
      }
     ],
     "has_clr": false,
@@ -8621,7 +8629,9 @@
       "size": 46,
       "pdb": "WMPSideShowGadget.pdb",
       "pdb_guid": 1342146365,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "4fff873d-14ef-4e3d-b15d-c9f6a38b8f04",
+      "pdb_sym_id": "4FFF873D14EF4E3DB15DC9F6A38B8F041"
      }
     ],
     "has_clr": false,
@@ -10040,7 +10050,9 @@
       "size": 34,
       "pdb": "mpvis.pdb",
       "pdb_guid": 84809930,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "050e18ca-951f-4020-a117-f9aeababfcd2",
+      "pdb_sym_id": "050E18CA951F4020A117F9AEABABFCD21"
      }
     ],
     "has_clr": false,
@@ -12541,7 +12553,9 @@
       "size": 37,
       "pdb": "setup_wm.pdb",
       "pdb_guid": 2976588547,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "b16b2303-6dc3-4a20-a4e7-a2d35ef66a99",
+      "pdb_sym_id": "B16B23036DC34A20A4E7A2D35EF66A991"
      }
     ],
     "has_clr": false,
@@ -13670,7 +13684,9 @@
       "size": 37,
       "pdb": "wmlaunch.pdb",
       "pdb_guid": 1346067630,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "503b5cae-0d7a-47f5-9752-b093a0065823",
+      "pdb_sym_id": "503B5CAE0D7A47F59752B093A00658231"
      }
     ],
     "has_clr": false,
@@ -14227,7 +14243,9 @@
       "size": 38,
       "pdb": "wmpconfig.pdb",
       "pdb_guid": 2451954410,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "9225daea-eb68-413d-9d35-ff11de181265",
+      "pdb_sym_id": "9225DAEAEB68413D9D35FF11DE1812651"
      }
     ],
     "has_clr": false,
@@ -15106,7 +15124,9 @@
       "size": 35,
       "pdb": "wmpenc.pdb",
       "pdb_guid": 2239608898,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "857db842-385c-49eb-bd06-db2d780e37ad",
+      "pdb_sym_id": "857DB842385C49EBBD06DB2D780E37AD1"
      }
     ],
     "has_clr": false,
@@ -15863,7 +15883,9 @@
       "size": 37,
       "pdb": "wmplayer.pdb",
       "pdb_guid": 3787503079,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "e1c0b5e7-c4be-4c95-b79f-df4a59f1d100",
+      "pdb_sym_id": "E1C0B5E7C4BE4C95B79FDF4A59F1D1001"
      }
     ],
     "has_clr": false,
@@ -18468,7 +18490,9 @@
       "size": 37,
       "pdb": "WMPNetwk.pdb",
       "pdb_guid": 1494236490,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "59103d4a-8e99-4c02-b52f-700e66db951f",
+      "pdb_sym_id": "59103D4A8E994C02B52F700E66DB951F1"
      }
     ],
     "has_clr": false,
@@ -19464,7 +19488,9 @@
       "size": 37,
       "pdb": "WMPNSCFG.pdb",
       "pdb_guid": 543691027,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "20681113-0f0c-4562-a824-2a09bc5df38a",
+      "pdb_sym_id": "206811130F0C4562A8242A09BC5DF38A1"
      }
     ],
     "has_clr": false,
@@ -21301,7 +21327,9 @@
       "size": 37,
       "pdb": "wmpnssci.pdb",
       "pdb_guid": 3705575892,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "dcde99d4-9c18-4823-8ad2-3ed92045fb56",
+      "pdb_sym_id": "DCDE99D49C1848238AD23ED92045FB561"
      }
     ],
     "has_clr": false,
@@ -22700,7 +22728,9 @@
       "size": 35,
       "pdb": "wmprph.pdb",
       "pdb_guid": 3204972634,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "bf08005a-d460-42f7-a80d-cb4ac84a94e3",
+      "pdb_sym_id": "BF08005AD46042F7A80DCB4AC84A94E31"
      }
     ],
     "has_clr": false,
@@ -23289,7 +23319,9 @@
       "size": 37,
       "pdb": "wmpshare.pdb",
       "pdb_guid": 1656732608,
-      "age": 1
+      "age": 1,
+      "pdb_guid_str": "62bfbbc0-5768-4a8a-a9ee-00a3925d0037",
+      "pdb_sym_id": "62BFBBC057684A8AA9EE00A3925D00371"
      }
     ],
     "has_clr": false,
@@ -26552,7 +26584,7 @@
    "extension": ".jpg",
    "dimensions": "120x120",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26574,7 +26606,7 @@
    "extension": ".png",
    "dimensions": "120x120",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26596,7 +26628,7 @@
    "extension": ".jpg",
    "dimensions": "48x48",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26618,7 +26650,7 @@
    "extension": ".png",
    "dimensions": "48x48",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26642,7 +26674,7 @@
    "xml_lines": 165,
    "xml_has_soap_actions": false,
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26666,7 +26698,7 @@
    "xml_lines": 480,
    "xml_has_soap_actions": false,
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26690,7 +26722,7 @@
    "xml_lines": 132,
    "xml_has_soap_actions": false,
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26714,7 +26746,7 @@
    "xml_lines": 151,
    "xml_has_soap_actions": false,
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26738,7 +26770,7 @@
    "xml_lines": 246,
    "xml_has_soap_actions": false,
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26762,7 +26794,7 @@
    "xml_lines": 89,
    "xml_has_soap_actions": false,
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26784,7 +26816,7 @@
    "extension": ".jpg",
    "dimensions": "120x120",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26806,7 +26838,7 @@
    "extension": ".png",
    "dimensions": "120x120",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26828,7 +26860,7 @@
    "extension": ".bmp",
    "dimensions": "32x32",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26850,7 +26882,7 @@
    "extension": ".jpg",
    "dimensions": "32x32",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26872,7 +26904,7 @@
    "extension": ".bmp",
    "dimensions": "48x48",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26894,7 +26926,7 @@
    "extension": ".jpg",
    "dimensions": "48x48",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26916,7 +26948,7 @@
    "extension": ".png",
    "dimensions": "48x48",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26938,7 +26970,7 @@
    "extension": ".jpg",
    "dimensions": "120x120",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26960,7 +26992,7 @@
    "extension": ".png",
    "dimensions": "120x120",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -26982,7 +27014,7 @@
    "extension": ".bmp",
    "dimensions": "32x32",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -27004,7 +27036,7 @@
    "extension": ".jpg",
    "dimensions": "32x32",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -27026,7 +27058,7 @@
    "extension": ".bmp",
    "dimensions": "48x48",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -27048,7 +27080,7 @@
    "extension": ".jpg",
    "dimensions": "48x48",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false
@@ -27070,7 +27102,7 @@
    "extension": ".png",
    "dimensions": "48x48",
    "analysis_status": {
-    "rea_evidence": true,
+    "rea_evidence": false,
     "decompiled": false,
     "module_dossier": false,
     "cmake_target": false

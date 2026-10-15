@@ -118,7 +118,6 @@ def store_evidence(dest_json: str, out: str, large_bytes: int) -> tuple[str, str
 def collect(entry: dict, force: bool, disasm_max: int, ledger: list[dict], large_bytes: int) -> None:
     slug, rel, path, fmt, size = entry["slug"], entry["rel_path"], entry["path"], entry["format"], entry["size"]
     outdir = os.path.join(OUT, slug)
-    os.makedirs(outdir, exist_ok=True)
 
     ops: list[tuple[str, list[str]]] = []
     if fmt == "pe":
@@ -132,20 +131,41 @@ def collect(entry: dict, force: bool, disasm_max: int, ledger: list[dict], large
     else:
         return  # images / XML: no REA lane applies (documented in methodology.md)
 
+    os.makedirs(outdir, exist_ok=True)
+
     for op_name, argv in ops:
         dest = os.path.join(outdir, f"{op_name}.json")
+        rel_argv = [REA, *(rel if a == path else a for a in argv)]
         if (os.path.exists(dest) or os.path.exists(dest + ".gz")) and not force:
             stored = dest + ".gz" if os.path.exists(dest + ".gz") else dest
-            ledger.append({"slug": slug, "artifact": rel, "operation": op_name, "status": "cached",
-                           "evidence_json": os.path.relpath(stored, REPO),
-                           "storage": "gzip" if stored.endswith(".gz") else "json"})
+            raw_bytes_data = gzip.open(stored, "rb").read() if stored.endswith(".gz") else open(stored, "rb").read()
+            rec_cached = {
+                "slug": slug,
+                "artifact": rel,
+                "operation": op_name,
+                "argv": rel_argv,
+                "exit_code": 0,
+                "status": "cached",
+                "evidence_json": os.path.relpath(stored, REPO),
+                "storage": "gzip" if stored.endswith(".gz") else "json",
+                "evidence_sha256": sha256_bytes(raw_bytes_data),
+                "evidence_bytes": len(raw_bytes_data),
+            }
+            try:
+                ev = json.loads(raw_bytes_data.decode("utf-8", errors="replace"))
+                rec_cached["evidence_id"] = ev.get("evidence_id")
+                rec_cached["provider"] = (ev.get("provider") or {}).get("id")
+                rec_cached["subject_sha256"] = (ev.get("subject") or {}).get("digest", {}).get("sha256")
+            except Exception:  # noqa: BLE001
+                pass
+            ledger.append(rec_cached)
             continue
         try:
             code, out, err, secs = run_rea(argv)
         except FileNotFoundError:
             print(f"!! REA executable not found ({REA})", file=sys.stderr)
             raise
-        record = {"slug": slug, "artifact": rel, "operation": op_name, "argv": [REA, *argv],
+        record = {"slug": slug, "artifact": rel, "operation": op_name, "argv": rel_argv,
                   "exit_code": code, "seconds": round(secs, 2), "stderr": err.strip()[:4000]}
         if code == 0 and out.strip():
             stored, form, raw_bytes = store_evidence(dest, out, large_bytes)
@@ -236,7 +256,7 @@ def main() -> int:
     ap.add_argument("--bin-dir", default=BIN)
     ap.add_argument("--only", help="restrict to one module slug or relative path substring")
     ap.add_argument("--force", action="store_true", help="re-run operations that already have evidence")
-    ap.add_argument("--disasm-max-bytes", type=int, default=200_000,
+    ap.add_argument("--disasm-max-bytes", type=int, default=1_600_000,
                     help="run objdump disassemble_all only for files up to this size (0 disables)")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--large-bytes", type=int, default=1_000_000,
