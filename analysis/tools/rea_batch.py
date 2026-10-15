@@ -118,7 +118,6 @@ def store_evidence(dest_json: str, out: str, large_bytes: int) -> tuple[str, str
 def collect(entry: dict, force: bool, disasm_max: int, ledger: list[dict], large_bytes: int) -> None:
     slug, rel, path, fmt, size = entry["slug"], entry["rel_path"], entry["path"], entry["format"], entry["size"]
     outdir = os.path.join(OUT, slug)
-    os.makedirs(outdir, exist_ok=True)
 
     ops: list[tuple[str, list[str]]] = []
     if fmt == "pe":
@@ -131,6 +130,8 @@ def collect(entry: dict, force: bool, disasm_max: int, ledger: list[dict], large
         ops.append(("inspect-artifact", ["inspect-artifact", path, "--json"]))
     else:
         return  # images / XML: no REA lane applies (documented in methodology.md)
+
+    os.makedirs(outdir, exist_ok=True)
 
     for op_name, argv in ops:
         dest = os.path.join(outdir, f"{op_name}.json")
