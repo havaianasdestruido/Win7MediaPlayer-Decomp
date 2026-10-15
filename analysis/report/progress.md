@@ -1,8 +1,8 @@
 # Progress
 
-> Live status of the six phases, per module. Updated as results appear; the numbers in this
+> Live status of the phases, per module. Updated as results appear; the numbers in this
 > file are read from the generated artifacts, never hand-written from memory.
-> Last update: 2026-10-14 (session 3).
+> Last update: 2026-10-15 (session 4 — Phase 0 prerequisites, binary authenticity & toolchain validation).
 
 ---
 
@@ -10,7 +10,8 @@
 
 | Phase | Scope | State | Evidence |
 |---|---|---|---|
-| 1 | Inventory & identification | **complete** | `inventory.md`, `data/inventory.json` — 53 inputs, 28 PE, hashes, formats, arch, bitness, linker, timestamps, PDB refs, Rich headers, sections, overlay, duplicates, packers |
+| 0 | Prerequisites, binary authenticity & toolchain validation | **complete** | `phase0.md`, `data/phase0.json`, `update-manifests.md`, `data/update-manifests.json`, `requirements.txt`, `analysis/tools/setup_env.sh` — 53/53 restored & verified against `7808d47` and `5c564f7`, 53/53 mapped to Windows 7 CBS/WinSxS packages, 28/28 valid PE `CheckSum` across 5 servicing KB waves, 43/53 tracked in Winbindex (7/7 static SHA-256 matches), two-run determinism & 168/168 REA evidence convention checks passed |
+| 1 | Inventory & identification | **complete** | `inventory.md`, `data/inventory.json` — 53 inputs, 28 PE, hashes, formats, arch, bitness, linker, timestamps, full 128-bit RSDS PDB GUIDs, Rich headers, sections, overlay, duplicates, packers |
 | 2 | Toolchain & REA assessment | **complete** | `methodology.md` §2/§5, `rea-evidence/manifest.json`, `validation.md` §4 — REA 6.5.0 installed and used for 168 operations; provider gaps and blocked downloads documented |
 | 3 | Structural analysis | **complete** | `inventory.md`, `resources/**`, `data/strings*`, `com-surface.md`, `api-map.md`, `dependencies.md`, `disasm.md`, `typelib/**` |
 | 4 | Decompilation & behaviour | **substantially complete** | `src/*/decompiled/**` — 16/16 code-bearing modules decompiled (888 functions), 12 resource-only images correctly report "no code"; no dynamic analysis (impossible here, see `validation.md` §6.1) |
@@ -27,6 +28,8 @@ exactly what is missing and what evidence exists.
 
 | Metric | Value | Source |
 |---|---|---|
+| Phase 0 prerequisite & toolchain checks | **3/3 PASS** (`P0.1`, `P0.2`, `P0.3`) | `data/phase0.json` |
+| Microsoft WinSxS/CBS package manifest mapping | **53/53** files (`28/28` valid PE `CheckSum`, 5 servicing KB waves) | `data/update-manifests.json` |
 | Inputs analysed | 53 files (7,674,285 bytes); 28 PE32+ x86-64, 25 non-PE | `data/inventory.json` |
 | PE images decomposed | 16 code-bearing + 12 resource-only `.mui` | `inventory.md` |
 | Resources recovered | **539** payloads; type sets confirmed by an independent walker 28/28 | `data/resources.json` |
