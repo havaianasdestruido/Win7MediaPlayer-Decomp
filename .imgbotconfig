@@ -1,0 +1,7 @@
+{
+  "ignoredFiles": [
+    "bin/**",
+    "analysis/**",
+    "src/**"
+  ]
+}
