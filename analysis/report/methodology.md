@@ -41,6 +41,7 @@ interpretation of the evidence.
 | bitstring | 3.1.9 (`bitstring>=4` breaks angr — pin it) |
 | pyelftools | 0.33 |
 | GNU objdump | 2.40 (Debian binutils) |
+| GCC | 12.2.0 (Debian 12.2.0-14+deb12u1; host compiler for validation harness) |
 | Node.js | 22.22.3 |
 | REA | 6.5.0 (`npx rea …`; npm package `rea-agents`) |
 | cmake / ninja | 4.4.4 / 1.13.2 (installed for the build-validation step) |
@@ -92,6 +93,34 @@ Every script is idempotent and writes only under `analysis/report/` and `src/`. 
 ---
 
 ## 4. Phase-by-phase method
+
+### Phase 0 — prerequisites, environment provisioning and toolchain validation (`analysis/tools/setup_env.sh`, `manifest_verify.py`, `phase0_check.py` → `analysis/report/phase0.md`, `update-manifests.md`)
+
+* **P0.1 — Repository integrity & Microsoft update manifest verification (`analysis/tools/manifest_verify.py`):**
+  1. Verifies that all 53 files under `bin/` match the initial upstream commit (`7808d47`) and the
+     post-move commit (`5c564f7`) byte-for-byte (after restoring 14 icon `.jpg`/`.png` files that had
+     been re-encoded by ImgBot in PR #1, and adding `.imgbotconfig` to protect `bin/**`).
+  2. Verifies SHA-256, SHA-1, MD5, and byte-size hashes against `analysis/report/data/inventory.json`
+     (`53/53`).
+  3. Cross-references all 53 files against Microsoft's Windows 7 (NT 6.1) CBS/WinSxS package
+     manifests (`Microsoft-Windows-MediaPlayer-Package` and
+     `Microsoft-Windows-WMPNetworkSharingService-Package`, signed under Microsoft Windows Component
+     Publisher `publicKeyToken="31bf3856ad364e35"`), verifies all 28 PE Optional Header `CheckSum`
+     values (`MapFileAndCheckSum`, `28/28`), maps all 28 PEs across 5 Microsoft Windows 7 servicing
+     KB waves (`RTM 7600.16385`, `SP1 KB976932`, `Mar 2016 LDR KB3150513`, `Aug 2016 LDR KB3179573`,
+     `Jul 2019 Security Rollup KB4507449`), parses all 13 embedded `RT_MANIFEST` SxS XML payloads,
+     and compares against Microsoft's `m417z/winbindex` update manifest index (`43/53` filenames
+     tracked, `7/7` unchanged static assets matched by exact SHA-256).
+* **P0.2 — Environment provisioning (`requirements.txt`, `analysis/tools/setup_env.sh`):**
+  Idempotently provisions and verifies exact pinned versions of Python 3.11+, `angr`, `claripy`,
+  `cle`, `pyvex`, `archinfo`, `pefile`, `capstone`, `pyelftools`, `bitstring<4`, Node.js 22+,
+  `rea-agents@6.5.0`, `cmake`, `ninja`, `objdump`, and `gcc`.
+* **P0.3 — Toolchain validation (`analysis/tools/phase0_check.py`):**
+  Executes two-pass determinism checks across `peutils`, `pefile`, `capstone`, `GNU objdump`,
+  `angr CFGFast`, and `rea inspect-pe-resources`; cross-checks installed tool versions against §2;
+  and audits evidence archiving conventions across `analysis/report/rea-evidence/manifest.json`
+  (`168/168`), `analysis/report/data/resources.json` (`539/539`), and `src/*/decompiled/*.c`
+  (`888/888`).
 
 ### Phase 1 — inventory and identification (`analysis/tools/inventory.py` → `analysis/report/inventory.md`)
 
