@@ -1,0 +1,24 @@
+// Reconstructed type-library IDL — analysis/report/resources/wmprph_exe/typelib/typelib_1_1.tlb
+//
+// PROVENANCE: mechanically rendered from the MSFT binary type library
+// embedded as RT_TYPELIB resource 1 (payload sha256 69159d45512455882f4cd35fd44b6586d2ce781d99c767201d2f6de18d84e9b4),
+// by analysis/tools/typelib.py. GUIDs, kinds, member names, member IDs and virtual
+// table order are read straight out of the library; parameter- and return-type
+// rendering is derived from its TYPEDESC entries. This is a re-serialisation of
+// shipped data, not recovered source code.
+// library GUID {FA258721-CF24-45D7-A9CB-80047D7FEC35} — version 0x1 — LCID 0x0409
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+// TKIND_DISPATCH IWMPRichPreviewLauncher {{F826A914-4075-4672-8312-5F91CDF3C69E}} version 0.0 (typeinfo #0, 4 functions, 0 variables)
+    interface IWMPRichPreviewLauncher {
+        HRESULT LaunchFullPlayer();  // memid 1610743808, vtable slot 7
+        HRESULT GetPreviewPaneColor([out] BSTR* pbstrColor);  // memid 1610743809, vtable slot 8
+        HRESULT CreateThumbnail([out] BSTR* pbstrThumbName);  // memid 1610743810, vtable slot 9
+        HRESULT IsPerceivedTypeVideo([out] VARIANT_BOOL* pbType);  // memid 1610743811, vtable slot 10
+    }
+
+/* Interpretation limits (see analysis/report/methodology.md):
+ */

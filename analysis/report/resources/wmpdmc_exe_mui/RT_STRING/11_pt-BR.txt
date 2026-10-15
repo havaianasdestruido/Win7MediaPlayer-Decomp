@@ -1,0 +1,7 @@
+160	Reordenar
+161	Uma operação Reproduzir em está em andamento.
+162	Buscar
+163	Tempo restante
+164	Miniatura de mídia
+165	Miniatura de dispositivo
+166	Indicador de execução

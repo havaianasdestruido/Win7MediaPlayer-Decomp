@@ -1,0 +1,12 @@
+# Generated at analysis time — never part of the reconstructed sources.
+__pycache__/
+*.pyc
+# angr scratch runtime database (see analysis/tools/decompile.py: RTDB_BASE)
+*_angr_rtdb/
+*_angr_rtdb_*/
+# Local CMake/Ninja output of the reconstruction self-check (regenerate with
+# analysis/tools/recon_build.py --build); the sources it builds are in src/.
+analysis/report/data/build/
+# angr decompiler scratch database created next to the analysed image
+data/rtdb/
+analysis/report/data/rtdb/

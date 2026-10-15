@@ -1,0 +1,8031 @@
+{
+ "module": "setup_wm_exe_mui",
+ "artifact": "bin/pt-BR/setup_wm.exe.mui",
+ "counts": {
+  "ascii": 4,
+  "utf16": 881,
+  "unique": 722
+ },
+ "strings": [
+  {
+   "text": "!This program cannot be run in DOS mode.",
+   "offset": "0x4d",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "RichE",
+   "offset": "0xa0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".rsrc",
+   "offset": "0x1c0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGX",
+   "offset": "0xedc8",
+   "kind": "ascii",
+   "rva": "0xfbc8",
+   "va": "0x18000fbc8",
+   "tags": []
+  },
+  {
+   "text": "pt-BR",
+   "offset": "0xe58",
+   "kind": "utf16",
+   "rva": "0x1c58",
+   "va": "0x180001c58",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Tahoma",
+   "offset": "0xe8e",
+   "kind": "utf16",
+   "rva": "0x1c8e",
+   "va": "0x180001c8e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "msctls_progress32",
+   "offset": "0xed8",
+   "kind": "utf16",
+   "rva": "0x1cd8",
+   "va": "0x180001cd8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Progress1",
+   "offset": "0xefc",
+   "kind": "utf16",
+   "rva": "0x1cfc",
+   "va": "0x180001cfc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Iniciando download...",
+   "offset": "0xfc4",
+   "kind": "utf16",
+   "rva": "0x1dc4",
+   "va": "0x180001dc4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Preparando-se para instalar...",
+   "offset": "0x1404",
+   "kind": "utf16",
+   "rva": "0x2204",
+   "va": "0x180002204",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Aguarde...",
+   "offset": "0x14b4",
+   "kind": "utf16",
+   "rva": "0x22b4",
+   "va": "0x1800022b4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Para obter ajuda, clique no bot",
+   "offset": "0x15a4",
+   "kind": "utf16",
+   "rva": "0x23a4",
+   "va": "0x1800023a4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o Ajuda na Web.",
+   "offset": "0x15e4",
+   "kind": "utf16",
+   "rva": "0x23e4",
+   "va": "0x1800023e4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ajuda na &Web",
+   "offset": "0x1624",
+   "kind": "utf16",
+   "rva": "0x2424",
+   "va": "0x180002424",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Clique em Avan",
+   "offset": "0x16fc",
+   "kind": "utf16",
+   "rva": "0x24fc",
+   "va": "0x1800024fc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ar para come",
+   "offset": "0x171a",
+   "kind": "utf16",
+   "rva": "0x251a",
+   "va": "0x18000251a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ar o processo de download e de atualiza",
+   "offset": "0x1734",
+   "kind": "utf16",
+   "rva": "0x2534",
+   "va": "0x180002534",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o ou clique em Cancelar para adiar a atualiza",
+   "offset": "0x1786",
+   "kind": "utf16",
+   "rva": "0x2586",
+   "va": "0x180002586",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Reprodu",
+   "offset": "0x1890",
+   "kind": "utf16",
+   "rva": "0x2690",
+   "va": "0x180002690",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o com Qualidade Avan",
+   "offset": "0x18a2",
+   "kind": "utf16",
+   "rva": "0x26a2",
+   "va": "0x1800026a2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "E&xibir informa",
+   "offset": "0x18f4",
+   "kind": "utf16",
+   "rva": "0x26f4",
+   "va": "0x1800026f4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es sobre a m",
+   "offset": "0x1916",
+   "kind": "utf16",
+   "rva": "0x2716",
+   "va": "0x180002716",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia a partir da Internet",
+   "offset": "0x1930",
+   "kind": "utf16",
+   "rva": "0x2730",
+   "va": "0x180002730",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "At&ualizar os arquivos de m",
+   "offset": "0x1980",
+   "kind": "utf16",
+   "rva": "0x2780",
+   "va": "0x180002780",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "sica recuperando as informa",
+   "offset": "0x19b8",
+   "kind": "utf16",
+   "rva": "0x27b8",
+   "va": "0x1800027b8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia na Internet",
+   "offset": "0x1a0c",
+   "kind": "utf16",
+   "rva": "0x280c",
+   "va": "0x18000280c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Baixar &direitos de uso automaticamente quando eu reproduzir ou sincronizar um arquivo",
+   "offset": "0x1a4c",
+   "kind": "utf16",
+   "rva": "0x284c",
+   "va": "0x18000284c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Observa",
+   "offset": "0x1b18",
+   "kind": "utf16",
+   "rva": "0x2918",
+   "va": "0x180002918",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o: as informa",
+   "offset": "0x1b2a",
+   "kind": "utf16",
+   "rva": "0x292a",
+   "va": "0x18000292a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia recuperadas podem n",
+   "offset": "0x1b62",
+   "kind": "utf16",
+   "rva": "0x2962",
+   "va": "0x180002962",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o estar em seu idioma.",
+   "offset": "0x1b92",
+   "kind": "utf16",
+   "rva": "0x2992",
+   "va": "0x180002992",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Servi",
+   "offset": "0x1be0",
+   "kind": "utf16",
+   "rva": "0x29e0",
+   "va": "0x1800029e0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "os Aprimorados para Provedores de Conte",
+   "offset": "0x1bec",
+   "kind": "utf16",
+   "rva": "0x29ec",
+   "va": "0x1800029ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "&Enviar identifica",
+   "offset": "0x1c60",
+   "kind": "utf16",
+   "rva": "0x2a60",
+   "va": "0x180002a60",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o exclusiva do Player a provedores de conte",
+   "offset": "0x1c88",
+   "kind": "utf16",
+   "rva": "0x2a88",
+   "va": "0x180002a88",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Clique em Cookies para exibir ou alterar as configura",
+   "offset": "0x1d04",
+   "kind": "utf16",
+   "rva": "0x2b04",
+   "va": "0x180002b04",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de privacidade que afetam cookies",
+   "offset": "0x1d72",
+   "kind": "utf16",
+   "rva": "0x2b72",
+   "va": "0x180002b72",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "&Cookies",
+   "offset": "0x1ddc",
+   "kind": "utf16",
+   "rva": "0x2bdc",
+   "va": "0x180002bdc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Aperfei",
+   "offset": "0x1e0c",
+   "kind": "utf16",
+   "rva": "0x2c0c",
+   "va": "0x180002c0c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "oamento da Experi",
+   "offset": "0x1e1c",
+   "kind": "utf16",
+   "rva": "0x2c1c",
+   "va": "0x180002c1c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ncia do Usu",
+   "offset": "0x1e40",
+   "kind": "utf16",
+   "rva": "0x2c40",
+   "va": "0x180002c40",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio do Windows Media Player",
+   "offset": "0x1e58",
+   "kind": "utf16",
+   "rva": "0x2c58",
+   "va": "0x180002c58",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Gostaria de ajudar a melhorar o soft&ware e os servi",
+   "offset": "0x1eb0",
+   "kind": "utf16",
+   "rva": "0x2cb0",
+   "va": "0x180002cb0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "os Microsoft, enviando dados de uso do Player para a Microsoft",
+   "offset": "0x1f1a",
+   "kind": "utf16",
+   "rva": "0x2d1a",
+   "va": "0x180002d1a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Hist",
+   "offset": "0x1fb8",
+   "kind": "utf16",
+   "rva": "0x2db8",
+   "va": "0x180002db8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rico",
+   "offset": "0x1fc2",
+   "kind": "utf16",
+   "rva": "0x2dc2",
+   "va": "0x180002dc2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Armazenar e exibir uma lista de itens reproduzidos recentemente/frequentemente:",
+   "offset": "0x1fec",
+   "kind": "utf16",
+   "rva": "0x2dec",
+   "va": "0x180002dec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "sica",
+   "offset": "0x20b2",
+   "kind": "utf16",
+   "rva": "0x2eb2",
+   "va": "0x180002eb2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ima&gens",
+   "offset": "0x20dc",
+   "kind": "utf16",
+   "rva": "0x2edc",
+   "va": "0x180002edc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "de&o",
+   "offset": "0x2110",
+   "kind": "utf16",
+   "rva": "0x2f10",
+   "va": "0x180002f10",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "&Listas de Reprodu",
+   "offset": "0x2138",
+   "kind": "utf16",
+   "rva": "0x2f38",
+   "va": "0x180002f38",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "A Microsoft se compromete em proteger sua privacidade como consumidor. A declara",
+   "offset": "0x21b8",
+   "kind": "utf16",
+   "rva": "0x2fb8",
+   "va": "0x180002fb8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de privacidade do Windows Media Player explica quais dados s",
+   "offset": "0x225c",
+   "kind": "utf16",
+   "rva": "0x305c",
+   "va": "0x18000305c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o coletados, como eles s",
+   "offset": "0x22da",
+   "kind": "utf16",
+   "rva": "0x30da",
+   "va": "0x1800030da",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o usados e quais configura",
+   "offset": "0x230c",
+   "kind": "utf16",
+   "rva": "0x310c",
+   "va": "0x18000310c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de privacidade est",
+   "offset": "0x2344",
+   "kind": "utf16",
+   "rva": "0x3144",
+   "va": "0x180003144",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o dispon",
+   "offset": "0x2370",
+   "kind": "utf16",
+   "rva": "0x3170",
+   "va": "0x180003170",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "veis no Player.",
+   "offset": "0x2382",
+   "kind": "utf16",
+   "rva": "0x3182",
+   "va": "0x180003182",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ex&ibir Declara",
+   "offset": "0x23c0",
+   "kind": "utf16",
+   "rva": "0x31c0",
+   "va": "0x1800031c0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Dependendo das suas configura",
+   "offset": "0x2404",
+   "kind": "utf16",
+   "rva": "0x3204",
+   "va": "0x180003204",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de privacidade, o Player poder",
+   "offset": "0x2442",
+   "kind": "utf16",
+   "rva": "0x3242",
+   "va": "0x180003242",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " acessar o site da Microsoft WindowsMedia.com para lhe oferecer uma experi",
+   "offset": "0x2486",
+   "kind": "utf16",
+   "rva": "0x3286",
+   "va": "0x180003286",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ncia aperfei",
+   "offset": "0x251c",
+   "kind": "utf16",
+   "rva": "0x331c",
+   "va": "0x18000331c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "oada de m",
+   "offset": "0x2536",
+   "kind": "utf16",
+   "rva": "0x3336",
+   "va": "0x180003336",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia. Clique no bot",
+   "offset": "0x254a",
+   "kind": "utf16",
+   "rva": "0x334a",
+   "va": "0x18000334a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para ver a declara",
+   "offset": "0x2570",
+   "kind": "utf16",
+   "rva": "0x3370",
+   "va": "0x180003370",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de privacidade online do WindowsMedia.com.",
+   "offset": "0x259c",
+   "kind": "utf16",
+   "rva": "0x339c",
+   "va": "0x18000339c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "E&xibir Declara",
+   "offset": "0x2614",
+   "kind": "utf16",
+   "rva": "0x3414",
+   "va": "0x180003414",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Descri",
+   "offset": "0x26ac",
+   "kind": "utf16",
+   "rva": "0x34ac",
+   "va": "0x1800034ac",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "SysListView32",
+   "offset": "0x26fc",
+   "kind": "utf16",
+   "rva": "0x34fc",
+   "va": "0x1800034fc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "List1",
+   "offset": "0x2718",
+   "kind": "utf16",
+   "rva": "0x3518",
+   "va": "0x180003518",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "&Selecionar tudo",
+   "offset": "0x2744",
+   "kind": "utf16",
+   "rva": "0x3544",
+   "va": "0x180003544",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Escolher dentre as seguintes op",
+   "offset": "0x27b8",
+   "kind": "utf16",
+   "rva": "0x35b8",
+   "va": "0x1800035b8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es para configurar a ",
+   "offset": "0x27fa",
+   "kind": "utf16",
+   "rva": "0x35fa",
+   "va": "0x1800035fa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rea de trabalho.",
+   "offset": "0x2826",
+   "kind": "utf16",
+   "rva": "0x3626",
+   "va": "0x180003626",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Adicionar um atalho ",
+   "offset": "0x2868",
+   "kind": "utf16",
+   "rva": "0x3668",
+   "va": "0x180003668",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Instala",
+   "offset": "0x28da",
+   "kind": "utf16",
+   "rva": "0x36da",
+   "va": "0x1800036da",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media",
+   "offset": "0x28ec",
+   "kind": "utf16",
+   "rva": "0x36ec",
+   "va": "0x1800036ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Vers",
+   "offset": "0x2adc",
+   "kind": "utf16",
+   "rva": "0x38dc",
+   "va": "0x1800038dc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para Impress",
+   "offset": "0x2ae6",
+   "kind": "utf16",
+   "rva": "0x38e6",
+   "va": "0x1800038e6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Informa",
+   "offset": "0x2db0",
+   "kind": "utf16",
+   "rva": "0x3bb0",
+   "va": "0x180003bb0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es sobre Privacidade de Loja Online",
+   "offset": "0x2dc2",
+   "kind": "utf16",
+   "rva": "0x3bc2",
+   "va": "0x180003bc2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Como deseja usar o Windows Media Player?",
+   "offset": "0x2e5c",
+   "kind": "utf16",
+   "rva": "0x3c5c",
+   "va": "0x180003c5c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Tornar o &Windows Media Player o player padr",
+   "offset": "0x2ecc",
+   "kind": "utf16",
+   "rva": "0x3ccc",
+   "va": "0x180003ccc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para m",
+   "offset": "0x2f26",
+   "kind": "utf16",
+   "rva": "0x3d26",
+   "va": "0x180003d26",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "sica e v",
+   "offset": "0x2f38",
+   "kind": "utf16",
+   "rva": "0x3d38",
+   "va": "0x180003d38",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "&Escolher os tipos de arquivo que o Windows Media Player ir",
+   "offset": "0x2f70",
+   "kind": "utf16",
+   "rva": "0x3d70",
+   "va": "0x180003d70",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " reproduzir",
+   "offset": "0x2fe8",
+   "kind": "utf16",
+   "rva": "0x3de8",
+   "va": "0x180003de8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Escolha a loja online que deseja configurar agora. Voc",
+   "offset": "0x3054",
+   "kind": "utf16",
+   "rva": "0x3e54",
+   "va": "0x180003e54",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " pode configurar outras lojas mais tarde.",
+   "offset": "0x30c2",
+   "kind": "utf16",
+   "rva": "0x3ec2",
+   "va": "0x180003ec2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do sistema",
+   "offset": "0x3140",
+   "kind": "utf16",
+   "rva": "0x3f40",
+   "va": "0x180003f40",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o Padr",
+   "offset": "0x3184",
+   "kind": "utf16",
+   "rva": "0x3f84",
+   "va": "0x180003f84",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "&Continuar com a loja online anterior",
+   "offset": "0x31b4",
+   "kind": "utf16",
+   "rva": "0x3fb4",
+   "va": "0x180003fb4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o configurar uma loja agora (voc",
+   "offset": "0x3226",
+   "kind": "utf16",
+   "rva": "0x4026",
+   "va": "0x180004026",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " pode selecionar uma mais tarde no Player)",
+   "offset": "0x3268",
+   "kind": "utf16",
+   "rva": "0x4068",
+   "va": "0x180004068",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Escolher as configura",
+   "offset": "0x33fc",
+   "kind": "utf16",
+   "rva": "0x41fc",
+   "va": "0x1800041fc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es iniciais do Windows Media Player. Voc",
+   "offset": "0x342a",
+   "kind": "utf16",
+   "rva": "0x422a",
+   "va": "0x18000422a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " poder",
+   "offset": "0x347c",
+   "kind": "utf16",
+   "rva": "0x427c",
+   "va": "0x18000427c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " alterar essas configura",
+   "offset": "0x348a",
+   "kind": "utf16",
+   "rva": "0x428a",
+   "va": "0x18000428a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es no Player mais tarde.",
+   "offset": "0x34be",
+   "kind": "utf16",
+   "rva": "0x42be",
+   "va": "0x1800042be",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Con&figura",
+   "offset": "0x3510",
+   "kind": "utf16",
+   "rva": "0x4310",
+   "va": "0x180004310",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es recomendadas",
+   "offset": "0x3528",
+   "kind": "utf16",
+   "rva": "0x4328",
+   "va": "0x180004328",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "C&onfigura",
+   "offset": "0x3568",
+   "kind": "utf16",
+   "rva": "0x4368",
+   "va": "0x180004368",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es personalizadas",
+   "offset": "0x3580",
+   "kind": "utf16",
+   "rva": "0x4380",
+   "va": "0x180004380",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Torne o Windows Media Player o programa padr",
+   "offset": "0x35c4",
+   "kind": "utf16",
+   "rva": "0x43c4",
+   "va": "0x1800043c4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para executar m",
+   "offset": "0x361e",
+   "kind": "utf16",
+   "rva": "0x441e",
+   "va": "0x18000441e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia, baixe automaticamente informa",
+   "offset": "0x3642",
+   "kind": "utf16",
+   "rva": "0x4442",
+   "va": "0x180004442",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es sobre m",
+   "offset": "0x368a",
+   "kind": "utf16",
+   "rva": "0x448a",
+   "va": "0x18000448a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia e direitos de uso e envie dados de uso do Player para a Microsoft.",
+   "offset": "0x36a0",
+   "kind": "utf16",
+   "rva": "0x44a0",
+   "va": "0x1800044a0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Escolha as configura",
+   "offset": "0x374c",
+   "kind": "utf16",
+   "rva": "0x454c",
+   "va": "0x18000454c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Os dados de uso ser",
+   "offset": "0x385c",
+   "kind": "utf16",
+   "rva": "0x465c",
+   "va": "0x18000465c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o enviados para a Microsoft se voc",
+   "offset": "0x3884",
+   "kind": "utf16",
+   "rva": "0x4684",
+   "va": "0x180004684",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " usar as configura",
+   "offset": "0x38ca",
+   "kind": "utf16",
+   "rva": "0x46ca",
+   "va": "0x1800046ca",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es recomendadas, mas essas informa",
+   "offset": "0x38f2",
+   "kind": "utf16",
+   "rva": "0x46f2",
+   "va": "0x1800046f2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es n",
+   "offset": "0x393a",
+   "kind": "utf16",
+   "rva": "0x473a",
+   "va": "0x18000473a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o ser",
+   "offset": "0x3944",
+   "kind": "utf16",
+   "rva": "0x4744",
+   "va": "0x180004744",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o usadas para identificar ou contatar voc",
+   "offset": "0x3950",
+   "kind": "utf16",
+   "rva": "0x4750",
+   "va": "0x180004750",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Para saber mais sobre as Configura",
+   "offset": "0x39c8",
+   "kind": "utf16",
+   "rva": "0x47c8",
+   "va": "0x1800047c8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es recomendadas, leia a Declara",
+   "offset": "0x3a10",
+   "kind": "utf16",
+   "rva": "0x4810",
+   "va": "0x180004810",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de Privacidade online.",
+   "offset": "0x3a52",
+   "kind": "utf16",
+   "rva": "0x4852",
+   "va": "0x180004852",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Importando Biblioteca de M",
+   "offset": "0x3bc4",
+   "kind": "utf16",
+   "rva": "0x49c4",
+   "va": "0x1800049c4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia...",
+   "offset": "0x3bfa",
+   "kind": "utf16",
+   "rva": "0x49fa",
+   "va": "0x1800049fa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Windows Media Player",
+   "offset": "0x3c36",
+   "kind": "utf16",
+   "rva": "0x4a36",
+   "va": "0x180004a36",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "A instala",
+   "offset": "0x3c60",
+   "kind": "utf16",
+   "rva": "0x4a60",
+   "va": "0x180004a60",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o pode continuarAUm ou mais dos problemas a seguir ocorreram durante a instala",
+   "offset": "0x3c7e",
+   "kind": "utf16",
+   "rva": "0x4a7e",
+   "va": "0x180004a7e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o.)Verifique antes de continuar a instala",
+   "offset": "0x3d1e",
+   "kind": "utf16",
+   "rva": "0x4b1e",
+   "va": "0x180004b1e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ocorreram um ou mais dos problemas a seguir, que podem afetar a instala",
+   "offset": "0x3d78",
+   "kind": "utf16",
+   "rva": "0x4b78",
+   "va": "0x180004b78",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o. Verifique as informa",
+   "offset": "0x3e0a",
+   "kind": "utf16",
+   "rva": "0x4c0a",
+   "va": "0x180004c0a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es a seguir e tome a a",
+   "offset": "0x3e3c",
+   "kind": "utf16",
+   "rva": "0x4c3c",
+   "va": "0x180004c3c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o corretiva necess",
+   "offset": "0x3e6c",
+   "kind": "utf16",
+   "rva": "0x4c6c",
+   "va": "0x180004c6c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ria.,Obrigado por escolher o Windows Media Player",
+   "offset": "0x3e92",
+   "kind": "utf16",
+   "rva": "0x4c92",
+   "va": "0x180004c92",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Este software est",
+   "offset": "0x3ef6",
+   "kind": "utf16",
+   "rva": "0x4cf6",
+   "va": "0x180004cf6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " licenciado sob o contrato a seguir. Durante o processo de instala",
+   "offset": "0x3f1a",
+   "kind": "utf16",
+   "rva": "0x4d1a",
+   "va": "0x180004d1a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o, o Windows Media Player contatar",
+   "offset": "0x3fa2",
+   "kind": "utf16",
+   "rva": "0x4da2",
+   "va": "0x180004da2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " um servidor da Microsoft para determinar e configurar a loja online padr",
+   "offset": "0x3fe8",
+   "kind": "utf16",
+   "rva": "0x4de8",
+   "va": "0x180004de8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o.$Personalizar as Op",
+   "offset": "0x407c",
+   "kind": "utf16",
+   "rva": "0x4e7c",
+   "va": "0x180004e7c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de Instala",
+   "offset": "0x40aa",
+   "kind": "utf16",
+   "rva": "0x4eaa",
+   "va": "0x180004eaa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": ",Selecionar o Player de V",
+   "offset": "0x40cc",
+   "kind": "utf16",
+   "rva": "0x4ecc",
+   "va": "0x180004ecc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo e M",
+   "offset": "0x4100",
+   "kind": "utf16",
+   "rva": "0x4f00",
+   "va": "0x180004f00",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "sica Padr",
+   "offset": "0x4110",
+   "kind": "utf16",
+   "rva": "0x4f10",
+   "va": "0x180004f10",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "oNConfigure sua ",
+   "offset": "0x4124",
+   "kind": "utf16",
+   "rva": "0x4f24",
+   "va": "0x180004f24",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rea de trabalho e as defini",
+   "offset": "0x4146",
+   "kind": "utf16",
+   "rva": "0x4f46",
+   "va": "0x180004f46",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es padr",
+   "offset": "0x4180",
+   "kind": "utf16",
+   "rva": "0x4f80",
+   "va": "0x180004f80",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player.",
+   "offset": "0x4190",
+   "kind": "utf16",
+   "rva": "0x4f90",
+   "va": "0x180004f90",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Baixando...",
+   "offset": "0x41c6",
+   "kind": "utf16",
+   "rva": "0x4fc6",
+   "va": "0x180004fc6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "NAguarde enquanto o Assistente para Instala",
+   "offset": "0x41de",
+   "kind": "utf16",
+   "rva": "0x4fde",
+   "va": "0x180004fde",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o baixa os arquivos no computador.",
+   "offset": "0x4238",
+   "kind": "utf16",
+   "rva": "0x5038",
+   "va": "0x180005038",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Instalando...",
+   "offset": "0x427e",
+   "kind": "utf16",
+   "rva": "0x507e",
+   "va": "0x18000507e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O Windows est",
+   "offset": "0x429a",
+   "kind": "utf16",
+   "rva": "0x509a",
+   "va": "0x18000509a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " sendo atualizado com o Windows Media Player. Depois que a atualiza",
+   "offset": "0x42b6",
+   "kind": "utf16",
+   "rva": "0x50b6",
+   "va": "0x1800050b6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o estiver conclu",
+   "offset": "0x4340",
+   "kind": "utf16",
+   "rva": "0x5140",
+   "va": "0x180005140",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "da, voc",
+   "offset": "0x4362",
+   "kind": "utf16",
+   "rva": "0x5162",
+   "va": "0x180005162",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " configurar as op",
+   "offset": "0x4380",
+   "kind": "utf16",
+   "rva": "0x5180",
+   "va": "0x180005180",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es do Player.\"Selecione as Op",
+   "offset": "0x43a6",
+   "kind": "utf16",
+   "rva": "0x51a6",
+   "va": "0x1800051a6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de Privacidade",
+   "offset": "0x43e4",
+   "kind": "utf16",
+   "rva": "0x51e4",
+   "va": "0x1800051e4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "A Microsoft se compromete em proteger sua privacidade. Para oferecer uma experi",
+   "offset": "0x4408",
+   "kind": "utf16",
+   "rva": "0x5208",
+   "va": "0x180005208",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ncia otimizada, os dados s",
+   "offset": "0x44a8",
+   "kind": "utf16",
+   "rva": "0x52a8",
+   "va": "0x1800052a8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o trocados pela Internet e podem ser salvos em seu computador.,Selecionar o Player de V",
+   "offset": "0x44de",
+   "kind": "utf16",
+   "rva": "0x52de",
+   "va": "0x1800052de",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o#Atualiza",
+   "offset": "0x45b2",
+   "kind": "utf16",
+   "rva": "0x53b2",
+   "va": "0x1800053b2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media PlayerYH",
+   "offset": "0x45ca",
+   "kind": "utf16",
+   "rva": "0x53ca",
+   "va": "0x1800053ca",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " uma atualiza",
+   "offset": "0x4602",
+   "kind": "utf16",
+   "rva": "0x5402",
+   "va": "0x180005402",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player dispon",
+   "offset": "0x4620",
+   "kind": "utf16",
+   "rva": "0x5420",
+   "va": "0x180005420",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel. Verifique as informa",
+   "offset": "0x4662",
+   "kind": "utf16",
+   "rva": "0x5462",
+   "va": "0x180005462",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es a seguir.3A instala",
+   "offset": "0x4698",
+   "kind": "utf16",
+   "rva": "0x5498",
+   "va": "0x180005498",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player est",
+   "offset": "0x46c8",
+   "kind": "utf16",
+   "rva": "0x54c8",
+   "va": "0x1800054c8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " conclu",
+   "offset": "0x4704",
+   "kind": "utf16",
+   "rva": "0x5504",
+   "va": "0x180005504",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "da-Obrigado por escolher o Windows Media Player.!Bem-Vindo ao Windows Media Player_Tire proveito de uma reprodu",
+   "offset": "0x4714",
+   "kind": "utf16",
+   "rva": "0x5514",
+   "va": "0x180005514",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "pida e flex",
+   "offset": "0x47fe",
+   "kind": "utf16",
+   "rva": "0x55fe",
+   "va": "0x1800055fe",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel de m",
+   "offset": "0x4816",
+   "kind": "utf16",
+   "rva": "0x5616",
+   "va": "0x180005616",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo com o Windows Media Player.",
+   "offset": "0x483a",
+   "kind": "utf16",
+   "rva": "0x563a",
+   "va": "0x18000563a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " poss",
+   "offset": "0x4886",
+   "kind": "utf16",
+   "rva": "0x5686",
+   "va": "0x180005686",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel concluir a instala",
+   "offset": "0x4892",
+   "kind": "utf16",
+   "rva": "0x5692",
+   "va": "0x180005692",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player",
+   "offset": "0x48c2",
+   "kind": "utf16",
+   "rva": "0x56c2",
+   "va": "0x1800056c2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Reverter Windows Media Player",
+   "offset": "0x48f6",
+   "kind": "utf16",
+   "rva": "0x56f6",
+   "va": "0x1800056f6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Se voc",
+   "offset": "0x4932",
+   "kind": "utf16",
+   "rva": "0x5732",
+   "va": "0x180005732",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " reverter o Windows Media Player para a vers",
+   "offset": "0x4940",
+   "kind": "utf16",
+   "rva": "0x5740",
+   "va": "0x180005740",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o anterior que havia no computador, outros programas que exigem o Player poder",
+   "offset": "0x499a",
+   "kind": "utf16",
+   "rva": "0x579a",
+   "va": "0x18000579a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o ser afetados. Talvez voc",
+   "offset": "0x4a38",
+   "kind": "utf16",
+   "rva": "0x5838",
+   "va": "0x180005838",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " precise remov",
+   "offset": "0x4a6e",
+   "kind": "utf16",
+   "rva": "0x586e",
+   "va": "0x18000586e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "-los e instal",
+   "offset": "0x4a8c",
+   "kind": "utf16",
+   "rva": "0x588c",
+   "va": "0x18000588c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "-los novamente. Tem certeza de que deseja continuar?)Tempo de Execu",
+   "offset": "0x4aa8",
+   "kind": "utf16",
+   "rva": "0x58a8",
+   "va": "0x1800058a8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Format",
+   "offset": "0x4b32",
+   "kind": "utf16",
+   "rva": "0x5932",
+   "va": "0x180005932",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "423|418|80|22|&Voltar",
+   "offset": "0x4b66",
+   "kind": "utf16",
+   "rva": "0x5966",
+   "va": "0x180005966",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "503|418|80|22|&Avan",
+   "offset": "0x4b92",
+   "kind": "utf16",
+   "rva": "0x5992",
+   "va": "0x180005992",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "423|418|80|22|&Cancelar",
+   "offset": "0x4bc0",
+   "kind": "utf16",
+   "rva": "0x59c0",
+   "va": "0x1800059c0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "503|418|80|22|&Concluir",
+   "offset": "0x4bf0",
+   "kind": "utf16",
+   "rva": "0x59f0",
+   "va": "0x1800059f0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "508|418|80|22|&Aceito",
+   "offset": "0x4c20",
+   "kind": "utf16",
+   "rva": "0x5a20",
+   "va": "0x180005a20",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "428|418|80|22|&N",
+   "offset": "0x4c4c",
+   "kind": "utf16",
+   "rva": "0x5a4c",
+   "va": "0x180005a4c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o Aceito",
+   "offset": "0x4c6e",
+   "kind": "utf16",
+   "rva": "0x5a6e",
+   "va": "0x180005a6e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "503|418|80|22|&Instalar",
+   "offset": "0x4c80",
+   "kind": "utf16",
+   "rva": "0x5a80",
+   "va": "0x180005a80",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "503|418|80|22|&OK",
+   "offset": "0x4cb0",
+   "kind": "utf16",
+   "rva": "0x5ab0",
+   "va": "0x180005ab0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "503|418|80|22|&Reiniciar",
+   "offset": "0x4cd6",
+   "kind": "utf16",
+   "rva": "0x5ad6",
+   "va": "0x180005ad6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "`Saia do Windows Media Player e de todos os outros programas antes de continuar com a instala",
+   "offset": "0x4d1c",
+   "kind": "utf16",
+   "rva": "0x5b1c",
+   "va": "0x180005b1c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Outra instala",
+   "offset": "0x4de0",
+   "kind": "utf16",
+   "rva": "0x5be0",
+   "va": "0x180005be0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de programa n",
+   "offset": "0x4dfe",
+   "kind": "utf16",
+   "rva": "0x5bfe",
+   "va": "0x180005bfe",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi conclu",
+   "offset": "0x4e1e",
+   "kind": "utf16",
+   "rva": "0x5c1e",
+   "va": "0x180005c1e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "da. Reinicie o Windows para concluir a instala",
+   "offset": "0x4e38",
+   "kind": "utf16",
+   "rva": "0x5c38",
+   "va": "0x180005c38",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o antes de iniciar outra. Clique em Cancelar, reinicie o Windows e tente instalar o Windows Media Player novamente.",
+   "offset": "0x4e98",
+   "kind": "utf16",
+   "rva": "0x5c98",
+   "va": "0x180005c98",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O Windows pode usar a Interface do Usu",
+   "offset": "0x4f80",
+   "kind": "utf16",
+   "rva": "0x5d80",
+   "va": "0x180005d80",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio Multil",
+   "offset": "0x4fce",
+   "kind": "utf16",
+   "rva": "0x5dce",
+   "va": "0x180005dce",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ngue (MUI). Depois de conclu",
+   "offset": "0x4fe4",
+   "kind": "utf16",
+   "rva": "0x5de4",
+   "va": "0x180005de4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "da a instala",
+   "offset": "0x501e",
+   "kind": "utf16",
+   "rva": "0x5e1e",
+   "va": "0x180005e1e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o, voc",
+   "offset": "0x503a",
+   "kind": "utf16",
+   "rva": "0x5e3a",
+   "va": "0x180005e3a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " instalar os pacotes de idioma apropriados do Windows Media Player para habilitar os recursos de troca de idiomas.",
+   "offset": "0x5056",
+   "kind": "utf16",
+   "rva": "0x5e56",
+   "va": "0x180005e56",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Espa",
+   "offset": "0x513c",
+   "kind": "utf16",
+   "rva": "0x5f3c",
+   "va": "0x180005f3c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o em disco insuficiente",
+   "offset": "0x5146",
+   "kind": "utf16",
+   "rva": "0x5f46",
+   "va": "0x180005f46",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " espa",
+   "offset": "0x5182",
+   "kind": "utf16",
+   "rva": "0x5f82",
+   "va": "0x180005f82",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o livre suficiente no disco para instalar o Windows Media Player. S",
+   "offset": "0x518e",
+   "kind": "utf16",
+   "rva": "0x5f8e",
+   "va": "0x180005f8e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o necess",
+   "offset": "0x5216",
+   "kind": "utf16",
+   "rva": "0x6016",
+   "va": "0x180006016",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rios pelo menos mais %lu MB de espa",
+   "offset": "0x5228",
+   "kind": "utf16",
+   "rva": "0x6028",
+   "va": "0x180006028",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o. Libere espa",
+   "offset": "0x5270",
+   "kind": "utf16",
+   "rva": "0x6070",
+   "va": "0x180006070",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o em seu disco r",
+   "offset": "0x528e",
+   "kind": "utf16",
+   "rva": "0x608e",
+   "va": "0x18000608e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "gido e continue com a instala",
+   "offset": "0x52b0",
+   "kind": "utf16",
+   "rva": "0x60b0",
+   "va": "0x1800060b0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o.BUma vers",
+   "offset": "0x52ee",
+   "kind": "utf16",
+   "rva": "0x60ee",
+   "va": "0x1800060ee",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o mais recente do Windows Media Player j",
+   "offset": "0x5306",
+   "kind": "utf16",
+   "rva": "0x6106",
+   "va": "0x180006106",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " est",
+   "offset": "0x5358",
+   "kind": "utf16",
+   "rva": "0x6158",
+   "va": "0x180006158",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " instalada.",
+   "offset": "0x5362",
+   "kind": "utf16",
+   "rva": "0x6162",
+   "va": "0x180006162",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " uma vers",
+   "offset": "0x537e",
+   "kind": "utf16",
+   "rva": "0x617e",
+   "va": "0x18000617e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o mais recente do Windows Media Player (%s) j",
+   "offset": "0x5392",
+   "kind": "utf16",
+   "rva": "0x6192",
+   "va": "0x180006192",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": " instalada no computador. N",
+   "offset": "0x53ee",
+   "kind": "utf16",
+   "rva": "0x61ee",
+   "va": "0x1800061ee",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel usar um pacote de instala",
+   "offset": "0x5438",
+   "kind": "utf16",
+   "rva": "0x6238",
+   "va": "0x180006238",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o mais antigo (%s) para instalar arquivos ou reparar a vers",
+   "offset": "0x5476",
+   "kind": "utf16",
+   "rva": "0x6276",
+   "va": "0x180006276",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o atual do Player.",
+   "offset": "0x54ee",
+   "kind": "utf16",
+   "rva": "0x62ee",
+   "va": "0x1800062ee",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Privil",
+   "offset": "0x5514",
+   "kind": "utf16",
+   "rva": "0x6314",
+   "va": "0x180006314",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "gios Insuficientes",
+   "offset": "0x5522",
+   "kind": "utf16",
+   "rva": "0x6322",
+   "va": "0x180006322",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Para atualizar o Windows com o Windows Media Player, voc",
+   "offset": "0x5548",
+   "kind": "utf16",
+   "rva": "0x6348",
+   "va": "0x180006348",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " precisa estar conectado neste computador como um administrador ou um membro do grupo Administradores. Clique em Concluir, fa",
+   "offset": "0x55ba",
+   "kind": "utf16",
+   "rva": "0x63ba",
+   "va": "0x1800063ba",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "a logoff do computador e, depois, fa",
+   "offset": "0x56b6",
+   "kind": "utf16",
+   "rva": "0x64b6",
+   "va": "0x1800064b6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "a logon como administrador.EVers",
+   "offset": "0x5700",
+   "kind": "utf16",
+   "rva": "0x6500",
+   "va": "0x180006500",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o da Interface do Usu",
+   "offset": "0x5742",
+   "kind": "utf16",
+   "rva": "0x6542",
+   "va": "0x180006542",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ngue (MUI) do Windows detectada",
+   "offset": "0x5784",
+   "kind": "utf16",
+   "rva": "0x6584",
+   "va": "0x180006584",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel instalar uma vers",
+   "offset": "0x57dc",
+   "kind": "utf16",
+   "rva": "0x65dc",
+   "va": "0x1800065dc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o traduzida do Windows Media Player em um computador que esteja executando uma vers",
+   "offset": "0x5808",
+   "kind": "utf16",
+   "rva": "0x6608",
+   "va": "0x180006608",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows com Interface do Usu",
+   "offset": "0x58b0",
+   "kind": "utf16",
+   "rva": "0x66b0",
+   "va": "0x1800066b0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ngue (MUI). Em vez disso, instale a vers",
+   "offset": "0x590a",
+   "kind": "utf16",
+   "rva": "0x670a",
+   "va": "0x18000670a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o em ingl",
+   "offset": "0x595c",
+   "kind": "utf16",
+   "rva": "0x675c",
+   "va": "0x18000675c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "s do Windows Media Player neste computador e, em seguida, instale os pacotes de idioma apropriados do Windows Media Player para obter os recursos de troca de idiomas.",
+   "offset": "0x5970",
+   "kind": "utf16",
+   "rva": "0x6770",
+   "va": "0x180006770",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "A Restaura",
+   "offset": "0x5abe",
+   "kind": "utf16",
+   "rva": "0x68be",
+   "va": "0x1800068be",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Sistema est",
+   "offset": "0x5ad6",
+   "kind": "utf16",
+   "rva": "0x68d6",
+   "va": "0x1800068d6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " desativada. Se voc",
+   "offset": "0x5af8",
+   "kind": "utf16",
+   "rva": "0x68f8",
+   "va": "0x1800068f8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " continuar com a instala",
+   "offset": "0x5b20",
+   "kind": "utf16",
+   "rva": "0x6920",
+   "va": "0x180006920",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o, n",
+   "offset": "0x5b54",
+   "kind": "utf16",
+   "rva": "0x6954",
+   "va": "0x180006954",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o conseguir",
+   "offset": "0x5b5e",
+   "kind": "utf16",
+   "rva": "0x695e",
+   "va": "0x18000695e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " usar a Restaura",
+   "offset": "0x5b76",
+   "kind": "utf16",
+   "rva": "0x6976",
+   "va": "0x180006976",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Sistema para restaurar a vers",
+   "offset": "0x5b9a",
+   "kind": "utf16",
+   "rva": "0x699a",
+   "va": "0x18000699a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player inclu",
+   "offset": "0x5be0",
+   "kind": "utf16",
+   "rva": "0x69e0",
+   "va": "0x1800069e0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "da na vers",
+   "offset": "0x5c20",
+   "kind": "utf16",
+   "rva": "0x6a20",
+   "va": "0x180006a20",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows em execu",
+   "offset": "0x5c36",
+   "kind": "utf16",
+   "rva": "0x6a36",
+   "va": "0x180006a36",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o no seu computador. ",
+   "offset": "0x5c64",
+   "kind": "utf16",
+   "rva": "0x6a64",
+   "va": "0x180006a64",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " recomend",
+   "offset": "0x5c90",
+   "kind": "utf16",
+   "rva": "0x6a90",
+   "va": "0x180006a90",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel clicar em Cancelar, ativar a Restaura",
+   "offset": "0x5ca4",
+   "kind": "utf16",
+   "rva": "0x6aa4",
+   "va": "0x180006aa4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Sistema e, depois, atualizar para o Windows Media Player. Para obter mais informa",
+   "offset": "0x5cfa",
+   "kind": "utf16",
+   "rva": "0x6afa",
+   "va": "0x180006afa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es sobre a Restaura",
+   "offset": "0x5daa",
+   "kind": "utf16",
+   "rva": "0x6baa",
+   "va": "0x180006baa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Sistema, consulte a Ajuda do Windows. Deseja continuar?",
+   "offset": "0x5dd4",
+   "kind": "utf16",
+   "rva": "0x6bd4",
+   "va": "0x180006bd4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel desativar o modo miniplayer antes de continuar. Para fazer isso, clique com o bot",
+   "offset": "0x5e66",
+   "kind": "utf16",
+   "rva": "0x6c66",
+   "va": "0x180006c66",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o direito do mouse em uma ",
+   "offset": "0x5f12",
+   "kind": "utf16",
+   "rva": "0x6d12",
+   "va": "0x180006d12",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rea vazia da barra de tarefas do Windows, aponte para Barras de Ferramentas e, em seguida, limpe a caixa Windows Media Player.",
+   "offset": "0x5f48",
+   "kind": "utf16",
+   "rva": "0x6d48",
+   "va": "0x180006d48",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "#Download do Software de Loja Online|Antes de usar %s, baixe o software da loja. Clique em Aceito para baixar o software, ou N",
+   "offset": "0x6048",
+   "kind": "utf16",
+   "rva": "0x6e48",
+   "va": "0x180006e48",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o Aceito para cancelar o download.",
+   "offset": "0x6146",
+   "kind": "utf16",
+   "rva": "0x6f46",
+   "va": "0x180006f46",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o Imprim",
+   "offset": "0x619a",
+   "kind": "utf16",
+   "rva": "0x6f9a",
+   "va": "0x180006f9a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "2A instala",
+   "offset": "0x61b4",
+   "kind": "utf16",
+   "rva": "0x6fb4",
+   "va": "0x180006fb4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media j",
+   "offset": "0x61cc",
+   "kind": "utf16",
+   "rva": "0x6fcc",
+   "va": "0x180006fcc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " em execu",
+   "offset": "0x6200",
+   "kind": "utf16",
+   "rva": "0x7000",
+   "va": "0x180007000",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o.,Gerenciador de Configura",
+   "offset": "0x6216",
+   "kind": "utf16",
+   "rva": "0x7016",
+   "va": "0x180007016",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows MediaqEsta vers",
+   "offset": "0x6250",
+   "kind": "utf16",
+   "rva": "0x7050",
+   "va": "0x180007050",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player pode ser instalada somente em um computador com o Windows XP Service Pack 2.",
+   "offset": "0x628a",
+   "kind": "utf16",
+   "rva": "0x708a",
+   "va": "0x18000708a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vErro inesperado. A instala",
+   "offset": "0x6358",
+   "kind": "utf16",
+   "rva": "0x7158",
+   "va": "0x180007158",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o conseguiu detectar nenhuma atualiza",
+   "offset": "0x639a",
+   "kind": "utf16",
+   "rva": "0x719a",
+   "va": "0x18000719a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media. Tente novamente mais tarde.",
+   "offset": "0x63e8",
+   "kind": "utf16",
+   "rva": "0x71e8",
+   "va": "0x1800071e8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O computador est",
+   "offset": "0x644a",
+   "kind": "utf16",
+   "rva": "0x724a",
+   "va": "0x18000724a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " executando a vers",
+   "offset": "0x646c",
+   "kind": "utf16",
+   "rva": "0x726c",
+   "va": "0x18000726c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o mais recente do Windows Media Player e todos os seus componentes. N",
+   "offset": "0x6492",
+   "kind": "utf16",
+   "rva": "0x7292",
+   "va": "0x180007292",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " atualiza",
+   "offset": "0x6526",
+   "kind": "utf16",
+   "rva": "0x7326",
+   "va": "0x180007326",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel no momento.#A instala",
+   "offset": "0x654e",
+   "kind": "utf16",
+   "rva": "0x734e",
+   "va": "0x18000734e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o est",
+   "offset": "0x6584",
+   "kind": "utf16",
+   "rva": "0x7384",
+   "va": "0x180007384",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " sendo iniciada...",
+   "offset": "0x6590",
+   "kind": "utf16",
+   "rva": "0x7390",
+   "va": "0x180007390",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "%s (%lu de %lu itens)",
+   "offset": "0x65b6",
+   "kind": "utf16",
+   "rva": "0x73b6",
+   "va": "0x1800073b6",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi poss",
+   "offset": "0x65e6",
+   "kind": "utf16",
+   "rva": "0x73e6",
+   "va": "0x1800073e6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel concluir a Instala",
+   "offset": "0x65fc",
+   "kind": "utf16",
+   "rva": "0x73fc",
+   "va": "0x1800073fc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o porque o servidor de atualiza",
+   "offset": "0x662c",
+   "kind": "utf16",
+   "rva": "0x742c",
+   "va": "0x18000742c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o estava dispon",
+   "offset": "0x6678",
+   "kind": "utf16",
+   "rva": "0x7478",
+   "va": "0x180007478",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel. O Windows Media Player n",
+   "offset": "0x6698",
+   "kind": "utf16",
+   "rva": "0x7498",
+   "va": "0x180007498",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado.",
+   "offset": "0x66d4",
+   "kind": "utf16",
+   "rva": "0x74d4",
+   "va": "0x1800074d4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Falha ao baixar um ou mais componentes opcionais. Outros arquivos j",
+   "offset": "0x66f6",
+   "kind": "utf16",
+   "rva": "0x74f6",
+   "va": "0x1800074f6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " baixados podem ser instalados com seguran",
+   "offset": "0x677e",
+   "kind": "utf16",
+   "rva": "0x757e",
+   "va": "0x18000757e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "a. Deseja instalar esses arquivos agora?1Configurando o ponto de Restaura",
+   "offset": "0x67d4",
+   "kind": "utf16",
+   "rva": "0x75d4",
+   "va": "0x1800075d4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Sistema...WN",
+   "offset": "0x686a",
+   "kind": "utf16",
+   "rva": "0x766a",
+   "va": "0x18000766a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o. Para obter assist",
+   "offset": "0x68d4",
+   "kind": "utf16",
+   "rva": "0x76d4",
+   "va": "0x1800076d4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ncia, clique em Ajuda na Web.$O Windows foi atualizado com sucesso",
+   "offset": "0x68fe",
+   "kind": "utf16",
+   "rva": "0x76fe",
+   "va": "0x1800076fe",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o; o Windows Media Player n",
+   "offset": "0x69ce",
+   "kind": "utf16",
+   "rva": "0x77ce",
+   "va": "0x1800077ce",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado. Reinicie o Windows e execute a Instala",
+   "offset": "0x6a06",
+   "kind": "utf16",
+   "rva": "0x7806",
+   "va": "0x180007806",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player novamente.sO Windows Media Player requer %lu MB. A atualiza",
+   "offset": "0x6a78",
+   "kind": "utf16",
+   "rva": "0x7878",
+   "va": "0x180007878",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o levar",
+   "offset": "0x6b26",
+   "kind": "utf16",
+   "rva": "0x7926",
+   "va": "0x180007926",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " aproximadamente %lu minutos em uma conex",
+   "offset": "0x6b36",
+   "kind": "utf16",
+   "rva": "0x7936",
+   "va": "0x180007936",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de 28,8 KBps.1Seu administrador de rede desativou este recurso.",
+   "offset": "0x6b8a",
+   "kind": "utf16",
+   "rva": "0x798a",
+   "va": "0x18000798a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Os seguintes programas dependem do Windows Media Player para serem executados de forma apropriada e devem ser removidos antes de voc",
+   "offset": "0x6c0e",
+   "kind": "utf16",
+   "rva": "0x7a0e",
+   "va": "0x180007a0e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " reverter para uma vers",
+   "offset": "0x6d18",
+   "kind": "utf16",
+   "rva": "0x7b18",
+   "va": "0x180007b18",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o anterior do Player. A Instala",
+   "offset": "0x6d48",
+   "kind": "utf16",
+   "rva": "0x7b48",
+   "va": "0x180007b48",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " encerrada sem fazer nenhuma altera",
+   "offset": "0x6d96",
+   "kind": "utf16",
+   "rva": "0x7b96",
+   "va": "0x180007b96",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o em seu computador.",
+   "offset": "0x6de0",
+   "kind": "utf16",
+   "rva": "0x7be0",
+   "va": "0x180007be0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O Windows Media Player est",
+   "offset": "0x6e0a",
+   "kind": "utf16",
+   "rva": "0x7c0a",
+   "va": "0x180007c0a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " sendo usado por outros componentes deste computador; ",
+   "offset": "0x6e40",
+   "kind": "utf16",
+   "rva": "0x7c40",
+   "va": "0x180007c40",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel n",
+   "offset": "0x6ec2",
+   "kind": "utf16",
+   "rva": "0x7cc2",
+   "va": "0x180007cc2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o fazer a revers",
+   "offset": "0x6ece",
+   "kind": "utf16",
+   "rva": "0x7cce",
+   "va": "0x180007cce",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o neste momento. Tem certeza de que deseja reverter o Player?",
+   "offset": "0x6ef0",
+   "kind": "utf16",
+   "rva": "0x7cf0",
+   "va": "0x180007cf0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Obrigado por instalar o Media Player multifuncional! Descubra novas formas de entretenimento digital, execute-as e leve-as com voc",
+   "offset": "0x6f6c",
+   "kind": "utf16",
+   "rva": "0x7d6c",
+   "va": "0x180007d6c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " a qualquer lugar, nos diversos players port",
+   "offset": "0x7072",
+   "kind": "utf16",
+   "rva": "0x7e72",
+   "va": "0x180007e72",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "teis e em computadores com o Windows XP.",
+   "offset": "0x70cc",
+   "kind": "utf16",
+   "rva": "0x7ecc",
+   "va": "0x180007ecc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Durante a instala",
+   "offset": "0x7122",
+   "kind": "utf16",
+   "rva": "0x7f22",
+   "va": "0x180007f22",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o, o Windows Media Player ser",
+   "offset": "0x7148",
+   "kind": "utf16",
+   "rva": "0x7f48",
+   "va": "0x180007f48",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " definido como o player padr",
+   "offset": "0x7184",
+   "kind": "utf16",
+   "rva": "0x7f84",
+   "va": "0x180007f84",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para executar seu conte",
+   "offset": "0x71be",
+   "kind": "utf16",
+   "rva": "0x7fbe",
+   "va": "0x180007fbe",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do de m",
+   "offset": "0x71f2",
+   "kind": "utf16",
+   "rva": "0x7ff2",
+   "va": "0x180007ff2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia digital, como m",
+   "offset": "0x7202",
+   "kind": "utf16",
+   "rva": "0x8002",
+   "va": "0x180008002",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "sicas, v",
+   "offset": "0x722a",
+   "kind": "utf16",
+   "rva": "0x802a",
+   "va": "0x18000802a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deos, programas de TV, CDs e DVDs. Esse processo de instala",
+   "offset": "0x723c",
+   "kind": "utf16",
+   "rva": "0x803c",
+   "va": "0x18000803c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o permite que voc",
+   "offset": "0x72b6",
+   "kind": "utf16",
+   "rva": "0x80b6",
+   "va": "0x1800080b6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " personalize os padr",
+   "offset": "0x72da",
+   "kind": "utf16",
+   "rva": "0x80da",
+   "va": "0x1800080da",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es e outras op",
+   "offset": "0x7304",
+   "kind": "utf16",
+   "rva": "0x8104",
+   "va": "0x180008104",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de instala",
+   "offset": "0x7324",
+   "kind": "utf16",
+   "rva": "0x8124",
+   "va": "0x180008124",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " prestes a alterar as configura",
+   "offset": "0x735a",
+   "kind": "utf16",
+   "rva": "0x815a",
+   "va": "0x18000815a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de privacidade que afetar",
+   "offset": "0x739c",
+   "kind": "utf16",
+   "rva": "0x819c",
+   "va": "0x18000819c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o a maneira como os cookies s",
+   "offset": "0x73d6",
+   "kind": "utf16",
+   "rva": "0x81d6",
+   "va": "0x1800081d6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o tratados no Windows Media Player e em qualquer outro programa que dependa dessas configura",
+   "offset": "0x7412",
+   "kind": "utf16",
+   "rva": "0x8212",
+   "va": "0x180008212",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de privacidade.",
+   "offset": "0x74ce",
+   "kind": "utf16",
+   "rva": "0x82ce",
+   "va": "0x1800082ce",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O Player usa a plataforma da Internet para comunicar informa",
+   "offset": "0x74f6",
+   "kind": "utf16",
+   "rva": "0x82f6",
+   "va": "0x1800082f6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de conex",
+   "offset": "0x7572",
+   "kind": "utf16",
+   "rva": "0x8372",
+   "va": "0x180008372",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o com os servidores durante o streaming. Essas informa",
+   "offset": "0x758a",
+   "kind": "utf16",
+   "rva": "0x838a",
+   "va": "0x18000838a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es s",
+   "offset": "0x75fa",
+   "kind": "utf16",
+   "rva": "0x83fa",
+   "va": "0x1800083fa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o usadas por provedores de conte",
+   "offset": "0x7604",
+   "kind": "utf16",
+   "rva": "0x8404",
+   "va": "0x180008404",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do para fornecer servi",
+   "offset": "0x7646",
+   "kind": "utf16",
+   "rva": "0x8446",
+   "va": "0x180008446",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "os. Modificar suas configura",
+   "offset": "0x7674",
+   "kind": "utf16",
+   "rva": "0x8474",
+   "va": "0x180008474",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de cookie afetar",
+   "offset": "0x76b0",
+   "kind": "utf16",
+   "rva": "0x84b0",
+   "va": "0x1800084b0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " a maneira como as informa",
+   "offset": "0x76d8",
+   "kind": "utf16",
+   "rva": "0x84d8",
+   "va": "0x1800084d8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o enviadas aos servidores.",
+   "offset": "0x771a",
+   "kind": "utf16",
+   "rva": "0x851a",
+   "va": "0x18000851a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": ",http://go.microsoft.com/fwlink/?linkid=47486-http://go.microsoft.com/fwlink/?LinkId=120762IUma atualiza",
+   "offset": "0x7750",
+   "kind": "utf16",
+   "rva": "0x8550",
+   "va": "0x180008550",
+   "tags": [
+    "url",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media est",
+   "offset": "0x7824",
+   "kind": "utf16",
+   "rva": "0x8624",
+   "va": "0x180008624",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " dispon",
+   "offset": "0x7852",
+   "kind": "utf16",
+   "rva": "0x8652",
+   "va": "0x180008652",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel. Deseja atualizar agora?;O(s) formato(s) %s inclui(em) arquivos com as extens",
+   "offset": "0x7862",
+   "kind": "utf16",
+   "rva": "0x8662",
+   "va": "0x180008662",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es %s.",
+   "offset": "0x7906",
+   "kind": "utf16",
+   "rva": "0x8706",
+   "va": "0x180008706",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Declara",
+   "offset": "0x7940",
+   "kind": "utf16",
+   "rva": "0x8740",
+   "va": "0x180008740",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de Privacidade",
+   "offset": "0x7952",
+   "kind": "utf16",
+   "rva": "0x8752",
+   "va": "0x180008752",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o tratados em qualquer outro programa que dependa dessas configura",
+   "offset": "0x7a3e",
+   "kind": "utf16",
+   "rva": "0x883e",
+   "va": "0x18000883e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O Windows Media Player usa a plataforma da Internet para se comunicar com servidores que transmitem conte",
+   "offset": "0x7ad0",
+   "kind": "utf16",
+   "rva": "0x88d0",
+   "va": "0x1800088d0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do e com provedores de conte",
+   "offset": "0x7ba4",
+   "kind": "utf16",
+   "rva": "0x89a4",
+   "va": "0x1800089a4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do. A modifica",
+   "offset": "0x7bde",
+   "kind": "utf16",
+   "rva": "0x89de",
+   "va": "0x1800089de",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o das configura",
+   "offset": "0x7bfe",
+   "kind": "utf16",
+   "rva": "0x89fe",
+   "va": "0x1800089fe",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " o conte",
+   "offset": "0x7c48",
+   "kind": "utf16",
+   "rva": "0x8a48",
+   "va": "0x180008a48",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do que voc",
+   "offset": "0x7c5a",
+   "kind": "utf16",
+   "rva": "0x8a5a",
+   "va": "0x180008a5a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " pode acessar.",
+   "offset": "0x7c70",
+   "kind": "utf16",
+   "rva": "0x8a70",
+   "va": "0x180008a70",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "YSelecione os tipos de arquivo que deseja que o Windows Media Player reproduza por padr",
+   "offset": "0x7c8e",
+   "kind": "utf16",
+   "rva": "0x8a8e",
+   "va": "0x180008a8e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o.{O Windows Media Player n",
+   "offset": "0x7d3e",
+   "kind": "utf16",
+   "rva": "0x8b3e",
+   "va": "0x180008b3e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado. Para atualizar o Windows, execute a instala",
+   "offset": "0x7d76",
+   "kind": "utf16",
+   "rva": "0x8b76",
+   "va": "0x180008b76",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player novamente.",
+   "offset": "0x7df2",
+   "kind": "utf16",
+   "rva": "0x8bf2",
+   "va": "0x180008bf2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Para que suas altera",
+   "offset": "0x7e3c",
+   "kind": "utf16",
+   "rva": "0x8c3c",
+   "va": "0x180008c3c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es tenham efeito, voc",
+   "offset": "0x7e68",
+   "kind": "utf16",
+   "rva": "0x8c68",
+   "va": "0x180008c68",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " precisa reiniciar o Windows. Salve seu trabalho e feche todos os programas. Em seguida, clique em Reiniciar para reiniciar o Windows.",
+   "offset": "0x7e94",
+   "kind": "utf16",
+   "rva": "0x8c94",
+   "va": "0x180008c94",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FW_BOLD",
+   "offset": "0x7fa2",
+   "kind": "utf16",
+   "rva": "0x8da2",
+   "va": "0x180008da2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Italic",
+   "offset": "0x7fb2",
+   "kind": "utf16",
+   "rva": "0x8db2",
+   "va": "0x180008db2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LEFT",
+   "offset": "0x7fcc",
+   "kind": "utf16",
+   "rva": "0x8dcc",
+   "va": "0x180008dcc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "\"Revers",
+   "offset": "0x7fdc",
+   "kind": "utf16",
+   "rva": "0x8ddc",
+   "va": "0x180008ddc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o em andamento. Aguarde ...",
+   "offset": "0x7fec",
+   "kind": "utf16",
+   "rva": "0x8dec",
+   "va": "0x180008dec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Revers",
+   "offset": "0x8024",
+   "kind": "utf16",
+   "rva": "0x8e24",
+   "va": "0x180008e24",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " - revers",
+   "offset": "0x8058",
+   "kind": "utf16",
+   "rva": "0x8e58",
+   "va": "0x180008e58",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o conclu",
+   "offset": "0x806c",
+   "kind": "utf16",
+   "rva": "0x8e6c",
+   "va": "0x180008e6c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "da. Para que suas altera",
+   "offset": "0x807e",
+   "kind": "utf16",
+   "rva": "0x8e7e",
+   "va": "0x180008e7e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es entrem em vigor, ",
+   "offset": "0x80b2",
+   "kind": "utf16",
+   "rva": "0x8eb2",
+   "va": "0x180008eb2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " necess",
+   "offset": "0x80dc",
+   "kind": "utf16",
+   "rva": "0x8edc",
+   "va": "0x180008edc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio reiniciar o Windows. Salve seu trabalho, saia de todos os programas e, em seguida, reinicie o Windows.",
+   "offset": "0x80ec",
+   "kind": "utf16",
+   "rva": "0x8eec",
+   "va": "0x180008eec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " - falha na revers",
+   "offset": "0x81c2",
+   "kind": "utf16",
+   "rva": "0x8fc2",
+   "va": "0x180008fc2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio reiniciar o Windows. Se desejar reiniciar agora, primeiro salve seu trabalho e saia de todos os programas.",
+   "offset": "0x8200",
+   "kind": "utf16",
+   "rva": "0x9000",
+   "va": "0x180009000",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Windows Media Player,Informa",
+   "offset": "0x82de",
+   "kind": "utf16",
+   "rva": "0x90de",
+   "va": "0x1800090de",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Windows Media Player Beta.Tempo de Execu",
+   "offset": "0x8362",
+   "kind": "utf16",
+   "rva": "0x9162",
+   "va": "0x180009162",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Format Beta",
+   "offset": "0x83b6",
+   "kind": "utf16",
+   "rva": "0x91b6",
+   "va": "0x1800091b6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Windows Media Player Beta",
+   "offset": "0x83f4",
+   "kind": "utf16",
+   "rva": "0x91f4",
+   "va": "0x1800091f4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "1=Aguarde enquanto a instala",
+   "offset": "0x8428",
+   "kind": "utf16",
+   "rva": "0x9228",
+   "va": "0x180009228",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o procura por atualiza",
+   "offset": "0x8464",
+   "kind": "utf16",
+   "rva": "0x9264",
+   "va": "0x180009264",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es online!Bem-Vindo ao Windows Media Player",
+   "offset": "0x8494",
+   "kind": "utf16",
+   "rva": "0x9294",
+   "va": "0x180009294",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "A maneira f",
+   "offset": "0x84ec",
+   "kind": "utf16",
+   "rva": "0x92ec",
+   "va": "0x1800092ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "cil de descobrir, reproduzir e levar todo o seu entretenimento digital com voc",
+   "offset": "0x8504",
+   "kind": "utf16",
+   "rva": "0x9304",
+   "va": "0x180009304",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": ". Aproveite ao m",
+   "offset": "0x85a2",
+   "kind": "utf16",
+   "rva": "0x93a2",
+   "va": "0x1800093a2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ximo suas m",
+   "offset": "0x85c4",
+   "kind": "utf16",
+   "rva": "0x93c4",
+   "va": "0x1800093c4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deos digitais e muito mais.,http://go.microsoft.com/fwlink/?linkid=44073",
+   "offset": "0x85ee",
+   "kind": "utf16",
+   "rva": "0x93ee",
+   "va": "0x1800093ee",
+   "tags": [
+    "url",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "da com alguns erros. ",
+   "offset": "0x86a6",
+   "kind": "utf16",
+   "rva": "0x94a6",
+   "va": "0x1800094a6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Alguns direitos de uso de m",
+   "offset": "0x86d4",
+   "kind": "utf16",
+   "rva": "0x94d4",
+   "va": "0x1800094d4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia existentes n",
+   "offset": "0x870e",
+   "kind": "utf16",
+   "rva": "0x950e",
+   "va": "0x18000950e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foram movidos corretamente, o que pode impedir a reprodu",
+   "offset": "0x8730",
+   "kind": "utf16",
+   "rva": "0x9530",
+   "va": "0x180009530",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de alguns arquivos protegidos. ",
+   "offset": "0x87a8",
+   "kind": "utf16",
+   "rva": "0x95a8",
+   "va": "0x1800095a8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " A Instala",
+   "offset": "0x87ee",
+   "kind": "utf16",
+   "rva": "0x95ee",
+   "va": "0x1800095ee",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o conseguiu copiar alguns dos arquivos da lista de reprodu",
+   "offset": "0x880e",
+   "kind": "utf16",
+   "rva": "0x960e",
+   "va": "0x18000960e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o ou todos eles.mO Windows Media Player foi instalado com ",
+   "offset": "0x8886",
+   "kind": "utf16",
+   "rva": "0x9686",
+   "va": "0x180009686",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "xito. No entanto, ocorreram os erros a seguir durante a instala",
+   "offset": "0x88fc",
+   "kind": "utf16",
+   "rva": "0x96fc",
+   "va": "0x1800096fc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o.-http://go.microsoft.com/fwlink/?linkid=120722) Definir %s como minha loja online ativa.) Definir %s como minha loja online ativa.",
+   "offset": "0x897e",
+   "kind": "utf16",
+   "rva": "0x977e",
+   "va": "0x18000977e",
+   "tags": [
+    "url",
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Personalizar configura",
+   "offset": "0x8a88",
+   "kind": "utf16",
+   "rva": "0x9888",
+   "va": "0x180009888",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de reprodu",
+   "offset": "0x8ab8",
+   "kind": "utf16",
+   "rva": "0x98b8",
+   "va": "0x1800098b8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o, privacidade e lojas online. Selecione esta op",
+   "offset": "0x8ad6",
+   "kind": "utf16",
+   "rva": "0x98d6",
+   "va": "0x1800098d6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o se desejar revisar ou alterar as configura",
+   "offset": "0x8b3a",
+   "kind": "utf16",
+   "rva": "0x993a",
+   "va": "0x18000993a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es da vers",
+   "offset": "0x8b96",
+   "kind": "utf16",
+   "rva": "0x9996",
+   "va": "0x180009996",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o anterior do Player.",
+   "offset": "0x8bac",
+   "kind": "utf16",
+   "rva": "0x99ac",
+   "va": "0x1800099ac",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do %s conclu",
+   "offset": "0x8bea",
+   "kind": "utf16",
+   "rva": "0x99ea",
+   "va": "0x1800099ea",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "da-Migrando a Biblioteca do Windows Media Player",
+   "offset": "0x8c08",
+   "kind": "utf16",
+   "rva": "0x9a08",
+   "va": "0x180009a08",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " revers",
+   "offset": "0x8c9c",
+   "kind": "utf16",
+   "rva": "0x9a9c",
+   "va": "0x180009a9c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "da.kO Windows Media Player ser",
+   "offset": "0x8cbe",
+   "kind": "utf16",
+   "rva": "0x9abe",
+   "va": "0x180009abe",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " revertido para a vers",
+   "offset": "0x8cfc",
+   "kind": "utf16",
+   "rva": "0x9afc",
+   "va": "0x180009afc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o anterior instalada em seu computador. Deseja continuar?",
+   "offset": "0x8d2a",
+   "kind": "utf16",
+   "rva": "0x9b2a",
+   "va": "0x180009b2a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio reiniciar o Windows agora. Salve seu trabalho, saia de todos os programas e, em seguida, reinicie o Windows.",
+   "offset": "0x8db2",
+   "kind": "utf16",
+   "rva": "0x9bb2",
+   "va": "0x180009bb2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Para reverter para a vers",
+   "offset": "0x8ec0",
+   "kind": "utf16",
+   "rva": "0x9cc0",
+   "va": "0x180009cc0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o anterior do Windows Media Player que havia no computador, voc",
+   "offset": "0x8ef4",
+   "kind": "utf16",
+   "rva": "0x9cf4",
+   "va": "0x180009cf4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " deve ter feito logon no computador como administrador ou membro do grupo Administradores. Clique em OK, fa",
+   "offset": "0x8f74",
+   "kind": "utf16",
+   "rva": "0x9d74",
+   "va": "0x180009d74",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "a logoff do computador e fa",
+   "offset": "0x904c",
+   "kind": "utf16",
+   "rva": "0x9e4c",
+   "va": "0x180009e4c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "a logon como administrador.4Depend",
+   "offset": "0x9084",
+   "kind": "utf16",
+   "rva": "0x9e84",
+   "va": "0x180009e84",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ncias de programa est",
+   "offset": "0x90ca",
+   "kind": "utf16",
+   "rva": "0x9eca",
+   "va": "0x180009eca",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o impedindo a revers",
+   "offset": "0x90f6",
+   "kind": "utf16",
+   "rva": "0x9ef6",
+   "va": "0x180009ef6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Os seguintes programas dependem desta vers",
+   "offset": "0x9126",
+   "kind": "utf16",
+   "rva": "0x9f26",
+   "va": "0x180009f26",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Tempo de Execu",
+   "offset": "0x917c",
+   "kind": "utf16",
+   "rva": "0x9f7c",
+   "va": "0x180009f7c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Format para serem executados de forma apropriada e devem ser removidos antes de voc",
+   "offset": "0x91a6",
+   "kind": "utf16",
+   "rva": "0x9fa6",
+   "va": "0x180009fa6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " reverter para a vers",
+   "offset": "0x9274",
+   "kind": "utf16",
+   "rva": "0xa074",
+   "va": "0x18000a074",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o anterior do Tempo de Execu",
+   "offset": "0x92a0",
+   "kind": "utf16",
+   "rva": "0xa0a0",
+   "va": "0x18000a0a0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de Formata",
+   "offset": "0x92dc",
+   "kind": "utf16",
+   "rva": "0xa0dc",
+   "va": "0x18000a0dc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media. A instala",
+   "offset": "0x92f8",
+   "kind": "utf16",
+   "rva": "0xa0f8",
+   "va": "0x18000a0f8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " encerrada sem fazer quaisquer altera",
+   "offset": "0x9342",
+   "kind": "utf16",
+   "rva": "0xa142",
+   "va": "0x18000a142",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es em seu computador.",
+   "offset": "0x9390",
+   "kind": "utf16",
+   "rva": "0xa190",
+   "va": "0x18000a190",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O Tempo de Execu",
+   "offset": "0x93bc",
+   "kind": "utf16",
+   "rva": "0xa1bc",
+   "va": "0x18000a1bc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Format ser",
+   "offset": "0x93e0",
+   "kind": "utf16",
+   "rva": "0xa1e0",
+   "va": "0x18000a1e0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " reverter o Tempo de Execu",
+   "offset": "0x94cc",
+   "kind": "utf16",
+   "rva": "0xa2cc",
+   "va": "0x18000a2cc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media para a vers",
+   "offset": "0x9520",
+   "kind": "utf16",
+   "rva": "0xa320",
+   "va": "0x18000a320",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o anterior que havia no computador, outros programas que exigem o Tempo de Execu",
+   "offset": "0x955e",
+   "kind": "utf16",
+   "rva": "0xa35e",
+   "va": "0x18000a35e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o poder",
+   "offset": "0x9602",
+   "kind": "utf16",
+   "rva": "0xa402",
+   "va": "0x18000a402",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "-los novamente. Tem certeza de que deseja continuar?",
+   "offset": "0x9682",
+   "kind": "utf16",
+   "rva": "0xa482",
+   "va": "0x18000a482",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media para uma vers",
+   "offset": "0x974e",
+   "kind": "utf16",
+   "rva": "0xa54e",
+   "va": "0x18000a54e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o anterior, os direitos de uso de m",
+   "offset": "0x9790",
+   "kind": "utf16",
+   "rva": "0xa590",
+   "va": "0x18000a590",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia dos arquivos protegidos ser",
+   "offset": "0x97d8",
+   "kind": "utf16",
+   "rva": "0xa5d8",
+   "va": "0x18000a5d8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o exclu",
+   "offset": "0x9818",
+   "kind": "utf16",
+   "rva": "0xa618",
+   "va": "0x18000a618",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dos. Talvez voc",
+   "offset": "0x9828",
+   "kind": "utf16",
+   "rva": "0xa628",
+   "va": "0x18000a628",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " possa baixar novos direitos de uso de m",
+   "offset": "0x9848",
+   "kind": "utf16",
+   "rva": "0xa648",
+   "va": "0x18000a648",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia para alguns arquivos, mas n",
+   "offset": "0x989a",
+   "kind": "utf16",
+   "rva": "0xa69a",
+   "va": "0x18000a69a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel reproduzir arquivos que exijam a vers",
+   "offset": "0x98f2",
+   "kind": "utf16",
+   "rva": "0xa6f2",
+   "va": "0x18000a6f2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o mais recente do Tempo de Execu",
+   "offset": "0x9946",
+   "kind": "utf16",
+   "rva": "0xa746",
+   "va": "0x18000a746",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media.\"&Deseja prosseguir com a revers",
+   "offset": "0x99a6",
+   "kind": "utf16",
+   "rva": "0xa7a6",
+   "va": "0x18000a7a6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o?4Depend",
+   "offset": "0x9a0e",
+   "kind": "utf16",
+   "rva": "0xa80e",
+   "va": "0x18000a80e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Talvez seja necess",
+   "offset": "0x9a7e",
+   "kind": "utf16",
+   "rva": "0xa87e",
+   "va": "0x18000a87e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio remover e, em seguida, instalar os seguintes programas novamente quando a revers",
+   "offset": "0x9aa4",
+   "kind": "utf16",
+   "rva": "0xa8a4",
+   "va": "0x18000a8a4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o tiver sido conclu",
+   "offset": "0x9b4e",
+   "kind": "utf16",
+   "rva": "0xa94e",
+   "va": "0x18000a94e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " instalando uma vers",
+   "offset": "0x9b9e",
+   "kind": "utf16",
+   "rva": "0xa99e",
+   "va": "0x18000a99e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o beta do Windows Media Player. Antes de instal",
+   "offset": "0x9bc8",
+   "kind": "utf16",
+   "rva": "0xa9c8",
+   "va": "0x18000a9c8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "-la, o programa de instala",
+   "offset": "0x9c28",
+   "kind": "utf16",
+   "rva": "0xaa28",
+   "va": "0x18000aa28",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o ir",
+   "offset": "0x9c60",
+   "kind": "utf16",
+   "rva": "0xaa60",
+   "va": "0x18000aa60",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " procurar pela vers",
+   "offset": "0x9c6a",
+   "kind": "utf16",
+   "rva": "0xaa6a",
+   "va": "0x18000aa6a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o final do Player. Se estiver dispon",
+   "offset": "0x9c92",
+   "kind": "utf16",
+   "rva": "0xaa92",
+   "va": "0x18000aa92",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel, a vers",
+   "offset": "0x9cdc",
+   "kind": "utf16",
+   "rva": "0xaadc",
+   "va": "0x18000aadc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o final ser",
+   "offset": "0x9cf4",
+   "kind": "utf16",
+   "rva": "0xaaf4",
+   "va": "0x18000aaf4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " instalada, em vez da vers",
+   "offset": "0x9d0c",
+   "kind": "utf16",
+   "rva": "0xab0c",
+   "va": "0x18000ab0c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o beta. Clique em Sim para procurar uma atualiza",
+   "offset": "0x9d42",
+   "kind": "utf16",
+   "rva": "0xab42",
+   "va": "0x18000ab42",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o ou clique em N",
+   "offset": "0x9da6",
+   "kind": "utf16",
+   "rva": "0xaba6",
+   "va": "0x18000aba6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para sair da instala",
+   "offset": "0x9dc8",
+   "kind": "utf16",
+   "rva": "0xabc8",
+   "va": "0x18000abc8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "A vers",
+   "offset": "0x9dfe",
+   "kind": "utf16",
+   "rva": "0xabfe",
+   "va": "0x18000abfe",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player sendo instalada n",
+   "offset": "0x9e0c",
+   "kind": "utf16",
+   "rva": "0xac0c",
+   "va": "0x18000ac0c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o coincide com o idioma do Player atualmente instalado. No futuro, deseja procurar por atualiza",
+   "offset": "0x9e64",
+   "kind": "utf16",
+   "rva": "0xac64",
+   "va": "0x18000ac64",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es no idioma do seu Player atualmente instalado? Clique em Sim para procurar por atualiza",
+   "offset": "0x9f26",
+   "kind": "utf16",
+   "rva": "0xad26",
+   "va": "0x18000ad26",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es no idioma do Player instalado no futuro; clique em N",
+   "offset": "0x9fdc",
+   "kind": "utf16",
+   "rva": "0xaddc",
+   "va": "0x18000addc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para procurar por atualiza",
+   "offset": "0xa04c",
+   "kind": "utf16",
+   "rva": "0xae4c",
+   "va": "0x18000ae4c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es no idioma do Player que voc",
+   "offset": "0xa088",
+   "kind": "utf16",
+   "rva": "0xae88",
+   "va": "0x18000ae88",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " instalando.",
+   "offset": "0xa0d0",
+   "kind": "utf16",
+   "rva": "0xaed0",
+   "va": "0x18000aed0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Para executar a instala",
+   "offset": "0xa0ea",
+   "kind": "utf16",
+   "rva": "0xaeea",
+   "va": "0x18000aeea",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " precisa ter feito o logon neste computador como um administrador ou um membro do grupo Administradores. Clique em Concluir, fa",
+   "offset": "0xa12a",
+   "kind": "utf16",
+   "rva": "0xaf2a",
+   "va": "0x18000af2a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "a logoff do computador e depois fa",
+   "offset": "0xa22a",
+   "kind": "utf16",
+   "rva": "0xb02a",
+   "va": "0x18000b02a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "a logon como administrador.",
+   "offset": "0xa270",
+   "kind": "utf16",
+   "rva": "0xb070",
+   "va": "0x18000b070",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Uma atualiza",
+   "offset": "0xa2a8",
+   "kind": "utf16",
+   "rva": "0xb0a8",
+   "va": "0x18000b0a8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel. Deseja atualizar agora? Clique em Sim para baixar e instalar a atualiza",
+   "offset": "0xa302",
+   "kind": "utf16",
+   "rva": "0xb102",
+   "va": "0x18000b102",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para sair da Instala",
+   "offset": "0xa3c0",
+   "kind": "utf16",
+   "rva": "0xb1c0",
+   "va": "0x18000b1c0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " deve reiniciar o Windows para prosseguir com a revers",
+   "offset": "0xa3fc",
+   "kind": "utf16",
+   "rva": "0xb1fc",
+   "va": "0x18000b1fc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o. Salve seu trabalho, feche todos os programas e, em seguida, reinicie o Windows.gVoc",
+   "offset": "0xa46a",
+   "kind": "utf16",
+   "rva": "0xb26a",
+   "va": "0x18000b26a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " deve fechar o Windows Media Player e todos os outros programas antes de prosseguir com a revers",
+   "offset": "0xa518",
+   "kind": "utf16",
+   "rva": "0xb318",
+   "va": "0x18000b318",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Alguns direitos de uso de m",
+   "offset": "0xa5e8",
+   "kind": "utf16",
+   "rva": "0xb3e8",
+   "va": "0x18000b3e8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia n",
+   "offset": "0xa620",
+   "kind": "utf16",
+   "rva": "0xb420",
+   "va": "0x18000b420",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foram movidos corretamente. Isso pode impedir a execu",
+   "offset": "0xa62c",
+   "kind": "utf16",
+   "rva": "0xb42c",
+   "va": "0x18000b42c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de alguns dos arquivos protegidos. Para resolver o problema, tente reiniciar o Windows e executar a Instala",
+   "offset": "0xa69e",
+   "kind": "utf16",
+   "rva": "0xb49e",
+   "va": "0x18000b49e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Obrigado por instalar este media player completo. Com ele, voc",
+   "offset": "0xa7f6",
+   "kind": "utf16",
+   "rva": "0xb5f6",
+   "va": "0x18000b5f6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " pode descobrir, reproduzir e levar divers",
+   "offset": "0xa874",
+   "kind": "utf16",
+   "rva": "0xb674",
+   "va": "0x18000b674",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o digital para qualquer lugar, e pode acess",
+   "offset": "0xa8ca",
+   "kind": "utf16",
+   "rva": "0xb6ca",
+   "va": "0x18000b6ca",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "-lo tanto em players port",
+   "offset": "0xa922",
+   "kind": "utf16",
+   "rva": "0xb722",
+   "va": "0x18000b722",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "teis dos mais variados tipos quanto em computadores que executam o Windows Vista.",
+   "offset": "0xa956",
+   "kind": "utf16",
+   "rva": "0xb756",
+   "va": "0x18000b756",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "veis no Player.J Clique no bot",
+   "offset": "0xabc8",
+   "kind": "utf16",
+   "rva": "0xb9c8",
+   "va": "0x18000b9c8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para exibir a declara",
+   "offset": "0xac06",
+   "kind": "utf16",
+   "rva": "0xba06",
+   "va": "0x18000ba06",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de privacidade online do Player.",
+   "offset": "0xac38",
+   "kind": "utf16",
+   "rva": "0xba38",
+   "va": "0x18000ba38",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Escolha uma Loja Online`Escolha a loja online que deseja configurar agora. Voc",
+   "offset": "0xac7e",
+   "kind": "utf16",
+   "rva": "0xba7e",
+   "va": "0x18000ba7e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " pode configurar outras lojas mais tarde.KO Windows Media Player est",
+   "offset": "0xad1c",
+   "kind": "utf16",
+   "rva": "0xbb1c",
+   "va": "0x18000bb1c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " sendo atualizado com a loja online selecionada.\"Sistema Operacional n",
+   "offset": "0xada6",
+   "kind": "utf16",
+   "rva": "0xbba6",
+   "va": "0x18000bba6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o suportado.FEste pacote de instala",
+   "offset": "0xae34",
+   "kind": "utf16",
+   "rva": "0xbc34",
+   "va": "0x18000bc34",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o pode ser instalado apenas no Windows XP x64.",
+   "offset": "0xae7e",
+   "kind": "utf16",
+   "rva": "0xbc7e",
+   "va": "0x18000bc7e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Este pacote de instala",
+   "offset": "0xaedc",
+   "kind": "utf16",
+   "rva": "0xbcdc",
+   "va": "0x18000bcdc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o pode ser instalado apenas em um computador que esteja executando a vers",
+   "offset": "0xaf0c",
+   "kind": "utf16",
+   "rva": "0xbd0c",
+   "va": "0x18000bd0c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de 32 bits do Windows XP Service Pack 2.#Erro ao iniciar o navegador da Web.",
+   "offset": "0xafa0",
+   "kind": "utf16",
+   "rva": "0xbda0",
+   "va": "0x18000bda0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Visite o Windows Update para baixar o Pacote cumulativo de atualiza",
+   "offset": "0xb03e",
+   "kind": "utf16",
+   "rva": "0xbe3e",
+   "va": "0x18000be3e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es 2 para o Windows XP Media Center Edition 2005 antes de instalar o Windows Media Player.]Para saber mais sobre as Configura",
+   "offset": "0xb0c8",
+   "kind": "utf16",
+   "rva": "0xbec8",
+   "va": "0x18000bec8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de Privacidade online.)Saiba mais sobre as op",
+   "offset": "0xb208",
+   "kind": "utf16",
+   "rva": "0xc008",
+   "va": "0x18000c008",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de privacidade",
+   "offset": "0xb26a",
+   "kind": "utf16",
+   "rva": "0xc06a",
+   "va": "0x18000c06a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "-Os Requisitos de Sistema n",
+   "offset": "0xb292",
+   "kind": "utf16",
+   "rva": "0xc092",
+   "va": "0x18000c092",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foram atendidos.",
+   "offset": "0xb2ca",
+   "kind": "utf16",
+   "rva": "0xc0ca",
+   "va": "0x18000c0ca",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Outra atualiza",
+   "offset": "0xb2f0",
+   "kind": "utf16",
+   "rva": "0xc0f0",
+   "va": "0x18000c0f0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " em andamento. Aguarde at",
+   "offset": "0xb31c",
+   "kind": "utf16",
+   "rva": "0xc11c",
+   "va": "0x18000c11c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " sua conclus",
+   "offset": "0xb350",
+   "kind": "utf16",
+   "rva": "0xc150",
+   "va": "0x18000c150",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o e execute a Instala",
+   "offset": "0xb36a",
+   "kind": "utf16",
+   "rva": "0xc16a",
+   "va": "0x18000c16a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player novamente, ou, se parecer que a atualiza",
+   "offset": "0xb398",
+   "kind": "utf16",
+   "rva": "0xc198",
+   "va": "0x18000c198",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o parou de responder, reinicie o Windows e execute a Instala",
+   "offset": "0xb420",
+   "kind": "utf16",
+   "rva": "0xc220",
+   "va": "0x18000c220",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player.NAtualiza",
+   "offset": "0xb49c",
+   "kind": "utf16",
+   "rva": "0xc29c",
+   "va": "0x18000c29c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do computador em andamento; n",
+   "offset": "0xb4e6",
+   "kind": "utf16",
+   "rva": "0xc2e6",
+   "va": "0x18000c2e6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel continuar a Instala",
+   "offset": "0xb538",
+   "kind": "utf16",
+   "rva": "0xc338",
+   "va": "0x18000c338",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o:}Para instalar o Windows Media Player, o computador deve estar executando o Windows XP Media Center Edition 2005 ou posterior.",
+   "offset": "0xb56a",
+   "kind": "utf16",
+   "rva": "0xc36a",
+   "va": "0x18000c36a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "{Nenhuma atualiza",
+   "offset": "0xb66c",
+   "kind": "utf16",
+   "rva": "0xc46c",
+   "va": "0x18000c46c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player para o seu computador est",
+   "offset": "0xb692",
+   "kind": "utf16",
+   "rva": "0xc492",
+   "va": "0x18000c492",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel para download e instala",
+   "offset": "0xb70a",
+   "kind": "utf16",
+   "rva": "0xc50a",
+   "va": "0x18000c50a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o neste momento.'Obtendo informa",
+   "offset": "0xb744",
+   "kind": "utf16",
+   "rva": "0xc544",
+   "va": "0x18000c544",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es da loja: aguarde...-http://go.microsoft.com/fwlink/?LinkId=120762^Algumas informa",
+   "offset": "0xb788",
+   "kind": "utf16",
+   "rva": "0xc588",
+   "va": "0x18000c588",
+   "tags": [
+    "url",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foram importadas para o Player, inclusive classifica",
+   "offset": "0xb83e",
+   "kind": "utf16",
+   "rva": "0xc63e",
+   "va": "0x18000c63e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es e contadores.AA instala",
+   "offset": "0xb8ae",
+   "kind": "utf16",
+   "rva": "0xc6ae",
+   "va": "0x18000c6ae",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "de copiar alguns ou todos os arquivos de capa.",
+   "offset": "0xb8f6",
+   "kind": "utf16",
+   "rva": "0xc6f6",
+   "va": "0x18000c6f6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o livre em disco suficiente para desinstalar o Windows Media Player. O disco deve ter pelo menos 50 MB de espa",
+   "offset": "0xb96c",
+   "kind": "utf16",
+   "rva": "0xc76c",
+   "va": "0x18000c76c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o livre. Libere espa",
+   "offset": "0xba4a",
+   "kind": "utf16",
+   "rva": "0xc84a",
+   "va": "0x18000c84a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o adicional no disco r",
+   "offset": "0xba74",
+   "kind": "utf16",
+   "rva": "0xc874",
+   "va": "0x18000c874",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Atualizar Software de Loja",
+   "offset": "0xbae6",
+   "kind": "utf16",
+   "rva": "0xc8e6",
+   "va": "0x18000c8e6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " menos de 50 MB de espa",
+   "offset": "0xbb20",
+   "kind": "utf16",
+   "rva": "0xc920",
+   "va": "0x18000c920",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o livre em disco no computador. Recomenda-se cancelar a instala",
+   "offset": "0xbb50",
+   "kind": "utf16",
+   "rva": "0xc950",
+   "va": "0x18000c950",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o, excluir arquivos desnecess",
+   "offset": "0xbbd2",
+   "kind": "utf16",
+   "rva": "0xc9d2",
+   "va": "0x18000c9d2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rios do disco r",
+   "offset": "0xbc0e",
+   "kind": "utf16",
+   "rva": "0xca0e",
+   "va": "0x18000ca0e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "gido e retomar a instala",
+   "offset": "0xbc2e",
+   "kind": "utf16",
+   "rva": "0xca2e",
+   "va": "0x18000ca2e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o..Idiomas incompat",
+   "offset": "0xbc62",
+   "kind": "utf16",
+   "rva": "0xca62",
+   "va": "0x18000ca62",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "veis do Windows Media Player.",
+   "offset": "0xbc8a",
+   "kind": "utf16",
+   "rva": "0xca8a",
+   "va": "0x18000ca8a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media Player que voc",
+   "offset": "0xbcd4",
+   "kind": "utf16",
+   "rva": "0xcad4",
+   "va": "0x18000cad4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " tentando instalar ",
+   "offset": "0xbd22",
+   "kind": "utf16",
+   "rva": "0xcb22",
+   "va": "0x18000cb22",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " igual ",
+   "offset": "0xbd4a",
+   "kind": "utf16",
+   "rva": "0xcb4a",
+   "va": "0x18000cb4a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " instalada atualmente, exceto pelo idioma. Para alterar o idioma, primeiro desinstale o Player atual usando Adicionar e Remover Programas, e instale a vers",
+   "offset": "0xbd5a",
+   "kind": "utf16",
+   "rva": "0xcb5a",
+   "va": "0x18000cb5a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de idioma desejada.*N",
+   "offset": "0xbe92",
+   "kind": "utf16",
+   "rva": "0xcc92",
+   "va": "0x18000cc92",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Poss",
+   "offset": "0xbec8",
+   "kind": "utf16",
+   "rva": "0xccc8",
+   "va": "0x18000ccc8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel Concluir Instala",
+   "offset": "0xbed4",
+   "kind": "utf16",
+   "rva": "0xccd4",
+   "va": "0x18000ccd4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o da LojaeN",
+   "offset": "0xbf00",
+   "kind": "utf16",
+   "rva": "0xcd00",
+   "va": "0x18000cd00",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o; %s n",
+   "offset": "0xbf5e",
+   "kind": "utf16",
+   "rva": "0xcd5e",
+   "va": "0x18000cd5e",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado. ",
+   "offset": "0xbf6e",
+   "kind": "utf16",
+   "rva": "0xcd6e",
+   "va": "0x18000cd6e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio reiniciar o Windows agora.n%s n",
+   "offset": "0xbfa2",
+   "kind": "utf16",
+   "rva": "0xcda2",
+   "va": "0x18000cda2",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado. Para adicionar essa loja ao Windows Media Player, execute a Instala",
+   "offset": "0xbfea",
+   "kind": "utf16",
+   "rva": "0xcdea",
+   "va": "0x18000cdea",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de %s novamente .-N",
+   "offset": "0xc096",
+   "kind": "utf16",
+   "rva": "0xce96",
+   "va": "0x18000ce96",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de %s.",
+   "offset": "0xc108",
+   "kind": "utf16",
+   "rva": "0xcf08",
+   "va": "0x18000cf08",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "%s foi instalado.",
+   "offset": "0xc11a",
+   "kind": "utf16",
+   "rva": "0xcf1a",
+   "va": "0x18000cf1a",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "IDescri",
+   "offset": "0xc13e",
+   "kind": "utf16",
+   "rva": "0xcf3e",
+   "va": "0x18000cf3e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o online do Programa de Aperfei",
+   "offset": "0xc150",
+   "kind": "utf16",
+   "rva": "0xcf50",
+   "va": "0x18000cf50",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Feche %s antes de continuar.",
+   "offset": "0xc1d6",
+   "kind": "utf16",
+   "rva": "0xcfd6",
+   "va": "0x18000cfd6",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Para adicionar esta loja ao Windows Media Player, voc",
+   "offset": "0xc210",
+   "kind": "utf16",
+   "rva": "0xd010",
+   "va": "0x18000d010",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " deve ter feito logon no computador como administrador ou membro do grupo Administradores. Clique em Concluir, fa",
+   "offset": "0xc27c",
+   "kind": "utf16",
+   "rva": "0xd07c",
+   "va": "0x18000d07c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "a logon como administrador.dN",
+   "offset": "0xc398",
+   "kind": "utf16",
+   "rva": "0xd198",
+   "va": "0x18000d198",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel desinstalar %s, porque as pastas necess",
+   "offset": "0xc3e6",
+   "kind": "utf16",
+   "rva": "0xd1e6",
+   "va": "0x18000d1e6",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rias para a desinstala",
+   "offset": "0xc43e",
+   "kind": "utf16",
+   "rva": "0xd23e",
+   "va": "0x18000d23e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " foram exclu",
+   "offset": "0xc476",
+   "kind": "utf16",
+   "rva": "0xd276",
+   "va": "0x18000d276",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "das.|H",
+   "offset": "0xc490",
+   "kind": "utf16",
+   "rva": "0xd290",
+   "va": "0x18000d290",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel para %s. Clique em Aceito para baixar o software ou em N",
+   "offset": "0xc4ce",
+   "kind": "utf16",
+   "rva": "0xd2ce",
+   "va": "0x18000d2ce",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o Aceito para cancelar a atualiza",
+   "offset": "0xc548",
+   "kind": "utf16",
+   "rva": "0xd348",
+   "va": "0x18000d348",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Instalar agora",
+   "offset": "0xc59e",
+   "kind": "utf16",
+   "rva": "0xd39e",
+   "va": "0x18000d39e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Clique em Instalar Agora para baixar e instalar as atualiza",
+   "offset": "0xc5c6",
+   "kind": "utf16",
+   "rva": "0xd3c6",
+   "va": "0x18000d3c6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "423|420|80|22|&Voltar",
+   "offset": "0xc656",
+   "kind": "utf16",
+   "rva": "0xd456",
+   "va": "0x18000d456",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "503|420|80|22|&Avan",
+   "offset": "0xc682",
+   "kind": "utf16",
+   "rva": "0xd482",
+   "va": "0x18000d482",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "423|420|80|22|&Cancelar",
+   "offset": "0xc6b0",
+   "kind": "utf16",
+   "rva": "0xd4b0",
+   "va": "0x18000d4b0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "503|420|80|22|&Concluir",
+   "offset": "0xc6e0",
+   "kind": "utf16",
+   "rva": "0xd4e0",
+   "va": "0x18000d4e0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "508|420|80|22|&Aceito",
+   "offset": "0xc710",
+   "kind": "utf16",
+   "rva": "0xd510",
+   "va": "0x18000d510",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "428|420|80|22|&N",
+   "offset": "0xc73c",
+   "kind": "utf16",
+   "rva": "0xd53c",
+   "va": "0x18000d53c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "503|420|80|22|&Instalar",
+   "offset": "0xc772",
+   "kind": "utf16",
+   "rva": "0xd572",
+   "va": "0x18000d572",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "503|420|80|22|&OK",
+   "offset": "0xc7a2",
+   "kind": "utf16",
+   "rva": "0xd5a2",
+   "va": "0x18000d5a2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "503|420|80|22|&Reiniciar",
+   "offset": "0xc7c8",
+   "kind": "utf16",
+   "rva": "0xd5c8",
+   "va": "0x18000d5c8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es dispon",
+   "offset": "0xc83c",
+   "kind": "utf16",
+   "rva": "0xd63c",
+   "va": "0x18000d63c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "veis. ",
+   "offset": "0xc850",
+   "kind": "utf16",
+   "rva": "0xd650",
+   "va": "0x18000d650",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel instal",
+   "offset": "0xc86a",
+   "kind": "utf16",
+   "rva": "0xd66a",
+   "va": "0x18000d66a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "-las visitando http://windowsupdate.microsoft.com_O computador est",
+   "offset": "0xc880",
+   "kind": "utf16",
+   "rva": "0xd680",
+   "va": "0x18000d680",
+   "tags": [
+    "url",
+    "utf16le"
+   ]
+  },
+  {
+   "text": " sendo atualizado. Deseja mesmo cancelar a atualiza",
+   "offset": "0xc906",
+   "kind": "utf16",
+   "rva": "0xd706",
+   "va": "0x18000d706",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o antes de ser conclu",
+   "offset": "0xc970",
+   "kind": "utf16",
+   "rva": "0xd770",
+   "va": "0x18000d770",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Pacote de Restaura",
+   "offset": "0xc9ae",
+   "kind": "utf16",
+   "rva": "0xd7ae",
+   "va": "0x18000d7ae",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de M",
+   "offset": "0xc9d6",
+   "kind": "utf16",
+   "rva": "0xd7d6",
+   "va": "0x18000d7d6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Obtendo Atualiza",
+   "offset": "0xca18",
+   "kind": "utf16",
+   "rva": "0xd818",
+   "va": "0x18000d818",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es para %s",
+   "offset": "0xca3c",
+   "kind": "utf16",
+   "rva": "0xd83c",
+   "va": "0x18000d83c",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o mais recente de %s e todos os seus componentes. N",
+   "offset": "0xca9a",
+   "kind": "utf16",
+   "rva": "0xd89a",
+   "va": "0x18000d89a",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "veis no momento.>Uma atualiza",
+   "offset": "0xcb34",
+   "kind": "utf16",
+   "rva": "0xd934",
+   "va": "0x18000d934",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de %s est",
+   "offset": "0xcb72",
+   "kind": "utf16",
+   "rva": "0xd972",
+   "va": "0x18000d972",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel. Deseja atualizar agora?",
+   "offset": "0xcb9a",
+   "kind": "utf16",
+   "rva": "0xd99a",
+   "va": "0x18000d99a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "*&Adicionar ",
+   "offset": "0xcbfc",
+   "kind": "utf16",
+   "rva": "0xd9fc",
+   "va": "0x18000d9fc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " lista do Windows Media Player&R&eproduzir com o Windows Media Player",
+   "offset": "0xcc16",
+   "kind": "utf16",
+   "rva": "0xda16",
+   "va": "0x18000da16",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Clipe de Som",
+   "offset": "0xccc6",
+   "kind": "utf16",
+   "rva": "0xdac6",
+   "va": "0x18000dac6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Clipe de Filme",
+   "offset": "0xcce2",
+   "kind": "utf16",
+   "rva": "0xdae2",
+   "va": "0x18000dae2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Som no Formato AIFF",
+   "offset": "0xcd00",
+   "kind": "utf16",
+   "rva": "0xdb00",
+   "va": "0x18000db00",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Som no Formato AU",
+   "offset": "0xcd2a",
+   "kind": "utf16",
+   "rva": "0xdb2a",
+   "va": "0x18000db2a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Videoclipe",
+   "offset": "0xcd4e",
+   "kind": "utf16",
+   "rva": "0xdb4e",
+   "va": "0x18000db4e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sequ",
+   "offset": "0xcd82",
+   "kind": "utf16",
+   "rva": "0xdb82",
+   "va": "0x18000db82",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ncia MIDI",
+   "offset": "0xcd8c",
+   "kind": "utf16",
+   "rva": "0xdb8c",
+   "va": "0x18000db8c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Som Wave'Arquivo de ",
+   "offset": "0xcda0",
+   "kind": "utf16",
+   "rva": "0xdba0",
+   "va": "0x18000dba0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "udio/V",
+   "offset": "0xcdca",
+   "kind": "utf16",
+   "rva": "0xdbca",
+   "va": "0x18000dbca",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo do Windows Media3Lista de reprodu",
+   "offset": "0xcdd8",
+   "kind": "utf16",
+   "rva": "0xdbd8",
+   "va": "0x18000dbd8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de ",
+   "offset": "0xce26",
+   "kind": "utf16",
+   "rva": "0xdc26",
+   "va": "0x18000dc26",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo do Windows Media",
+   "offset": "0xce40",
+   "kind": "utf16",
+   "rva": "0xdc40",
+   "va": "0x18000dc40",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Atalho para Windows Media Audio",
+   "offset": "0xce6a",
+   "kind": "utf16",
+   "rva": "0xdc6a",
+   "va": "0x18000dc6a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Arquivo Windows Media Audio3Lista de reprodu",
+   "offset": "0xceaa",
+   "kind": "utf16",
+   "rva": "0xdcaa",
+   "va": "0x18000dcaa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo do Windows Media'Arquivo de ",
+   "offset": "0xcf20",
+   "kind": "utf16",
+   "rva": "0xdd20",
+   "va": "0x18000dd20",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo do Windows Media'Arquivo de Capa do Windows Media Player'Pacote de Capas do Windows Media Player",
+   "offset": "0xcf70",
+   "kind": "utf16",
+   "rva": "0xdd70",
+   "va": "0x18000dd70",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CD de ",
+   "offset": "0xd03a",
+   "kind": "utf16",
+   "rva": "0xde3a",
+   "va": "0x18000de3a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "udio",
+   "offset": "0xd048",
+   "kind": "utf16",
+   "rva": "0xde48",
+   "va": "0x18000de48",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Faixa de ",
+   "offset": "0xd052",
+   "kind": "utf16",
+   "rva": "0xde52",
+   "va": "0x18000de52",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "udio de CD",
+   "offset": "0xd066",
+   "kind": "utf16",
+   "rva": "0xde66",
+   "va": "0x18000de66",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Arquivo do Windows Media Player",
+   "offset": "0xd07c",
+   "kind": "utf16",
+   "rva": "0xde7c",
+   "va": "0x18000de7c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "*Pacote de Download do Windows Media Player",
+   "offset": "0xd0bc",
+   "kind": "utf16",
+   "rva": "0xdebc",
+   "va": "0x18000debc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo de DVD",
+   "offset": "0xd118",
+   "kind": "utf16",
+   "rva": "0xdf18",
+   "va": "0x18000df18",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Lista de Reprodu",
+   "offset": "0xd12e",
+   "kind": "utf16",
+   "rva": "0xdf2e",
+   "va": "0x18000df2e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia$Lista de reprodu",
+   "offset": "0xd160",
+   "kind": "utf16",
+   "rva": "0xdf60",
+   "va": "0x18000df60",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Biblioteca do Windows Media",
+   "offset": "0xd1b2",
+   "kind": "utf16",
+   "rva": "0xdfb2",
+   "va": "0x18000dfb2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Som no Formato MP3",
+   "offset": "0xd1ea",
+   "kind": "utf16",
+   "rva": "0xdfea",
+   "va": "0x18000dfea",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Arquivo M3U%Programa de TV Gravado pela Microsoft",
+   "offset": "0xd210",
+   "kind": "utf16",
+   "rva": "0xe010",
+   "va": "0x18000e010",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Protocolo URL:MMS",
+   "offset": "0xd274",
+   "kind": "utf16",
+   "rva": "0xe074",
+   "va": "0x18000e074",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Protocolo URL:MMST",
+   "offset": "0xd298",
+   "kind": "utf16",
+   "rva": "0xe098",
+   "va": "0x18000e098",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Protocolo URL:MMSU",
+   "offset": "0xd2be",
+   "kind": "utf16",
+   "rva": "0xe0be",
+   "va": "0x18000e0be",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Protocolo URL:MSBD",
+   "offset": "0xd2e4",
+   "kind": "utf16",
+   "rva": "0xe0e4",
+   "va": "0x18000e0e4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo MP4",
+   "offset": "0xd30e",
+   "kind": "utf16",
+   "rva": "0xe10e",
+   "va": "0x18000e10e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "udio MPEG-4",
+   "offset": "0xd320",
+   "kind": "utf16",
+   "rva": "0xe120",
+   "va": "0x18000e120",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo AVCHD",
+   "offset": "0xd33c",
+   "kind": "utf16",
+   "rva": "0xe13c",
+   "va": "0x18000e13c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo MPEG-2 TS",
+   "offset": "0xd354",
+   "kind": "utf16",
+   "rva": "0xe154",
+   "va": "0x18000e154",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Filme do QuickTime",
+   "offset": "0xd372",
+   "kind": "utf16",
+   "rva": "0xe172",
+   "va": "0x18000e172",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo em 3GPP",
+   "offset": "0xd3a8",
+   "kind": "utf16",
+   "rva": "0xe1a8",
+   "va": "0x18000e1a8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo em 3GPP2",
+   "offset": "0xd3d0",
+   "kind": "utf16",
+   "rva": "0xe1d0",
+   "va": "0x18000e1d0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "udio ADTS",
+   "offset": "0xd3ec",
+   "kind": "utf16",
+   "rva": "0xe1ec",
+   "va": "0x18000e1ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Atualizando o Registro...",
+   "offset": "0xd400",
+   "kind": "utf16",
+   "rva": "0xe200",
+   "va": "0x18000e200",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Atualizando arquivos INI...'Verificando diret",
+   "offset": "0xd434",
+   "kind": "utf16",
+   "rva": "0xe234",
+   "va": "0x18000e234",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rios de instala",
+   "offset": "0xd490",
+   "kind": "utf16",
+   "rva": "0xe290",
+   "va": "0x18000e290",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o...",
+   "offset": "0xd4b2",
+   "kind": "utf16",
+   "rva": "0xe2b2",
+   "va": "0x18000e2b2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Excluindo diret",
+   "offset": "0xd4bc",
+   "kind": "utf16",
+   "rva": "0xe2bc",
+   "va": "0x18000e2bc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rios antigos...GExecutando opera",
+   "offset": "0xd4dc",
+   "kind": "utf16",
+   "rva": "0xe2dc",
+   "va": "0x18000e2dc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es p",
+   "offset": "0xd520",
+   "kind": "utf16",
+   "rva": "0xe320",
+   "va": "0x18000e320",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "s-instala",
+   "offset": "0xd52a",
+   "kind": "utf16",
+   "rva": "0xe32a",
+   "va": "0x18000e32a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o... (isso pode levar alguns minutos)$Inicializando antes da instala",
+   "offset": "0xd540",
+   "kind": "utf16",
+   "rva": "0xe340",
+   "va": "0x18000e340",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Registrando componentes...'Cancelando o registro de componentes...",
+   "offset": "0xd5d6",
+   "kind": "utf16",
+   "rva": "0xe3d6",
+   "va": "0x18000e3d6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Copiando arquivos...",
+   "offset": "0xd65c",
+   "kind": "utf16",
+   "rva": "0xe45c",
+   "va": "0x18000e45c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Excluindo arquivos...",
+   "offset": "0xd686",
+   "kind": "utf16",
+   "rva": "0xe486",
+   "va": "0x18000e486",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Desconhecido!Verificando assinatura digital....Extraindo arquivos do arquivamento compactado.",
+   "offset": "0xd6c6",
+   "kind": "utf16",
+   "rva": "0xe4c6",
+   "va": "0x18000e4c6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Windows Media$Progresso de instala",
+   "offset": "0xd794",
+   "kind": "utf16",
+   "rva": "0xe594",
+   "va": "0x18000e594",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do pacote...",
+   "offset": "0xd7e6",
+   "kind": "utf16",
+   "rva": "0xe5e6",
+   "va": "0x18000e5e6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Program Files",
+   "offset": "0xd822",
+   "kind": "utf16",
+   "rva": "0xe622",
+   "va": "0x18000e622",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "&Abrir",
+   "offset": "0xd87a",
+   "kind": "utf16",
+   "rva": "0xe67a",
+   "va": "0x18000e67a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Reproduzi&r",
+   "offset": "0xd888",
+   "kind": "utf16",
+   "rva": "0xe688",
+   "va": "0x18000e688",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Arquivo de ",
+   "offset": "0xd8a0",
+   "kind": "utf16",
+   "rva": "0xe6a0",
+   "va": "0x18000e6a0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "udio AU (au)",
+   "offset": "0xd8b8",
+   "kind": "utf16",
+   "rva": "0xe6b8",
+   "va": "0x18000e6b8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Arquivo MIDI (midi)!Arquivo Windows Media Audio (wma)!Arquivo de ",
+   "offset": "0xd8d2",
+   "kind": "utf16",
+   "rva": "0xe6d2",
+   "va": "0x18000e6d2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "udio do Windows (wav)",
+   "offset": "0xd956",
+   "kind": "utf16",
+   "rva": "0xe756",
+   "va": "0x18000e756",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Arquivo do Windows Media (asf)!Arquivo de v",
+   "offset": "0xd982",
+   "kind": "utf16",
+   "rva": "0xe782",
+   "va": "0x18000e782",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo do Windows (avi)",
+   "offset": "0xd9da",
+   "kind": "utf16",
+   "rva": "0xe7da",
+   "va": "0x18000e7da",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do CD de M",
+   "offset": "0xda16",
+   "kind": "utf16",
+   "rva": "0xe816",
+   "va": "0x18000e816",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "'Arquivo de V",
+   "offset": "0xda54",
+   "kind": "utf16",
+   "rva": "0xe854",
+   "va": "0x18000e854",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo do Windows Media (wmv)",
+   "offset": "0xda70",
+   "kind": "utf16",
+   "rva": "0xe870",
+   "va": "0x18000e870",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "udio MP3 (mp3)",
+   "offset": "0xdac0",
+   "kind": "utf16",
+   "rva": "0xe8c0",
+   "va": "0x18000e8c0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Arquivo de filme (mpeg)",
+   "offset": "0xdade",
+   "kind": "utf16",
+   "rva": "0xe8de",
+   "va": "0x18000e8de",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "udio AIFF (aiff)\"Arquivo de imagem do Windows (jpg).Programa de TV Gravado pela Microsoft (dvr-ms)",
+   "offset": "0xdb26",
+   "kind": "utf16",
+   "rva": "0xe926",
+   "va": "0x18000e926",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Arquivo de V",
+   "offset": "0xdbec",
+   "kind": "utf16",
+   "rva": "0xe9ec",
+   "va": "0x18000e9ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "udio MP4",
+   "offset": "0xdc2e",
+   "kind": "utf16",
+   "rva": "0xea2e",
+   "va": "0x18000ea2e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Arquivo de Filme do QuickTime,Inclui arquivos com as extens",
+   "offset": "0xdc40",
+   "kind": "utf16",
+   "rva": "0xea40",
+   "va": "0x18000ea40",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .au e .snd.7Inclui os arquivos com as extens",
+   "offset": "0xdcb8",
+   "kind": "utf16",
+   "rva": "0xeab8",
+   "va": "0x18000eab8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .mid, .midi e .rmi.0Inclui os arquivos com as extens",
+   "offset": "0xdd18",
+   "kind": "utf16",
+   "rva": "0xeb18",
+   "va": "0x18000eb18",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .wma e .wax.)Inclui os arquivos com as extens",
+   "offset": "0xdd88",
+   "kind": "utf16",
+   "rva": "0xeb88",
+   "va": "0x18000eb88",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .wav.MInclui os arquivos com as extens",
+   "offset": "0xddea",
+   "kind": "utf16",
+   "rva": "0xebea",
+   "va": "0x18000ebea",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .asf, .asx, .wpl, .wm, .wmx, .wmd e .wmz.)Inclui os arquivos com as extens",
+   "offset": "0xde3e",
+   "kind": "utf16",
+   "rva": "0xec3e",
+   "va": "0x18000ec3e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .avi.",
+   "offset": "0xdeda",
+   "kind": "utf16",
+   "rva": "0xecda",
+   "va": "0x18000ecda",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "8Inclui os arquivos e CDs de ",
+   "offset": "0xdeec",
+   "kind": "utf16",
+   "rva": "0xecec",
+   "va": "0x18000ecec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "udio com as extens",
+   "offset": "0xdf28",
+   "kind": "utf16",
+   "rva": "0xed28",
+   "va": "0x18000ed28",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .cda.",
+   "offset": "0xdf4e",
+   "kind": "utf16",
+   "rva": "0xed4e",
+   "va": "0x18000ed4e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de v",
+   "offset": "0xdf72",
+   "kind": "utf16",
+   "rva": "0xed72",
+   "va": "0x18000ed72",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "deo DVD.0Inclui os arquivos com as extens",
+   "offset": "0xdf80",
+   "kind": "utf16",
+   "rva": "0xed80",
+   "va": "0x18000ed80",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .wmv e .wvx.",
+   "offset": "0xdfd4",
+   "kind": "utf16",
+   "rva": "0xedd4",
+   "va": "0x18000edd4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "6Inclui os arquivos com as extens",
+   "offset": "0xdff4",
+   "kind": "utf16",
+   "rva": "0xedf4",
+   "va": "0x18000edf4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .mp2, .mp3 e .m3u.]Inclui os arquivos com as extens",
+   "offset": "0xe038",
+   "kind": "utf16",
+   "rva": "0xee38",
+   "va": "0x18000ee38",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .mpeg, .mpg, .mpe, .mv1, .m2v, .mod, .mpv2, .mp2v e .mpa.5Inclui arquivos com as extens",
+   "offset": "0xe0a6",
+   "kind": "utf16",
+   "rva": "0xeea6",
+   "va": "0x18000eea6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .aif, .aifc e .aiff.MInclui os arquivos com as extens",
+   "offset": "0xe15c",
+   "kind": "utf16",
+   "rva": "0xef5c",
+   "va": "0x18000ef5c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .asf, .asx, .wpl, .wm, .wmx, .wmd e .wmz.%Programa de TV Gravado pela MicrosoftKInclui arquivos com extens",
+   "offset": "0xe1ce",
+   "kind": "utf16",
+   "rva": "0xefce",
+   "va": "0x18000efce",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .mp4, .m4v, .mp4v, .3gp, .3gpp, .3g2 e .3gp2.#Inclui arquivos com extens",
+   "offset": "0xe2aa",
+   "kind": "utf16",
+   "rva": "0xf0aa",
+   "va": "0x18000f0aa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .m4a.)Inclui os arquivos com as extens",
+   "offset": "0xe342",
+   "kind": "utf16",
+   "rva": "0xf142",
+   "va": "0x18000f142",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .mov.3Inclui arquivos com as extens",
+   "offset": "0xe396",
+   "kind": "utf16",
+   "rva": "0xf196",
+   "va": "0x18000f196",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es adts, .adt e .aac.<Inclui arquivos com extens",
+   "offset": "0xe3e4",
+   "kind": "utf16",
+   "rva": "0xf1e4",
+   "va": "0x18000f1e4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es .m2ts, .m2t, .mts, .ts e .tts.",
+   "offset": "0xe446",
+   "kind": "utf16",
+   "rva": "0xf246",
+   "va": "0x18000f246",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Preparando-se para baixar.)Conectando-se ao servidor de atualiza",
+   "offset": "0xe496",
+   "kind": "utf16",
+   "rva": "0xf296",
+   "va": "0x18000f296",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o.(Determinando disponibilidade do arquivo.5Baixando o arquivo. Tempo restante: %s. Recebidos %s.",
+   "offset": "0xe51a",
+   "kind": "utf16",
+   "rva": "0xf31a",
+   "va": "0x18000f31a",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Download conclu",
+   "offset": "0xe5de",
+   "kind": "utf16",
+   "rva": "0xf3de",
+   "va": "0x18000f3de",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Inicializando...",
+   "offset": "0xe606",
+   "kind": "utf16",
+   "rva": "0xf406",
+   "va": "0x18000f406",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Erro ao baixar arquivo.",
+   "offset": "0xe628",
+   "kind": "utf16",
+   "rva": "0xf428",
+   "va": "0x18000f428",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "-http://go.microsoft.com/fwlink/?LinkId=59177&",
+   "offset": "0xe65c",
+   "kind": "utf16",
+   "rva": "0xf45c",
+   "va": "0x18000f45c",
+   "tags": [
+    "url",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LANG=PTB",
+   "offset": "0xe6ba",
+   "kind": "utf16",
+   "rva": "0xf4ba",
+   "va": "0x18000f4ba",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Instalando agora...",
+   "offset": "0xe6de",
+   "kind": "utf16",
+   "rva": "0xf4de",
+   "va": "0x18000f4de",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Desinstalando agora...",
+   "offset": "0xe70a",
+   "kind": "utf16",
+   "rva": "0xf50a",
+   "va": "0x18000f50a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Baixando agora...",
+   "offset": "0xe738",
+   "kind": "utf16",
+   "rva": "0xf538",
+   "va": "0x18000f538",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "?  Esse componente deve ser instalado para o software funcionar.A  Esse ",
+   "offset": "0xe778",
+   "kind": "utf16",
+   "rva": "0xf578",
+   "va": "0x18000f578",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " um componente compartilhado e n",
+   "offset": "0xe80a",
+   "kind": "utf16",
+   "rva": "0xf60a",
+   "va": "0x18000f60a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o deve ser desinstalado.",
+   "offset": "0xe84c",
+   "kind": "utf16",
+   "rva": "0xf64c",
+   "va": "0x18000f64c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "%s bytes",
+   "offset": "0xe88e",
+   "kind": "utf16",
+   "rva": "0xf68e",
+   "va": "0x18000f68e",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "%s KB",
+   "offset": "0xe8a0",
+   "kind": "utf16",
+   "rva": "0xf6a0",
+   "va": "0x18000f6a0",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "%s MB",
+   "offset": "0xe8ac",
+   "kind": "utf16",
+   "rva": "0xf6ac",
+   "va": "0x18000f6ac",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "%s GB",
+   "offset": "0xe8b8",
+   "kind": "utf16",
+   "rva": "0xf6b8",
+   "va": "0x18000f6b8",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "%s TB",
+   "offset": "0xe8c4",
+   "kind": "utf16",
+   "rva": "0xf6c4",
+   "va": "0x18000f6c4",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Arquivo de v",
+   "offset": "0xe8fc",
+   "kind": "utf16",
+   "rva": "0xf6fc",
+   "va": "0x18000f6fc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Iniciar",
+   "offset": "0xe984",
+   "kind": "utf16",
+   "rva": "0xf784",
+   "va": "0x18000f784",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Parar",
+   "offset": "0xe99c",
+   "kind": "utf16",
+   "rva": "0xf79c",
+   "va": "0x18000f79c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VS_VERSION_INFO",
+   "offset": "0xe9d2",
+   "kind": "utf16",
+   "rva": "0xf7d2",
+   "va": "0x18000f7d2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "StringFileInfo",
+   "offset": "0xea2e",
+   "kind": "utf16",
+   "rva": "0xf82e",
+   "va": "0x18000f82e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "041604B0",
+   "offset": "0xea52",
+   "kind": "utf16",
+   "rva": "0xf852",
+   "va": "0x18000f852",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CompanyName",
+   "offset": "0xea6a",
+   "kind": "utf16",
+   "rva": "0xf86a",
+   "va": "0x18000f86a",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft Corporation",
+   "offset": "0xea84",
+   "kind": "utf16",
+   "rva": "0xf884",
+   "va": "0x18000f884",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileDescription",
+   "offset": "0xeab6",
+   "kind": "utf16",
+   "rva": "0xf8b6",
+   "va": "0x18000f8b6",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Utilit",
+   "offset": "0xead8",
+   "kind": "utf16",
+   "rva": "0xf8d8",
+   "va": "0x18000f8d8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio de Configura",
+   "offset": "0xeae6",
+   "kind": "utf16",
+   "rva": "0xf8e6",
+   "va": "0x18000f8e6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do Microsoft Windows Media",
+   "offset": "0xeb0a",
+   "kind": "utf16",
+   "rva": "0xf90a",
+   "va": "0x18000f90a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileVersion",
+   "offset": "0xeb4a",
+   "kind": "utf16",
+   "rva": "0xf94a",
+   "va": "0x18000f94a",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "offset": "0xeb64",
+   "kind": "utf16",
+   "rva": "0xf964",
+   "va": "0x18000f964",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InternalName",
+   "offset": "0xebba",
+   "kind": "utf16",
+   "rva": "0xf9ba",
+   "va": "0x18000f9ba",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "setup_wm.exe",
+   "offset": "0xebd4",
+   "kind": "utf16",
+   "rva": "0xf9d4",
+   "va": "0x18000f9d4",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LegalCopyright",
+   "offset": "0xebf6",
+   "kind": "utf16",
+   "rva": "0xf9f6",
+   "va": "0x18000f9f6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Microsoft Corporation. Todos os direitos reservados.",
+   "offset": "0xec16",
+   "kind": "utf16",
+   "rva": "0xfa16",
+   "va": "0x18000fa16",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "OriginalFilename",
+   "offset": "0xec8a",
+   "kind": "utf16",
+   "rva": "0xfa8a",
+   "va": "0x18000fa8a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "setup_wm.exe.mui",
+   "offset": "0xecac",
+   "kind": "utf16",
+   "rva": "0xfaac",
+   "va": "0x18000faac",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductName",
+   "offset": "0xecd6",
+   "kind": "utf16",
+   "rva": "0xfad6",
+   "va": "0x18000fad6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sistema Operacional Microsoft",
+   "offset": "0xecf0",
+   "kind": "utf16",
+   "rva": "0xfaf0",
+   "va": "0x18000faf0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Windows",
+   "offset": "0xed2c",
+   "kind": "utf16",
+   "rva": "0xfb2c",
+   "va": "0x18000fb2c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductVersion",
+   "offset": "0xed46",
+   "kind": "utf16",
+   "rva": "0xfb46",
+   "va": "0x18000fb46",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385",
+   "offset": "0xed64",
+   "kind": "utf16",
+   "rva": "0xfb64",
+   "va": "0x18000fb64",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VarFileInfo",
+   "offset": "0xed8a",
+   "kind": "utf16",
+   "rva": "0xfb8a",
+   "va": "0x18000fb8a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Translation",
+   "offset": "0xedaa",
+   "kind": "utf16",
+   "rva": "0xfbaa",
+   "va": "0x18000fbaa",
+   "tags": [
+    "utf16le"
+   ]
+  }
+ ],
+ "by_tag": {
+  "api-name": [
+   "CompanyName",
+   "FileDescription",
+   "FileVersion"
+  ],
+  "format-string": [
+   " aproximadamente %lu minutos em uma conex",
+   "#Download do Software de Loja Online|Antes de usar %s, baixe o software da loja. Clique em Aceito para baixar o software, ou N",
+   "%s (%lu de %lu itens)",
+   "%s GB",
+   "%s KB",
+   "%s MB",
+   "%s TB",
+   "%s bytes",
+   "%s foi instalado.",
+   "Feche %s antes de continuar.",
+   "es %s.",
+   "es para %s",
+   "o de %s est",
+   "o de %s novamente .-N",
+   "o de %s.",
+   "o do %s conclu",
+   "o do Windows Media Player novamente.sO Windows Media Player requer %lu MB. A atualiza",
+   "o mais antigo (%s) para instalar arquivos ou reparar a vers",
+   "o mais recente de %s e todos os seus componentes. N",
+   "o mais recente do Windows Media Player (%s) j",
+   "o.(Determinando disponibilidade do arquivo.5Baixando o arquivo. Tempo restante: %s. Recebidos %s.",
+   "o.-http://go.microsoft.com/fwlink/?linkid=120722) Definir %s como minha loja online ativa.) Definir %s como minha loja online ativa.",
+   "o; %s n",
+   "rio reiniciar o Windows agora.n%s n",
+   "rios pelo menos mais %lu MB de espa",
+   "vel desinstalar %s, porque as pastas necess",
+   "vel para %s. Clique em Aceito para baixar o software ou em N",
+   "vel. Deseja atualizar agora?;O(s) formato(s) %s inclui(em) arquivos com as extens"
+  ],
+  "module-name": [
+   "setup_wm.exe",
+   "setup_wm.exe.mui"
+  ],
+  "url": [
+   ",http://go.microsoft.com/fwlink/?linkid=47486-http://go.microsoft.com/fwlink/?LinkId=120762IUma atualiza",
+   "-http://go.microsoft.com/fwlink/?LinkId=59177&",
+   "-las visitando http://windowsupdate.microsoft.com_O computador est",
+   "deos digitais e muito mais.,http://go.microsoft.com/fwlink/?linkid=44073",
+   "es da loja: aguarde...-http://go.microsoft.com/fwlink/?LinkId=120762^Algumas informa",
+   "o.-http://go.microsoft.com/fwlink/?linkid=120722) Definir %s como minha loja online ativa.) Definir %s como minha loja online ativa."
+  ],
+  "utf16le": [
+   " - falha na revers",
+   " - revers",
+   " A Instala",
+   " Alguns direitos de uso de m",
+   " Microsoft Corporation. Todos os direitos reservados.",
+   " Poss",
+   " Windows",
+   " a maneira como as informa",
+   " a qualquer lugar, nos diversos players port",
+   " acessar o site da Microsoft WindowsMedia.com para lhe oferecer uma experi",
+   " alterar essas configura",
+   " aproximadamente %lu minutos em uma conex",
+   " atualiza",
+   " baixados podem ser instalados com seguran",
+   " conclu",
+   " configurar as op",
+   " continuar com a instala",
+   " definido como o player padr",
+   " desativada. Se voc",
+   " deve fechar o Windows Media Player e todos os outros programas antes de prosseguir com a revers",
+   " deve reiniciar o Windows para prosseguir com a revers",
+   " deve ter feito logon no computador como administrador ou membro do grupo Administradores. Clique em Concluir, fa",
+   " deve ter feito logon no computador como administrador ou membro do grupo Administradores. Clique em OK, fa",
+   " dispon",
+   " em andamento. Aguarde at",
+   " em execu",
+   " encerrada sem fazer nenhuma altera",
+   " encerrada sem fazer quaisquer altera",
+   " espa",
+   " est",
+   " executando a vers",
+   " foram exclu",
+   " igual ",
+   " instalada atualmente, exceto pelo idioma. Para alterar o idioma, primeiro desinstale o Player atual usando Adicionar e Remover Programas, e instale a vers",
+   " instalada no computador. N",
+   " instalada, em vez da vers",
+   " instalada.",
+   " instalando uma vers",
+   " instalando.",
+   " instalar os pacotes de idioma apropriados do Windows Media Player para habilitar os recursos de troca de idiomas.",
+   " licenciado sob o contrato a seguir. Durante o processo de instala",
+   " lista do Windows Media Player&R&eproduzir com o Windows Media Player",
+   " menos de 50 MB de espa",
+   " necess",
+   " o conte",
+   " personalize os padr",
+   " pode acessar.",
+   " pode configurar outras lojas mais tarde.",
+   " pode configurar outras lojas mais tarde.KO Windows Media Player est",
+   " pode descobrir, reproduzir e levar divers",
+   " pode selecionar uma mais tarde no Player)",
+   " poder",
+   " poss",
+   " possa baixar novos direitos de uso de m",
+   " precisa estar conectado neste computador como um administrador ou um membro do grupo Administradores. Clique em Concluir, fa",
+   " precisa reiniciar o Windows. Salve seu trabalho e feche todos os programas. Em seguida, clique em Reiniciar para reiniciar o Windows.",
+   " precisa ter feito o logon neste computador como um administrador ou um membro do grupo Administradores. Clique em Concluir, fa",
+   " precise remov",
+   " prestes a alterar as configura",
+   " procurar pela vers",
+   " recomend",
+   " reproduzir",
+   " revers",
+   " reverter o Tempo de Execu",
+   " reverter o Windows Media Player para a vers",
+   " reverter para a vers",
+   " reverter para uma vers",
+   " revertido para a vers",
+   " sendo atualizado com a loja online selecionada.\"Sistema Operacional n",
+   " sendo atualizado com o Windows Media Player. Depois que a atualiza",
+   " sendo atualizado. Deseja mesmo cancelar a atualiza",
+   " sendo iniciada...",
+   " sendo usado por outros componentes deste computador; ",
+   " sua conclus",
+   " tentando instalar ",
+   " um componente compartilhado e n",
+   " um servidor da Microsoft para determinar e configurar a loja online padr",
+   " uma atualiza",
+   " uma vers",
+   " usar a Restaura",
+   " usar as configura",
+   "\"Revers",
+   "#Download do Software de Loja Online|Antes de usar %s, baixe o software da loja. Clique em Aceito para baixar o software, ou N",
+   "%s (%lu de %lu itens)",
+   "%s GB",
+   "%s KB",
+   "%s MB",
+   "%s TB",
+   "%s bytes",
+   "%s foi instalado.",
+   "&Abrir",
+   "&Continuar com a loja online anterior",
+   "&Cookies",
+   "&Enviar identifica",
+   "&Escolher os tipos de arquivo que o Windows Media Player ir",
+   "&Listas de Reprodu",
+   "&Selecionar tudo",
+   "'Arquivo de V",
+   "*&Adicionar ",
+   "*Pacote de Download do Windows Media Player",
+   ",Selecionar o Player de V",
+   ",http://go.microsoft.com/fwlink/?linkid=47486-http://go.microsoft.com/fwlink/?LinkId=120762IUma atualiza",
+   "-Os Requisitos de Sistema n",
+   "-http://go.microsoft.com/fwlink/?LinkId=59177&",
+   "-la, o programa de instala",
+   "-las visitando http://windowsupdate.microsoft.com_O computador est",
+   "-lo tanto em players port",
+   "-los e instal",
+   "-los novamente. Tem certeza de que deseja continuar?",
+   "-los novamente. Tem certeza de que deseja continuar?)Tempo de Execu",
+   ". Aproveite ao m",
+   "041604B0",
+   "12.0.7600.16385",
+   "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "1=Aguarde enquanto a instala",
+   "2A instala",
+   "423|418|80|22|&Cancelar",
+   "423|418|80|22|&Voltar",
+   "423|420|80|22|&Cancelar",
+   "423|420|80|22|&Voltar",
+   "428|418|80|22|&N",
+   "428|420|80|22|&N",
+   "503|418|80|22|&Avan",
+   "503|418|80|22|&Concluir",
+   "503|418|80|22|&Instalar",
+   "503|418|80|22|&OK",
+   "503|418|80|22|&Reiniciar",
+   "503|420|80|22|&Avan",
+   "503|420|80|22|&Concluir",
+   "503|420|80|22|&Instalar",
+   "503|420|80|22|&OK",
+   "503|420|80|22|&Reiniciar",
+   "508|418|80|22|&Aceito",
+   "508|420|80|22|&Aceito",
+   "6Inclui os arquivos com as extens",
+   "8Inclui os arquivos e CDs de ",
+   "?  Esse componente deve ser instalado para o software funcionar.A  Esse ",
+   "A Microsoft se compromete em proteger sua privacidade como consumidor. A declara",
+   "A Microsoft se compromete em proteger sua privacidade. Para oferecer uma experi",
+   "A Restaura",
+   "A instala",
+   "A maneira f",
+   "A vers",
+   "Adicionar um atalho ",
+   "Aguarde...",
+   "Ajuda na &Web",
+   "Alguns direitos de uso de m",
+   "Aperfei",
+   "Armazenar e exibir uma lista de itens reproduzidos recentemente/frequentemente:",
+   "Arquivo M3U%Programa de TV Gravado pela Microsoft",
+   "Arquivo MIDI (midi)!Arquivo Windows Media Audio (wma)!Arquivo de ",
+   "Arquivo Windows Media Audio3Lista de reprodu",
+   "Arquivo de ",
+   "Arquivo de Filme do QuickTime,Inclui arquivos com as extens",
+   "Arquivo de V",
+   "Arquivo de filme (mpeg)",
+   "Arquivo de v",
+   "Arquivo do Windows Media (asf)!Arquivo de v",
+   "Arquivo do Windows Media Player",
+   "At&ualizar os arquivos de m",
+   "Atalho para Windows Media Audio",
+   "Atualizando arquivos INI...'Verificando diret",
+   "Atualizando o Registro...",
+   "Atualizar Software de Loja",
+   "Baixando agora...",
+   "Baixando...",
+   "Baixar &direitos de uso automaticamente quando eu reproduzir ou sincronizar um arquivo",
+   "Biblioteca do Windows Media",
+   "C&onfigura",
+   "CD de ",
+   "Clipe de Filme",
+   "Clipe de Som",
+   "Clique em Avan",
+   "Clique em Cookies para exibir ou alterar as configura",
+   "Clique em Instalar Agora para baixar e instalar as atualiza",
+   "Como deseja usar o Windows Media Player?",
+   "CompanyName",
+   "Con&figura",
+   "Copiando arquivos...",
+   "Declara",
+   "Dependendo das suas configura",
+   "Desconhecido!Verificando assinatura digital....Extraindo arquivos do arquivamento compactado.",
+   "Descri",
+   "Desinstalando agora...",
+   "Download conclu",
+   "Durante a instala",
+   "E&xibir Declara",
+   "E&xibir informa",
+   "Erro ao baixar arquivo.",
+   "Escolha a loja online que deseja configurar agora. Voc",
+   "Escolha as configura",
+   "Escolha uma Loja Online`Escolha a loja online que deseja configurar agora. Voc",
+   "Escolher as configura",
+   "Escolher dentre as seguintes op",
+   "Espa",
+   "Este pacote de instala",
+   "Este software est",
+   "Ex&ibir Declara",
+   "Excluindo arquivos...",
+   "Excluindo diret",
+   "FW_BOLD",
+   "Faixa de ",
+   "Falha ao baixar um ou mais componentes opcionais. Outros arquivos j",
+   "Feche %s antes de continuar.",
+   "FileDescription",
+   "FileVersion",
+   "Filme do QuickTime",
+   "Gostaria de ajudar a melhorar o soft&ware e os servi",
+   "Hist",
+   "IDescri",
+   "Ima&gens",
+   "Importando Biblioteca de M",
+   "Informa",
+   "Inicializando...",
+   "Iniciando download...",
+   "Iniciar",
+   "Instala",
+   "Instalando agora...",
+   "Instalando...",
+   "Instalar agora",
+   "InternalName",
+   "Italic",
+   "LANG=PTB",
+   "LEFT",
+   "LegalCopyright",
+   "List1",
+   "Lista de Reprodu",
+   "Microsoft Corporation",
+   "NAguarde enquanto o Assistente para Instala",
+   "O Player usa a plataforma da Internet para comunicar informa",
+   "O Tempo de Execu",
+   "O Windows Media Player est",
+   "O Windows Media Player usa a plataforma da Internet para se comunicar com servidores que transmitem conte",
+   "O Windows est",
+   "O Windows pode usar a Interface do Usu",
+   "O computador est",
+   "Obrigado por instalar este media player completo. Com ele, voc",
+   "Obrigado por instalar o Media Player multifuncional! Descubra novas formas de entretenimento digital, execute-as e leve-as com voc",
+   "Observa",
+   "Obtendo Atualiza",
+   "Ocorreram um ou mais dos problemas a seguir, que podem afetar a instala",
+   "OriginalFilename",
+   "Os dados de uso ser",
+   "Os seguintes programas dependem desta vers",
+   "Os seguintes programas dependem do Windows Media Player para serem executados de forma apropriada e devem ser removidos antes de voc",
+   "Outra atualiza",
+   "Outra instala",
+   "Pacote de Restaura",
+   "Para adicionar esta loja ao Windows Media Player, voc",
+   "Para atualizar o Windows com o Windows Media Player, voc",
+   "Para executar a instala",
+   "Para obter ajuda, clique no bot",
+   "Para que suas altera",
+   "Para reverter para a vers",
+   "Para saber mais sobre as Configura",
+   "Parar",
+   "Personalizar configura",
+   "Preparando-se para baixar.)Conectando-se ao servidor de atualiza",
+   "Preparando-se para instalar...",
+   "Privil",
+   "ProductName",
+   "ProductVersion",
+   "Program Files",
+   "Progress1",
+   "Protocolo URL:MMS",
+   "Protocolo URL:MMST",
+   "Protocolo URL:MMSU",
+   "Protocolo URL:MSBD",
+   "Registrando componentes...'Cancelando o registro de componentes...",
+   "Reprodu",
+   "Reproduzi&r",
+   "Revers",
+   "Reverter Windows Media Player",
+   "Se voc",
+   "Sequ",
+   "Servi",
+   "Sistema Operacional Microsoft",
+   "Som Wave'Arquivo de ",
+   "Som no Formato AIFF",
+   "Som no Formato AU",
+   "Som no Formato MP3",
+   "StringFileInfo",
+   "SysListView32",
+   "Tahoma",
+   "Talvez seja necess",
+   "Tornar o &Windows Media Player o player padr",
+   "Torne o Windows Media Player o programa padr",
+   "Translation",
+   "Uma atualiza",
+   "Utilit",
+   "VS_VERSION_INFO",
+   "VarFileInfo",
+   "Vers",
+   "Videoclipe",
+   "Visite o Windows Update para baixar o Pacote cumulativo de atualiza",
+   "Windows Media Player",
+   "Windows Media Player Beta",
+   "Windows Media Player Beta.Tempo de Execu",
+   "Windows Media Player,Informa",
+   "YSelecione os tipos de arquivo que deseja que o Windows Media Player reproduza por padr",
+   "`Saia do Windows Media Player e de todos os outros programas antes de continuar com a instala",
+   "a logoff do computador e depois fa",
+   "a logoff do computador e fa",
+   "a logoff do computador e, depois, fa",
+   "a logon como administrador.",
+   "a logon como administrador.4Depend",
+   "a logon como administrador.EVers",
+   "a logon como administrador.dN",
+   "a. Deseja instalar esses arquivos agora?1Configurando o ponto de Restaura",
+   "ar o processo de download e de atualiza",
+   "ar para come",
+   "cil de descobrir, reproduzir e levar todo o seu entretenimento digital com voc",
+   "da a instala",
+   "da com alguns erros. ",
+   "da na vers",
+   "da, voc",
+   "da-Migrando a Biblioteca do Windows Media Player",
+   "da-Obrigado por escolher o Windows Media Player.!Bem-Vindo ao Windows Media Player_Tire proveito de uma reprodu",
+   "da. Para que suas altera",
+   "da. Reinicie o Windows para concluir a instala",
+   "da.kO Windows Media Player ser",
+   "das.|H",
+   "de copiar alguns ou todos os arquivos de capa.",
+   "de&o",
+   "deo AVCHD",
+   "deo DVD.0Inclui os arquivos com as extens",
+   "deo MP4",
+   "deo MPEG-2 TS",
+   "deo com o Windows Media Player.",
+   "deo de DVD",
+   "deo do Windows (avi)",
+   "deo do Windows Media",
+   "deo do Windows Media (wmv)",
+   "deo do Windows Media'Arquivo de ",
+   "deo do Windows Media'Arquivo de Capa do Windows Media Player'Pacote de Capas do Windows Media Player",
+   "deo do Windows Media3Lista de reprodu",
+   "deo e M",
+   "deo em 3GPP",
+   "deo em 3GPP2",
+   "deos digitais e muito mais.,http://go.microsoft.com/fwlink/?linkid=44073",
+   "deos, programas de TV, CDs e DVDs. Esse processo de instala",
+   "dia a partir da Internet",
+   "dia digital, como m",
+   "dia dos arquivos protegidos ser",
+   "dia e direitos de uso e envie dados de uso do Player para a Microsoft.",
+   "dia existentes n",
+   "dia n",
+   "dia na Internet",
+   "dia para alguns arquivos, mas n",
+   "dia recuperadas podem n",
+   "dia$Lista de reprodu",
+   "dia, baixe automaticamente informa",
+   "dia. Clique no bot",
+   "dia...",
+   "do de m",
+   "do e com provedores de conte",
+   "do para fornecer servi",
+   "do que voc",
+   "do. A modifica",
+   "dos. Talvez voc",
+   "es %s.",
+   "es .aif, .aifc e .aiff.MInclui os arquivos com as extens",
+   "es .asf, .asx, .wpl, .wm, .wmx, .wmd e .wmz.%Programa de TV Gravado pela MicrosoftKInclui arquivos com extens",
+   "es .asf, .asx, .wpl, .wm, .wmx, .wmd e .wmz.)Inclui os arquivos com as extens",
+   "es .au e .snd.7Inclui os arquivos com as extens",
+   "es .avi.",
+   "es .cda.",
+   "es .m2ts, .m2t, .mts, .ts e .tts.",
+   "es .m4a.)Inclui os arquivos com as extens",
+   "es .mid, .midi e .rmi.0Inclui os arquivos com as extens",
+   "es .mov.3Inclui arquivos com as extens",
+   "es .mp2, .mp3 e .m3u.]Inclui os arquivos com as extens",
+   "es .mp4, .m4v, .mp4v, .3gp, .3gpp, .3g2 e .3gp2.#Inclui arquivos com extens",
+   "es .mpeg, .mpg, .mpe, .mv1, .m2v, .mod, .mpv2, .mp2v e .mpa.5Inclui arquivos com as extens",
+   "es .wav.MInclui os arquivos com as extens",
+   "es .wma e .wax.)Inclui os arquivos com as extens",
+   "es .wmv e .wvx.",
+   "es 2 para o Windows XP Media Center Edition 2005 antes de instalar o Windows Media Player.]Para saber mais sobre as Configura",
+   "es a seguir e tome a a",
+   "es a seguir.3A instala",
+   "es adts, .adt e .aac.<Inclui arquivos com extens",
+   "es da loja: aguarde...-http://go.microsoft.com/fwlink/?LinkId=120762^Algumas informa",
+   "es da vers",
+   "es de Instala",
+   "es de Privacidade",
+   "es de conex",
+   "es de cookie afetar",
+   "es de instala",
+   "es de privacidade",
+   "es de privacidade est",
+   "es de privacidade que afetam cookies",
+   "es de privacidade que afetar",
+   "es de privacidade, o Player poder",
+   "es de privacidade.",
+   "es de reprodu",
+   "es dispon",
+   "es do Player.\"Selecione as Op",
+   "es e contadores.AA instala",
+   "es e outras op",
+   "es em seu computador.",
+   "es entrem em vigor, ",
+   "es iniciais do Windows Media Player. Voc",
+   "es n",
+   "es no Player mais tarde.",
+   "es no idioma do Player instalado no futuro; clique em N",
+   "es no idioma do Player que voc",
+   "es no idioma do seu Player atualmente instalado? Clique em Sim para procurar por atualiza",
+   "es online!Bem-Vindo ao Windows Media Player",
+   "es p",
+   "es padr",
+   "es para %s",
+   "es para configurar a ",
+   "es personalizadas",
+   "es recomendadas",
+   "es recomendadas, leia a Declara",
+   "es recomendadas, mas essas informa",
+   "es s",
+   "es sobre Privacidade de Loja Online",
+   "es sobre a Restaura",
+   "es sobre a m",
+   "es sobre m",
+   "es tenham efeito, voc",
+   "gido e continue com a instala",
+   "gido e retomar a instala",
+   "gios Insuficientes",
+   "msctls_progress32",
+   "ncia MIDI",
+   "ncia aperfei",
+   "ncia do Usu",
+   "ncia otimizada, os dados s",
+   "ncia, clique em Ajuda na Web.$O Windows foi atualizado com sucesso",
+   "ncias de programa est",
+   "ngue (MUI) do Windows detectada",
+   "ngue (MUI). Depois de conclu",
+   "ngue (MUI). Em vez disso, instale a vers",
+   "o Aceito",
+   "o Aceito para cancelar a atualiza",
+   "o Aceito para cancelar o download.",
+   "o Ajuda na Web.",
+   "o Imprim",
+   "o Padr",
+   "o a maneira como os cookies s",
+   "o adicional no disco r",
+   "o anterior do Player.",
+   "o anterior do Player. A Instala",
+   "o anterior do Tempo de Execu",
+   "o anterior do Windows Media Player que havia no computador, voc",
+   "o anterior instalada em seu computador. Deseja continuar?",
+   "o anterior que havia no computador, outros programas que exigem o Player poder",
+   "o anterior que havia no computador, outros programas que exigem o Tempo de Execu",
+   "o anterior, os direitos de uso de m",
+   "o antes de iniciar outra. Clique em Cancelar, reinicie o Windows e tente instalar o Windows Media Player novamente.",
+   "o antes de ser conclu",
+   "o atual do Player.",
+   "o baixa os arquivos no computador.",
+   "o beta do Windows Media Player. Antes de instal",
+   "o beta. Clique em Sim para procurar uma atualiza",
+   "o coincide com o idioma do Player atualmente instalado. No futuro, deseja procurar por atualiza",
+   "o coletados, como eles s",
+   "o com Qualidade Avan",
+   "o com os servidores durante o streaming. Essas informa",
+   "o conclu",
+   "o configurar uma loja agora (voc",
+   "o conseguir",
+   "o conseguiu copiar alguns dos arquivos da lista de reprodu",
+   "o conseguiu detectar nenhuma atualiza",
+   "o corretiva necess",
+   "o da Interface do Usu",
+   "o da LojaeN",
+   "o das configura",
+   "o de ",
+   "o de %s est",
+   "o de %s novamente .-N",
+   "o de %s.",
+   "o de 28,8 KBps.1Seu administrador de rede desativou este recurso.",
+   "o de 32 bits do Windows XP Service Pack 2.#Erro ao iniciar o navegador da Web.",
+   "o de Formata",
+   "o de M",
+   "o de Privacidade",
+   "o de Privacidade online.",
+   "o de Privacidade online.)Saiba mais sobre as op",
+   "o de alguns arquivos protegidos. ",
+   "o de alguns dos arquivos protegidos. Para resolver o problema, tente reiniciar o Windows e executar a Instala",
+   "o de idioma desejada.*N",
+   "o de privacidade do Windows Media Player explica quais dados s",
+   "o de privacidade online do Player.",
+   "o de privacidade online do WindowsMedia.com.",
+   "o de programa n",
+   "o de v",
+   "o deve ser desinstalado.",
+   "o digital para qualquer lugar, e pode acess",
+   "o direito do mouse em uma ",
+   "o dispon",
+   "o do %s conclu",
+   "o do CD de M",
+   "o do Microsoft Windows Media",
+   "o do Sistema e, depois, atualizar para o Windows Media Player. Para obter mais informa",
+   "o do Sistema est",
+   "o do Sistema para restaurar a vers",
+   "o do Sistema, consulte a Ajuda do Windows. Deseja continuar?",
+   "o do Sistema...WN",
+   "o do Tempo de Execu",
+   "o do Windows Media",
+   "o do Windows Media Format",
+   "o do Windows Media Format Beta",
+   "o do Windows Media Format para serem executados de forma apropriada e devem ser removidos antes de voc",
+   "o do Windows Media Format ser",
+   "o do Windows Media Player",
+   "o do Windows Media Player dispon",
+   "o do Windows Media Player est",
+   "o do Windows Media Player inclu",
+   "o do Windows Media Player novamente, ou, se parecer que a atualiza",
+   "o do Windows Media Player novamente.",
+   "o do Windows Media Player novamente.sO Windows Media Player requer %lu MB. A atualiza",
+   "o do Windows Media Player para o seu computador est",
+   "o do Windows Media Player pode ser instalada somente em um computador com o Windows XP Service Pack 2.",
+   "o do Windows Media Player que voc",
+   "o do Windows Media Player sendo instalada n",
+   "o do Windows Media Player.",
+   "o do Windows Media Player.NAtualiza",
+   "o do Windows Media PlayerYH",
+   "o do Windows Media est",
+   "o do Windows Media j",
+   "o do Windows Media para a vers",
+   "o do Windows Media para uma vers",
+   "o do Windows Media$Progresso de instala",
+   "o do Windows Media. A instala",
+   "o do Windows Media. Tente novamente mais tarde.",
+   "o do Windows Media.\"&Deseja prosseguir com a revers",
+   "o do Windows MediaqEsta vers",
+   "o do Windows com Interface do Usu",
+   "o do Windows em execu",
+   "o do computador em andamento; n",
+   "o do pacote...",
+   "o do sistema",
+   "o e execute a Instala",
+   "o em andamento. Aguarde ...",
+   "o em disco insuficiente",
+   "o em ingl",
+   "o em seu computador.",
+   "o em seu disco r",
+   "o enviadas aos servidores.",
+   "o enviados para a Microsoft se voc",
+   "o est",
+   "o estar em seu idioma.",
+   "o estava dispon",
+   "o estiver conclu",
+   "o exclu",
+   "o exclusiva do Player a provedores de conte",
+   "o fazer a revers",
+   "o final do Player. Se estiver dispon",
+   "o final ser",
+   "o foi conclu",
+   "o foi instalado.",
+   "o foi instalado. ",
+   "o foi instalado. Para adicionar essa loja ao Windows Media Player, execute a Instala",
+   "o foi instalado. Para atualizar o Windows, execute a instala",
+   "o foi instalado. Reinicie o Windows e execute a Instala",
+   "o foi poss",
+   "o foram atendidos.",
+   "o foram importadas para o Player, inclusive classifica",
+   "o foram movidos corretamente, o que pode impedir a reprodu",
+   "o foram movidos corretamente. Isso pode impedir a execu",
+   "o impedindo a revers",
+   "o ir",
+   "o levar",
+   "o livre em disco no computador. Recomenda-se cancelar a instala",
+   "o livre em disco suficiente para desinstalar o Windows Media Player. O disco deve ter pelo menos 50 MB de espa",
+   "o livre suficiente no disco para instalar o Windows Media Player. S",
+   "o livre. Libere espa",
+   "o mais antigo (%s) para instalar arquivos ou reparar a vers",
+   "o mais recente de %s e todos os seus componentes. N",
+   "o mais recente do Tempo de Execu",
+   "o mais recente do Windows Media Player (%s) j",
+   "o mais recente do Windows Media Player e todos os seus componentes. N",
+   "o mais recente do Windows Media Player j",
+   "o necess",
+   "o neste momento. Tem certeza de que deseja reverter o Player?",
+   "o neste momento.'Obtendo informa",
+   "o no seu computador. ",
+   "o online do Programa de Aperfei",
+   "o ou clique em Cancelar para adiar a atualiza",
+   "o ou clique em N",
+   "o ou todos eles.mO Windows Media Player foi instalado com ",
+   "o para Impress",
+   "o para executar m",
+   "o para executar seu conte",
+   "o para exibir a declara",
+   "o para m",
+   "o para procurar por atualiza",
+   "o para sair da Instala",
+   "o para sair da instala",
+   "o para ver a declara",
+   "o parou de responder, reinicie o Windows e execute a Instala",
+   "o permite que voc",
+   "o pode continuarAUm ou mais dos problemas a seguir ocorreram durante a instala",
+   "o pode ser instalado apenas em um computador que esteja executando a vers",
+   "o pode ser instalado apenas no Windows XP x64.",
+   "o poder",
+   "o porque o servidor de atualiza",
+   "o procura por atualiza",
+   "o se desejar revisar ou alterar as configura",
+   "o ser",
+   "o ser afetados. Talvez voc",
+   "o suportado.FEste pacote de instala",
+   "o tiver sido conclu",
+   "o traduzida do Windows Media Player em um computador que esteja executando uma vers",
+   "o tratados em qualquer outro programa que dependa dessas configura",
+   "o tratados no Windows Media Player e em qualquer outro programa que dependa dessas configura",
+   "o trocados pela Internet e podem ser salvos em seu computador.,Selecionar o Player de V",
+   "o usadas para identificar ou contatar voc",
+   "o usadas por provedores de conte",
+   "o usados e quais configura",
+   "o#Atualiza",
+   "o, excluir arquivos desnecess",
+   "o, n",
+   "o, o Windows Media Player contatar",
+   "o, o Windows Media Player ser",
+   "o, privacidade e lojas online. Selecione esta op",
+   "o, voc",
+   "o. Libere espa",
+   "o. Para obter assist",
+   "o. Salve seu trabalho, feche todos os programas e, em seguida, reinicie o Windows.gVoc",
+   "o. Verifique as informa",
+   "o.$Personalizar as Op",
+   "o.(Determinando disponibilidade do arquivo.5Baixando o arquivo. Tempo restante: %s. Recebidos %s.",
+   "o.)Verifique antes de continuar a instala",
+   "o.,Gerenciador de Configura",
+   "o.-http://go.microsoft.com/fwlink/?linkid=120722) Definir %s como minha loja online ativa.) Definir %s como minha loja online ativa.",
+   "o...",
+   "o... (isso pode levar alguns minutos)$Inicializando antes da instala",
+   "o..Idiomas incompat",
+   "o.BUma vers",
+   "o.{O Windows Media Player n",
+   "o: as informa",
+   "o:}Para instalar o Windows Media Player, o computador deve estar executando o Windows XP Media Center Edition 2005 ou posterior.",
+   "o; %s n",
+   "o; o Windows Media Player n",
+   "o?4Depend",
+   "oNConfigure sua ",
+   "oada de m",
+   "oamento da Experi",
+   "os Aprimorados para Provedores de Conte",
+   "os Microsoft, enviando dados de uso do Player para a Microsoft",
+   "os. Modificar suas configura",
+   "pida e flex",
+   "pt-BR",
+   "rea de trabalho e as defini",
+   "rea de trabalho.",
+   "rea vazia da barra de tarefas do Windows, aponte para Barras de Ferramentas e, em seguida, limpe a caixa Windows Media Player.",
+   "ria.,Obrigado por escolher o Windows Media Player",
+   "rias para a desinstala",
+   "rico",
+   "rio Multil",
+   "rio de Configura",
+   "rio do Windows Media Player",
+   "rio reiniciar o Windows agora. Salve seu trabalho, saia de todos os programas e, em seguida, reinicie o Windows.",
+   "rio reiniciar o Windows agora.n%s n",
+   "rio reiniciar o Windows. Salve seu trabalho, saia de todos os programas e, em seguida, reinicie o Windows.",
+   "rio reiniciar o Windows. Se desejar reiniciar agora, primeiro salve seu trabalho e saia de todos os programas.",
+   "rio remover e, em seguida, instalar os seguintes programas novamente quando a revers",
+   "rios antigos...GExecutando opera",
+   "rios de instala",
+   "rios do disco r",
+   "rios pelo menos mais %lu MB de espa",
+   "s do Windows Media Player neste computador e, em seguida, instale os pacotes de idioma apropriados do Windows Media Player para obter os recursos de troca de idiomas.",
+   "s-instala",
+   "setup_wm.exe",
+   "setup_wm.exe.mui",
+   "sica",
+   "sica Padr",
+   "sica e v",
+   "sica recuperando as informa",
+   "sicas, v",
+   "teis dos mais variados tipos quanto em computadores que executam o Windows Vista.",
+   "teis e em computadores com o Windows XP.",
+   "udio",
+   "udio ADTS",
+   "udio AIFF (aiff)\"Arquivo de imagem do Windows (jpg).Programa de TV Gravado pela Microsoft (dvr-ms)",
+   "udio AU (au)",
+   "udio MP3 (mp3)",
+   "udio MP4",
+   "udio MPEG-4",
+   "udio com as extens",
+   "udio de CD",
+   "udio do Windows (wav)",
+   "udio/V",
+   "vErro inesperado. A instala",
+   "veis do Windows Media Player.",
+   "veis no Player.",
+   "veis no Player.J Clique no bot",
+   "veis no momento.>Uma atualiza",
+   "veis. ",
+   "vel Concluir Instala",
+   "vel clicar em Cancelar, ativar a Restaura",
+   "vel concluir a Instala",
+   "vel concluir a instala",
+   "vel continuar a Instala",
+   "vel de m",
+   "vel desativar o modo miniplayer antes de continuar. Para fazer isso, clique com o bot",
+   "vel desinstalar %s, porque as pastas necess",
+   "vel instal",
+   "vel instalar uma vers",
+   "vel n",
+   "vel no momento.#A instala",
+   "vel para %s. Clique em Aceito para baixar o software ou em N",
+   "vel para download e instala",
+   "vel reproduzir arquivos que exijam a vers",
+   "vel usar um pacote de instala",
+   "vel, a vers",
+   "vel. Deseja atualizar agora?",
+   "vel. Deseja atualizar agora? Clique em Sim para baixar e instalar a atualiza",
+   "vel. Deseja atualizar agora?;O(s) formato(s) %s inclui(em) arquivos com as extens",
+   "vel. O Windows Media Player n",
+   "vel. Verifique as informa",
+   "ximo suas m",
+   "xito. No entanto, ocorreram os erros a seguir durante a instala",
+   "{Nenhuma atualiza"
+  ]
+ }
+}

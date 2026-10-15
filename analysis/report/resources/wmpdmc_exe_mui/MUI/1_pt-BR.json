@@ -1,0 +1,43 @@
+{
+ "magic": "0xfecdfecd",
+ "size": 192,
+ "total_size_field": 192,
+ "size_matches_payload": true,
+ "version_field": "0x00010000",
+ "dword0x10": 0,
+ "dword0x14": 18,
+ "dword0x18": 0,
+ "dword0x1c": 0,
+ "note": "words above are reported verbatim; their meaning is not established here",
+ "language_tag": "pt-BR",
+ "localized_type_ids": [
+  4,
+  5,
+  6,
+  9,
+  11,
+  16
+ ],
+ "localized_type_names": [
+  "RT_MENU",
+  "RT_DIALOG",
+  "RT_STRING",
+  "RT_ACCELERATOR",
+  "RT_MESSAGETABLE",
+  "RT_VERSION"
+ ],
+ "same_artifact_numeric_types": [
+  4,
+  5,
+  6,
+  9,
+  11,
+  16
+ ],
+ "type_list_matches_same_artifact": true,
+ "uninterpreted_dwords_0x20..": [
+  "0x8bf1230a",
+  "0x9518549b",
+  "0x4e563b9a"
+ ]
+}

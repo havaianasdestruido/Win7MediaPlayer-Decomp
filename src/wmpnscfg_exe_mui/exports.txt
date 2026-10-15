@@ -1,0 +1,2 @@
+# Exported symbols — bin/pt-BR/wmpnscfg.exe.mui (SHA-256 45bf774e8ba7f906c6556ab1e08fd7b69a5a4da6fc75f4ccc62ab167333ba11d)
+# (no exported symbols; this image is an executable or a resource-only module)

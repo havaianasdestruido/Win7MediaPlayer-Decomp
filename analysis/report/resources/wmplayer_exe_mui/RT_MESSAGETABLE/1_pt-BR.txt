@@ -1,0 +1,9 @@
+# block 3221225473..3221225476 (4 messages)
+3221225473	%1!.1023s!Windows Media Player não está corretamente instalado e deve ser reinstalado.%n%nDeseja instalar o Player pelo site da Microsoft?
+
+3221225474	Para concluir a instalação do Windows Media Player, reinicie o computador e faça logon como administrador ou como um membro do grupo Administradores.
+
+3221225475	O arquivo %1!.1023S! tem um número de versão %2!d!.%3!d!.%4!d!.%5!d! onde %6!d!.%7!d!.%8!d!.%9!d! era esperado.%n
+
+3221225476	Para usar o Windows Media Player, efetue logoff do Windows, faça logon novamente e inicie o Windows Media Player.%n
+

@@ -1,0 +1,2488 @@
+{
+ "generated_by": "analysis/tools/typelib.py",
+ "generated_at": "2026-10-14 21:48:10Z",
+ "source": {
+  "artifact": "analysis/report/resources/wmpnssci_dll/typelib/typelib_1_1.tlb",
+  "module": "wmpnssci_dll",
+  "resource_name": "1",
+  "payload_sha256": "ba725589c858299e955526c85e77366feec84f4758f2da2dd8ac4e7033719825",
+  "file": "analysis/report/resources/wmpnssci_dll/typelib/typelib_1_1.tlb"
+ },
+ "format": "MSFT (ICreateTypeLib2), version field 0x00010002",
+ "header": {
+  "magic": "MSFT",
+  "version_field": "0x00010002",
+  "lcid": "0x0409",
+  "lcid2": 0,
+  "syskind": "SYS_WIN64",
+  "varflags": "0x00000043",
+  "version": "1.0",
+  "flags": "0x00000000",
+  "nrtypeinfos": 14,
+  "library_guid": "{453E9E02-8BA4-474C-BFA0-37727E44F6AE}",
+  "posguid": 0,
+  "name_table_entries": 62,
+  "nametablechars": 648,
+  "help_string": null,
+  "help_file": null,
+  "nimpinfos": 2,
+  "dispatchpos": 1
+ },
+ "segments": [
+  {
+   "index": 0,
+   "offset": 380,
+   "length": 1400,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 1,
+   "offset": 2420,
+   "length": 24,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 2,
+   "offset": 2444,
+   "length": 28,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 3,
+   "offset": 2340,
+   "length": 80,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 4,
+   "offset": 1780,
+   "length": 128,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 5,
+   "offset": 1908,
+   "length": 432,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 6,
+   "offset": 2472,
+   "length": 512,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 7,
+   "offset": 2984,
+   "length": 1476,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 8,
+   "offset": 4460,
+   "length": 2800,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 9,
+   "offset": 7260,
+   "length": 168,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 10,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 11,
+   "offset": 7428,
+   "length": 8,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 12,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 13,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 14,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 15,
+   "offset": 8480,
+   "length": 7436,
+   "res08": 0,
+   "res0c": 0
+  }
+ ],
+ "typeinfos": [
+  {
+   "index": 0,
+   "typeinfo_offset": 0,
+   "kind": "TKIND_ENUM",
+   "kind_id": 0,
+   "name": "ServiceStatus",
+   "name_offset": 20,
+   "guid": "{B78E1E54-0885-40C0-87BC-2E5B93C95F1C}",
+   "posguid": 24,
+   "flags": "0x00000000",
+   "typekind_raw": "0x00002120",
+   "cbAlignment": 4,
+   "version": "0.0",
+   "docstring": "q",
+   "member_counts": {
+    "functions": 0,
+    "variables": 5
+   },
+   "cImplTypes": 0,
+   "cbSizeVft": 0,
+   "size": 4,
+   "memoffset": 7436,
+   "datatype1": 4294967295,
+   "datatype2": 0,
+   "help_context": 0,
+   "functions": [],
+   "variables": [
+    {
+     "index": 0,
+     "name": "StatusUnknown",
+     "memid": 1073741824,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946157056,
+     "flags": "0x00000000",
+     "const_value": 0,
+     "const_vt": "VT_I4"
+    },
+    {
+     "index": 1,
+     "name": "StatusStopped",
+     "memid": 1073741825,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946157055,
+     "flags": "0x00000000",
+     "const_value": 1,
+     "const_vt": "VT_I4"
+    },
+    {
+     "index": 2,
+     "name": "StatusScanning",
+     "memid": 1073741826,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946157054,
+     "flags": "0x00000000",
+     "const_value": 2,
+     "const_vt": "VT_I4"
+    },
+    {
+     "index": 3,
+     "name": "StatusBusy",
+     "memid": 1073741827,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946157053,
+     "flags": "0x00000000",
+     "const_value": 3,
+     "const_vt": "VT_I4"
+    },
+    {
+     "index": 4,
+     "name": "StatusReady",
+     "memid": 1073741828,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946157052,
+     "flags": "0x00000000",
+     "const_value": 4,
+     "const_vt": "VT_I4"
+    }
+   ],
+   "implements": [],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 1,
+   "typeinfo_offset": 100,
+   "kind": "TKIND_ENUM",
+   "kind_id": 0,
+   "name": "EventReason",
+   "name_offset": 180,
+   "guid": "{31D0E2AD-8AE5-41CE-A743-B815F4279005}",
+   "posguid": 48,
+   "flags": "0x00000000",
+   "typekind_raw": "0x00012120",
+   "cbAlignment": 4,
+   "version": "0.0",
+   "docstring": "N",
+   "member_counts": {
+    "functions": 0,
+    "variables": 5
+   },
+   "cImplTypes": 0,
+   "cbSizeVft": 0,
+   "size": 4,
+   "memoffset": 7640,
+   "datatype1": 4294967295,
+   "datatype2": 0,
+   "help_context": 0,
+   "functions": [],
+   "variables": [
+    {
+     "index": 0,
+     "name": "ReasonUnknown",
+     "memid": 1073741824,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946156056,
+     "flags": "0x00000000",
+     "const_value": 1000,
+     "const_vt": "VT_I4"
+    },
+    {
+     "index": 1,
+     "name": "ReasonDeviceAdded",
+     "memid": 1073741825,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946156055,
+     "flags": "0x00000000",
+     "const_value": 1001,
+     "const_vt": "VT_I4"
+    },
+    {
+     "index": 2,
+     "name": "ReasonDeviceRemoved",
+     "memid": 1073741826,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946156054,
+     "flags": "0x00000000",
+     "const_value": 1002,
+     "const_vt": "VT_I4"
+    },
+    {
+     "index": 3,
+     "name": "ReasonDeviceAuthorizationChanged",
+     "memid": 1073741827,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946156053,
+     "flags": "0x00000000",
+     "const_value": 1003,
+     "const_vt": "VT_I4"
+    },
+    {
+     "index": 4,
+     "name": "ReasonDevicePropertyChanged",
+     "memid": 1073741828,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946156052,
+     "flags": "0x00000000",
+     "const_value": 1004,
+     "const_vt": "VT_I4"
+    }
+   ],
+   "implements": [],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 2,
+   "typeinfo_offset": 200,
+   "kind": "TKIND_ENUM",
+   "kind_id": 0,
+   "name": "AuthorizationStatus",
+   "name_offset": 380,
+   "guid": "{08933D12-EEED-4AD2-9238-4E916639D0C4}",
+   "posguid": 72,
+   "flags": "0x00000000",
+   "typekind_raw": "0x00022120",
+   "cbAlignment": 4,
+   "version": "0.0",
+   "docstring": "K",
+   "member_counts": {
+    "functions": 0,
+    "variables": 4
+   },
+   "cImplTypes": 0,
+   "cbSizeVft": 0,
+   "size": 4,
+   "memoffset": 7844,
+   "datatype1": 4294967295,
+   "datatype2": 0,
+   "help_context": 0,
+   "functions": [],
+   "variables": [
+    {
+     "index": 0,
+     "name": "Unknown",
+     "memid": 1073741824,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946157056,
+     "flags": "0x00000000",
+     "const_value": 0,
+     "const_vt": "VT_I4"
+    },
+    {
+     "index": 1,
+     "name": "Unauthorized",
+     "memid": 1073741825,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946157055,
+     "flags": "0x00000000",
+     "const_value": 1,
+     "const_vt": "VT_I4"
+    },
+    {
+     "index": 2,
+     "name": "Allowed",
+     "memid": 1073741826,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946157054,
+     "flags": "0x00000000",
+     "const_value": 2,
+     "const_vt": "VT_I4"
+    },
+    {
+     "index": 3,
+     "name": "Denied",
+     "memid": 1073741827,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946157053,
+     "flags": "0x00000000",
+     "const_value": 3,
+     "const_vt": "VT_I4"
+    }
+   ],
+   "implements": [],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 3,
+   "typeinfo_offset": 300,
+   "kind": "TKIND_DISPATCH",
+   "kind_id": 4,
+   "name": "INSSProperty",
+   "name_offset": 496,
+   "guid": "{B27C1EAC-B909-462C-A051-F85DA63D616B}",
+   "posguid": 144,
+   "flags": "0x00001140",
+   "typekind_raw": "0x00034234",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": null,
+   "member_counts": {
+    "functions": 2,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 72,
+   "size": 8,
+   "memoffset": 8008,
+   "datatype1": 1,
+   "datatype2": 458754,
+   "help_context": 0,
+   "functions": [
+    {
+     "index": 0,
+     "name": "Name",
+     "memid": 1,
+     "vtable_offset_bytes": 56,
+     "vtable_slot": 7,
+     "vtable_offset_raw": "0x0038",
+     "funcdescsize": 76,
+     "fkccic": "0x00004411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "pbstrResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff7fff8",
+        "points_to": {
+         "vt": 8,
+         "vt_name": "VT_BSTR",
+         "rendered": "BSTR",
+         "inline": true
+        },
+        "rendered": "BSTR*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "\u0019"
+    },
+    {
+     "index": 1,
+     "name": "Value",
+     "memid": 0,
+     "vtable_offset_bytes": 64,
+     "vtable_slot": 8,
+     "vtable_offset_raw": "0x0040",
+     "funcdescsize": 76,
+     "fkccic": "0x00014411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "pvResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff3fff4",
+        "points_to": {
+         "vt": 12,
+         "vt_name": "VT_VARIANT",
+         "rendered": "VARIANT",
+         "inline": true
+        },
+        "rendered": "VARIANT*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "\u001f"
+    }
+   ],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x01000001",
+     "flags": "0xff000000",
+     "imported": null,
+     "name": "<external hRef 0x01000001>",
+     "impl_flags": ""
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 4,
+   "typeinfo_offset": 400,
+   "kind": "TKIND_COCLASS",
+   "kind_id": 5,
+   "name": "Property",
+   "name_offset": 600,
+   "guid": "{FC434359-AF3E-4F09-852E-B5D3384F241D}",
+   "posguid": 168,
+   "flags": "0x00000000",
+   "typekind_raw": "0x00044225",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": "\u00a7",
+   "member_counts": {
+    "functions": 0,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 0,
+   "size": 8,
+   "memoffset": 8124,
+   "datatype1": 0,
+   "datatype2": 0,
+   "help_context": 0,
+   "functions": [],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x0000012c",
+     "flags": "0x00000001",
+     "typeinfo_index": 3,
+     "name": "INSSProperty",
+     "guid": "{B27C1EAC-B909-462C-A051-F85DA63D616B}",
+     "impl_flags": "DEFAULT"
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 5,
+   "typeinfo_offset": 500,
+   "kind": "TKIND_DISPATCH",
+   "kind_id": 4,
+   "name": "INSSProperties",
+   "name_offset": 620,
+   "guid": "{DF2F700E-48CC-40CE-BBF7-73187286C42D}",
+   "posguid": 192,
+   "flags": "0x00001140",
+   "typekind_raw": "0x00054234",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": null,
+   "member_counts": {
+    "functions": 3,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 80,
+   "size": 8,
+   "memoffset": 8124,
+   "datatype1": 1,
+   "datatype2": 458754,
+   "help_context": 0,
+   "functions": [
+    {
+     "index": 0,
+     "name": "Item",
+     "memid": 0,
+     "vtable_offset_bytes": 56,
+     "vtable_slot": 7,
+     "vtable_offset_raw": "0x0038",
+     "funcdescsize": 100,
+     "fkccic": "0x00004411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 2,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "Index",
+       "type": {
+        "vt": 3,
+        "vt_name": "VT_I4",
+        "rendered": "long",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "ppResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000018",
+        "points_to": {
+         "vt": 26,
+         "vt_name": "VT_PTR",
+         "flags": [],
+         "union": "0x00000010",
+         "points_to": {
+          "vt": 29,
+          "vt_name": "VT_USERDEFINED",
+          "flags": [],
+          "union": "0x0000012c",
+          "typeinfo_index": 3,
+          "rendered": "INSSProperty"
+         },
+         "rendered": "INSSProperty*"
+        },
+        "rendered": "INSSProperty**"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "F"
+    },
+    {
+     "index": 1,
+     "name": "Count",
+     "memid": 1,
+     "vtable_offset_bytes": 64,
+     "vtable_slot": 8,
+     "vtable_offset_raw": "0x0040",
+     "funcdescsize": 76,
+     "fkccic": "0x00014411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "plResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ffcfffd",
+        "points_to": {
+         "vt": 3,
+         "vt_name": "VT_I4",
+         "rendered": "long",
+         "inline": true
+        },
+        "rendered": "long*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "/"
+    },
+    {
+     "index": 2,
+     "name": "GetProperty",
+     "memid": 2,
+     "vtable_offset_bytes": 72,
+     "vtable_slot": 9,
+     "vtable_offset_raw": "0x0048",
+     "funcdescsize": 100,
+     "fkccic": "0x00024409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 2,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "Name",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "ppResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000018",
+        "points_to": {
+         "vt": 26,
+         "vt_name": "VT_PTR",
+         "flags": [],
+         "union": "0x00000010",
+         "points_to": {
+          "vt": 29,
+          "vt_name": "VT_USERDEFINED",
+          "flags": [],
+          "union": "0x0000012c",
+          "typeinfo_index": 3,
+          "rendered": "INSSProperty"
+         },
+         "rendered": "INSSProperty*"
+        },
+        "rendered": "INSSProperty**"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "5"
+    }
+   ],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x01000001",
+     "flags": "0xff000000",
+     "imported": null,
+     "name": "<external hRef 0x01000001>",
+     "impl_flags": ""
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 6,
+   "typeinfo_offset": 600,
+   "kind": "TKIND_COCLASS",
+   "kind_id": 5,
+   "name": "Properties",
+   "name_offset": 768,
+   "guid": "{AD5D2BA9-B6A0-45B6-9ED5-B59B85806D56}",
+   "posguid": 216,
+   "flags": "0x00000000",
+   "typekind_raw": "0x00064225",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": "\u00c1",
+   "member_counts": {
+    "functions": 0,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 0,
+   "size": 8,
+   "memoffset": 8320,
+   "datatype1": 16,
+   "datatype2": 0,
+   "help_context": 0,
+   "functions": [],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x000001f4",
+     "flags": "0x00000001",
+     "typeinfo_index": 5,
+     "name": "INSSProperties",
+     "guid": "{DF2F700E-48CC-40CE-BBF7-73187286C42D}",
+     "impl_flags": "DEFAULT"
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 7,
+   "typeinfo_offset": 700,
+   "kind": "TKIND_DISPATCH",
+   "kind_id": 4,
+   "name": "INSSDevice",
+   "name_offset": 792,
+   "guid": "{055B0E0E-3113-4CAE-9EEE-6E63211BEE37}",
+   "posguid": 240,
+   "flags": "0x00001140",
+   "typekind_raw": "0x00074234",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": null,
+   "member_counts": {
+    "functions": 7,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 112,
+   "size": 8,
+   "memoffset": 8320,
+   "datatype1": 1,
+   "datatype2": 458754,
+   "help_context": 0,
+   "functions": [
+    {
+     "index": 0,
+     "name": "MACAddress",
+     "memid": 1,
+     "vtable_offset_bytes": 56,
+     "vtable_slot": 7,
+     "vtable_offset_raw": "0x0038",
+     "funcdescsize": 76,
+     "fkccic": "0x00004411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "pbstrResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff7fff8",
+        "points_to": {
+         "vt": 8,
+         "vt_name": "VT_BSTR",
+         "rendered": "BSTR",
+         "inline": true
+        },
+        "rendered": "BSTR*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "\u001f"
+    },
+    {
+     "index": 1,
+     "name": "Authorization",
+     "memid": 2,
+     "vtable_offset_bytes": 64,
+     "vtable_slot": 8,
+     "vtable_offset_raw": "0x0040",
+     "funcdescsize": 76,
+     "fkccic": "0x00024411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "peResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000030",
+        "points_to": {
+         "vt": 29,
+         "vt_name": "VT_USERDEFINED",
+         "flags": [],
+         "union": "0x000000c8",
+         "typeinfo_index": 2,
+         "rendered": "AuthorizationStatus"
+        },
+        "rendered": "AuthorizationStatus*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "5"
+    },
+    {
+     "index": 2,
+     "name": "Authorization",
+     "memid": 2,
+     "vtable_offset_bytes": 72,
+     "vtable_slot": 9,
+     "vtable_offset_raw": "0x0048",
+     "funcdescsize": 68,
+     "fkccic": "0x00010421",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYPUT",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "<unnamed>",
+       "type": {
+        "vt": 29,
+        "vt_name": "VT_USERDEFINED",
+        "flags": [],
+        "union": "0x000000c8",
+        "typeinfo_index": 2,
+        "rendered": "AuthorizationStatus"
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "5"
+    },
+    {
+     "index": 3,
+     "name": "Disabled",
+     "memid": 3,
+     "vtable_offset_bytes": 80,
+     "vtable_slot": 10,
+     "vtable_offset_raw": "0x0050",
+     "funcdescsize": 76,
+     "fkccic": "0x00044411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "pbResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff4fff5",
+        "points_to": {
+         "vt": 11,
+         "vt_name": "VT_BOOL",
+         "rendered": "VARIANT_BOOL",
+         "inline": true
+        },
+        "rendered": "VARIANT_BOOL*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "4"
+    },
+    {
+     "index": 4,
+     "name": "Disabled",
+     "memid": 3,
+     "vtable_offset_bytes": 88,
+     "vtable_slot": 11,
+     "vtable_offset_raw": "0x0058",
+     "funcdescsize": 68,
+     "fkccic": "0x00030421",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYPUT",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "<unnamed>",
+       "type": {
+        "vt": 11,
+        "vt_name": "VT_BOOL",
+        "rendered": "VARIANT_BOOL",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "4"
+    },
+    {
+     "index": 5,
+     "name": "Properties",
+     "memid": 4,
+     "vtable_offset_bytes": 96,
+     "vtable_slot": 12,
+     "vtable_offset_raw": "0x0060",
+     "funcdescsize": 84,
+     "fkccic": "0x00054411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "ppResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000050",
+        "points_to": {
+         "vt": 26,
+         "vt_name": "VT_PTR",
+         "flags": [],
+         "union": "0x00000048",
+         "points_to": {
+          "vt": 29,
+          "vt_name": "VT_USERDEFINED",
+          "flags": [],
+          "union": "0x000001f4",
+          "typeinfo_index": 5,
+          "rendered": "INSSProperties"
+         },
+         "rendered": "INSSProperties*"
+        },
+        "rendered": "INSSProperties**"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "."
+    },
+    {
+     "index": 6,
+     "name": "ShowDevicePropertyPage",
+     "memid": 5,
+     "vtable_offset_bytes": 104,
+     "vtable_slot": 13,
+     "vtable_offset_raw": "0x0068",
+     "funcdescsize": 68,
+     "fkccic": "0x00060409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "hWnd",
+       "type": {
+        "vt": 20,
+        "vt_name": "VT_I8",
+        "rendered": "LONGLONG",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "5"
+    }
+   ],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x01000001",
+     "flags": "0xff000000",
+     "imported": null,
+     "name": "<external hRef 0x01000001>",
+     "impl_flags": ""
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 8,
+   "typeinfo_offset": 800,
+   "kind": "TKIND_COCLASS",
+   "kind_id": 5,
+   "name": "Device",
+   "name_offset": 980,
+   "guid": "{86223118-F443-4F05-B0CF-8963A15747A6}",
+   "posguid": 264,
+   "flags": "0x00000000",
+   "typekind_raw": "0x00084225",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": "s",
+   "member_counts": {
+    "functions": 0,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 0,
+   "size": 8,
+   "memoffset": 8716,
+   "datatype1": 32,
+   "datatype2": 0,
+   "help_context": 0,
+   "functions": [],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x000002bc",
+     "flags": "0x00000001",
+     "typeinfo_index": 7,
+     "name": "INSSDevice",
+     "guid": "{055B0E0E-3113-4CAE-9EEE-6E63211BEE37}",
+     "impl_flags": "DEFAULT"
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 9,
+   "typeinfo_offset": 900,
+   "kind": "TKIND_DISPATCH",
+   "kind_id": 4,
+   "name": "INSSDevices",
+   "name_offset": 1000,
+   "guid": "{73DE3C35-FAF7-4934-B337-C260D5926858}",
+   "posguid": 288,
+   "flags": "0x00001140",
+   "typekind_raw": "0x00094234",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": null,
+   "member_counts": {
+    "functions": 3,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 80,
+   "size": 8,
+   "memoffset": 8716,
+   "datatype1": 1,
+   "datatype2": 458754,
+   "help_context": 0,
+   "functions": [
+    {
+     "index": 0,
+     "name": "Item",
+     "memid": 0,
+     "vtable_offset_bytes": 56,
+     "vtable_slot": 7,
+     "vtable_offset_raw": "0x0038",
+     "funcdescsize": 100,
+     "fkccic": "0x00004411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 2,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "Index",
+       "type": {
+        "vt": 3,
+        "vt_name": "VT_I4",
+        "rendered": "long",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "ppResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000068",
+        "points_to": {
+         "vt": 26,
+         "vt_name": "VT_PTR",
+         "flags": [],
+         "union": "0x00000060",
+         "points_to": {
+          "vt": 29,
+          "vt_name": "VT_USERDEFINED",
+          "flags": [],
+          "union": "0x000002bc",
+          "typeinfo_index": 7,
+          "rendered": "INSSDevice"
+         },
+         "rendered": "INSSDevice*"
+        },
+        "rendered": "INSSDevice**"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "M"
+    },
+    {
+     "index": 1,
+     "name": "Count",
+     "memid": 1,
+     "vtable_offset_bytes": 64,
+     "vtable_slot": 8,
+     "vtable_offset_raw": "0x0040",
+     "funcdescsize": 76,
+     "fkccic": "0x00014411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "plResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ffcfffd",
+        "points_to": {
+         "vt": 3,
+         "vt_name": "VT_I4",
+         "rendered": "long",
+         "inline": true
+        },
+        "rendered": "long*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "/"
+    },
+    {
+     "index": 2,
+     "name": "GetDevice",
+     "memid": 2,
+     "vtable_offset_bytes": 72,
+     "vtable_slot": 9,
+     "vtable_offset_raw": "0x0048",
+     "funcdescsize": 100,
+     "fkccic": "0x00024409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 2,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "MACAddress",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "ppResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000068",
+        "points_to": {
+         "vt": 26,
+         "vt_name": "VT_PTR",
+         "flags": [],
+         "union": "0x00000060",
+         "points_to": {
+          "vt": 29,
+          "vt_name": "VT_USERDEFINED",
+          "flags": [],
+          "union": "0x000002bc",
+          "typeinfo_index": 7,
+          "rendered": "INSSDevice"
+         },
+         "rendered": "INSSDevice*"
+        },
+        "rendered": "INSSDevice**"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "4"
+    }
+   ],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x01000001",
+     "flags": "0xff000000",
+     "imported": null,
+     "name": "<external hRef 0x01000001>",
+     "impl_flags": ""
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 10,
+   "typeinfo_offset": 1000,
+   "kind": "TKIND_COCLASS",
+   "kind_id": 5,
+   "name": "Devices",
+   "name_offset": 1048,
+   "guid": "{6DE2D8B3-50B2-45B7-9DE3-0825CE8B7F2D}",
+   "posguid": 312,
+   "flags": "0x00000000",
+   "typekind_raw": "0x000a4225",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": "U",
+   "member_counts": {
+    "functions": 0,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 0,
+   "size": 8,
+   "memoffset": 8912,
+   "datatype1": 48,
+   "datatype2": 0,
+   "help_context": 0,
+   "functions": [],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x00000384",
+     "flags": "0x00000001",
+     "typeinfo_index": 9,
+     "name": "INSSDevices",
+     "guid": "{73DE3C35-FAF7-4934-B337-C260D5926858}",
+     "impl_flags": "DEFAULT"
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 11,
+   "typeinfo_offset": 1100,
+   "kind": "TKIND_INTERFACE",
+   "kind_id": 3,
+   "name": "INSSNotify",
+   "name_offset": 1068,
+   "guid": "{ADC0EDF5-FE64-48FF-A711-CB4AB0F5C2CA}",
+   "posguid": 336,
+   "flags": "0x00000000",
+   "typekind_raw": "0x000b4223",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": null,
+   "member_counts": {
+    "functions": 1,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 32,
+   "size": 8,
+   "memoffset": 8912,
+   "datatype1": 13,
+   "datatype2": 196609,
+   "help_context": 0,
+   "functions": [
+    {
+     "index": 0,
+     "name": "Notify",
+     "memid": 1610678272,
+     "vtable_offset_bytes": 24,
+     "vtable_slot": 3,
+     "vtable_offset_raw": "0x0018",
+     "funcdescsize": 108,
+     "fkccic": "0x00000409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 3,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "Reason",
+       "type": {
+        "vt": 29,
+        "vt_name": "VT_USERDEFINED",
+        "flags": [],
+        "union": "0x00000064",
+        "typeinfo_index": 1,
+        "rendered": "EventReason"
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "ID",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "Data",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff3fff4",
+        "points_to": {
+         "vt": 12,
+         "vt_name": "VT_VARIANT",
+         "rendered": "VARIANT",
+         "inline": true
+        },
+        "rendered": "VARIANT*"
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ]
+    }
+   ],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0xf4ffffff",
+     "flags": "0x01000001",
+     "note": "external reference (reftype kind 3)",
+     "impl_flags": "DEFAULT"
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 12,
+   "typeinfo_offset": 1200,
+   "kind": "TKIND_DISPATCH",
+   "kind_id": 4,
+   "name": "INSSManager",
+   "name_offset": 1164,
+   "guid": "{204F4950-212A-414F-9B27-73BD87423F25}",
+   "posguid": 384,
+   "flags": "0x00001140",
+   "typekind_raw": "0x000c4234",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": null,
+   "member_counts": {
+    "functions": 9,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 128,
+   "size": 8,
+   "memoffset": 8988,
+   "datatype1": 1,
+   "datatype2": 458754,
+   "help_context": 0,
+   "functions": [
+    {
+     "index": 0,
+     "name": "AllowByDefault",
+     "memid": 1,
+     "vtable_offset_bytes": 56,
+     "vtable_slot": 7,
+     "vtable_offset_raw": "0x0038",
+     "funcdescsize": 76,
+     "fkccic": "0x00014411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "pbResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff4fff5",
+        "points_to": {
+         "vt": 11,
+         "vt_name": "VT_BOOL",
+         "rendered": "VARIANT_BOOL",
+         "inline": true
+        },
+        "rendered": "VARIANT_BOOL*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "K"
+    },
+    {
+     "index": 1,
+     "name": "AllowByDefault",
+     "memid": 1,
+     "vtable_offset_bytes": 64,
+     "vtable_slot": 8,
+     "vtable_offset_raw": "0x0040",
+     "funcdescsize": 68,
+     "fkccic": "0x00000421",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYPUT",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "<unnamed>",
+       "type": {
+        "vt": 11,
+        "vt_name": "VT_BOOL",
+        "rendered": "VARIANT_BOOL",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "K"
+    },
+    {
+     "index": 2,
+     "name": "Status",
+     "memid": 2,
+     "vtable_offset_bytes": 72,
+     "vtable_slot": 9,
+     "vtable_offset_raw": "0x0048",
+     "funcdescsize": 76,
+     "fkccic": "0x00024411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "peResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000080",
+        "points_to": {
+         "vt": 29,
+         "vt_name": "VT_USERDEFINED",
+         "flags": [],
+         "union": "0x00000000",
+         "typeinfo_index": 0,
+         "rendered": "ServiceStatus"
+        },
+        "rendered": "ServiceStatus*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "P"
+    },
+    {
+     "index": 3,
+     "name": "InitializeLibrarySharing",
+     "memid": 3,
+     "vtable_offset_bytes": 80,
+     "vtable_slot": 10,
+     "vtable_offset_raw": "0x0050",
+     "funcdescsize": 92,
+     "fkccic": "0x00031409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "UserSID",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000031",
+       "flags_decoded": [
+        "IN",
+        "OPT",
+        "HASDEFAULT"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "6"
+    },
+    {
+     "index": 4,
+     "name": "GetAllDevices",
+     "memid": 4,
+     "vtable_offset_bytes": 88,
+     "vtable_slot": 11,
+     "vtable_offset_raw": "0x0058",
+     "funcdescsize": 84,
+     "fkccic": "0x00044409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "ppResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000098",
+        "points_to": {
+         "vt": 26,
+         "vt_name": "VT_PTR",
+         "flags": [],
+         "union": "0x00000090",
+         "points_to": {
+          "vt": 29,
+          "vt_name": "VT_USERDEFINED",
+          "flags": [],
+          "union": "0x00000384",
+          "typeinfo_index": 9,
+          "rendered": "INSSDevices"
+         },
+         "rendered": "INSSDevices*"
+        },
+        "rendered": "INSSDevices**"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "4"
+    },
+    {
+     "index": 5,
+     "name": "GetDevices",
+     "memid": 5,
+     "vtable_offset_bytes": 96,
+     "vtable_slot": 12,
+     "vtable_offset_raw": "0x0060",
+     "funcdescsize": 100,
+     "fkccic": "0x00054409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 2,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "Authorization",
+       "type": {
+        "vt": 29,
+        "vt_name": "VT_USERDEFINED",
+        "flags": [],
+        "union": "0x000000c8",
+        "typeinfo_index": 2,
+        "rendered": "AuthorizationStatus"
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "ppResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000098",
+        "points_to": {
+         "vt": 26,
+         "vt_name": "VT_PTR",
+         "flags": [],
+         "union": "0x00000090",
+         "points_to": {
+          "vt": 29,
+          "vt_name": "VT_USERDEFINED",
+          "flags": [],
+          "union": "0x00000384",
+          "typeinfo_index": 9,
+          "rendered": "INSSDevices"
+         },
+         "rendered": "INSSDevices*"
+        },
+        "rendered": "INSSDevices**"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "0"
+    },
+    {
+     "index": 6,
+     "name": "RemoveDevice",
+     "memid": 6,
+     "vtable_offset_bytes": 104,
+     "vtable_slot": 13,
+     "vtable_offset_raw": "0x0068",
+     "funcdescsize": 68,
+     "fkccic": "0x00060409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "MACAddress",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "\u0012"
+    },
+    {
+     "index": 7,
+     "name": "Advise",
+     "memid": 7,
+     "vtable_offset_bytes": 112,
+     "vtable_slot": 14,
+     "vtable_offset_raw": "0x0070",
+     "funcdescsize": 92,
+     "fkccic": "0x00074409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 2,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "DeviceNotify",
+       "type": {
+        "vt": 13,
+        "vt_name": "VT_UNKNOWN",
+        "rendered": "IUnknown*",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "pbstrResult",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff7fff8",
+        "points_to": {
+         "vt": 8,
+         "vt_name": "VT_BSTR",
+         "rendered": "BSTR",
+         "inline": true
+        },
+        "rendered": "BSTR*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "\u001e"
+    },
+    {
+     "index": 8,
+     "name": "Unadvise",
+     "memid": 8,
+     "vtable_offset_bytes": 120,
+     "vtable_slot": 15,
+     "vtable_offset_raw": "0x0078",
+     "funcdescsize": 68,
+     "fkccic": "0x00080409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "Cookie",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "\u001e"
+    }
+   ],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x01000001",
+     "flags": "0xff000000",
+     "imported": null,
+     "name": "<external hRef 0x01000001>",
+     "impl_flags": ""
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 13,
+   "typeinfo_offset": 1300,
+   "kind": "TKIND_COCLASS",
+   "kind_id": 5,
+   "name": "NSSManager",
+   "name_offset": 1452,
+   "guid": "{92498132-4D1A-4297-9B78-9E2E4BA99C07}",
+   "posguid": 408,
+   "flags": "0x00000002",
+   "typekind_raw": "0x000d4225",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": "\u00e3",
+   "member_counts": {
+    "functions": 0,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 0,
+   "size": 8,
+   "memoffset": 9524,
+   "datatype1": 64,
+   "datatype2": 0,
+   "help_context": 0,
+   "functions": [],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x000004b0",
+     "flags": "0x00000001",
+     "typeinfo_index": 12,
+     "name": "INSSManager",
+     "guid": "{204F4950-212A-414F-9B27-73BD87423F25}",
+     "impl_flags": "DEFAULT"
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  }
+ ],
+ "notes": [],
+ "guid_cross_check": {
+  "image": "bin/wmpnssci.dll",
+  "library_guid": {
+   "name": "<library>",
+   "guid": "{453E9E02-8BA4-474C-BFA0-37727E44F6AE}",
+   "found": true,
+   "file_offset": "0x13b0",
+   "occurrences": 2
+  },
+  "guids": [
+   {
+    "name": "<library>",
+    "guid": "{453E9E02-8BA4-474C-BFA0-37727E44F6AE}",
+    "found": true,
+    "file_offset": "0x13b0",
+    "occurrences": 2
+   },
+   {
+    "name": "ServiceStatus",
+    "guid": "{B78E1E54-0885-40C0-87BC-2E5B93C95F1C}",
+    "found": true,
+    "file_offset": "0x5090c",
+    "occurrences": 1
+   },
+   {
+    "name": "EventReason",
+    "guid": "{31D0E2AD-8AE5-41CE-A743-B815F4279005}",
+    "found": true,
+    "file_offset": "0x50924",
+    "occurrences": 1
+   },
+   {
+    "name": "AuthorizationStatus",
+    "guid": "{08933D12-EEED-4AD2-9238-4E916639D0C4}",
+    "found": true,
+    "file_offset": "0x5093c",
+    "occurrences": 1
+   },
+   {
+    "name": "INSSProperty",
+    "guid": "{B27C1EAC-B909-462C-A051-F85DA63D616B}",
+    "found": true,
+    "file_offset": "0x13c0",
+    "occurrences": 3
+   },
+   {
+    "name": "Property",
+    "guid": "{FC434359-AF3E-4F09-852E-B5D3384F241D}",
+    "found": true,
+    "file_offset": "0x13d0",
+    "occurrences": 2
+   },
+   {
+    "name": "INSSProperties",
+    "guid": "{DF2F700E-48CC-40CE-BBF7-73187286C42D}",
+    "found": true,
+    "file_offset": "0x13e0",
+    "occurrences": 3
+   },
+   {
+    "name": "Properties",
+    "guid": "{AD5D2BA9-B6A0-45B6-9ED5-B59B85806D56}",
+    "found": true,
+    "file_offset": "0x13f0",
+    "occurrences": 2
+   },
+   {
+    "name": "INSSDevice",
+    "guid": "{055B0E0E-3113-4CAE-9EEE-6E63211BEE37}",
+    "found": true,
+    "file_offset": "0x1400",
+    "occurrences": 3
+   },
+   {
+    "name": "Device",
+    "guid": "{86223118-F443-4F05-B0CF-8963A15747A6}",
+    "found": true,
+    "file_offset": "0x1410",
+    "occurrences": 2
+   },
+   {
+    "name": "INSSDevices",
+    "guid": "{73DE3C35-FAF7-4934-B337-C260D5926858}",
+    "found": true,
+    "file_offset": "0x1420",
+    "occurrences": 3
+   },
+   {
+    "name": "Devices",
+    "guid": "{6DE2D8B3-50B2-45B7-9DE3-0825CE8B7F2D}",
+    "found": true,
+    "file_offset": "0x1430",
+    "occurrences": 2
+   },
+   {
+    "name": "INSSNotify",
+    "guid": "{ADC0EDF5-FE64-48FF-A711-CB4AB0F5C2CA}",
+    "found": true,
+    "file_offset": "0x2788",
+    "occurrences": 2
+   },
+   {
+    "name": "INSSManager",
+    "guid": "{204F4950-212A-414F-9B27-73BD87423F25}",
+    "found": true,
+    "file_offset": "0x1440",
+    "occurrences": 3
+   },
+   {
+    "name": "NSSManager",
+    "guid": "{92498132-4D1A-4297-9B78-9E2E4BA99C07}",
+    "found": true,
+    "file_offset": "0x1450",
+    "occurrences": 3
+   }
+  ],
+  "summary": "15/15 recovered GUIDs present as 16-byte constants in wmpnssci.dll"
+ }
+}

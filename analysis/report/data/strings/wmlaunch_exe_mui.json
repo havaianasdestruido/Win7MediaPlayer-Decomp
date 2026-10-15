@@ -1,0 +1,314 @@
+{
+ "module": "wmlaunch_exe_mui",
+ "artifact": "bin/pt-BR/wmlaunch.exe.mui",
+ "counts": {
+  "ascii": 4,
+  "utf16": 23,
+  "unique": 27
+ },
+ "strings": [
+  {
+   "text": "!This program cannot be run in DOS mode.",
+   "offset": "0x4d",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "RichE",
+   "offset": "0xa0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".rsrc",
+   "offset": "0x1c0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADD",
+   "offset": "0x72c",
+   "kind": "ascii",
+   "rva": "0x152c",
+   "va": "0x18000152c",
+   "tags": []
+  },
+  {
+   "text": "pt-BR",
+   "offset": "0x348",
+   "kind": "utf16",
+   "rva": "0x1148",
+   "va": "0x180001148",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VS_VERSION_INFO",
+   "offset": "0x35e",
+   "kind": "utf16",
+   "rva": "0x115e",
+   "va": "0x18000115e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "StringFileInfo",
+   "offset": "0x3ba",
+   "kind": "utf16",
+   "rva": "0x11ba",
+   "va": "0x1800011ba",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "041604B0",
+   "offset": "0x3de",
+   "kind": "utf16",
+   "rva": "0x11de",
+   "va": "0x1800011de",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CompanyName",
+   "offset": "0x3f6",
+   "kind": "utf16",
+   "rva": "0x11f6",
+   "va": "0x1800011f6",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft Corporation",
+   "offset": "0x410",
+   "kind": "utf16",
+   "rva": "0x1210",
+   "va": "0x180001210",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileDescription",
+   "offset": "0x442",
+   "kind": "utf16",
+   "rva": "0x1242",
+   "va": "0x180001242",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Iniciador do Windows Media Player",
+   "offset": "0x464",
+   "kind": "utf16",
+   "rva": "0x1264",
+   "va": "0x180001264",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileVersion",
+   "offset": "0x4ae",
+   "kind": "utf16",
+   "rva": "0x12ae",
+   "va": "0x1800012ae",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "offset": "0x4c8",
+   "kind": "utf16",
+   "rva": "0x12c8",
+   "va": "0x1800012c8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InternalName",
+   "offset": "0x51e",
+   "kind": "utf16",
+   "rva": "0x131e",
+   "va": "0x18000131e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "wmlaunch.exe",
+   "offset": "0x538",
+   "kind": "utf16",
+   "rva": "0x1338",
+   "va": "0x180001338",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LegalCopyright",
+   "offset": "0x55a",
+   "kind": "utf16",
+   "rva": "0x135a",
+   "va": "0x18000135a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Microsoft Corporation. Todos os direitos reservados.",
+   "offset": "0x57a",
+   "kind": "utf16",
+   "rva": "0x137a",
+   "va": "0x18000137a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "OriginalFilename",
+   "offset": "0x5ee",
+   "kind": "utf16",
+   "rva": "0x13ee",
+   "va": "0x1800013ee",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "wmlaunch.exe.mui",
+   "offset": "0x610",
+   "kind": "utf16",
+   "rva": "0x1410",
+   "va": "0x180001410",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductName",
+   "offset": "0x63a",
+   "kind": "utf16",
+   "rva": "0x143a",
+   "va": "0x18000143a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sistema Operacional Microsoft",
+   "offset": "0x654",
+   "kind": "utf16",
+   "rva": "0x1454",
+   "va": "0x180001454",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Windows",
+   "offset": "0x690",
+   "kind": "utf16",
+   "rva": "0x1490",
+   "va": "0x180001490",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductVersion",
+   "offset": "0x6aa",
+   "kind": "utf16",
+   "rva": "0x14aa",
+   "va": "0x1800014aa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385",
+   "offset": "0x6c8",
+   "kind": "utf16",
+   "rva": "0x14c8",
+   "va": "0x1800014c8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VarFileInfo",
+   "offset": "0x6ee",
+   "kind": "utf16",
+   "rva": "0x14ee",
+   "va": "0x1800014ee",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Translation",
+   "offset": "0x70e",
+   "kind": "utf16",
+   "rva": "0x150e",
+   "va": "0x18000150e",
+   "tags": [
+    "utf16le"
+   ]
+  }
+ ],
+ "by_tag": {
+  "api-name": [
+   "CompanyName",
+   "FileDescription",
+   "FileVersion"
+  ],
+  "module-name": [
+   "wmlaunch.exe",
+   "wmlaunch.exe.mui"
+  ],
+  "utf16le": [
+   " Microsoft Corporation. Todos os direitos reservados.",
+   " Windows",
+   "041604B0",
+   "12.0.7600.16385",
+   "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "CompanyName",
+   "FileDescription",
+   "FileVersion",
+   "Iniciador do Windows Media Player",
+   "InternalName",
+   "LegalCopyright",
+   "Microsoft Corporation",
+   "OriginalFilename",
+   "ProductName",
+   "ProductVersion",
+   "Sistema Operacional Microsoft",
+   "StringFileInfo",
+   "Translation",
+   "VS_VERSION_INFO",
+   "VarFileInfo",
+   "pt-BR",
+   "wmlaunch.exe",
+   "wmlaunch.exe.mui"
+  ]
+ }
+}

@@ -1,0 +1,9 @@
+10100	Preparando-se para baixar.
+10101	Conectando-se ao servidor de atualização.
+10102	Determinando disponibilidade do arquivo.
+10103	Baixando o arquivo. Tempo restante: %s. Recebidos %s.
+10104	Download concluído.
+10105	Inicializando...
+10106	Erro ao baixar arquivo.
+10110	http://go.microsoft.com/fwlink/?LinkId=59177&
+10111	LANG=PTB

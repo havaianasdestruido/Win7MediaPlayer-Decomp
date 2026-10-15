@@ -1,0 +1,15 @@
+208	12
+210	Reversão em andamento. Aguarde ...
+211	Reversão do Windows Media
+212	 - reversão concluída. Para que suas alterações entrem em vigor, é necessário reiniciar o Windows. Salve seu trabalho, saia de todos os programas e, em seguida, reinicie o Windows.
+213	 - falha na reversão. É necessário reiniciar o Windows. Se desejar reiniciar agora, primeiro salve seu trabalho e saia de todos os programas.
+214	Windows Media Player
+215	Informações sobre Privacidade de Loja Online
+216	Windows Media Player Beta
+217	Tempo de Execução do Windows Media Format Beta
+218	Windows Media Player Beta
+219	1
+220	Aguarde enquanto a instalação procura por atualizações online
+221	Bem-Vindo ao Windows Media Player
+222	A maneira fácil de descobrir, reproduzir e levar todo o seu entretenimento digital com você. Aproveite ao máximo suas músicas, vídeos digitais e muito mais.
+223	http://go.microsoft.com/fwlink/?linkid=44073

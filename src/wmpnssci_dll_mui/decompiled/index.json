@@ -1,0 +1,39 @@
+{
+ "module": "wmpnssci_dll_mui",
+ "artifact": "bin/pt-BR/wmpnssci.dll.mui",
+ "sha256": "2b59918607d8e28691e6d1f9ebf2e8d80b14ecd55925f7b87f069aa75c43fe54",
+ "generated_at": "2026-10-14 21:59:14Z",
+ "decompiler": {
+  "name": "angr",
+  "version": "9.2.213",
+  "analysis": "CFGFast + Decompiler"
+ },
+ "image": {
+  "machine": "IMAGE_FILE_MACHINE_AMD64",
+  "image_base": "0x180000000",
+  "entry_point_rva": "0x0",
+  "entry_point_va": "0x180000000",
+  "sections": [
+   {
+    "name": ".rsrc",
+    "rva": "0x1000",
+    "vsize": 4096,
+    "raw": "0x200",
+    "rawsize": 3584,
+    "entropy": 3.6767
+   }
+  ]
+ },
+ "functions": [],
+ "cfg": {
+  "seconds": 0.06,
+  "function_count": 0,
+  "edge_count": 0
+ },
+ "limitations": [
+  "pseudocode is decompiler output, not original source",
+  "functions reachable only through data (vtables/callbacks) may be absent",
+  "no dynamic analysis was performed"
+ ],
+ "note": "no functions recovered by CFGFast \u2014 image has no executable code section (resource-only module such as a .mui payload)"
+}

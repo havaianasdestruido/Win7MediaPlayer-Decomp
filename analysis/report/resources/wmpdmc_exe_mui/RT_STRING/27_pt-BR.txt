@@ -1,0 +1,26 @@
+416	O dispositivo não pôde localizar a mídia. Verifique se o dispositivo de armazenamento de mídia está conectado à rede, se a mídia está disponível e tente novamente.
+417	A mídia deste item reside em um compartilhamento de rede que seu dispositivo não tem autorização para acessar.
+
+Para resolver o problema, você pode ir para o dispositivo de armazenamento de mídia e permitir acesso para convidados ou para qualquer pessoa.
+
+Se você permitir acesso para qualquer pessoa, outros usuários na rede poderão localizar e reproduzir sua mídia.
+418	Você não está conectado a uma rede no momento. Conecte-se e tente novamente.
+419	O dispositivo não está respondendo. Verifique se o dispositivo de mídia está ligado e conectado à rede e tente novamente.
+420	O dispositivo não pôde localizar o conteúdo da mídia. Verifique se o dispositivo está conectado à rede e se pode acessar a mídia desejada.
+421	O item de mídia não está compartilhado para nenhum usuário ou dispositivo. Deseja permitir que o dispositivo acesse esse item e outros itens de mídia similares que possam ser executados e visualizados somente por você no momento?
+422	Erro inesperado no dispositivo. Reinicie-o e tente novamente.
+
+Se você não conseguir resolver o problema , poderá ser necessária a atualização do dispositivo. Contate o fabricante do dispositivo para obter as atualizações mais recentes.
+423	A mídia selecionada não pode ser executada no dispositivo. O formato não era compatível ou o computador ou dispositivo de armazenamento que contém a mídia está offline.
+424	Erro de Compartilhamento de Mídia
+425	É necessário iniciar e configurar o compartilhamento de mídia para executar a mídia em um dispositivo.
+
+Deseja iniciar e configurar o compartilhamento de mídia?
+426	Comprimento Máximo da Lista de Reprodução
+427	Você atingiu o comprimento máximo da lista de reprodução
+428	Alguns dos itens que você selecionou não podem ser reproduzidos no dispositivo.
+429	Número máximo de itens permitidos: %u
+430	O dispositivo não está autorizado a acessar este item de mídia.
+
+Para resolver o problema, você pode alterar as permissões de arquivo e optar por compartilhar com convidados ou com qualquer pessoa. Se permitir acesso para qualquer pessoa, outros usuários e dispositivos na rede poderão localizar e reproduzir sua mídia.
+431	A conexão com o dispositivo foi perdida. Reinicie o aplicativo controlador de mídia para estabelecer uma nova conexão.

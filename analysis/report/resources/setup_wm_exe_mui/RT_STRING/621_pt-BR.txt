@@ -1,0 +1,16 @@
+9920	Pacote de Download do Windows Media Player
+9921	Vídeo de DVD
+9922	Lista de Reprodução de Mídia
+9923	Lista de reprodução do Windows Media
+9924	Biblioteca do Windows Media
+9925	Som no Formato MP3
+9926	Arquivo M3U
+9927	Programa de TV Gravado pela Microsoft
+9928	Protocolo URL:MMS
+9929	Protocolo URL:MMST
+9930	Protocolo URL:MMSU
+9931	Protocolo URL:MSBD
+9932	Vídeo MP4
+9933	Áudio MPEG-4
+9934	Vídeo AVCHD
+9935	Vídeo MPEG-2 TS

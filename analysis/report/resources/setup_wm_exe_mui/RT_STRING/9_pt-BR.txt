@@ -1,0 +1,11 @@
+128	Se você reverter o Windows Media Player para a versão anterior que havia no computador, outros programas que exigem o Player poderão ser afetados. Talvez você precise removê-los e instalá-los novamente. Tem certeza de que deseja continuar?
+129	Tempo de Execução do Windows Media Format
+130	423|418|80|22|&Voltar
+131	503|418|80|22|&Avançar
+132	423|418|80|22|&Cancelar
+133	503|418|80|22|&Concluir
+134	508|418|80|22|&Aceito
+135	428|418|80|22|&Não Aceito
+136	503|418|80|22|&Instalar
+137	503|418|80|22|&OK
+139	503|418|80|22|&Reiniciar

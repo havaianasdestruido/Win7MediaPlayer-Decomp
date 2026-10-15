@@ -1,0 +1,10 @@
+9990	&Abrir
+9991	Reproduzi&r
+9992	Arquivo de áudio AU (au)
+9993	Arquivo MIDI (midi)
+9994	Arquivo Windows Media Audio (wma)
+9995	Arquivo de áudio do Windows (wav)
+9996	Arquivo do Windows Media (asf)
+9997	Arquivo de vídeo do Windows (avi)
+9998	Reprodução do CD de Música
+9999	Vídeo de DVD

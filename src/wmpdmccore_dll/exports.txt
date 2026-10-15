@@ -1,0 +1,7 @@
+# Exported symbols — bin/WMPDMCCore.dll (SHA-256 9334fde75c4e6d018f3c698b0a6b5d415f65d71716906af037147b61b3911242)
+# Image export name: WMPDMCCore.DLL
+
+    1  0x00027510  DllCanUnloadNow
+    2  0x000275ac  DllGetClassObject
+    3  0x000276fc  DllRegisterServer
+    4  0x00027830  DllUnregisterServer

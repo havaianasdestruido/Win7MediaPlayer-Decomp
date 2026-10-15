@@ -1,0 +1,2 @@
+# Exported symbols — bin/pt-BR/wmpnetwk.exe.mui (SHA-256 d8728825ec8dc4a3c42c1621da4b632167582512da73b391ca21f8b5026a7fd9)
+# (no exported symbols; this image is an executable or a resource-only module)

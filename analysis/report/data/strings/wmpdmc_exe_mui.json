@@ -1,0 +1,2553 @@
+{
+ "module": "wmpdmc_exe_mui",
+ "artifact": "bin/pt-BR/WMPDMC.exe.mui",
+ "counts": {
+  "ascii": 4,
+  "utf16": 275,
+  "unique": 230
+ },
+ "strings": [
+  {
+   "text": "!This program cannot be run in DOS mode.",
+   "offset": "0x4d",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "RichE",
+   "offset": "0xa0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".rsrc",
+   "offset": "0x1c0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADD",
+   "offset": "0x40ec",
+   "kind": "ascii",
+   "rva": "0x4eec",
+   "va": "0x180004eec",
+   "tags": []
+  },
+  {
+   "text": "pt-BR",
+   "offset": "0x730",
+   "kind": "utf16",
+   "rva": "0x1530",
+   "va": "0x180001530",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "&Mover para Cima",
+   "offset": "0x74c",
+   "kind": "utf16",
+   "rva": "0x154c",
+   "va": "0x18000154c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ctrl+Seta para Cima",
+   "offset": "0x76e",
+   "kind": "utf16",
+   "rva": "0x156e",
+   "va": "0x18000156e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Mover para &Baixo",
+   "offset": "0x79a",
+   "kind": "utf16",
+   "rva": "0x159a",
+   "va": "0x18000159a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ctrl+Seta para Baixo",
+   "offset": "0x7be",
+   "kind": "utf16",
+   "rva": "0x15be",
+   "va": "0x1800015be",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "&Remover da lista",
+   "offset": "0x7ec",
+   "kind": "utf16",
+   "rva": "0x15ec",
+   "va": "0x1800015ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Segoe UI",
+   "offset": "0x83e",
+   "kind": "utf16",
+   "rva": "0x163e",
+   "va": "0x18000163e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Reproduzir em",
+   "offset": "0x86a",
+   "kind": "utf16",
+   "rva": "0x166a",
+   "va": "0x18000166a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Dispositivo Desconhecido",
+   "offset": "0x8ac",
+   "kind": "utf16",
+   "rva": "0x16ac",
+   "va": "0x1800016ac",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "%1 - %2!Contatando dispositivo de rede...",
+   "offset": "0x8de",
+   "kind": "utf16",
+   "rva": "0x16de",
+   "va": "0x1800016de",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Contatando servidor de m",
+   "offset": "0x932",
+   "kind": "utf16",
+   "rva": "0x1732",
+   "va": "0x180001732",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia...",
+   "offset": "0x964",
+   "kind": "utf16",
+   "rva": "0x1764",
+   "va": "0x180001764",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Dispositivo de Rede",
+   "offset": "0x972",
+   "kind": "utf16",
+   "rva": "0x1772",
+   "va": "0x180001772",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Servidor de M",
+   "offset": "0x99a",
+   "kind": "utf16",
+   "rva": "0x179a",
+   "va": "0x18000179a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Aguarde",
+   "offset": "0x9be",
+   "kind": "utf16",
+   "rva": "0x17be",
+   "va": "0x1800017be",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Limpar Lista",
+   "offset": "0x9ce",
+   "kind": "utf16",
+   "rva": "0x17ce",
+   "va": "0x1800017ce",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "tulo Desconhecido",
+   "offset": "0x9ec",
+   "kind": "utf16",
+   "rva": "0x17ec",
+   "va": "0x1800017ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Artista Desconhecido",
+   "offset": "0xa10",
+   "kind": "utf16",
+   "rva": "0x1810",
+   "va": "0x180001810",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "lbum Desconhecido",
+   "offset": "0xa3c",
+   "kind": "utf16",
+   "rva": "0x183c",
+   "va": "0x18000183c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Nenhum item de m",
+   "offset": "0xa60",
+   "kind": "utf16",
+   "rva": "0x1860",
+   "va": "0x180001860",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia na lista no momento. Para adicionar m",
+   "offset": "0xa82",
+   "kind": "utf16",
+   "rva": "0x1882",
+   "va": "0x180001882",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia, arraste e solte itens aqui ou use 'Reproduzir em' para este dispositivo.",
+   "offset": "0xad6",
+   "kind": "utf16",
+   "rva": "0x18d6",
+   "va": "0x1800018d6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Nome do Dispositivo",
+   "offset": "0xb72",
+   "kind": "utf16",
+   "rva": "0x1972",
+   "va": "0x180001972",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Fabricante do Dispositivo",
+   "offset": "0xb9a",
+   "kind": "utf16",
+   "rva": "0x199a",
+   "va": "0x18000199a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Modelo do Dispositivo",
+   "offset": "0xbce",
+   "kind": "utf16",
+   "rva": "0x19ce",
+   "va": "0x1800019ce",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Adicionar ",
+   "offset": "0xbfa",
+   "kind": "utf16",
+   "rva": "0x19fa",
+   "va": "0x1800019fa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " lista",
+   "offset": "0xc10",
+   "kind": "utf16",
+   "rva": "0x1a10",
+   "va": "0x180001a10",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ximo",
+   "offset": "0xc24",
+   "kind": "utf16",
+   "rva": "0x1a24",
+   "va": "0x180001a24",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Anterior",
+   "offset": "0xc2e",
+   "kind": "utf16",
+   "rva": "0x1a2e",
+   "va": "0x180001a2e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Interromper",
+   "offset": "0xc42",
+   "kind": "utf16",
+   "rva": "0x1a42",
+   "va": "0x180001a42",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Tocar",
+   "offset": "0xc5a",
+   "kind": "utf16",
+   "rva": "0x1a5a",
+   "va": "0x180001a5a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Pausar",
+   "offset": "0xc66",
+   "kind": "utf16",
+   "rva": "0x1a66",
+   "va": "0x180001a66",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Volume",
+   "offset": "0xc74",
+   "kind": "utf16",
+   "rva": "0x1a74",
+   "va": "0x180001a74",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ativar Mudo",
+   "offset": "0xc82",
+   "kind": "utf16",
+   "rva": "0x1a82",
+   "va": "0x180001a82",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Faixa Anterior",
+   "offset": "0xca2",
+   "kind": "utf16",
+   "rva": "0x1aa2",
+   "va": "0x180001aa2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "xima Faixa",
+   "offset": "0xcc6",
+   "kind": "utf16",
+   "rva": "0x1ac6",
+   "va": "0x180001ac6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ocultar detalhes",
+   "offset": "0xcdc",
+   "kind": "utf16",
+   "rva": "0x1adc",
+   "va": "0x180001adc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Mostrar detalhes",
+   "offset": "0xcfe",
+   "kind": "utf16",
+   "rva": "0x1afe",
+   "va": "0x180001afe",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "HRESULT: 0x%x",
+   "offset": "0xd20",
+   "kind": "utf16",
+   "rva": "0x1b20",
+   "va": "0x180001b20",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Erro de UPnP: %u",
+   "offset": "0xd3c",
+   "kind": "utf16",
+   "rva": "0x1b3c",
+   "va": "0x180001b3c",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Erro Desconhecido",
+   "offset": "0xd7a",
+   "kind": "utf16",
+   "rva": "0x1b7a",
+   "va": "0x180001b7a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Carregando...",
+   "offset": "0xd9e",
+   "kind": "utf16",
+   "rva": "0x1b9e",
+   "va": "0x180001b9e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ligar repeti",
+   "offset": "0xdba",
+   "kind": "utf16",
+   "rva": "0x1bba",
+   "va": "0x180001bba",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Desligar repeti",
+   "offset": "0xdda",
+   "kind": "utf16",
+   "rva": "0x1bda",
+   "va": "0x180001bda",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Reordenar-Uma opera",
+   "offset": "0xe02",
+   "kind": "utf16",
+   "rva": "0x1c02",
+   "va": "0x180001c02",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o Reproduzir em est",
+   "offset": "0xe2c",
+   "kind": "utf16",
+   "rva": "0x1c2c",
+   "va": "0x180001c2c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " em andamento.",
+   "offset": "0xe54",
+   "kind": "utf16",
+   "rva": "0x1c54",
+   "va": "0x180001c54",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Buscar",
+   "offset": "0xe72",
+   "kind": "utf16",
+   "rva": "0x1c72",
+   "va": "0x180001c72",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Tempo restante",
+   "offset": "0xe80",
+   "kind": "utf16",
+   "rva": "0x1c80",
+   "va": "0x180001c80",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Miniatura de m",
+   "offset": "0xe9e",
+   "kind": "utf16",
+   "rva": "0x1c9e",
+   "va": "0x180001c9e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Miniatura de dispositivo",
+   "offset": "0xec4",
+   "kind": "utf16",
+   "rva": "0x1cc4",
+   "va": "0x180001cc4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Indicador de execu",
+   "offset": "0xef6",
+   "kind": "utf16",
+   "rva": "0x1cf6",
+   "va": "0x180001cf6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O dispositivo n",
+   "offset": "0xf38",
+   "kind": "utf16",
+   "rva": "0x1d38",
+   "va": "0x180001d38",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o oferece suporte ao comando UPnP. Uma atualiza",
+   "offset": "0xf58",
+   "kind": "utf16",
+   "rva": "0x1d58",
+   "va": "0x180001d58",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do dispositivo pode solucionar o problema. Contate o fabricante do dispositivo para obter as atualiza",
+   "offset": "0xfba",
+   "kind": "utf16",
+   "rva": "0x1dba",
+   "va": "0x180001dba",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es mais recentes.",
+   "offset": "0x108c",
+   "kind": "utf16",
+   "rva": "0x1e8c",
+   "va": "0x180001e8c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o oferece suporte ao formato do comando UPnP. Uma atualiza",
+   "offset": "0x10d0",
+   "kind": "utf16",
+   "rva": "0x1ed0",
+   "va": "0x180001ed0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o oferece suporte ",
+   "offset": "0x125e",
+   "kind": "utf16",
+   "rva": "0x205e",
+   "va": "0x18000205e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " vari",
+   "offset": "0x1284",
+   "kind": "utf16",
+   "rva": "0x2084",
+   "va": "0x180002084",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel do comando UPnP. Uma atualiza",
+   "offset": "0x1290",
+   "kind": "utf16",
+   "rva": "0x2090",
+   "va": "0x180002090",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O dispositivo est",
+   "offset": "0x13cc",
+   "kind": "utf16",
+   "rva": "0x21cc",
+   "va": "0x1800021cc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " reportando um erro no dispositivo. Reinicie-o e tente novamente.",
+   "offset": "0x13f0",
+   "kind": "utf16",
+   "rva": "0x21f0",
+   "va": "0x1800021f0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Caso n",
+   "offset": "0x1476",
+   "kind": "utf16",
+   "rva": "0x2276",
+   "va": "0x180002276",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o possa solucionar o problema, pode ser necess",
+   "offset": "0x1484",
+   "kind": "utf16",
+   "rva": "0x2284",
+   "va": "0x180002284",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio atualizar o dispositivo. Contate o fabricante do dispositivo para obter as atualiza",
+   "offset": "0x14e2",
+   "kind": "utf16",
+   "rva": "0x22e2",
+   "va": "0x1800022e2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ocorreu falha no dispositivo ao executar o comando UPnP. Verifique se o dispositivo de m",
+   "offset": "0x15b8",
+   "kind": "utf16",
+   "rva": "0x23b8",
+   "va": "0x1800023b8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia est",
+   "offset": "0x166a",
+   "kind": "utf16",
+   "rva": "0x246a",
+   "va": "0x18000246a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " ligado e conectado ",
+   "offset": "0x167a",
+   "kind": "utf16",
+   "rva": "0x247a",
+   "va": "0x18000247a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " rede e tente novamente.",
+   "offset": "0x16a4",
+   "kind": "utf16",
+   "rva": "0x24a4",
+   "va": "0x1800024a4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o consiga solucionar o problema, talvez seja necess",
+   "offset": "0x16e6",
+   "kind": "utf16",
+   "rva": "0x24e6",
+   "va": "0x1800024e6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es mais recentes.OO dispositivo n",
+   "offset": "0x1800",
+   "kind": "utf16",
+   "rva": "0x2600",
+   "va": "0x180002600",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "de executar o comando em seu estado atual. Tente novamente.",
+   "offset": "0x184c",
+   "kind": "utf16",
+   "rva": "0x264c",
+   "va": "0x18000264c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O item de m",
+   "offset": "0x18c4",
+   "kind": "utf16",
+   "rva": "0x26c4",
+   "va": "0x1800026c4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " corrompido ou vazio. Verifique se o arquivo pode ser reproduzido no dispositivo de armazenamento de m",
+   "offset": "0x18ec",
+   "kind": "utf16",
+   "rva": "0x26ec",
+   "va": "0x1800026ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia.",
+   "offset": "0x19ba",
+   "kind": "utf16",
+   "rva": "0x27ba",
+   "va": "0x1800027ba",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "de ler o arquivo de m",
+   "offset": "0x19ec",
+   "kind": "utf16",
+   "rva": "0x27ec",
+   "va": "0x1800027ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia. Verifique se o arquivo pode ser reproduzido no dispositivo de armazenamento de m",
+   "offset": "0x1a18",
+   "kind": "utf16",
+   "rva": "0x2818",
+   "va": "0x180002818",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O dispositivo requer um codec que ofere",
+   "offset": "0x1ace",
+   "kind": "utf16",
+   "rva": "0x28ce",
+   "va": "0x1800028ce",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "a suporte a este formato de m",
+   "offset": "0x1b1e",
+   "kind": "utf16",
+   "rva": "0x291e",
+   "va": "0x18000291e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia. Uma atualiza",
+   "offset": "0x1b5a",
+   "kind": "utf16",
+   "rva": "0x295a",
+   "va": "0x18000295a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es mais recentes.gSeu dispositivo est",
+   "offset": "0x1c52",
+   "kind": "utf16",
+   "rva": "0x2a52",
+   "va": "0x180002a52",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " bloqueado por outro usu",
+   "offset": "0x1c9e",
+   "kind": "utf16",
+   "rva": "0x2a9e",
+   "va": "0x180002a9e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio ou dispositivo no momento. Tente novamente mais tarde.[Voc",
+   "offset": "0x1cd0",
+   "kind": "utf16",
+   "rva": "0x2ad0",
+   "va": "0x180002ad0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o est",
+   "offset": "0x1d54",
+   "kind": "utf16",
+   "rva": "0x2b54",
+   "va": "0x180002b54",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " conectado a nenhuma rede no momento. Conecte-se a uma rede e tente novamente..O modo de busca n",
+   "offset": "0x1d60",
+   "kind": "utf16",
+   "rva": "0x2b60",
+   "va": "0x180002b60",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " aceito pelo dispositivo.EO local de busca desejado n",
+   "offset": "0x1e28",
+   "kind": "utf16",
+   "rva": "0x2c28",
+   "va": "0x180002c28",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "lido ou n",
+   "offset": "0x1ea0",
+   "kind": "utf16",
+   "rva": "0x2ca0",
+   "va": "0x180002ca0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " presente na m",
+   "offset": "0x1ec0",
+   "kind": "utf16",
+   "rva": "0x2cc0",
+   "va": "0x180002cc0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es mais recentes.CO dispositivo est",
+   "offset": "0x206c",
+   "kind": "utf16",
+   "rva": "0x2e6c",
+   "va": "0x180002e6c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " ocupado processando. Tente novamente mais tarde.",
+   "offset": "0x20b4",
+   "kind": "utf16",
+   "rva": "0x2eb4",
+   "va": "0x180002eb4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "de localizar a m",
+   "offset": "0x2142",
+   "kind": "utf16",
+   "rva": "0x2f42",
+   "va": "0x180002f42",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia. Verifique se o dispositivo de armazenamento de m",
+   "offset": "0x2164",
+   "kind": "utf16",
+   "rva": "0x2f64",
+   "va": "0x180002f64",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " conectado ",
+   "offset": "0x21e0",
+   "kind": "utf16",
+   "rva": "0x2fe0",
+   "va": "0x180002fe0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " rede, se a m",
+   "offset": "0x21f8",
+   "kind": "utf16",
+   "rva": "0x2ff8",
+   "va": "0x180002ff8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " dispon",
+   "offset": "0x2224",
+   "kind": "utf16",
+   "rva": "0x3024",
+   "va": "0x180003024",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel e tente novamente.",
+   "offset": "0x2234",
+   "kind": "utf16",
+   "rva": "0x3034",
+   "va": "0x180003034",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia deste item reside em um compartilhamento de rede que seu dispositivo n",
+   "offset": "0x226a",
+   "kind": "utf16",
+   "rva": "0x306a",
+   "va": "0x18000306a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o tem autoriza",
+   "offset": "0x2300",
+   "kind": "utf16",
+   "rva": "0x3100",
+   "va": "0x180003100",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para acessar.",
+   "offset": "0x2320",
+   "kind": "utf16",
+   "rva": "0x3120",
+   "va": "0x180003120",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Para resolver o problema, voc",
+   "offset": "0x2342",
+   "kind": "utf16",
+   "rva": "0x3142",
+   "va": "0x180003142",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " pode ir para o dispositivo de armazenamento de m",
+   "offset": "0x237e",
+   "kind": "utf16",
+   "rva": "0x317e",
+   "va": "0x18000317e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia e permitir acesso para convidados ou para qualquer pessoa.",
+   "offset": "0x23e2",
+   "kind": "utf16",
+   "rva": "0x31e2",
+   "va": "0x1800031e2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Se voc",
+   "offset": "0x2462",
+   "kind": "utf16",
+   "rva": "0x3262",
+   "va": "0x180003262",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " permitir acesso para qualquer pessoa, outros usu",
+   "offset": "0x2470",
+   "kind": "utf16",
+   "rva": "0x3270",
+   "va": "0x180003270",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rios na rede poder",
+   "offset": "0x24d4",
+   "kind": "utf16",
+   "rva": "0x32d4",
+   "va": "0x1800032d4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o localizar e reproduzir sua m",
+   "offset": "0x24fa",
+   "kind": "utf16",
+   "rva": "0x32fa",
+   "va": "0x1800032fa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia.LVoc",
+   "offset": "0x2538",
+   "kind": "utf16",
+   "rva": "0x3338",
+   "va": "0x180003338",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " conectado a uma rede no momento. Conecte-se e tente novamente.yO dispositivo n",
+   "offset": "0x255c",
+   "kind": "utf16",
+   "rva": "0x335c",
+   "va": "0x18000335c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " respondendo. Verifique se o dispositivo de m",
+   "offset": "0x2608",
+   "kind": "utf16",
+   "rva": "0x3408",
+   "va": "0x180003408",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "de localizar o conte",
+   "offset": "0x26f8",
+   "kind": "utf16",
+   "rva": "0x34f8",
+   "va": "0x1800034f8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do da m",
+   "offset": "0x2722",
+   "kind": "utf16",
+   "rva": "0x3522",
+   "va": "0x180003522",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia. Verifique se o dispositivo est",
+   "offset": "0x2732",
+   "kind": "utf16",
+   "rva": "0x3532",
+   "va": "0x180003532",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " rede e se pode acessar a m",
+   "offset": "0x2792",
+   "kind": "utf16",
+   "rva": "0x3592",
+   "va": "0x180003592",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia desejada.",
+   "offset": "0x27ca",
+   "kind": "utf16",
+   "rva": "0x35ca",
+   "va": "0x1800035ca",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia n",
+   "offset": "0x27fe",
+   "kind": "utf16",
+   "rva": "0x35fe",
+   "va": "0x1800035fe",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " compartilhado para nenhum usu",
+   "offset": "0x2816",
+   "kind": "utf16",
+   "rva": "0x3616",
+   "va": "0x180003616",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio ou dispositivo. Deseja permitir que o dispositivo acesse esse item e outros itens de m",
+   "offset": "0x2854",
+   "kind": "utf16",
+   "rva": "0x3654",
+   "va": "0x180003654",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia similares que possam ser executados e visualizados somente por voc",
+   "offset": "0x290a",
+   "kind": "utf16",
+   "rva": "0x370a",
+   "va": "0x18000370a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " no momento?",
+   "offset": "0x2998",
+   "kind": "utf16",
+   "rva": "0x3798",
+   "va": "0x180003798",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Erro inesperado no dispositivo. Reinicie-o e tente novamente.",
+   "offset": "0x29b2",
+   "kind": "utf16",
+   "rva": "0x37b2",
+   "va": "0x1800037b2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o conseguir resolver o problema , poder",
+   "offset": "0x2a44",
+   "kind": "utf16",
+   "rva": "0x3844",
+   "va": "0x180003844",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " ser necess",
+   "offset": "0x2a94",
+   "kind": "utf16",
+   "rva": "0x3894",
+   "va": "0x180003894",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ria a atualiza",
+   "offset": "0x2aac",
+   "kind": "utf16",
+   "rva": "0x38ac",
+   "va": "0x1800038ac",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do dispositivo. Contate o fabricante do dispositivo para obter as atualiza",
+   "offset": "0x2acc",
+   "kind": "utf16",
+   "rva": "0x38cc",
+   "va": "0x1800038cc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia selecionada n",
+   "offset": "0x2b94",
+   "kind": "utf16",
+   "rva": "0x3994",
+   "va": "0x180003994",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o pode ser executada no dispositivo. O formato n",
+   "offset": "0x2bb8",
+   "kind": "utf16",
+   "rva": "0x39b8",
+   "va": "0x1800039b8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o era compat",
+   "offset": "0x2c1a",
+   "kind": "utf16",
+   "rva": "0x3a1a",
+   "va": "0x180003a1a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel ou o computador ou dispositivo de armazenamento que cont",
+   "offset": "0x2c34",
+   "kind": "utf16",
+   "rva": "0x3a34",
+   "va": "0x180003a34",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "m a m",
+   "offset": "0x2cae",
+   "kind": "utf16",
+   "rva": "0x3aae",
+   "va": "0x180003aae",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " offline.!Erro de Compartilhamento de M",
+   "offset": "0x2cca",
+   "kind": "utf16",
+   "rva": "0x3aca",
+   "va": "0x180003aca",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " necess",
+   "offset": "0x2d24",
+   "kind": "utf16",
+   "rva": "0x3b24",
+   "va": "0x180003b24",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio iniciar e configurar o compartilhamento de m",
+   "offset": "0x2d34",
+   "kind": "utf16",
+   "rva": "0x3b34",
+   "va": "0x180003b34",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia para executar a m",
+   "offset": "0x2d96",
+   "kind": "utf16",
+   "rva": "0x3b96",
+   "va": "0x180003b96",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia em um dispositivo.",
+   "offset": "0x2dc2",
+   "kind": "utf16",
+   "rva": "0x3bc2",
+   "va": "0x180003bc2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Deseja iniciar e configurar o compartilhamento de m",
+   "offset": "0x2df2",
+   "kind": "utf16",
+   "rva": "0x3bf2",
+   "va": "0x180003bf2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia?)Comprimento M",
+   "offset": "0x2e5a",
+   "kind": "utf16",
+   "rva": "0x3c5a",
+   "va": "0x180003c5a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ximo da Lista de Reprodu",
+   "offset": "0x2e80",
+   "kind": "utf16",
+   "rva": "0x3c80",
+   "va": "0x180003c80",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o8Voc",
+   "offset": "0x2eb4",
+   "kind": "utf16",
+   "rva": "0x3cb4",
+   "va": "0x180003cb4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " atingiu o comprimento m",
+   "offset": "0x2ec0",
+   "kind": "utf16",
+   "rva": "0x3cc0",
+   "va": "0x180003cc0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ximo da lista de reprodu",
+   "offset": "0x2ef2",
+   "kind": "utf16",
+   "rva": "0x3cf2",
+   "va": "0x180003cf2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "oOAlguns dos itens que voc",
+   "offset": "0x2f26",
+   "kind": "utf16",
+   "rva": "0x3d26",
+   "va": "0x180003d26",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " selecionou n",
+   "offset": "0x2f5c",
+   "kind": "utf16",
+   "rva": "0x3d5c",
+   "va": "0x180003d5c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o podem ser reproduzidos no dispositivo.%N",
+   "offset": "0x2f78",
+   "kind": "utf16",
+   "rva": "0x3d78",
+   "va": "0x180003d78",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "mero m",
+   "offset": "0x2fce",
+   "kind": "utf16",
+   "rva": "0x3dce",
+   "va": "0x180003dce",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ximo de itens permitidos: %u",
+   "offset": "0x2fdc",
+   "kind": "utf16",
+   "rva": "0x3ddc",
+   "va": "0x180003ddc",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": " autorizado a acessar este item de m",
+   "offset": "0x3042",
+   "kind": "utf16",
+   "rva": "0x3e42",
+   "va": "0x180003e42",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " pode alterar as permiss",
+   "offset": "0x30d4",
+   "kind": "utf16",
+   "rva": "0x3ed4",
+   "va": "0x180003ed4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de arquivo e optar por compartilhar com convidados ou com qualquer pessoa. Se permitir acesso para qualquer pessoa, outros usu",
+   "offset": "0x3106",
+   "kind": "utf16",
+   "rva": "0x3f06",
+   "va": "0x180003f06",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rios e dispositivos na rede poder",
+   "offset": "0x320a",
+   "kind": "utf16",
+   "rva": "0x400a",
+   "va": "0x18000400a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia.vA conex",
+   "offset": "0x328c",
+   "kind": "utf16",
+   "rva": "0x408c",
+   "va": "0x18000408c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o com o dispositivo foi perdida. Reinicie o aplicativo controlador de m",
+   "offset": "0x32a6",
+   "kind": "utf16",
+   "rva": "0x40a6",
+   "va": "0x1800040a6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia para estabelecer uma nova conex",
+   "offset": "0x3336",
+   "kind": "utf16",
+   "rva": "0x4136",
+   "va": "0x180004136",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Erro de dispositivo",
+   "offset": "0x338a",
+   "kind": "utf16",
+   "rva": "0x418a",
+   "va": "0x18000418a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "<Falha ao recuperar informa",
+   "offset": "0x33b2",
+   "kind": "utf16",
+   "rva": "0x41b2",
+   "va": "0x1800041b2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de m",
+   "offset": "0x33ec",
+   "kind": "utf16",
+   "rva": "0x41ec",
+   "va": "0x1800041ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia do servidor de m",
+   "offset": "0x33fc",
+   "kind": "utf16",
+   "rva": "0x41fc",
+   "va": "0x1800041fc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia\"O dispositivo n",
+   "offset": "0x3426",
+   "kind": "utf16",
+   "rva": "0x4226",
+   "va": "0x180004226",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " respondendo",
+   "offset": "0x345a",
+   "kind": "utf16",
+   "rva": "0x425a",
+   "va": "0x18000425a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sem conex",
+   "offset": "0x3474",
+   "kind": "utf16",
+   "rva": "0x4274",
+   "va": "0x180004274",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de rede-Falha ao recuperar a descri",
+   "offset": "0x3488",
+   "kind": "utf16",
+   "rva": "0x4288",
+   "va": "0x180004288",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do dispositivo2Falha ao localizar os servi",
+   "offset": "0x34d6",
+   "kind": "utf16",
+   "rva": "0x42d6",
+   "va": "0x1800042d6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "os UPnP do dispositivo*Falha ao inicializar a lista de reprodu",
+   "offset": "0x3530",
+   "kind": "utf16",
+   "rva": "0x4330",
+   "va": "0x180004330",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o%O dispositivo n",
+   "offset": "0x35b0",
+   "kind": "utf16",
+   "rva": "0x43b0",
+   "va": "0x1800043b0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "de ser encontrado",
+   "offset": "0x35dc",
+   "kind": "utf16",
+   "rva": "0x43dc",
+   "va": "0x1800043dc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Dispositivo offline",
+   "offset": "0x3600",
+   "kind": "utf16",
+   "rva": "0x4400",
+   "va": "0x180004400",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Erro no dispositivo",
+   "offset": "0x3628",
+   "kind": "utf16",
+   "rva": "0x4428",
+   "va": "0x180004428",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Erro interno do dispositivo#Dispositivo n",
+   "offset": "0x3650",
+   "kind": "utf16",
+   "rva": "0x4450",
+   "va": "0x180004450",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o pode ser controlado",
+   "offset": "0x36a4",
+   "kind": "utf16",
+   "rva": "0x44a4",
+   "va": "0x1800044a4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Dispositivo ocupado",
+   "offset": "0x36d0",
+   "kind": "utf16",
+   "rva": "0x44d0",
+   "va": "0x1800044d0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o dispon",
+   "offset": "0x370a",
+   "kind": "utf16",
+   "rva": "0x450a",
+   "va": "0x18000450a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel!Item de m",
+   "offset": "0x371c",
+   "kind": "utf16",
+   "rva": "0x451c",
+   "va": "0x18000451c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " compartilhado",
+   "offset": "0x374a",
+   "kind": "utf16",
+   "rva": "0x454a",
+   "va": "0x18000454a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Comando UPnP sem suporte",
+   "offset": "0x3768",
+   "kind": "utf16",
+   "rva": "0x4568",
+   "va": "0x180004568",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Falha no comando",
+   "offset": "0x379a",
+   "kind": "utf16",
+   "rva": "0x459a",
+   "va": "0x18000459a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Erro de leitura",
+   "offset": "0x37bc",
+   "kind": "utf16",
+   "rva": "0x45bc",
+   "va": "0x1800045bc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sem conte",
+   "offset": "0x37dc",
+   "kind": "utf16",
+   "rva": "0x45dc",
+   "va": "0x1800045dc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Formato de m",
+   "offset": "0x37f6",
+   "kind": "utf16",
+   "rva": "0x45f6",
+   "va": "0x1800045f6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o compat",
+   "offset": "0x381c",
+   "kind": "utf16",
+   "rva": "0x461c",
+   "va": "0x18000461c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Busca n",
+   "offset": "0x3836",
+   "kind": "utf16",
+   "rva": "0x4636",
+   "va": "0x180004636",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Destino de busca inv",
+   "offset": "0x3860",
+   "kind": "utf16",
+   "rva": "0x4660",
+   "va": "0x180004660",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "lido",
+   "offset": "0x388a",
+   "kind": "utf16",
+   "rva": "0x468a",
+   "va": "0x18000468a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Tipo mime inv",
+   "offset": "0x3894",
+   "kind": "utf16",
+   "rva": "0x4694",
+   "va": "0x180004694",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Erro inesperado do dispositivo",
+   "offset": "0x38ba",
+   "kind": "utf16",
+   "rva": "0x46ba",
+   "va": "0x1800046ba",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Formato de comando inv",
+   "offset": "0x38f8",
+   "kind": "utf16",
+   "rva": "0x46f8",
+   "va": "0x1800046f8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "lido,N",
+   "offset": "0x3926",
+   "kind": "utf16",
+   "rva": "0x4726",
+   "va": "0x180004726",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " poss",
+   "offset": "0x393a",
+   "kind": "utf16",
+   "rva": "0x473a",
+   "va": "0x18000473a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel acessar o local compartilhado",
+   "offset": "0x3946",
+   "kind": "utf16",
+   "rva": "0x4746",
+   "va": "0x180004746",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Dispositivo n",
+   "offset": "0x398a",
+   "kind": "utf16",
+   "rva": "0x478a",
+   "va": "0x18000478a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " pronto\"Streaming de m",
+   "offset": "0x39b2",
+   "kind": "utf16",
+   "rva": "0x47b2",
+   "va": "0x1800047b2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o configurado",
+   "offset": "0x39ec",
+   "kind": "utf16",
+   "rva": "0x47ec",
+   "va": "0x1800047ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Vari",
+   "offset": "0x3a08",
+   "kind": "utf16",
+   "rva": "0x4808",
+   "va": "0x180004808",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel inv",
+   "offset": "0x3a12",
+   "kind": "utf16",
+   "rva": "0x4812",
+   "va": "0x180004812",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "lida",
+   "offset": "0x3a22",
+   "kind": "utf16",
+   "rva": "0x4822",
+   "va": "0x180004822",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Rede alterada",
+   "offset": "0x3a2e",
+   "kind": "utf16",
+   "rva": "0x482e",
+   "va": "0x18000482e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Horizontal0Usado para alterar a ",
+   "offset": "0x3ab0",
+   "kind": "utf16",
+   "rva": "0x48b0",
+   "va": "0x1800048b0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rea de exibi",
+   "offset": "0x3af2",
+   "kind": "utf16",
+   "rva": "0x48f2",
+   "va": "0x1800048f2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o horizontal",
+   "offset": "0x3b0e",
+   "kind": "utf16",
+   "rva": "0x490e",
+   "va": "0x18000490e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Vertical.Usado para alterar a ",
+   "offset": "0x3b28",
+   "kind": "utf16",
+   "rva": "0x4928",
+   "va": "0x180004928",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o vertical",
+   "offset": "0x3b82",
+   "kind": "utf16",
+   "rva": "0x4982",
+   "va": "0x180004982",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Iniciar",
+   "offset": "0x3c64",
+   "kind": "utf16",
+   "rva": "0x4a64",
+   "va": "0x180004a64",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Parar",
+   "offset": "0x3c7c",
+   "kind": "utf16",
+   "rva": "0x4a7c",
+   "va": "0x180004a7c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Informa",
+   "offset": "0x3c90",
+   "kind": "utf16",
+   "rva": "0x4a90",
+   "va": "0x180004a90",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft-Windows-WMPDMCUI",
+   "offset": "0x3cb0",
+   "kind": "utf16",
+   "rva": "0x4ab0",
+   "va": "0x180004ab0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VS_VERSION_INFO",
+   "offset": "0x3cf2",
+   "kind": "utf16",
+   "rva": "0x4af2",
+   "va": "0x180004af2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "StringFileInfo",
+   "offset": "0x3d4e",
+   "kind": "utf16",
+   "rva": "0x4b4e",
+   "va": "0x180004b4e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "041604B0",
+   "offset": "0x3d72",
+   "kind": "utf16",
+   "rva": "0x4b72",
+   "va": "0x180004b72",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CompanyName",
+   "offset": "0x3d8a",
+   "kind": "utf16",
+   "rva": "0x4b8a",
+   "va": "0x180004b8a",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft Corporation",
+   "offset": "0x3da4",
+   "kind": "utf16",
+   "rva": "0x4ba4",
+   "va": "0x180004ba4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileDescription",
+   "offset": "0x3dd6",
+   "kind": "utf16",
+   "rva": "0x4bd6",
+   "va": "0x180004bd6",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Aplicativo Controlador de M",
+   "offset": "0x3df8",
+   "kind": "utf16",
+   "rva": "0x4bf8",
+   "va": "0x180004bf8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia Digital do Windows Media Player",
+   "offset": "0x3e30",
+   "kind": "utf16",
+   "rva": "0x4c30",
+   "va": "0x180004c30",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileVersion",
+   "offset": "0x3e7e",
+   "kind": "utf16",
+   "rva": "0x4c7e",
+   "va": "0x180004c7e",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "offset": "0x3e98",
+   "kind": "utf16",
+   "rva": "0x4c98",
+   "va": "0x180004c98",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InternalName",
+   "offset": "0x3eee",
+   "kind": "utf16",
+   "rva": "0x4cee",
+   "va": "0x180004cee",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMPDMC",
+   "offset": "0x3f08",
+   "kind": "utf16",
+   "rva": "0x4d08",
+   "va": "0x180004d08",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LegalCopyright",
+   "offset": "0x3f1e",
+   "kind": "utf16",
+   "rva": "0x4d1e",
+   "va": "0x180004d1e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Microsoft Corporation.  Todos os direitos reservados.",
+   "offset": "0x3f3e",
+   "kind": "utf16",
+   "rva": "0x4d3e",
+   "va": "0x180004d3e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "OriginalFilename",
+   "offset": "0x3fb2",
+   "kind": "utf16",
+   "rva": "0x4db2",
+   "va": "0x180004db2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMPDMC.exe.mui",
+   "offset": "0x3fd4",
+   "kind": "utf16",
+   "rva": "0x4dd4",
+   "va": "0x180004dd4",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductName",
+   "offset": "0x3ffa",
+   "kind": "utf16",
+   "rva": "0x4dfa",
+   "va": "0x180004dfa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sistema Operacional Microsoft",
+   "offset": "0x4014",
+   "kind": "utf16",
+   "rva": "0x4e14",
+   "va": "0x180004e14",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Windows",
+   "offset": "0x4050",
+   "kind": "utf16",
+   "rva": "0x4e50",
+   "va": "0x180004e50",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductVersion",
+   "offset": "0x406a",
+   "kind": "utf16",
+   "rva": "0x4e6a",
+   "va": "0x180004e6a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385",
+   "offset": "0x4088",
+   "kind": "utf16",
+   "rva": "0x4e88",
+   "va": "0x180004e88",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VarFileInfo",
+   "offset": "0x40ae",
+   "kind": "utf16",
+   "rva": "0x4eae",
+   "va": "0x180004eae",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Translation",
+   "offset": "0x40ce",
+   "kind": "utf16",
+   "rva": "0x4ece",
+   "va": "0x180004ece",
+   "tags": [
+    "utf16le"
+   ]
+  }
+ ],
+ "by_tag": {
+  "api-name": [
+   "CompanyName",
+   "FileDescription",
+   "FileVersion"
+  ],
+  "format-string": [
+   "Erro de UPnP: %u",
+   "HRESULT: 0x%x",
+   "ximo de itens permitidos: %u"
+  ],
+  "module-name": [
+   "WMPDMC.exe.mui"
+  ],
+  "utf16le": [
+   " Microsoft Corporation.  Todos os direitos reservados.",
+   " Windows",
+   " aceito pelo dispositivo.EO local de busca desejado n",
+   " atingiu o comprimento m",
+   " autorizado a acessar este item de m",
+   " bloqueado por outro usu",
+   " compartilhado",
+   " compartilhado para nenhum usu",
+   " conectado ",
+   " conectado a nenhuma rede no momento. Conecte-se a uma rede e tente novamente..O modo de busca n",
+   " conectado a uma rede no momento. Conecte-se e tente novamente.yO dispositivo n",
+   " corrompido ou vazio. Verifique se o arquivo pode ser reproduzido no dispositivo de armazenamento de m",
+   " dispon",
+   " em andamento.",
+   " ligado e conectado ",
+   " lista",
+   " necess",
+   " no momento?",
+   " ocupado processando. Tente novamente mais tarde.",
+   " offline.!Erro de Compartilhamento de M",
+   " permitir acesso para qualquer pessoa, outros usu",
+   " pode alterar as permiss",
+   " pode ir para o dispositivo de armazenamento de m",
+   " poss",
+   " presente na m",
+   " pronto\"Streaming de m",
+   " rede e se pode acessar a m",
+   " rede e tente novamente.",
+   " rede, se a m",
+   " reportando um erro no dispositivo. Reinicie-o e tente novamente.",
+   " respondendo",
+   " respondendo. Verifique se o dispositivo de m",
+   " selecionou n",
+   " ser necess",
+   " vari",
+   "%1 - %2!Contatando dispositivo de rede...",
+   "&Mover para Cima",
+   "&Remover da lista",
+   "041604B0",
+   "12.0.7600.16385",
+   "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "<Falha ao recuperar informa",
+   "Adicionar ",
+   "Aguarde",
+   "Anterior",
+   "Aplicativo Controlador de M",
+   "Artista Desconhecido",
+   "Ativar Mudo",
+   "Busca n",
+   "Buscar",
+   "Carregando...",
+   "Caso n",
+   "Comando UPnP sem suporte",
+   "CompanyName",
+   "Contatando servidor de m",
+   "Ctrl+Seta para Baixo",
+   "Ctrl+Seta para Cima",
+   "Deseja iniciar e configurar o compartilhamento de m",
+   "Desligar repeti",
+   "Destino de busca inv",
+   "Dispositivo Desconhecido",
+   "Dispositivo de Rede",
+   "Dispositivo n",
+   "Dispositivo ocupado",
+   "Dispositivo offline",
+   "Erro Desconhecido",
+   "Erro de UPnP: %u",
+   "Erro de dispositivo",
+   "Erro de leitura",
+   "Erro inesperado do dispositivo",
+   "Erro inesperado no dispositivo. Reinicie-o e tente novamente.",
+   "Erro interno do dispositivo#Dispositivo n",
+   "Erro no dispositivo",
+   "Fabricante do Dispositivo",
+   "Faixa Anterior",
+   "Falha no comando",
+   "FileDescription",
+   "FileVersion",
+   "Formato de comando inv",
+   "Formato de m",
+   "HRESULT: 0x%x",
+   "Horizontal0Usado para alterar a ",
+   "Indicador de execu",
+   "Informa",
+   "Iniciar",
+   "InternalName",
+   "Interromper",
+   "LegalCopyright",
+   "Ligar repeti",
+   "Limpar Lista",
+   "Microsoft Corporation",
+   "Microsoft-Windows-WMPDMCUI",
+   "Miniatura de dispositivo",
+   "Miniatura de m",
+   "Modelo do Dispositivo",
+   "Mostrar detalhes",
+   "Mover para &Baixo",
+   "Nenhum item de m",
+   "Nome do Dispositivo",
+   "O dispositivo est",
+   "O dispositivo n",
+   "O dispositivo requer um codec que ofere",
+   "O item de m",
+   "Ocorreu falha no dispositivo ao executar o comando UPnP. Verifique se o dispositivo de m",
+   "Ocultar detalhes",
+   "OriginalFilename",
+   "Para resolver o problema, voc",
+   "Parar",
+   "Pausar",
+   "ProductName",
+   "ProductVersion",
+   "Rede alterada",
+   "Reordenar-Uma opera",
+   "Reproduzir em",
+   "Se voc",
+   "Segoe UI",
+   "Sem conex",
+   "Sem conte",
+   "Servidor de M",
+   "Sistema Operacional Microsoft",
+   "StringFileInfo",
+   "Tempo restante",
+   "Tipo mime inv",
+   "Tocar",
+   "Translation",
+   "VS_VERSION_INFO",
+   "VarFileInfo",
+   "Vari",
+   "Vertical.Usado para alterar a ",
+   "Volume",
+   "WMPDMC",
+   "WMPDMC.exe.mui",
+   "a suporte a este formato de m",
+   "de executar o comando em seu estado atual. Tente novamente.",
+   "de ler o arquivo de m",
+   "de localizar a m",
+   "de localizar o conte",
+   "de ser encontrado",
+   "dia Digital do Windows Media Player",
+   "dia desejada.",
+   "dia deste item reside em um compartilhamento de rede que seu dispositivo n",
+   "dia do servidor de m",
+   "dia e permitir acesso para convidados ou para qualquer pessoa.",
+   "dia em um dispositivo.",
+   "dia est",
+   "dia n",
+   "dia na lista no momento. Para adicionar m",
+   "dia para estabelecer uma nova conex",
+   "dia para executar a m",
+   "dia selecionada n",
+   "dia similares que possam ser executados e visualizados somente por voc",
+   "dia\"O dispositivo n",
+   "dia, arraste e solte itens aqui ou use 'Reproduzir em' para este dispositivo.",
+   "dia.",
+   "dia. Uma atualiza",
+   "dia. Verifique se o arquivo pode ser reproduzido no dispositivo de armazenamento de m",
+   "dia. Verifique se o dispositivo de armazenamento de m",
+   "dia. Verifique se o dispositivo est",
+   "dia...",
+   "dia.LVoc",
+   "dia.vA conex",
+   "dia?)Comprimento M",
+   "do da m",
+   "es de arquivo e optar por compartilhar com convidados ou com qualquer pessoa. Se permitir acesso para qualquer pessoa, outros usu",
+   "es de m",
+   "es mais recentes.",
+   "es mais recentes.CO dispositivo est",
+   "es mais recentes.OO dispositivo n",
+   "es mais recentes.gSeu dispositivo est",
+   "lbum Desconhecido",
+   "lida",
+   "lido",
+   "lido ou n",
+   "lido,N",
+   "m a m",
+   "mero m",
+   "o Reproduzir em est",
+   "o com o dispositivo foi perdida. Reinicie o aplicativo controlador de m",
+   "o compat",
+   "o configurado",
+   "o conseguir resolver o problema , poder",
+   "o consiga solucionar o problema, talvez seja necess",
+   "o de rede-Falha ao recuperar a descri",
+   "o dispon",
+   "o do dispositivo pode solucionar o problema. Contate o fabricante do dispositivo para obter as atualiza",
+   "o do dispositivo. Contate o fabricante do dispositivo para obter as atualiza",
+   "o do dispositivo2Falha ao localizar os servi",
+   "o era compat",
+   "o est",
+   "o horizontal",
+   "o localizar e reproduzir sua m",
+   "o oferece suporte ",
+   "o oferece suporte ao comando UPnP. Uma atualiza",
+   "o oferece suporte ao formato do comando UPnP. Uma atualiza",
+   "o para acessar.",
+   "o pode ser controlado",
+   "o pode ser executada no dispositivo. O formato n",
+   "o podem ser reproduzidos no dispositivo.%N",
+   "o possa solucionar o problema, pode ser necess",
+   "o tem autoriza",
+   "o vertical",
+   "o%O dispositivo n",
+   "o8Voc",
+   "oOAlguns dos itens que voc",
+   "os UPnP do dispositivo*Falha ao inicializar a lista de reprodu",
+   "pt-BR",
+   "rea de exibi",
+   "ria a atualiza",
+   "rio atualizar o dispositivo. Contate o fabricante do dispositivo para obter as atualiza",
+   "rio iniciar e configurar o compartilhamento de m",
+   "rio ou dispositivo no momento. Tente novamente mais tarde.[Voc",
+   "rio ou dispositivo. Deseja permitir que o dispositivo acesse esse item e outros itens de m",
+   "rios e dispositivos na rede poder",
+   "rios na rede poder",
+   "tulo Desconhecido",
+   "vel acessar o local compartilhado",
+   "vel do comando UPnP. Uma atualiza",
+   "vel e tente novamente.",
+   "vel inv",
+   "vel ou o computador ou dispositivo de armazenamento que cont",
+   "vel!Item de m",
+   "xima Faixa",
+   "ximo",
+   "ximo da Lista de Reprodu",
+   "ximo da lista de reprodu",
+   "ximo de itens permitidos: %u"
+  ]
+ }
+}

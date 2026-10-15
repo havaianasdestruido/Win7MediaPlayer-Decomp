@@ -1,0 +1,21 @@
+HKCR
+{
+    NoRemove AppID
+    {
+        ForceRemove {A9D431C2-6D56-4727-9690-ADBE66B9184A} = s 'Windows Media Player Encoder Helper Class'
+    }
+    NoRemove CLSID
+    {
+        ForceRemove {AEE3E4A8-EF01-4024-A0F1-809D9B096E14} = s 'Windows Media Player Encoder Helper Class'
+        {
+            val AppID = s '{A9D431C2-6D56-4727-9690-ADBE66B9184A}'
+            Delete 'Programmable'
+            Delete 'TypeLib'
+            LocalServer32 = s '%MODULE%'
+        }
+    }
+    NoRemove TypeLib
+    {
+        Delete '{A137EF16-7BAA-4D2D-8BFD-7FCE6D5A1D57}'
+    }
+}

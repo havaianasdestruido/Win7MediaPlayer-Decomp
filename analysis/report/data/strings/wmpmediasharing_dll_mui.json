@@ -1,0 +1,367 @@
+{
+ "module": "wmpmediasharing_dll_mui",
+ "artifact": "bin/pt-BR/WMPMediaSharing.dll.mui",
+ "counts": {
+  "ascii": 4,
+  "utf16": 28,
+  "unique": 32
+ },
+ "strings": [
+  {
+   "text": "!This program cannot be run in DOS mode.",
+   "offset": "0x4d",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "RichE",
+   "offset": "0xa0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".rsrc",
+   "offset": "0x1c0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDING",
+   "offset": "0x8a0",
+   "kind": "ascii",
+   "rva": "0x16a0",
+   "va": "0x1800016a0",
+   "tags": []
+  },
+  {
+   "text": "pt-BR",
+   "offset": "0x390",
+   "kind": "utf16",
+   "rva": "0x1190",
+   "va": "0x180001190",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Iniciar",
+   "offset": "0x3cc",
+   "kind": "utf16",
+   "rva": "0x11cc",
+   "va": "0x1800011cc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Parar",
+   "offset": "0x3e4",
+   "kind": "utf16",
+   "rva": "0x11e4",
+   "va": "0x1800011e4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Informa",
+   "offset": "0x3f8",
+   "kind": "utf16",
+   "rva": "0x11f8",
+   "va": "0x1800011f8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Servi",
+   "offset": "0x418",
+   "kind": "utf16",
+   "rva": "0x1218",
+   "va": "0x180001218",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "os de Compartilhamento da Biblioteca do Windows Media",
+   "offset": "0x424",
+   "kind": "utf16",
+   "rva": "0x1224",
+   "va": "0x180001224",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VS_VERSION_INFO",
+   "offset": "0x49a",
+   "kind": "utf16",
+   "rva": "0x129a",
+   "va": "0x18000129a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "StringFileInfo",
+   "offset": "0x4f6",
+   "kind": "utf16",
+   "rva": "0x12f6",
+   "va": "0x1800012f6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "041604B0",
+   "offset": "0x51a",
+   "kind": "utf16",
+   "rva": "0x131a",
+   "va": "0x18000131a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CompanyName",
+   "offset": "0x532",
+   "kind": "utf16",
+   "rva": "0x1332",
+   "va": "0x180001332",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft Corporation",
+   "offset": "0x54c",
+   "kind": "utf16",
+   "rva": "0x134c",
+   "va": "0x18000134c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileDescription",
+   "offset": "0x57e",
+   "kind": "utf16",
+   "rva": "0x137e",
+   "va": "0x18000137e",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "DLL de Interface de Compartilhamento de M",
+   "offset": "0x5a0",
+   "kind": "utf16",
+   "rva": "0x13a0",
+   "va": "0x1800013a0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia do Windows Media Player",
+   "offset": "0x5f4",
+   "kind": "utf16",
+   "rva": "0x13f4",
+   "va": "0x1800013f4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileVersion",
+   "offset": "0x632",
+   "kind": "utf16",
+   "rva": "0x1432",
+   "va": "0x180001432",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "offset": "0x64c",
+   "kind": "utf16",
+   "rva": "0x144c",
+   "va": "0x18000144c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InternalName",
+   "offset": "0x6a2",
+   "kind": "utf16",
+   "rva": "0x14a2",
+   "va": "0x1800014a2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LegalCopyright",
+   "offset": "0x6c2",
+   "kind": "utf16",
+   "rva": "0x14c2",
+   "va": "0x1800014c2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Microsoft Corporation. Todos os direitos reservados.",
+   "offset": "0x6e2",
+   "kind": "utf16",
+   "rva": "0x14e2",
+   "va": "0x1800014e2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "OriginalFilename",
+   "offset": "0x756",
+   "kind": "utf16",
+   "rva": "0x1556",
+   "va": "0x180001556",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMPMediaSharing.DLL.MUI",
+   "offset": "0x778",
+   "kind": "utf16",
+   "rva": "0x1578",
+   "va": "0x180001578",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductName",
+   "offset": "0x7ae",
+   "kind": "utf16",
+   "rva": "0x15ae",
+   "va": "0x1800015ae",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sistema Operacional Microsoft",
+   "offset": "0x7c8",
+   "kind": "utf16",
+   "rva": "0x15c8",
+   "va": "0x1800015c8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Windows",
+   "offset": "0x804",
+   "kind": "utf16",
+   "rva": "0x1604",
+   "va": "0x180001604",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductVersion",
+   "offset": "0x81e",
+   "kind": "utf16",
+   "rva": "0x161e",
+   "va": "0x18000161e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385",
+   "offset": "0x83c",
+   "kind": "utf16",
+   "rva": "0x163c",
+   "va": "0x18000163c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VarFileInfo",
+   "offset": "0x862",
+   "kind": "utf16",
+   "rva": "0x1662",
+   "va": "0x180001662",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Translation",
+   "offset": "0x882",
+   "kind": "utf16",
+   "rva": "0x1682",
+   "va": "0x180001682",
+   "tags": [
+    "utf16le"
+   ]
+  }
+ ],
+ "by_tag": {
+  "api-name": [
+   "CompanyName",
+   "FileDescription",
+   "FileVersion"
+  ],
+  "module-name": [
+   "WMPMediaSharing.DLL.MUI"
+  ],
+  "utf16le": [
+   " Microsoft Corporation. Todos os direitos reservados.",
+   " Windows",
+   "041604B0",
+   "12.0.7600.16385",
+   "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "CompanyName",
+   "DLL de Interface de Compartilhamento de M",
+   "FileDescription",
+   "FileVersion",
+   "Informa",
+   "Iniciar",
+   "InternalName",
+   "LegalCopyright",
+   "Microsoft Corporation",
+   "OriginalFilename",
+   "Parar",
+   "ProductName",
+   "ProductVersion",
+   "Servi",
+   "Sistema Operacional Microsoft",
+   "StringFileInfo",
+   "Translation",
+   "VS_VERSION_INFO",
+   "VarFileInfo",
+   "WMPMediaSharing.DLL.MUI",
+   "dia do Windows Media Player",
+   "os de Compartilhamento da Biblioteca do Windows Media",
+   "pt-BR"
+  ]
+ }
+}

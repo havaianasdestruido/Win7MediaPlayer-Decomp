@@ -1,0 +1,709 @@
+{
+ "module": "wmpdmc_exe_mui",
+ "artifact": "bin/pt-BR/WMPDMC.exe.mui",
+ "sha256": "a3ac34616e24ec5580fe2eec9775ff265db6ebae5e0a833aeadd05809c9de87a",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 4096,
+  "size": 16108,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "RT_ACCELERATOR": 1,
+  "RT_DIALOG": 1,
+  "RT_MENU": 1,
+  "RT_MESSAGETABLE": 1,
+  "RT_STRING": 14,
+  "RT_VERSION": 1
+ },
+ "pefile_walk_count": 20,
+ "walker_cross_check": {
+  "raw_walker": 20,
+  "pefile_walker": 20,
+  "agree": true
+ },
+ "messages_total": 4,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x368",
+   "data_entry_offset": "0x538",
+   "depth": 3,
+   "data_rva": 5248,
+   "size": 192,
+   "sha256": "ea8254a37380423428553c7d2c061d0afd68d27500d2022a3024978d3d8b28b2",
+   "bytes_read": 192,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "language_tag": "pt-BR",
+    "localized_type_ids": [
+     4,
+     5,
+     6,
+     9,
+     11,
+     16
+    ],
+    "localized_type_names": [
+     "RT_MENU",
+     "RT_DIALOG",
+     "RT_STRING",
+     "RT_ACCELERATOR",
+     "RT_MESSAGETABLE",
+     "RT_VERSION"
+    ],
+    "matches_sibling": null,
+    "matches_same_artifact": true
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/MUI/1_pt-BR.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 4
+    },
+    {
+     "kind": "id",
+     "id": 601
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x380",
+   "data_entry_offset": "0x548",
+   "depth": 3,
+   "data_rva": 5440,
+   "size": 216,
+   "sha256": "1183875cbdde2fdf1d662125b023c439fb0c681cc32395c218630ceb0fdc6153",
+   "bytes_read": 216,
+   "truncated": false,
+   "type": "RT_MENU",
+   "name": "601",
+   "language": "pt-BR",
+   "decoded": {
+    "item_count": 4,
+    "texts": [
+     "",
+     "&Mover para Cima\tCtrl+Seta para Cima",
+     "Mover para &Baixo\tCtrl+Seta para Baixo",
+     "&Remover da lista\tDel"
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_MENU/601_pt-BR.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 5
+    },
+    {
+     "kind": "id",
+     "id": 225
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x398",
+   "data_entry_offset": "0x558",
+   "depth": 3,
+   "data_rva": 5656,
+   "size": 56,
+   "sha256": "a9a3350cb9515714b8976ede6d5a1ffc9b277ebf8e690dc29578c0b2b30097e7",
+   "bytes_read": 56,
+   "truncated": false,
+   "type": "RT_DIALOG",
+   "name": "225",
+   "language": "pt-BR",
+   "decoded": {
+    "template": "DLGTEMPLATEEX",
+    "title": null,
+    "items": 0,
+    "cx": 316,
+    "cy": 184
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_DIALOG/225_pt-BR.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 7
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x3b0",
+   "data_entry_offset": "0x568",
+   "depth": 3,
+   "data_rva": 5712,
+   "size": 58,
+   "sha256": "254f8f57ca192569d1d76f1b99f090c2e489352d3feffc41d73355a8a343c87c",
+   "bytes_read": 58,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "7",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 1
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/7_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 8
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x3c8",
+   "data_entry_offset": "0x578",
+   "depth": 3,
+   "data_rva": 5772,
+   "size": 96,
+   "sha256": "bd9b8d63e3a81a64461ae7b1f28fd155a7c1b60f63f458339c65f5cd6194020b",
+   "bytes_read": 96,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "8",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 3
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/8_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 9
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x3e0",
+   "data_entry_offset": "0x588",
+   "depth": 3,
+   "data_rva": 5868,
+   "size": 850,
+   "sha256": "0fc8e1f048b4e6c5db47bf064deab2e8a00404b2a1770c1acffcc0521a485fd1",
+   "bytes_read": 850,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "9",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 16
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/9_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x3f8",
+   "data_entry_offset": "0x598",
+   "depth": 3,
+   "data_rva": 6720,
+   "size": 446,
+   "sha256": "9440fa8cbd79fef38da0530c7d92bcd22b9df3650df1717bc11ac3de7653d096",
+   "bytes_read": 446,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "10",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 16
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/10_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 11
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x410",
+   "data_entry_offset": "0x5a8",
+   "depth": 3,
+   "data_rva": 7168,
+   "size": 306,
+   "sha256": "499ff6b6770782d238ed977827ba1cc86f3dc1f3da52618c2e06c52ae1ba192a",
+   "bytes_read": 306,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "11",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 7
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/11_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 26
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x428",
+   "data_entry_offset": "0x5b8",
+   "depth": 3,
+   "data_rva": 7476,
+   "size": 4578,
+   "sha256": "7580abca81e0aa8df11ee6c9944b4eef2ba4248095033803c1c30236ea9cbd9d",
+   "bytes_read": 4578,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "26",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 15
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/26_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 27
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x440",
+   "data_entry_offset": "0x5c8",
+   "depth": 3,
+   "data_rva": 12056,
+   "size": 4714,
+   "sha256": "666db663971ac3f911d55adee763675be3867b11dd130507c1416249e0ff65d1",
+   "bytes_read": 4714,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "27",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 16
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/27_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 29
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x458",
+   "data_entry_offset": "0x5d8",
+   "depth": 3,
+   "data_rva": 16772,
+   "size": 882,
+   "sha256": "918579b5d38be2d33c27cbbcb44dd23823512cd3e4e4df05c8dc18a76ec25398",
+   "bytes_read": 882,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "29",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 13
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/29_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 30
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x470",
+   "data_entry_offset": "0x5e8",
+   "depth": 3,
+   "data_rva": 17656,
+   "size": 818,
+   "sha256": "40ccfe7c7a4b7b0a803d63c49a14520a8f8b6763e85745358339a22cd62a5c31",
+   "bytes_read": 818,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "30",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 16
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/30_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 31
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x488",
+   "data_entry_offset": "0x5f8",
+   "depth": 3,
+   "data_rva": 18476,
+   "size": 58,
+   "sha256": "a2e1f64cfe0249dcfd7ed7a6347991c8b08953dc60ea8550b2039b18d77a0b16",
+   "bytes_read": 58,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "31",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 1
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/31_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 32
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x4a0",
+   "data_entry_offset": "0x608",
+   "depth": 3,
+   "data_rva": 18536,
+   "size": 32,
+   "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+   "bytes_read": 32,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "32",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 0
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/32_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 33
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x4b8",
+   "data_entry_offset": "0x618",
+   "depth": 3,
+   "data_rva": 18568,
+   "size": 32,
+   "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+   "bytes_read": 32,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "33",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 0
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/33_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 34
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x4d0",
+   "data_entry_offset": "0x628",
+   "depth": 3,
+   "data_rva": 18600,
+   "size": 256,
+   "sha256": "449d86daa11d7c9fd799bfdd6d5b49daae4df748ac0547fb755c29cc1a4cd907",
+   "bytes_read": 256,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "34",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 4
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/34_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 39
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x4e8",
+   "data_entry_offset": "0x638",
+   "depth": 3,
+   "data_rva": 18856,
+   "size": 32,
+   "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+   "bytes_read": 32,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "39",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 0
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_STRING/39_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 9
+    },
+    {
+     "kind": "id",
+     "id": 500
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x500",
+   "data_entry_offset": "0x648",
+   "depth": 3,
+   "data_rva": 18888,
+   "size": 112,
+   "sha256": "61e5daea7691c6731fa209c09dbe7e9c9f0c79fe715929068ca795d290899719",
+   "bytes_read": 112,
+   "truncated": false,
+   "type": "RT_ACCELERATOR",
+   "name": "500",
+   "language": "pt-BR",
+   "decoded": {
+    "entry_count": 14,
+    "keys": [
+     "P",
+     "S",
+     "B",
+     "F",
+     "T",
+     "VK_UP",
+     "VK_DOWN",
+     "VK_HOME",
+     "VK_END",
+     "VK_PRIOR",
+     "VK_NEXT",
+     "VK_F7",
+     "VK_F9",
+     "VK_F8"
+    ]
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_ACCELERATOR/500_pt-BR.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 11
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x518",
+   "data_entry_offset": "0x658",
+   "depth": 3,
+   "data_rva": 19000,
+   "size": 180,
+   "sha256": "f21e9aea2d2cbddc0e5c82bdca152d2b49544e5af40fcdc215508b3fd1d57201",
+   "bytes_read": 180,
+   "truncated": false,
+   "type": "RT_MESSAGETABLE",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "messages": 4,
+    "blocks": 3
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_MESSAGETABLE/1_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x530",
+   "data_entry_offset": "0x668",
+   "depth": 3,
+   "data_rva": 19180,
+   "size": 1024,
+   "sha256": "ff08435916aeb010b6ba8d22b95ec5ea7169e7a89a06aef7a0189e09a127556f",
+   "bytes_read": 1024,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Aplicativo Controlador de M\u00c3\u00addia Digital do Windows Media Player",
+    "FileVersion": "12.0.7600.16385 (win7_rtm.090713-1255)",
+    "InternalName": "WMPDMC",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation.  Todos os direitos reservados.",
+    "OriginalFilename": "WMPDMC.exe.mui",
+    "ProductName": "Sistema Operacional Microsoft\u00c2\u00ae Windows\u00c2\u00ae",
+    "ProductVersion": "12.0.7600.16385",
+    "StringFileInfo_utf8": {
+     "FileDescription": "Aplicativo Controlador de M\u00eddia Digital do Windows Media Player",
+     "LegalCopyright": "\u00a9 Microsoft Corporation.  Todos os direitos reservados.",
+     "ProductName": "Sistema Operacional Microsoft\u00ae Windows\u00ae"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmpdmc_exe_mui/RT_VERSION/1_pt-BR.json"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "raw_size": 590,
+ "template": "DLGTEMPLATEEX",
+ "dlg_ver": 1,
+ "signature": "0xffff",
+ "help_id": 0,
+ "ex_style": "0x00002000",
+ "style": "0x80c802d8",
+ "items": 13,
+ "x": 0,
+ "y": 0,
+ "cx": 403,
+ "cy": 295,
+ "menu": null,
+ "window_class": null,
+ "title": "Instala\u00e7\u00e3o do Windows Media",
+ "has_setfont": true,
+ "tail_offset": 86,
+ "tail_hex": "0800000000005400610068006f006d00",
+ "items_parsed": false
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (c) Microsoft Corporation -->
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1"
+ manifestVersion="1.0"> 
+
+  <assemblyIdentity version="11.0.0.6000"
+     processorArchitecture="X86"
+     name="wmpnetwk"
+     type="win32"/> 
+
+  <description>Media Sharing Service</description> 
+
+  <!-- Identify the application security requirements. -->
+
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel
+          level="asInvoker"
+          uiAccess="false"/>
+        </requestedPrivileges>
+       </security>
+  </trustInfo>
+
+</assembly>

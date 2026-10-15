@@ -1,0 +1,11 @@
+400	Instalar agora
+401	OK
+402	
+
+Clique em Instalar Agora para baixar e instalar as atualizações.
+410	423|420|80|22|&Voltar
+411	503|420|80|22|&Avançar
+412	423|420|80|22|&Cancelar
+413	503|420|80|22|&Concluir
+414	508|420|80|22|&Aceito
+415	428|420|80|22|&Não Aceito

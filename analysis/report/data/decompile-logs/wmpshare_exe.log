@@ -1,0 +1,2 @@
+ERROR    | 2026-10-14 21:52:23,676 | angr.state_plugins.unicorn_engine | failed loading "unicornlib.so", unicorn support disabled ('NoneType' object has no attribute 'unicorn_py3')
+[wmpshare_exe] cfg 0.2s functions=76 selected=29 decompiled=29 elapsed=4s

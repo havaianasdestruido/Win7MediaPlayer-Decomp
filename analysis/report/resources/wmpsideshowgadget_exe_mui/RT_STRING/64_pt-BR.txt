@@ -1,0 +1,14 @@
+1008	Pausar
+1009	Parar
+1010	Listas de Reprodução
+1011	Artistas
+1012	Álbuns
+1013	Gêneros
+1014	Biblioteca de mídia
+1015	Em execução
+1018	Lista Em Execução
+1019	Reproduzir agora
+1020	Adicionar à Lista Em Execução
+1021	Início da biblioteca de mídia
+1022	Itens %d anteriores
+1023	Próximos %d itens

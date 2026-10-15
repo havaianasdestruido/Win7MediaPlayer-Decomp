@@ -1,0 +1,77 @@
+/* module_facts.h — machine-readable restatement of the PE facts recovered
+ * for bin/wmpenc.exe by analysis/tools/inventory.py.
+ *
+ * Every value here is data, not code.  recon/compile_check.c re-derives the
+ * digests from the original file at run time and fails if anything differs.
+ */
+#ifndef WMP_RECON_MODULE_FACTS_H
+#define WMP_RECON_MODULE_FACTS_H
+
+#include "wmp_compat.h"
+
+#define WMP_MODULE_NAME       "wmpenc.exe"
+#define WMP_MODULE_REL_PATH   "bin/wmpenc.exe"
+#define WMP_MODULE_BYTES      27648u
+#define WMP_IMAGE_BASE        0x100000000ull
+#define WMP_ENTRY_POINT_RVA   0x5120u
+#define WMP_SECTION_COUNT     5u
+#define WMP_RESOURCE_COUNT    3u
+
+/* SHA-256 of the original image (bin/wmpenc.exe). */
+static const unsigned char WMP_IMAGE_SHA256[32] = {
+    0xB8, 0xB1, 0x74, 0xAE, 0x01, 0x2A, 0x8A, 0x25, 0xA9, 0xD7, 0x06, 0xF7,
+    0xF1, 0x69, 0xE7, 0xA2, 0x55, 0x3A, 0xB8, 0xFF, 0xE0, 0xCC, 0xEF, 0x2B,
+    0xEB, 0x34, 0xFE, 0x80, 0x3E, 0xC0, 0x63, 0x4A,
+};
+
+typedef struct wmp_section_fact {
+    const char   *name;
+    unsigned long va;
+    unsigned long virtual_size;
+    unsigned long raw_pointer;
+    unsigned long raw_size;
+    double        entropy;
+} wmp_section_fact;
+
+static const wmp_section_fact WMP_SECTIONS[WMP_SECTION_COUNT] = {
+    { ".text", 0x1000u, 0x55A2u, 0x400u, 0x5600u, 6.2075 },
+    { ".data", 0x7000u, 0x910u, 0x5A00u, 0x200u, 1.1456 },
+    { ".pdata", 0x8000u, 0x270u, 0x5C00u, 0x400u, 2.7849 },
+    { ".rsrc", 0x9000u, 0x9B8u, 0x6000u, 0xA00u, 4.7262 },
+    { ".reloc", 0xA000u, 0xCAu, 0x6A00u, 0x200u, 1.5831 },
+};
+
+/* Resource payloads recovered by analysis/tools/resources.py.  The RVA is
+ * translated through WMP_SECTIONS and the payload's SHA-256 is re-checked
+ * against WMP_RESOURCE_SHA256 at run time. */
+typedef struct wmp_resource_fact {
+    const char   *type;
+    const char   *name;
+    unsigned long data_rva;
+    unsigned long size;
+    const unsigned char *sha256;
+} wmp_resource_fact;
+
+static const unsigned char WMP_RES_0_SHA256[32] = {
+    0x80, 0x83, 0x7A, 0x17, 0x78, 0xCD, 0x14, 0x9E, 0x84, 0xD3, 0xBE, 0x08,
+    0xEF, 0xAC, 0x62, 0x18, 0x24, 0xAD, 0x0A, 0xDE, 0x5C, 0x50, 0x4E, 0x9A,
+    0x38, 0x5F, 0x0C, 0x94, 0xB6, 0x39, 0x42, 0x6D,
+};
+static const unsigned char WMP_RES_1_SHA256[32] = {
+    0x72, 0x29, 0x74, 0x19, 0xA4, 0x9F, 0x42, 0x9E, 0x09, 0x26, 0x1B, 0x0D,
+    0xF5, 0xEC, 0x52, 0xB8, 0xF6, 0x68, 0x20, 0xFF, 0x4E, 0xAF, 0xBA, 0x32,
+    0x8E, 0xBA, 0x74, 0x32, 0x06, 0x62, 0xAC, 0x9D,
+};
+static const unsigned char WMP_RES_2_SHA256[32] = {
+    0x08, 0x7C, 0x9D, 0x26, 0x16, 0x86, 0x98, 0x3B, 0x26, 0x12, 0x2D, 0x33,
+    0x1A, 0x51, 0xE8, 0xC0, 0x89, 0x12, 0x13, 0xDF, 0x06, 0x55, 0x7E, 0x47,
+    0x45, 0xE9, 0x88, 0x2A, 0x9F, 0xB3, 0xFE, 0x63,
+};
+
+static const wmp_resource_fact WMP_RESOURCES[WMP_RESOURCE_COUNT] = {
+    { "REGISTRY", "100", 0x9768u, 586u, WMP_RES_0_SHA256 },
+    { "RT_VERSION", "1", 0x93B8u, 944u, WMP_RES_1_SHA256 },
+    { "RT_MANIFEST", "1", 0x9100u, 694u, WMP_RES_2_SHA256 },
+};
+
+#endif /* WMP_RECON_MODULE_FACTS_H */

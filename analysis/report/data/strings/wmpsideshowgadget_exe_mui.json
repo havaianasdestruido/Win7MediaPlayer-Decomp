@@ -1,0 +1,765 @@
+{
+ "module": "wmpsideshowgadget_exe_mui",
+ "artifact": "bin/pt-BR/WMPSideShowGadget.exe.mui",
+ "counts": {
+  "ascii": 4,
+  "utf16": 65,
+  "unique": 68
+ },
+ "strings": [
+  {
+   "text": "!This program cannot be run in DOS mode.",
+   "offset": "0x4d",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "RichE",
+   "offset": "0xa0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".rsrc",
+   "offset": "0x1c0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "PADDINGXXPADDINGPADDINGX",
+   "offset": "0xde8",
+   "kind": "ascii",
+   "rva": "0x1be8",
+   "va": "0x180001be8",
+   "tags": []
+  },
+  {
+   "text": "pt-BR",
+   "offset": "0x450",
+   "kind": "utf16",
+   "rva": "0x1250",
+   "va": "0x180001250",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "faixas",
+   "offset": "0x472",
+   "kind": "utf16",
+   "rva": "0x1272",
+   "va": "0x180001272",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "faixa",
+   "offset": "0x480",
+   "kind": "utf16",
+   "rva": "0x1280",
+   "va": "0x180001280",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Tempo decorrido",
+   "offset": "0x48c",
+   "kind": "utf16",
+   "rva": "0x128c",
+   "va": "0x18000128c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Volume",
+   "offset": "0x4ac",
+   "kind": "utf16",
+   "rva": "0x12ac",
+   "va": "0x1800012ac",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Reproduzir ou pausar",
+   "offset": "0x4ba",
+   "kind": "utf16",
+   "rva": "0x12ba",
+   "va": "0x1800012ba",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Faixa anterior",
+   "offset": "0x4e4",
+   "kind": "utf16",
+   "rva": "0x12e4",
+   "va": "0x1800012e4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "xima faixa",
+   "offset": "0x508",
+   "kind": "utf16",
+   "rva": "0x1308",
+   "va": "0x180001308",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Reproduzir",
+   "offset": "0x51e",
+   "kind": "utf16",
+   "rva": "0x131e",
+   "va": "0x18000131e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Pausar",
+   "offset": "0x536",
+   "kind": "utf16",
+   "rva": "0x1336",
+   "va": "0x180001336",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Parar",
+   "offset": "0x544",
+   "kind": "utf16",
+   "rva": "0x1344",
+   "va": "0x180001344",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Listas de Reprodu",
+   "offset": "0x550",
+   "kind": "utf16",
+   "rva": "0x1350",
+   "va": "0x180001350",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Artistas",
+   "offset": "0x57a",
+   "kind": "utf16",
+   "rva": "0x137a",
+   "va": "0x18000137a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "lbuns",
+   "offset": "0x58e",
+   "kind": "utf16",
+   "rva": "0x138e",
+   "va": "0x18000138e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "neros",
+   "offset": "0x59e",
+   "kind": "utf16",
+   "rva": "0x139e",
+   "va": "0x18000139e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Biblioteca de m",
+   "offset": "0x5aa",
+   "kind": "utf16",
+   "rva": "0x13aa",
+   "va": "0x1800013aa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Em execu",
+   "offset": "0x5d2",
+   "kind": "utf16",
+   "rva": "0x13d2",
+   "va": "0x1800013d2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Lista Em Execu",
+   "offset": "0x5ee",
+   "kind": "utf16",
+   "rva": "0x13ee",
+   "va": "0x1800013ee",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Reproduzir agora",
+   "offset": "0x612",
+   "kind": "utf16",
+   "rva": "0x1412",
+   "va": "0x180001412",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Adicionar ",
+   "offset": "0x634",
+   "kind": "utf16",
+   "rva": "0x1434",
+   "va": "0x180001434",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Lista Em Execu",
+   "offset": "0x64a",
+   "kind": "utf16",
+   "rva": "0x144a",
+   "va": "0x18000144a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "cio da biblioteca de m",
+   "offset": "0x676",
+   "kind": "utf16",
+   "rva": "0x1476",
+   "va": "0x180001476",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Itens %d anteriores",
+   "offset": "0x6ac",
+   "kind": "utf16",
+   "rva": "0x14ac",
+   "va": "0x1800014ac",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ximos %d itens",
+   "offset": "0x6da",
+   "kind": "utf16",
+   "rva": "0x14da",
+   "va": "0x1800014da",
+   "tags": [
+    "format-string",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Nenhuma m",
+   "offset": "0x6fa",
+   "kind": "utf16",
+   "rva": "0x14fa",
+   "va": "0x1800014fa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "sica selecionada",
+   "offset": "0x70e",
+   "kind": "utf16",
+   "rva": "0x150e",
+   "va": "0x18000150e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Aumentar volume",
+   "offset": "0x730",
+   "kind": "utf16",
+   "rva": "0x1530",
+   "va": "0x180001530",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Reduzir volume",
+   "offset": "0x750",
+   "kind": "utf16",
+   "rva": "0x1550",
+   "va": "0x180001550",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sem ",
+   "offset": "0x76e",
+   "kind": "utf16",
+   "rva": "0x156e",
+   "va": "0x18000156e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "udio",
+   "offset": "0x778",
+   "kind": "utf16",
+   "rva": "0x1578",
+   "va": "0x180001578",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sem som",
+   "offset": "0x782",
+   "kind": "utf16",
+   "rva": "0x1582",
+   "va": "0x180001582",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Reproduzindo",
+   "offset": "0x792",
+   "kind": "utf16",
+   "rva": "0x1592",
+   "va": "0x180001592",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Em pausa",
+   "offset": "0x7ac",
+   "kind": "utf16",
+   "rva": "0x15ac",
+   "va": "0x1800015ac",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Parado",
+   "offset": "0x7be",
+   "kind": "utf16",
+   "rva": "0x15be",
+   "va": "0x1800015be",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Navegar na Biblioteca de M",
+   "offset": "0x7cc",
+   "kind": "utf16",
+   "rva": "0x15cc",
+   "va": "0x1800015cc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ir para Lista em Execu",
+   "offset": "0x80a",
+   "kind": "utf16",
+   "rva": "0x160a",
+   "va": "0x18000160a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ir para Faixa Atual",
+   "offset": "0x83e",
+   "kind": "utf16",
+   "rva": "0x163e",
+   "va": "0x18000163e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Desconhecido",
+   "offset": "0x866",
+   "kind": "utf16",
+   "rva": "0x1666",
+   "va": "0x180001666",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Windows Media Player",
+   "offset": "0x8a2",
+   "kind": "utf16",
+   "rva": "0x16a2",
+   "va": "0x1800016a2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "\\Reproduza m",
+   "offset": "0x8d0",
+   "kind": "utf16",
+   "rva": "0x16d0",
+   "va": "0x1800016d0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "sicas no seu computador usando um dispositivo compat",
+   "offset": "0x8ea",
+   "kind": "utf16",
+   "rva": "0x16ea",
+   "va": "0x1800016ea",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel com o Windows SideShow.",
+   "offset": "0x954",
+   "kind": "utf16",
+   "rva": "0x1754",
+   "va": "0x180001754",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VS_VERSION_INFO",
+   "offset": "0x9ae",
+   "kind": "utf16",
+   "rva": "0x17ae",
+   "va": "0x1800017ae",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "StringFileInfo",
+   "offset": "0xa0a",
+   "kind": "utf16",
+   "rva": "0x180a",
+   "va": "0x18000180a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "041604B0",
+   "offset": "0xa2e",
+   "kind": "utf16",
+   "rva": "0x182e",
+   "va": "0x18000182e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CompanyName",
+   "offset": "0xa46",
+   "kind": "utf16",
+   "rva": "0x1846",
+   "va": "0x180001846",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft Corporation",
+   "offset": "0xa60",
+   "kind": "utf16",
+   "rva": "0x1860",
+   "va": "0x180001860",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileDescription",
+   "offset": "0xa92",
+   "kind": "utf16",
+   "rva": "0x1892",
+   "va": "0x180001892",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Gadget do Windows Media Player para dispositivos compat",
+   "offset": "0xab4",
+   "kind": "utf16",
+   "rva": "0x18b4",
+   "va": "0x1800018b4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "veis com o Windows SideShow",
+   "offset": "0xb24",
+   "kind": "utf16",
+   "rva": "0x1924",
+   "va": "0x180001924",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileVersion",
+   "offset": "0xb62",
+   "kind": "utf16",
+   "rva": "0x1962",
+   "va": "0x180001962",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "offset": "0xb7c",
+   "kind": "utf16",
+   "rva": "0x197c",
+   "va": "0x18000197c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InternalName",
+   "offset": "0xbd2",
+   "kind": "utf16",
+   "rva": "0x19d2",
+   "va": "0x1800019d2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMPSideShowGadget",
+   "offset": "0xbec",
+   "kind": "utf16",
+   "rva": "0x19ec",
+   "va": "0x1800019ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LegalCopyright",
+   "offset": "0xc16",
+   "kind": "utf16",
+   "rva": "0x1a16",
+   "va": "0x180001a16",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Microsoft Corporation. Todos os direitos reservados.",
+   "offset": "0xc36",
+   "kind": "utf16",
+   "rva": "0x1a36",
+   "va": "0x180001a36",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "OriginalFilename",
+   "offset": "0xcaa",
+   "kind": "utf16",
+   "rva": "0x1aaa",
+   "va": "0x180001aaa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductName",
+   "offset": "0xcf6",
+   "kind": "utf16",
+   "rva": "0x1af6",
+   "va": "0x180001af6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sistema Operacional Microsoft",
+   "offset": "0xd10",
+   "kind": "utf16",
+   "rva": "0x1b10",
+   "va": "0x180001b10",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Windows",
+   "offset": "0xd4c",
+   "kind": "utf16",
+   "rva": "0x1b4c",
+   "va": "0x180001b4c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductVersion",
+   "offset": "0xd66",
+   "kind": "utf16",
+   "rva": "0x1b66",
+   "va": "0x180001b66",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385",
+   "offset": "0xd84",
+   "kind": "utf16",
+   "rva": "0x1b84",
+   "va": "0x180001b84",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VarFileInfo",
+   "offset": "0xdaa",
+   "kind": "utf16",
+   "rva": "0x1baa",
+   "va": "0x180001baa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Translation",
+   "offset": "0xdca",
+   "kind": "utf16",
+   "rva": "0x1bca",
+   "va": "0x180001bca",
+   "tags": [
+    "utf16le"
+   ]
+  }
+ ],
+ "by_tag": {
+  "api-name": [
+   "CompanyName",
+   "FileDescription",
+   "FileVersion"
+  ],
+  "format-string": [
+   "Itens %d anteriores",
+   "ximos %d itens"
+  ],
+  "utf16le": [
+   " Lista Em Execu",
+   " Microsoft Corporation. Todos os direitos reservados.",
+   " Windows",
+   "041604B0",
+   "12.0.7600.16385",
+   "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "Adicionar ",
+   "Artistas",
+   "Aumentar volume",
+   "Biblioteca de m",
+   "CompanyName",
+   "Desconhecido",
+   "Em execu",
+   "Em pausa",
+   "Faixa anterior",
+   "FileDescription",
+   "FileVersion",
+   "Gadget do Windows Media Player para dispositivos compat",
+   "InternalName",
+   "Ir para Faixa Atual",
+   "Ir para Lista em Execu",
+   "Itens %d anteriores",
+   "LegalCopyright",
+   "Lista Em Execu",
+   "Listas de Reprodu",
+   "Microsoft Corporation",
+   "Navegar na Biblioteca de M",
+   "Nenhuma m",
+   "OriginalFilename",
+   "Parado",
+   "Parar",
+   "Pausar",
+   "ProductName",
+   "ProductVersion",
+   "Reduzir volume",
+   "Reproduzindo",
+   "Reproduzir",
+   "Reproduzir agora",
+   "Reproduzir ou pausar",
+   "Sem ",
+   "Sem som",
+   "Sistema Operacional Microsoft",
+   "StringFileInfo",
+   "Tempo decorrido",
+   "Translation",
+   "VS_VERSION_INFO",
+   "VarFileInfo",
+   "Volume",
+   "WMPSideShowGadget",
+   "Windows Media Player",
+   "\\Reproduza m",
+   "cio da biblioteca de m",
+   "faixa",
+   "faixas",
+   "lbuns",
+   "neros",
+   "pt-BR",
+   "sica selecionada",
+   "sicas no seu computador usando um dispositivo compat",
+   "udio",
+   "veis com o Windows SideShow",
+   "vel com o Windows SideShow.",
+   "xima faixa",
+   "ximos %d itens"
+  ]
+ }
+}

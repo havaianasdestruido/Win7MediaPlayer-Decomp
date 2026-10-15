@@ -1,0 +1,3120 @@
+{
+ "module": "wmpnetwk_exe_mui",
+ "artifact": "bin/pt-BR/wmpnetwk.exe.mui",
+ "counts": {
+  "ascii": 4,
+  "utf16": 486,
+  "unique": 281
+ },
+ "strings": [
+  {
+   "text": "!This program cannot be run in DOS mode.",
+   "offset": "0x4d",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "RichE",
+   "offset": "0xa0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".rsrc",
+   "offset": "0x1c0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADD",
+   "offset": "0x99ac",
+   "kind": "ascii",
+   "rva": "0xa7ac",
+   "va": "0x18000a7ac",
+   "tags": []
+  },
+  {
+   "text": "pt-BR",
+   "offset": "0x5c0",
+   "kind": "utf16",
+   "rva": "0x13c0",
+   "va": "0x1800013c0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": ";Servi",
+   "offset": "0x5da",
+   "kind": "utf16",
+   "rva": "0x13da",
+   "va": "0x1800013da",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de Compartilhamento de Rede do Windows Media Player",
+   "offset": "0x5e8",
+   "kind": "utf16",
+   "rva": "0x13e8",
+   "va": "0x1800013e8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Compartilha bibliotecas do Windows Media Player com outros players e dispositivos de m",
+   "offset": "0x654",
+   "kind": "utf16",
+   "rva": "0x1454",
+   "va": "0x180001454",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia da rede por meio de Universal Plug and Play",
+   "offset": "0x702",
+   "kind": "utf16",
+   "rva": "0x1502",
+   "va": "0x180001502",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Erro Desconhecido %1!d!",
+   "offset": "0x762",
+   "kind": "utf16",
+   "rva": "0x1562",
+   "va": "0x180001562",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Dispositivo Desconhecido (%1)",
+   "offset": "0x7b0",
+   "kind": "utf16",
+   "rva": "0x15b0",
+   "va": "0x1800015b0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Windows Media Player Sharing",
+   "offset": "0x7f2",
+   "kind": "utf16",
+   "rva": "0x15f2",
+   "va": "0x1800015f2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Invalid Args",
+   "offset": "0x83a",
+   "kind": "utf16",
+   "rva": "0x163a",
+   "va": "0x18000163a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Invalid Var",
+   "offset": "0x856",
+   "kind": "utf16",
+   "rva": "0x1656",
+   "va": "0x180001656",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Action Failed",
+   "offset": "0x890",
+   "kind": "utf16",
+   "rva": "0x1690",
+   "va": "0x180001690",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "No such object",
+   "offset": "0x8dc",
+   "kind": "utf16",
+   "rva": "0x16dc",
+   "va": "0x1800016dc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Invalid currentTagValue",
+   "offset": "0x8fa",
+   "kind": "utf16",
+   "rva": "0x16fa",
+   "va": "0x1800016fa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Invalid newTagValue",
+   "offset": "0x92a",
+   "kind": "utf16",
+   "rva": "0x172a",
+   "va": "0x18000172a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Required tag",
+   "offset": "0x952",
+   "kind": "utf16",
+   "rva": "0x1752",
+   "va": "0x180001752",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Read only tag",
+   "offset": "0x96c",
+   "kind": "utf16",
+   "rva": "0x176c",
+   "va": "0x18000176c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Parameter Mismatch",
+   "offset": "0x988",
+   "kind": "utf16",
+   "rva": "0x1788",
+   "va": "0x180001788",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "&Unsupported or invalid search criteria$Unsupported or invalid sort criteria",
+   "offset": "0x9ae",
+   "kind": "utf16",
+   "rva": "0x17ae",
+   "va": "0x1800017ae",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "No such container",
+   "offset": "0xa48",
+   "kind": "utf16",
+   "rva": "0x1848",
+   "va": "0x180001848",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Restricted object",
+   "offset": "0xa6c",
+   "kind": "utf16",
+   "rva": "0x186c",
+   "va": "0x18000186c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Bad metadata",
+   "offset": "0xa90",
+   "kind": "utf16",
+   "rva": "0x1890",
+   "va": "0x180001890",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Restricted parent object",
+   "offset": "0xaaa",
+   "kind": "utf16",
+   "rva": "0x18aa",
+   "va": "0x1800018aa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Cannot process the request",
+   "offset": "0xaea",
+   "kind": "utf16",
+   "rva": "0x18ea",
+   "va": "0x1800018ea",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Access denied",
+   "offset": "0xb40",
+   "kind": "utf16",
+   "rva": "0x1940",
+   "va": "0x180001940",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Invalid Certificate",
+   "offset": "0xb7e",
+   "kind": "utf16",
+   "rva": "0x197e",
+   "va": "0x18000197e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Revoked Certificate",
+   "offset": "0xba6",
+   "kind": "utf16",
+   "rva": "0x19a6",
+   "va": "0x1800019a6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Transmitter Failure",
+   "offset": "0xbd2",
+   "kind": "utf16",
+   "rva": "0x19d2",
+   "va": "0x1800019d2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "jConfigurar op",
+   "offset": "0xc1c",
+   "kind": "utf16",
+   "rva": "0x1a1c",
+   "va": "0x180001a1c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de energia para quando dispositivos e computadores reproduzirem m",
+   "offset": "0xc3c",
+   "kind": "utf16",
+   "rva": "0x1a3c",
+   "va": "0x180001a3c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia do seu computador.",
+   "offset": "0xcc6",
+   "kind": "utf16",
+   "rva": "0x1ac6",
+   "va": "0x180001ac6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Configura",
+   "offset": "0xcf4",
+   "kind": "utf16",
+   "rva": "0x1af4",
+   "va": "0x180001af4",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de multim",
+   "offset": "0xd0a",
+   "kind": "utf16",
+   "rva": "0x1b0a",
+   "va": "0x180001b0a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia\\Determinar o que o computador faz quando um dispositivo ou computador reproduzir m",
+   "offset": "0xd24",
+   "kind": "utf16",
+   "rva": "0x1b24",
+   "va": "0x180001b24",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia dele.",
+   "offset": "0xdd2",
+   "kind": "utf16",
+   "rva": "0x1bd2",
+   "va": "0x180001bd2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ao compartilhar m",
+   "offset": "0xde6",
+   "kind": "utf16",
+   "rva": "0x1be6",
+   "va": "0x180001be6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "diakDispositivos e computadores n",
+   "offset": "0xe0a",
+   "kind": "utf16",
+   "rva": "0x1c0a",
+   "va": "0x180001c0a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o poder",
+   "offset": "0xe4e",
+   "kind": "utf16",
+   "rva": "0x1c4e",
+   "va": "0x180001c4e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o reproduzir m",
+   "offset": "0xe5e",
+   "kind": "utf16",
+   "rva": "0x1c5e",
+   "va": "0x180001c5e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia do seu computador quando ele estiver em suspens",
+   "offset": "0xe7c",
+   "kind": "utf16",
+   "rva": "0x1c7c",
+   "va": "0x180001c7c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o.,Permitir que o computador entre em suspens",
+   "offset": "0xee4",
+   "kind": "utf16",
+   "rva": "0x1ce4",
+   "va": "0x180001ce4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "omDispositivos e computadores poder",
+   "offset": "0xf40",
+   "kind": "utf16",
+   "rva": "0x1d40",
+   "va": "0x180001d40",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia do seu computador a menos que voc",
+   "offset": "0xfa6",
+   "kind": "utf16",
+   "rva": "0x1da6",
+   "va": "0x180001da6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " o ponha em suspens",
+   "offset": "0xff2",
+   "kind": "utf16",
+   "rva": "0x1df2",
+   "va": "0x180001df2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Impedir suspens",
+   "offset": "0x1020",
+   "kind": "utf16",
+   "rva": "0x1e20",
+   "va": "0x180001e20",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o quando ocioso",
+   "offset": "0x1040",
+   "kind": "utf16",
+   "rva": "0x1e40",
+   "va": "0x180001e40",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "nDispositivos e computadores n",
+   "offset": "0x1060",
+   "kind": "utf16",
+   "rva": "0x1e60",
+   "va": "0x180001e60",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia do seu computador quando ele estiver em Modo Ausente./Permitir que o computador entre em Modo AusenteLO Compartilhamento de M",
+   "offset": "0x10cc",
+   "kind": "utf16",
+   "rva": "0x1ecc",
+   "va": "0x180001ecc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia foi habilitado por meio do Windows Media Player.",
+   "offset": "0x11d0",
+   "kind": "utf16",
+   "rva": "0x1fd0",
+   "va": "0x180001fd0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ssico",
+   "offset": "0x12b6",
+   "kind": "utf16",
+   "rva": "0x20b6",
+   "va": "0x1800020b6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Informa",
+   "offset": "0x12cc",
+   "kind": "utf16",
+   "rva": "0x20cc",
+   "va": "0x1800020cc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Iniciar",
+   "offset": "0x12ec",
+   "kind": "utf16",
+   "rva": "0x20ec",
+   "va": "0x1800020ec",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Parar",
+   "offset": "0x1304",
+   "kind": "utf16",
+   "rva": "0x2104",
+   "va": "0x180002104",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O servi",
+   "offset": "0x1318",
+   "kind": "utf16",
+   "rva": "0x2118",
+   "va": "0x180002118",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o '%1' foi instalado.",
+   "offset": "0x1328",
+   "kind": "utf16",
+   "rva": "0x2128",
+   "va": "0x180002128",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o '%1' j",
+   "offset": "0x136c",
+   "kind": "utf16",
+   "rva": "0x216c",
+   "va": "0x18000216c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " foi instalado.",
+   "offset": "0x137e",
+   "kind": "utf16",
+   "rva": "0x217e",
+   "va": "0x18000217e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o '%1' foi desinstalado.",
+   "offset": "0x13b8",
+   "kind": "utf16",
+   "rva": "0x21b8",
+   "va": "0x1800021b8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o '%1' foi desinstalado; no entanto, talvez seja necess",
+   "offset": "0x1404",
+   "kind": "utf16",
+   "rva": "0x2204",
+   "va": "0x180002204",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio reiniciar o computador para concluir o processo.",
+   "offset": "0x1474",
+   "kind": "utf16",
+   "rva": "0x2274",
+   "va": "0x180002274",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o '%1' foi iniciado.",
+   "offset": "0x14f8",
+   "kind": "utf16",
+   "rva": "0x22f8",
+   "va": "0x1800022f8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Servi",
+   "offset": "0x152c",
+   "kind": "utf16",
+   "rva": "0x232c",
+   "va": "0x18000232c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o '%1' interrompido.",
+   "offset": "0x1538",
+   "kind": "utf16",
+   "rva": "0x2338",
+   "va": "0x180002338",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O servidor de m",
+   "offset": "0x156c",
+   "kind": "utf16",
+   "rva": "0x236c",
+   "va": "0x18000236c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia '%1' foi inicializado com ",
+   "offset": "0x158c",
+   "kind": "utf16",
+   "rva": "0x238c",
+   "va": "0x18000238c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "xito e est",
+   "offset": "0x15ca",
+   "kind": "utf16",
+   "rva": "0x23ca",
+   "va": "0x1800023ca",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " compartilhando m",
+   "offset": "0x15e0",
+   "kind": "utf16",
+   "rva": "0x23e0",
+   "va": "0x1800023e0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia com dispositivos de m",
+   "offset": "0x1604",
+   "kind": "utf16",
+   "rva": "0x2404",
+   "va": "0x180002404",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia de rede.",
+   "offset": "0x1638",
+   "kind": "utf16",
+   "rva": "0x2438",
+   "va": "0x180002438",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia '%1' foi removido e parou de compartilhar m",
+   "offset": "0x167c",
+   "kind": "utf16",
+   "rva": "0x247c",
+   "va": "0x18000247c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia com os dispositivos da m",
+   "offset": "0x16dc",
+   "kind": "utf16",
+   "rva": "0x24dc",
+   "va": "0x1800024dc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "xito na detec",
+   "offset": "0x173a",
+   "kind": "utf16",
+   "rva": "0x253a",
+   "va": "0x18000253a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de proximidade. O melhor tempo de proximidade detectado foi de %1 milissegundos.",
+   "offset": "0x1758",
+   "kind": "utf16",
+   "rva": "0x2558",
+   "va": "0x180002558",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Um dispositivo com o endere",
+   "offset": "0x1808",
+   "kind": "utf16",
+   "rva": "0x2608",
+   "va": "0x180002608",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de IP '%1!S!' falhou ao se registrar para recupera",
+   "offset": "0x1840",
+   "kind": "utf16",
+   "rva": "0x2640",
+   "va": "0x180002640",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de conte",
+   "offset": "0x18ac",
+   "kind": "utf16",
+   "rva": "0x26ac",
+   "va": "0x1800026ac",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do protegido.",
+   "offset": "0x18c2",
+   "kind": "utf16",
+   "rva": "0x26c2",
+   "va": "0x1800026c2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "As pastas monitoradas no servidor de m",
+   "offset": "0x18e8",
+   "kind": "utf16",
+   "rva": "0x26e8",
+   "va": "0x1800026e8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia '%1!S!' foram alteradas. O Windows Media Player est",
+   "offset": "0x1936",
+   "kind": "utf16",
+   "rva": "0x2736",
+   "va": "0x180002736",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " atualizando as permiss",
+   "offset": "0x19a6",
+   "kind": "utf16",
+   "rva": "0x27a6",
+   "va": "0x1800027a6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es de seguran",
+   "offset": "0x19d6",
+   "kind": "utf16",
+   "rva": "0x27d6",
+   "va": "0x1800027d6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "a das pastas inclu",
+   "offset": "0x19f2",
+   "kind": "utf16",
+   "rva": "0x27f2",
+   "va": "0x1800027f2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "das para habilitar o compartilhamento de m",
+   "offset": "0x1a18",
+   "kind": "utf16",
+   "rva": "0x2818",
+   "va": "0x180002818",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia.",
+   "offset": "0x1a6e",
+   "kind": "utf16",
+   "rva": "0x286e",
+   "va": "0x18000286e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O suporte a IPv4 foi desabilitado no WMPNetworkSvc porque a monitora",
+   "offset": "0x1aa0",
+   "kind": "utf16",
+   "rva": "0x28a0",
+   "va": "0x1800028a0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de altera",
+   "offset": "0x1b2c",
+   "kind": "utf16",
+   "rva": "0x292c",
+   "va": "0x18000292c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de endere",
+   "offset": "0x1b46",
+   "kind": "utf16",
+   "rva": "0x2946",
+   "va": "0x180002946",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de rede encontrou um erro '%1'.",
+   "offset": "0x1b5e",
+   "kind": "utf16",
+   "rva": "0x295e",
+   "va": "0x18000295e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "digo de solicita",
+   "offset": "0x1bb0",
+   "kind": "utf16",
+   "rva": "0x29b0",
+   "va": "0x1800029b0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o inv",
+   "offset": "0x1bd4",
+   "kind": "utf16",
+   "rva": "0x29d4",
+   "va": "0x1800029d4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "lido %1.",
+   "offset": "0x1be0",
+   "kind": "utf16",
+   "rva": "0x29e0",
+   "va": "0x1800029e0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Ao desinstalar o servi",
+   "offset": "0x1bfc",
+   "kind": "utf16",
+   "rva": "0x29fc",
+   "va": "0x1800029fc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o '%1', n",
+   "offset": "0x1c2a",
+   "kind": "utf16",
+   "rva": "0x2a2a",
+   "va": "0x180002a2a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi poss",
+   "offset": "0x1c3e",
+   "kind": "utf16",
+   "rva": "0x2a3e",
+   "va": "0x180002a3e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel cancelar o registro da biblioteca de tipos devido ao erro '%2'.",
+   "offset": "0x1c54",
+   "kind": "utf16",
+   "rva": "0x2a54",
+   "va": "0x180002a54",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o '%1', a chave do Registro 'HKLM\\SOFTWARE\\Microsoft\\Windows Media Player NSS\\3.0' n",
+   "offset": "0x1d12",
+   "kind": "utf16",
+   "rva": "0x2b12",
+   "va": "0x180002b12",
+   "tags": [
+    "registry",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi exclu",
+   "offset": "0x1dbc",
+   "kind": "utf16",
+   "rva": "0x2bbc",
+   "va": "0x180002bbc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "da devido ao erro '%2'. ",
+   "offset": "0x1dd4",
+   "kind": "utf16",
+   "rva": "0x2bd4",
+   "va": "0x180002bd4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " preciso remov",
+   "offset": "0x1e06",
+   "kind": "utf16",
+   "rva": "0x2c06",
+   "va": "0x180002c06",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "-la manualmente.",
+   "offset": "0x1e24",
+   "kind": "utf16",
+   "rva": "0x2c24",
+   "va": "0x180002c24",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O Servi",
+   "offset": "0x1e50",
+   "kind": "utf16",
+   "rva": "0x2c50",
+   "va": "0x180002c50",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de Compartilhamento de Rede do Windows Media Player n",
+   "offset": "0x1e60",
+   "kind": "utf16",
+   "rva": "0x2c60",
+   "va": "0x180002c60",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o conseguiu processar a solicita",
+   "offset": "0x1ed0",
+   "kind": "utf16",
+   "rva": "0x2cd0",
+   "va": "0x180002cd0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do URI '%1!S!' do endere",
+   "offset": "0x1f14",
+   "kind": "utf16",
+   "rva": "0x2d14",
+   "va": "0x180002d14",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o IP' %2!S!' devido ao erro '%3'.",
+   "offset": "0x1f4a",
+   "kind": "utf16",
+   "rva": "0x2d4a",
+   "va": "0x180002d4a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Dispositivos renderizadores de m",
+   "offset": "0x1f98",
+   "kind": "utf16",
+   "rva": "0x2d98",
+   "va": "0x180002d98",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia n",
+   "offset": "0x1fda",
+   "kind": "utf16",
+   "rva": "0x2dda",
+   "va": "0x180002dda",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o utilizados n",
+   "offset": "0x1fe6",
+   "kind": "utf16",
+   "rva": "0x2de6",
+   "va": "0x180002de6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foram removidos da lista de dispositivos porque n",
+   "offset": "0x2004",
+   "kind": "utf16",
+   "rva": "0x2e04",
+   "va": "0x180002e04",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " poss",
+   "offset": "0x2072",
+   "kind": "utf16",
+   "rva": "0x2e72",
+   "va": "0x180002e72",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel executar componentes DRM necess",
+   "offset": "0x207e",
+   "kind": "utf16",
+   "rva": "0x2e7e",
+   "va": "0x180002e7e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rios com um depurador anexado. Remova o depurador da m",
+   "offset": "0x20c6",
+   "kind": "utf16",
+   "rva": "0x2ec6",
+   "va": "0x180002ec6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "quina ou do servi",
+   "offset": "0x2134",
+   "kind": "utf16",
+   "rva": "0x2f34",
+   "va": "0x180002f34",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o WMPNetworkSvc e, em seguida, reinicie o servi",
+   "offset": "0x2158",
+   "kind": "utf16",
+   "rva": "0x2f58",
+   "va": "0x180002f58",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o WMPNetworkSvc.",
+   "offset": "0x21b8",
+   "kind": "utf16",
+   "rva": "0x2fb8",
+   "va": "0x180002fb8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Windows Media Player Network Sharing Service",
+   "offset": "0x21e4",
+   "kind": "utf16",
+   "rva": "0x2fe4",
+   "va": "0x180002fe4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o '%1' n",
+   "offset": "0x2258",
+   "kind": "utf16",
+   "rva": "0x3058",
+   "va": "0x180003058",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque o OpenSCManager encontrou um erro de acesso negado '%2'. Tente usar uma conta de administrador com mais privil",
+   "offset": "0x226a",
+   "kind": "utf16",
+   "rva": "0x306a",
+   "va": "0x18000306a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "gios para reinstalar o servi",
+   "offset": "0x2376",
+   "kind": "utf16",
+   "rva": "0x3176",
+   "va": "0x180003176",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque o OpenSCManager encontrou um erro desconhecido '%2'. Reinicie o computador e tente reinstalar o servi",
+   "offset": "0x23e2",
+   "kind": "utf16",
+   "rva": "0x31e2",
+   "va": "0x1800031e2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque o CreateService encontrou um erro '%2'. Reinicie o computador e tente reinstalar o servi",
+   "offset": "0x250e",
+   "kind": "utf16",
+   "rva": "0x330e",
+   "va": "0x18000330e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque RegOpenKey(HKLM\\SYSTEM\\CurrentControlSet\\Services\\%1) encontrou um erro '%2'. Verifique se a chave existe e se o grupo Administradores tem permiss",
+   "offset": "0x261e",
+   "kind": "utf16",
+   "rva": "0x341e",
+   "va": "0x18000341e",
+   "tags": [
+    "registry",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para modific",
+   "offset": "0x2772",
+   "kind": "utf16",
+   "rva": "0x3572",
+   "va": "0x180003572",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "-la e tente reinstalar o servi",
+   "offset": "0x2790",
+   "kind": "utf16",
+   "rva": "0x3590",
+   "va": "0x180003590",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque RegisterTypeLib() encontrou um erro '%3'. Reinicie o computador e tente reinstalar o servi",
+   "offset": "0x27fe",
+   "kind": "utf16",
+   "rva": "0x35fe",
+   "va": "0x1800035fe",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque LoadTypeLib() encontrou um erro '%3'. Reinicie o computador e tente reinstalar o servi",
+   "offset": "0x2912",
+   "kind": "utf16",
+   "rva": "0x3712",
+   "va": "0x180003712",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque as chaves do Registro em 'HKLM\\SOFTWARE\\Microsoft\\Windows Media Player NSS\\3.0' n",
+   "offset": "0x2a1e",
+   "kind": "utf16",
+   "rva": "0x381e",
+   "va": "0x18000381e",
+   "tags": [
+    "registry",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foram criadas devido ao erro '%2'. Verifique se o grupo de Administradores tem permiss",
+   "offset": "0x2af0",
+   "kind": "utf16",
+   "rva": "0x38f0",
+   "va": "0x1800038f0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o para modificar a chave e suas chaves-pai e tente reinstalar o servi",
+   "offset": "0x2ba2",
+   "kind": "utf16",
+   "rva": "0x39a2",
+   "va": "0x1800039a2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque a ACL necess",
+   "offset": "0x2c5e",
+   "kind": "utf16",
+   "rva": "0x3a5e",
+   "va": "0x180003a5e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ria ao registro no servidor HTTP do Windows n",
+   "offset": "0x2ca6",
+   "kind": "utf16",
+   "rva": "0x3aa6",
+   "va": "0x180003aa6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi criada (erro '%2'). Reinicie o computador e tente reinstalar o servi",
+   "offset": "0x2d02",
+   "kind": "utf16",
+   "rva": "0x3b02",
+   "va": "0x180003b02",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque HttpInitialize encontrou o erro '%2'. Tente usar uma conta de administrador elevada para reinstalar o servi",
+   "offset": "0x2dca",
+   "kind": "utf16",
+   "rva": "0x3bca",
+   "va": "0x180003bca",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque a reserva do HTTP encontrou o erro '%2'. Reinicie o computador e tente reinstalar o servi",
+   "offset": "0x2f02",
+   "kind": "utf16",
+   "rva": "0x3d02",
+   "va": "0x180003d02",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque HttpTerminate encontrou o erro '%2'. Reinicie o computador e tente reinstalar o servi",
+   "offset": "0x3016",
+   "kind": "utf16",
+   "rva": "0x3e16",
+   "va": "0x180003e16",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque OpenSCManager encontrou o erro de nega",
+   "offset": "0x3122",
+   "kind": "utf16",
+   "rva": "0x3f22",
+   "va": "0x180003f22",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de acesso '%2'. Tente usar uma conta de administrador elevada para desinstalar o servi",
+   "offset": "0x31a0",
+   "kind": "utf16",
+   "rva": "0x3fa0",
+   "va": "0x180003fa0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque OpenSCManager encontrou o erro desconhecido '%2'. Reinicie o computador e tente reinstalar o servi",
+   "offset": "0x3282",
+   "kind": "utf16",
+   "rva": "0x4082",
+   "va": "0x180004082",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque OpenService encontrou o erro desconhecido '%2'. Reinicie o computador e tente desinstalar o servi",
+   "offset": "0x33a6",
+   "kind": "utf16",
+   "rva": "0x41a6",
+   "va": "0x1800041a6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi instalado porque DeleteService encontrou o erro desconhecido '%2'. Reinicie o computador e tente desinstalar o servi",
+   "offset": "0x34ca",
+   "kind": "utf16",
+   "rva": "0x42ca",
+   "va": "0x1800042ca",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O manipulador de controle do servi",
+   "offset": "0x35d0",
+   "kind": "utf16",
+   "rva": "0x43d0",
+   "va": "0x1800043d0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi registrado devido ao erro %2. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x3628",
+   "kind": "utf16",
+   "rva": "0x4428",
+   "va": "0x180004428",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque CoInitializeEx encontrou o erro %2. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x3702",
+   "kind": "utf16",
+   "rva": "0x4502",
+   "va": "0x180004502",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque CoInitializeSecurity encontrou o erro %2. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x380e",
+   "kind": "utf16",
+   "rva": "0x460e",
+   "va": "0x18000460e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado devido ao erro desconhecido %2. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x3926",
+   "kind": "utf16",
+   "rva": "0x4726",
+   "va": "0x180004726",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado porque a Diretiva de Grupo est",
+   "offset": "0x3a1e",
+   "kind": "utf16",
+   "rva": "0x481e",
+   "va": "0x18000481e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " impedindo o Windows Media Player de compartilhar m",
+   "offset": "0x3a7a",
+   "kind": "utf16",
+   "rva": "0x487a",
+   "va": "0x18000487a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dias com outros dispositivos.",
+   "offset": "0x3ae2",
+   "kind": "utf16",
+   "rva": "0x48e2",
+   "va": "0x1800048e2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o '%1' est",
+   "offset": "0x3b38",
+   "kind": "utf16",
+   "rva": "0x4938",
+   "va": "0x180004938",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " sendo encerrado porque a Diretiva de Grupo est",
+   "offset": "0x3b4e",
+   "kind": "utf16",
+   "rva": "0x494e",
+   "va": "0x18000494e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente devido a um erro de falta de mem",
+   "offset": "0x3c7e",
+   "kind": "utf16",
+   "rva": "0x4a7e",
+   "va": "0x180004a7e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ria '%2'. Feche outros programas ou reinicie o computador e tente reiniciar o servi",
+   "offset": "0x3cf8",
+   "kind": "utf16",
+   "rva": "0x4af8",
+   "va": "0x180004af8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque MFStartup encontrou o erro '%2'. Se poss",
+   "offset": "0x3dd2",
+   "kind": "utf16",
+   "rva": "0x4bd2",
+   "va": "0x180004bd2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel, reinstale o Windows Media Player.",
+   "offset": "0x3e6a",
+   "kind": "utf16",
+   "rva": "0x4c6a",
+   "va": "0x180004c6a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque MFCreateWMPMDEOpCenter encontrou o erro '%2'. Se poss",
+   "offset": "0x3ee2",
+   "kind": "utf16",
+   "rva": "0x4ce2",
+   "va": "0x180004ce2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque CoCreateInstance(WindowsMediaPlayer) encontrou o erro '%2'. Se poss",
+   "offset": "0x400e",
+   "kind": "utf16",
+   "rva": "0x4e0e",
+   "va": "0x180004e0e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque QueryService encontrou o erro '%2'. No Windows Media Player, desative o compartilhamento de m",
+   "offset": "0x4156",
+   "kind": "utf16",
+   "rva": "0x4f56",
+   "va": "0x180004f56",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia e, em seguida, ative-o novamente.",
+   "offset": "0x4258",
+   "kind": "utf16",
+   "rva": "0x5058",
+   "va": "0x180005058",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque a cria",
+   "offset": "0x42ce",
+   "kind": "utf16",
+   "rva": "0x50ce",
+   "va": "0x1800050ce",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do banco de dados de eventos encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x4324",
+   "kind": "utf16",
+   "rva": "0x5124",
+   "va": "0x180005124",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque a inicializa",
+   "offset": "0x4422",
+   "kind": "utf16",
+   "rva": "0x5222",
+   "va": "0x180005222",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o do thread de trabalho encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x4484",
+   "kind": "utf16",
+   "rva": "0x5284",
+   "va": "0x180005284",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque o identificador de um thread de trabalho encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x4572",
+   "kind": "utf16",
+   "rva": "0x5372",
+   "va": "0x180005372",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque o Registro n",
+   "offset": "0x46ca",
+   "kind": "utf16",
+   "rva": "0x54ca",
+   "va": "0x1800054ca",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi atualizado devido ao erro '%2'. Se poss",
+   "offset": "0x472a",
+   "kind": "utf16",
+   "rva": "0x552a",
+   "va": "0x18000552a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque o servi",
+   "offset": "0x47fe",
+   "kind": "utf16",
+   "rva": "0x55fe",
+   "va": "0x1800055fe",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o est",
+   "offset": "0x4854",
+   "kind": "utf16",
+   "rva": "0x5654",
+   "va": "0x180005654",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " executando o bin",
+   "offset": "0x4860",
+   "kind": "utf16",
+   "rva": "0x5660",
+   "va": "0x180005660",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio incorreto ou est",
+   "offset": "0x4884",
+   "kind": "utf16",
+   "rva": "0x5684",
+   "va": "0x180005684",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " sendo executado na conta errada (erro '%2'). O servi",
+   "offset": "0x48ae",
+   "kind": "utf16",
+   "rva": "0x56ae",
+   "va": "0x1800056ae",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o bin",
+   "offset": "0x491a",
+   "kind": "utf16",
+   "rva": "0x571a",
+   "va": "0x18000571a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio deveria ser wmpnetwk.exe e a conta deveria ser AUTORIDADE NT\\NetworkService. Se poss",
+   "offset": "0x4926",
+   "kind": "utf16",
+   "rva": "0x5726",
+   "va": "0x180005726",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque CoInitialize encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x4a52",
+   "kind": "utf16",
+   "rva": "0x5852",
+   "va": "0x180005852",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque CoCreateInstance(CLSID_UPnPDeviceFinder) encontrou o erro '%2'. Verifique se o servi",
+   "offset": "0x4b72",
+   "kind": "utf16",
+   "rva": "0x5972",
+   "va": "0x180005972",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o UPnPHost est",
+   "offset": "0x4c62",
+   "kind": "utf16",
+   "rva": "0x5a62",
+   "va": "0x180005a62",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " sendo executado e se o componente UPnPHost do Windows foi instalado adequadamente.",
+   "offset": "0x4c80",
+   "kind": "utf16",
+   "rva": "0x5a80",
+   "va": "0x180005a80",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente devido ao erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x4d52",
+   "kind": "utf16",
+   "rva": "0x5b52",
+   "va": "0x180005b52",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque IUPnPDeviceFinder::CreateAsyncFind(MediaRenderer) encontrou o erro '%2'. Verifique se o servi",
+   "offset": "0x4e46",
+   "kind": "utf16",
+   "rva": "0x5c46",
+   "va": "0x180005c46",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque IUPnPDeviceFinder::CreateAsyncFind(MediaServer) encontrou o erro '%2'. Verifique se o servi",
+   "offset": "0x503a",
+   "kind": "utf16",
+   "rva": "0x5e3a",
+   "va": "0x180005e3a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque IUPnPDeviceFinder::StartAsyncFind(MediaRenderer) encontrou o erro '%2'. Verifique se o servi",
+   "offset": "0x522a",
+   "kind": "utf16",
+   "rva": "0x602a",
+   "va": "0x18000602a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi iniciado corretamente porque CreateMediaDevices encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x541a",
+   "kind": "utf16",
+   "rva": "0x621a",
+   "va": "0x18000621a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Um novo servidor de m",
+   "offset": "0x5524",
+   "kind": "utf16",
+   "rva": "0x6324",
+   "va": "0x180006324",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque CoCreateInstance(CLSID_UPnPRegistrar) encontrou o erro '%1'. Verifique se o servi",
+   "offset": "0x555c",
+   "kind": "utf16",
+   "rva": "0x635c",
+   "va": "0x18000635c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque QueryInterface(IUPnPReregistrar) encontrou o erro '%1'. Verifique se o servi",
+   "offset": "0x573c",
+   "kind": "utf16",
+   "rva": "0x653c",
+   "va": "0x18000653c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque GetFriendlyName() encontrou o erro '%1'. No Windows Media Player, desative o compartilhamento de m",
+   "offset": "0x5910",
+   "kind": "utf16",
+   "rva": "0x6710",
+   "va": "0x180006710",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia, altere o nome da biblioteca compartilhada e ative o compartilhamento novamente.",
+   "offset": "0x5a0a",
+   "kind": "utf16",
+   "rva": "0x680a",
+   "va": "0x18000680a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque GetSerialNumber() encontrou o erro '%1'. No Windows Media Player, desative o compartilhamento de m",
+   "offset": "0x5af4",
+   "kind": "utf16",
+   "rva": "0x68f4",
+   "va": "0x1800068f4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque o nome do modelo n",
+   "offset": "0x5c7c",
+   "kind": "utf16",
+   "rva": "0x6a7c",
+   "va": "0x180006a7c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi recuperado devido ao erro '%1'. Exclua o valor 'ModelName' na chave do Registro HKLM\\SOFTWARE\\Microsoft\\Windows Media Player NSS\\3.0 e reinicie o servi",
+   "offset": "0x5cd6",
+   "kind": "utf16",
+   "rva": "0x6ad6",
+   "va": "0x180006ad6",
+   "tags": [
+    "registry",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado devido ao erro de falta de mem",
+   "offset": "0x5e74",
+   "kind": "utf16",
+   "rva": "0x6c74",
+   "va": "0x180006c74",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ria '%1'. Feche outros programas ou reinicie o computador e o servi",
+   "offset": "0x5ed8",
+   "kind": "utf16",
+   "rva": "0x6cd8",
+   "va": "0x180006cd8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque WMCreateDeviceRegistration() encontrou o erro '%1'. Os componentes DRM do Windows Media do computador podem estar danificados. Verifique se os arquivos protegidos est",
+   "offset": "0x5fc4",
+   "kind": "utf16",
+   "rva": "0x6dc4",
+   "va": "0x180006dc4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o sendo executados corretamente no Windows Media Player e reinicie o servi",
+   "offset": "0x6146",
+   "kind": "utf16",
+   "rva": "0x6f46",
+   "va": "0x180006f46",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque a gera",
+   "offset": "0x6240",
+   "kind": "utf16",
+   "rva": "0x7040",
+   "va": "0x180007040",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de documentos do dispositivo encontrou o erro '%1'. Reinicie o computador e o servi",
+   "offset": "0x6284",
+   "kind": "utf16",
+   "rva": "0x7084",
+   "va": "0x180007084",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o WMPNetworkSvc. Se o problema persistir, reinstale o Windows Media Player, se poss",
+   "offset": "0x6330",
+   "kind": "utf16",
+   "rva": "0x7130",
+   "va": "0x180007130",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel.",
+   "offset": "0x63d8",
+   "kind": "utf16",
+   "rva": "0x71d8",
+   "va": "0x1800071d8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque RegisterRunningDevice() encontrou o erro '%1'. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x6424",
+   "kind": "utf16",
+   "rva": "0x7224",
+   "va": "0x180007224",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque a chave do Registro 'HKLM\\SOFTWARE\\Microsoft\\Windows Media Player NSS\\3.0\\Media Servers' n",
+   "offset": "0x6578",
+   "kind": "utf16",
+   "rva": "0x7378",
+   "va": "0x180007378",
+   "tags": [
+    "registry",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi atualizada (erro '%1'). Exclua essa chave do Registro e reinicie o servi",
+   "offset": "0x6662",
+   "kind": "utf16",
+   "rva": "0x7462",
+   "va": "0x180007462",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado devido ao erro '%1'. Reinicie o computador e o servi",
+   "offset": "0x6764",
+   "kind": "utf16",
+   "rva": "0x7564",
+   "va": "0x180007564",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o WMPNetworkSvc. Se o problema persistir, no Windows Media Player, desative e ative novamente o compartilhamento da m",
+   "offset": "0x67f4",
+   "kind": "utf16",
+   "rva": "0x75f4",
+   "va": "0x1800075f4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado o Mecanismo de Entrega do Windows Media n",
+   "offset": "0x692c",
+   "kind": "utf16",
+   "rva": "0x772c",
+   "va": "0x18000772c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O novo servidor de m",
+   "offset": "0x6af0",
+   "kind": "utf16",
+   "rva": "0x78f0",
+   "va": "0x1800078f0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque n",
+   "offset": "0x6b26",
+   "kind": "utf16",
+   "rva": "0x7926",
+   "va": "0x180007926",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O mecanismo de entrega de m",
+   "offset": "0x6cd4",
+   "kind": "utf16",
+   "rva": "0x7ad4",
+   "va": "0x180007ad4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia de ID '%1' n",
+   "offset": "0x6d0c",
+   "kind": "utf16",
+   "rva": "0x7b0c",
+   "va": "0x180007b0c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque o n",
+   "offset": "0x6d2e",
+   "kind": "utf16",
+   "rva": "0x7b2e",
+   "va": "0x180007b2e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "mero de s",
+   "offset": "0x6d6a",
+   "kind": "utf16",
+   "rva": "0x7b6a",
+   "va": "0x180007b6a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rie do provedor de conte",
+   "offset": "0x6d7e",
+   "kind": "utf16",
+   "rva": "0x7b7e",
+   "va": "0x180007b7e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do n",
+   "offset": "0x6db0",
+   "kind": "utf16",
+   "rva": "0x7bb0",
+   "va": "0x180007bb0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi recuperado devido ao erro '%2'. No Windows Media Player, desative o compartilhamento de m",
+   "offset": "0x6dba",
+   "kind": "utf16",
+   "rva": "0x7bba",
+   "va": "0x180007bba",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia e ative-o novamente. Se o problema persistir, reinstale o Windows Media Player, se poss",
+   "offset": "0x6e7a",
+   "kind": "utf16",
+   "rva": "0x7c7a",
+   "va": "0x180007c7a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado devido ao erro '%2'. Reinicie o computador e o servi",
+   "offset": "0x6f9e",
+   "kind": "utf16",
+   "rva": "0x7d9e",
+   "va": "0x180007d9e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado devido ao erro '%2' durante o acr",
+   "offset": "0x7142",
+   "kind": "utf16",
+   "rva": "0x7f42",
+   "va": "0x180007f42",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "scimo da URL '%3!S!'. Reinicie o computador e o servi",
+   "offset": "0x71ac",
+   "kind": "utf16",
+   "rva": "0x7fac",
+   "va": "0x180007fac",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque MFCreateNetVRoot() encontrou o erro '%2'. Reinicie o computador e o servi",
+   "offset": "0x74be",
+   "kind": "utf16",
+   "rva": "0x82be",
+   "va": "0x1800082be",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque RegisterDelegate() encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x760a",
+   "kind": "utf16",
+   "rva": "0x840a",
+   "va": "0x18000840a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque GetSupportedProfiles() encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x7776",
+   "kind": "utf16",
+   "rva": "0x8576",
+   "va": "0x180008576",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque a enumera",
+   "offset": "0x78ea",
+   "kind": "utf16",
+   "rva": "0x86ea",
+   "va": "0x1800086ea",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de perfis de conte",
+   "offset": "0x7934",
+   "kind": "utf16",
+   "rva": "0x8734",
+   "va": "0x180008734",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x795e",
+   "kind": "utf16",
+   "rva": "0x875e",
+   "va": "0x18000875e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi inicializado porque AddProfile() encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "offset": "0x7a76",
+   "kind": "utf16",
+   "rva": "0x8876",
+   "va": "0x180008876",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O suporte para IPv4 foi desabilitado no WMPNetworkSvc porque NotifyAddrChange encontrou o erro '%1'. Para habilitar o suporte para IPv4, reinicie o servi",
+   "offset": "0x7b7c",
+   "kind": "utf16",
+   "rva": "0x897c",
+   "va": "0x18000897c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O suporte para IPv4 foi desabilitado no WMPNetworkSvc porque a recupera",
+   "offset": "0x7cdc",
+   "kind": "utf16",
+   "rva": "0x8adc",
+   "va": "0x180008adc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o da tabela de endere",
+   "offset": "0x7d6e",
+   "kind": "utf16",
+   "rva": "0x8b6e",
+   "va": "0x180008b6e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "os IP encontrou o erro '%1'. Para habilitar o suporte para IPv4, reinicie o servi",
+   "offset": "0x7d9a",
+   "kind": "utf16",
+   "rva": "0x8b9a",
+   "va": "0x180008b9a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Falha na detec",
+   "offset": "0x7e68",
+   "kind": "utf16",
+   "rva": "0x8c68",
+   "va": "0x180008c68",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de proximidade porque o servi",
+   "offset": "0x7e88",
+   "kind": "utf16",
+   "rva": "0x8c88",
+   "va": "0x180008c88",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o conseguiu abrir uma porta de rede para se comunicar com o dispositivo. Espere dois minutos e tente conectar-se ao dispositivo novamente.",
+   "offset": "0x7ed0",
+   "kind": "utf16",
+   "rva": "0x8cd0",
+   "va": "0x180008cd0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de proximidade porque a resposta do dispositivo n",
+   "offset": "0x8010",
+   "kind": "utf16",
+   "rva": "0x8e10",
+   "va": "0x180008e10",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o foi v",
+   "offset": "0x8078",
+   "kind": "utf16",
+   "rva": "0x8e78",
+   "va": "0x180008e78",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "lida. Verifique se o dispositivo est",
+   "offset": "0x8088",
+   "kind": "utf16",
+   "rva": "0x8e88",
+   "va": "0x180008e88",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " executando o firmware mais recente e se a conex",
+   "offset": "0x80d2",
+   "kind": "utf16",
+   "rva": "0x8ed2",
+   "va": "0x180008ed2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de rede entre o computador e o dispositivo est",
+   "offset": "0x8134",
+   "kind": "utf16",
+   "rva": "0x8f34",
+   "va": "0x180008f34",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " funcionando corretamente. Em seguida tente conectar-se ao dispositivo novamente.",
+   "offset": "0x8196",
+   "kind": "utf16",
+   "rva": "0x8f96",
+   "va": "0x180008f96",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de proximidade porque o dispositivo fica muito longe do computador. O melhor tempo de proximidade detectado foi de %1 milissegundos.",
+   "offset": "0x8264",
+   "kind": "utf16",
+   "rva": "0x9064",
+   "va": "0x180009064",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de proximidade devido ao erro desconhecido '%1'. O melhor tempo de proximidade detectado foi de %2 milissegundos.",
+   "offset": "0x839c",
+   "kind": "utf16",
+   "rva": "0x919c",
+   "va": "0x18000919c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o de IP '%2!S!' falhou ao se registrar para recupera",
+   "offset": "0x84c4",
+   "kind": "utf16",
+   "rva": "0x92c4",
+   "va": "0x1800092c4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do protegido devido ao erro de dados inv",
+   "offset": "0x8546",
+   "kind": "utf16",
+   "rva": "0x9346",
+   "va": "0x180009346",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "lidos '%1'. Verifique se o dispositivo est",
+   "offset": "0x8598",
+   "kind": "utf16",
+   "rva": "0x9398",
+   "va": "0x180009398",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do protegido. O dispositivo passou um certificado corrompido ou n",
+   "offset": "0x881a",
+   "kind": "utf16",
+   "rva": "0x961a",
+   "va": "0x18000961a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel verificar a assinatura no certificado. Verifique se o dispositivo est",
+   "offset": "0x88b4",
+   "kind": "utf16",
+   "rva": "0x96b4",
+   "va": "0x1800096b4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do protegido porque o certificado do dispositivo foi revogado. Entre em contato com o fabricante do dispositivo para obter instru",
+   "offset": "0x8b72",
+   "kind": "utf16",
+   "rva": "0x9972",
+   "va": "0x180009972",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "es sobre como atualizar o dispositivo e tente conectar o dispositivo novamente.",
+   "offset": "0x8c78",
+   "kind": "utf16",
+   "rva": "0x9a78",
+   "va": "0x180009a78",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do protegido porque a Lista de Certificados Revogados n",
+   "offset": "0x8dda",
+   "kind": "utf16",
+   "rva": "0x9bda",
+   "va": "0x180009bda",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "lida ou est",
+   "offset": "0x8e56",
+   "kind": "utf16",
+   "rva": "0x9c56",
+   "va": "0x180009c56",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " corrompida. Reinicie o computador e tente conectar-se novamente ao dispositivo. Se o erro persistir, pode ser necess",
+   "offset": "0x8e6e",
+   "kind": "utf16",
+   "rva": "0x9c6e",
+   "va": "0x180009c6e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio redefinir o sistema Windows Media DRM no computador.",
+   "offset": "0x8f5a",
+   "kind": "utf16",
+   "rva": "0x9d5a",
+   "va": "0x180009d5a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do protegido devido ao erro desconhecido '%1'.",
+   "offset": "0x908e",
+   "kind": "utf16",
+   "rva": "0x9e8e",
+   "va": "0x180009e8e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "O dispositivo com endere",
+   "offset": "0x90f4",
+   "kind": "utf16",
+   "rva": "0x9ef4",
+   "va": "0x180009ef4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o IP '%1!S!' n",
+   "offset": "0x9126",
+   "kind": "utf16",
+   "rva": "0x9f26",
+   "va": "0x180009f26",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "o se registrou para recupera",
+   "offset": "0x9144",
+   "kind": "utf16",
+   "rva": "0x9f44",
+   "va": "0x180009f44",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "do protegido porque n",
+   "offset": "0x9196",
+   "kind": "utf16",
+   "rva": "0x9f96",
+   "va": "0x180009f96",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "vel recuperar um certificado SSL no reposit",
+   "offset": "0x93ca",
+   "kind": "utf16",
+   "rva": "0xa1ca",
+   "va": "0x18000a1ca",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "rio de certificados do sistema da m",
+   "offset": "0x9422",
+   "kind": "utf16",
+   "rva": "0xa222",
+   "va": "0x18000a222",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "quina local. Erro '%1' encontrado. No Windows Media Player, desative o compartilhamento de m",
+   "offset": "0x946a",
+   "kind": "utf16",
+   "rva": "0xa26a",
+   "va": "0x18000a26a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia e, em seguida, reative-o.",
+   "offset": "0x9524",
+   "kind": "utf16",
+   "rva": "0xa324",
+   "va": "0x18000a324",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VS_VERSION_INFO",
+   "offset": "0x956a",
+   "kind": "utf16",
+   "rva": "0xa36a",
+   "va": "0x18000a36a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "StringFileInfo",
+   "offset": "0x95c6",
+   "kind": "utf16",
+   "rva": "0xa3c6",
+   "va": "0x18000a3c6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "041604B0",
+   "offset": "0x95ea",
+   "kind": "utf16",
+   "rva": "0xa3ea",
+   "va": "0x18000a3ea",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CompanyName",
+   "offset": "0x9602",
+   "kind": "utf16",
+   "rva": "0xa402",
+   "va": "0x18000a402",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft Corporation",
+   "offset": "0x961c",
+   "kind": "utf16",
+   "rva": "0xa41c",
+   "va": "0x18000a41c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileDescription",
+   "offset": "0x964e",
+   "kind": "utf16",
+   "rva": "0xa44e",
+   "va": "0x18000a44e",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileVersion",
+   "offset": "0x96ee",
+   "kind": "utf16",
+   "rva": "0xa4ee",
+   "va": "0x18000a4ee",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "offset": "0x9708",
+   "kind": "utf16",
+   "rva": "0xa508",
+   "va": "0x18000a508",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InternalName",
+   "offset": "0x975e",
+   "kind": "utf16",
+   "rva": "0xa55e",
+   "va": "0x18000a55e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LegalCopyright",
+   "offset": "0x97da",
+   "kind": "utf16",
+   "rva": "0xa5da",
+   "va": "0x18000a5da",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Microsoft Corporation. Todos os direitos reservados.",
+   "offset": "0x97fa",
+   "kind": "utf16",
+   "rva": "0xa5fa",
+   "va": "0x18000a5fa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "OriginalFilename",
+   "offset": "0x986e",
+   "kind": "utf16",
+   "rva": "0xa66e",
+   "va": "0x18000a66e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMPNetwk.exe.mui",
+   "offset": "0x9890",
+   "kind": "utf16",
+   "rva": "0xa690",
+   "va": "0x18000a690",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductName",
+   "offset": "0x98ba",
+   "kind": "utf16",
+   "rva": "0xa6ba",
+   "va": "0x18000a6ba",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sistema Operacional Microsoft",
+   "offset": "0x98d4",
+   "kind": "utf16",
+   "rva": "0xa6d4",
+   "va": "0x18000a6d4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Windows",
+   "offset": "0x9910",
+   "kind": "utf16",
+   "rva": "0xa710",
+   "va": "0x18000a710",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductVersion",
+   "offset": "0x992a",
+   "kind": "utf16",
+   "rva": "0xa72a",
+   "va": "0x18000a72a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385",
+   "offset": "0x9948",
+   "kind": "utf16",
+   "rva": "0xa748",
+   "va": "0x18000a748",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VarFileInfo",
+   "offset": "0x996e",
+   "kind": "utf16",
+   "rva": "0xa76e",
+   "va": "0x18000a76e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Translation",
+   "offset": "0x998e",
+   "kind": "utf16",
+   "rva": "0xa78e",
+   "va": "0x18000a78e",
+   "tags": [
+    "utf16le"
+   ]
+  }
+ ],
+ "by_tag": {
+  "api-name": [
+   "CompanyName",
+   "Configura",
+   "FileDescription",
+   "FileVersion"
+  ],
+  "module-name": [
+   "WMPNetwk.exe.mui"
+  ],
+  "registry": [
+   "o '%1', a chave do Registro 'HKLM\\SOFTWARE\\Microsoft\\Windows Media Player NSS\\3.0' n",
+   "o foi inicializado porque a chave do Registro 'HKLM\\SOFTWARE\\Microsoft\\Windows Media Player NSS\\3.0\\Media Servers' n",
+   "o foi instalado porque RegOpenKey(HKLM\\SYSTEM\\CurrentControlSet\\Services\\%1) encontrou um erro '%2'. Verifique se a chave existe e se o grupo Administradores tem permiss",
+   "o foi instalado porque as chaves do Registro em 'HKLM\\SOFTWARE\\Microsoft\\Windows Media Player NSS\\3.0' n",
+   "o foi recuperado devido ao erro '%1'. Exclua o valor 'ModelName' na chave do Registro HKLM\\SOFTWARE\\Microsoft\\Windows Media Player NSS\\3.0 e reinicie o servi"
+  ],
+  "utf16le": [
+   " Microsoft Corporation. Todos os direitos reservados.",
+   " Windows",
+   " atualizando as permiss",
+   " compartilhando m",
+   " corrompida. Reinicie o computador e tente conectar-se novamente ao dispositivo. Se o erro persistir, pode ser necess",
+   " executando o bin",
+   " executando o firmware mais recente e se a conex",
+   " foi instalado.",
+   " funcionando corretamente. Em seguida tente conectar-se ao dispositivo novamente.",
+   " impedindo o Windows Media Player de compartilhar m",
+   " o ponha em suspens",
+   " poss",
+   " preciso remov",
+   " sendo encerrado porque a Diretiva de Grupo est",
+   " sendo executado e se o componente UPnPHost do Windows foi instalado adequadamente.",
+   " sendo executado na conta errada (erro '%2'). O servi",
+   "&Unsupported or invalid search criteria$Unsupported or invalid sort criteria",
+   "-la e tente reinstalar o servi",
+   "-la manualmente.",
+   "041604B0",
+   "12.0.7600.16385",
+   "12.0.7600.16385 (win7_rtm.090713-1255)",
+   ";Servi",
+   "Access denied",
+   "Action Failed",
+   "Ao compartilhar m",
+   "Ao desinstalar o servi",
+   "As pastas monitoradas no servidor de m",
+   "Bad metadata",
+   "Cannot process the request",
+   "CompanyName",
+   "Compartilha bibliotecas do Windows Media Player com outros players e dispositivos de m",
+   "Configura",
+   "Dispositivo Desconhecido (%1)",
+   "Dispositivos renderizadores de m",
+   "Erro Desconhecido %1!d!",
+   "Falha na detec",
+   "FileDescription",
+   "FileVersion",
+   "Impedir suspens",
+   "Informa",
+   "Iniciar",
+   "InternalName",
+   "Invalid Args",
+   "Invalid Certificate",
+   "Invalid Var",
+   "Invalid currentTagValue",
+   "Invalid newTagValue",
+   "LegalCopyright",
+   "Microsoft Corporation",
+   "No such container",
+   "No such object",
+   "O Servi",
+   "O dispositivo com endere",
+   "O manipulador de controle do servi",
+   "O mecanismo de entrega de m",
+   "O novo servidor de m",
+   "O servi",
+   "O servidor de m",
+   "O suporte a IPv4 foi desabilitado no WMPNetworkSvc porque a monitora",
+   "O suporte para IPv4 foi desabilitado no WMPNetworkSvc porque NotifyAddrChange encontrou o erro '%1'. Para habilitar o suporte para IPv4, reinicie o servi",
+   "O suporte para IPv4 foi desabilitado no WMPNetworkSvc porque a recupera",
+   "OriginalFilename",
+   "Parameter Mismatch",
+   "Parar",
+   "ProductName",
+   "ProductVersion",
+   "Read only tag",
+   "Required tag",
+   "Restricted object",
+   "Restricted parent object",
+   "Revoked Certificate",
+   "Servi",
+   "Sistema Operacional Microsoft",
+   "StringFileInfo",
+   "Translation",
+   "Transmitter Failure",
+   "Um dispositivo com o endere",
+   "Um novo servidor de m",
+   "VS_VERSION_INFO",
+   "VarFileInfo",
+   "WMPNetwk.exe.mui",
+   "Windows Media Player Network Sharing Service",
+   "Windows Media Player Sharing",
+   "a das pastas inclu",
+   "da devido ao erro '%2'. ",
+   "das para habilitar o compartilhamento de m",
+   "dia '%1!S!' foram alteradas. O Windows Media Player est",
+   "dia '%1' foi inicializado com ",
+   "dia '%1' foi removido e parou de compartilhar m",
+   "dia com dispositivos de m",
+   "dia com os dispositivos da m",
+   "dia da rede por meio de Universal Plug and Play",
+   "dia de ID '%1' n",
+   "dia de rede.",
+   "dia dele.",
+   "dia do seu computador a menos que voc",
+   "dia do seu computador quando ele estiver em Modo Ausente./Permitir que o computador entre em Modo AusenteLO Compartilhamento de M",
+   "dia do seu computador quando ele estiver em suspens",
+   "dia do seu computador.",
+   "dia e ative-o novamente. Se o problema persistir, reinstale o Windows Media Player, se poss",
+   "dia e, em seguida, ative-o novamente.",
+   "dia e, em seguida, reative-o.",
+   "dia foi habilitado por meio do Windows Media Player.",
+   "dia n",
+   "dia, altere o nome da biblioteca compartilhada e ative o compartilhamento novamente.",
+   "dia.",
+   "dia\\Determinar o que o computador faz quando um dispositivo ou computador reproduzir m",
+   "diakDispositivos e computadores n",
+   "dias com outros dispositivos.",
+   "digo de solicita",
+   "do encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "do n",
+   "do protegido devido ao erro de dados inv",
+   "do protegido devido ao erro desconhecido '%1'.",
+   "do protegido porque a Lista de Certificados Revogados n",
+   "do protegido porque n",
+   "do protegido porque o certificado do dispositivo foi revogado. Entre em contato com o fabricante do dispositivo para obter instru",
+   "do protegido.",
+   "do protegido. O dispositivo passou um certificado corrompido ou n",
+   "es de energia para quando dispositivos e computadores reproduzirem m",
+   "es de multim",
+   "es de seguran",
+   "es sobre como atualizar o dispositivo e tente conectar o dispositivo novamente.",
+   "gios para reinstalar o servi",
+   "jConfigurar op",
+   "lida ou est",
+   "lida. Verifique se o dispositivo est",
+   "lido %1.",
+   "lidos '%1'. Verifique se o dispositivo est",
+   "mero de s",
+   "nDispositivos e computadores n",
+   "o '%1' est",
+   "o '%1' foi desinstalado.",
+   "o '%1' foi desinstalado; no entanto, talvez seja necess",
+   "o '%1' foi iniciado.",
+   "o '%1' foi instalado.",
+   "o '%1' interrompido.",
+   "o '%1' j",
+   "o '%1' n",
+   "o '%1', a chave do Registro 'HKLM\\SOFTWARE\\Microsoft\\Windows Media Player NSS\\3.0' n",
+   "o '%1', n",
+   "o IP '%1!S!' n",
+   "o IP' %2!S!' devido ao erro '%3'.",
+   "o UPnPHost est",
+   "o WMPNetworkSvc e, em seguida, reinicie o servi",
+   "o WMPNetworkSvc.",
+   "o WMPNetworkSvc. Se o problema persistir, no Windows Media Player, desative e ative novamente o compartilhamento da m",
+   "o WMPNetworkSvc. Se o problema persistir, reinstale o Windows Media Player, se poss",
+   "o bin",
+   "o conseguiu abrir uma porta de rede para se comunicar com o dispositivo. Espere dois minutos e tente conectar-se ao dispositivo novamente.",
+   "o conseguiu processar a solicita",
+   "o da tabela de endere",
+   "o de Compartilhamento de Rede do Windows Media Player",
+   "o de Compartilhamento de Rede do Windows Media Player n",
+   "o de IP '%1!S!' falhou ao se registrar para recupera",
+   "o de IP '%2!S!' falhou ao se registrar para recupera",
+   "o de acesso '%2'. Tente usar uma conta de administrador elevada para desinstalar o servi",
+   "o de altera",
+   "o de conte",
+   "o de documentos do dispositivo encontrou o erro '%1'. Reinicie o computador e o servi",
+   "o de endere",
+   "o de perfis de conte",
+   "o de proximidade devido ao erro desconhecido '%1'. O melhor tempo de proximidade detectado foi de %2 milissegundos.",
+   "o de proximidade porque a resposta do dispositivo n",
+   "o de proximidade porque o dispositivo fica muito longe do computador. O melhor tempo de proximidade detectado foi de %1 milissegundos.",
+   "o de proximidade porque o servi",
+   "o de proximidade. O melhor tempo de proximidade detectado foi de %1 milissegundos.",
+   "o de rede encontrou um erro '%1'.",
+   "o de rede entre o computador e o dispositivo est",
+   "o do URI '%1!S!' do endere",
+   "o do banco de dados de eventos encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "o do thread de trabalho encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "o est",
+   "o foi atualizada (erro '%1'). Exclua essa chave do Registro e reinicie o servi",
+   "o foi atualizado devido ao erro '%2'. Se poss",
+   "o foi criada (erro '%2'). Reinicie o computador e tente reinstalar o servi",
+   "o foi exclu",
+   "o foi iniciado corretamente devido a um erro de falta de mem",
+   "o foi iniciado corretamente devido ao erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "o foi iniciado corretamente porque CoCreateInstance(CLSID_UPnPDeviceFinder) encontrou o erro '%2'. Verifique se o servi",
+   "o foi iniciado corretamente porque CoCreateInstance(WindowsMediaPlayer) encontrou o erro '%2'. Se poss",
+   "o foi iniciado corretamente porque CoInitialize encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "o foi iniciado corretamente porque CreateMediaDevices encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "o foi iniciado corretamente porque IUPnPDeviceFinder::CreateAsyncFind(MediaRenderer) encontrou o erro '%2'. Verifique se o servi",
+   "o foi iniciado corretamente porque IUPnPDeviceFinder::CreateAsyncFind(MediaServer) encontrou o erro '%2'. Verifique se o servi",
+   "o foi iniciado corretamente porque IUPnPDeviceFinder::StartAsyncFind(MediaRenderer) encontrou o erro '%2'. Verifique se o servi",
+   "o foi iniciado corretamente porque MFCreateWMPMDEOpCenter encontrou o erro '%2'. Se poss",
+   "o foi iniciado corretamente porque MFStartup encontrou o erro '%2'. Se poss",
+   "o foi iniciado corretamente porque QueryService encontrou o erro '%2'. No Windows Media Player, desative o compartilhamento de m",
+   "o foi iniciado corretamente porque a cria",
+   "o foi iniciado corretamente porque a inicializa",
+   "o foi iniciado corretamente porque o Registro n",
+   "o foi iniciado corretamente porque o identificador de um thread de trabalho encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "o foi iniciado corretamente porque o servi",
+   "o foi iniciado porque a Diretiva de Grupo est",
+   "o foi inicializado devido ao erro '%1'. Reinicie o computador e o servi",
+   "o foi inicializado devido ao erro '%2' durante o acr",
+   "o foi inicializado devido ao erro '%2'. Reinicie o computador e o servi",
+   "o foi inicializado devido ao erro de falta de mem",
+   "o foi inicializado devido ao erro desconhecido %2. Reinicie o computador e tente reiniciar o servi",
+   "o foi inicializado o Mecanismo de Entrega do Windows Media n",
+   "o foi inicializado porque AddProfile() encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "o foi inicializado porque CoCreateInstance(CLSID_UPnPRegistrar) encontrou o erro '%1'. Verifique se o servi",
+   "o foi inicializado porque CoInitializeEx encontrou o erro %2. Reinicie o computador e tente reiniciar o servi",
+   "o foi inicializado porque CoInitializeSecurity encontrou o erro %2. Reinicie o computador e tente reiniciar o servi",
+   "o foi inicializado porque GetFriendlyName() encontrou o erro '%1'. No Windows Media Player, desative o compartilhamento de m",
+   "o foi inicializado porque GetSerialNumber() encontrou o erro '%1'. No Windows Media Player, desative o compartilhamento de m",
+   "o foi inicializado porque GetSupportedProfiles() encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "o foi inicializado porque MFCreateNetVRoot() encontrou o erro '%2'. Reinicie o computador e o servi",
+   "o foi inicializado porque QueryInterface(IUPnPReregistrar) encontrou o erro '%1'. Verifique se o servi",
+   "o foi inicializado porque RegisterDelegate() encontrou o erro '%2'. Reinicie o computador e tente reiniciar o servi",
+   "o foi inicializado porque RegisterRunningDevice() encontrou o erro '%1'. Reinicie o computador e tente reiniciar o servi",
+   "o foi inicializado porque WMCreateDeviceRegistration() encontrou o erro '%1'. Os componentes DRM do Windows Media do computador podem estar danificados. Verifique se os arquivos protegidos est",
+   "o foi inicializado porque a chave do Registro 'HKLM\\SOFTWARE\\Microsoft\\Windows Media Player NSS\\3.0\\Media Servers' n",
+   "o foi inicializado porque a enumera",
+   "o foi inicializado porque a gera",
+   "o foi inicializado porque n",
+   "o foi inicializado porque o n",
+   "o foi inicializado porque o nome do modelo n",
+   "o foi instalado porque DeleteService encontrou o erro desconhecido '%2'. Reinicie o computador e tente desinstalar o servi",
+   "o foi instalado porque HttpInitialize encontrou o erro '%2'. Tente usar uma conta de administrador elevada para reinstalar o servi",
+   "o foi instalado porque HttpTerminate encontrou o erro '%2'. Reinicie o computador e tente reinstalar o servi",
+   "o foi instalado porque LoadTypeLib() encontrou um erro '%3'. Reinicie o computador e tente reinstalar o servi",
+   "o foi instalado porque OpenSCManager encontrou o erro de nega",
+   "o foi instalado porque OpenSCManager encontrou o erro desconhecido '%2'. Reinicie o computador e tente reinstalar o servi",
+   "o foi instalado porque OpenService encontrou o erro desconhecido '%2'. Reinicie o computador e tente desinstalar o servi",
+   "o foi instalado porque RegOpenKey(HKLM\\SYSTEM\\CurrentControlSet\\Services\\%1) encontrou um erro '%2'. Verifique se a chave existe e se o grupo Administradores tem permiss",
+   "o foi instalado porque RegisterTypeLib() encontrou um erro '%3'. Reinicie o computador e tente reinstalar o servi",
+   "o foi instalado porque a ACL necess",
+   "o foi instalado porque a reserva do HTTP encontrou o erro '%2'. Reinicie o computador e tente reinstalar o servi",
+   "o foi instalado porque as chaves do Registro em 'HKLM\\SOFTWARE\\Microsoft\\Windows Media Player NSS\\3.0' n",
+   "o foi instalado porque o CreateService encontrou um erro '%2'. Reinicie o computador e tente reinstalar o servi",
+   "o foi instalado porque o OpenSCManager encontrou um erro de acesso negado '%2'. Tente usar uma conta de administrador com mais privil",
+   "o foi instalado porque o OpenSCManager encontrou um erro desconhecido '%2'. Reinicie o computador e tente reinstalar o servi",
+   "o foi poss",
+   "o foi recuperado devido ao erro '%1'. Exclua o valor 'ModelName' na chave do Registro HKLM\\SOFTWARE\\Microsoft\\Windows Media Player NSS\\3.0 e reinicie o servi",
+   "o foi recuperado devido ao erro '%2'. No Windows Media Player, desative o compartilhamento de m",
+   "o foi registrado devido ao erro %2. Reinicie o computador e tente reiniciar o servi",
+   "o foi v",
+   "o foram criadas devido ao erro '%2'. Verifique se o grupo de Administradores tem permiss",
+   "o foram removidos da lista de dispositivos porque n",
+   "o inv",
+   "o para modific",
+   "o para modificar a chave e suas chaves-pai e tente reinstalar o servi",
+   "o poder",
+   "o quando ocioso",
+   "o reproduzir m",
+   "o se registrou para recupera",
+   "o sendo executados corretamente no Windows Media Player e reinicie o servi",
+   "o utilizados n",
+   "o.,Permitir que o computador entre em suspens",
+   "omDispositivos e computadores poder",
+   "os IP encontrou o erro '%1'. Para habilitar o suporte para IPv4, reinicie o servi",
+   "pt-BR",
+   "quina local. Erro '%1' encontrado. No Windows Media Player, desative o compartilhamento de m",
+   "quina ou do servi",
+   "ria '%1'. Feche outros programas ou reinicie o computador e o servi",
+   "ria '%2'. Feche outros programas ou reinicie o computador e tente reiniciar o servi",
+   "ria ao registro no servidor HTTP do Windows n",
+   "rie do provedor de conte",
+   "rio de certificados do sistema da m",
+   "rio deveria ser wmpnetwk.exe e a conta deveria ser AUTORIDADE NT\\NetworkService. Se poss",
+   "rio incorreto ou est",
+   "rio redefinir o sistema Windows Media DRM no computador.",
+   "rio reiniciar o computador para concluir o processo.",
+   "rios com um depurador anexado. Remova o depurador da m",
+   "scimo da URL '%3!S!'. Reinicie o computador e o servi",
+   "ssico",
+   "vel cancelar o registro da biblioteca de tipos devido ao erro '%2'.",
+   "vel executar componentes DRM necess",
+   "vel recuperar um certificado SSL no reposit",
+   "vel verificar a assinatura no certificado. Verifique se o dispositivo est",
+   "vel, reinstale o Windows Media Player.",
+   "vel.",
+   "xito e est",
+   "xito na detec"
+  ]
+ }
+}

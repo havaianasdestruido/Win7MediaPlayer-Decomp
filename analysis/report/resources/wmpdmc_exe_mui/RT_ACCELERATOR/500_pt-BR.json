@@ -1,0 +1,144 @@
+{
+ "entries": [
+  {
+   "fVirt": "0x0009",
+   "flags": [
+    "FVIRTKEY",
+    "FCONTROL"
+   ],
+   "key": "0x50",
+   "key_name": "P",
+   "cmd_id": 501
+  },
+  {
+   "fVirt": "0x0009",
+   "flags": [
+    "FVIRTKEY",
+    "FCONTROL"
+   ],
+   "key": "0x53",
+   "key_name": "S",
+   "cmd_id": 502
+  },
+  {
+   "fVirt": "0x0009",
+   "flags": [
+    "FVIRTKEY",
+    "FCONTROL"
+   ],
+   "key": "0x42",
+   "key_name": "B",
+   "cmd_id": 503
+  },
+  {
+   "fVirt": "0x0009",
+   "flags": [
+    "FVIRTKEY",
+    "FCONTROL"
+   ],
+   "key": "0x46",
+   "key_name": "F",
+   "cmd_id": 504
+  },
+  {
+   "fVirt": "0x0009",
+   "flags": [
+    "FVIRTKEY",
+    "FCONTROL"
+   ],
+   "key": "0x54",
+   "key_name": "T",
+   "cmd_id": 513
+  },
+  {
+   "fVirt": "0x0009",
+   "flags": [
+    "FVIRTKEY",
+    "FCONTROL"
+   ],
+   "key": "0x26",
+   "key_name": "VK_UP",
+   "cmd_id": 514
+  },
+  {
+   "fVirt": "0x0009",
+   "flags": [
+    "FVIRTKEY",
+    "FCONTROL"
+   ],
+   "key": "0x28",
+   "key_name": "VK_DOWN",
+   "cmd_id": 515
+  },
+  {
+   "fVirt": "0x0009",
+   "flags": [
+    "FVIRTKEY",
+    "FCONTROL"
+   ],
+   "key": "0x24",
+   "key_name": "VK_HOME",
+   "cmd_id": 516
+  },
+  {
+   "fVirt": "0x0009",
+   "flags": [
+    "FVIRTKEY",
+    "FCONTROL"
+   ],
+   "key": "0x23",
+   "key_name": "VK_END",
+   "cmd_id": 517
+  },
+  {
+   "fVirt": "0x0009",
+   "flags": [
+    "FVIRTKEY",
+    "FCONTROL"
+   ],
+   "key": "0x21",
+   "key_name": "VK_PRIOR",
+   "cmd_id": 518
+  },
+  {
+   "fVirt": "0x0009",
+   "flags": [
+    "FVIRTKEY",
+    "FCONTROL"
+   ],
+   "key": "0x22",
+   "key_name": "VK_NEXT",
+   "cmd_id": 519
+  },
+  {
+   "fVirt": "0x0001",
+   "flags": [
+    "FVIRTKEY"
+   ],
+   "key": "0x76",
+   "key_name": "VK_F7",
+   "cmd_id": 505
+  },
+  {
+   "fVirt": "0x0001",
+   "flags": [
+    "FVIRTKEY"
+   ],
+   "key": "0x78",
+   "key_name": "VK_F9",
+   "cmd_id": 506
+  },
+  {
+   "fVirt": "0x0081",
+   "flags": [
+    "FVIRTKEY",
+    "0x80(unmapped)"
+   ],
+   "key": "0x77",
+   "key_name": "VK_F8",
+   "cmd_id": 507
+  }
+ ],
+ "entry_count": 14,
+ "note": "ACCELTABLEENTRY records are 8 bytes on the wire (WORD pad after each)"
+}

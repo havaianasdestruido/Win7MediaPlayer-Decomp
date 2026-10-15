@@ -1,0 +1,5 @@
+# Exported symbols — bin/WMPMediaSharing.dll (SHA-256 714d193de7f062968c11a8a946f1fa066d03e1fc5a7bd90dbabc372605416413)
+# Image export name: wmpnssci.DLL
+
+    1  0x0000392c  DllCanUnloadNow
+    2  0x000039d0  DllGetClassObject

@@ -1,0 +1,14 @@
+HKCR
+{
+    NoRemove CLSID
+    {
+        ForceRemove {031EE060-67BC-460d-8847-E4A7C5E45A27} = s 'Windows Media Player Rich Preview Helper Class'
+        {        
+            'DisplayName' = s 'Windows Media Player RPH'
+            Icon = s ''
+            LocalServer32 = s '%MODULE%' {
+            	val ThreadingModel = s 'Apartment'
+            }
+        }
+    }
+}

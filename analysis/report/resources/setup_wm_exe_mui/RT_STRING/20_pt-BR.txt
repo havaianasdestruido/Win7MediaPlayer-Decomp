@@ -1,0 +1,16 @@
+305	Windows Media Player
+306	Obrigado por instalar este media player completo. Com ele, você pode descobrir, reproduzir e levar diversão digital para qualquer lugar, e pode acessá-lo tanto em players portáteis dos mais variados tipos quanto em computadores que executam o Windows Vista.
+
+
+307	A Microsoft se compromete em proteger sua privacidade como consumidor. A declaração de privacidade do Windows Media Player explica quais dados são coletados, como eles são usados e quais configurações de privacidade estão disponíveis no Player.
+308	 Clique no botão para exibir a declaração de privacidade online do Player.
+309	Escolha uma Loja Online
+310	Escolha a loja online que deseja configurar agora. Você pode configurar outras lojas mais tarde.
+311	O Windows Media Player está sendo atualizado com a loja online selecionada.
+312	Sistema Operacional não suportado.
+313	Este pacote de instalação pode ser instalado apenas no Windows XP x64.
+314	Este pacote de instalação pode ser instalado apenas em um computador que esteja executando a versão de 32 bits do Windows XP Service Pack 2.
+315	Erro ao iniciar o navegador da Web.
+316	Visite o Windows Update para baixar o Pacote cumulativo de atualizações 2 para o Windows XP Media Center Edition 2005 antes de instalar o Windows Media Player.
+317	Para saber mais sobre as Configurações recomendadas, leia a Declaração de Privacidade online.
+318	Saiba mais sobre as opções de privacidade

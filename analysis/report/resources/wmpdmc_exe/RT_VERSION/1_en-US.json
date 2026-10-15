@@ -1,0 +1,17 @@
+{
+ "StringFileInfo": {
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Windows Media Player Digital Media Controller Application",
+  "FileVersion": "12.0.7601.17514 (win7sp1_rtm.101119-1850)",
+  "InternalName": "WMPDMC",
+  "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. All rights reserved.",
+  "OriginalFilename": "WMPDMC.exe",
+  "ProductName": "Microsoft\u00c2\u00ae Windows\u00c2\u00ae Operating System",
+  "ProductVersion": "12.0.7601.17514"
+ },
+ "StringFileInfo_utf8": {
+  "LegalCopyright": "\u00a9 Microsoft Corporation. All rights reserved.",
+  "ProductName": "Microsoft\u00ae Windows\u00ae Operating System"
+ },
+ "parse_error": "TypeError: unsupported format string passed to bytes.__format__"
+}

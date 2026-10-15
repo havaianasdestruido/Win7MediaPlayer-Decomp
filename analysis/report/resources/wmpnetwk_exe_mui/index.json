@@ -1,0 +1,480 @@
+{
+ "module": "wmpnetwk_exe_mui",
+ "artifact": "bin/pt-BR/wmpnetwk.exe.mui",
+ "sha256": "d8728825ec8dc4a3c42c1621da4b632167582512da73b391ca21f8b5026a7fd9",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 4096,
+  "size": 38828,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "RT_MESSAGETABLE": 1,
+  "RT_STRING": 11,
+  "RT_VERSION": 1
+ },
+ "pefile_walk_count": 14,
+ "walker_cross_check": {
+  "raw_walker": 14,
+  "pefile_walker": 14,
+  "agree": true
+ },
+ "messages_total": 96,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2f0",
+   "data_entry_offset": "0x430",
+   "depth": 3,
+   "data_rva": 4888,
+   "size": 184,
+   "sha256": "77a2621c96bcb56da9b13ef5c9306efa65fedf46c805f7e1d4f0a6b0e5eb13f5",
+   "bytes_read": 184,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "language_tag": "pt-BR",
+    "localized_type_ids": [],
+    "localized_type_names": [],
+    "matches_sibling": null,
+    "matches_same_artifact": null
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/MUI/1_pt-BR.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 7
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x308",
+   "data_entry_offset": "0x440",
+   "depth": 3,
+   "data_rva": 5072,
+   "size": 464,
+   "sha256": "50160aa71a3bcba7eda031991a3ed52ffccce972f50ae25f67ea24f99accfe71",
+   "bytes_read": 464,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "7",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 3
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/RT_STRING/7_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 13
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x320",
+   "data_entry_offset": "0x450",
+   "depth": 3,
+   "data_rva": 5536,
+   "size": 146,
+   "sha256": "d565c12ff739416a69d8ac0cac1faa1846d572cace31675187841bf50346adf9",
+   "bytes_read": 146,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "13",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 2
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/RT_STRING/13_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 26
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x338",
+   "data_entry_offset": "0x460",
+   "depth": 3,
+   "data_rva": 5684,
+   "size": 78,
+   "sha256": "1abac9d41b6336f7ee80a2211da8f764ce01787b4ef913a01d0910f297d1f0be",
+   "bytes_read": 78,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "26",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 2
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/RT_STRING/26_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 32
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x350",
+   "data_entry_offset": "0x470",
+   "depth": 3,
+   "data_rva": 5764,
+   "size": 58,
+   "sha256": "40d25caa8237b43dff64136b72dea606e37297df1374ce786cda9e5377e44dd9",
+   "bytes_read": 58,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "32",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 1
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/RT_STRING/32_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 44
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x368",
+   "data_entry_offset": "0x480",
+   "depth": 3,
+   "data_rva": 5824,
+   "size": 144,
+   "sha256": "d1e7bb4cd4bcc74692cdf0eca1246a512801bc932012eb6cd830e577a006e72a",
+   "bytes_read": 144,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "44",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 3
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/RT_STRING/44_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 45
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x380",
+   "data_entry_offset": "0x490",
+   "depth": 3,
+   "data_rva": 5968,
+   "size": 406,
+   "sha256": "c278ce6002541a48ecc69b10ddb2951ebdabce9dc0794f9008abbd862d8e27eb",
+   "bytes_read": 406,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "45",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 9
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/RT_STRING/45_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 46
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x398",
+   "data_entry_offset": "0x4a0",
+   "depth": 3,
+   "data_rva": 6376,
+   "size": 84,
+   "sha256": "55e9c57f867fc96e89796284c8e72acb2500095e5a8b9fc9da78f0fd7a210cde",
+   "bytes_read": 84,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "46",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 1
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/RT_STRING/46_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 51
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x3b0",
+   "data_entry_offset": "0x4b0",
+   "depth": 3,
+   "data_rva": 6460,
+   "size": 58,
+   "sha256": "d547090fbfc6cef54ea467fb7d9ae6c8103f306cc24955095c234abbb4edf85f",
+   "bytes_read": 58,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "51",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 1
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/RT_STRING/51_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 54
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x3c8",
+   "data_entry_offset": "0x4c0",
+   "depth": 3,
+   "data_rva": 6520,
+   "size": 146,
+   "sha256": "6f98e5e00b2fe25ce444e4a1b492b541558b91e8885b2afaf411dcef65830e53",
+   "bytes_read": 146,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "54",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 3
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/RT_STRING/54_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 188
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x3e0",
+   "data_entry_offset": "0x4d0",
+   "depth": 3,
+   "data_rva": 6668,
+   "size": 1106,
+   "sha256": "dfe4bb6f786d6f3adc88b1bf924d25cede57d4fd4cd4c6f6bd923d152a86e910",
+   "bytes_read": 1106,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "188",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 8
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/RT_STRING/188_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 189
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x3f8",
+   "data_entry_offset": "0x4e0",
+   "depth": 3,
+   "data_rva": 7776,
+   "size": 498,
+   "sha256": "5f73a5107e32b5030320d1c181b7b465ab0cc2b0cda9081c63f2cd0fe92821d2",
+   "bytes_read": 498,
+   "truncated": false,
+   "type": "RT_STRING",
+   "name": "189",
+   "language": "pt-BR",
+   "decoded": {
+    "strings": 3
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/RT_STRING/189_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 11
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x410",
+   "data_entry_offset": "0x4f0",
+   "depth": 3,
+   "data_rva": 8276,
+   "size": 33552,
+   "sha256": "d75fc0ad8650439d8039288c95ef888a8cd6098358128816f09d5dbaf9e7af6a",
+   "bytes_read": 33552,
+   "truncated": false,
+   "type": "RT_MESSAGETABLE",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "messages": 96,
+    "blocks": 7
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/RT_MESSAGETABLE/1_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x428",
+   "data_entry_offset": "0x500",
+   "depth": 3,
+   "data_rva": 41828,
+   "size": 1096,
+   "sha256": "9b5ea4c9829d9137968d63565718c7cad45d67051f2addaad0e4a9af873134de",
+   "bytes_read": 1096,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Servi\u00c3\u00a7o de Compartilhamento de Rede do Windows Media Player",
+    "FileVersion": "12.0.7600.16385 (win7_rtm.090713-1255)",
+    "InternalName": "Windows Media Player Network Sharing Service",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+    "OriginalFilename": "WMPNetwk.exe.mui",
+    "ProductName": "Sistema Operacional Microsoft\u00c2\u00ae Windows\u00c2\u00ae",
+    "ProductVersion": "12.0.7600.16385",
+    "StringFileInfo_utf8": {
+     "FileDescription": "Servi\u00e7o de Compartilhamento de Rede do Windows Media Player",
+     "LegalCopyright": "\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+     "ProductName": "Sistema Operacional Microsoft\u00ae Windows\u00ae"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmpnetwk_exe_mui/RT_VERSION/1_pt-BR.json"
+  }
+ ]
+}

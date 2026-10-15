@@ -1,0 +1,3 @@
+701	No such object
+702	Invalid currentTagValue
+703	Invalid newTagValue

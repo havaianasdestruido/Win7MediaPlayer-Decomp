@@ -1,0 +1,12 @@
+1024	Nenhuma música selecionada
+1025	Aumentar volume
+1026	Reduzir volume
+1027	Sem áudio
+1028	Sem som
+1029	Reproduzindo
+1030	Em pausa
+1031	Parado
+1032	Navegar na Biblioteca de Mídia
+1033	Ir para Lista em Execução
+1034	Ir para Faixa Atual
+1035	Desconhecido

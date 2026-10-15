@@ -1,0 +1,493 @@
+{
+ "generated_by": "analysis/tools/disasm.py",
+ "generated_at": "2026-10-14T22:44:10Z",
+ "capstone_version": "5.0.6",
+ "max_instructions_per_target": 24,
+ "modules": [
+  {
+   "slug": "wmpdmc_exe",
+   "artifact": "bin/WMPDMC.exe",
+   "targets": 40,
+   "instructions": 853,
+   "compared": 853,
+   "bytes_match": 853,
+   "mnemonic_match": 853,
+   "bytes_match_truncated_objdump": 28,
+   "match_kinds": {
+    "exact": 825,
+    "truncated": 28
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpdmccore_dll",
+   "artifact": "bin/WMPDMCCore.dll",
+   "targets": 40,
+   "instructions": 881,
+   "compared": 881,
+   "bytes_match": 881,
+   "mnemonic_match": 881,
+   "bytes_match_truncated_objdump": 26,
+   "match_kinds": {
+    "exact": 855,
+    "truncated": 26
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpmediasharing_dll",
+   "artifact": "bin/WMPMediaSharing.dll",
+   "targets": 40,
+   "instructions": 878,
+   "compared": 874,
+   "bytes_match": 874,
+   "mnemonic_match": 874,
+   "bytes_match_truncated_objdump": 24,
+   "match_kinds": {
+    "exact": 850,
+    "truncated": 24
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpnssui_dll",
+   "artifact": "bin/WMPNSSUI.dll",
+   "targets": 40,
+   "instructions": 828,
+   "compared": 813,
+   "bytes_match": 813,
+   "mnemonic_match": 813,
+   "bytes_match_truncated_objdump": 23,
+   "match_kinds": {
+    "exact": 790,
+    "truncated": 23
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpsideshowgadget_exe",
+   "artifact": "bin/WMPSideShowGadget.exe",
+   "targets": 41,
+   "instructions": 824,
+   "compared": 800,
+   "bytes_match": 800,
+   "mnemonic_match": 800,
+   "bytes_match_truncated_objdump": 9,
+   "match_kinds": {
+    "exact": 791,
+    "truncated": 9
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "mpvis_dll",
+   "artifact": "bin/mpvis.DLL",
+   "targets": 40,
+   "instructions": 742,
+   "compared": 732,
+   "bytes_match": 732,
+   "mnemonic_match": 732,
+   "bytes_match_truncated_objdump": 28,
+   "match_kinds": {
+    "exact": 704,
+    "truncated": 28
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "setup_wm_exe",
+   "artifact": "bin/setup_wm.exe",
+   "targets": 40,
+   "instructions": 886,
+   "compared": 886,
+   "bytes_match": 886,
+   "mnemonic_match": 886,
+   "bytes_match_truncated_objdump": 22,
+   "match_kinds": {
+    "exact": 864,
+    "truncated": 22
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "direct-objdump"
+  },
+  {
+   "slug": "wmlaunch_exe",
+   "artifact": "bin/wmlaunch.exe",
+   "targets": 40,
+   "instructions": 849,
+   "compared": 790,
+   "bytes_match": 790,
+   "mnemonic_match": 789,
+   "bytes_match_truncated_objdump": 3,
+   "match_kinds": {
+    "exact": 786,
+    "split": 1,
+    "truncated": 3
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpconfig_exe",
+   "artifact": "bin/wmpconfig.exe",
+   "targets": 19,
+   "instructions": 209,
+   "compared": 209,
+   "bytes_match": 209,
+   "mnemonic_match": 209,
+   "bytes_match_truncated_objdump": 3,
+   "match_kinds": {
+    "exact": 206,
+    "truncated": 3
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpenc_exe",
+   "artifact": "bin/wmpenc.exe",
+   "targets": 40,
+   "instructions": 683,
+   "compared": 683,
+   "bytes_match": 683,
+   "mnemonic_match": 683,
+   "bytes_match_truncated_objdump": 5,
+   "match_kinds": {
+    "exact": 678,
+    "truncated": 5
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmplayer_exe",
+   "artifact": "bin/wmplayer.exe",
+   "targets": 40,
+   "instructions": 702,
+   "compared": 646,
+   "bytes_match": 646,
+   "mnemonic_match": 646,
+   "bytes_match_truncated_objdump": 28,
+   "match_kinds": {
+    "exact": 618,
+    "truncated": 28
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpnetwk_exe",
+   "artifact": "bin/wmpnetwk.exe",
+   "targets": 40,
+   "instructions": 875,
+   "compared": 579,
+   "bytes_match": 579,
+   "mnemonic_match": 579,
+   "bytes_match_truncated_objdump": 27,
+   "match_kinds": {
+    "exact": 552,
+    "truncated": 27
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpnscfg_exe",
+   "artifact": "bin/wmpnscfg.exe",
+   "targets": 40,
+   "instructions": 705,
+   "compared": 705,
+   "bytes_match": 705,
+   "mnemonic_match": 705,
+   "bytes_match_truncated_objdump": 29,
+   "match_kinds": {
+    "exact": 676,
+    "truncated": 29
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpnssci_dll",
+   "artifact": "bin/wmpnssci.dll",
+   "targets": 40,
+   "instructions": 826,
+   "compared": 817,
+   "bytes_match": 817,
+   "mnemonic_match": 817,
+   "bytes_match_truncated_objdump": 24,
+   "match_kinds": {
+    "exact": 793,
+    "truncated": 24
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmprph_exe",
+   "artifact": "bin/wmprph.exe",
+   "targets": 40,
+   "instructions": 682,
+   "compared": 678,
+   "bytes_match": 678,
+   "mnemonic_match": 678,
+   "bytes_match_truncated_objdump": 12,
+   "match_kinds": {
+    "exact": 666,
+    "truncated": 12
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpshare_exe",
+   "artifact": "bin/wmpshare.exe",
+   "targets": 29,
+   "instructions": 430,
+   "compared": 342,
+   "bytes_match": 342,
+   "mnemonic_match": 342,
+   "bytes_match_truncated_objdump": 10,
+   "match_kinds": {
+    "exact": 332,
+    "truncated": 10
+   },
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpdmc_exe_mui",
+   "artifact": "bin/pt-BR/WMPDMC.exe.mui",
+   "targets": 0,
+   "instructions": 0,
+   "compared": 0,
+   "bytes_match": 0,
+   "mnemonic_match": 0,
+   "bytes_match_truncated_objdump": 0,
+   "match_kinds": {},
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpdmccore_dll_mui",
+   "artifact": "bin/pt-BR/WMPDMCCore.dll.mui",
+   "targets": 0,
+   "instructions": 0,
+   "compared": 0,
+   "bytes_match": 0,
+   "mnemonic_match": 0,
+   "bytes_match_truncated_objdump": 0,
+   "match_kinds": {},
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpmediasharing_dll_mui",
+   "artifact": "bin/pt-BR/WMPMediaSharing.dll.mui",
+   "targets": 0,
+   "instructions": 0,
+   "compared": 0,
+   "bytes_match": 0,
+   "mnemonic_match": 0,
+   "bytes_match_truncated_objdump": 0,
+   "match_kinds": {},
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpsideshowgadget_exe_mui",
+   "artifact": "bin/pt-BR/WMPSideShowGadget.exe.mui",
+   "targets": 0,
+   "instructions": 0,
+   "compared": 0,
+   "bytes_match": 0,
+   "mnemonic_match": 0,
+   "bytes_match_truncated_objdump": 0,
+   "match_kinds": {},
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "mpvis_dll_mui",
+   "artifact": "bin/pt-BR/mpvis.dll.mui",
+   "targets": 0,
+   "instructions": 0,
+   "compared": 0,
+   "bytes_match": 0,
+   "mnemonic_match": 0,
+   "bytes_match_truncated_objdump": 0,
+   "match_kinds": {},
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "setup_wm_exe_mui",
+   "artifact": "bin/pt-BR/setup_wm.exe.mui",
+   "targets": 0,
+   "instructions": 0,
+   "compared": 0,
+   "bytes_match": 0,
+   "mnemonic_match": 0,
+   "bytes_match_truncated_objdump": 0,
+   "match_kinds": {},
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmlaunch_exe_mui",
+   "artifact": "bin/pt-BR/wmlaunch.exe.mui",
+   "targets": 0,
+   "instructions": 0,
+   "compared": 0,
+   "bytes_match": 0,
+   "mnemonic_match": 0,
+   "bytes_match_truncated_objdump": 0,
+   "match_kinds": {},
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmplayer_exe_mui",
+   "artifact": "bin/pt-BR/wmplayer.exe.mui",
+   "targets": 0,
+   "instructions": 0,
+   "compared": 0,
+   "bytes_match": 0,
+   "mnemonic_match": 0,
+   "bytes_match_truncated_objdump": 0,
+   "match_kinds": {},
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpnetwk_exe_mui",
+   "artifact": "bin/pt-BR/wmpnetwk.exe.mui",
+   "targets": 0,
+   "instructions": 0,
+   "compared": 0,
+   "bytes_match": 0,
+   "mnemonic_match": 0,
+   "bytes_match_truncated_objdump": 0,
+   "match_kinds": {},
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpnscfg_exe_mui",
+   "artifact": "bin/pt-BR/wmpnscfg.exe.mui",
+   "targets": 0,
+   "instructions": 0,
+   "compared": 0,
+   "bytes_match": 0,
+   "mnemonic_match": 0,
+   "bytes_match_truncated_objdump": 0,
+   "match_kinds": {},
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpnssci_dll_mui",
+   "artifact": "bin/pt-BR/wmpnssci.dll.mui",
+   "targets": 0,
+   "instructions": 0,
+   "compared": 0,
+   "bytes_match": 0,
+   "mnemonic_match": 0,
+   "bytes_match_truncated_objdump": 0,
+   "match_kinds": {},
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  },
+  {
+   "slug": "wmpnssui_dll_mui",
+   "artifact": "bin/pt-BR/wmpnssui.dll.mui",
+   "targets": 0,
+   "instructions": 0,
+   "compared": 0,
+   "bytes_match": 0,
+   "mnemonic_match": 0,
+   "bytes_match_truncated_objdump": 0,
+   "match_kinds": {},
+   "bytes_mismatch": [],
+   "mnemonic_mismatch": [],
+   "objdump_available": true,
+   "objdump_source": "rea-evidence"
+  }
+ ],
+ "totals_match_kinds": {
+  "exact": 10986,
+  "truncated": 301,
+  "split": 1
+ },
+ "totals": {
+  "targets": 609,
+  "instructions": 11853,
+  "compared": 11288,
+  "bytes_match": 11288,
+  "mnemonic_match": 11287,
+  "bytes_match_truncated_objdump": 301,
+  "modules": 28,
+  "modules_with_objdump_evidence": 28,
+  "byte_agreement_pct": 100.0
+ }
+}

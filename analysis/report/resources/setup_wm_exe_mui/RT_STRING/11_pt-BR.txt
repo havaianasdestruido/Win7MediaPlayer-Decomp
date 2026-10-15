@@ -1,0 +1,11 @@
+160	Não é possível instalar uma versão traduzida do Windows Media Player em um computador que esteja executando uma versão do Windows com Interface do Usuário Multilíngue (MUI). Em vez disso, instale a versão em inglês do Windows Media Player neste computador e, em seguida, instale os pacotes de idioma apropriados do Windows Media Player para obter os recursos de troca de idiomas.
+161	A Restauração do Sistema está desativada. Se você continuar com a instalação, não conseguirá usar a Restauração do Sistema para restaurar a versão do Windows Media Player incluída na versão do Windows em execução no seu computador. É recomendável clicar em Cancelar, ativar a Restauração do Sistema e, depois, atualizar para o Windows Media Player. Para obter mais informações sobre a Restauração do Sistema, consulte a Ajuda do Windows. Deseja continuar?
+163	É recomendável desativar o modo miniplayer antes de continuar. Para fazer isso, clique com o botão direito do mouse em uma área vazia da barra de tarefas do Windows, aponte para Barras de Ferramentas e, em seguida, limpe a caixa Windows Media Player.
+166	Download do Software de Loja Online
+167	Antes de usar %s, baixe o software da loja. Clique em Aceito para baixar o software, ou Não Aceito para cancelar o download.
+170	Versão Imprimível
+172	A instalação do Windows Media já está em execução.
+173	Gerenciador de Configuração do Windows Media
+174	Esta versão do Windows Media Player pode ser instalada somente em um computador com o Windows XP Service Pack 2.
+
+175	Erro inesperado. A instalação não conseguiu detectar nenhuma atualização do Windows Media. Tente novamente mais tarde.

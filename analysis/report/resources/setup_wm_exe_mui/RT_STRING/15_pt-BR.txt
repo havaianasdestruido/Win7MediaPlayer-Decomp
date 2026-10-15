@@ -1,0 +1,11 @@
+224	Instalação concluída com alguns erros. 
+	 Alguns direitos de uso de mídia existentes não foram movidos corretamente, o que pode impedir a reprodução de alguns arquivos protegidos. 
+	 A Instalação não conseguiu copiar alguns dos arquivos da lista de reprodução ou todos eles.
+225	O Windows Media Player foi instalado com êxito. No entanto, ocorreram os erros a seguir durante a instalação.
+226	http://go.microsoft.com/fwlink/?linkid=120722
+227	 Definir %s como minha loja online ativa.
+228	 Definir %s como minha loja online ativa.
+229	Personalizar configurações de reprodução, privacidade e lojas online. Selecione esta opção se desejar revisar ou alterar as configurações da versão anterior do Player.
+230	Instalação do %s concluída
+231	Migrando a Biblioteca do Windows Media Player
+233	.

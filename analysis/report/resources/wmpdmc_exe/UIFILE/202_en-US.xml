@@ -1,0 +1,74 @@
+<duixml>
+<element resid="main" layout="borderlayout()" background="argb(0,0,0,0)">
+<element id="Atom(volume_bg_holder)" layout="borderlayout()" layoutpos="top" contentalign="middlecenter" resid="volume_bg_holder" background="argb(0,0,0,0)">
+<element id="Atom(volume_popup)" direction="0" layout="borderlayout()" layoutpos="top" width="102rp" height="34rp" resid="volume_popup" contentalign="middlecenter" background="argb(0,0,0,0)" content="sgraphic(314,2)">
+<wmpdmcslider id="atom(slider)" layout="borderlayout()" layoutpos="absolute" x="16rp" y="8rp" width="64rp" height="13rp" accessible="true" active="mouse|keyboard" minimum="0" maximum="100" page="5" proportional="false" IsStatusBarStyle="true" JumpToClick="true" accrole="slider" accname="resstr(147)" sheet="volumeslider" background="argb(0,0,0,0)"/>
+</element>
+</element>
+</element>
+<stylesheets>
+<style resid="volumeslider">
+<if id="atom(thumb)">
+<if highcontrast="0">
+<WMPDMCThumbHC contentalign="middlecenter" accstate="0x00100000" content="sgraphic(319,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCThumbHC contentalign="middlecenter" accstate="0x00100000" content="sgraphic(367,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCThumbHC contentalign="middlecenter" accstate="0x00100000" content="sgraphic(366,2)"/>
+</if>
+<if mousefocused="true">
+<if highcontrast="0">
+<WMPDMCThumbHC content="sgraphic(318,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCThumbHC content="sgraphic(366,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCThumbHC content="sgraphic(367,2)"/>
+</if>
+</if>
+<if custom="true">
+<if highcontrast="0">
+<WMPDMCThumbHC content="sgraphic(319,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCThumbHC content="sgraphic(367,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCThumbHC content="sgraphic(366,2)"/>
+</if>
+</if> 
+<if captured="true">
+<if highcontrast="0">
+<WMPDMCThumbHC content="sgraphic(317,2)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCThumbHC content="sgraphic(367,2)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCThumbHC content="sgraphic(366,2)"/>
+</if>
+</if>
+</if>
+<if class="Line">
+<button layoutpos="none"/>
+</if>
+<if id="atom(pageleft)">
+<if highcontrast="0">
+<WMPDMCButtonHC borderthickness="rect(2rp,0rp,0rp,0rp)" background="sgraphic(316,7)"/>
+</if>
+<if highcontrast="1">
+<WMPDMCButtonHC borderthickness="rect(2rp,0rp,0rp,0rp)" background="sgraphic(369,7)"/>
+</if>
+<if highcontrast="2">
+<WMPDMCButtonHC borderthickness="rect(2rp,0rp,0rp,0rp)" background="sgraphic(368,7)"/>
+</if>
+</if>
+<if id="atom(pageright)">
+<WMPDMCButtonHC borderthickness="rect(0rp,0rp,0rp,0rp)"/>
+</if>
+</style>
+</stylesheets>
+</duixml>

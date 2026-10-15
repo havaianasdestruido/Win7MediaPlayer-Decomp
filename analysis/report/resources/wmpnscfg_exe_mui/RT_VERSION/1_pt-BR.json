@@ -1,0 +1,18 @@
+{
+ "StringFileInfo": {
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "Aplicativo de Configura\u00c3\u00a7\u00c3\u00a3o do Servi\u00c3\u00a7o de compartilhamento de rede do Windows Media Player",
+  "FileVersion": "12.0.7601.17514 (win7sp1_rtm.101119-1850)",
+  "InternalName": "",
+  "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+  "OriginalFilename": "WMPNSCFG.EXE.MUI",
+  "ProductName": "Sistema Operacional Microsoft\u00c2\u00ae Windows\u00c2\u00ae",
+  "ProductVersion": "12.0.7601.17514"
+ },
+ "StringFileInfo_utf8": {
+  "FileDescription": "Aplicativo de Configura\u00e7\u00e3o do Servi\u00e7o de compartilhamento de rede do Windows Media Player",
+  "LegalCopyright": "\u00a9 Microsoft Corporation. Todos os direitos reservados.",
+  "ProductName": "Sistema Operacional Microsoft\u00ae Windows\u00ae"
+ },
+ "parse_error": "TypeError: unsupported format string passed to bytes.__format__"
+}

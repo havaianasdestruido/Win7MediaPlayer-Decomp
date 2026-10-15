@@ -1,0 +1,2 @@
+# Exported symbols — bin/pt-BR/WMPDMC.exe.mui (SHA-256 a3ac34616e24ec5580fe2eec9775ff265db6ebae5e0a833aeadd05809c9de87a)
+# (no exported symbols; this image is an executable or a resource-only module)

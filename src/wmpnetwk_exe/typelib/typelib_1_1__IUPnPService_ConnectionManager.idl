@@ -1,0 +1,74 @@
+// Reconstructed type-library IDL — analysis/report/resources/wmpnetwk_exe/typelib/typelib_1_1.tlb
+//
+// PROVENANCE: mechanically rendered from the MSFT binary type library
+// embedded as RT_TYPELIB resource 1 (payload sha256 c78541f2af521a45ec98885185410f5ef9f0765c1bdd2a7d3f4fe7b4a69aa4a8),
+// by analysis/tools/typelib.py. GUIDs, kinds, member names, member IDs and virtual
+// table order are read straight out of the library; parameter- and return-type
+// rendering is derived from its TYPEDESC entries. This is a re-serialisation of
+// shipped data, not recovered source code.
+// library GUID {73C381A8-548C-49F8-8AD3-C845D12D3C22} — version 0x1 — LCID 0x0409
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+// TKIND_DISPATCH IUPnPService_ConnectionManager {{B78EA491-BC9E-446D-9A46-57C6D9D0FC7A}} version 0.0 (typeinfo #0, 13 functions, 0 variables)
+    interface IUPnPService_ConnectionManager {
+        HRESULT SourceProtocolInfo([out] BSTR* pSourceProtocolInfo);  // memid 1, vtable slot 7, INVOKE_PROPERTYGET
+        HRESULT SinkProtocolInfo([out] BSTR* pSinkProtocolInfo);  // memid 2, vtable slot 8, INVOKE_PROPERTYGET
+        HRESULT CurrentConnectionIDs([out] BSTR* pCurrentConnectionIDs);  // memid 3, vtable slot 9, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_ConnectionStatus([out] BSTR* pA_ARG_TYPE_ConnectionStatus);  // memid 4, vtable slot 10, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_ConnectionManager([out] BSTR* pA_ARG_TYPE_ConnectionManager);  // memid 5, vtable slot 11, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_Direction([out] BSTR* pA_ARG_TYPE_Direction);  // memid 6, vtable slot 12, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_ProtocolInfo([out] BSTR* pA_ARG_TYPE_ProtocolInfo);  // memid 7, vtable slot 13, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_ConnectionID([out] long* pA_ARG_TYPE_ConnectionID);  // memid 8, vtable slot 14, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_AVTransportID([out] long* pA_ARG_TYPE_AVTransportID);  // memid 9, vtable slot 15, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_RcsID([out] long* pA_ARG_TYPE_RcsID);  // memid 10, vtable slot 16, INVOKE_PROPERTYGET
+        HRESULT GetProtocolInfo([in] IUnknown* punkRemoteEndpointInfo, [in] BSTR* pSource, [in] BSTR* pSink);  // memid 11, vtable slot 17
+        HRESULT GetCurrentConnectionIDs([in] IUnknown* punkRemoteEndpointInfo, [in] BSTR* pConnectionIDs);  // memid 12, vtable slot 18
+        HRESULT GetCurrentConnectionInfo([in] IUnknown* punkRemoteEndpointInfo, [in] long ConnectionID, [in] long* pRcsID, [in] long* pAVTransportID, [in] BSTR* pProtocolInfo, [in] BSTR* pPeerConnectionManager, [in] long* pPeerConnectionID, [in] BSTR* pDirection, [in] BSTR* pStatus);  // memid 13, vtable slot 19
+    }
+
+// TKIND_DISPATCH IUPnPService_ContentDirectory {{84535BBA-A68E-4839-82CF-2DCCAB12910A}} version 0.0 (typeinfo #1, 22 functions, 0 variables)
+    interface IUPnPService_ContentDirectory {
+        HRESULT A_ARG_TYPE_ObjectID([out] BSTR* pA_ARG_TYPE_ObjectID);  // memid 1, vtable slot 7, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_Result([out] BSTR* pA_ARG_TYPE_Result);  // memid 2, vtable slot 8, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_SearchCriteria([out] BSTR* pA_ARG_TYPE_SearchCriteria);  // memid 3, vtable slot 9, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_BrowseFlag([out] BSTR* pA_ARG_TYPE_BrowseFlag);  // memid 4, vtable slot 10, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_Filter([out] BSTR* pA_ARG_TYPE_Filter);  // memid 5, vtable slot 11, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_SortCriteria([out] BSTR* pA_ARG_TYPE_SortCriteria);  // memid 6, vtable slot 12, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_Index([out] unsigned long* pA_ARG_TYPE_Index);  // memid 7, vtable slot 13, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_Count([out] unsigned long* pA_ARG_TYPE_Count);  // memid 8, vtable slot 14, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_UpdateID([out] unsigned long* pA_ARG_TYPE_UpdateID);  // memid 9, vtable slot 15, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_TagValueList([out] BSTR* pA_ARG_TYPE_TagValueList);  // memid 10, vtable slot 16, INVOKE_PROPERTYGET
+        HRESULT SearchCapabilities([out] BSTR* pSearchCapabilities);  // memid 11, vtable slot 17, INVOKE_PROPERTYGET
+        HRESULT SortCapabilities([out] BSTR* pSortCapabilities);  // memid 12, vtable slot 18, INVOKE_PROPERTYGET
+        HRESULT SystemUpdateID([out] unsigned long* pSystemUpdateID);  // memid 13, vtable slot 19, INVOKE_PROPERTYGET
+        HRESULT ContainerUpdateIDs([out] BSTR* pContainerUpdateIDs);  // memid 14, vtable slot 20, INVOKE_PROPERTYGET
+        HRESULT X_RemoteSharingEnabled([out] VARIANT_BOOL* pX_RemoteSharingEnabled);  // memid 15, vtable slot 21, INVOKE_PROPERTYGET
+        HRESULT GetSearchCapabilities([in] IUnknown* punkRemoteEndpointInfo, [in] BSTR* pSearchCaps);  // memid 16, vtable slot 22
+        HRESULT GetSortCapabilities([in] IUnknown* punkRemoteEndpointInfo, [in] BSTR* pSortCaps);  // memid 17, vtable slot 23
+        HRESULT GetSystemUpdateID([in] IUnknown* punkRemoteEndpointInfo, [in] unsigned long* pId);  // memid 18, vtable slot 24
+        HRESULT Browse([in] IUnknown* punkRemoteEndpointInfo, [in] BSTR ObjectID, [in] BSTR BrowseFlag, [in] BSTR Filter, [in] unsigned long StartingIndex, [in] unsigned long RequestedCount, [in] BSTR SortCriteria, [in] BSTR* pResult, [in] unsigned long* pNumberReturned, [in] unsigned long* pTotalMatches, [in] unsigned long* pUpdateID);  // memid 19, vtable slot 25
+        HRESULT Search([in] IUnknown* punkRemoteEndpointInfo, [in] BSTR ContainerID, [in] BSTR SearchCriteria, [in] BSTR Filter, [in] unsigned long StartingIndex, [in] unsigned long RequestedCount, [in] BSTR SortCriteria, [in] BSTR* pResult, [in] unsigned long* pNumberReturned, [in] unsigned long* pTotalMatches, [in] unsigned long* pUpdateID);  // memid 20, vtable slot 26
+        HRESULT UpdateObject([in] IUnknown* punkRemoteEndpointInfo, [in] BSTR ObjectID, [in] BSTR CurrentTagValue, [in] BSTR NewTagValue);  // memid 21, vtable slot 27
+        HRESULT X_GetRemoteSharingStatus([in] IUnknown* punkRemoteEndpointInfo, [in] VARIANT_BOOL* pX_RemoteSharingEnabled);  // memid 22, vtable slot 28
+    }
+
+// TKIND_DISPATCH IUPnPService_MediaReceiverRegistrar {{4250D219-06C7-4957-AEC3-6DA09B84BA22}} version 0.0 (typeinfo #2, 11 functions, 0 variables)
+    interface IUPnPService_MediaReceiverRegistrar {
+        HRESULT A_ARG_TYPE_DeviceID([out] BSTR* pA_ARG_TYPE_DeviceID);  // memid 1, vtable slot 7, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_Result([out] long* pA_ARG_TYPE_Result);  // memid 2, vtable slot 8, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_RegistrationReqMsg([out] byte[]* pA_ARG_TYPE_RegistrationReqMsg);  // memid 3, vtable slot 9, INVOKE_PROPERTYGET
+        HRESULT A_ARG_TYPE_RegistrationRespMsg([out] byte[]* pA_ARG_TYPE_RegistrationRespMsg);  // memid 4, vtable slot 10, INVOKE_PROPERTYGET
+        HRESULT AuthorizationGrantedUpdateID([out] unsigned long* pAuthorizationGrantedUpdateID);  // memid 7, vtable slot 11, INVOKE_PROPERTYGET
+        HRESULT AuthorizationDeniedUpdateID([out] unsigned long* pAuthorizationDeniedUpdateID);  // memid 8, vtable slot 12, INVOKE_PROPERTYGET
+        HRESULT ValidationSucceededUpdateID([out] unsigned long* pValidationSucceededUpdateID);  // memid 9, vtable slot 13, INVOKE_PROPERTYGET
+        HRESULT ValidationRevokedUpdateID([out] unsigned long* pValidationRevokedUpdateID);  // memid 10, vtable slot 14, INVOKE_PROPERTYGET
+        HRESULT IsAuthorized([in] IUnknown* punkRemoteEndpointInfo, [in] BSTR DeviceID, [in] long* pResult);  // memid 11, vtable slot 15
+        HRESULT RegisterDevice([in] IUnknown* punkRemoteEndpointInfo, [in] byte[] RegistrationReqMsg, [in] VARIANT* pRegistrationRespMsg);  // memid 12, vtable slot 16
+        HRESULT IsValidated([in] IUnknown* punkRemoteEndpointInfo, [in] BSTR DeviceID, [in] long* pResult);  // memid 13, vtable slot 17
+    }
+
+/* Interpretation limits (see analysis/report/methodology.md):
+ */

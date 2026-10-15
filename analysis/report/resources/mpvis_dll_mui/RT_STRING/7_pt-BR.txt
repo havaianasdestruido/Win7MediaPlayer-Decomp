@@ -1,0 +1,11 @@
+100	Alquimia
+101	Desfoque
+102	SwitchBlur
+103	Deslocamento
+104	Ciclo de Processamento Padrão
+105	Deslocamento Linear
+106	Deslocamento Alongado
+107	SuperStar
+108	WonderWave
+109	Shift O' Scope
+110	Funktional

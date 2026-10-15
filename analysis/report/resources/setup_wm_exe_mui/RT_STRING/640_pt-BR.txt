@@ -1,0 +1,7 @@
+10224	%s bytes
+10225	%s KB
+10226	%s MB
+10227	%s GB
+10228	%s TB
+10229	Arquivo de áudio ADTS
+10230	Arquivo de vídeo MPEG-2 TS

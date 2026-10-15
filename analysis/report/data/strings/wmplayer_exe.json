@@ -1,0 +1,10603 @@
+{
+ "module": "wmplayer_exe",
+ "artifact": "bin/wmplayer.exe",
+ "counts": {
+  "ascii": 1293,
+  "utf16": 48,
+  "unique": 1271
+ },
+ "strings": [
+  {
+   "text": "!This program cannot be run in DOS mode.",
+   "offset": "0x4d",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "0n`KQ",
+   "offset": "0x81",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "3RichKQ",
+   "offset": "0xcf",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".text",
+   "offset": "0x1f8",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "`.data",
+   "offset": "0x21f",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".pdata",
+   "offset": "0x248",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "@.rsrc",
+   "offset": "0x26f",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "@.reloc",
+   "offset": "0x297",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "ole32.dll",
+   "offset": "0x650",
+   "kind": "ascii",
+   "rva": "0x1250",
+   "va": "0x100001250",
+   "tags": [
+    "module-name"
+   ]
+  },
+  {
+   "text": "SHELL32.dll",
+   "offset": "0x660",
+   "kind": "ascii",
+   "rva": "0x1260",
+   "va": "0x100001260",
+   "tags": [
+    "module-name"
+   ]
+  },
+  {
+   "text": "DllCanUnloadNow",
+   "offset": "0xb40",
+   "kind": "ascii",
+   "rva": "0x1740",
+   "va": "0x100001740",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "RSDS",
+   "offset": "0xb58",
+   "kind": "ascii",
+   "rva": "0x1758",
+   "va": "0x100001758",
+   "tags": []
+  },
+  {
+   "text": "wmplayer.pdb",
+   "offset": "0xb70",
+   "kind": "ascii",
+   "rva": "0x1770",
+   "va": "0x100001770",
+   "tags": []
+  },
+  {
+   "text": "L$83",
+   "offset": "0xb8a",
+   "kind": "ascii",
+   "rva": "0x178a",
+   "va": "0x10000178a",
+   "tags": []
+  },
+  {
+   "text": "D$(D",
+   "offset": "0xb9f",
+   "kind": "ascii",
+   "rva": "0x179f",
+   "va": "0x10000179f",
+   "tags": []
+  },
+  {
+   "text": "VWATH",
+   "offset": "0xc52",
+   "kind": "ascii",
+   "rva": "0x1852",
+   "va": "0x100001852",
+   "tags": []
+  },
+  {
+   "text": "D$HH",
+   "offset": "0xca3",
+   "kind": "ascii",
+   "rva": "0x18a3",
+   "va": "0x1000018a3",
+   "tags": []
+  },
+  {
+   "text": "A\\_^",
+   "offset": "0xd16",
+   "kind": "ascii",
+   "rva": "0x1916",
+   "va": "0x100001916",
+   "tags": []
+  },
+  {
+   "text": "D$hH",
+   "offset": "0xdcd",
+   "kind": "ascii",
+   "rva": "0x19cd",
+   "va": "0x1000019cd",
+   "tags": []
+  },
+  {
+   "text": "L$hH",
+   "offset": "0xdf8",
+   "kind": "ascii",
+   "rva": "0x19f8",
+   "va": "0x1000019f8",
+   "tags": []
+  },
+  {
+   "text": "D$PL",
+   "offset": "0xdfd",
+   "kind": "ascii",
+   "rva": "0x19fd",
+   "va": "0x1000019fd",
+   "tags": []
+  },
+  {
+   "text": "L$XH",
+   "offset": "0xe02",
+   "kind": "ascii",
+   "rva": "0x1a02",
+   "va": "0x100001a02",
+   "tags": []
+  },
+  {
+   "text": "D$(H",
+   "offset": "0xe07",
+   "kind": "ascii",
+   "rva": "0x1a07",
+   "va": "0x100001a07",
+   "tags": []
+  },
+  {
+   "text": "D$`H",
+   "offset": "0xe0c",
+   "kind": "ascii",
+   "rva": "0x1a0c",
+   "va": "0x100001a0c",
+   "tags": []
+  },
+  {
+   "text": "|$h@:",
+   "offset": "0xe7f",
+   "kind": "ascii",
+   "rva": "0x1a7f",
+   "va": "0x100001a7f",
+   "tags": []
+  },
+  {
+   "text": "D$XH",
+   "offset": "0xf36",
+   "kind": "ascii",
+   "rva": "0x1b36",
+   "va": "0x100001b36",
+   "tags": []
+  },
+  {
+   "text": "T$0H",
+   "offset": "0xf70",
+   "kind": "ascii",
+   "rva": "0x1b70",
+   "va": "0x100001b70",
+   "tags": []
+  },
+  {
+   "text": "T$4H",
+   "offset": "0xf9e",
+   "kind": "ascii",
+   "rva": "0x1b9e",
+   "va": "0x100001b9e",
+   "tags": []
+  },
+  {
+   "text": "\\$4D9\\$0ujH",
+   "offset": "0xfac",
+   "kind": "ascii",
+   "rva": "0x1bac",
+   "va": "0x100001bac",
+   "tags": []
+  },
+  {
+   "text": "uKH;",
+   "offset": "0xfd3",
+   "kind": "ascii",
+   "rva": "0x1bd3",
+   "va": "0x100001bd3",
+   "tags": []
+  },
+  {
+   "text": "T$8H",
+   "offset": "0xfe0",
+   "kind": "ascii",
+   "rva": "0x1be0",
+   "va": "0x100001be0",
+   "tags": []
+  },
+  {
+   "text": "D$8H",
+   "offset": "0xfe8",
+   "kind": "ascii",
+   "rva": "0x1be8",
+   "va": "0x100001be8",
+   "tags": []
+  },
+  {
+   "text": "L$XH3",
+   "offset": "0x1058",
+   "kind": "ascii",
+   "rva": "0x1c58",
+   "va": "0x100001c58",
+   "tags": []
+  },
+  {
+   "text": "\\$xH",
+   "offset": "0x1065",
+   "kind": "ascii",
+   "rva": "0x1c65",
+   "va": "0x100001c65",
+   "tags": []
+  },
+  {
+   "text": "WATAUAVAWH",
+   "offset": "0x109b",
+   "kind": "ascii",
+   "rva": "0x1c9b",
+   "va": "0x100001c9b",
+   "tags": []
+  },
+  {
+   "text": "|$xD",
+   "offset": "0x1198",
+   "kind": "ascii",
+   "rva": "0x1d98",
+   "va": "0x100001d98",
+   "tags": []
+  },
+  {
+   "text": "KBI;",
+   "offset": "0x11d9",
+   "kind": "ascii",
+   "rva": "0x1dd9",
+   "va": "0x100001dd9",
+   "tags": []
+  },
+  {
+   "text": "A_A^A]A\\_",
+   "offset": "0x1278",
+   "kind": "ascii",
+   "rva": "0x1e78",
+   "va": "0x100001e78",
+   "tags": []
+  },
+  {
+   "text": "|$hH",
+   "offset": "0x12a0",
+   "kind": "ascii",
+   "rva": "0x1ea0",
+   "va": "0x100001ea0",
+   "tags": []
+  },
+  {
+   "text": "D$ A",
+   "offset": "0x12a5",
+   "kind": "ascii",
+   "rva": "0x1ea5",
+   "va": "0x100001ea5",
+   "tags": []
+  },
+  {
+   "text": "D$\\E3",
+   "offset": "0x12d2",
+   "kind": "ascii",
+   "rva": "0x1ed2",
+   "va": "0x100001ed2",
+   "tags": []
+  },
+  {
+   "text": "|$\\D",
+   "offset": "0x12dd",
+   "kind": "ascii",
+   "rva": "0x1edd",
+   "va": "0x100001edd",
+   "tags": []
+  },
+  {
+   "text": "l$XH",
+   "offset": "0x12e2",
+   "kind": "ascii",
+   "rva": "0x1ee2",
+   "va": "0x100001ee2",
+   "tags": []
+  },
+  {
+   "text": "|$`A:",
+   "offset": "0x1317",
+   "kind": "ascii",
+   "rva": "0x1f17",
+   "va": "0x100001f17",
+   "tags": []
+  },
+  {
+   "text": "D$`L",
+   "offset": "0x1321",
+   "kind": "ascii",
+   "rva": "0x1f21",
+   "va": "0x100001f21",
+   "tags": []
+  },
+  {
+   "text": "|$0E3",
+   "offset": "0x1326",
+   "kind": "ascii",
+   "rva": "0x1f26",
+   "va": "0x100001f26",
+   "tags": []
+  },
+  {
+   "text": "|$(H",
+   "offset": "0x133b",
+   "kind": "ascii",
+   "rva": "0x1f3b",
+   "va": "0x100001f3b",
+   "tags": []
+  },
+  {
+   "text": "T$`L",
+   "offset": "0x135d",
+   "kind": "ascii",
+   "rva": "0x1f5d",
+   "va": "0x100001f5d",
+   "tags": []
+  },
+  {
+   "text": "D9=}'",
+   "offset": "0x1380",
+   "kind": "ascii",
+   "rva": "0x1f80",
+   "va": "0x100001f80",
+   "tags": []
+  },
+  {
+   "text": "|$hD",
+   "offset": "0x14ba",
+   "kind": "ascii",
+   "rva": "0x20ba",
+   "va": "0x1000020ba",
+   "tags": []
+  },
+  {
+   "text": "\\$hH",
+   "offset": "0x14dc",
+   "kind": "ascii",
+   "rva": "0x20dc",
+   "va": "0x1000020dc",
+   "tags": []
+  },
+  {
+   "text": "D$\\L",
+   "offset": "0x1511",
+   "kind": "ascii",
+   "rva": "0x2111",
+   "va": "0x100002111",
+   "tags": []
+  },
+  {
+   "text": "9\\$Xt",
+   "offset": "0x153c",
+   "kind": "ascii",
+   "rva": "0x213c",
+   "va": "0x10000213c",
+   "tags": []
+  },
+  {
+   "text": "D$\\3",
+   "offset": "0x154f",
+   "kind": "ascii",
+   "rva": "0x214f",
+   "va": "0x10000214f",
+   "tags": []
+  },
+  {
+   "text": "l$`L",
+   "offset": "0x1600",
+   "kind": "ascii",
+   "rva": "0x2200",
+   "va": "0x100002200",
+   "tags": []
+  },
+  {
+   "text": "tII;",
+   "offset": "0x16aa",
+   "kind": "ascii",
+   "rva": "0x22aa",
+   "va": "0x1000022aa",
+   "tags": []
+  },
+  {
+   "text": "t*fD9:t",
+   "offset": "0x171c",
+   "kind": "ascii",
+   "rva": "0x231c",
+   "va": "0x10000231c",
+   "tags": []
+  },
+  {
+   "text": "|$@D",
+   "offset": "0x186c",
+   "kind": "ascii",
+   "rva": "0x246c",
+   "va": "0x10000246c",
+   "tags": []
+  },
+  {
+   "text": "|$8L",
+   "offset": "0x1871",
+   "kind": "ascii",
+   "rva": "0x2471",
+   "va": "0x100002471",
+   "tags": []
+  },
+  {
+   "text": "D$|L",
+   "offset": "0x192d",
+   "kind": "ascii",
+   "rva": "0x252d",
+   "va": "0x10000252d",
+   "tags": []
+  },
+  {
+   "text": "L$xL",
+   "offset": "0x1932",
+   "kind": "ascii",
+   "rva": "0x2532",
+   "va": "0x100002532",
+   "tags": []
+  },
+  {
+   "text": "T$`H",
+   "offset": "0x1975",
+   "kind": "ascii",
+   "rva": "0x2575",
+   "va": "0x100002575",
+   "tags": []
+  },
+  {
+   "text": "D$TA",
+   "offset": "0x1993",
+   "kind": "ascii",
+   "rva": "0x2593",
+   "va": "0x100002593",
+   "tags": []
+  },
+  {
+   "text": "D9|$pu",
+   "offset": "0x19b7",
+   "kind": "ascii",
+   "rva": "0x25b7",
+   "va": "0x1000025b7",
+   "tags": []
+  },
+  {
+   "text": "urD8|$PukA:",
+   "offset": "0x19d3",
+   "kind": "ascii",
+   "rva": "0x25d3",
+   "va": "0x1000025d3",
+   "tags": []
+  },
+  {
+   "text": "|$(L",
+   "offset": "0x19fd",
+   "kind": "ascii",
+   "rva": "0x25fd",
+   "va": "0x1000025fd",
+   "tags": []
+  },
+  {
+   "text": "|$`H",
+   "offset": "0x1a02",
+   "kind": "ascii",
+   "rva": "0x2602",
+   "va": "0x100002602",
+   "tags": []
+  },
+  {
+   "text": "D$pI;",
+   "offset": "0x1a66",
+   "kind": "ascii",
+   "rva": "0x2666",
+   "va": "0x100002666",
+   "tags": []
+  },
+  {
+   "text": "D$xH",
+   "offset": "0x1ae8",
+   "kind": "ascii",
+   "rva": "0x26e8",
+   "va": "0x1000026e8",
+   "tags": []
+  },
+  {
+   "text": "D$|H",
+   "offset": "0x1b07",
+   "kind": "ascii",
+   "rva": "0x2707",
+   "va": "0x100002707",
+   "tags": []
+  },
+  {
+   "text": "D$0H",
+   "offset": "0x1b1c",
+   "kind": "ascii",
+   "rva": "0x271c",
+   "va": "0x10000271c",
+   "tags": []
+  },
+  {
+   "text": "D$pD",
+   "offset": "0x1b21",
+   "kind": "ascii",
+   "rva": "0x2721",
+   "va": "0x100002721",
+   "tags": []
+  },
+  {
+   "text": "T$pL",
+   "offset": "0x1b95",
+   "kind": "ascii",
+   "rva": "0x2795",
+   "va": "0x100002795",
+   "tags": []
+  },
+  {
+   "text": "L$pI;",
+   "offset": "0x1bda",
+   "kind": "ascii",
+   "rva": "0x27da",
+   "va": "0x1000027da",
+   "tags": []
+  },
+  {
+   "text": "L$8D",
+   "offset": "0x1d19",
+   "kind": "ascii",
+   "rva": "0x2919",
+   "va": "0x100002919",
+   "tags": []
+  },
+  {
+   "text": "\\$8L3",
+   "offset": "0x1d2a",
+   "kind": "ascii",
+   "rva": "0x292a",
+   "va": "0x10000292a",
+   "tags": []
+  },
+  {
+   "text": "\\$@H",
+   "offset": "0x1d54",
+   "kind": "ascii",
+   "rva": "0x2954",
+   "va": "0x100002954",
+   "tags": []
+  },
+  {
+   "text": "@SVWH",
+   "offset": "0x1d64",
+   "kind": "ascii",
+   "rva": "0x2964",
+   "va": "0x100002964",
+   "tags": []
+  },
+  {
+   "text": "L$0H",
+   "offset": "0x1dae",
+   "kind": "ascii",
+   "rva": "0x29ae",
+   "va": "0x1000029ae",
+   "tags": []
+  },
+  {
+   "text": "L$pL",
+   "offset": "0x1db3",
+   "kind": "ascii",
+   "rva": "0x29b3",
+   "va": "0x1000029b3",
+   "tags": []
+  },
+  {
+   "text": "L$(3",
+   "offset": "0x1dbb",
+   "kind": "ascii",
+   "rva": "0x29bb",
+   "va": "0x1000029bb",
+   "tags": []
+  },
+  {
+   "text": "\\$XH",
+   "offset": "0x1dd9",
+   "kind": "ascii",
+   "rva": "0x29d9",
+   "va": "0x1000029d9",
+   "tags": []
+  },
+  {
+   "text": "@_^[",
+   "offset": "0x1e59",
+   "kind": "ascii",
+   "rva": "0x2a59",
+   "va": "0x100002a59",
+   "tags": []
+  },
+  {
+   "text": "L$ H",
+   "offset": "0x1e7b",
+   "kind": "ascii",
+   "rva": "0x2a7b",
+   "va": "0x100002a7b",
+   "tags": []
+  },
+  {
+   "text": "D$ f",
+   "offset": "0x1e85",
+   "kind": "ascii",
+   "rva": "0x2a85",
+   "va": "0x100002a85",
+   "tags": []
+  },
+  {
+   "text": "L$0f",
+   "offset": "0x1e8b",
+   "kind": "ascii",
+   "rva": "0x2a8b",
+   "va": "0x100002a8b",
+   "tags": []
+  },
+  {
+   "text": "T$@f",
+   "offset": "0x1e91",
+   "kind": "ascii",
+   "rva": "0x2a91",
+   "va": "0x100002a91",
+   "tags": []
+  },
+  {
+   "text": "\\$PH",
+   "offset": "0x1e97",
+   "kind": "ascii",
+   "rva": "0x2a97",
+   "va": "0x100002a97",
+   "tags": []
+  },
+  {
+   "text": "oD$ f",
+   "offset": "0x1eab",
+   "kind": "ascii",
+   "rva": "0x2aab",
+   "va": "0x100002aab",
+   "tags": []
+  },
+  {
+   "text": "oL$0f",
+   "offset": "0x1eb1",
+   "kind": "ascii",
+   "rva": "0x2ab1",
+   "va": "0x100002ab1",
+   "tags": []
+  },
+  {
+   "text": "oT$@f",
+   "offset": "0x1eb7",
+   "kind": "ascii",
+   "rva": "0x2ab7",
+   "va": "0x100002ab7",
+   "tags": []
+  },
+  {
+   "text": "o\\$PH",
+   "offset": "0x1ebd",
+   "kind": "ascii",
+   "rva": "0x2abd",
+   "va": "0x100002abd",
+   "tags": []
+  },
+  {
+   "text": "L$pH",
+   "offset": "0x1ec3",
+   "kind": "ascii",
+   "rva": "0x2ac3",
+   "va": "0x100002ac3",
+   "tags": []
+  },
+  {
+   "text": "T$xL",
+   "offset": "0x1ec8",
+   "kind": "ascii",
+   "rva": "0x2ac8",
+   "va": "0x100002ac8",
+   "tags": []
+  },
+  {
+   "text": "[ UVWATAUAVAWH",
+   "offset": "0x1fa5",
+   "kind": "ascii",
+   "rva": "0x2ba5",
+   "va": "0x100002ba5",
+   "tags": []
+  },
+  {
+   "text": "D$ H",
+   "offset": "0x1fc5",
+   "kind": "ascii",
+   "rva": "0x2bc5",
+   "va": "0x100002bc5",
+   "tags": []
+  },
+  {
+   "text": "!D$`L",
+   "offset": "0x200a",
+   "kind": "ascii",
+   "rva": "0x2c0a",
+   "va": "0x100002c0a",
+   "tags": []
+  },
+  {
+   "text": "D$ M",
+   "offset": "0x2023",
+   "kind": "ascii",
+   "rva": "0x2c23",
+   "va": "0x100002c23",
+   "tags": []
+  },
+  {
+   "text": "T$ 3",
+   "offset": "0x209e",
+   "kind": "ascii",
+   "rva": "0x2c9e",
+   "va": "0x100002c9e",
+   "tags": []
+  },
+  {
+   "text": "D$ L",
+   "offset": "0x2117",
+   "kind": "ascii",
+   "rva": "0x2d17",
+   "va": "0x100002d17",
+   "tags": []
+  },
+  {
+   "text": "|$PH",
+   "offset": "0x2191",
+   "kind": "ascii",
+   "rva": "0x2d91",
+   "va": "0x100002d91",
+   "tags": []
+  },
+  {
+   "text": "t)9^",
+   "offset": "0x21b4",
+   "kind": "ascii",
+   "rva": "0x2db4",
+   "va": "0x100002db4",
+   "tags": []
+  },
+  {
+   "text": "t$HcG<",
+   "offset": "0x21b9",
+   "kind": "ascii",
+   "rva": "0x2db9",
+   "va": "0x100002db9",
+   "tags": []
+  },
+  {
+   "text": "<8PE",
+   "offset": "0x21c0",
+   "kind": "ascii",
+   "rva": "0x2dc0",
+   "va": "0x100002dc0",
+   "tags": []
+  },
+  {
+   "text": "D9|8",
+   "offset": "0x21c8",
+   "kind": "ascii",
+   "rva": "0x2dc8",
+   "va": "0x100002dc8",
+   "tags": []
+  },
+  {
+   "text": "H;|80u",
+   "offset": "0x21cf",
+   "kind": "ascii",
+   "rva": "0x2dcf",
+   "va": "0x100002dcf",
+   "tags": []
+  },
+  {
+   "text": "T$HH",
+   "offset": "0x21e1",
+   "kind": "ascii",
+   "rva": "0x2de1",
+   "va": "0x100002de1",
+   "tags": []
+  },
+  {
+   "text": "\\$XI",
+   "offset": "0x2245",
+   "kind": "ascii",
+   "rva": "0x2e45",
+   "va": "0x100002e45",
+   "tags": []
+  },
+  {
+   "text": "pA_A^A]A\\_^]",
+   "offset": "0x2281",
+   "kind": "ascii",
+   "rva": "0x2e81",
+   "va": "0x100002e81",
+   "tags": []
+  },
+  {
+   "text": "OleInitialize",
+   "offset": "0x247a",
+   "kind": "ascii",
+   "rva": "0x307a",
+   "va": "0x10000307a",
+   "tags": []
+  },
+  {
+   "text": "OleUninitialize",
+   "offset": "0x248a",
+   "kind": "ascii",
+   "rva": "0x308a",
+   "va": "0x10000308a",
+   "tags": []
+  },
+  {
+   "text": "CoInitializeSecurity",
+   "offset": "0x249c",
+   "kind": "ascii",
+   "rva": "0x309c",
+   "va": "0x10000309c",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "CoFreeUnusedLibraries",
+   "offset": "0x24b4",
+   "kind": "ascii",
+   "rva": "0x30b4",
+   "va": "0x1000030b4",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "ShellExecuteW",
+   "offset": "0x24cc",
+   "kind": "ascii",
+   "rva": "0x30cc",
+   "va": "0x1000030cc",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "SetCurrentProcessExplicitAppUserModelID",
+   "offset": "0x24dc",
+   "kind": "ascii",
+   "rva": "0x30dc",
+   "va": "0x1000030dc",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "EventWrite",
+   "offset": "0x27da",
+   "kind": "ascii",
+   "rva": "0x33da",
+   "va": "0x1000033da",
+   "tags": []
+  },
+  {
+   "text": "RegQueryValueExW",
+   "offset": "0x27e8",
+   "kind": "ascii",
+   "rva": "0x33e8",
+   "va": "0x1000033e8",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "EventUnregister",
+   "offset": "0x27fc",
+   "kind": "ascii",
+   "rva": "0x33fc",
+   "va": "0x1000033fc",
+   "tags": []
+  },
+  {
+   "text": "RegOpenKeyExW",
+   "offset": "0x280e",
+   "kind": "ascii",
+   "rva": "0x340e",
+   "va": "0x10000340e",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "EventRegister",
+   "offset": "0x281e",
+   "kind": "ascii",
+   "rva": "0x341e",
+   "va": "0x10000341e",
+   "tags": []
+  },
+  {
+   "text": "RegCloseKey",
+   "offset": "0x282e",
+   "kind": "ascii",
+   "rva": "0x342e",
+   "va": "0x10000342e",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "ADVAPI32.dll",
+   "offset": "0x283a",
+   "kind": "ascii",
+   "rva": "0x343a",
+   "va": "0x10000343a",
+   "tags": [
+    "module-name"
+   ]
+  },
+  {
+   "text": "ExitProcess",
+   "offset": "0x284a",
+   "kind": "ascii",
+   "rva": "0x344a",
+   "va": "0x10000344a",
+   "tags": []
+  },
+  {
+   "text": "GetCommandLineW",
+   "offset": "0x2858",
+   "kind": "ascii",
+   "rva": "0x3458",
+   "va": "0x100003458",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "CreateMutexW",
+   "offset": "0x286a",
+   "kind": "ascii",
+   "rva": "0x346a",
+   "va": "0x10000346a",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "SetErrorMode",
+   "offset": "0x287a",
+   "kind": "ascii",
+   "rva": "0x347a",
+   "va": "0x10000347a",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "FreeLibrary",
+   "offset": "0x288a",
+   "kind": "ascii",
+   "rva": "0x348a",
+   "va": "0x10000348a",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "HeapAlloc",
+   "offset": "0x2898",
+   "kind": "ascii",
+   "rva": "0x3498",
+   "va": "0x100003498",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "HeapFree",
+   "offset": "0x28a4",
+   "kind": "ascii",
+   "rva": "0x34a4",
+   "va": "0x1000034a4",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "SetProcessDEPPolicy",
+   "offset": "0x28b0",
+   "kind": "ascii",
+   "rva": "0x34b0",
+   "va": "0x1000034b0",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "SetEvent",
+   "offset": "0x28c6",
+   "kind": "ascii",
+   "rva": "0x34c6",
+   "va": "0x1000034c6",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "GetModuleHandleW",
+   "offset": "0x28d2",
+   "kind": "ascii",
+   "rva": "0x34d2",
+   "va": "0x1000034d2",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "GetCurrentThread",
+   "offset": "0x28e6",
+   "kind": "ascii",
+   "rva": "0x34e6",
+   "va": "0x1000034e6",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "GetProcessHeap",
+   "offset": "0x28fa",
+   "kind": "ascii",
+   "rva": "0x34fa",
+   "va": "0x1000034fa",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "LoadLibraryW",
+   "offset": "0x290c",
+   "kind": "ascii",
+   "rva": "0x350c",
+   "va": "0x10000350c",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "CompareStringOrdinal",
+   "offset": "0x291c",
+   "kind": "ascii",
+   "rva": "0x351c",
+   "va": "0x10000351c",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "FormatMessageW",
+   "offset": "0x2934",
+   "kind": "ascii",
+   "rva": "0x3534",
+   "va": "0x100003534",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "lstrlenW",
+   "offset": "0x2946",
+   "kind": "ascii",
+   "rva": "0x3546",
+   "va": "0x100003546",
+   "tags": []
+  },
+  {
+   "text": "SetThreadPriority",
+   "offset": "0x2952",
+   "kind": "ascii",
+   "rva": "0x3552",
+   "va": "0x100003552",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "GetStartupInfoW",
+   "offset": "0x2966",
+   "kind": "ascii",
+   "rva": "0x3566",
+   "va": "0x100003566",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "GetLastError",
+   "offset": "0x2978",
+   "kind": "ascii",
+   "rva": "0x3578",
+   "va": "0x100003578",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "GetProcAddress",
+   "offset": "0x2988",
+   "kind": "ascii",
+   "rva": "0x3588",
+   "va": "0x100003588",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "SetCurrentDirectoryW",
+   "offset": "0x299a",
+   "kind": "ascii",
+   "rva": "0x359a",
+   "va": "0x10000359a",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "OpenEventW",
+   "offset": "0x29b2",
+   "kind": "ascii",
+   "rva": "0x35b2",
+   "va": "0x1000035b2",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "CloseHandle",
+   "offset": "0x29c0",
+   "kind": "ascii",
+   "rva": "0x35c0",
+   "va": "0x1000035c0",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "LocalFree",
+   "offset": "0x29ce",
+   "kind": "ascii",
+   "rva": "0x35ce",
+   "va": "0x1000035ce",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "ExpandEnvironmentStringsW",
+   "offset": "0x29da",
+   "kind": "ascii",
+   "rva": "0x35da",
+   "va": "0x1000035da",
+   "tags": []
+  },
+  {
+   "text": "QueryPerformanceCounter",
+   "offset": "0x29f6",
+   "kind": "ascii",
+   "rva": "0x35f6",
+   "va": "0x1000035f6",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "GetTickCount",
+   "offset": "0x2a10",
+   "kind": "ascii",
+   "rva": "0x3610",
+   "va": "0x100003610",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "GetCurrentThreadId",
+   "offset": "0x2a20",
+   "kind": "ascii",
+   "rva": "0x3620",
+   "va": "0x100003620",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "GetCurrentProcessId",
+   "offset": "0x2a36",
+   "kind": "ascii",
+   "rva": "0x3636",
+   "va": "0x100003636",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "GetSystemTimeAsFileTime",
+   "offset": "0x2a4c",
+   "kind": "ascii",
+   "rva": "0x364c",
+   "va": "0x10000364c",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "TerminateProcess",
+   "offset": "0x2a66",
+   "kind": "ascii",
+   "rva": "0x3666",
+   "va": "0x100003666",
+   "tags": []
+  },
+  {
+   "text": "GetCurrentProcess",
+   "offset": "0x2a7a",
+   "kind": "ascii",
+   "rva": "0x367a",
+   "va": "0x10000367a",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "UnhandledExceptionFilter",
+   "offset": "0x2a8e",
+   "kind": "ascii",
+   "rva": "0x368e",
+   "va": "0x10000368e",
+   "tags": []
+  },
+  {
+   "text": "SetUnhandledExceptionFilter",
+   "offset": "0x2aaa",
+   "kind": "ascii",
+   "rva": "0x36aa",
+   "va": "0x1000036aa",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "RtlVirtualUnwind",
+   "offset": "0x2ac8",
+   "kind": "ascii",
+   "rva": "0x36c8",
+   "va": "0x1000036c8",
+   "tags": []
+  },
+  {
+   "text": "RtlLookupFunctionEntry",
+   "offset": "0x2adc",
+   "kind": "ascii",
+   "rva": "0x36dc",
+   "va": "0x1000036dc",
+   "tags": []
+  },
+  {
+   "text": "RtlCaptureContext",
+   "offset": "0x2af6",
+   "kind": "ascii",
+   "rva": "0x36f6",
+   "va": "0x1000036f6",
+   "tags": []
+  },
+  {
+   "text": "KERNEL32.dll",
+   "offset": "0x2b08",
+   "kind": "ascii",
+   "rva": "0x3708",
+   "va": "0x100003708",
+   "tags": [
+    "module-name"
+   ]
+  },
+  {
+   "text": "GetWindow",
+   "offset": "0x2b18",
+   "kind": "ascii",
+   "rva": "0x3718",
+   "va": "0x100003718",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "GetWindowThreadProcessId",
+   "offset": "0x2b24",
+   "kind": "ascii",
+   "rva": "0x3724",
+   "va": "0x100003724",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "IsWindowVisible",
+   "offset": "0x2b40",
+   "kind": "ascii",
+   "rva": "0x3740",
+   "va": "0x100003740",
+   "tags": []
+  },
+  {
+   "text": "GetSystemMetrics",
+   "offset": "0x2b52",
+   "kind": "ascii",
+   "rva": "0x3752",
+   "va": "0x100003752",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "MessageBoxW",
+   "offset": "0x2b66",
+   "kind": "ascii",
+   "rva": "0x3766",
+   "va": "0x100003766",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "SendMessageTimeoutW",
+   "offset": "0x2b74",
+   "kind": "ascii",
+   "rva": "0x3774",
+   "va": "0x100003774",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "ShowWindow",
+   "offset": "0x2b8a",
+   "kind": "ascii",
+   "rva": "0x378a",
+   "va": "0x10000378a",
+   "tags": []
+  },
+  {
+   "text": "GetDesktopWindow",
+   "offset": "0x2b98",
+   "kind": "ascii",
+   "rva": "0x3798",
+   "va": "0x100003798",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "GetClassNameW",
+   "offset": "0x2bac",
+   "kind": "ascii",
+   "rva": "0x37ac",
+   "va": "0x1000037ac",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "FindWindowW",
+   "offset": "0x2bbc",
+   "kind": "ascii",
+   "rva": "0x37bc",
+   "va": "0x1000037bc",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "GetParent",
+   "offset": "0x2bca",
+   "kind": "ascii",
+   "rva": "0x37ca",
+   "va": "0x1000037ca",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "SetForegroundWindow",
+   "offset": "0x2bd6",
+   "kind": "ascii",
+   "rva": "0x37d6",
+   "va": "0x1000037d6",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "IsIconic",
+   "offset": "0x2bec",
+   "kind": "ascii",
+   "rva": "0x37ec",
+   "va": "0x1000037ec",
+   "tags": []
+  },
+  {
+   "text": "USER32.dll",
+   "offset": "0x2bf6",
+   "kind": "ascii",
+   "rva": "0x37f6",
+   "va": "0x1000037f6",
+   "tags": [
+    "module-name"
+   ]
+  },
+  {
+   "text": "WS2_32.dll",
+   "offset": "0x2c02",
+   "kind": "ascii",
+   "rva": "0x3802",
+   "va": "0x100003802",
+   "tags": [
+    "module-name"
+   ]
+  },
+  {
+   "text": "LocalAlloc",
+   "offset": "0x2c10",
+   "kind": "ascii",
+   "rva": "0x3810",
+   "va": "0x100003810",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "LoadLibraryA",
+   "offset": "0x2c1e",
+   "kind": "ascii",
+   "rva": "0x381e",
+   "va": "0x10000381e",
+   "tags": [
+    "api-name"
+   ]
+  },
+  {
+   "text": "RaiseException",
+   "offset": "0x2c2e",
+   "kind": "ascii",
+   "rva": "0x382e",
+   "va": "0x10000382e",
+   "tags": []
+  },
+  {
+   "text": "memset",
+   "offset": "0x2c40",
+   "kind": "ascii",
+   "rva": "0x3840",
+   "va": "0x100003840",
+   "tags": []
+  },
+  {
+   "text": "ntdll.dll",
+   "offset": "0x2c48",
+   "kind": "ascii",
+   "rva": "0x3848",
+   "va": "0x100003848",
+   "tags": [
+    "module-name"
+   ]
+  },
+  {
+   "text": "~~~v",
+   "offset": "0x4bef",
+   "kind": "ascii",
+   "rva": "0x79ef",
+   "va": "0x1000079ef",
+   "tags": []
+  },
+  {
+   "text": "n~~x",
+   "offset": "0x4f94",
+   "kind": "ascii",
+   "rva": "0x7d94",
+   "va": "0x100007d94",
+   "tags": []
+  },
+  {
+   "text": "((((",
+   "offset": "0x5609",
+   "kind": "ascii",
+   "rva": "0x8409",
+   "va": "0x100008409",
+   "tags": []
+  },
+  {
+   "text": "\\ZZ[`",
+   "offset": "0x56d7",
+   "kind": "ascii",
+   "rva": "0x84d7",
+   "va": "0x1000084d7",
+   "tags": []
+  },
+  {
+   "text": "C?????>>>?D",
+   "offset": "0x5714",
+   "kind": "ascii",
+   "rva": "0x8514",
+   "va": "0x100008514",
+   "tags": []
+  },
+  {
+   "text": "C>AAAAAAAAAA>?D",
+   "offset": "0x5752",
+   "kind": "ascii",
+   "rva": "0x8552",
+   "va": "0x100008552",
+   "tags": []
+  },
+  {
+   "text": "h>AAAAAAAAAAAAAA>A",
+   "offset": "0x5790",
+   "kind": "ascii",
+   "rva": "0x8590",
+   "va": "0x100008590",
+   "tags": []
+  },
+  {
+   "text": "\\?BBAAAABAAAAAAAAAA>",
+   "offset": "0x57cf",
+   "kind": "ascii",
+   "rva": "0x85cf",
+   "va": "0x1000085cf",
+   "tags": []
+  },
+  {
+   "text": "_BAABAABABAAAAAAAAAAA>",
+   "offset": "0x580e",
+   "kind": "ascii",
+   "rva": "0x860e",
+   "va": "0x10000860e",
+   "tags": []
+  },
+  {
+   "text": "@A@BL",
+   "offset": "0x584e",
+   "kind": "ascii",
+   "rva": "0x864e",
+   "va": "0x10000864e",
+   "tags": []
+  },
+  {
+   "text": "VBBBACAAAAAAAAA",
+   "offset": "0x5856",
+   "kind": "ascii",
+   "rva": "0x8656",
+   "va": "0x100008656",
+   "tags": []
+  },
+  {
+   "text": "BA@BA",
+   "offset": "0x588d",
+   "kind": "ascii",
+   "rva": "0x868d",
+   "va": "0x10000868d",
+   "tags": []
+  },
+  {
+   "text": "hCCAAACAAAAAA?Z",
+   "offset": "0x5897",
+   "kind": "ascii",
+   "rva": "0x8697",
+   "va": "0x100008697",
+   "tags": []
+  },
+  {
+   "text": "_B@CAL",
+   "offset": "0x58cc",
+   "kind": "ascii",
+   "rva": "0x86cc",
+   "va": "0x1000086cc",
+   "tags": []
+  },
+  {
+   "text": "ZCCABACACAAC?",
+   "offset": "0x58d9",
+   "kind": "ascii",
+   "rva": "0x86d9",
+   "va": "0x1000086d9",
+   "tags": []
+  },
+  {
+   "text": "@@CB@X",
+   "offset": "0x590c",
+   "kind": "ascii",
+   "rva": "0x870c",
+   "va": "0x10000870c",
+   "tags": []
+  },
+  {
+   "text": "LCBABAABAAAY",
+   "offset": "0x591b",
+   "kind": "ascii",
+   "rva": "0x871b",
+   "va": "0x10000871b",
+   "tags": []
+  },
+  {
+   "text": "T@CB@BX",
+   "offset": "0x594b",
+   "kind": "ascii",
+   "rva": "0x874b",
+   "va": "0x10000874b",
+   "tags": []
+  },
+  {
+   "text": "\\LCACBACAAA",
+   "offset": "0x595c",
+   "kind": "ascii",
+   "rva": "0x875c",
+   "va": "0x10000875c",
+   "tags": []
+  },
+  {
+   "text": "I@KBKBX",
+   "offset": "0x598b",
+   "kind": "ascii",
+   "rva": "0x878b",
+   "va": "0x10000878b",
+   "tags": []
+  },
+  {
+   "text": "WCBBBABB?h",
+   "offset": "0x599e",
+   "kind": "ascii",
+   "rva": "0x879e",
+   "va": "0x10000879e",
+   "tags": []
+  },
+  {
+   "text": "@KC@C@X",
+   "offset": "0x59cb",
+   "kind": "ascii",
+   "rva": "0x87cb",
+   "va": "0x1000087cb",
+   "tags": []
+  },
+  {
+   "text": "`VCBBBBA[",
+   "offset": "0x59df",
+   "kind": "ascii",
+   "rva": "0x87df",
+   "va": "0x1000087df",
+   "tags": []
+  },
+  {
+   "text": "@K@CKBU",
+   "offset": "0x5a0b",
+   "kind": "ascii",
+   "rva": "0x880b",
+   "va": "0x10000880b",
+   "tags": []
+  },
+  {
+   "text": "XVCBB@C",
+   "offset": "0x5a21",
+   "kind": "ascii",
+   "rva": "0x8821",
+   "va": "0x100008821",
+   "tags": []
+  },
+  {
+   "text": "S@KKKK@X",
+   "offset": "0x5a4a",
+   "kind": "ascii",
+   "rva": "0x884a",
+   "va": "0x10000884a",
+   "tags": []
+  },
+  {
+   "text": "`VCAC@",
+   "offset": "0x5a62",
+   "kind": "ascii",
+   "rva": "0x8862",
+   "va": "0x100008862",
+   "tags": []
+  },
+  {
+   "text": "R@KKBCKU",
+   "offset": "0x5a8a",
+   "kind": "ascii",
+   "rva": "0x888a",
+   "va": "0x10000888a",
+   "tags": []
+  },
+  {
+   "text": "`L@C@",
+   "offset": "0x5aa3",
+   "kind": "ascii",
+   "rva": "0x88a3",
+   "va": "0x1000088a3",
+   "tags": []
+  },
+  {
+   "text": "QGKKKK@X",
+   "offset": "0x5aca",
+   "kind": "ascii",
+   "rva": "0x88ca",
+   "va": "0x1000088ca",
+   "tags": []
+  },
+  {
+   "text": "LCBB",
+   "offset": "0x5ae4",
+   "kind": "ascii",
+   "rva": "0x88e4",
+   "va": "0x1000088e4",
+   "tags": []
+  },
+  {
+   "text": "QGKKKKKU",
+   "offset": "0x5b0a",
+   "kind": "ascii",
+   "rva": "0x890a",
+   "va": "0x10000890a",
+   "tags": []
+  },
+  {
+   "text": "L@@@",
+   "offset": "0x5b24",
+   "kind": "ascii",
+   "rva": "0x8924",
+   "va": "0x100008924",
+   "tags": []
+  },
+  {
+   "text": "ULKCK",
+   "offset": "0x5b63",
+   "kind": "ascii",
+   "rva": "0x8963",
+   "va": "0x100008963",
+   "tags": []
+  },
+  {
+   "text": "PGLKKKKa",
+   "offset": "0x5b8a",
+   "kind": "ascii",
+   "rva": "0x898a",
+   "va": "0x10000898a",
+   "tags": []
+  },
+  {
+   "text": "]CK@CK",
+   "offset": "0x5ba2",
+   "kind": "ascii",
+   "rva": "0x89a2",
+   "va": "0x1000089a2",
+   "tags": []
+  },
+  {
+   "text": "EGKKKKK^",
+   "offset": "0x5bca",
+   "kind": "ascii",
+   "rva": "0x89ca",
+   "va": "0x1000089ca",
+   "tags": []
+  },
+  {
+   "text": "b]CGCK@W",
+   "offset": "0x5be0",
+   "kind": "ascii",
+   "rva": "0x89e0",
+   "va": "0x1000089e0",
+   "tags": []
+  },
+  {
+   "text": "rGKMKKKa",
+   "offset": "0x5c0a",
+   "kind": "ascii",
+   "rva": "0x8a0a",
+   "va": "0x100008a0a",
+   "tags": []
+  },
+  {
+   "text": "]LKKKK@@b",
+   "offset": "0x5c1f",
+   "kind": "ascii",
+   "rva": "0x8a1f",
+   "va": "0x100008a1f",
+   "tags": []
+  },
+  {
+   "text": "HMKMKKa",
+   "offset": "0x5c4b",
+   "kind": "ascii",
+   "rva": "0x8a4b",
+   "va": "0x100008a4b",
+   "tags": []
+  },
+  {
+   "text": "bNLKKKCKK@",
+   "offset": "0x5c5d",
+   "kind": "ascii",
+   "rva": "0x8a5d",
+   "va": "0x100008a5d",
+   "tags": []
+  },
+  {
+   "text": "OGNKMKa",
+   "offset": "0x5c8b",
+   "kind": "ascii",
+   "rva": "0x8a8b",
+   "va": "0x100008a8b",
+   "tags": []
+  },
+  {
+   "text": "aWMKKKKK@Cb",
+   "offset": "0x5c9c",
+   "kind": "ascii",
+   "rva": "0x8a9c",
+   "va": "0x100008a9c",
+   "tags": []
+  },
+  {
+   "text": "qMKMMKb",
+   "offset": "0x5ccb",
+   "kind": "ascii",
+   "rva": "0x8acb",
+   "va": "0x100008acb",
+   "tags": []
+  },
+  {
+   "text": "g]MKKKKKKKLa",
+   "offset": "0x5cda",
+   "kind": "ascii",
+   "rva": "0x8ada",
+   "va": "0x100008ada",
+   "tags": []
+  },
+  {
+   "text": "FMMMKa",
+   "offset": "0x5d0c",
+   "kind": "ascii",
+   "rva": "0x8b0c",
+   "va": "0x100008b0c",
+   "tags": []
+  },
+  {
+   "text": "]NLKKLKKKKNgi",
+   "offset": "0x5d19",
+   "kind": "ascii",
+   "rva": "0x8b19",
+   "va": "0x100008b19",
+   "tags": []
+  },
+  {
+   "text": "qGMMMa",
+   "offset": "0x5d4c",
+   "kind": "ascii",
+   "rva": "0x8b4c",
+   "va": "0x100008b4c",
+   "tags": []
+  },
+  {
+   "text": "b]NMKMKMKKKbhb",
+   "offset": "0x5d57",
+   "kind": "ascii",
+   "rva": "0x8b57",
+   "va": "0x100008b57",
+   "tags": []
+  },
+  {
+   "text": "OMMMM",
+   "offset": "0x5d8d",
+   "kind": "ascii",
+   "rva": "0x8b8d",
+   "va": "0x100008b8d",
+   "tags": []
+  },
+  {
+   "text": "aNMMMMMKKMUjibi",
+   "offset": "0x5d96",
+   "kind": "ascii",
+   "rva": "0x8b96",
+   "va": "0x100008b96",
+   "tags": []
+  },
+  {
+   "text": "tJMMMMaNNMMMMKKMNaijbbb",
+   "offset": "0x5dcd",
+   "kind": "ascii",
+   "rva": "0x8bcd",
+   "va": "0x100008bcd",
+   "tags": []
+  },
+  {
+   "text": "lHMMMMMMMMMNNabjjggbb",
+   "offset": "0x5e0e",
+   "kind": "ascii",
+   "rva": "0x8c0e",
+   "va": "0x100008c0e",
+   "tags": []
+  },
+  {
+   "text": "sUNUNNUabbiijigbgbb",
+   "offset": "0x5e4f",
+   "kind": "ascii",
+   "rva": "0x8c4f",
+   "va": "0x100008c4f",
+   "tags": []
+  },
+  {
+   "text": "iijiiiiicgcgbbi",
+   "offset": "0x5e92",
+   "kind": "ascii",
+   "rva": "0x8c92",
+   "va": "0x100008c92",
+   "tags": []
+  },
+  {
+   "text": "eccccibgcbci",
+   "offset": "0x5ed3",
+   "kind": "ascii",
+   "rva": "0x8cd3",
+   "va": "0x100008cd3",
+   "tags": []
+  },
+  {
+   "text": "fcgcggf",
+   "offset": "0x5f16",
+   "kind": "ascii",
+   "rva": "0x8d16",
+   "va": "0x100008d16",
+   "tags": []
+  },
+  {
+   "text": "666|",
+   "offset": "0x6008",
+   "kind": "ascii",
+   "rva": "0x8e08",
+   "va": "0x100008e08",
+   "tags": []
+  },
+  {
+   "text": "X_jjx",
+   "offset": "0x6ad4",
+   "kind": "ascii",
+   "rva": "0x98d4",
+   "va": "0x1000098d4",
+   "tags": []
+  },
+  {
+   "text": "\\X_bjbbiiibbu",
+   "offset": "0x6afc",
+   "kind": "ascii",
+   "rva": "0x98fc",
+   "va": "0x1000098fc",
+   "tags": []
+  },
+  {
+   "text": "\\X_blllliiibbb___b^x",
+   "offset": "0x6b25",
+   "kind": "ascii",
+   "rva": "0x9925",
+   "va": "0x100009925",
+   "tags": []
+  },
+  {
+   "text": "X_bjjlllljbbbbbbbb_bb___^x",
+   "offset": "0x6b4f",
+   "kind": "ascii",
+   "rva": "0x994f",
+   "va": "0x10000994f",
+   "tags": []
+  },
+  {
+   "text": "_Xrruurlljbbljnnnnljbibb^^__^_w",
+   "offset": "0x6b7a",
+   "kind": "ascii",
+   "rva": "0x997a",
+   "va": "0x10000997a",
+   "tags": []
+  },
+  {
+   "text": "l^nrryzo}~M",
+   "offset": "0x6baf",
+   "kind": "ascii",
+   "rva": "0x99af",
+   "va": "0x1000099af",
+   "tags": []
+  },
+  {
+   "text": "rlbbiiibbbbx",
+   "offset": "0x6bbd",
+   "kind": "ascii",
+   "rva": "0x99bd",
+   "va": "0x1000099bd",
+   "tags": []
+  },
+  {
+   "text": "_bryzeIE(&$((EI|lj_ljiiiby",
+   "offset": "0x6bdf",
+   "kind": "ascii",
+   "rva": "0x99df",
+   "va": "0x1000099df",
+   "tags": []
+  },
+  {
+   "text": "r{%&&&&&&$$$+I",
+   "offset": "0x6c12",
+   "kind": "ascii",
+   "rva": "0x9a12",
+   "va": "0x100009a12",
+   "tags": []
+  },
+  {
+   "text": "b_jjjiiy",
+   "offset": "0x6c21",
+   "kind": "ascii",
+   "rva": "0x9a21",
+   "va": "0x100009a21",
+   "tags": []
+  },
+  {
+   "text": "XjoD+'''&&&&&&&$$E|i",
+   "offset": "0x6c3f",
+   "kind": "ascii",
+   "rva": "0x9a3f",
+   "va": "0x100009a3f",
+   "tags": []
+  },
+  {
+   "text": "ljji",
+   "offset": "0x6c54",
+   "kind": "ascii",
+   "rva": "0x9a54",
+   "va": "0x100009a54",
+   "tags": []
+  },
+  {
+   "text": "ngC('",
+   "offset": "0x6c6f",
+   "kind": "ascii",
+   "rva": "0x9a6f",
+   "va": "0x100009a6f",
+   "tags": []
+  },
+  {
+   "text": " &'&&&'&&&&B|lXljiy",
+   "offset": "0x6c76",
+   "kind": "ascii",
+   "rva": "0x9a76",
+   "va": "0x100009a76",
+   "tags": []
+  },
+  {
+   "text": "rC)''",
+   "offset": "0x6c9f",
+   "kind": "ascii",
+   "rva": "0x9a9f",
+   "va": "0x100009a9f",
+   "tags": []
+  },
+  {
+   "text": "M'&&'''&&&&&E",
+   "offset": "0x6ca6",
+   "kind": "ascii",
+   "rva": "0x9aa6",
+   "va": "0x100009aa6",
+   "tags": []
+  },
+  {
+   "text": "_biiy",
+   "offset": "0x6cb4",
+   "kind": "ascii",
+   "rva": "0x9ab4",
+   "va": "0x100009ab4",
+   "tags": []
+  },
+  {
+   "text": "})) M",
+   "offset": "0x6ccf",
+   "kind": "ascii",
+   "rva": "0x9acf",
+   "va": "0x100009acf",
+   "tags": []
+  },
+  {
+   "text": "F'''''''&&&FeXji",
+   "offset": "0x6cd8",
+   "kind": "ascii",
+   "rva": "0x9ad8",
+   "va": "0x100009ad8",
+   "tags": []
+  },
+  {
+   "text": "u%))",
+   "offset": "0x6cfe",
+   "kind": "ascii",
+   "rva": "0x9afe",
+   "va": "0x100009afe",
+   "tags": []
+  },
+  {
+   "text": "+''''''''(",
+   "offset": "0x6d0a",
+   "kind": "ascii",
+   "rva": "0x9b0a",
+   "va": "0x100009b0a",
+   "tags": []
+  },
+  {
+   "text": "[Xjy",
+   "offset": "0x6d15",
+   "kind": "ascii",
+   "rva": "0x9b15",
+   "va": "0x100009b15",
+   "tags": []
+  },
+  {
+   "text": "{)))",
+   "offset": "0x6d2e",
+   "kind": "ascii",
+   "rva": "0x9b2e",
+   "va": "0x100009b2e",
+   "tags": []
+  },
+  {
+   "text": "L()'('''(CPXj",
+   "offset": "0x6d3b",
+   "kind": "ascii",
+   "rva": "0x9b3b",
+   "va": "0x100009b3b",
+   "tags": []
+  },
+  {
+   "text": "x#*2*",
+   "offset": "0x6d5d",
+   "kind": "ascii",
+   "rva": "0x9b5d",
+   "va": "0x100009b5d",
+   "tags": []
+  },
+  {
+   "text": "E)('(((%|Sby",
+   "offset": "0x6d6d",
+   "kind": "ascii",
+   "rva": "0x9b6d",
+   "va": "0x100009b6d",
+   "tags": []
+  },
+  {
+   "text": "e#222",
+   "offset": "0x6d8d",
+   "kind": "ascii",
+   "rva": "0x9b8d",
+   "va": "0x100009b8d",
+   "tags": []
+  },
+  {
+   "text": "L+*'')(KUX",
+   "offset": "0x6d9e",
+   "kind": "ascii",
+   "rva": "0x9b9e",
+   "va": "0x100009b9e",
+   "tags": []
+  },
+  {
+   "text": "{#222",
+   "offset": "0x6dbd",
+   "kind": "ascii",
+   "rva": "0x9bbd",
+   "va": "0x100009bbd",
+   "tags": []
+  },
+  {
+   "text": "F+*''Fd",
+   "offset": "0x6dd0",
+   "kind": "ascii",
+   "rva": "0x9bd0",
+   "va": "0x100009bd0",
+   "tags": []
+  },
+  {
+   "text": "F2322!",
+   "offset": "0x6ded",
+   "kind": "ascii",
+   "rva": "0x9bed",
+   "va": "0x100009bed",
+   "tags": []
+  },
+  {
+   "text": "L9()6",
+   "offset": "0x6e01",
+   "kind": "ascii",
+   "rva": "0x9c01",
+   "va": "0x100009c01",
+   "tags": []
+  },
+  {
+   "text": "63323\"",
+   "offset": "0x6e1d",
+   "kind": "ascii",
+   "rva": "0x9c1d",
+   "va": "0x100009c1d",
+   "tags": []
+  },
+  {
+   "text": "H*)6",
+   "offset": "0x6e32",
+   "kind": "ascii",
+   "rva": "0x9c32",
+   "va": "0x100009c32",
+   "tags": []
+  },
+  {
+   "text": "63333\"",
+   "offset": "0x6e4d",
+   "kind": "ascii",
+   "rva": "0x9c4d",
+   "va": "0x100009c4d",
+   "tags": []
+  },
+  {
+   "text": "M2)#",
+   "offset": "0x6e62",
+   "kind": "ascii",
+   "rva": "0x9c62",
+   "va": "0x100009c62",
+   "tags": []
+  },
+  {
+   "text": "63533\"",
+   "offset": "0x6e7d",
+   "kind": "ascii",
+   "rva": "0x9c7d",
+   "va": "0x100009c7d",
+   "tags": []
+  },
+  {
+   "text": "H2)6",
+   "offset": "0x6e92",
+   "kind": "ascii",
+   "rva": "0x9c92",
+   "va": "0x100009c92",
+   "tags": []
+  },
+  {
+   "text": "95535\"",
+   "offset": "0x6ead",
+   "kind": "ascii",
+   "rva": "0x9cad",
+   "va": "0x100009cad",
+   "tags": []
+  },
+  {
+   "text": "H92)Ge",
+   "offset": "0x6ec1",
+   "kind": "ascii",
+   "rva": "0x9cc1",
+   "va": "0x100009cc1",
+   "tags": []
+  },
+  {
+   "text": "{7553,",
+   "offset": "0x6edd",
+   "kind": "ascii",
+   "rva": "0x9cdd",
+   "va": "0x100009cdd",
+   "tags": []
+  },
+  {
+   "text": "H9222\"MU",
+   "offset": "0x6eef",
+   "kind": "ascii",
+   "rva": "0x9cef",
+   "va": "0x100009cef",
+   "tags": []
+  },
+  {
+   "text": "V7555,",
+   "offset": "0x6f0d",
+   "kind": "ascii",
+   "rva": "0x9d0d",
+   "va": "0x100009d0d",
+   "tags": []
+  },
+  {
+   "text": "952323\"",
+   "offset": "0x6f1e",
+   "kind": "ascii",
+   "rva": "0x9d1e",
+   "va": "0x100009d1e",
+   "tags": []
+  },
+  {
+   "text": "o75;5,",
+   "offset": "0x6f3d",
+   "kind": "ascii",
+   "rva": "0x9d3d",
+   "va": "0x100009d3d",
+   "tags": []
+  },
+  {
+   "text": "G93225327",
+   "offset": "0x6f4c",
+   "kind": "ascii",
+   "rva": "0x9d4c",
+   "va": "0x100009d4c",
+   "tags": []
+  },
+  {
+   "text": "I;;;,",
+   "offset": "0x6f6e",
+   "kind": "ascii",
+   "rva": "0x9d6e",
+   "va": "0x100009d6e",
+   "tags": []
+  },
+  {
+   "text": "N?94355332LT",
+   "offset": "0x6f7a",
+   "kind": "ascii",
+   "rva": "0x9d7a",
+   "va": "0x100009d7a",
+   "tags": []
+  },
+  {
+   "text": "V.;;2",
+   "offset": "0x6f9e",
+   "kind": "ascii",
+   "rva": "0x9d9e",
+   "va": "0x100009d9e",
+   "tags": []
+  },
+  {
+   "text": "J;555553557",
+   "offset": "0x6fa9",
+   "kind": "ascii",
+   "rva": "0x9da9",
+   "va": "0x100009da9",
+   "tags": []
+  },
+  {
+   "text": "x@<;,",
+   "offset": "0x6fce",
+   "kind": "ascii",
+   "rva": "0x9dce",
+   "va": "0x100009dce",
+   "tags": []
+  },
+  {
+   "text": "??555555552L[",
+   "offset": "0x6fd8",
+   "kind": "ascii",
+   "rva": "0x9dd8",
+   "va": "0x100009dd8",
+   "tags": []
+  },
+  {
+   "text": "c<=:G",
+   "offset": "0x6fff",
+   "kind": "ascii",
+   "rva": "0x9dff",
+   "va": "0x100009dff",
+   "tags": []
+  },
+  {
+   "text": "J?;4;;5;5554Ge",
+   "offset": "0x7006",
+   "kind": "ascii",
+   "rva": "0x9e06",
+   "va": "0x100009e06",
+   "tags": []
+  },
+  {
+   "text": "jmmz",
+   "offset": "0x7015",
+   "kind": "ascii",
+   "rva": "0x9e15",
+   "va": "0x100009e15",
+   "tags": []
+  },
+  {
+   "text": "lQ.=:-4:;;;;;;;;;5=",
+   "offset": "0x702f",
+   "kind": "ascii",
+   "rva": "0x9e2f",
+   "va": "0x100009e2f",
+   "tags": []
+  },
+  {
+   "text": "Xjwnm",
+   "offset": "0x7043",
+   "kind": "ascii",
+   "rva": "0x9e43",
+   "va": "0x100009e43",
+   "tags": []
+  },
+  {
+   "text": "rbP<>=====;;;;;;:>",
+   "offset": "0x705f",
+   "kind": "ascii",
+   "rva": "0x9e5f",
+   "va": "0x100009e5f",
+   "tags": []
+  },
+  {
+   "text": "bixwrnz",
+   "offset": "0x7072",
+   "kind": "ascii",
+   "rva": "0x9e72",
+   "va": "0x100009e72",
+   "tags": []
+  },
+  {
+   "text": "lrrT?.==?===;=;.Geblyxwwn",
+   "offset": "0x708f",
+   "kind": "ascii",
+   "rva": "0x9e8f",
+   "va": "0x100009e8f",
+   "tags": []
+  },
+  {
+   "text": "ubO/./<<<..<|hjryxxwrr",
+   "offset": "0x70c2",
+   "kind": "ascii",
+   "rva": "0x9ec2",
+   "va": "0x100009ec2",
+   "tags": []
+  },
+  {
+   "text": "yilVOA0AOVlrr",
+   "offset": "0x70f3",
+   "kind": "ascii",
+   "rva": "0x9ef3",
+   "va": "0x100009ef3",
+   "tags": []
+  },
+  {
+   "text": "yyyxxyw",
+   "offset": "0x7101",
+   "kind": "ascii",
+   "rva": "0x9f01",
+   "va": "0x100009f01",
+   "tags": []
+  },
+  {
+   "text": "nuyuuxxyxx",
+   "offset": "0x7124",
+   "kind": "ascii",
+   "rva": "0x9f24",
+   "va": "0x100009f24",
+   "tags": []
+  },
+  {
+   "text": "yyyyyyywy",
+   "offset": "0x712f",
+   "kind": "ascii",
+   "rva": "0x9f2f",
+   "va": "0x100009f2f",
+   "tags": []
+  },
+  {
+   "text": "yyuw",
+   "offset": "0x7164",
+   "kind": "ascii",
+   "rva": "0x9f64",
+   "va": "0x100009f64",
+   "tags": []
+  },
+  {
+   "text": "\\XXX__bbiilwrrru",
+   "offset": "0x7181",
+   "kind": "ascii",
+   "rva": "0x9f81",
+   "va": "0x100009f81",
+   "tags": []
+  },
+  {
+   "text": "b____YY",
+   "offset": "0x71b6",
+   "kind": "ascii",
+   "rva": "0x9fb6",
+   "va": "0x100009fb6",
+   "tags": []
+  },
+  {
+   "text": "OMMMI",
+   "offset": "0x7922",
+   "kind": "ascii",
+   "rva": "0xa722",
+   "va": "0x10000a722",
+   "tags": []
+  },
+  {
+   "text": "OOMMNQQRVVVW]",
+   "offset": "0x793a",
+   "kind": "ascii",
+   "rva": "0xa73a",
+   "va": "0x10000a73a",
+   "tags": []
+  },
+  {
+   "text": "MOMMIMQSTW__WWWb___]]",
+   "offset": "0x7952",
+   "kind": "ascii",
+   "rva": "0xa752",
+   "va": "0x10000a752",
+   "tags": []
+  },
+  {
+   "text": "TgfhWbfpvxxii_cb`]ba",
+   "offset": "0x7973",
+   "kind": "ascii",
+   "rva": "0xa773",
+   "va": "0x10000a773",
+   "tags": []
+  },
+  {
+   "text": "\"|XQbihhc",
+   "offset": "0x799e",
+   "kind": "ascii",
+   "rva": "0xa79e",
+   "va": "0x10000a79e",
+   "tags": []
+  },
+  {
+   "text": "ZIbihd",
+   "offset": "0x79c1",
+   "kind": "ascii",
+   "rva": "0xa7c1",
+   "va": "0x10000a7c1",
+   "tags": []
+  },
+  {
+   "text": "ZIchd",
+   "offset": "0x79e2",
+   "kind": "ascii",
+   "rva": "0xa7e2",
+   "va": "0x10000a7e2",
+   "tags": []
+  },
+  {
+   "text": "HIbd",
+   "offset": "0x7a03",
+   "kind": "ascii",
+   "rva": "0xa803",
+   "va": "0x10000a803",
+   "tags": []
+  },
+  {
+   "text": "5OOu",
+   "offset": "0x7a23",
+   "kind": "ascii",
+   "rva": "0xa823",
+   "va": "0x10000a823",
+   "tags": []
+  },
+  {
+   "text": "m6.4$z",
+   "offset": "0x7ad3",
+   "kind": "ascii",
+   "rva": "0xa8d3",
+   "va": "0x10000a8d3",
+   "tags": []
+  },
+  {
+   "text": "m8%<$z",
+   "offset": "0x7af3",
+   "kind": "ascii",
+   "rva": "0xa8f3",
+   "va": "0x10000a8f3",
+   "tags": []
+  },
+  {
+   "text": "H*</z",
+   "offset": "0x7b14",
+   "kind": "ascii",
+   "rva": "0xa914",
+   "va": "0x10000a914",
+   "tags": []
+  },
+  {
+   "text": "**-$COu",
+   "offset": "0x7b20",
+   "kind": "ascii",
+   "rva": "0xa920",
+   "va": "0x10000a920",
+   "tags": []
+  },
+  {
+   "text": "63/}",
+   "offset": "0x7b35",
+   "kind": "ascii",
+   "rva": "0xa935",
+   "va": "0x10000a935",
+   "tags": []
+  },
+  {
+   "text": "},*,--",
+   "offset": "0x7b3c",
+   "kind": "ascii",
+   "rva": "0xa93c",
+   "va": "0x10000a93c",
+   "tags": []
+  },
+  {
+   "text": ";Ibw",
+   "offset": "0x7b43",
+   "kind": "ascii",
+   "rva": "0xa943",
+   "va": "0x10000a943",
+   "tags": []
+  },
+  {
+   "text": "E'&B",
+   "offset": "0x7b55",
+   "kind": "ascii",
+   "rva": "0xa955",
+   "va": "0x10000a955",
+   "tags": []
+  },
+  {
+   "text": "?/00--++CQxu",
+   "offset": "0x7b5b",
+   "kind": "ascii",
+   "rva": "0xa95b",
+   "va": "0x10000a95b",
+   "tags": []
+  },
+  {
+   "text": "mC01<0/4040-*GQvxw",
+   "offset": "0x7b75",
+   "kind": "ascii",
+   "rva": "0xa975",
+   "va": "0x10000a975",
+   "tags": []
+  },
+  {
+   "text": "pSC(%04440,(GMivww",
+   "offset": "0x7b95",
+   "kind": "ascii",
+   "rva": "0xa995",
+   "va": "0x10000a995",
+   "tags": []
+  },
+  {
+   "text": "m_pD#7'$'78FQpxuwt",
+   "offset": "0x7bb5",
+   "kind": "ascii",
+   "rva": "0xa9b5",
+   "va": "0x10000a9b5",
+   "tags": []
+  },
+  {
+   "text": "fTppTOOPORWfuwutwt",
+   "offset": "0x7bd5",
+   "kind": "ascii",
+   "rva": "0xa9d5",
+   "va": "0x10000a9d5",
+   "tags": []
+  },
+  {
+   "text": "p]iiuuuuuwuxwwwwwx",
+   "offset": "0x7bf5",
+   "kind": "ascii",
+   "rva": "0xa9f5",
+   "va": "0x10000a9f5",
+   "tags": []
+  },
+  {
+   "text": "KGFFD",
+   "offset": "0x8186",
+   "kind": "ascii",
+   "rva": "0xaf86",
+   "va": "0x10000af86",
+   "tags": []
+  },
+  {
+   "text": "JGJJFFJIJMMQ[",
+   "offset": "0x8196",
+   "kind": "ascii",
+   "rva": "0xaf96",
+   "va": "0x10000af96",
+   "tags": []
+  },
+  {
+   "text": "GFBFFJNW[_XRS[SRR[",
+   "offset": "0x81a9",
+   "kind": "ascii",
+   "rva": "0xafa9",
+   "va": "0x10000afa9",
+   "tags": []
+  },
+  {
+   "text": "Nc{c[c_TA@@ATOSYRRZ",
+   "offset": "0x81c0",
+   "kind": "ascii",
+   "rva": "0xafc0",
+   "va": "0x10000afc0",
+   "tags": []
+  },
+  {
+   "text": "SQjl",
+   "offset": "0x81db",
+   "kind": "ascii",
+   "rva": "0xafdb",
+   "va": "0x10000afdb",
+   "tags": []
+  },
+  {
+   "text": "@LS_[[",
+   "offset": "0x81e5",
+   "kind": "ascii",
+   "rva": "0xafe5",
+   "va": "0x10000afe5",
+   "tags": []
+  },
+  {
+   "text": "JX{ST",
+   "offset": "0x81f0",
+   "kind": "ascii",
+   "rva": "0xaff0",
+   "va": "0x10000aff0",
+   "tags": []
+  },
+  {
+   "text": "7BR]f",
+   "offset": "0x81fe",
+   "kind": "ascii",
+   "rva": "0xaffe",
+   "va": "0x10000affe",
+   "tags": []
+  },
+  {
+   "text": "JX|_",
+   "offset": "0x8208",
+   "kind": "ascii",
+   "rva": "0xb008",
+   "va": "0x10000b008",
+   "tags": []
+  },
+  {
+   "text": "JXzk",
+   "offset": "0x8220",
+   "kind": "ascii",
+   "rva": "0xb020",
+   "va": "0x10000b020",
+   "tags": []
+  },
+  {
+   "text": "JX0*",
+   "offset": "0x8280",
+   "kind": "ascii",
+   "rva": "0xb080",
+   "va": "0x10000b080",
+   "tags": []
+  },
+  {
+   "text": "J[0%",
+   "offset": "0x8298",
+   "kind": "ascii",
+   "rva": "0xb098",
+   "va": "0x10000b098",
+   "tags": []
+  },
+  {
+   "text": "JX;%",
+   "offset": "0x82b0",
+   "kind": "ascii",
+   "rva": "0xb0b0",
+   "va": "0x10000b0b0",
+   "tags": []
+  },
+  {
+   "text": "Jc@.$-~",
+   "offset": "0x82c8",
+   "kind": "ascii",
+   "rva": "0xb0c8",
+   "va": "0x10000b0c8",
+   "tags": []
+  },
+  {
+   "text": "$.=M",
+   "offset": "0x82d7",
+   "kind": "ascii",
+   "rva": "0xb0d7",
+   "va": "0x10000b0d7",
+   "tags": []
+  },
+  {
+   "text": "IcV%$(~",
+   "offset": "0x82e0",
+   "kind": "ascii",
+   "rva": "0xb0e0",
+   "va": "0x10000b0e0",
+   "tags": []
+  },
+  {
+   "text": "++%9",
+   "offset": "0x82ed",
+   "kind": "ascii",
+   "rva": "0xb0ed",
+   "va": "0x10000b0ed",
+   "tags": []
+  },
+  {
+   "text": "Jcx6\"1",
+   "offset": "0x82f8",
+   "kind": "ascii",
+   "rva": "0xb0f8",
+   "va": "0x10000b0f8",
+   "tags": []
+  },
+  {
+   "text": "$--*'=Ft",
+   "offset": "0x8303",
+   "kind": "ascii",
+   "rva": "0xb103",
+   "va": "0x10000b103",
+   "tags": []
+  },
+  {
+   "text": "JX|F##mo-",
+   "offset": "0x8310",
+   "kind": "ascii",
+   "rva": "0xb110",
+   "va": "0x10000b110",
+   "tags": []
+  },
+  {
+   "text": ",1--#:",
+   "offset": "0x831a",
+   "kind": "ascii",
+   "rva": "0xb11a",
+   "va": "0x10000b11a",
+   "tags": []
+  },
+  {
+   "text": "ISxW>\"\"\",221'&9",
+   "offset": "0x8328",
+   "kind": "ascii",
+   "rva": "0xb128",
+   "va": "0x10000b128",
+   "tags": []
+  },
+  {
+   "text": "FWxSQG5&&&&&'6BYfef",
+   "offset": "0x8340",
+   "kind": "ascii",
+   "rva": "0xb140",
+   "va": "0x10000b140",
+   "tags": []
+  },
+  {
+   "text": "JSxQRrND@34?GN[f`[t",
+   "offset": "0x8358",
+   "kind": "ascii",
+   "rva": "0xb158",
+   "va": "0x10000b158",
+   "tags": []
+  },
+  {
+   "text": "JM{[Rf``````]fiffft",
+   "offset": "0x8370",
+   "kind": "ascii",
+   "rva": "0xb170",
+   "va": "0x10000b170",
+   "tags": []
+  },
+  {
+   "text": "*'&&%$$$$$$$$'",
+   "offset": "0x8851",
+   "kind": "ascii",
+   "rva": "0xb651",
+   "va": "0x10000b651",
+   "tags": []
+  },
+  {
+   "text": "3,0,/",
+   "offset": "0x8911",
+   "kind": "ascii",
+   "rva": "0xb711",
+   "va": "0x10000b711",
+   "tags": []
+  },
+  {
+   "text": "\"!!'",
+   "offset": "0x891b",
+   "kind": "ascii",
+   "rva": "0xb71b",
+   "va": "0x10000b71b",
+   "tags": []
+  },
+  {
+   "text": "3333333332**(*",
+   "offset": "0x8921",
+   "kind": "ascii",
+   "rva": "0xb721",
+   "va": "0x10000b721",
+   "tags": []
+  },
+  {
+   "text": "IHDR",
+   "offset": "0x898c",
+   "kind": "ascii",
+   "rva": "0xb78c",
+   "va": "0x10000b78c",
+   "tags": []
+  },
+  {
+   "text": "IDATx",
+   "offset": "0x89a5",
+   "kind": "ascii",
+   "rva": "0xb7a5",
+   "va": "0x10000b7a5",
+   "tags": []
+  },
+  {
+   "text": "TJV%",
+   "offset": "0x89e2",
+   "kind": "ascii",
+   "rva": "0xb7e2",
+   "va": "0x10000b7e2",
+   "tags": []
+  },
+  {
+   "text": "_dML",
+   "offset": "0x8bc3",
+   "kind": "ascii",
+   "rva": "0xb9c3",
+   "va": "0x10000b9c3",
+   "tags": []
+  },
+  {
+   "text": "66RE",
+   "offset": "0x8bee",
+   "kind": "ascii",
+   "rva": "0xb9ee",
+   "va": "0x10000b9ee",
+   "tags": []
+  },
+  {
+   "text": ",+BrS",
+   "offset": "0x8cc5",
+   "kind": "ascii",
+   "rva": "0xbac5",
+   "va": "0x10000bac5",
+   "tags": []
+  },
+  {
+   "text": "h*,<~",
+   "offset": "0x8ccc",
+   "kind": "ascii",
+   "rva": "0xbacc",
+   "va": "0x10000bacc",
+   "tags": []
+  },
+  {
+   "text": "jt47ZK",
+   "offset": "0x8ceb",
+   "kind": "ascii",
+   "rva": "0xbaeb",
+   "va": "0x10000baeb",
+   "tags": []
+  },
+  {
+   "text": ")KR^",
+   "offset": "0x8d5d",
+   "kind": "ascii",
+   "rva": "0xbb5d",
+   "va": "0x10000bb5d",
+   "tags": []
+  },
+  {
+   "text": "9nm/V",
+   "offset": "0x8eb4",
+   "kind": "ascii",
+   "rva": "0xbcb4",
+   "va": "0x10000bcb4",
+   "tags": []
+  },
+  {
+   "text": "vwA:",
+   "offset": "0x8eea",
+   "kind": "ascii",
+   "rva": "0xbcea",
+   "va": "0x10000bcea",
+   "tags": []
+  },
+  {
+   "text": "cIB8v",
+   "offset": "0x8f51",
+   "kind": "ascii",
+   "rva": "0xbd51",
+   "va": "0x10000bd51",
+   "tags": []
+  },
+  {
+   "text": "Q<A;be#",
+   "offset": "0x8f8d",
+   "kind": "ascii",
+   "rva": "0xbd8d",
+   "va": "0x10000bd8d",
+   "tags": []
+  },
+  {
+   "text": "vSi=",
+   "offset": "0x900e",
+   "kind": "ascii",
+   "rva": "0xbe0e",
+   "va": "0x10000be0e",
+   "tags": []
+  },
+  {
+   "text": "h!m4",
+   "offset": "0x904e",
+   "kind": "ascii",
+   "rva": "0xbe4e",
+   "va": "0x10000be4e",
+   "tags": []
+  },
+  {
+   "text": "7-@q",
+   "offset": "0x9086",
+   "kind": "ascii",
+   "rva": "0xbe86",
+   "va": "0x10000be86",
+   "tags": []
+  },
+  {
+   "text": "x+Q<b\"MD",
+   "offset": "0x9099",
+   "kind": "ascii",
+   "rva": "0xbe99",
+   "va": "0x10000be99",
+   "tags": []
+  },
+  {
+   "text": "vRLwE",
+   "offset": "0x90db",
+   "kind": "ascii",
+   "rva": "0xbedb",
+   "va": "0x10000bedb",
+   "tags": []
+  },
+  {
+   "text": "\"W'[",
+   "offset": "0x90e3",
+   "kind": "ascii",
+   "rva": "0xbee3",
+   "va": "0x10000bee3",
+   "tags": []
+  },
+  {
+   "text": "-U\"|",
+   "offset": "0x913a",
+   "kind": "ascii",
+   "rva": "0xbf3a",
+   "va": "0x10000bf3a",
+   "tags": []
+  },
+  {
+   "text": "bi(2",
+   "offset": "0x9147",
+   "kind": "ascii",
+   "rva": "0xbf47",
+   "va": "0x10000bf47",
+   "tags": []
+  },
+  {
+   "text": "(0+%\"t",
+   "offset": "0x914f",
+   "kind": "ascii",
+   "rva": "0xbf4f",
+   "va": "0x10000bf4f",
+   "tags": []
+  },
+  {
+   "text": ">|a;",
+   "offset": "0x915d",
+   "kind": "ascii",
+   "rva": "0xbf5d",
+   "va": "0x10000bf5d",
+   "tags": []
+  },
+  {
+   "text": "dq#o9",
+   "offset": "0x9163",
+   "kind": "ascii",
+   "rva": "0xbf63",
+   "va": "0x10000bf63",
+   "tags": []
+  },
+  {
+   "text": "-0)\"",
+   "offset": "0x91d7",
+   "kind": "ascii",
+   "rva": "0xbfd7",
+   "va": "0x10000bfd7",
+   "tags": []
+  },
+  {
+   "text": "&c-v",
+   "offset": "0x91f0",
+   "kind": "ascii",
+   "rva": "0xbff0",
+   "va": "0x10000bff0",
+   "tags": []
+  },
+  {
+   "text": "^e5N]",
+   "offset": "0x9200",
+   "kind": "ascii",
+   "rva": "0xc000",
+   "va": "0x10000c000",
+   "tags": []
+  },
+  {
+   "text": "3#Ow",
+   "offset": "0x921e",
+   "kind": "ascii",
+   "rva": "0xc01e",
+   "va": "0x10000c01e",
+   "tags": []
+  },
+  {
+   "text": "@&!6",
+   "offset": "0x9269",
+   "kind": "ascii",
+   "rva": "0xc069",
+   "va": "0x10000c069",
+   "tags": []
+  },
+  {
+   "text": "mjH_",
+   "offset": "0x9273",
+   "kind": "ascii",
+   "rva": "0xc073",
+   "va": "0x10000c073",
+   "tags": []
+  },
+  {
+   "text": "8X:zt",
+   "offset": "0x9294",
+   "kind": "ascii",
+   "rva": "0xc094",
+   "va": "0x10000c094",
+   "tags": []
+  },
+  {
+   "text": "p'&~",
+   "offset": "0x92ca",
+   "kind": "ascii",
+   "rva": "0xc0ca",
+   "va": "0x10000c0ca",
+   "tags": []
+  },
+  {
+   "text": "+2{$",
+   "offset": "0x9345",
+   "kind": "ascii",
+   "rva": "0xc145",
+   "va": "0x10000c145",
+   "tags": []
+  },
+  {
+   "text": "fRD$",
+   "offset": "0x93f3",
+   "kind": "ascii",
+   "rva": "0xc1f3",
+   "va": "0x10000c1f3",
+   "tags": []
+  },
+  {
+   "text": "(jCD",
+   "offset": "0x9460",
+   "kind": "ascii",
+   "rva": "0xc260",
+   "va": "0x10000c260",
+   "tags": []
+  },
+  {
+   "text": "D`D(",
+   "offset": "0x948c",
+   "kind": "ascii",
+   "rva": "0xc28c",
+   "va": "0x10000c28c",
+   "tags": []
+  },
+  {
+   "text": "i!?wS",
+   "offset": "0x94c1",
+   "kind": "ascii",
+   "rva": "0xc2c1",
+   "va": "0x10000c2c1",
+   "tags": []
+  },
+  {
+   "text": "0Q<P",
+   "offset": "0x94de",
+   "kind": "ascii",
+   "rva": "0xc2de",
+   "va": "0x10000c2de",
+   "tags": []
+  },
+  {
+   "text": "C^RO",
+   "offset": "0x9511",
+   "kind": "ascii",
+   "rva": "0xc311",
+   "va": "0x10000c311",
+   "tags": []
+  },
+  {
+   "text": "0r3^",
+   "offset": "0x95db",
+   "kind": "ascii",
+   "rva": "0xc3db",
+   "va": "0x10000c3db",
+   "tags": []
+  },
+  {
+   "text": "Z1r&",
+   "offset": "0x9615",
+   "kind": "ascii",
+   "rva": "0xc415",
+   "va": "0x10000c415",
+   "tags": []
+  },
+  {
+   "text": "VvXq",
+   "offset": "0x96a6",
+   "kind": "ascii",
+   "rva": "0xc4a6",
+   "va": "0x10000c4a6",
+   "tags": []
+  },
+  {
+   "text": "Xc4v",
+   "offset": "0x96b0",
+   "kind": "ascii",
+   "rva": "0xc4b0",
+   "va": "0x10000c4b0",
+   "tags": []
+  },
+  {
+   "text": "UebKHs",
+   "offset": "0x96ce",
+   "kind": "ascii",
+   "rva": "0xc4ce",
+   "va": "0x10000c4ce",
+   "tags": []
+  },
+  {
+   "text": "_P96ifj",
+   "offset": "0x973b",
+   "kind": "ascii",
+   "rva": "0xc53b",
+   "va": "0x10000c53b",
+   "tags": []
+  },
+  {
+   "text": "Q0w7",
+   "offset": "0x9748",
+   "kind": "ascii",
+   "rva": "0xc548",
+   "va": "0x10000c548",
+   "tags": []
+  },
+  {
+   "text": "n-@|",
+   "offset": "0x97a4",
+   "kind": "ascii",
+   "rva": "0xc5a4",
+   "va": "0x10000c5a4",
+   "tags": []
+  },
+  {
+   "text": "7Zzk",
+   "offset": "0x97e6",
+   "kind": "ascii",
+   "rva": "0xc5e6",
+   "va": "0x10000c5e6",
+   "tags": []
+  },
+  {
+   "text": "K ~&k",
+   "offset": "0x97fa",
+   "kind": "ascii",
+   "rva": "0xc5fa",
+   "va": "0x10000c5fa",
+   "tags": []
+  },
+  {
+   "text": "&LGf",
+   "offset": "0x985b",
+   "kind": "ascii",
+   "rva": "0xc65b",
+   "va": "0x10000c65b",
+   "tags": []
+  },
+  {
+   "text": "*@FMl4n",
+   "offset": "0x98b0",
+   "kind": "ascii",
+   "rva": "0xc6b0",
+   "va": "0x10000c6b0",
+   "tags": []
+  },
+  {
+   "text": "@?]F",
+   "offset": "0x98bc",
+   "kind": "ascii",
+   "rva": "0xc6bc",
+   "va": "0x10000c6bc",
+   "tags": []
+  },
+  {
+   "text": "w)j4",
+   "offset": "0x98c5",
+   "kind": "ascii",
+   "rva": "0xc6c5",
+   "va": "0x10000c6c5",
+   "tags": []
+  },
+  {
+   "text": "n5gp,",
+   "offset": "0x995b",
+   "kind": "ascii",
+   "rva": "0xc75b",
+   "va": "0x10000c75b",
+   "tags": []
+  },
+  {
+   "text": ":F0K",
+   "offset": "0x9a82",
+   "kind": "ascii",
+   "rva": "0xc882",
+   "va": "0x10000c882",
+   "tags": []
+  },
+  {
+   "text": "J5[Zu:Z5[",
+   "offset": "0x9b30",
+   "kind": "ascii",
+   "rva": "0xc930",
+   "va": "0x10000c930",
+   "tags": []
+  },
+  {
+   "text": "zmmk",
+   "offset": "0x9bde",
+   "kind": "ascii",
+   "rva": "0xc9de",
+   "va": "0x10000c9de",
+   "tags": []
+  },
+  {
+   "text": "vGD%S",
+   "offset": "0x9bf6",
+   "kind": "ascii",
+   "rva": "0xc9f6",
+   "va": "0x10000c9f6",
+   "tags": [
+    "format-string"
+   ]
+  },
+  {
+   "text": "f\\/E;",
+   "offset": "0x9c1e",
+   "kind": "ascii",
+   "rva": "0xca1e",
+   "va": "0x10000ca1e",
+   "tags": []
+  },
+  {
+   "text": "go?;:",
+   "offset": "0x9c48",
+   "kind": "ascii",
+   "rva": "0xca48",
+   "va": "0x10000ca48",
+   "tags": []
+  },
+  {
+   "text": "`kmS",
+   "offset": "0x9ca1",
+   "kind": "ascii",
+   "rva": "0xcaa1",
+   "va": "0x10000caa1",
+   "tags": []
+  },
+  {
+   "text": "Flz}",
+   "offset": "0x9ca9",
+   "kind": "ascii",
+   "rva": "0xcaa9",
+   "va": "0x10000caa9",
+   "tags": []
+  },
+  {
+   "text": "`PfD",
+   "offset": "0x9cdc",
+   "kind": "ascii",
+   "rva": "0xcadc",
+   "va": "0x10000cadc",
+   "tags": []
+  },
+  {
+   "text": "(Kq/",
+   "offset": "0x9d16",
+   "kind": "ascii",
+   "rva": "0xcb16",
+   "va": "0x10000cb16",
+   "tags": []
+  },
+  {
+   "text": "Q6\"3",
+   "offset": "0x9e11",
+   "kind": "ascii",
+   "rva": "0xcc11",
+   "va": "0x10000cc11",
+   "tags": []
+  },
+  {
+   "text": "==Qsp)T^wm",
+   "offset": "0x9e2a",
+   "kind": "ascii",
+   "rva": "0xcc2a",
+   "va": "0x10000cc2a",
+   "tags": []
+  },
+  {
+   "text": "so[3",
+   "offset": "0x9f0b",
+   "kind": "ascii",
+   "rva": "0xcd0b",
+   "va": "0x10000cd0b",
+   "tags": []
+  },
+  {
+   "text": "&~}uU",
+   "offset": "0x9f92",
+   "kind": "ascii",
+   "rva": "0xcd92",
+   "va": "0x10000cd92",
+   "tags": []
+  },
+  {
+   "text": "ab/E",
+   "offset": "0xa000",
+   "kind": "ascii",
+   "rva": "0xce00",
+   "va": "0x10000ce00",
+   "tags": []
+  },
+  {
+   "text": "&d9)",
+   "offset": "0xa030",
+   "kind": "ascii",
+   "rva": "0xce30",
+   "va": "0x10000ce30",
+   "tags": []
+  },
+  {
+   "text": "UHzr",
+   "offset": "0xa0a9",
+   "kind": "ascii",
+   "rva": "0xcea9",
+   "va": "0x10000cea9",
+   "tags": []
+  },
+  {
+   "text": "FM~S",
+   "offset": "0xa105",
+   "kind": "ascii",
+   "rva": "0xcf05",
+   "va": "0x10000cf05",
+   "tags": []
+  },
+  {
+   "text": "(r'F",
+   "offset": "0xa10a",
+   "kind": "ascii",
+   "rva": "0xcf0a",
+   "va": "0x10000cf0a",
+   "tags": []
+  },
+  {
+   "text": "P\"ap",
+   "offset": "0xa145",
+   "kind": "ascii",
+   "rva": "0xcf45",
+   "va": "0x10000cf45",
+   "tags": []
+  },
+  {
+   "text": "-Nog",
+   "offset": "0xa1d4",
+   "kind": "ascii",
+   "rva": "0xcfd4",
+   "va": "0x10000cfd4",
+   "tags": []
+  },
+  {
+   "text": "JrEI",
+   "offset": "0xa20a",
+   "kind": "ascii",
+   "rva": "0xd00a",
+   "va": "0x10000d00a",
+   "tags": []
+  },
+  {
+   "text": "Faw;3(b",
+   "offset": "0xa25c",
+   "kind": "ascii",
+   "rva": "0xd05c",
+   "va": "0x10000d05c",
+   "tags": []
+  },
+  {
+   "text": "8?D$",
+   "offset": "0xa279",
+   "kind": "ascii",
+   "rva": "0xd079",
+   "va": "0x10000d079",
+   "tags": []
+  },
+  {
+   "text": "b,#QZ",
+   "offset": "0xa27f",
+   "kind": "ascii",
+   "rva": "0xd07f",
+   "va": "0x10000d07f",
+   "tags": []
+  },
+  {
+   "text": "Lok}",
+   "offset": "0xa2a1",
+   "kind": "ascii",
+   "rva": "0xd0a1",
+   "va": "0x10000d0a1",
+   "tags": []
+  },
+  {
+   "text": "@'Lf",
+   "offset": "0xa2b9",
+   "kind": "ascii",
+   "rva": "0xd0b9",
+   "va": "0x10000d0b9",
+   "tags": []
+  },
+  {
+   "text": "$9C)",
+   "offset": "0xa2ef",
+   "kind": "ascii",
+   "rva": "0xd0ef",
+   "va": "0x10000d0ef",
+   "tags": []
+  },
+  {
+   "text": ":`t4w_D",
+   "offset": "0xa317",
+   "kind": "ascii",
+   "rva": "0xd117",
+   "va": "0x10000d117",
+   "tags": []
+  },
+  {
+   "text": "9dGl",
+   "offset": "0xa32e",
+   "kind": "ascii",
+   "rva": "0xd12e",
+   "va": "0x10000d12e",
+   "tags": []
+  },
+  {
+   "text": "6F4!7",
+   "offset": "0xa381",
+   "kind": "ascii",
+   "rva": "0xd181",
+   "va": "0x10000d181",
+   "tags": []
+  },
+  {
+   "text": "hd436Moe",
+   "offset": "0xa3d6",
+   "kind": "ascii",
+   "rva": "0xd1d6",
+   "va": "0x10000d1d6",
+   "tags": []
+  },
+  {
+   "text": "\"Gwl(",
+   "offset": "0xa424",
+   "kind": "ascii",
+   "rva": "0xd224",
+   "va": "0x10000d224",
+   "tags": []
+  },
+  {
+   "text": "/ [y",
+   "offset": "0xa44a",
+   "kind": "ascii",
+   "rva": "0xd24a",
+   "va": "0x10000d24a",
+   "tags": []
+  },
+  {
+   "text": "IL`Wp",
+   "offset": "0xa47c",
+   "kind": "ascii",
+   "rva": "0xd27c",
+   "va": "0x10000d27c",
+   "tags": []
+  },
+  {
+   "text": "$>6X",
+   "offset": "0xa4ed",
+   "kind": "ascii",
+   "rva": "0xd2ed",
+   "va": "0x10000d2ed",
+   "tags": []
+  },
+  {
+   "text": ".2u(",
+   "offset": "0xa571",
+   "kind": "ascii",
+   "rva": "0xd371",
+   "va": "0x10000d371",
+   "tags": []
+  },
+  {
+   "text": "ftz-",
+   "offset": "0xa587",
+   "kind": "ascii",
+   "rva": "0xd387",
+   "va": "0x10000d387",
+   "tags": []
+  },
+  {
+   "text": "NJNJ",
+   "offset": "0xa5be",
+   "kind": "ascii",
+   "rva": "0xd3be",
+   "va": "0x10000d3be",
+   "tags": []
+  },
+  {
+   "text": "+L`?a",
+   "offset": "0xa64f",
+   "kind": "ascii",
+   "rva": "0xd44f",
+   "va": "0x10000d44f",
+   "tags": []
+  },
+  {
+   "text": "|\\~D",
+   "offset": "0xa784",
+   "kind": "ascii",
+   "rva": "0xd584",
+   "va": "0x10000d584",
+   "tags": []
+  },
+  {
+   "text": "' ]h",
+   "offset": "0xa7be",
+   "kind": "ascii",
+   "rva": "0xd5be",
+   "va": "0x10000d5be",
+   "tags": []
+  },
+  {
+   "text": "sUSiI",
+   "offset": "0xa813",
+   "kind": "ascii",
+   "rva": "0xd613",
+   "va": "0x10000d613",
+   "tags": []
+  },
+  {
+   "text": "*xB/",
+   "offset": "0xa879",
+   "kind": "ascii",
+   "rva": "0xd679",
+   "va": "0x10000d679",
+   "tags": []
+  },
+  {
+   "text": "0Yf`",
+   "offset": "0xa8a7",
+   "kind": "ascii",
+   "rva": "0xd6a7",
+   "va": "0x10000d6a7",
+   "tags": []
+  },
+  {
+   "text": "IDATx{",
+   "offset": "0xa9b1",
+   "kind": "ascii",
+   "rva": "0xd7b1",
+   "va": "0x10000d7b1",
+   "tags": []
+  },
+  {
+   "text": "t#MF~!",
+   "offset": "0xabd9",
+   "kind": "ascii",
+   "rva": "0xd9d9",
+   "va": "0x10000d9d9",
+   "tags": []
+  },
+  {
+   "text": "QBQw.",
+   "offset": "0xac40",
+   "kind": "ascii",
+   "rva": "0xda40",
+   "va": "0x10000da40",
+   "tags": []
+  },
+  {
+   "text": "YoKQ",
+   "offset": "0xac88",
+   "kind": "ascii",
+   "rva": "0xda88",
+   "va": "0x10000da88",
+   "tags": []
+  },
+  {
+   "text": "J]Yi)",
+   "offset": "0xaca5",
+   "kind": "ascii",
+   "rva": "0xdaa5",
+   "va": "0x10000daa5",
+   "tags": []
+  },
+  {
+   "text": "Qe7}",
+   "offset": "0xacf8",
+   "kind": "ascii",
+   "rva": "0xdaf8",
+   "va": "0x10000daf8",
+   "tags": []
+  },
+  {
+   "text": "!2#D",
+   "offset": "0xaebc",
+   "kind": "ascii",
+   "rva": "0xdcbc",
+   "va": "0x10000dcbc",
+   "tags": []
+  },
+  {
+   "text": "Tp`Q",
+   "offset": "0xaedd",
+   "kind": "ascii",
+   "rva": "0xdcdd",
+   "va": "0x10000dcdd",
+   "tags": []
+  },
+  {
+   "text": "%/bs",
+   "offset": "0xaefb",
+   "kind": "ascii",
+   "rva": "0xdcfb",
+   "va": "0x10000dcfb",
+   "tags": []
+  },
+  {
+   "text": "\":nu",
+   "offset": "0xb0b8",
+   "kind": "ascii",
+   "rva": "0xdeb8",
+   "va": "0x10000deb8",
+   "tags": []
+  },
+  {
+   "text": "GyJV",
+   "offset": "0xb15a",
+   "kind": "ascii",
+   "rva": "0xdf5a",
+   "va": "0x10000df5a",
+   "tags": []
+  },
+  {
+   "text": "6^IE",
+   "offset": "0xb241",
+   "kind": "ascii",
+   "rva": "0xe041",
+   "va": "0x10000e041",
+   "tags": []
+  },
+  {
+   "text": "?F |J",
+   "offset": "0xb268",
+   "kind": "ascii",
+   "rva": "0xe068",
+   "va": "0x10000e068",
+   "tags": []
+  },
+  {
+   "text": " Iml",
+   "offset": "0xb2d4",
+   "kind": "ascii",
+   "rva": "0xe0d4",
+   "va": "0x10000e0d4",
+   "tags": []
+  },
+  {
+   "text": "a9pl",
+   "offset": "0xb34d",
+   "kind": "ascii",
+   "rva": "0xe14d",
+   "va": "0x10000e14d",
+   "tags": []
+  },
+  {
+   "text": "X'!%)",
+   "offset": "0xb39d",
+   "kind": "ascii",
+   "rva": "0xe19d",
+   "va": "0x10000e19d",
+   "tags": []
+  },
+  {
+   "text": "Tby2",
+   "offset": "0xb3d2",
+   "kind": "ascii",
+   "rva": "0xe1d2",
+   "va": "0x10000e1d2",
+   "tags": []
+  },
+  {
+   "text": "QO:#",
+   "offset": "0xb3d8",
+   "kind": "ascii",
+   "rva": "0xe1d8",
+   "va": "0x10000e1d8",
+   "tags": []
+  },
+  {
+   "text": "FT1Aw",
+   "offset": "0xb409",
+   "kind": "ascii",
+   "rva": "0xe209",
+   "va": "0x10000e209",
+   "tags": []
+  },
+  {
+   "text": "mpL@",
+   "offset": "0xb558",
+   "kind": "ascii",
+   "rva": "0xe358",
+   "va": "0x10000e358",
+   "tags": []
+  },
+  {
+   "text": "Kcfc",
+   "offset": "0xb5f5",
+   "kind": "ascii",
+   "rva": "0xe3f5",
+   "va": "0x10000e3f5",
+   "tags": []
+  },
+  {
+   "text": "mg8_",
+   "offset": "0xb626",
+   "kind": "ascii",
+   "rva": "0xe426",
+   "va": "0x10000e426",
+   "tags": []
+  },
+  {
+   "text": "QGO&",
+   "offset": "0xb643",
+   "kind": "ascii",
+   "rva": "0xe443",
+   "va": "0x10000e443",
+   "tags": []
+  },
+  {
+   "text": "c8lVl",
+   "offset": "0xb652",
+   "kind": "ascii",
+   "rva": "0xe452",
+   "va": "0x10000e452",
+   "tags": []
+  },
+  {
+   "text": "}WJeb",
+   "offset": "0xb661",
+   "kind": "ascii",
+   "rva": "0xe461",
+   "va": "0x10000e461",
+   "tags": []
+  },
+  {
+   "text": "1NP>'R<p<K",
+   "offset": "0xb696",
+   "kind": "ascii",
+   "rva": "0xe496",
+   "va": "0x10000e496",
+   "tags": []
+  },
+  {
+   "text": "A<y2",
+   "offset": "0xb6f6",
+   "kind": "ascii",
+   "rva": "0xe4f6",
+   "va": "0x10000e4f6",
+   "tags": []
+  },
+  {
+   "text": "#\"Fdl",
+   "offset": "0xb797",
+   "kind": "ascii",
+   "rva": "0xe597",
+   "va": "0x10000e597",
+   "tags": []
+  },
+  {
+   "text": "~t<N",
+   "offset": "0xb8f5",
+   "kind": "ascii",
+   "rva": "0xe6f5",
+   "va": "0x10000e6f5",
+   "tags": []
+  },
+  {
+   "text": "na5#",
+   "offset": "0xba3d",
+   "kind": "ascii",
+   "rva": "0xe83d",
+   "va": "0x10000e83d",
+   "tags": []
+  },
+  {
+   "text": "Eh5u",
+   "offset": "0xbb15",
+   "kind": "ascii",
+   "rva": "0xe915",
+   "va": "0x10000e915",
+   "tags": []
+  },
+  {
+   "text": "ZO5P`",
+   "offset": "0xbcf2",
+   "kind": "ascii",
+   "rva": "0xeaf2",
+   "va": "0x10000eaf2",
+   "tags": []
+  },
+  {
+   "text": "6;kJ",
+   "offset": "0xbd02",
+   "kind": "ascii",
+   "rva": "0xeb02",
+   "va": "0x10000eb02",
+   "tags": []
+  },
+  {
+   "text": "DR>VW",
+   "offset": "0xbd1d",
+   "kind": "ascii",
+   "rva": "0xeb1d",
+   "va": "0x10000eb1d",
+   "tags": []
+  },
+  {
+   "text": "\"@1+e7",
+   "offset": "0xbf8b",
+   "kind": "ascii",
+   "rva": "0xed8b",
+   "va": "0x10000ed8b",
+   "tags": []
+  },
+  {
+   "text": "_jt!",
+   "offset": "0xbfd8",
+   "kind": "ascii",
+   "rva": "0xedd8",
+   "va": "0x10000edd8",
+   "tags": []
+  },
+  {
+   "text": "p@ID",
+   "offset": "0xc049",
+   "kind": "ascii",
+   "rva": "0xee49",
+   "va": "0x10000ee49",
+   "tags": []
+  },
+  {
+   "text": "> VO#m",
+   "offset": "0xc052",
+   "kind": "ascii",
+   "rva": "0xee52",
+   "va": "0x10000ee52",
+   "tags": []
+  },
+  {
+   "text": "Jmzrj.",
+   "offset": "0xc076",
+   "kind": "ascii",
+   "rva": "0xee76",
+   "va": "0x10000ee76",
+   "tags": []
+  },
+  {
+   "text": "2'->b",
+   "offset": "0xc128",
+   "kind": "ascii",
+   "rva": "0xef28",
+   "va": "0x10000ef28",
+   "tags": []
+  },
+  {
+   "text": "@I38",
+   "offset": "0xc1ae",
+   "kind": "ascii",
+   "rva": "0xefae",
+   "va": "0x10000efae",
+   "tags": []
+  },
+  {
+   "text": "YQKLv",
+   "offset": "0xc1d1",
+   "kind": "ascii",
+   "rva": "0xefd1",
+   "va": "0x10000efd1",
+   "tags": []
+  },
+  {
+   "text": "6R-S",
+   "offset": "0xc252",
+   "kind": "ascii",
+   "rva": "0xf052",
+   "va": "0x10000f052",
+   "tags": []
+  },
+  {
+   "text": "bPEj",
+   "offset": "0xc28a",
+   "kind": "ascii",
+   "rva": "0xf08a",
+   "va": "0x10000f08a",
+   "tags": []
+  },
+  {
+   "text": "2+&Vvf",
+   "offset": "0xc29a",
+   "kind": "ascii",
+   "rva": "0xf09a",
+   "va": "0x10000f09a",
+   "tags": []
+  },
+  {
+   "text": "5AxU",
+   "offset": "0xc2c5",
+   "kind": "ascii",
+   "rva": "0xf0c5",
+   "va": "0x10000f0c5",
+   "tags": []
+  },
+  {
+   "text": "6hvg.1R",
+   "offset": "0xc2f6",
+   "kind": "ascii",
+   "rva": "0xf0f6",
+   "va": "0x10000f0f6",
+   "tags": []
+  },
+  {
+   "text": "0iZF",
+   "offset": "0xc3a2",
+   "kind": "ascii",
+   "rva": "0xf1a2",
+   "va": "0x10000f1a2",
+   "tags": []
+  },
+  {
+   "text": "I<)0",
+   "offset": "0xc3e6",
+   "kind": "ascii",
+   "rva": "0xf1e6",
+   "va": "0x10000f1e6",
+   "tags": []
+  },
+  {
+   "text": "&pb')",
+   "offset": "0xc3f3",
+   "kind": "ascii",
+   "rva": "0xf1f3",
+   "va": "0x10000f1f3",
+   "tags": []
+  },
+  {
+   "text": "KqOG",
+   "offset": "0xc401",
+   "kind": "ascii",
+   "rva": "0xf201",
+   "va": "0x10000f201",
+   "tags": []
+  },
+  {
+   "text": "&~VS|",
+   "offset": "0xc416",
+   "kind": "ascii",
+   "rva": "0xf216",
+   "va": "0x10000f216",
+   "tags": []
+  },
+  {
+   "text": "tI<$",
+   "offset": "0xc440",
+   "kind": "ascii",
+   "rva": "0xf240",
+   "va": "0x10000f240",
+   "tags": []
+  },
+  {
+   "text": ":574",
+   "offset": "0xc4b9",
+   "kind": "ascii",
+   "rva": "0xf2b9",
+   "va": "0x10000f2b9",
+   "tags": []
+  },
+  {
+   "text": "h4Z&\"",
+   "offset": "0xc56b",
+   "kind": "ascii",
+   "rva": "0xf36b",
+   "va": "0x10000f36b",
+   "tags": []
+  },
+  {
+   "text": "IE(G",
+   "offset": "0xc576",
+   "kind": "ascii",
+   "rva": "0xf376",
+   "va": "0x10000f376",
+   "tags": []
+  },
+  {
+   "text": "I*EP)!",
+   "offset": "0xc5fe",
+   "kind": "ascii",
+   "rva": "0xf3fe",
+   "va": "0x10000f3fe",
+   "tags": []
+  },
+  {
+   "text": "3\\|!a*/",
+   "offset": "0xc60a",
+   "kind": "ascii",
+   "rva": "0xf40a",
+   "va": "0x10000f40a",
+   "tags": []
+  },
+  {
+   "text": "/xD$",
+   "offset": "0xc620",
+   "kind": "ascii",
+   "rva": "0xf420",
+   "va": "0x10000f420",
+   "tags": []
+  },
+  {
+   "text": "8W(ac",
+   "offset": "0xc671",
+   "kind": "ascii",
+   "rva": "0xf471",
+   "va": "0x10000f471",
+   "tags": []
+  },
+  {
+   "text": "i9-$",
+   "offset": "0xc719",
+   "kind": "ascii",
+   "rva": "0xf519",
+   "va": "0x10000f519",
+   "tags": []
+  },
+  {
+   "text": "I/wS",
+   "offset": "0xc732",
+   "kind": "ascii",
+   "rva": "0xf532",
+   "va": "0x10000f532",
+   "tags": []
+  },
+  {
+   "text": "n}7Z",
+   "offset": "0xc785",
+   "kind": "ascii",
+   "rva": "0xf585",
+   "va": "0x10000f585",
+   "tags": []
+  },
+  {
+   "text": "j]O\\",
+   "offset": "0xc909",
+   "kind": "ascii",
+   "rva": "0xf709",
+   "va": "0x10000f709",
+   "tags": []
+  },
+  {
+   "text": "Sh1<&",
+   "offset": "0xc91a",
+   "kind": "ascii",
+   "rva": "0xf71a",
+   "va": "0x10000f71a",
+   "tags": []
+  },
+  {
+   "text": "_aCl`4",
+   "offset": "0xc954",
+   "kind": "ascii",
+   "rva": "0xf754",
+   "va": "0x10000f754",
+   "tags": []
+  },
+  {
+   "text": "IDAT",
+   "offset": "0xc9bd",
+   "kind": "ascii",
+   "rva": "0xf7bd",
+   "va": "0x10000f7bd",
+   "tags": []
+  },
+  {
+   "text": "\"BkC",
+   "offset": "0xca0f",
+   "kind": "ascii",
+   "rva": "0xf80f",
+   "va": "0x10000f80f",
+   "tags": []
+  },
+  {
+   "text": "F6>By",
+   "offset": "0xca47",
+   "kind": "ascii",
+   "rva": "0xf847",
+   "va": "0x10000f847",
+   "tags": []
+  },
+  {
+   "text": "YkPb",
+   "offset": "0xcac0",
+   "kind": "ascii",
+   "rva": "0xf8c0",
+   "va": "0x10000f8c0",
+   "tags": []
+  },
+  {
+   "text": "TH~o",
+   "offset": "0xcada",
+   "kind": "ascii",
+   "rva": "0xf8da",
+   "va": "0x10000f8da",
+   "tags": []
+  },
+  {
+   "text": "q9on",
+   "offset": "0xcb19",
+   "kind": "ascii",
+   "rva": "0xf919",
+   "va": "0x10000f919",
+   "tags": []
+  },
+  {
+   "text": "QnES8`1",
+   "offset": "0xcc37",
+   "kind": "ascii",
+   "rva": "0xfa37",
+   "va": "0x10000fa37",
+   "tags": []
+  },
+  {
+   "text": "c#wxI",
+   "offset": "0xccc4",
+   "kind": "ascii",
+   "rva": "0xfac4",
+   "va": "0x10000fac4",
+   "tags": []
+  },
+  {
+   "text": "Z@xm",
+   "offset": "0xcd25",
+   "kind": "ascii",
+   "rva": "0xfb25",
+   "va": "0x10000fb25",
+   "tags": []
+  },
+  {
+   "text": "49?L",
+   "offset": "0xcdbf",
+   "kind": "ascii",
+   "rva": "0xfbbf",
+   "va": "0x10000fbbf",
+   "tags": []
+  },
+  {
+   "text": ")=A<",
+   "offset": "0xceaf",
+   "kind": "ascii",
+   "rva": "0xfcaf",
+   "va": "0x10000fcaf",
+   "tags": []
+  },
+  {
+   "text": "sH>pa",
+   "offset": "0xcf54",
+   "kind": "ascii",
+   "rva": "0xfd54",
+   "va": "0x10000fd54",
+   "tags": []
+  },
+  {
+   "text": "AGrV",
+   "offset": "0xcf9b",
+   "kind": "ascii",
+   "rva": "0xfd9b",
+   "va": "0x10000fd9b",
+   "tags": []
+  },
+  {
+   "text": "=DylL",
+   "offset": "0xcffe",
+   "kind": "ascii",
+   "rva": "0xfdfe",
+   "va": "0x10000fdfe",
+   "tags": []
+  },
+  {
+   "text": "v2F\\VH",
+   "offset": "0xd07e",
+   "kind": "ascii",
+   "rva": "0xfe7e",
+   "va": "0x10000fe7e",
+   "tags": []
+  },
+  {
+   "text": "&l':",
+   "offset": "0xd096",
+   "kind": "ascii",
+   "rva": "0xfe96",
+   "va": "0x10000fe96",
+   "tags": []
+  },
+  {
+   "text": "P\"~A",
+   "offset": "0xd1d1",
+   "kind": "ascii",
+   "rva": "0xffd1",
+   "va": "0x10000ffd1",
+   "tags": []
+  },
+  {
+   "text": "|T(Q",
+   "offset": "0xd1d7",
+   "kind": "ascii",
+   "rva": "0xffd7",
+   "va": "0x10000ffd7",
+   "tags": []
+  },
+  {
+   "text": "4=/&",
+   "offset": "0xd271",
+   "kind": "ascii",
+   "rva": "0x10071",
+   "va": "0x100010071",
+   "tags": []
+  },
+  {
+   "text": "QDuWW",
+   "offset": "0xd28d",
+   "kind": "ascii",
+   "rva": "0x1008d",
+   "va": "0x10001008d",
+   "tags": []
+  },
+  {
+   "text": "v*S%h",
+   "offset": "0xd2eb",
+   "kind": "ascii",
+   "rva": "0x100eb",
+   "va": "0x1000100eb",
+   "tags": []
+  },
+  {
+   "text": "N&~/i",
+   "offset": "0xd319",
+   "kind": "ascii",
+   "rva": "0x10119",
+   "va": "0x100010119",
+   "tags": []
+  },
+  {
+   "text": "A=9d4",
+   "offset": "0xd345",
+   "kind": "ascii",
+   "rva": "0x10145",
+   "va": "0x100010145",
+   "tags": []
+  },
+  {
+   "text": "NRcg",
+   "offset": "0xd374",
+   "kind": "ascii",
+   "rva": "0x10174",
+   "va": "0x100010174",
+   "tags": []
+  },
+  {
+   "text": "`|yj-\"",
+   "offset": "0xd3f8",
+   "kind": "ascii",
+   "rva": "0x101f8",
+   "va": "0x1000101f8",
+   "tags": []
+  },
+  {
+   "text": "53IlO",
+   "offset": "0xd445",
+   "kind": "ascii",
+   "rva": "0x10245",
+   "va": "0x100010245",
+   "tags": []
+  },
+  {
+   "text": "$Z$%",
+   "offset": "0xd465",
+   "kind": "ascii",
+   "rva": "0x10265",
+   "va": "0x100010265",
+   "tags": []
+  },
+  {
+   "text": "o|{t",
+   "offset": "0xd4b4",
+   "kind": "ascii",
+   "rva": "0x102b4",
+   "va": "0x1000102b4",
+   "tags": []
+  },
+  {
+   "text": "4}lH;_",
+   "offset": "0xd560",
+   "kind": "ascii",
+   "rva": "0x10360",
+   "va": "0x100010360",
+   "tags": []
+  },
+  {
+   "text": "[I`J",
+   "offset": "0xd638",
+   "kind": "ascii",
+   "rva": "0x10438",
+   "va": "0x100010438",
+   "tags": []
+  },
+  {
+   "text": "u^h`p",
+   "offset": "0xd69b",
+   "kind": "ascii",
+   "rva": "0x1049b",
+   "va": "0x10001049b",
+   "tags": []
+  },
+  {
+   "text": "vwm>T",
+   "offset": "0xd70c",
+   "kind": "ascii",
+   "rva": "0x1050c",
+   "va": "0x10001050c",
+   "tags": []
+  },
+  {
+   "text": "^N-9",
+   "offset": "0xd851",
+   "kind": "ascii",
+   "rva": "0x10651",
+   "va": "0x100010651",
+   "tags": []
+  },
+  {
+   "text": "F2OH",
+   "offset": "0xd8d9",
+   "kind": "ascii",
+   "rva": "0x106d9",
+   "va": "0x1000106d9",
+   "tags": []
+  },
+  {
+   "text": "@#_#",
+   "offset": "0xd8ed",
+   "kind": "ascii",
+   "rva": "0x106ed",
+   "va": "0x1000106ed",
+   "tags": []
+  },
+  {
+   "text": "w6\\3=",
+   "offset": "0xd90f",
+   "kind": "ascii",
+   "rva": "0x1070f",
+   "va": "0x10001070f",
+   "tags": []
+  },
+  {
+   "text": "Tlh7",
+   "offset": "0xda24",
+   "kind": "ascii",
+   "rva": "0x10824",
+   "va": "0x100010824",
+   "tags": []
+  },
+  {
+   "text": "itj{",
+   "offset": "0xda77",
+   "kind": "ascii",
+   "rva": "0x10877",
+   "va": "0x100010877",
+   "tags": []
+  },
+  {
+   "text": "AHCR",
+   "offset": "0xda95",
+   "kind": "ascii",
+   "rva": "0x10895",
+   "va": "0x100010895",
+   "tags": []
+  },
+  {
+   "text": "/aMD",
+   "offset": "0xdab4",
+   "kind": "ascii",
+   "rva": "0x108b4",
+   "va": "0x1000108b4",
+   "tags": []
+  },
+  {
+   "text": "#fF5(T",
+   "offset": "0xdad9",
+   "kind": "ascii",
+   "rva": "0x108d9",
+   "va": "0x1000108d9",
+   "tags": []
+  },
+  {
+   "text": "L<D?er",
+   "offset": "0xdb04",
+   "kind": "ascii",
+   "rva": "0x10904",
+   "va": "0x100010904",
+   "tags": []
+  },
+  {
+   "text": "1 (q]",
+   "offset": "0xdb55",
+   "kind": "ascii",
+   "rva": "0x10955",
+   "va": "0x100010955",
+   "tags": []
+  },
+  {
+   "text": "H fP",
+   "offset": "0xdb9c",
+   "kind": "ascii",
+   "rva": "0x1099c",
+   "va": "0x10001099c",
+   "tags": []
+  },
+  {
+   "text": "X!h_",
+   "offset": "0xdbdd",
+   "kind": "ascii",
+   "rva": "0x109dd",
+   "va": "0x1000109dd",
+   "tags": []
+  },
+  {
+   "text": "quY&",
+   "offset": "0xdcdf",
+   "kind": "ascii",
+   "rva": "0x10adf",
+   "va": "0x100010adf",
+   "tags": []
+  },
+  {
+   "text": "4Am],0",
+   "offset": "0xdd67",
+   "kind": "ascii",
+   "rva": "0x10b67",
+   "va": "0x100010b67",
+   "tags": []
+  },
+  {
+   "text": "0YHh",
+   "offset": "0xdd9c",
+   "kind": "ascii",
+   "rva": "0x10b9c",
+   "va": "0x100010b9c",
+   "tags": []
+  },
+  {
+   "text": "it-L",
+   "offset": "0xdda6",
+   "kind": "ascii",
+   "rva": "0x10ba6",
+   "va": "0x100010ba6",
+   "tags": []
+  },
+  {
+   "text": "I/*'",
+   "offset": "0xde64",
+   "kind": "ascii",
+   "rva": "0x10c64",
+   "va": "0x100010c64",
+   "tags": []
+  },
+  {
+   "text": ";JJ3",
+   "offset": "0xded0",
+   "kind": "ascii",
+   "rva": "0x10cd0",
+   "va": "0x100010cd0",
+   "tags": []
+  },
+  {
+   "text": "mutb",
+   "offset": "0xdedc",
+   "kind": "ascii",
+   "rva": "0x10cdc",
+   "va": "0x100010cdc",
+   "tags": []
+  },
+  {
+   "text": ">IG;e;C",
+   "offset": "0xdf95",
+   "kind": "ascii",
+   "rva": "0x10d95",
+   "va": "0x100010d95",
+   "tags": []
+  },
+  {
+   "text": "FfplNF",
+   "offset": "0xdfba",
+   "kind": "ascii",
+   "rva": "0x10dba",
+   "va": "0x100010dba",
+   "tags": []
+  },
+  {
+   "text": "ge2XH",
+   "offset": "0xe030",
+   "kind": "ascii",
+   "rva": "0x10e30",
+   "va": "0x100010e30",
+   "tags": []
+  },
+  {
+   "text": "qd< Ff",
+   "offset": "0xe067",
+   "kind": "ascii",
+   "rva": "0x10e67",
+   "va": "0x100010e67",
+   "tags": []
+  },
+  {
+   "text": "\\w[e",
+   "offset": "0xe0c4",
+   "kind": "ascii",
+   "rva": "0x10ec4",
+   "va": "0x100010ec4",
+   "tags": []
+  },
+  {
+   "text": "+A[k",
+   "offset": "0xe181",
+   "kind": "ascii",
+   "rva": "0x10f81",
+   "va": "0x100010f81",
+   "tags": []
+  },
+  {
+   "text": "RII:!",
+   "offset": "0xe1a9",
+   "kind": "ascii",
+   "rva": "0x10fa9",
+   "va": "0x100010fa9",
+   "tags": []
+  },
+  {
+   "text": "Zj5j",
+   "offset": "0xe1e9",
+   "kind": "ascii",
+   "rva": "0x10fe9",
+   "va": "0x100010fe9",
+   "tags": []
+  },
+  {
+   "text": "Uj.a",
+   "offset": "0xe1ee",
+   "kind": "ascii",
+   "rva": "0x10fee",
+   "va": "0x100010fee",
+   "tags": []
+  },
+  {
+   "text": "-7ig",
+   "offset": "0xe213",
+   "kind": "ascii",
+   "rva": "0x11013",
+   "va": "0x100011013",
+   "tags": []
+  },
+  {
+   "text": "pVn@",
+   "offset": "0xe247",
+   "kind": "ascii",
+   "rva": "0x11047",
+   "va": "0x100011047",
+   "tags": []
+  },
+  {
+   "text": "}[NM'9",
+   "offset": "0xe2b7",
+   "kind": "ascii",
+   "rva": "0x110b7",
+   "va": "0x1000110b7",
+   "tags": []
+  },
+  {
+   "text": "P5]7B",
+   "offset": "0xe2da",
+   "kind": "ascii",
+   "rva": "0x110da",
+   "va": "0x1000110da",
+   "tags": []
+  },
+  {
+   "text": "40t;",
+   "offset": "0xe2e4",
+   "kind": "ascii",
+   "rva": "0x110e4",
+   "va": "0x1000110e4",
+   "tags": []
+  },
+  {
+   "text": "nKzG",
+   "offset": "0xe32c",
+   "kind": "ascii",
+   "rva": "0x1112c",
+   "va": "0x10001112c",
+   "tags": []
+  },
+  {
+   "text": "&JTL",
+   "offset": "0xe3a6",
+   "kind": "ascii",
+   "rva": "0x111a6",
+   "va": "0x1000111a6",
+   "tags": []
+  },
+  {
+   "text": "J0iOzK",
+   "offset": "0xe4af",
+   "kind": "ascii",
+   "rva": "0x112af",
+   "va": "0x1000112af",
+   "tags": []
+  },
+  {
+   "text": "\\X3vn",
+   "offset": "0xe63d",
+   "kind": "ascii",
+   "rva": "0x1143d",
+   "va": "0x10001143d",
+   "tags": []
+  },
+  {
+   "text": "X9y?",
+   "offset": "0xe6c8",
+   "kind": "ascii",
+   "rva": "0x114c8",
+   "va": "0x1000114c8",
+   "tags": []
+  },
+  {
+   "text": "}8-vf",
+   "offset": "0xe723",
+   "kind": "ascii",
+   "rva": "0x11523",
+   "va": "0x100011523",
+   "tags": []
+  },
+  {
+   "text": "~sMm",
+   "offset": "0xe764",
+   "kind": "ascii",
+   "rva": "0x11564",
+   "va": "0x100011564",
+   "tags": []
+  },
+  {
+   "text": "@;fU",
+   "offset": "0xe785",
+   "kind": "ascii",
+   "rva": "0x11585",
+   "va": "0x100011585",
+   "tags": []
+  },
+  {
+   "text": "3#Eoq",
+   "offset": "0xe86a",
+   "kind": "ascii",
+   "rva": "0x1166a",
+   "va": "0x10001166a",
+   "tags": []
+  },
+  {
+   "text": "(RL`",
+   "offset": "0xe885",
+   "kind": "ascii",
+   "rva": "0x11685",
+   "va": "0x100011685",
+   "tags": []
+  },
+  {
+   "text": "+tA$",
+   "offset": "0xe8a2",
+   "kind": "ascii",
+   "rva": "0x116a2",
+   "va": "0x1000116a2",
+   "tags": []
+  },
+  {
+   "text": "N?6F",
+   "offset": "0xe8e0",
+   "kind": "ascii",
+   "rva": "0x116e0",
+   "va": "0x1000116e0",
+   "tags": []
+  },
+  {
+   "text": "b2 ]",
+   "offset": "0xe9b8",
+   "kind": "ascii",
+   "rva": "0x117b8",
+   "va": "0x1000117b8",
+   "tags": []
+  },
+  {
+   "text": "IDATB",
+   "offset": "0xe9c9",
+   "kind": "ascii",
+   "rva": "0x117c9",
+   "va": "0x1000117c9",
+   "tags": []
+  },
+  {
+   "text": "dg*W",
+   "offset": "0xe9d5",
+   "kind": "ascii",
+   "rva": "0x117d5",
+   "va": "0x1000117d5",
+   "tags": []
+  },
+  {
+   "text": "o5y|",
+   "offset": "0xeb1a",
+   "kind": "ascii",
+   "rva": "0x1191a",
+   "va": "0x10001191a",
+   "tags": []
+  },
+  {
+   "text": "i$%'",
+   "offset": "0xeb67",
+   "kind": "ascii",
+   "rva": "0x11967",
+   "va": "0x100011967",
+   "tags": []
+  },
+  {
+   "text": "YN3~",
+   "offset": "0xebaa",
+   "kind": "ascii",
+   "rva": "0x119aa",
+   "va": "0x1000119aa",
+   "tags": []
+  },
+  {
+   "text": "{onz",
+   "offset": "0xebc3",
+   "kind": "ascii",
+   "rva": "0x119c3",
+   "va": "0x1000119c3",
+   "tags": []
+  },
+  {
+   "text": "IdOS-",
+   "offset": "0xec2a",
+   "kind": "ascii",
+   "rva": "0x11a2a",
+   "va": "0x100011a2a",
+   "tags": []
+  },
+  {
+   "text": "f5i&",
+   "offset": "0xec72",
+   "kind": "ascii",
+   "rva": "0x11a72",
+   "va": "0x100011a72",
+   "tags": []
+  },
+  {
+   "text": "[^[V;#Ftl",
+   "offset": "0xecd1",
+   "kind": "ascii",
+   "rva": "0x11ad1",
+   "va": "0x100011ad1",
+   "tags": []
+  },
+  {
+   "text": "[Na 5",
+   "offset": "0xed24",
+   "kind": "ascii",
+   "rva": "0x11b24",
+   "va": "0x100011b24",
+   "tags": []
+  },
+  {
+   "text": "*NwE",
+   "offset": "0xed8f",
+   "kind": "ascii",
+   "rva": "0x11b8f",
+   "va": "0x100011b8f",
+   "tags": []
+  },
+  {
+   "text": "sGOl",
+   "offset": "0xedd9",
+   "kind": "ascii",
+   "rva": "0x11bd9",
+   "va": "0x100011bd9",
+   "tags": []
+  },
+  {
+   "text": "g5I&",
+   "offset": "0xede4",
+   "kind": "ascii",
+   "rva": "0x11be4",
+   "va": "0x100011be4",
+   "tags": []
+  },
+  {
+   "text": " nQhH",
+   "offset": "0xee59",
+   "kind": "ascii",
+   "rva": "0x11c59",
+   "va": "0x100011c59",
+   "tags": []
+  },
+  {
+   "text": "EP|M",
+   "offset": "0xee7a",
+   "kind": "ascii",
+   "rva": "0x11c7a",
+   "va": "0x100011c7a",
+   "tags": []
+  },
+  {
+   "text": "nL|b",
+   "offset": "0xee83",
+   "kind": "ascii",
+   "rva": "0x11c83",
+   "va": "0x100011c83",
+   "tags": []
+  },
+  {
+   "text": "cZ3$",
+   "offset": "0xef35",
+   "kind": "ascii",
+   "rva": "0x11d35",
+   "va": "0x100011d35",
+   "tags": []
+  },
+  {
+   "text": "tgbMQ",
+   "offset": "0xef96",
+   "kind": "ascii",
+   "rva": "0x11d96",
+   "va": "0x100011d96",
+   "tags": []
+  },
+  {
+   "text": ";h1s",
+   "offset": "0xf025",
+   "kind": "ascii",
+   "rva": "0x11e25",
+   "va": "0x100011e25",
+   "tags": []
+  },
+  {
+   "text": "l3C/b",
+   "offset": "0xf09b",
+   "kind": "ascii",
+   "rva": "0x11e9b",
+   "va": "0x100011e9b",
+   "tags": []
+  },
+  {
+   "text": "^8}a",
+   "offset": "0xf0d4",
+   "kind": "ascii",
+   "rva": "0x11ed4",
+   "va": "0x100011ed4",
+   "tags": []
+  },
+  {
+   "text": "4ukN8T",
+   "offset": "0xf107",
+   "kind": "ascii",
+   "rva": "0x11f07",
+   "va": "0x100011f07",
+   "tags": []
+  },
+  {
+   "text": "A8>.w",
+   "offset": "0xf18d",
+   "kind": "ascii",
+   "rva": "0x11f8d",
+   "va": "0x100011f8d",
+   "tags": []
+  },
+  {
+   "text": "Zl&:X",
+   "offset": "0xf1f2",
+   "kind": "ascii",
+   "rva": "0x11ff2",
+   "va": "0x100011ff2",
+   "tags": []
+  },
+  {
+   "text": "% cs,T",
+   "offset": "0xf283",
+   "kind": "ascii",
+   "rva": "0x12083",
+   "va": "0x100012083",
+   "tags": []
+  },
+  {
+   "text": "Jaz}a",
+   "offset": "0xf2c7",
+   "kind": "ascii",
+   "rva": "0x120c7",
+   "va": "0x1000120c7",
+   "tags": []
+  },
+  {
+   "text": "+Z:z6 ",
+   "offset": "0xf336",
+   "kind": "ascii",
+   "rva": "0x12136",
+   "va": "0x100012136",
+   "tags": []
+  },
+  {
+   "text": "y2?gM",
+   "offset": "0xf3c7",
+   "kind": "ascii",
+   "rva": "0x121c7",
+   "va": "0x1000121c7",
+   "tags": []
+  },
+  {
+   "text": "(?pJ",
+   "offset": "0xf451",
+   "kind": "ascii",
+   "rva": "0x12251",
+   "va": "0x100012251",
+   "tags": []
+  },
+  {
+   "text": "NR!6",
+   "offset": "0xf4bc",
+   "kind": "ascii",
+   "rva": "0x122bc",
+   "va": "0x1000122bc",
+   "tags": []
+  },
+  {
+   "text": "9RXR",
+   "offset": "0xf4eb",
+   "kind": "ascii",
+   "rva": "0x122eb",
+   "va": "0x1000122eb",
+   "tags": []
+  },
+  {
+   "text": "BT|e",
+   "offset": "0xf4f9",
+   "kind": "ascii",
+   "rva": "0x122f9",
+   "va": "0x1000122f9",
+   "tags": []
+  },
+  {
+   "text": ")YTX",
+   "offset": "0xf501",
+   "kind": "ascii",
+   "rva": "0x12301",
+   "va": "0x100012301",
+   "tags": []
+  },
+  {
+   "text": "jOQx3ms",
+   "offset": "0xf52b",
+   "kind": "ascii",
+   "rva": "0x1232b",
+   "va": "0x10001232b",
+   "tags": []
+  },
+  {
+   "text": "}e:#",
+   "offset": "0xf549",
+   "kind": "ascii",
+   "rva": "0x12349",
+   "va": "0x100012349",
+   "tags": []
+  },
+  {
+   "text": "oxG1",
+   "offset": "0xf567",
+   "kind": "ascii",
+   "rva": "0x12367",
+   "va": "0x100012367",
+   "tags": []
+  },
+  {
+   "text": "dhLF",
+   "offset": "0xf581",
+   "kind": "ascii",
+   "rva": "0x12381",
+   "va": "0x100012381",
+   "tags": []
+  },
+  {
+   "text": "a^X5I&",
+   "offset": "0xf5b8",
+   "kind": "ascii",
+   "rva": "0x123b8",
+   "va": "0x1000123b8",
+   "tags": []
+  },
+  {
+   "text": "PyDu",
+   "offset": "0xf5cf",
+   "kind": "ascii",
+   "rva": "0x123cf",
+   "va": "0x1000123cf",
+   "tags": []
+  },
+  {
+   "text": "xzm4Q",
+   "offset": "0xf5ef",
+   "kind": "ascii",
+   "rva": "0x123ef",
+   "va": "0x1000123ef",
+   "tags": []
+  },
+  {
+   "text": "i)2o",
+   "offset": "0xf759",
+   "kind": "ascii",
+   "rva": "0x12559",
+   "va": "0x100012559",
+   "tags": []
+  },
+  {
+   "text": "t<Kef\\",
+   "offset": "0xf81c",
+   "kind": "ascii",
+   "rva": "0x1261c",
+   "va": "0x10001261c",
+   "tags": []
+  },
+  {
+   "text": "*eG{",
+   "offset": "0xf825",
+   "kind": "ascii",
+   "rva": "0x12625",
+   "va": "0x100012625",
+   "tags": []
+  },
+  {
+   "text": "96>t",
+   "offset": "0xf880",
+   "kind": "ascii",
+   "rva": "0x12680",
+   "va": "0x100012680",
+   "tags": []
+  },
+  {
+   "text": "--Y6",
+   "offset": "0xf8f3",
+   "kind": "ascii",
+   "rva": "0x126f3",
+   "va": "0x1000126f3",
+   "tags": []
+  },
+  {
+   "text": "TSw]g8E",
+   "offset": "0xf8f8",
+   "kind": "ascii",
+   "rva": "0x126f8",
+   "va": "0x1000126f8",
+   "tags": []
+  },
+  {
+   "text": "~UC#)",
+   "offset": "0xf90a",
+   "kind": "ascii",
+   "rva": "0x1270a",
+   "va": "0x10001270a",
+   "tags": []
+  },
+  {
+   "text": "TYH-",
+   "offset": "0xf96b",
+   "kind": "ascii",
+   "rva": "0x1276b",
+   "va": "0x10001276b",
+   "tags": []
+  },
+  {
+   "text": "\\V?|",
+   "offset": "0xf992",
+   "kind": "ascii",
+   "rva": "0x12792",
+   "va": "0x100012792",
+   "tags": []
+  },
+  {
+   "text": "n<FH",
+   "offset": "0xfa35",
+   "kind": "ascii",
+   "rva": "0x12835",
+   "va": "0x100012835",
+   "tags": []
+  },
+  {
+   "text": "\"e)5",
+   "offset": "0xfa93",
+   "kind": "ascii",
+   "rva": "0x12893",
+   "va": "0x100012893",
+   "tags": []
+  },
+  {
+   "text": "u+=v",
+   "offset": "0xfb17",
+   "kind": "ascii",
+   "rva": "0x12917",
+   "va": "0x100012917",
+   "tags": []
+  },
+  {
+   "text": "DJRY",
+   "offset": "0xfb3e",
+   "kind": "ascii",
+   "rva": "0x1293e",
+   "va": "0x10001293e",
+   "tags": []
+  },
+  {
+   "text": "X!5!",
+   "offset": "0xfb68",
+   "kind": "ascii",
+   "rva": "0x12968",
+   "va": "0x100012968",
+   "tags": []
+  },
+  {
+   "text": "m}b`",
+   "offset": "0xfb97",
+   "kind": "ascii",
+   "rva": "0x12997",
+   "va": "0x100012997",
+   "tags": []
+  },
+  {
+   "text": "2t3IpZ,",
+   "offset": "0xfbc1",
+   "kind": "ascii",
+   "rva": "0x129c1",
+   "va": "0x1000129c1",
+   "tags": []
+  },
+  {
+   "text": ",{0p",
+   "offset": "0xfbe6",
+   "kind": "ascii",
+   "rva": "0x129e6",
+   "va": "0x1000129e6",
+   "tags": []
+  },
+  {
+   "text": "x\"c[",
+   "offset": "0xfc32",
+   "kind": "ascii",
+   "rva": "0x12a32",
+   "va": "0x100012a32",
+   "tags": []
+  },
+  {
+   "text": "M//!",
+   "offset": "0xfc6e",
+   "kind": "ascii",
+   "rva": "0x12a6e",
+   "va": "0x100012a6e",
+   "tags": []
+  },
+  {
+   "text": "xCD@",
+   "offset": "0xfc82",
+   "kind": "ascii",
+   "rva": "0x12a82",
+   "va": "0x100012a82",
+   "tags": []
+  },
+  {
+   "text": "L1%T",
+   "offset": "0xfcb3",
+   "kind": "ascii",
+   "rva": "0x12ab3",
+   "va": "0x100012ab3",
+   "tags": []
+  },
+  {
+   "text": "qD`[",
+   "offset": "0xfce2",
+   "kind": "ascii",
+   "rva": "0x12ae2",
+   "va": "0x100012ae2",
+   "tags": []
+  },
+  {
+   "text": "SIP%",
+   "offset": "0xfd46",
+   "kind": "ascii",
+   "rva": "0x12b46",
+   "va": "0x100012b46",
+   "tags": []
+  },
+  {
+   "text": "YEXD\\",
+   "offset": "0xfdee",
+   "kind": "ascii",
+   "rva": "0x12bee",
+   "va": "0x100012bee",
+   "tags": []
+  },
+  {
+   "text": "/TUV",
+   "offset": "0xfdf6",
+   "kind": "ascii",
+   "rva": "0x12bf6",
+   "va": "0x100012bf6",
+   "tags": []
+  },
+  {
+   "text": ".MEtG",
+   "offset": "0xff84",
+   "kind": "ascii",
+   "rva": "0x12d84",
+   "va": "0x100012d84",
+   "tags": []
+  },
+  {
+   "text": "J)Bd",
+   "offset": "0xff8c",
+   "kind": "ascii",
+   "rva": "0x12d8c",
+   "va": "0x100012d8c",
+   "tags": []
+  },
+  {
+   "text": " L(``",
+   "offset": "0xffe7",
+   "kind": "ascii",
+   "rva": "0x12de7",
+   "va": "0x100012de7",
+   "tags": []
+  },
+  {
+   "text": "%'w-",
+   "offset": "0xffee",
+   "kind": "ascii",
+   "rva": "0x12dee",
+   "va": "0x100012dee",
+   "tags": []
+  },
+  {
+   "text": "S0..G",
+   "offset": "0x10012",
+   "kind": "ascii",
+   "rva": "0x12e12",
+   "va": "0x100012e12",
+   "tags": []
+  },
+  {
+   "text": "A0 uU",
+   "offset": "0x1003d",
+   "kind": "ascii",
+   "rva": "0x12e3d",
+   "va": "0x100012e3d",
+   "tags": []
+  },
+  {
+   "text": "WA5`",
+   "offset": "0x10059",
+   "kind": "ascii",
+   "rva": "0x12e59",
+   "va": "0x100012e59",
+   "tags": []
+  },
+  {
+   "text": "m96 ",
+   "offset": "0x1008b",
+   "kind": "ascii",
+   "rva": "0x12e8b",
+   "va": "0x100012e8b",
+   "tags": []
+  },
+  {
+   "text": "Eu_!",
+   "offset": "0x100ca",
+   "kind": "ascii",
+   "rva": "0x12eca",
+   "va": "0x100012eca",
+   "tags": []
+  },
+  {
+   "text": "rRkIUT",
+   "offset": "0x100da",
+   "kind": "ascii",
+   "rva": "0x12eda",
+   "va": "0x100012eda",
+   "tags": []
+  },
+  {
+   "text": "e4`4~",
+   "offset": "0x100e9",
+   "kind": "ascii",
+   "rva": "0x12ee9",
+   "va": "0x100012ee9",
+   "tags": []
+  },
+  {
+   "text": "&pF]",
+   "offset": "0x100fd",
+   "kind": "ascii",
+   "rva": "0x12efd",
+   "va": "0x100012efd",
+   "tags": []
+  },
+  {
+   "text": "K9)1",
+   "offset": "0x1012d",
+   "kind": "ascii",
+   "rva": "0x12f2d",
+   "va": "0x100012f2d",
+   "tags": []
+  },
+  {
+   "text": "cw1~",
+   "offset": "0x101d9",
+   "kind": "ascii",
+   "rva": "0x12fd9",
+   "va": "0x100012fd9",
+   "tags": []
+  },
+  {
+   "text": "S!d ",
+   "offset": "0x10253",
+   "kind": "ascii",
+   "rva": "0x13053",
+   "va": "0x100013053",
+   "tags": []
+  },
+  {
+   "text": "P(Y'",
+   "offset": "0x10286",
+   "kind": "ascii",
+   "rva": "0x13086",
+   "va": "0x100013086",
+   "tags": []
+  },
+  {
+   "text": "1Rf^`",
+   "offset": "0x10345",
+   "kind": "ascii",
+   "rva": "0x13145",
+   "va": "0x100013145",
+   "tags": []
+  },
+  {
+   "text": "1.pOLN",
+   "offset": "0x1038b",
+   "kind": "ascii",
+   "rva": "0x1318b",
+   "va": "0x10001318b",
+   "tags": []
+  },
+  {
+   "text": "\"2 J",
+   "offset": "0x103b9",
+   "kind": "ascii",
+   "rva": "0x131b9",
+   "va": "0x1000131b9",
+   "tags": []
+  },
+  {
+   "text": "&?=>HX",
+   "offset": "0x103ee",
+   "kind": "ascii",
+   "rva": "0x131ee",
+   "va": "0x1000131ee",
+   "tags": []
+  },
+  {
+   "text": "C>!Q'",
+   "offset": "0x10442",
+   "kind": "ascii",
+   "rva": "0x13242",
+   "va": "0x100013242",
+   "tags": []
+  },
+  {
+   "text": "u\"R6",
+   "offset": "0x1049c",
+   "kind": "ascii",
+   "rva": "0x1329c",
+   "va": "0x10001329c",
+   "tags": []
+  },
+  {
+   "text": "UIY}%m!2~!IQR",
+   "offset": "0x104c2",
+   "kind": "ascii",
+   "rva": "0x132c2",
+   "va": "0x1000132c2",
+   "tags": []
+  },
+  {
+   "text": "^T;o",
+   "offset": "0x10512",
+   "kind": "ascii",
+   "rva": "0x13312",
+   "va": "0x100013312",
+   "tags": []
+  },
+  {
+   "text": "n*6/]B",
+   "offset": "0x105a3",
+   "kind": "ascii",
+   "rva": "0x133a3",
+   "va": "0x1000133a3",
+   "tags": []
+  },
+  {
+   "text": "Ser9R",
+   "offset": "0x10621",
+   "kind": "ascii",
+   "rva": "0x13421",
+   "va": "0x100013421",
+   "tags": []
+  },
+  {
+   "text": "p4P75T",
+   "offset": "0x10627",
+   "kind": "ascii",
+   "rva": "0x13427",
+   "va": "0x100013427",
+   "tags": []
+  },
+  {
+   "text": "%tIP",
+   "offset": "0x10630",
+   "kind": "ascii",
+   "rva": "0x13430",
+   "va": "0x100013430",
+   "tags": []
+  },
+  {
+   "text": "3+8!7",
+   "offset": "0x1064d",
+   "kind": "ascii",
+   "rva": "0x1344d",
+   "va": "0x10001344d",
+   "tags": []
+  },
+  {
+   "text": "B{ (",
+   "offset": "0x10670",
+   "kind": "ascii",
+   "rva": "0x13470",
+   "va": "0x100013470",
+   "tags": []
+  },
+  {
+   "text": "Z-PXra",
+   "offset": "0x10678",
+   "kind": "ascii",
+   "rva": "0x13478",
+   "va": "0x100013478",
+   "tags": []
+  },
+  {
+   "text": "30X!",
+   "offset": "0x106aa",
+   "kind": "ascii",
+   "rva": "0x134aa",
+   "va": "0x1000134aa",
+   "tags": []
+  },
+  {
+   "text": "(Yb-",
+   "offset": "0x106e3",
+   "kind": "ascii",
+   "rva": "0x134e3",
+   "va": "0x1000134e3",
+   "tags": []
+  },
+  {
+   "text": "{6t-2",
+   "offset": "0x1070e",
+   "kind": "ascii",
+   "rva": "0x1350e",
+   "va": "0x10001350e",
+   "tags": []
+  },
+  {
+   "text": "3bW!",
+   "offset": "0x1077a",
+   "kind": "ascii",
+   "rva": "0x1357a",
+   "va": "0x10001357a",
+   "tags": []
+  },
+  {
+   "text": "=agZ(",
+   "offset": "0x107bd",
+   "kind": "ascii",
+   "rva": "0x135bd",
+   "va": "0x1000135bd",
+   "tags": []
+  },
+  {
+   "text": "Nv|/&%y",
+   "offset": "0x10854",
+   "kind": "ascii",
+   "rva": "0x13654",
+   "va": "0x100013654",
+   "tags": []
+  },
+  {
+   "text": "o,~z",
+   "offset": "0x10938",
+   "kind": "ascii",
+   "rva": "0x13738",
+   "va": "0x100013738",
+   "tags": []
+  },
+  {
+   "text": "{hQgf",
+   "offset": "0x1093d",
+   "kind": "ascii",
+   "rva": "0x1373d",
+   "va": "0x10001373d",
+   "tags": []
+  },
+  {
+   "text": "0UNxuY",
+   "offset": "0x1095d",
+   "kind": "ascii",
+   "rva": "0x1375d",
+   "va": "0x10001375d",
+   "tags": []
+  },
+  {
+   "text": "`<\\?",
+   "offset": "0x10981",
+   "kind": "ascii",
+   "rva": "0x13781",
+   "va": "0x100013781",
+   "tags": []
+  },
+  {
+   "text": "`HIL",
+   "offset": "0x1098e",
+   "kind": "ascii",
+   "rva": "0x1378e",
+   "va": "0x10001378e",
+   "tags": []
+  },
+  {
+   "text": "VIDAT",
+   "offset": "0x109d4",
+   "kind": "ascii",
+   "rva": "0x137d4",
+   "va": "0x1000137d4",
+   "tags": []
+  },
+  {
+   "text": "C/:bz",
+   "offset": "0x10a2a",
+   "kind": "ascii",
+   "rva": "0x1382a",
+   "va": "0x10001382a",
+   "tags": []
+  },
+  {
+   "text": "jBBd",
+   "offset": "0x10a8f",
+   "kind": "ascii",
+   "rva": "0x1388f",
+   "va": "0x10001388f",
+   "tags": []
+  },
+  {
+   "text": "]:iE",
+   "offset": "0x10af1",
+   "kind": "ascii",
+   "rva": "0x138f1",
+   "va": "0x1000138f1",
+   "tags": []
+  },
+  {
+   "text": "`~a_bL",
+   "offset": "0x10b98",
+   "kind": "ascii",
+   "rva": "0x13998",
+   "va": "0x100013998",
+   "tags": []
+  },
+  {
+   "text": "zfRs ",
+   "offset": "0x10ba3",
+   "kind": "ascii",
+   "rva": "0x139a3",
+   "va": "0x1000139a3",
+   "tags": []
+  },
+  {
+   "text": "0\"[>I*c",
+   "offset": "0x10bbd",
+   "kind": "ascii",
+   "rva": "0x139bd",
+   "va": "0x1000139bd",
+   "tags": []
+  },
+  {
+   "text": "!^y0",
+   "offset": "0x10c0d",
+   "kind": "ascii",
+   "rva": "0x13a0d",
+   "va": "0x100013a0d",
+   "tags": []
+  },
+  {
+   "text": "G^|G",
+   "offset": "0x10cee",
+   "kind": "ascii",
+   "rva": "0x13aee",
+   "va": "0x100013aee",
+   "tags": []
+  },
+  {
+   "text": "wL*(ef",
+   "offset": "0x10d4b",
+   "kind": "ascii",
+   "rva": "0x13b4b",
+   "va": "0x100013b4b",
+   "tags": []
+  },
+  {
+   "text": "PJD)1",
+   "offset": "0x10d5a",
+   "kind": "ascii",
+   "rva": "0x13b5a",
+   "va": "0x100013b5a",
+   "tags": []
+  },
+  {
+   "text": "KI88",
+   "offset": "0x10d73",
+   "kind": "ascii",
+   "rva": "0x13b73",
+   "va": "0x100013b73",
+   "tags": []
+  },
+  {
+   "text": "*Jb-]",
+   "offset": "0x10d88",
+   "kind": "ascii",
+   "rva": "0x13b88",
+   "va": "0x100013b88",
+   "tags": []
+  },
+  {
+   "text": "d~ya",
+   "offset": "0x10e28",
+   "kind": "ascii",
+   "rva": "0x13c28",
+   "va": "0x100013c28",
+   "tags": []
+  },
+  {
+   "text": "`n~aa~O",
+   "offset": "0x10e3a",
+   "kind": "ascii",
+   "rva": "0x13c3a",
+   "va": "0x100013c3a",
+   "tags": []
+  },
+  {
+   "text": "&`)1Mp",
+   "offset": "0x10e46",
+   "kind": "ascii",
+   "rva": "0x13c46",
+   "va": "0x100013c46",
+   "tags": []
+  },
+  {
+   "text": "%RY5",
+   "offset": "0x10e6b",
+   "kind": "ascii",
+   "rva": "0x13c6b",
+   "va": "0x100013c6b",
+   "tags": []
+  },
+  {
+   "text": "\\#-WU",
+   "offset": "0x10e70",
+   "kind": "ascii",
+   "rva": "0x13c70",
+   "va": "0x100013c70",
+   "tags": []
+  },
+  {
+   "text": "@AsP",
+   "offset": "0x10e79",
+   "kind": "ascii",
+   "rva": "0x13c79",
+   "va": "0x100013c79",
+   "tags": []
+  },
+  {
+   "text": "b-;m",
+   "offset": "0x10e8f",
+   "kind": "ascii",
+   "rva": "0x13c8f",
+   "va": "0x100013c8f",
+   "tags": []
+  },
+  {
+   "text": "9KqVE",
+   "offset": "0x10f96",
+   "kind": "ascii",
+   "rva": "0x13d96",
+   "va": "0x100013d96",
+   "tags": []
+  },
+  {
+   "text": "!J &X",
+   "offset": "0x10fb6",
+   "kind": "ascii",
+   "rva": "0x13db6",
+   "va": "0x100013db6",
+   "tags": []
+  },
+  {
+   "text": "H(a7]",
+   "offset": "0x10fe2",
+   "kind": "ascii",
+   "rva": "0x13de2",
+   "va": "0x100013de2",
+   "tags": []
+  },
+  {
+   "text": "!QU1f",
+   "offset": "0x10ff5",
+   "kind": "ascii",
+   "rva": "0x13df5",
+   "va": "0x100013df5",
+   "tags": []
+  },
+  {
+   "text": "dnaq",
+   "offset": "0x11066",
+   "kind": "ascii",
+   "rva": "0x13e66",
+   "va": "0x100013e66",
+   "tags": []
+  },
+  {
+   "text": " gIt",
+   "offset": "0x11092",
+   "kind": "ascii",
+   "rva": "0x13e92",
+   "va": "0x100013e92",
+   "tags": []
+  },
+  {
+   "text": "ESbf",
+   "offset": "0x110c7",
+   "kind": "ascii",
+   "rva": "0x13ec7",
+   "va": "0x100013ec7",
+   "tags": []
+  },
+  {
+   "text": "l0o9K",
+   "offset": "0x11103",
+   "kind": "ascii",
+   "rva": "0x13f03",
+   "va": "0x100013f03",
+   "tags": []
+  },
+  {
+   "text": ":Ds&^",
+   "offset": "0x11131",
+   "kind": "ascii",
+   "rva": "0x13f31",
+   "va": "0x100013f31",
+   "tags": []
+  },
+  {
+   "text": "8TF$",
+   "offset": "0x111ae",
+   "kind": "ascii",
+   "rva": "0x13fae",
+   "va": "0x100013fae",
+   "tags": []
+  },
+  {
+   "text": "D=@3",
+   "offset": "0x11279",
+   "kind": "ascii",
+   "rva": "0x14079",
+   "va": "0x100014079",
+   "tags": []
+  },
+  {
+   "text": "N{ \"C",
+   "offset": "0x112f5",
+   "kind": "ascii",
+   "rva": "0x140f5",
+   "va": "0x1000140f5",
+   "tags": []
+  },
+  {
+   "text": "7uG/",
+   "offset": "0x1135c",
+   "kind": "ascii",
+   "rva": "0x1415c",
+   "va": "0x10001415c",
+   "tags": []
+  },
+  {
+   "text": "w~0XZ",
+   "offset": "0x1138c",
+   "kind": "ascii",
+   "rva": "0x1418c",
+   "va": "0x10001418c",
+   "tags": []
+  },
+  {
+   "text": "Z.(D",
+   "offset": "0x113a7",
+   "kind": "ascii",
+   "rva": "0x141a7",
+   "va": "0x1000141a7",
+   "tags": []
+  },
+  {
+   "text": "D5T;",
+   "offset": "0x113cf",
+   "kind": "ascii",
+   "rva": "0x141cf",
+   "va": "0x1000141cf",
+   "tags": []
+  },
+  {
+   "text": "^4*l",
+   "offset": "0x11410",
+   "kind": "ascii",
+   "rva": "0x14210",
+   "va": "0x100014210",
+   "tags": []
+  },
+  {
+   "text": ">)z;_",
+   "offset": "0x1146d",
+   "kind": "ascii",
+   "rva": "0x1426d",
+   "va": "0x10001426d",
+   "tags": []
+  },
+  {
+   "text": "<@/e",
+   "offset": "0x11490",
+   "kind": "ascii",
+   "rva": "0x14290",
+   "va": "0x100014290",
+   "tags": []
+  },
+  {
+   "text": ".Dqi,",
+   "offset": "0x114a7",
+   "kind": "ascii",
+   "rva": "0x142a7",
+   "va": "0x1000142a7",
+   "tags": []
+  },
+  {
+   "text": "Vqih",
+   "offset": "0x114ae",
+   "kind": "ascii",
+   "rva": "0x142ae",
+   "va": "0x1000142ae",
+   "tags": []
+  },
+  {
+   "text": "yNOl'zA~",
+   "offset": "0x1151d",
+   "kind": "ascii",
+   "rva": "0x1431d",
+   "va": "0x10001431d",
+   "tags": []
+  },
+  {
+   "text": "Yoy.",
+   "offset": "0x11564",
+   "kind": "ascii",
+   "rva": "0x14364",
+   "va": "0x100014364",
+   "tags": []
+  },
+  {
+   "text": "l(0V",
+   "offset": "0x11686",
+   "kind": "ascii",
+   "rva": "0x14486",
+   "va": "0x100014486",
+   "tags": []
+  },
+  {
+   "text": "~C2}L3",
+   "offset": "0x11694",
+   "kind": "ascii",
+   "rva": "0x14494",
+   "va": "0x100014494",
+   "tags": []
+  },
+  {
+   "text": "78M$H",
+   "offset": "0x1169c",
+   "kind": "ascii",
+   "rva": "0x1449c",
+   "va": "0x10001449c",
+   "tags": []
+  },
+  {
+   "text": "Kn>rs",
+   "offset": "0x1176c",
+   "kind": "ascii",
+   "rva": "0x1456c",
+   "va": "0x10001456c",
+   "tags": []
+  },
+  {
+   "text": "XDmi",
+   "offset": "0x117b1",
+   "kind": "ascii",
+   "rva": "0x145b1",
+   "va": "0x1000145b1",
+   "tags": []
+  },
+  {
+   "text": "mlm~",
+   "offset": "0x11879",
+   "kind": "ascii",
+   "rva": "0x14679",
+   "va": "0x100014679",
+   "tags": []
+  },
+  {
+   "text": "IEND",
+   "offset": "0x11937",
+   "kind": "ascii",
+   "rva": "0x14737",
+   "va": "0x100014737",
+   "tags": []
+  },
+  {
+   "text": "m\\A{",
+   "offset": "0x11f1c",
+   "kind": "ascii",
+   "rva": "0x14d1c",
+   "va": "0x100014d1c",
+   "tags": []
+  },
+  {
+   "text": "hS4z",
+   "offset": "0x1223c",
+   "kind": "ascii",
+   "rva": "0x1503c",
+   "va": "0x10001503c",
+   "tags": []
+  },
+  {
+   "text": "ks*'%",
+   "offset": "0x14b1a",
+   "kind": "ascii",
+   "rva": "0x1791a",
+   "va": "0x10001791a",
+   "tags": []
+  },
+  {
+   "text": "$?8()vb6<",
+   "offset": "0x15cc7",
+   "kind": "ascii",
+   "rva": "0x18ac7",
+   "va": "0x100018ac7",
+   "tags": []
+  },
+  {
+   "text": "*u_,?",
+   "offset": "0x15d6f",
+   "kind": "ascii",
+   "rva": "0x18b6f",
+   "va": "0x100018b6f",
+   "tags": []
+  },
+  {
+   "text": "*eR 8",
+   "offset": "0x15e13",
+   "kind": "ascii",
+   "rva": "0x18c13",
+   "va": "0x100018c13",
+   "tags": []
+  },
+  {
+   "text": "/n[+;",
+   "offset": "0x15eb7",
+   "kind": "ascii",
+   "rva": "0x18cb7",
+   "va": "0x100018cb7",
+   "tags": []
+  },
+  {
+   "text": "t]$ ",
+   "offset": "0x15f5c",
+   "kind": "ascii",
+   "rva": "0x18d5c",
+   "va": "0x100018d5c",
+   "tags": []
+  },
+  {
+   "text": "dk7.6",
+   "offset": "0x15fea",
+   "kind": "ascii",
+   "rva": "0x18dea",
+   "va": "0x100018dea",
+   "tags": []
+  },
+  {
+   "text": "wnh=",
+   "offset": "0x160b0",
+   "kind": "ascii",
+   "rva": "0x18eb0",
+   "va": "0x100018eb0",
+   "tags": []
+  },
+  {
+   "text": ":::*:::",
+   "offset": "0x183a8",
+   "kind": "ascii",
+   "rva": "0x1b1a8",
+   "va": "0x10001b1a8",
+   "tags": []
+  },
+  {
+   "text": ":::@:::(:::3:::",
+   "offset": "0x18428",
+   "kind": "ascii",
+   "rva": "0x1b228",
+   "va": "0x10001b228",
+   "tags": []
+  },
+  {
+   "text": "{a+a",
+   "offset": "0x1922c",
+   "kind": "ascii",
+   "rva": "0x1c02c",
+   "va": "0x10001c02c",
+   "tags": []
+  },
+  {
+   "text": "wwwwwwp",
+   "offset": "0x1a0f9",
+   "kind": "ascii",
+   "rva": "0x1cef9",
+   "va": "0x10001cef9",
+   "tags": []
+  },
+  {
+   "text": "888888<8=<=",
+   "offset": "0x1a5f3",
+   "kind": "ascii",
+   "rva": "0x1d3f3",
+   "va": "0x10001d3f3",
+   "tags": []
+  },
+  {
+   "text": "888<8<<<<==",
+   "offset": "0x1a603",
+   "kind": "ascii",
+   "rva": "0x1d403",
+   "va": "0x10001d403",
+   "tags": []
+  },
+  {
+   "text": "8===",
+   "offset": "0x1a61a",
+   "kind": "ascii",
+   "rva": "0x1d41a",
+   "va": "0x10001d41a",
+   "tags": []
+  },
+  {
+   "text": "*%%%'(&.",
+   "offset": "0x1a621",
+   "kind": "ascii",
+   "rva": "0x1d421",
+   "va": "0x10001d421",
+   "tags": []
+  },
+  {
+   "text": "==== ",
+   "offset": "0x1a62a",
+   "kind": "ascii",
+   "rva": "0x1d42a",
+   "va": "0x10001d42a",
+   "tags": []
+  },
+  {
+   "text": "====!",
+   "offset": "0x1a63a",
+   "kind": "ascii",
+   "rva": "0x1d43a",
+   "va": "0x10001d43a",
+   "tags": []
+  },
+  {
+   "text": "====#",
+   "offset": "0x1a65a",
+   "kind": "ascii",
+   "rva": "0x1d45a",
+   "va": "0x10001d45a",
+   "tags": []
+  },
+  {
+   "text": ",(+-/001",
+   "offset": "0x1a691",
+   "kind": "ascii",
+   "rva": "0x1d491",
+   "va": "0x10001d491",
+   "tags": []
+  },
+  {
+   "text": "==86$",
+   "offset": "0x1a69a",
+   "kind": "ascii",
+   "rva": "0x1d49a",
+   "va": "0x10001d49a",
+   "tags": []
+  },
+  {
+   "text": "=$###",
+   "offset": "0x1a6aa",
+   "kind": "ascii",
+   "rva": "0x1d4aa",
+   "va": "0x10001d4aa",
+   "tags": []
+  },
+  {
+   "text": "#========58#",
+   "offset": "0x1a6b2",
+   "kind": "ascii",
+   "rva": "0x1d4b2",
+   "va": "0x10001d4b2",
+   "tags": []
+  },
+  {
+   "text": "4========5$",
+   "offset": "0x1a6c2",
+   "kind": "ascii",
+   "rva": "0x1d4c2",
+   "va": "0x10001d4c2",
+   "tags": []
+  },
+  {
+   "text": "444444444$",
+   "offset": "0x1a6d2",
+   "kind": "ascii",
+   "rva": "0x1d4d2",
+   "va": "0x10001d4d2",
+   "tags": []
+  },
+  {
+   "text": "wwwwwwww",
+   "offset": "0x1a796",
+   "kind": "ascii",
+   "rva": "0x1d596",
+   "va": "0x10001d596",
+   "tags": []
+  },
+  {
+   "text": "&&&&&&&&&&&&&&&&&",
+   "offset": "0x1ad4b",
+   "kind": "ascii",
+   "rva": "0x1db4b",
+   "va": "0x10001db4b",
+   "tags": []
+  },
+  {
+   "text": "HHHHHHHHHHHHH",
+   "offset": "0x1ad7d",
+   "kind": "ascii",
+   "rva": "0x1db7d",
+   "va": "0x10001db7d",
+   "tags": []
+  },
+  {
+   "text": ">LHHHHHHHHHHHHH",
+   "offset": "0x1ad93",
+   "kind": "ascii",
+   "rva": "0x1db93",
+   "va": "0x10001db93",
+   "tags": []
+  },
+  {
+   "text": "ILLLLLLLLLLLL",
+   "offset": "0x1adad",
+   "kind": "ascii",
+   "rva": "0x1dbad",
+   "va": "0x10001dbad",
+   "tags": []
+  },
+  {
+   "text": "HLLLLLLLLLLLL",
+   "offset": "0x1adc5",
+   "kind": "ascii",
+   "rva": "0x1dbc5",
+   "va": "0x10001dbc5",
+   "tags": []
+  },
+  {
+   "text": "LLLLLLLLLLLLL",
+   "offset": "0x1addd",
+   "kind": "ascii",
+   "rva": "0x1dbdd",
+   "va": "0x10001dbdd",
+   "tags": []
+  },
+  {
+   "text": "LLLLLLL",
+   "offset": "0x1adfb",
+   "kind": "ascii",
+   "rva": "0x1dbfb",
+   "va": "0x10001dbfb",
+   "tags": []
+  },
+  {
+   "text": ".,,,,-/25",
+   "offset": "0x1ae09",
+   "kind": "ascii",
+   "rva": "0x1dc09",
+   "va": "0x10001dc09",
+   "tags": []
+  },
+  {
+   "text": "LLLLLL",
+   "offset": "0x1ae43",
+   "kind": "ascii",
+   "rva": "0x1dc43",
+   "va": "0x10001dc43",
+   "tags": []
+  },
+  {
+   "text": ">>>>>&",
+   "offset": "0x1aebe",
+   "kind": "ascii",
+   "rva": "0x1dcbe",
+   "va": "0x10001dcbe",
+   "tags": []
+  },
+  {
+   "text": "0-/234446",
+   "offset": "0x1aec9",
+   "kind": "ascii",
+   "rva": "0x1dcc9",
+   "va": "0x10001dcc9",
+   "tags": []
+  },
+  {
+   "text": ">>>>>>>=>>>>",
+   "offset": "0x1af2b",
+   "kind": "ascii",
+   "rva": "0x1dd2b",
+   "va": "0x10001dd2b",
+   "tags": []
+  },
+  {
+   "text": "FGGHGHGGGGGGGGGGGGGGGG",
+   "offset": "0x1b704",
+   "kind": "ascii",
+   "rva": "0x1e504",
+   "va": "0x10001e504",
+   "tags": []
+  },
+  {
+   "text": "qrrrrrqqqqqqq",
+   "offset": "0x1b74b",
+   "kind": "ascii",
+   "rva": "0x1e54b",
+   "va": "0x10001e54b",
+   "tags": []
+  },
+  {
+   "text": "qrrrrrqqqqq",
+   "offset": "0x1b76d",
+   "kind": "ascii",
+   "rva": "0x1e56d",
+   "va": "0x10001e56d",
+   "tags": []
+  },
+  {
+   "text": "qrrr",
+   "offset": "0x1b78f",
+   "kind": "ascii",
+   "rva": "0x1e58f",
+   "va": "0x10001e58f",
+   "tags": []
+  },
+  {
+   "text": "qqrq",
+   "offset": "0x1b794",
+   "kind": "ascii",
+   "rva": "0x1e594",
+   "va": "0x10001e594",
+   "tags": []
+  },
+  {
+   "text": "qrqqqrrq",
+   "offset": "0x1b7b0",
+   "kind": "ascii",
+   "rva": "0x1e5b0",
+   "va": "0x10001e5b0",
+   "tags": []
+  },
+  {
+   "text": "qqqqrq",
+   "offset": "0x1b7f2",
+   "kind": "ascii",
+   "rva": "0x1e5f2",
+   "va": "0x10001e5f2",
+   "tags": []
+  },
+  {
+   "text": "TKKKKKKKNNPRMY",
+   "offset": "0x1b821",
+   "kind": "ascii",
+   "rva": "0x1e621",
+   "va": "0x10001e621",
+   "tags": []
+  },
+  {
+   "text": "qqrqqqq",
+   "offset": "0x1b831",
+   "kind": "ascii",
+   "rva": "0x1e631",
+   "va": "0x10001e631",
+   "tags": []
+  },
+  {
+   "text": "*%44#,",
+   "offset": "0x1b845",
+   "kind": "ascii",
+   "rva": "0x1e645",
+   "va": "0x10001e645",
+   "tags": []
+  },
+  {
+   "text": "6!9998",
+   "offset": "0x1b864",
+   "kind": "ascii",
+   "rva": "0x1e664",
+   "va": "0x10001e664",
+   "tags": []
+  },
+  {
+   "text": "$8@`?<<<",
+   "offset": "0x1b883",
+   "kind": "ascii",
+   "rva": "0x1e683",
+   "va": "0x10001e683",
+   "tags": []
+  },
+  {
+   "text": "K*!9@",
+   "offset": "0x1b8a1",
+   "kind": "ascii",
+   "rva": "0x1e6a1",
+   "va": "0x10001e6a1",
+   "tags": []
+  },
+  {
+   "text": "oD<<<",
+   "offset": "0x1b8a7",
+   "kind": "ascii",
+   "rva": "0x1e6a7",
+   "va": "0x10001e6a7",
+   "tags": []
+  },
+  {
+   "text": "K%9<@",
+   "offset": "0x1b8c1",
+   "kind": "ascii",
+   "rva": "0x1e6c1",
+   "va": "0x10001e6c1",
+   "tags": []
+  },
+  {
+   "text": "_?<!/\\",
+   "offset": "0x1b8c9",
+   "kind": "ascii",
+   "rva": "0x1e6c9",
+   "va": "0x10001e6c9",
+   "tags": []
+  },
+  {
+   "text": "K59<@",
+   "offset": "0x1b8e1",
+   "kind": "ascii",
+   "rva": "0x1e6e1",
+   "va": "0x10001e6e1",
+   "tags": []
+  },
+  {
+   "text": "K'9<@",
+   "offset": "0x1b921",
+   "kind": "ascii",
+   "rva": "0x1e721",
+   "va": "0x10001e721",
+   "tags": []
+  },
+  {
+   "text": "^=<8/\\",
+   "offset": "0x1b929",
+   "kind": "ascii",
+   "rva": "0x1e729",
+   "va": "0x10001e729",
+   "tags": []
+  },
+  {
+   "text": "oC<<9",
+   "offset": "0x1b947",
+   "kind": "ascii",
+   "rva": "0x1e747",
+   "va": "0x10001e747",
+   "tags": []
+  },
+  {
+   "text": "(9@`=<9<8.",
+   "offset": "0x1b963",
+   "kind": "ascii",
+   "rva": "0x1e763",
+   "va": "0x10001e763",
+   "tags": []
+  },
+  {
+   "text": ")!999981",
+   "offset": "0x1b984",
+   "kind": "ascii",
+   "rva": "0x1e784",
+   "va": "0x10001e784",
+   "tags": []
+  },
+  {
+   "text": "jdbG",
+   "offset": "0x1b996",
+   "kind": "ascii",
+   "rva": "0x1e796",
+   "va": "0x10001e796",
+   "tags": []
+  },
+  {
+   "text": "-0772",
+   "offset": "0x1b9a5",
+   "kind": "ascii",
+   "rva": "0x1e7a5",
+   "va": "0x10001e7a5",
+   "tags": []
+  },
+  {
+   "text": "dFFFGH",
+   "offset": "0x1b9b4",
+   "kind": "ascii",
+   "rva": "0x1e7b4",
+   "va": "0x10001e7b4",
+   "tags": []
+  },
+  {
+   "text": "UQRMVXZ\\\\\\\\\\\\]",
+   "offset": "0x1b9c1",
+   "kind": "ascii",
+   "rva": "0x1e7c1",
+   "va": "0x10001e7c1",
+   "tags": []
+  },
+  {
+   "text": "djlkkkjjjjjjjjkjG",
+   "offset": "0x1ba44",
+   "kind": "ascii",
+   "rva": "0x1e844",
+   "va": "0x10001e844",
+   "tags": []
+  },
+  {
+   "text": "wwwwwwwwwwwwwwww",
+   "offset": "0x1bbe4",
+   "kind": "ascii",
+   "rva": "0x1e9e4",
+   "va": "0x10001e9e4",
+   "tags": []
+  },
+  {
+   "text": "oooooooooooooooooooooooooooooooo",
+   "offset": "0x1c628",
+   "kind": "ascii",
+   "rva": "0x1f428",
+   "va": "0x10001f428",
+   "tags": []
+  },
+  {
+   "text": "~~~~~~~~~~}}}",
+   "offset": "0x1c8f5",
+   "kind": "ascii",
+   "rva": "0x1f6f5",
+   "va": "0x10001f6f5",
+   "tags": []
+  },
+  {
+   "text": "~%%%%%%%%PQQs.//\"",
+   "offset": "0x1c924",
+   "kind": "ascii",
+   "rva": "0x1f724",
+   "va": "0x10001f724",
+   "tags": []
+  },
+  {
+   "text": "~%####(I9=>>=9K",
+   "offset": "0x1c954",
+   "kind": "ascii",
+   "rva": "0x1f754",
+   "va": "0x10001f754",
+   "tags": []
+  },
+  {
+   "text": "~%###^7DggiiigD7X 34",
+   "offset": "0x1c984",
+   "kind": "ascii",
+   "rva": "0x1f784",
+   "va": "0x10001f784",
+   "tags": []
+  },
+  {
+   "text": "~%##I>gikiiiiiifAH3",
+   "offset": "0x1c9b4",
+   "kind": "ascii",
+   "rva": "0x1f7b4",
+   "va": "0x10001f7b4",
+   "tags": []
+  },
+  {
+   "text": "~%#^Dgi",
+   "offset": "0x1c9e4",
+   "kind": "ascii",
+   "rva": "0x1f7e4",
+   "va": "0x10001f7e4",
+   "tags": []
+  },
+  {
+   "text": "miiiiiigDW",
+   "offset": "0x1c9ed",
+   "kind": "ascii",
+   "rva": "0x1f7ed",
+   "va": "0x10001f7ed",
+   "tags": []
+  },
+  {
+   "text": "~%(=gii",
+   "offset": "0x1ca14",
+   "kind": "ascii",
+   "rva": "0x1f814",
+   "va": "0x10001f814",
+   "tags": []
+  },
+  {
+   "text": "liiiiif7",
+   "offset": "0x1ca1f",
+   "kind": "ascii",
+   "rva": "0x1f81f",
+   "va": "0x10001f81f",
+   "tags": []
+  },
+  {
+   "text": "~%LFiii",
+   "offset": "0x1ca44",
+   "kind": "ascii",
+   "rva": "0x1f844",
+   "va": "0x10001f844",
+   "tags": []
+  },
+  {
+   "text": "miiiiiDZ",
+   "offset": "0x1ca50",
+   "kind": "ascii",
+   "rva": "0x1f850",
+   "va": "0x10001f850",
+   "tags": []
+  },
+  {
+   "text": "~%aggii",
+   "offset": "0x1ca74",
+   "kind": "ascii",
+   "rva": "0x1f874",
+   "va": "0x10001f874",
+   "tags": []
+  },
+  {
+   "text": "liiig6",
+   "offset": "0x1ca82",
+   "kind": "ascii",
+   "rva": "0x1f882",
+   "va": "0x10001f882",
+   "tags": []
+  },
+  {
+   "text": "~(Diiii",
+   "offset": "0x1caa4",
+   "kind": "ascii",
+   "rva": "0x1f8a4",
+   "va": "0x10001f8a4",
+   "tags": []
+  },
+  {
+   "text": "miii=",
+   "offset": "0x1cab3",
+   "kind": "ascii",
+   "rva": "0x1f8b3",
+   "va": "0x10001f8b3",
+   "tags": []
+  },
+  {
+   "text": "~ODiiii",
+   "offset": "0x1cad4",
+   "kind": "ascii",
+   "rva": "0x1f8d4",
+   "va": "0x10001f8d4",
+   "tags": []
+  },
+  {
+   "text": "nii>",
+   "offset": "0x1cae4",
+   "kind": "ascii",
+   "rva": "0x1f8e4",
+   "va": "0x10001f8e4",
+   "tags": []
+  },
+  {
+   "text": "~SFgiii",
+   "offset": "0x1cb04",
+   "kind": "ascii",
+   "rva": "0x1f904",
+   "va": "0x10001f904",
+   "tags": []
+  },
+  {
+   "text": "~)Digii",
+   "offset": "0x1cb34",
+   "kind": "ascii",
+   "rva": "0x1f934",
+   "va": "0x10001f934",
+   "tags": []
+  },
+  {
+   "text": "~%agiii",
+   "offset": "0x1cb64",
+   "kind": "ascii",
+   "rva": "0x1f964",
+   "va": "0x10001f964",
+   "tags": []
+  },
+  {
+   "text": "liiig9",
+   "offset": "0x1cb72",
+   "kind": "ascii",
+   "rva": "0x1f972",
+   "va": "0x10001f972",
+   "tags": []
+  },
+  {
+   "text": "~%\\ggii",
+   "offset": "0x1cb94",
+   "kind": "ascii",
+   "rva": "0x1f994",
+   "va": "0x10001f994",
+   "tags": []
+  },
+  {
+   "text": "~%'Agii",
+   "offset": "0x1cbc4",
+   "kind": "ascii",
+   "rva": "0x1f9c4",
+   "va": "0x10001f9c4",
+   "tags": []
+  },
+  {
+   "text": "~%#`fgg",
+   "offset": "0x1cbf4",
+   "kind": "ascii",
+   "rva": "0x1f9f4",
+   "va": "0x10001f9f4",
+   "tags": []
+  },
+  {
+   "text": "miiiiiiiAM",
+   "offset": "0x1cbfd",
+   "kind": "ascii",
+   "rva": "0x1f9fd",
+   "va": "0x10001f9fd",
+   "tags": []
+  },
+  {
+   "text": "~#..[ggikgiiiiifAZ",
+   "offset": "0x1cc24",
+   "kind": "ascii",
+   "rva": "0x1fa24",
+   "va": "0x10001fa24",
+   "tags": []
+  },
+  {
+   "text": "}.#./TcgggigigF7M",
+   "offset": "0x1cc54",
+   "kind": "ascii",
+   "rva": "0x1fa54",
+   "va": "0x10001fa54",
+   "tags": []
+  },
+  {
+   "text": "}...001]dFFFDbY",
+   "offset": "0x1cc84",
+   "kind": "ascii",
+   "rva": "0x1fa84",
+   "va": "0x10001fa84",
+   "tags": []
+  },
+  {
+   "text": "~..//",
+   "offset": "0x1ccb4",
+   "kind": "ascii",
+   "rva": "0x1fab4",
+   "va": "0x10001fab4",
+   "tags": []
+  },
+  {
+   "text": "!!\"~",
+   "offset": "0x1daec",
+   "kind": "ascii",
+   "rva": "0x208ec",
+   "va": "0x1000208ec",
+   "tags": []
+  },
+  {
+   "text": "BBBK",
+   "offset": "0x1dc08",
+   "kind": "ascii",
+   "rva": "0x20a08",
+   "va": "0x100020a08",
+   "tags": []
+  },
+  {
+   "text": "@@?M",
+   "offset": "0x1dc64",
+   "kind": "ascii",
+   "rva": "0x20a64",
+   "va": "0x100020a64",
+   "tags": []
+  },
+  {
+   "text": "JJJO",
+   "offset": "0x1dcc0",
+   "kind": "ascii",
+   "rva": "0x20ac0",
+   "va": "0x100020ac0",
+   "tags": []
+  },
+  {
+   "text": "JJJT",
+   "offset": "0x1dd1c",
+   "kind": "ascii",
+   "rva": "0x20b1c",
+   "va": "0x100020b1c",
+   "tags": []
+  },
+  {
+   "text": "UUUv",
+   "offset": "0x1ea6c",
+   "kind": "ascii",
+   "rva": "0x2186c",
+   "va": "0x10002186c",
+   "tags": []
+  },
+  {
+   "text": "\\\\\\p",
+   "offset": "0x1eae8",
+   "kind": "ascii",
+   "rva": "0x218e8",
+   "va": "0x1000218e8",
+   "tags": []
+  },
+  {
+   "text": "RRRq",
+   "offset": "0x1eb64",
+   "kind": "ascii",
+   "rva": "0x21964",
+   "va": "0x100021964",
+   "tags": []
+  },
+  {
+   "text": "TTTt",
+   "offset": "0x1ebe0",
+   "kind": "ascii",
+   "rva": "0x219e0",
+   "va": "0x1000219e0",
+   "tags": []
+  },
+  {
+   "text": "RRRp",
+   "offset": "0x1ec5c",
+   "kind": "ascii",
+   "rva": "0x21a5c",
+   "va": "0x100021a5c",
+   "tags": []
+  },
+  {
+   "text": "]U]]Y",
+   "offset": "0x2153c",
+   "kind": "ascii",
+   "rva": "0x2433c",
+   "va": "0x10002433c",
+   "tags": []
+  },
+  {
+   "text": "6Iv*",
+   "offset": "0x216b5",
+   "kind": "ascii",
+   "rva": "0x244b5",
+   "va": "0x1000244b5",
+   "tags": []
+  },
+  {
+   "text": "lV;;",
+   "offset": "0x216c8",
+   "kind": "ascii",
+   "rva": "0x244c8",
+   "va": "0x1000244c8",
+   "tags": []
+  },
+  {
+   "text": "cI)/",
+   "offset": "0x21722",
+   "kind": "ascii",
+   "rva": "0x24522",
+   "va": "0x100024522",
+   "tags": []
+  },
+  {
+   "text": "M&''",
+   "offset": "0x217a9",
+   "kind": "ascii",
+   "rva": "0x245a9",
+   "va": "0x1000245a9",
+   "tags": []
+  },
+  {
+   "text": "_`zz",
+   "offset": "0x21846",
+   "kind": "ascii",
+   "rva": "0x24646",
+   "va": "0x100024646",
+   "tags": []
+  },
+  {
+   "text": "fffx",
+   "offset": "0x2188f",
+   "kind": "ascii",
+   "rva": "0x2468f",
+   "va": "0x10002468f",
+   "tags": []
+  },
+  {
+   "text": "LMMq",
+   "offset": "0x21945",
+   "kind": "ascii",
+   "rva": "0x24745",
+   "va": "0x100024745",
+   "tags": []
+  },
+  {
+   "text": "<333",
+   "offset": "0x21992",
+   "kind": "ascii",
+   "rva": "0x24792",
+   "va": "0x100024792",
+   "tags": []
+  },
+  {
+   "text": "8fii",
+   "offset": "0x21a12",
+   "kind": "ascii",
+   "rva": "0x24812",
+   "va": "0x100024812",
+   "tags": []
+  },
+  {
+   "text": "&k`-w",
+   "offset": "0x21ac9",
+   "kind": "ascii",
+   "rva": "0x248c9",
+   "va": "0x1000248c9",
+   "tags": []
+  },
+  {
+   "text": "266F",
+   "offset": "0x21b2a",
+   "kind": "ascii",
+   "rva": "0x2492a",
+   "va": "0x10002492a",
+   "tags": []
+  },
+  {
+   "text": ",#MS",
+   "offset": "0x21b34",
+   "kind": "ascii",
+   "rva": "0x24934",
+   "va": "0x100024934",
+   "tags": []
+  },
+  {
+   "text": "ga8K`nn",
+   "offset": "0x21c04",
+   "kind": "ascii",
+   "rva": "0x24a04",
+   "va": "0x100024a04",
+   "tags": []
+  },
+  {
+   "text": "3gPJ",
+   "offset": "0x21cd4",
+   "kind": "ascii",
+   "rva": "0x24ad4",
+   "va": "0x100024ad4",
+   "tags": []
+  },
+  {
+   "text": "; pV",
+   "offset": "0x21dd6",
+   "kind": "ascii",
+   "rva": "0x24bd6",
+   "va": "0x100024bd6",
+   "tags": []
+  },
+  {
+   "text": "W\"# ",
+   "offset": "0x21e05",
+   "kind": "ascii",
+   "rva": "0x24c05",
+   "va": "0x100024c05",
+   "tags": []
+  },
+  {
+   "text": "bzzz",
+   "offset": "0x21e2b",
+   "kind": "ascii",
+   "rva": "0x24c2b",
+   "va": "0x100024c2b",
+   "tags": []
+  },
+  {
+   "text": "/cPI",
+   "offset": "0x21e62",
+   "kind": "ascii",
+   "rva": "0x24c62",
+   "va": "0x100024c62",
+   "tags": []
+  },
+  {
+   "text": "75FYbl",
+   "offset": "0x21f52",
+   "kind": "ascii",
+   "rva": "0x24d52",
+   "va": "0x100024d52",
+   "tags": []
+  },
+  {
+   "text": ":=x#\"$(%",
+   "offset": "0x22042",
+   "kind": "ascii",
+   "rva": "0x24e42",
+   "va": "0x100024e42",
+   "tags": []
+  },
+  {
+   "text": "*4:T",
+   "offset": "0x22074",
+   "kind": "ascii",
+   "rva": "0x24e74",
+   "va": "0x100024e74",
+   "tags": []
+  },
+  {
+   "text": "[u-[%# X[",
+   "offset": "0x2207d",
+   "kind": "ascii",
+   "rva": "0x24e7d",
+   "va": "0x100024e7d",
+   "tags": []
+  },
+  {
+   "text": "fdYJ",
+   "offset": "0x22092",
+   "kind": "ascii",
+   "rva": "0x24e92",
+   "va": "0x100024e92",
+   "tags": []
+  },
+  {
+   "text": "qB/N",
+   "offset": "0x2209f",
+   "kind": "ascii",
+   "rva": "0x24e9f",
+   "va": "0x100024e9f",
+   "tags": []
+  },
+  {
+   "text": "c;uXH",
+   "offset": "0x220a4",
+   "kind": "ascii",
+   "rva": "0x24ea4",
+   "va": "0x100024ea4",
+   "tags": []
+  },
+  {
+   "text": "'tWV",
+   "offset": "0x220f4",
+   "kind": "ascii",
+   "rva": "0x24ef4",
+   "va": "0x100024ef4",
+   "tags": []
+  },
+  {
+   "text": "h!PE",
+   "offset": "0x22102",
+   "kind": "ascii",
+   "rva": "0x24f02",
+   "va": "0x100024f02",
+   "tags": []
+  },
+  {
+   "text": "1@Q;",
+   "offset": "0x22167",
+   "kind": "ascii",
+   "rva": "0x24f67",
+   "va": "0x100024f67",
+   "tags": []
+  },
+  {
+   "text": "BLOO",
+   "offset": "0x22172",
+   "kind": "ascii",
+   "rva": "0x24f72",
+   "va": "0x100024f72",
+   "tags": []
+  },
+  {
+   "text": "h266N",
+   "offset": "0x22186",
+   "kind": "ascii",
+   "rva": "0x24f86",
+   "va": "0x100024f86",
+   "tags": []
+  },
+  {
+   "text": "USz+",
+   "offset": "0x221b7",
+   "kind": "ascii",
+   "rva": "0x24fb7",
+   "va": "0x100024fb7",
+   "tags": []
+  },
+  {
+   "text": "399I",
+   "offset": "0x221f8",
+   "kind": "ascii",
+   "rva": "0x24ff8",
+   "va": "0x100024ff8",
+   "tags": []
+  },
+  {
+   "text": "XK c",
+   "offset": "0x222e2",
+   "kind": "ascii",
+   "rva": "0x250e2",
+   "va": "0x1000250e2",
+   "tags": []
+  },
+  {
+   "text": "[v,MS",
+   "offset": "0x22314",
+   "kind": "ascii",
+   "rva": "0x25114",
+   "va": "0x100025114",
+   "tags": []
+  },
+  {
+   "text": "3,]X",
+   "offset": "0x22325",
+   "kind": "ascii",
+   "rva": "0x25125",
+   "va": "0x100025125",
+   "tags": []
+  },
+  {
+   "text": "*)V5",
+   "offset": "0x2236f",
+   "kind": "ascii",
+   "rva": "0x2516f",
+   "va": "0x10002516f",
+   "tags": []
+  },
+  {
+   "text": "wmW9",
+   "offset": "0x2242e",
+   "kind": "ascii",
+   "rva": "0x2522e",
+   "va": "0x10002522e",
+   "tags": []
+  },
+  {
+   "text": "V411A",
+   "offset": "0x224f6",
+   "kind": "ascii",
+   "rva": "0x252f6",
+   "va": "0x1000252f6",
+   "tags": []
+  },
+  {
+   "text": "*[5c",
+   "offset": "0x22515",
+   "kind": "ascii",
+   "rva": "0x25315",
+   "va": "0x100025315",
+   "tags": []
+  },
+  {
+   "text": "[a!lV",
+   "offset": "0x22524",
+   "kind": "ascii",
+   "rva": "0x25324",
+   "va": "0x100025324",
+   "tags": []
+  },
+  {
+   "text": "_]C`",
+   "offset": "0x2252c",
+   "kind": "ascii",
+   "rva": "0x2532c",
+   "va": "0x10002532c",
+   "tags": []
+  },
+  {
+   "text": ";Kc||",
+   "offset": "0x22541",
+   "kind": "ascii",
+   "rva": "0x25341",
+   "va": "0x100025341",
+   "tags": []
+  },
+  {
+   "text": "fgg9y",
+   "offset": "0x2254a",
+   "kind": "ascii",
+   "rva": "0x2534a",
+   "va": "0x10002534a",
+   "tags": []
+  },
+  {
+   "text": "C1cp(Pj",
+   "offset": "0x22583",
+   "kind": "ascii",
+   "rva": "0x25383",
+   "va": "0x100025383",
+   "tags": []
+  },
+  {
+   "text": "K.'*q)",
+   "offset": "0x22593",
+   "kind": "ascii",
+   "rva": "0x25393",
+   "va": "0x100025393",
+   "tags": []
+  },
+  {
+   "text": "AUI/",
+   "offset": "0x22686",
+   "kind": "ascii",
+   "rva": "0x25486",
+   "va": "0x100025486",
+   "tags": []
+  },
+  {
+   "text": "!;Rv=",
+   "offset": "0x22713",
+   "kind": "ascii",
+   "rva": "0x25513",
+   "va": "0x100025513",
+   "tags": []
+  },
+  {
+   "text": "UL#PJ",
+   "offset": "0x22880",
+   "kind": "ascii",
+   "rva": "0x25680",
+   "va": "0x100025680",
+   "tags": []
+  },
+  {
+   "text": "Q#db",
+   "offset": "0x2288f",
+   "kind": "ascii",
+   "rva": "0x2568f",
+   "va": "0x10002568f",
+   "tags": []
+  },
+  {
+   "text": "u%@0",
+   "offset": "0x228f6",
+   "kind": "ascii",
+   "rva": "0x256f6",
+   "va": "0x1000256f6",
+   "tags": []
+  },
+  {
+   "text": "h6Bj",
+   "offset": "0x22961",
+   "kind": "ascii",
+   "rva": "0x25761",
+   "va": "0x100025761",
+   "tags": []
+  },
+  {
+   "text": ",Agv",
+   "offset": "0x22a89",
+   "kind": "ascii",
+   "rva": "0x25889",
+   "va": "0x100025889",
+   "tags": []
+  },
+  {
+   "text": "XWD@",
+   "offset": "0x22a95",
+   "kind": "ascii",
+   "rva": "0x25895",
+   "va": "0x100025895",
+   "tags": []
+  },
+  {
+   "text": "JA_e",
+   "offset": "0x22a9e",
+   "kind": "ascii",
+   "rva": "0x2589e",
+   "va": "0x10002589e",
+   "tags": []
+  },
+  {
+   "text": ")-&!@",
+   "offset": "0x22ab6",
+   "kind": "ascii",
+   "rva": "0x258b6",
+   "va": "0x1000258b6",
+   "tags": []
+  },
+  {
+   "text": "t]06",
+   "offset": "0x22ad4",
+   "kind": "ascii",
+   "rva": "0x258d4",
+   "va": "0x1000258d4",
+   "tags": []
+  },
+  {
+   "text": "MnLY",
+   "offset": "0x22b7c",
+   "kind": "ascii",
+   "rva": "0x2597c",
+   "va": "0x10002597c",
+   "tags": []
+  },
+  {
+   "text": "Fct~",
+   "offset": "0x22b9c",
+   "kind": "ascii",
+   "rva": "0x2599c",
+   "va": "0x10002599c",
+   "tags": []
+  },
+  {
+   "text": "]FcGT-%",
+   "offset": "0x22c8d",
+   "kind": "ascii",
+   "rva": "0x25a8d",
+   "va": "0x100025a8d",
+   "tags": []
+  },
+  {
+   "text": "un:8",
+   "offset": "0x22d16",
+   "kind": "ascii",
+   "rva": "0x25b16",
+   "va": "0x100025b16",
+   "tags": []
+  },
+  {
+   "text": "n2n4-M",
+   "offset": "0x22d7e",
+   "kind": "ascii",
+   "rva": "0x25b7e",
+   "va": "0x100025b7e",
+   "tags": []
+  },
+  {
+   "text": "`Gmw^",
+   "offset": "0x22daa",
+   "kind": "ascii",
+   "rva": "0x25baa",
+   "va": "0x100025baa",
+   "tags": []
+  },
+  {
+   "text": "Bzmy",
+   "offset": "0x22dc3",
+   "kind": "ascii",
+   "rva": "0x25bc3",
+   "va": "0x100025bc3",
+   "tags": []
+  },
+  {
+   "text": "^/F hD",
+   "offset": "0x22de2",
+   "kind": "ascii",
+   "rva": "0x25be2",
+   "va": "0x100025be2",
+   "tags": []
+  },
+  {
+   "text": "iwRN-",
+   "offset": "0x22e10",
+   "kind": "ascii",
+   "rva": "0x25c10",
+   "va": "0x100025c10",
+   "tags": []
+  },
+  {
+   "text": "{a27~;T",
+   "offset": "0x22e61",
+   "kind": "ascii",
+   "rva": "0x25c61",
+   "va": "0x100025c61",
+   "tags": []
+  },
+  {
+   "text": ".b-_",
+   "offset": "0x22e98",
+   "kind": "ascii",
+   "rva": "0x25c98",
+   "va": "0x100025c98",
+   "tags": []
+  },
+  {
+   "text": "5If;",
+   "offset": "0x22f08",
+   "kind": "ascii",
+   "rva": "0x25d08",
+   "va": "0x100025d08",
+   "tags": []
+  },
+  {
+   "text": "Fx>6",
+   "offset": "0x22fa0",
+   "kind": "ascii",
+   "rva": "0x25da0",
+   "va": "0x100025da0",
+   "tags": []
+  },
+  {
+   "text": "aV+|",
+   "offset": "0x22fba",
+   "kind": "ascii",
+   "rva": "0x25dba",
+   "va": "0x100025dba",
+   "tags": []
+  },
+  {
+   "text": "P&?x?",
+   "offset": "0x22fce",
+   "kind": "ascii",
+   "rva": "0x25dce",
+   "va": "0x100025dce",
+   "tags": []
+  },
+  {
+   "text": "\"MMh",
+   "offset": "0x22ffa",
+   "kind": "ascii",
+   "rva": "0x25dfa",
+   "va": "0x100025dfa",
+   "tags": []
+  },
+  {
+   "text": "gfU_,",
+   "offset": "0x23042",
+   "kind": "ascii",
+   "rva": "0x25e42",
+   "va": "0x100025e42",
+   "tags": []
+  },
+  {
+   "text": "/N0I",
+   "offset": "0x23053",
+   "kind": "ascii",
+   "rva": "0x25e53",
+   "va": "0x100025e53",
+   "tags": []
+  },
+  {
+   "text": " K4&",
+   "offset": "0x23059",
+   "kind": "ascii",
+   "rva": "0x25e59",
+   "va": "0x100025e59",
+   "tags": []
+  },
+  {
+   "text": "kui&",
+   "offset": "0x2309a",
+   "kind": "ascii",
+   "rva": "0x25e9a",
+   "va": "0x100025e9a",
+   "tags": []
+  },
+  {
+   "text": "Y\\IPJ",
+   "offset": "0x230ba",
+   "kind": "ascii",
+   "rva": "0x25eba",
+   "va": "0x100025eba",
+   "tags": []
+  },
+  {
+   "text": "w\\i=",
+   "offset": "0x230fb",
+   "kind": "ascii",
+   "rva": "0x25efb",
+   "va": "0x100025efb",
+   "tags": []
+  },
+  {
+   "text": "C3]aJ",
+   "offset": "0x23115",
+   "kind": "ascii",
+   "rva": "0x25f15",
+   "va": "0x100025f15",
+   "tags": []
+  },
+  {
+   "text": "qBw1%n",
+   "offset": "0x231d6",
+   "kind": "ascii",
+   "rva": "0x25fd6",
+   "va": "0x100025fd6",
+   "tags": []
+  },
+  {
+   "text": "%20YyN_",
+   "offset": "0x231f2",
+   "kind": "ascii",
+   "rva": "0x25ff2",
+   "va": "0x100025ff2",
+   "tags": []
+  },
+  {
+   "text": "Ok\\Xi",
+   "offset": "0x2320e",
+   "kind": "ascii",
+   "rva": "0x2600e",
+   "va": "0x10002600e",
+   "tags": []
+  },
+  {
+   "text": "Dhts",
+   "offset": "0x23217",
+   "kind": "ascii",
+   "rva": "0x26017",
+   "va": "0x100026017",
+   "tags": []
+  },
+  {
+   "text": ":1g[]",
+   "offset": "0x2323a",
+   "kind": "ascii",
+   "rva": "0x2603a",
+   "va": "0x10002603a",
+   "tags": []
+  },
+  {
+   "text": "|?<X",
+   "offset": "0x2326d",
+   "kind": "ascii",
+   "rva": "0x2606d",
+   "va": "0x10002606d",
+   "tags": []
+  },
+  {
+   "text": "A7hG",
+   "offset": "0x23272",
+   "kind": "ascii",
+   "rva": "0x26072",
+   "va": "0x100026072",
+   "tags": []
+  },
+  {
+   "text": "/u_7",
+   "offset": "0x2327d",
+   "kind": "ascii",
+   "rva": "0x2607d",
+   "va": "0x10002607d",
+   "tags": []
+  },
+  {
+   "text": "}g8\\[ P]0",
+   "offset": "0x232b6",
+   "kind": "ascii",
+   "rva": "0x260b6",
+   "va": "0x1000260b6",
+   "tags": []
+  },
+  {
+   "text": "XB21",
+   "offset": "0x232c3",
+   "kind": "ascii",
+   "rva": "0x260c3",
+   "va": "0x1000260c3",
+   "tags": []
+  },
+  {
+   "text": "5P3{",
+   "offset": "0x232f4",
+   "kind": "ascii",
+   "rva": "0x260f4",
+   "va": "0x1000260f4",
+   "tags": []
+  },
+  {
+   "text": "t2C$4",
+   "offset": "0x2331a",
+   "kind": "ascii",
+   "rva": "0x2611a",
+   "va": "0x10002611a",
+   "tags": []
+  },
+  {
+   "text": "A91*",
+   "offset": "0x23338",
+   "kind": "ascii",
+   "rva": "0x26138",
+   "va": "0x100026138",
+   "tags": []
+  },
+  {
+   "text": "NYes",
+   "offset": "0x233a6",
+   "kind": "ascii",
+   "rva": "0x261a6",
+   "va": "0x1000261a6",
+   "tags": []
+  },
+  {
+   "text": ",w!D@J",
+   "offset": "0x233b6",
+   "kind": "ascii",
+   "rva": "0x261b6",
+   "va": "0x1000261b6",
+   "tags": []
+  },
+  {
+   "text": "RzJb",
+   "offset": "0x233fd",
+   "kind": "ascii",
+   "rva": "0x261fd",
+   "va": "0x1000261fd",
+   "tags": []
+  },
+  {
+   "text": "R:. ",
+   "offset": "0x2343e",
+   "kind": "ascii",
+   "rva": "0x2623e",
+   "va": "0x10002623e",
+   "tags": []
+  },
+  {
+   "text": "}a3/q",
+   "offset": "0x23488",
+   "kind": "ascii",
+   "rva": "0x26288",
+   "va": "0x100026288",
+   "tags": []
+  },
+  {
+   "text": "A*\"0",
+   "offset": "0x23493",
+   "kind": "ascii",
+   "rva": "0x26293",
+   "va": "0x100026293",
+   "tags": []
+  },
+  {
+   "text": "rf`a",
+   "offset": "0x234c0",
+   "kind": "ascii",
+   "rva": "0x262c0",
+   "va": "0x1000262c0",
+   "tags": []
+  },
+  {
+   "text": ".>YsE\"",
+   "offset": "0x234d1",
+   "kind": "ascii",
+   "rva": "0x262d1",
+   "va": "0x1000262d1",
+   "tags": []
+  },
+  {
+   "text": "IDATi",
+   "offset": "0x234e1",
+   "kind": "ascii",
+   "rva": "0x262e1",
+   "va": "0x1000262e1",
+   "tags": []
+  },
+  {
+   "text": "^^ X8",
+   "offset": "0x23545",
+   "kind": "ascii",
+   "rva": "0x26345",
+   "va": "0x100026345",
+   "tags": []
+  },
+  {
+   "text": "HvsH,#",
+   "offset": "0x23574",
+   "kind": "ascii",
+   "rva": "0x26374",
+   "va": "0x100026374",
+   "tags": []
+  },
+  {
+   "text": "NbVZ",
+   "offset": "0x23595",
+   "kind": "ascii",
+   "rva": "0x26395",
+   "va": "0x100026395",
+   "tags": []
+  },
+  {
+   "text": " bYr",
+   "offset": "0x23631",
+   "kind": "ascii",
+   "rva": "0x26431",
+   "va": "0x100026431",
+   "tags": []
+  },
+  {
+   "text": "=In-",
+   "offset": "0x236d8",
+   "kind": "ascii",
+   "rva": "0x264d8",
+   "va": "0x1000264d8",
+   "tags": []
+  },
+  {
+   "text": "W&&8",
+   "offset": "0x23713",
+   "kind": "ascii",
+   "rva": "0x26513",
+   "va": "0x100026513",
+   "tags": []
+  },
+  {
+   "text": "wBX%C",
+   "offset": "0x23791",
+   "kind": "ascii",
+   "rva": "0x26591",
+   "va": "0x100026591",
+   "tags": []
+  },
+  {
+   "text": "#o&j",
+   "offset": "0x237b9",
+   "kind": "ascii",
+   "rva": "0x265b9",
+   "va": "0x1000265b9",
+   "tags": []
+  },
+  {
+   "text": "J/l9.)%",
+   "offset": "0x2381d",
+   "kind": "ascii",
+   "rva": "0x2661d",
+   "va": "0x10002661d",
+   "tags": []
+  },
+  {
+   "text": "Z\"H3",
+   "offset": "0x23898",
+   "kind": "ascii",
+   "rva": "0x26698",
+   "va": "0x100026698",
+   "tags": []
+  },
+  {
+   "text": "lD6:",
+   "offset": "0x238cf",
+   "kind": "ascii",
+   "rva": "0x266cf",
+   "va": "0x1000266cf",
+   "tags": []
+  },
+  {
+   "text": "/sS2G/",
+   "offset": "0x23903",
+   "kind": "ascii",
+   "rva": "0x26703",
+   "va": "0x100026703",
+   "tags": []
+  },
+  {
+   "text": ".pra",
+   "offset": "0x239b4",
+   "kind": "ascii",
+   "rva": "0x267b4",
+   "va": "0x1000267b4",
+   "tags": []
+  },
+  {
+   "text": "Dg(c8",
+   "offset": "0x239b9",
+   "kind": "ascii",
+   "rva": "0x267b9",
+   "va": "0x1000267b9",
+   "tags": []
+  },
+  {
+   "text": "h'1InZ",
+   "offset": "0x23a79",
+   "kind": "ascii",
+   "rva": "0x26879",
+   "va": "0x100026879",
+   "tags": []
+  },
+  {
+   "text": "dhZq",
+   "offset": "0x23b40",
+   "kind": "ascii",
+   "rva": "0x26940",
+   "va": "0x100026940",
+   "tags": []
+  },
+  {
+   "text": "K/KH",
+   "offset": "0x23b47",
+   "kind": "ascii",
+   "rva": "0x26947",
+   "va": "0x100026947",
+   "tags": []
+  },
+  {
+   "text": "3/u0'[|",
+   "offset": "0x23b57",
+   "kind": "ascii",
+   "rva": "0x26957",
+   "va": "0x100026957",
+   "tags": []
+  },
+  {
+   "text": "id Q3",
+   "offset": "0x23bcc",
+   "kind": "ascii",
+   "rva": "0x269cc",
+   "va": "0x1000269cc",
+   "tags": []
+  },
+  {
+   "text": "g1+s",
+   "offset": "0x23d1a",
+   "kind": "ascii",
+   "rva": "0x26b1a",
+   "va": "0x100026b1a",
+   "tags": []
+  },
+  {
+   "text": "Kp@'",
+   "offset": "0x23d83",
+   "kind": "ascii",
+   "rva": "0x26b83",
+   "va": "0x100026b83",
+   "tags": []
+  },
+  {
+   "text": ",vWx",
+   "offset": "0x23db1",
+   "kind": "ascii",
+   "rva": "0x26bb1",
+   "va": "0x100026bb1",
+   "tags": []
+  },
+  {
+   "text": "I@F7",
+   "offset": "0x23dda",
+   "kind": "ascii",
+   "rva": "0x26bda",
+   "va": "0x100026bda",
+   "tags": []
+  },
+  {
+   "text": "|~7b[",
+   "offset": "0x23de0",
+   "kind": "ascii",
+   "rva": "0x26be0",
+   "va": "0x100026be0",
+   "tags": []
+  },
+  {
+   "text": "w ia",
+   "offset": "0x23e0d",
+   "kind": "ascii",
+   "rva": "0x26c0d",
+   "va": "0x100026c0d",
+   "tags": []
+  },
+  {
+   "text": "J42@",
+   "offset": "0x23e45",
+   "kind": "ascii",
+   "rva": "0x26c45",
+   "va": "0x100026c45",
+   "tags": []
+  },
+  {
+   "text": ":,2T",
+   "offset": "0x23e8e",
+   "kind": "ascii",
+   "rva": "0x26c8e",
+   "va": "0x100026c8e",
+   "tags": []
+  },
+  {
+   "text": "o<<K",
+   "offset": "0x23ea8",
+   "kind": "ascii",
+   "rva": "0x26ca8",
+   "va": "0x100026ca8",
+   "tags": []
+  },
+  {
+   "text": "wyKFg",
+   "offset": "0x23ecf",
+   "kind": "ascii",
+   "rva": "0x26ccf",
+   "va": "0x100026ccf",
+   "tags": []
+  },
+  {
+   "text": "A]{7",
+   "offset": "0x23ee9",
+   "kind": "ascii",
+   "rva": "0x26ce9",
+   "va": "0x100026ce9",
+   "tags": []
+  },
+  {
+   "text": "UxQ^C",
+   "offset": "0x23f0f",
+   "kind": "ascii",
+   "rva": "0x26d0f",
+   "va": "0x100026d0f",
+   "tags": []
+  },
+  {
+   "text": "!#Lg",
+   "offset": "0x24009",
+   "kind": "ascii",
+   "rva": "0x26e09",
+   "va": "0x100026e09",
+   "tags": []
+  },
+  {
+   "text": "\"#1a",
+   "offset": "0x240a4",
+   "kind": "ascii",
+   "rva": "0x26ea4",
+   "va": "0x100026ea4",
+   "tags": []
+  },
+  {
+   "text": "EG5`2",
+   "offset": "0x240aa",
+   "kind": "ascii",
+   "rva": "0x26eaa",
+   "va": "0x100026eaa",
+   "tags": []
+  },
+  {
+   "text": "`@}99",
+   "offset": "0x240bf",
+   "kind": "ascii",
+   "rva": "0x26ebf",
+   "va": "0x100026ebf",
+   "tags": []
+  },
+  {
+   "text": "<DOg",
+   "offset": "0x241ea",
+   "kind": "ascii",
+   "rva": "0x26fea",
+   "va": "0x100026fea",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "ccRU",
+   "offset": "0x24219",
+   "kind": "ascii",
+   "rva": "0x27019",
+   "va": "0x100027019",
+   "tags": []
+  },
+  {
+   "text": "):P9",
+   "offset": "0x24230",
+   "kind": "ascii",
+   "rva": "0x27030",
+   "va": "0x100027030",
+   "tags": []
+  },
+  {
+   "text": "&-x]",
+   "offset": "0x24257",
+   "kind": "ascii",
+   "rva": "0x27057",
+   "va": "0x100027057",
+   "tags": []
+  },
+  {
+   "text": "*$8|'",
+   "offset": "0x24321",
+   "kind": "ascii",
+   "rva": "0x27121",
+   "va": "0x100027121",
+   "tags": []
+  },
+  {
+   "text": "!]ynm",
+   "offset": "0x243aa",
+   "kind": "ascii",
+   "rva": "0x271aa",
+   "va": "0x1000271aa",
+   "tags": []
+  },
+  {
+   "text": "6#4B",
+   "offset": "0x243b5",
+   "kind": "ascii",
+   "rva": "0x271b5",
+   "va": "0x1000271b5",
+   "tags": []
+  },
+  {
+   "text": "a1 9",
+   "offset": "0x243cf",
+   "kind": "ascii",
+   "rva": "0x271cf",
+   "va": "0x1000271cf",
+   "tags": []
+  },
+  {
+   "text": "lLCs",
+   "offset": "0x243ef",
+   "kind": "ascii",
+   "rva": "0x271ef",
+   "va": "0x1000271ef",
+   "tags": []
+  },
+  {
+   "text": "[(tXA`h",
+   "offset": "0x2445c",
+   "kind": "ascii",
+   "rva": "0x2725c",
+   "va": "0x10002725c",
+   "tags": []
+  },
+  {
+   "text": "`=q#",
+   "offset": "0x24464",
+   "kind": "ascii",
+   "rva": "0x27264",
+   "va": "0x100027264",
+   "tags": []
+  },
+  {
+   "text": "5pmS>",
+   "offset": "0x2448d",
+   "kind": "ascii",
+   "rva": "0x2728d",
+   "va": "0x10002728d",
+   "tags": []
+  },
+  {
+   "text": "$ijs",
+   "offset": "0x244e7",
+   "kind": "ascii",
+   "rva": "0x272e7",
+   "va": "0x1000272e7",
+   "tags": []
+  },
+  {
+   "text": "Hzmb",
+   "offset": "0x244ee",
+   "kind": "ascii",
+   "rva": "0x272ee",
+   "va": "0x1000272ee",
+   "tags": []
+  },
+  {
+   "text": "Bi\\h",
+   "offset": "0x2453a",
+   "kind": "ascii",
+   "rva": "0x2733a",
+   "va": "0x10002733a",
+   "tags": []
+  },
+  {
+   "text": "k597`",
+   "offset": "0x2457b",
+   "kind": "ascii",
+   "rva": "0x2737b",
+   "va": "0x10002737b",
+   "tags": []
+  },
+  {
+   "text": ")4Rd",
+   "offset": "0x245df",
+   "kind": "ascii",
+   "rva": "0x273df",
+   "va": "0x1000273df",
+   "tags": []
+  },
+  {
+   "text": "[ Li",
+   "offset": "0x24603",
+   "kind": "ascii",
+   "rva": "0x27403",
+   "va": "0x100027403",
+   "tags": []
+  },
+  {
+   "text": "HRR#",
+   "offset": "0x246ae",
+   "kind": "ascii",
+   "rva": "0x274ae",
+   "va": "0x1000274ae",
+   "tags": []
+  },
+  {
+   "text": "a3_wP",
+   "offset": "0x246e4",
+   "kind": "ascii",
+   "rva": "0x274e4",
+   "va": "0x1000274e4",
+   "tags": []
+  },
+  {
+   "text": "o|#Y",
+   "offset": "0x2470e",
+   "kind": "ascii",
+   "rva": "0x2750e",
+   "va": "0x10002750e",
+   "tags": []
+  },
+  {
+   "text": "[Y\"P",
+   "offset": "0x24759",
+   "kind": "ascii",
+   "rva": "0x27559",
+   "va": "0x100027559",
+   "tags": []
+  },
+  {
+   "text": ")e_2",
+   "offset": "0x24884",
+   "kind": "ascii",
+   "rva": "0x27684",
+   "va": "0x100027684",
+   "tags": []
+  },
+  {
+   "text": "$39? H",
+   "offset": "0x248af",
+   "kind": "ascii",
+   "rva": "0x276af",
+   "va": "0x1000276af",
+   "tags": []
+  },
+  {
+   "text": "D&=Hzy",
+   "offset": "0x2491a",
+   "kind": "ascii",
+   "rva": "0x2771a",
+   "va": "0x10002771a",
+   "tags": []
+  },
+  {
+   "text": "%][_@",
+   "offset": "0x24a12",
+   "kind": "ascii",
+   "rva": "0x27812",
+   "va": "0x100027812",
+   "tags": []
+  },
+  {
+   "text": "`jSv",
+   "offset": "0x24a1d",
+   "kind": "ascii",
+   "rva": "0x2781d",
+   "va": "0x10002781d",
+   "tags": []
+  },
+  {
+   "text": "uApH",
+   "offset": "0x24a76",
+   "kind": "ascii",
+   "rva": "0x27876",
+   "va": "0x100027876",
+   "tags": []
+  },
+  {
+   "text": "c{m\"",
+   "offset": "0x24aa8",
+   "kind": "ascii",
+   "rva": "0x278a8",
+   "va": "0x1000278a8",
+   "tags": []
+  },
+  {
+   "text": "]UA.",
+   "offset": "0x24aba",
+   "kind": "ascii",
+   "rva": "0x278ba",
+   "va": "0x1000278ba",
+   "tags": []
+  },
+  {
+   "text": "tXI4",
+   "offset": "0x24ac1",
+   "kind": "ascii",
+   "rva": "0x278c1",
+   "va": "0x1000278c1",
+   "tags": []
+  },
+  {
+   "text": ">3Ohb",
+   "offset": "0x24b08",
+   "kind": "ascii",
+   "rva": "0x27908",
+   "va": "0x100027908",
+   "tags": []
+  },
+  {
+   "text": "4@(@",
+   "offset": "0x24b36",
+   "kind": "ascii",
+   "rva": "0x27936",
+   "va": "0x100027936",
+   "tags": []
+  },
+  {
+   "text": "#/B2w",
+   "offset": "0x24b41",
+   "kind": "ascii",
+   "rva": "0x27941",
+   "va": "0x100027941",
+   "tags": []
+  },
+  {
+   "text": "i_Qh'",
+   "offset": "0x24bf7",
+   "kind": "ascii",
+   "rva": "0x279f7",
+   "va": "0x1000279f7",
+   "tags": []
+  },
+  {
+   "text": "0(iH",
+   "offset": "0x24c98",
+   "kind": "ascii",
+   "rva": "0x27a98",
+   "va": "0x100027a98",
+   "tags": []
+  },
+  {
+   "text": "q[Eg",
+   "offset": "0x24ccb",
+   "kind": "ascii",
+   "rva": "0x27acb",
+   "va": "0x100027acb",
+   "tags": []
+  },
+  {
+   "text": "]&`~<",
+   "offset": "0x24cdb",
+   "kind": "ascii",
+   "rva": "0x27adb",
+   "va": "0x100027adb",
+   "tags": []
+  },
+  {
+   "text": "{DJZ",
+   "offset": "0x24d2f",
+   "kind": "ascii",
+   "rva": "0x27b2f",
+   "va": "0x100027b2f",
+   "tags": []
+  },
+  {
+   "text": "IR.tc",
+   "offset": "0x24d3a",
+   "kind": "ascii",
+   "rva": "0x27b3a",
+   "va": "0x100027b3a",
+   "tags": []
+  },
+  {
+   "text": "A~;.",
+   "offset": "0x24dcf",
+   "kind": "ascii",
+   "rva": "0x27bcf",
+   "va": "0x100027bcf",
+   "tags": []
+  },
+  {
+   "text": "b:iJ",
+   "offset": "0x24dd4",
+   "kind": "ascii",
+   "rva": "0x27bd4",
+   "va": "0x100027bd4",
+   "tags": []
+  },
+  {
+   "text": "^K_x",
+   "offset": "0x24e69",
+   "kind": "ascii",
+   "rva": "0x27c69",
+   "va": "0x100027c69",
+   "tags": []
+  },
+  {
+   "text": "FXVK",
+   "offset": "0x24ea3",
+   "kind": "ascii",
+   "rva": "0x27ca3",
+   "va": "0x100027ca3",
+   "tags": []
+  },
+  {
+   "text": ")l-$c",
+   "offset": "0x24ed1",
+   "kind": "ascii",
+   "rva": "0x27cd1",
+   "va": "0x100027cd1",
+   "tags": []
+  },
+  {
+   "text": "=N^X",
+   "offset": "0x24ee8",
+   "kind": "ascii",
+   "rva": "0x27ce8",
+   "va": "0x100027ce8",
+   "tags": []
+  },
+  {
+   "text": "11>^$",
+   "offset": "0x24f69",
+   "kind": "ascii",
+   "rva": "0x27d69",
+   "va": "0x100027d69",
+   "tags": []
+  },
+  {
+   "text": ";,vcB",
+   "offset": "0x24f73",
+   "kind": "ascii",
+   "rva": "0x27d73",
+   "va": "0x100027d73",
+   "tags": []
+  },
+  {
+   "text": "ibjc$",
+   "offset": "0x24fd0",
+   "kind": "ascii",
+   "rva": "0x27dd0",
+   "va": "0x100027dd0",
+   "tags": []
+  },
+  {
+   "text": "(v7%_`L",
+   "offset": "0x25031",
+   "kind": "ascii",
+   "rva": "0x27e31",
+   "va": "0x100027e31",
+   "tags": []
+  },
+  {
+   "text": "i+ov",
+   "offset": "0x25040",
+   "kind": "ascii",
+   "rva": "0x27e40",
+   "va": "0x100027e40",
+   "tags": []
+  },
+  {
+   "text": "0,tb",
+   "offset": "0x25060",
+   "kind": "ascii",
+   "rva": "0x27e60",
+   "va": "0x100027e60",
+   "tags": []
+  },
+  {
+   "text": "fY^_",
+   "offset": "0x25080",
+   "kind": "ascii",
+   "rva": "0x27e80",
+   "va": "0x100027e80",
+   "tags": []
+  },
+  {
+   "text": "h2]%",
+   "offset": "0x2514e",
+   "kind": "ascii",
+   "rva": "0x27f4e",
+   "va": "0x100027f4e",
+   "tags": []
+  },
+  {
+   "text": "I)Cm",
+   "offset": "0x25172",
+   "kind": "ascii",
+   "rva": "0x27f72",
+   "va": "0x100027f72",
+   "tags": []
+  },
+  {
+   "text": "6C.f=",
+   "offset": "0x251ed",
+   "kind": "ascii",
+   "rva": "0x27fed",
+   "va": "0x100027fed",
+   "tags": []
+  },
+  {
+   "text": "$;Tto",
+   "offset": "0x25216",
+   "kind": "ascii",
+   "rva": "0x28016",
+   "va": "0x100028016",
+   "tags": []
+  },
+  {
+   "text": "*DY(",
+   "offset": "0x25241",
+   "kind": "ascii",
+   "rva": "0x28041",
+   "va": "0x100028041",
+   "tags": []
+  },
+  {
+   "text": "{__o",
+   "offset": "0x25263",
+   "kind": "ascii",
+   "rva": "0x28063",
+   "va": "0x100028063",
+   "tags": []
+  },
+  {
+   "text": "`cnC",
+   "offset": "0x2526a",
+   "kind": "ascii",
+   "rva": "0x2806a",
+   "va": "0x10002806a",
+   "tags": []
+  },
+  {
+   "text": "6n7&=",
+   "offset": "0x252a4",
+   "kind": "ascii",
+   "rva": "0x280a4",
+   "va": "0x1000280a4",
+   "tags": []
+  },
+  {
+   "text": "D$(zq",
+   "offset": "0x252b6",
+   "kind": "ascii",
+   "rva": "0x280b6",
+   "va": "0x1000280b6",
+   "tags": []
+  },
+  {
+   "text": "(--c",
+   "offset": "0x25348",
+   "kind": "ascii",
+   "rva": "0x28148",
+   "va": "0x100028148",
+   "tags": []
+  },
+  {
+   "text": "!$FI",
+   "offset": "0x253cb",
+   "kind": "ascii",
+   "rva": "0x281cb",
+   "va": "0x1000281cb",
+   "tags": []
+  },
+  {
+   "text": "6ClW",
+   "offset": "0x25401",
+   "kind": "ascii",
+   "rva": "0x28201",
+   "va": "0x100028201",
+   "tags": []
+  },
+  {
+   "text": "bz/|",
+   "offset": "0x25438",
+   "kind": "ascii",
+   "rva": "0x28238",
+   "va": "0x100028238",
+   "tags": []
+  },
+  {
+   "text": "IDATq",
+   "offset": "0x254ed",
+   "kind": "ascii",
+   "rva": "0x282ed",
+   "va": "0x1000282ed",
+   "tags": []
+  },
+  {
+   "text": "ZNy}",
+   "offset": "0x2551a",
+   "kind": "ascii",
+   "rva": "0x2831a",
+   "va": "0x10002831a",
+   "tags": []
+  },
+  {
+   "text": "%'R8",
+   "offset": "0x25538",
+   "kind": "ascii",
+   "rva": "0x28338",
+   "va": "0x100028338",
+   "tags": []
+  },
+  {
+   "text": ". o/",
+   "offset": "0x255b3",
+   "kind": "ascii",
+   "rva": "0x283b3",
+   "va": "0x1000283b3",
+   "tags": []
+  },
+  {
+   "text": "Z0kq",
+   "offset": "0x255d8",
+   "kind": "ascii",
+   "rva": "0x283d8",
+   "va": "0x1000283d8",
+   "tags": []
+  },
+  {
+   "text": "}7q.",
+   "offset": "0x25646",
+   "kind": "ascii",
+   "rva": "0x28446",
+   "va": "0x100028446",
+   "tags": []
+  },
+  {
+   "text": "R~Cq~",
+   "offset": "0x25859",
+   "kind": "ascii",
+   "rva": "0x28659",
+   "va": "0x100028659",
+   "tags": []
+  },
+  {
+   "text": "Jgn-",
+   "offset": "0x2586a",
+   "kind": "ascii",
+   "rva": "0x2866a",
+   "va": "0x10002866a",
+   "tags": []
+  },
+  {
+   "text": "su <|",
+   "offset": "0x258d2",
+   "kind": "ascii",
+   "rva": "0x286d2",
+   "va": "0x1000286d2",
+   "tags": []
+  },
+  {
+   "text": "1:O~",
+   "offset": "0x2594f",
+   "kind": "ascii",
+   "rva": "0x2874f",
+   "va": "0x10002874f",
+   "tags": []
+  },
+  {
+   "text": "0p`!",
+   "offset": "0x25976",
+   "kind": "ascii",
+   "rva": "0x28776",
+   "va": "0x100028776",
+   "tags": []
+  },
+  {
+   "text": "[[.qa",
+   "offset": "0x259d0",
+   "kind": "ascii",
+   "rva": "0x287d0",
+   "va": "0x1000287d0",
+   "tags": []
+  },
+  {
+   "text": " 1Z\\Q",
+   "offset": "0x25a5d",
+   "kind": "ascii",
+   "rva": "0x2885d",
+   "va": "0x10002885d",
+   "tags": []
+  },
+  {
+   "text": "HN<G",
+   "offset": "0x25a9b",
+   "kind": "ascii",
+   "rva": "0x2889b",
+   "va": "0x10002889b",
+   "tags": []
+  },
+  {
+   "text": "=uW~",
+   "offset": "0x25afc",
+   "kind": "ascii",
+   "rva": "0x288fc",
+   "va": "0x1000288fc",
+   "tags": []
+  },
+  {
+   "text": "Zbbl",
+   "offset": "0x25b83",
+   "kind": "ascii",
+   "rva": "0x28983",
+   "va": "0x100028983",
+   "tags": []
+  },
+  {
+   "text": ".''#",
+   "offset": "0x25bc8",
+   "kind": "ascii",
+   "rva": "0x289c8",
+   "va": "0x1000289c8",
+   "tags": []
+  },
+  {
+   "text": "O;O^",
+   "offset": "0x25bd3",
+   "kind": "ascii",
+   "rva": "0x289d3",
+   "va": "0x1000289d3",
+   "tags": []
+  },
+  {
+   "text": "'87?O",
+   "offset": "0x25cdf",
+   "kind": "ascii",
+   "rva": "0x28adf",
+   "va": "0x100028adf",
+   "tags": []
+  },
+  {
+   "text": "Z[|(",
+   "offset": "0x25cf7",
+   "kind": "ascii",
+   "rva": "0x28af7",
+   "va": "0x100028af7",
+   "tags": []
+  },
+  {
+   "text": ",WUA",
+   "offset": "0x25d1b",
+   "kind": "ascii",
+   "rva": "0x28b1b",
+   "va": "0x100028b1b",
+   "tags": []
+  },
+  {
+   "text": ".\")q",
+   "offset": "0x25dbb",
+   "kind": "ascii",
+   "rva": "0x28bbb",
+   "va": "0x100028bbb",
+   "tags": []
+  },
+  {
+   "text": "zP D",
+   "offset": "0x25dd1",
+   "kind": "ascii",
+   "rva": "0x28bd1",
+   "va": "0x100028bd1",
+   "tags": []
+  },
+  {
+   "text": "iGBLm",
+   "offset": "0x25ded",
+   "kind": "ascii",
+   "rva": "0x28bed",
+   "va": "0x100028bed",
+   "tags": []
+  },
+  {
+   "text": "cKj(|",
+   "offset": "0x25f30",
+   "kind": "ascii",
+   "rva": "0x28d30",
+   "va": "0x100028d30",
+   "tags": []
+  },
+  {
+   "text": "1,_6A",
+   "offset": "0x25f6f",
+   "kind": "ascii",
+   "rva": "0x28d6f",
+   "va": "0x100028d6f",
+   "tags": []
+  },
+  {
+   "text": "\\~I(",
+   "offset": "0x25fdb",
+   "kind": "ascii",
+   "rva": "0x28ddb",
+   "va": "0x100028ddb",
+   "tags": []
+  },
+  {
+   "text": "Pt<(",
+   "offset": "0x2603b",
+   "kind": "ascii",
+   "rva": "0x28e3b",
+   "va": "0x100028e3b",
+   "tags": []
+  },
+  {
+   "text": "Y[?G",
+   "offset": "0x2605c",
+   "kind": "ascii",
+   "rva": "0x28e5c",
+   "va": "0x100028e5c",
+   "tags": []
+  },
+  {
+   "text": "'Q*v;",
+   "offset": "0x260ef",
+   "kind": "ascii",
+   "rva": "0x28eef",
+   "va": "0x100028eef",
+   "tags": []
+  },
+  {
+   "text": "_/0%",
+   "offset": "0x26151",
+   "kind": "ascii",
+   "rva": "0x28f51",
+   "va": "0x100028f51",
+   "tags": []
+  },
+  {
+   "text": "d*dS+",
+   "offset": "0x261ca",
+   "kind": "ascii",
+   "rva": "0x28fca",
+   "va": "0x100028fca",
+   "tags": []
+  },
+  {
+   "text": "b/css",
+   "offset": "0x26224",
+   "kind": "ascii",
+   "rva": "0x29024",
+   "va": "0x100029024",
+   "tags": [
+    "mime"
+   ]
+  },
+  {
+   "text": "\\Ukbn",
+   "offset": "0x26231",
+   "kind": "ascii",
+   "rva": "0x29031",
+   "va": "0x100029031",
+   "tags": []
+  },
+  {
+   "text": "0kF7T",
+   "offset": "0x26309",
+   "kind": "ascii",
+   "rva": "0x29109",
+   "va": "0x100029109",
+   "tags": []
+  },
+  {
+   "text": "Xtz&",
+   "offset": "0x26340",
+   "kind": "ascii",
+   "rva": "0x29140",
+   "va": "0x100029140",
+   "tags": []
+  },
+  {
+   "text": "+6hq",
+   "offset": "0x26392",
+   "kind": "ascii",
+   "rva": "0x29192",
+   "va": "0x100029192",
+   "tags": []
+  },
+  {
+   "text": "1vP9",
+   "offset": "0x263ac",
+   "kind": "ascii",
+   "rva": "0x291ac",
+   "va": "0x1000291ac",
+   "tags": []
+  },
+  {
+   "text": "/mPZvWL",
+   "offset": "0x263f2",
+   "kind": "ascii",
+   "rva": "0x291f2",
+   "va": "0x1000291f2",
+   "tags": []
+  },
+  {
+   "text": "aZUd.{",
+   "offset": "0x26451",
+   "kind": "ascii",
+   "rva": "0x29251",
+   "va": "0x100029251",
+   "tags": []
+  },
+  {
+   "text": "2icU",
+   "offset": "0x2648f",
+   "kind": "ascii",
+   "rva": "0x2928f",
+   "va": "0x10002928f",
+   "tags": []
+  },
+  {
+   "text": "l!\\~",
+   "offset": "0x264a9",
+   "kind": "ascii",
+   "rva": "0x292a9",
+   "va": "0x1000292a9",
+   "tags": []
+  },
+  {
+   "text": "|gELM",
+   "offset": "0x26578",
+   "kind": "ascii",
+   "rva": "0x29378",
+   "va": "0x100029378",
+   "tags": []
+  },
+  {
+   "text": "No0d",
+   "offset": "0x26666",
+   "kind": "ascii",
+   "rva": "0x29466",
+   "va": "0x100029466",
+   "tags": []
+  },
+  {
+   "text": ".d);1k",
+   "offset": "0x2667e",
+   "kind": "ascii",
+   "rva": "0x2947e",
+   "va": "0x10002947e",
+   "tags": []
+  },
+  {
+   "text": "`](6r;2",
+   "offset": "0x2668a",
+   "kind": "ascii",
+   "rva": "0x2948a",
+   "va": "0x10002948a",
+   "tags": []
+  },
+  {
+   "text": "_Yi|Y",
+   "offset": "0x26827",
+   "kind": "ascii",
+   "rva": "0x29627",
+   "va": "0x100029627",
+   "tags": []
+  },
+  {
+   "text": "MF1-w",
+   "offset": "0x2684b",
+   "kind": "ascii",
+   "rva": "0x2964b",
+   "va": "0x10002964b",
+   "tags": []
+  },
+  {
+   "text": "1dY6",
+   "offset": "0x268ff",
+   "kind": "ascii",
+   "rva": "0x296ff",
+   "va": "0x1000296ff",
+   "tags": []
+  },
+  {
+   "text": "!p3&",
+   "offset": "0x26917",
+   "kind": "ascii",
+   "rva": "0x29717",
+   "va": "0x100029717",
+   "tags": []
+  },
+  {
+   "text": "(bYA",
+   "offset": "0x2691c",
+   "kind": "ascii",
+   "rva": "0x2971c",
+   "va": "0x10002971c",
+   "tags": []
+  },
+  {
+   "text": "Ag96",
+   "offset": "0x269ca",
+   "kind": "ascii",
+   "rva": "0x297ca",
+   "va": "0x1000297ca",
+   "tags": []
+  },
+  {
+   "text": "&F(O",
+   "offset": "0x26a80",
+   "kind": "ascii",
+   "rva": "0x29880",
+   "va": "0x100029880",
+   "tags": []
+  },
+  {
+   "text": "}O]F;",
+   "offset": "0x26b43",
+   "kind": "ascii",
+   "rva": "0x29943",
+   "va": "0x100029943",
+   "tags": []
+  },
+  {
+   "text": "!>r;",
+   "offset": "0x26b4f",
+   "kind": "ascii",
+   "rva": "0x2994f",
+   "va": "0x10002994f",
+   "tags": []
+  },
+  {
+   "text": "\"~Qn",
+   "offset": "0x26bab",
+   "kind": "ascii",
+   "rva": "0x299ab",
+   "va": "0x1000299ab",
+   "tags": []
+  },
+  {
+   "text": "XMw2",
+   "offset": "0x26bf9",
+   "kind": "ascii",
+   "rva": "0x299f9",
+   "va": "0x1000299f9",
+   "tags": []
+  },
+  {
+   "text": "$]<H",
+   "offset": "0x26c49",
+   "kind": "ascii",
+   "rva": "0x29a49",
+   "va": "0x100029a49",
+   "tags": []
+  },
+  {
+   "text": "q;jq",
+   "offset": "0x26c6b",
+   "kind": "ascii",
+   "rva": "0x29a6b",
+   "va": "0x100029a6b",
+   "tags": []
+  },
+  {
+   "text": "|2DO",
+   "offset": "0x26d35",
+   "kind": "ascii",
+   "rva": "0x29b35",
+   "va": "0x100029b35",
+   "tags": []
+  },
+  {
+   "text": "!1F!",
+   "offset": "0x26d72",
+   "kind": "ascii",
+   "rva": "0x29b72",
+   "va": "0x100029b72",
+   "tags": []
+  },
+  {
+   "text": "^\"[:H/m",
+   "offset": "0x26e50",
+   "kind": "ascii",
+   "rva": "0x29c50",
+   "va": "0x100029c50",
+   "tags": []
+  },
+  {
+   "text": "PRHT",
+   "offset": "0x26e7d",
+   "kind": "ascii",
+   "rva": "0x29c7d",
+   "va": "0x100029c7d",
+   "tags": []
+  },
+  {
+   "text": "e0zK",
+   "offset": "0x26ead",
+   "kind": "ascii",
+   "rva": "0x29cad",
+   "va": "0x100029cad",
+   "tags": []
+  },
+  {
+   "text": "s()Yh.",
+   "offset": "0x26f48",
+   "kind": "ascii",
+   "rva": "0x29d48",
+   "va": "0x100029d48",
+   "tags": []
+  },
+  {
+   "text": "1ZcrC",
+   "offset": "0x26fbb",
+   "kind": "ascii",
+   "rva": "0x29dbb",
+   "va": "0x100029dbb",
+   "tags": []
+  },
+  {
+   "text": "}.D`",
+   "offset": "0x26fd7",
+   "kind": "ascii",
+   "rva": "0x29dd7",
+   "va": "0x100029dd7",
+   "tags": []
+  },
+  {
+   "text": "8&MS",
+   "offset": "0x26ff0",
+   "kind": "ascii",
+   "rva": "0x29df0",
+   "va": "0x100029df0",
+   "tags": []
+  },
+  {
+   "text": "^..D",
+   "offset": "0x27003",
+   "kind": "ascii",
+   "rva": "0x29e03",
+   "va": "0x100029e03",
+   "tags": []
+  },
+  {
+   "text": "V1\"R.3`$",
+   "offset": "0x2707e",
+   "kind": "ascii",
+   "rva": "0x29e7e",
+   "va": "0x100029e7e",
+   "tags": []
+  },
+  {
+   "text": "7>Ti",
+   "offset": "0x27094",
+   "kind": "ascii",
+   "rva": "0x29e94",
+   "va": "0x100029e94",
+   "tags": []
+  },
+  {
+   "text": "Z;q7",
+   "offset": "0x270ca",
+   "kind": "ascii",
+   "rva": "0x29eca",
+   "va": "0x100029eca",
+   "tags": []
+  },
+  {
+   "text": "`j-X",
+   "offset": "0x270d0",
+   "kind": "ascii",
+   "rva": "0x29ed0",
+   "va": "0x100029ed0",
+   "tags": []
+  },
+  {
+   "text": ".'(x",
+   "offset": "0x27102",
+   "kind": "ascii",
+   "rva": "0x29f02",
+   "va": "0x100029f02",
+   "tags": []
+  },
+  {
+   "text": "d(aI",
+   "offset": "0x2722a",
+   "kind": "ascii",
+   "rva": "0x2a02a",
+   "va": "0x10002a02a",
+   "tags": []
+  },
+  {
+   "text": "ik-S",
+   "offset": "0x2725b",
+   "kind": "ascii",
+   "rva": "0x2a05b",
+   "va": "0x10002a05b",
+   "tags": []
+  },
+  {
+   "text": "nyo ",
+   "offset": "0x2729a",
+   "kind": "ascii",
+   "rva": "0x2a09a",
+   "va": "0x10002a09a",
+   "tags": []
+  },
+  {
+   "text": ")ZqL+Q4\"",
+   "offset": "0x27337",
+   "kind": "ascii",
+   "rva": "0x2a137",
+   "va": "0x10002a137",
+   "tags": []
+  },
+  {
+   "text": "@KAL",
+   "offset": "0x2738a",
+   "kind": "ascii",
+   "rva": "0x2a18a",
+   "va": "0x10002a18a",
+   "tags": []
+  },
+  {
+   "text": "Z\"!J",
+   "offset": "0x273a1",
+   "kind": "ascii",
+   "rva": "0x2a1a1",
+   "va": "0x10002a1a1",
+   "tags": []
+  },
+  {
+   "text": "@*Aw0r",
+   "offset": "0x273c5",
+   "kind": "ascii",
+   "rva": "0x2a1c5",
+   "va": "0x10002a1c5",
+   "tags": []
+  },
+  {
+   "text": "Jbl$",
+   "offset": "0x2742a",
+   "kind": "ascii",
+   "rva": "0x2a22a",
+   "va": "0x10002a22a",
+   "tags": []
+  },
+  {
+   "text": "KfFD",
+   "offset": "0x2743b",
+   "kind": "ascii",
+   "rva": "0x2a23b",
+   "va": "0x10002a23b",
+   "tags": []
+  },
+  {
+   "text": "DaED",
+   "offset": "0x274b6",
+   "kind": "ascii",
+   "rva": "0x2a2b6",
+   "va": "0x10002a2b6",
+   "tags": []
+  },
+  {
+   "text": "(F*Z",
+   "offset": "0x274d9",
+   "kind": "ascii",
+   "rva": "0x2a2d9",
+   "va": "0x10002a2d9",
+   "tags": []
+  },
+  {
+   "text": "4$qb",
+   "offset": "0x27547",
+   "kind": "ascii",
+   "rva": "0x2a347",
+   "va": "0x10002a347",
+   "tags": []
+  },
+  {
+   "text": "ZqD+",
+   "offset": "0x27563",
+   "kind": "ascii",
+   "rva": "0x2a363",
+   "va": "0x10002a363",
+   "tags": []
+  },
+  {
+   "text": "1~gc",
+   "offset": "0x275ce",
+   "kind": "ascii",
+   "rva": "0x2a3ce",
+   "va": "0x10002a3ce",
+   "tags": []
+  },
+  {
+   "text": "YK\",",
+   "offset": "0x27662",
+   "kind": "ascii",
+   "rva": "0x2a462",
+   "va": "0x10002a462",
+   "tags": []
+  },
+  {
+   "text": "^(}p",
+   "offset": "0x27671",
+   "kind": "ascii",
+   "rva": "0x2a471",
+   "va": "0x10002a471",
+   "tags": []
+  },
+  {
+   "text": "2=f<",
+   "offset": "0x27749",
+   "kind": "ascii",
+   "rva": "0x2a549",
+   "va": "0x10002a549",
+   "tags": []
+  },
+  {
+   "text": "S~FyY",
+   "offset": "0x2776e",
+   "kind": "ascii",
+   "rva": "0x2a56e",
+   "va": "0x10002a56e",
+   "tags": []
+  },
+  {
+   "text": "EPOy",
+   "offset": "0x277c3",
+   "kind": "ascii",
+   "rva": "0x2a5c3",
+   "va": "0x10002a5c3",
+   "tags": []
+  },
+  {
+   "text": "R0oZ",
+   "offset": "0x277d1",
+   "kind": "ascii",
+   "rva": "0x2a5d1",
+   "va": "0x10002a5d1",
+   "tags": []
+  },
+  {
+   "text": "G#666",
+   "offset": "0x277f0",
+   "kind": "ascii",
+   "rva": "0x2a5f0",
+   "va": "0x10002a5f0",
+   "tags": []
+  },
+  {
+   "text": "0DB\"",
+   "offset": "0x2782e",
+   "kind": "ascii",
+   "rva": "0x2a62e",
+   "va": "0x10002a62e",
+   "tags": []
+  },
+  {
+   "text": "H_/ c",
+   "offset": "0x27855",
+   "kind": "ascii",
+   "rva": "0x2a655",
+   "va": "0x10002a655",
+   "tags": []
+  },
+  {
+   "text": ";,..",
+   "offset": "0x27891",
+   "kind": "ascii",
+   "rva": "0x2a691",
+   "va": "0x10002a691",
+   "tags": []
+  },
+  {
+   "text": "&Z?F",
+   "offset": "0x279d4",
+   "kind": "ascii",
+   "rva": "0x2a7d4",
+   "va": "0x10002a7d4",
+   "tags": []
+  },
+  {
+   "text": "$IXM",
+   "offset": "0x27a09",
+   "kind": "ascii",
+   "rva": "0x2a809",
+   "va": "0x10002a809",
+   "tags": []
+  },
+  {
+   "text": "h<f<",
+   "offset": "0x27ab0",
+   "kind": "ascii",
+   "rva": "0x2a8b0",
+   "va": "0x10002a8b0",
+   "tags": []
+  },
+  {
+   "text": "[gms",
+   "offset": "0x27aba",
+   "kind": "ascii",
+   "rva": "0x2a8ba",
+   "va": "0x10002a8ba",
+   "tags": []
+  },
+  {
+   "text": "t:H)",
+   "offset": "0x27b0f",
+   "kind": "ascii",
+   "rva": "0x2a90f",
+   "va": "0x10002a90f",
+   "tags": []
+  },
+  {
+   "text": "Fi&~",
+   "offset": "0x27ba7",
+   "kind": "ascii",
+   "rva": "0x2a9a7",
+   "va": "0x10002a9a7",
+   "tags": []
+  },
+  {
+   "text": ",-r}",
+   "offset": "0x27bf3",
+   "kind": "ascii",
+   "rva": "0x2a9f3",
+   "va": "0x10002a9f3",
+   "tags": []
+  },
+  {
+   "text": "vs{7",
+   "offset": "0x27c1f",
+   "kind": "ascii",
+   "rva": "0x2aa1f",
+   "va": "0x10002aa1f",
+   "tags": []
+  },
+  {
+   "text": ";5>T_",
+   "offset": "0x27c34",
+   "kind": "ascii",
+   "rva": "0x2aa34",
+   "va": "0x10002aa34",
+   "tags": []
+  },
+  {
+   "text": "TEkb",
+   "offset": "0x27d31",
+   "kind": "ascii",
+   "rva": "0x2ab31",
+   "va": "0x10002ab31",
+   "tags": []
+  },
+  {
+   "text": "E;5*E",
+   "offset": "0x27e95",
+   "kind": "ascii",
+   "rva": "0x2ac95",
+   "va": "0x10002ac95",
+   "tags": []
+  },
+  {
+   "text": "p%P9",
+   "offset": "0x27ede",
+   "kind": "ascii",
+   "rva": "0x2acde",
+   "va": "0x10002acde",
+   "tags": []
+  },
+  {
+   "text": "x<68",
+   "offset": "0x27f83",
+   "kind": "ascii",
+   "rva": "0x2ad83",
+   "va": "0x10002ad83",
+   "tags": []
+  },
+  {
+   "text": "JR!3k+",
+   "offset": "0x27f88",
+   "kind": "ascii",
+   "rva": "0x2ad88",
+   "va": "0x10002ad88",
+   "tags": []
+  },
+  {
+   "text": "C<`Wb",
+   "offset": "0x27ff5",
+   "kind": "ascii",
+   "rva": "0x2adf5",
+   "va": "0x10002adf5",
+   "tags": []
+  },
+  {
+   "text": "E8s?",
+   "offset": "0x28022",
+   "kind": "ascii",
+   "rva": "0x2ae22",
+   "va": "0x10002ae22",
+   "tags": []
+  },
+  {
+   "text": "<?xml version='1.0' encoding='utf-8' standalone='yes'?>",
+   "offset": "0x28173",
+   "kind": "ascii",
+   "rva": "0x2af73",
+   "va": "0x10002af73",
+   "tags": []
+  },
+  {
+   "text": "<assembly",
+   "offset": "0x281ac",
+   "kind": "ascii",
+   "rva": "0x2afac",
+   "va": "0x10002afac",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "    xmlns=\"urn:schemas-microsoft-com:asm.v1\" ",
+   "offset": "0x281b7",
+   "kind": "ascii",
+   "rva": "0x2afb7",
+   "va": "0x10002afb7",
+   "tags": [
+    "upnp-urn"
+   ]
+  },
+  {
+   "text": "    xmlns:asmv3=\"urn:schemas-microsoft-com:asm.v3\"",
+   "offset": "0x281e6",
+   "kind": "ascii",
+   "rva": "0x2afe6",
+   "va": "0x10002afe6",
+   "tags": [
+    "upnp-urn"
+   ]
+  },
+  {
+   "text": "    manifestVersion=\"1.0\">",
+   "offset": "0x2821a",
+   "kind": "ascii",
+   "rva": "0x2b01a",
+   "va": "0x10002b01a",
+   "tags": []
+  },
+  {
+   "text": "  <assemblyIdentity",
+   "offset": "0x28236",
+   "kind": "ascii",
+   "rva": "0x2b036",
+   "va": "0x10002b036",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "      name=\"Microsoft.Windows.WMplayer\"",
+   "offset": "0x2824b",
+   "kind": "ascii",
+   "rva": "0x2b04b",
+   "va": "0x10002b04b",
+   "tags": []
+  },
+  {
+   "text": "      processorArchitecture=\"*\"",
+   "offset": "0x28274",
+   "kind": "ascii",
+   "rva": "0x2b074",
+   "va": "0x10002b074",
+   "tags": []
+  },
+  {
+   "text": "      type=\"win32\"",
+   "offset": "0x28295",
+   "kind": "ascii",
+   "rva": "0x2b095",
+   "va": "0x10002b095",
+   "tags": []
+  },
+  {
+   "text": "      version=\"8.0.0.0\"",
+   "offset": "0x282a9",
+   "kind": "ascii",
+   "rva": "0x2b0a9",
+   "va": "0x10002b0a9",
+   "tags": []
+  },
+  {
+   "text": "      />",
+   "offset": "0x282c2",
+   "kind": "ascii",
+   "rva": "0x2b0c2",
+   "va": "0x10002b0c2",
+   "tags": []
+  },
+  {
+   "text": "  <description>Windows Media Player</description>",
+   "offset": "0x282cc",
+   "kind": "ascii",
+   "rva": "0x2b0cc",
+   "va": "0x10002b0cc",
+   "tags": []
+  },
+  {
+   "text": "  <dependency>",
+   "offset": "0x282ff",
+   "kind": "ascii",
+   "rva": "0x2b0ff",
+   "va": "0x10002b0ff",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "    <dependentAssembly>",
+   "offset": "0x2830f",
+   "kind": "ascii",
+   "rva": "0x2b10f",
+   "va": "0x10002b10f",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "      <assemblyIdentity",
+   "offset": "0x28328",
+   "kind": "ascii",
+   "rva": "0x2b128",
+   "va": "0x10002b128",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "          language=\"*\"",
+   "offset": "0x28341",
+   "kind": "ascii",
+   "rva": "0x2b141",
+   "va": "0x10002b141",
+   "tags": []
+  },
+  {
+   "text": "          name=\"Microsoft.Windows.Common-Controls\"",
+   "offset": "0x28359",
+   "kind": "ascii",
+   "rva": "0x2b159",
+   "va": "0x10002b159",
+   "tags": []
+  },
+  {
+   "text": "          processorArchitecture=\"*\"",
+   "offset": "0x2838d",
+   "kind": "ascii",
+   "rva": "0x2b18d",
+   "va": "0x10002b18d",
+   "tags": []
+  },
+  {
+   "text": "          publicKeyToken=\"6595b64144ccf1df\"",
+   "offset": "0x283b2",
+   "kind": "ascii",
+   "rva": "0x2b1b2",
+   "va": "0x10002b1b2",
+   "tags": []
+  },
+  {
+   "text": "          type=\"win32\"",
+   "offset": "0x283df",
+   "kind": "ascii",
+   "rva": "0x2b1df",
+   "va": "0x10002b1df",
+   "tags": []
+  },
+  {
+   "text": "          version=\"6.0.0.0\"",
+   "offset": "0x283f7",
+   "kind": "ascii",
+   "rva": "0x2b1f7",
+   "va": "0x10002b1f7",
+   "tags": []
+  },
+  {
+   "text": "          />",
+   "offset": "0x28414",
+   "kind": "ascii",
+   "rva": "0x2b214",
+   "va": "0x10002b214",
+   "tags": []
+  },
+  {
+   "text": "    </dependentAssembly>",
+   "offset": "0x28422",
+   "kind": "ascii",
+   "rva": "0x2b222",
+   "va": "0x10002b222",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "  </dependency>",
+   "offset": "0x2843c",
+   "kind": "ascii",
+   "rva": "0x2b23c",
+   "va": "0x10002b23c",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "  <asmv3:application>",
+   "offset": "0x2844d",
+   "kind": "ascii",
+   "rva": "0x2b24d",
+   "va": "0x10002b24d",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "    <asmv3:windowsSettings xmlns=\"http://schemas.microsoft.com/SMI/2005/WindowsSettings\">",
+   "offset": "0x28464",
+   "kind": "ascii",
+   "rva": "0x2b264",
+   "va": "0x10002b264",
+   "tags": [
+    "url"
+   ]
+  },
+  {
+   "text": "      <dpiAware>true</dpiAware>",
+   "offset": "0x284bf",
+   "kind": "ascii",
+   "rva": "0x2b2bf",
+   "va": "0x10002b2bf",
+   "tags": []
+  },
+  {
+   "text": "    </asmv3:windowsSettings>",
+   "offset": "0x284e0",
+   "kind": "ascii",
+   "rva": "0x2b2e0",
+   "va": "0x10002b2e0",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "  </asmv3:application>",
+   "offset": "0x284fe",
+   "kind": "ascii",
+   "rva": "0x2b2fe",
+   "va": "0x10002b2fe",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">",
+   "offset": "0x28516",
+   "kind": "ascii",
+   "rva": "0x2b316",
+   "va": "0x10002b316",
+   "tags": [
+    "upnp-urn"
+   ]
+  },
+  {
+   "text": "    <security>",
+   "offset": "0x2854e",
+   "kind": "ascii",
+   "rva": "0x2b34e",
+   "va": "0x10002b34e",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "      <requestedPrivileges>",
+   "offset": "0x2855e",
+   "kind": "ascii",
+   "rva": "0x2b35e",
+   "va": "0x10002b35e",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "        <requestedExecutionLevel",
+   "offset": "0x2857b",
+   "kind": "ascii",
+   "rva": "0x2b37b",
+   "va": "0x10002b37b",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "            level=\"asInvoker\"",
+   "offset": "0x2859d",
+   "kind": "ascii",
+   "rva": "0x2b39d",
+   "va": "0x10002b39d",
+   "tags": []
+  },
+  {
+   "text": "            uiAccess=\"false\"",
+   "offset": "0x285bc",
+   "kind": "ascii",
+   "rva": "0x2b3bc",
+   "va": "0x10002b3bc",
+   "tags": []
+  },
+  {
+   "text": "            />",
+   "offset": "0x285da",
+   "kind": "ascii",
+   "rva": "0x2b3da",
+   "va": "0x10002b3da",
+   "tags": []
+  },
+  {
+   "text": "      </requestedPrivileges>",
+   "offset": "0x285ea",
+   "kind": "ascii",
+   "rva": "0x2b3ea",
+   "va": "0x10002b3ea",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "    </security>",
+   "offset": "0x28608",
+   "kind": "ascii",
+   "rva": "0x2b408",
+   "va": "0x10002b408",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "  </trustInfo>",
+   "offset": "0x28619",
+   "kind": "ascii",
+   "rva": "0x2b419",
+   "va": "0x10002b419",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "</assembly>",
+   "offset": "0x28629",
+   "kind": "ascii",
+   "rva": "0x2b429",
+   "va": "0x10002b429",
+   "tags": [
+    "xml-token"
+   ]
+  },
+  {
+   "text": "Local\\Microsoft_WMP_70_CheckForOtherInstanceMutex",
+   "offset": "0x6a0",
+   "kind": "utf16",
+   "rva": "0x12a0",
+   "va": "0x1000012a0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMPlayerApp",
+   "offset": "0x708",
+   "kind": "utf16",
+   "rva": "0x1308",
+   "va": "0x100001308",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\wmplayer.exe",
+   "offset": "0x720",
+   "kind": "utf16",
+   "rva": "0x1320",
+   "va": "0x100001320",
+   "tags": [
+    "registry",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Path",
+   "offset": "0x7a8",
+   "kind": "utf16",
+   "rva": "0x13a8",
+   "va": "0x1000013a8",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Windows Media Player",
+   "offset": "0x7b8",
+   "kind": "utf16",
+   "rva": "0x13b8",
+   "va": "0x1000013b8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "http://go.microsoft.com/fwlink/?LinkId=9996",
+   "offset": "0x7f0",
+   "kind": "utf16",
+   "rva": "0x13f0",
+   "va": "0x1000013f0",
+   "tags": [
+    "url",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "SOFTWARE\\Microsoft\\MediaPlayer\\Preferences",
+   "offset": "0x850",
+   "kind": "utf16",
+   "rva": "0x1450",
+   "va": "0x100001450",
+   "tags": [
+    "registry",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "SOFTWARE\\Policies\\Microsoft\\WindowsMediaPlayer",
+   "offset": "0x8b0",
+   "kind": "utf16",
+   "rva": "0x14b0",
+   "va": "0x1000014b0",
+   "tags": [
+    "registry",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "AcceptedPrivacyStatement",
+   "offset": "0x910",
+   "kind": "utf16",
+   "rva": "0x1510",
+   "va": "0x100001510",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "GroupPrivacyAcceptance",
+   "offset": "0x948",
+   "kind": "utf16",
+   "rva": "0x1548",
+   "va": "0x100001548",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "setup_wm.exe",
+   "offset": "0x978",
+   "kind": "utf16",
+   "rva": "0x1578",
+   "va": "0x100001578",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "/RunOnce:",
+   "offset": "0x998",
+   "kind": "utf16",
+   "rva": "0x1598",
+   "va": "0x100001598",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Software\\Microsoft\\MediaPlayer\\Setup",
+   "offset": "0x9b0",
+   "kind": "utf16",
+   "rva": "0x15b0",
+   "va": "0x1000015b0",
+   "tags": [
+    "registry",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InstallResult",
+   "offset": "0xa00",
+   "kind": "utf16",
+   "rva": "0x1600",
+   "va": "0x100001600",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "/SkipFUE",
+   "offset": "0xa20",
+   "kind": "utf16",
+   "rva": "0x1620",
+   "va": "0x100001620",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMP Skin Host",
+   "offset": "0xa38",
+   "kind": "utf16",
+   "rva": "0x1638",
+   "va": "0x100001638",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMPPERF_PROC_START",
+   "offset": "0xa58",
+   "kind": "utf16",
+   "rva": "0x1658",
+   "va": "0x100001658",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "/SuppressDialogs",
+   "offset": "0xa80",
+   "kind": "utf16",
+   "rva": "0x1680",
+   "va": "0x100001680",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "/SafeModeOK",
+   "offset": "0xaa8",
+   "kind": "utf16",
+   "rva": "0x16a8",
+   "va": "0x1000016a8",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "comctl32.dll",
+   "offset": "0xac0",
+   "kind": "utf16",
+   "rva": "0x16c0",
+   "va": "0x1000016c0",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft.Windows.MediaPlayer64",
+   "offset": "0xae0",
+   "kind": "utf16",
+   "rva": "0x16e0",
+   "va": "0x1000016e0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "open",
+   "offset": "0xb20",
+   "kind": "utf16",
+   "rva": "0x1720",
+   "va": "0x100001720",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "wmp.dll",
+   "offset": "0xb30",
+   "kind": "utf16",
+   "rva": "0x1730",
+   "va": "0x100001730",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "IDR_MAINFRAME",
+   "offset": "0x38ea",
+   "kind": "utf16",
+   "rva": "0x66ea",
+   "va": "0x1000066ea",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VS_VERSION_INFO",
+   "offset": "0x2863e",
+   "kind": "utf16",
+   "rva": "0x2b43e",
+   "va": "0x10002b43e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "StringFileInfo",
+   "offset": "0x2869a",
+   "kind": "utf16",
+   "rva": "0x2b49a",
+   "va": "0x10002b49a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "040904B0",
+   "offset": "0x286be",
+   "kind": "utf16",
+   "rva": "0x2b4be",
+   "va": "0x10002b4be",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CompanyName",
+   "offset": "0x286d6",
+   "kind": "utf16",
+   "rva": "0x2b4d6",
+   "va": "0x10002b4d6",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft Corporation",
+   "offset": "0x286f0",
+   "kind": "utf16",
+   "rva": "0x2b4f0",
+   "va": "0x10002b4f0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileDescription",
+   "offset": "0x28722",
+   "kind": "utf16",
+   "rva": "0x2b522",
+   "va": "0x10002b522",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileVersion",
+   "offset": "0x28776",
+   "kind": "utf16",
+   "rva": "0x2b576",
+   "va": "0x10002b576",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7601.24499 (win7sp1_ldr.190612-0600)",
+   "offset": "0x28790",
+   "kind": "utf16",
+   "rva": "0x2b590",
+   "va": "0x10002b590",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InternalName",
+   "offset": "0x287ea",
+   "kind": "utf16",
+   "rva": "0x2b5ea",
+   "va": "0x10002b5ea",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "wmplayer.exe",
+   "offset": "0x28804",
+   "kind": "utf16",
+   "rva": "0x2b604",
+   "va": "0x10002b604",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LegalCopyright",
+   "offset": "0x28826",
+   "kind": "utf16",
+   "rva": "0x2b626",
+   "va": "0x10002b626",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Microsoft Corporation. All rights reserved.",
+   "offset": "0x28846",
+   "kind": "utf16",
+   "rva": "0x2b646",
+   "va": "0x10002b646",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "OriginalFilename",
+   "offset": "0x288a6",
+   "kind": "utf16",
+   "rva": "0x2b6a6",
+   "va": "0x10002b6a6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductName",
+   "offset": "0x288ea",
+   "kind": "utf16",
+   "rva": "0x2b6ea",
+   "va": "0x10002b6ea",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft",
+   "offset": "0x28904",
+   "kind": "utf16",
+   "rva": "0x2b704",
+   "va": "0x10002b704",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Windows",
+   "offset": "0x28918",
+   "kind": "utf16",
+   "rva": "0x2b718",
+   "va": "0x10002b718",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Operating System",
+   "offset": "0x2892a",
+   "kind": "utf16",
+   "rva": "0x2b72a",
+   "va": "0x10002b72a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductVersion",
+   "offset": "0x28956",
+   "kind": "utf16",
+   "rva": "0x2b756",
+   "va": "0x10002b756",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7601.24499",
+   "offset": "0x28974",
+   "kind": "utf16",
+   "rva": "0x2b774",
+   "va": "0x10002b774",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VarFileInfo",
+   "offset": "0x2899a",
+   "kind": "utf16",
+   "rva": "0x2b79a",
+   "va": "0x10002b79a",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Translation",
+   "offset": "0x289ba",
+   "kind": "utf16",
+   "rva": "0x2b7ba",
+   "va": "0x10002b7ba",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "en-US",
+   "offset": "0x28aa0",
+   "kind": "utf16",
+   "rva": "0x2b8a0",
+   "va": "0x10002b8a0",
+   "tags": [
+    "utf16le"
+   ]
+  }
+ ],
+ "by_tag": {
+  "api-name": [
+   "CloseHandle",
+   "CoFreeUnusedLibraries",
+   "CoInitializeSecurity",
+   "CompanyName",
+   "CompareStringOrdinal",
+   "CreateMutexW",
+   "DllCanUnloadNow",
+   "FileDescription",
+   "FileVersion",
+   "FindWindowW",
+   "FormatMessageW",
+   "FreeLibrary",
+   "GetClassNameW",
+   "GetCommandLineW",
+   "GetCurrentProcess",
+   "GetCurrentProcessId",
+   "GetCurrentThread",
+   "GetCurrentThreadId",
+   "GetDesktopWindow",
+   "GetLastError",
+   "GetModuleHandleW",
+   "GetParent",
+   "GetProcAddress",
+   "GetProcessHeap",
+   "GetStartupInfoW",
+   "GetSystemMetrics",
+   "GetSystemTimeAsFileTime",
+   "GetTickCount",
+   "GetWindow",
+   "GetWindowThreadProcessId",
+   "HeapAlloc",
+   "HeapFree",
+   "LoadLibraryA",
+   "LoadLibraryW",
+   "LocalAlloc",
+   "LocalFree",
+   "MessageBoxW",
+   "OpenEventW",
+   "Path",
+   "QueryPerformanceCounter",
+   "RegCloseKey",
+   "RegOpenKeyExW",
+   "RegQueryValueExW",
+   "SendMessageTimeoutW",
+   "SetCurrentDirectoryW",
+   "SetCurrentProcessExplicitAppUserModelID",
+   "SetErrorMode",
+   "SetEvent",
+   "SetForegroundWindow",
+   "SetProcessDEPPolicy",
+   "SetThreadPriority",
+   "SetUnhandledExceptionFilter",
+   "ShellExecuteW"
+  ],
+  "format-string": [
+   "vGD%S"
+  ],
+  "mime": [
+   "b/css"
+  ],
+  "module-name": [
+   "ADVAPI32.dll",
+   "KERNEL32.dll",
+   "SHELL32.dll",
+   "USER32.dll",
+   "WS2_32.dll",
+   "comctl32.dll",
+   "ntdll.dll",
+   "ole32.dll",
+   "setup_wm.exe",
+   "wmp.dll",
+   "wmplayer.exe"
+  ],
+  "registry": [
+   "SOFTWARE\\Microsoft\\MediaPlayer\\Preferences",
+   "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\wmplayer.exe",
+   "SOFTWARE\\Policies\\Microsoft\\WindowsMediaPlayer",
+   "Software\\Microsoft\\MediaPlayer\\Setup"
+  ],
+  "upnp-urn": [
+   "    xmlns:asmv3=\"urn:schemas-microsoft-com:asm.v3\"",
+   "    xmlns=\"urn:schemas-microsoft-com:asm.v1\" ",
+   "  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">"
+  ],
+  "url": [
+   "    <asmv3:windowsSettings xmlns=\"http://schemas.microsoft.com/SMI/2005/WindowsSettings\">",
+   "http://go.microsoft.com/fwlink/?LinkId=9996"
+  ],
+  "utf16le": [
+   " Microsoft Corporation. All rights reserved.",
+   " Operating System",
+   " Windows",
+   "/RunOnce:",
+   "/SafeModeOK",
+   "/SkipFUE",
+   "/SuppressDialogs",
+   "040904B0",
+   "12.0.7601.24499",
+   "12.0.7601.24499 (win7sp1_ldr.190612-0600)",
+   "AcceptedPrivacyStatement",
+   "CompanyName",
+   "FileDescription",
+   "FileVersion",
+   "GroupPrivacyAcceptance",
+   "IDR_MAINFRAME",
+   "InstallResult",
+   "InternalName",
+   "LegalCopyright",
+   "Local\\Microsoft_WMP_70_CheckForOtherInstanceMutex",
+   "Microsoft",
+   "Microsoft Corporation",
+   "Microsoft.Windows.MediaPlayer64",
+   "OriginalFilename",
+   "Path",
+   "ProductName",
+   "ProductVersion",
+   "SOFTWARE\\Microsoft\\MediaPlayer\\Preferences",
+   "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\wmplayer.exe",
+   "SOFTWARE\\Policies\\Microsoft\\WindowsMediaPlayer",
+   "Software\\Microsoft\\MediaPlayer\\Setup",
+   "StringFileInfo",
+   "Translation",
+   "VS_VERSION_INFO",
+   "VarFileInfo",
+   "WMP Skin Host",
+   "WMPPERF_PROC_START",
+   "WMPlayerApp",
+   "Windows Media Player",
+   "comctl32.dll",
+   "en-US",
+   "http://go.microsoft.com/fwlink/?LinkId=9996",
+   "open",
+   "setup_wm.exe",
+   "wmp.dll",
+   "wmplayer.exe"
+  ],
+  "xml-token": [
+   "        <requestedExecutionLevel",
+   "      </requestedPrivileges>",
+   "      <assemblyIdentity",
+   "      <requestedPrivileges>",
+   "    </asmv3:windowsSettings>",
+   "    </dependentAssembly>",
+   "    </security>",
+   "    <dependentAssembly>",
+   "    <security>",
+   "  </asmv3:application>",
+   "  </dependency>",
+   "  </trustInfo>",
+   "  <asmv3:application>",
+   "  <assemblyIdentity",
+   "  <dependency>",
+   "</assembly>",
+   "<DOg",
+   "<assembly"
+  ]
+ }
+}

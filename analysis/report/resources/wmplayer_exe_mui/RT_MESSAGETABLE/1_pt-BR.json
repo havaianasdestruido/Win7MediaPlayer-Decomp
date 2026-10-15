@@ -1,0 +1,36 @@
+{
+ "blocks": [
+  {
+   "low_id": 3221225473,
+   "high_id": 3221225476,
+   "count": 4,
+   "messages": [
+    {
+     "id": 3221225473,
+     "text": "%1!.1023s!Windows Media Player n\u00e3o est\u00e1 corretamente instalado e deve ser reinstalado.%n%nDeseja instalar o Player pelo site da Microsoft?\r\n",
+     "encoding": "utf-16le",
+     "bytes": 288
+    },
+    {
+     "id": 3221225474,
+     "text": "Para concluir a instala\u00e7\u00e3o do Windows Media Player, reinicie o computador e fa\u00e7a logon como administrador ou como um membro do grupo Administradores.\r\n",
+     "encoding": "utf-16le",
+     "bytes": 308
+    },
+    {
+     "id": 3221225475,
+     "text": "O arquivo %1!.1023S! tem um n\u00famero de vers\u00e3o %2!d!.%3!d!.%4!d!.%5!d! onde %6!d!.%7!d!.%8!d!.%9!d! era esperado.%n\r\n",
+     "encoding": "utf-16le",
+     "bytes": 236
+    },
+    {
+     "id": 3221225476,
+     "text": "Para usar o Windows Media Player, efetue logoff do Windows, fa\u00e7a logon novamente e inicie o Windows Media Player.%n\r\n",
+     "encoding": "utf-16le",
+     "bytes": 240
+    }
+   ]
+  }
+ ],
+ "messages": 4
+}

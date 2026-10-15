@@ -1,0 +1,2 @@
+# Exported symbols — bin/wmlaunch.exe (SHA-256 8ea713b95f32c31a11bb1dded4cc8b9620014600f122fff3852c082d9af67b1b)
+# (no exported symbols; this image is an executable or a resource-only module)

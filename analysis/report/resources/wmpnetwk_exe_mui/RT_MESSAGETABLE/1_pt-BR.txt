@@ -1,0 +1,199 @@
+# block 268435512..268435512 (1 messages)
+268435512	Clássico
+
+# block 805306368..805306370 (3 messages)
+805306368	Informações
+
+805306369	Iniciar
+
+805306370	Parar
+
+# block 1074607992..1074608002 (11 messages)
+1074607992	O serviço '%1' foi instalado.
+
+1074607993	O serviço '%1' já foi instalado.
+
+1074607994	O serviço '%1' foi desinstalado.
+
+1074607995	O serviço '%1' foi desinstalado; no entanto, talvez seja necessário reiniciar o computador para concluir o processo.
+
+1074607996	O serviço '%1' foi iniciado.
+
+1074607997	Serviço '%1' interrompido.
+
+1074607998	O servidor de mídia '%1' foi inicializado com êxito e está compartilhando mídia com dispositivos de mídia de rede.
+
+1074607999	O servidor de mídia '%1' foi removido e parou de compartilhar mídia com os dispositivos da mídia de rede.
+
+1074608000	Êxito na detecção de proximidade. O melhor tempo de proximidade detectado foi de %1 milissegundos.
+
+1074608001	Um dispositivo com o endereço de IP '%1!S!' falhou ao se registrar para recuperação de conteúdo protegido.
+
+1074608002	As pastas monitoradas no servidor de mídia '%1!S!' foram alteradas. O Windows Media Player está atualizando as permissões de segurança das pastas incluídas para habilitar o compartilhamento de mídia.
+
+# block 1342177284..1342177284 (1 messages)
+1342177284	Informações
+
+# block 2148349716..2148349721 (6 messages)
+2148349716	O suporte a IPv4 foi desabilitado no WMPNetworkSvc porque a monitoração de alteração de endereço de rede encontrou um erro '%1'.
+
+2148349717	Código de solicitação inválido %1.
+
+2148349718	Ao desinstalar o serviço '%1', não foi possível cancelar o registro da biblioteca de tipos devido ao erro '%2'.
+
+2148349719	Ao desinstalar o serviço '%1', a chave do Registro 'HKLM\SOFTWARE\Microsoft\Windows Media Player NSS\3.0' não foi excluída devido ao erro '%2'. É preciso removê-la manualmente.
+
+2148349720	O Serviço de Compartilhamento de Rede do Windows Media Player não conseguiu processar a solicitação do URI '%1!S!' do endereço IP' %2!S!' devido ao erro '%3'.
+
+2148349721	Dispositivos renderizadores de mídia não utilizados não foram removidos da lista de dispositivos porque não é possível executar componentes DRM necessários com um depurador anexado. Remova o depurador da máquina ou do serviço WMPNetworkSvc e, em seguida, reinicie o serviço WMPNetworkSvc.
+
+# block 2415919105..2415919105 (1 messages)
+2415919105	Windows Media Player Network Sharing Service
+
+# block 3222091740..3222091812 (73 messages)
+3222091740	O serviço '%1' não foi instalado porque o OpenSCManager encontrou um erro de acesso negado '%2'. Tente usar uma conta de administrador com mais privilégios para reinstalar o serviço.
+
+3222091741	O serviço '%1' não foi instalado porque o OpenSCManager encontrou um erro desconhecido '%2'. Reinicie o computador e tente reinstalar o serviço.
+
+3222091742	O serviço '%1' não foi instalado porque o CreateService encontrou um erro '%2'. Reinicie o computador e tente reinstalar o serviço.
+
+3222091743	O serviço '%1' não foi instalado porque RegOpenKey(HKLM\SYSTEM\CurrentControlSet\Services\%1) encontrou um erro '%2'. Verifique se a chave existe e se o grupo Administradores tem permissão para modificá-la e tente reinstalar o serviço.
+
+3222091744	O serviço '%1' não foi instalado porque RegisterTypeLib() encontrou um erro '%3'. Reinicie o computador e tente reinstalar o serviço.
+
+3222091745	O serviço '%1' não foi instalado porque LoadTypeLib() encontrou um erro '%3'. Reinicie o computador e tente reinstalar o serviço.
+
+3222091746	O serviço '%1' não foi instalado porque as chaves do Registro em 'HKLM\SOFTWARE\Microsoft\Windows Media Player NSS\3.0' não foram criadas devido ao erro '%2'. Verifique se o grupo de Administradores tem permissão para modificar a chave e suas chaves-pai e tente reinstalar o serviço.
+
+3222091747	O serviço '%1' não foi instalado porque a ACL necessária ao registro no servidor HTTP do Windows não foi criada (erro '%2'). Reinicie o computador e tente reinstalar o serviço.
+
+3222091748	O serviço '%1' não foi instalado porque HttpInitialize encontrou o erro '%2'. Tente usar uma conta de administrador elevada para reinstalar o serviço.
+
+3222091749	O serviço '%1' não foi instalado porque a reserva do HTTP encontrou o erro '%2'. Reinicie o computador e tente reinstalar o serviço.
+
+3222091750	O serviço '%1' não foi instalado porque HttpTerminate encontrou o erro '%2'. Reinicie o computador e tente reinstalar o serviço.
+
+3222091751	O serviço '%1' não foi instalado porque OpenSCManager encontrou o erro de negação de acesso '%2'. Tente usar uma conta de administrador elevada para desinstalar o serviço.
+
+3222091752	O serviço '%1' não foi instalado porque OpenSCManager encontrou o erro desconhecido '%2'. Reinicie o computador e tente reinstalar o serviço.
+
+3222091753	O serviço '%1' não foi instalado porque OpenService encontrou o erro desconhecido '%2'. Reinicie o computador e tente desinstalar o serviço.
+
+3222091754	O serviço '%1' não foi instalado porque DeleteService encontrou o erro desconhecido '%2'. Reinicie o computador e tente desinstalar o serviço.
+
+3222091755	O manipulador de controle do serviço '%1' não foi registrado devido ao erro %2. Reinicie o computador e tente reiniciar o serviço.
+
+3222091756	O serviço '%1' não foi inicializado porque CoInitializeEx encontrou o erro %2. Reinicie o computador e tente reiniciar o serviço.
+
+3222091757	O serviço '%1' não foi inicializado porque CoInitializeSecurity encontrou o erro %2. Reinicie o computador e tente reiniciar o serviço.
+
+3222091758	O serviço '%1' não foi inicializado devido ao erro desconhecido %2. Reinicie o computador e tente reiniciar o serviço.
+
+3222091759	O serviço '%1' não foi iniciado porque a Diretiva de Grupo está impedindo o Windows Media Player de compartilhar mídias com outros dispositivos.
+
+3222091760	O serviço '%1' está sendo encerrado porque a Diretiva de Grupo está impedindo o Windows Media Player de compartilhar mídias com outros dispositivos.
+
+3222091761	O serviço '%1' não foi iniciado corretamente devido a um erro de falta de memória '%2'. Feche outros programas ou reinicie o computador e tente reiniciar o serviço.
+
+3222091762	O serviço '%1' não foi iniciado corretamente porque MFStartup encontrou o erro '%2'. Se possível, reinstale o Windows Media Player.
+
+3222091763	O serviço '%1' não foi iniciado corretamente porque MFCreateWMPMDEOpCenter encontrou o erro '%2'. Se possível, reinstale o Windows Media Player.
+
+3222091764	O serviço '%1' não foi iniciado corretamente porque CoCreateInstance(WindowsMediaPlayer) encontrou o erro '%2'. Se possível, reinstale o Windows Media Player.
+
+3222091765	O serviço '%1' não foi iniciado corretamente porque QueryService encontrou o erro '%2'. No Windows Media Player, desative o compartilhamento de mídia e, em seguida, ative-o novamente.
+
+3222091766	O serviço '%1' não foi iniciado corretamente porque a criação do banco de dados de eventos encontrou o erro '%2'. Reinicie o computador e tente reiniciar o serviço.
+
+3222091767	O serviço '%1' não foi iniciado corretamente porque a inicialização do thread de trabalho encontrou o erro '%2'. Reinicie o computador e tente reiniciar o serviço.
+
+3222091768	O serviço '%1' não foi iniciado corretamente porque o identificador de um thread de trabalho encontrou o erro '%2'. Reinicie o computador e tente reiniciar o serviço.
+
+3222091769	O serviço '%1' não foi iniciado corretamente porque o Registro não foi atualizado devido ao erro '%2'. Se possível, reinstale o Windows Media Player.
+
+3222091770	O serviço '%1' não foi iniciado corretamente porque o serviço está executando o binário incorreto ou está sendo executado na conta errada (erro '%2'). O serviço binário deveria ser wmpnetwk.exe e a conta deveria ser AUTORIDADE NT\NetworkService. Se possível, reinstale o Windows Media Player.
+
+3222091771	O serviço '%1' não foi iniciado corretamente porque CoInitialize encontrou o erro '%2'. Reinicie o computador e tente reiniciar o serviço.
+
+3222091772	O serviço '%1' não foi iniciado corretamente porque CoCreateInstance(CLSID_UPnPDeviceFinder) encontrou o erro '%2'. Verifique se o serviço UPnPHost está sendo executado e se o componente UPnPHost do Windows foi instalado adequadamente.
+
+3222091773	O serviço '%1' não foi iniciado corretamente devido ao erro '%2'. Reinicie o computador e tente reiniciar o serviço.
+
+3222091774	O serviço '%1' não foi iniciado corretamente porque IUPnPDeviceFinder::CreateAsyncFind(MediaRenderer) encontrou o erro '%2'. Verifique se o serviço UPnPHost está sendo executado e se o componente UPnPHost do Windows foi instalado adequadamente.
+
+3222091775	O serviço '%1' não foi iniciado corretamente porque IUPnPDeviceFinder::CreateAsyncFind(MediaServer) encontrou o erro '%2'. Verifique se o serviço UPnPHost está sendo executado e se o componente UPnPHost do Windows foi instalado adequadamente.
+
+3222091776	O serviço '%1' não foi iniciado corretamente porque IUPnPDeviceFinder::StartAsyncFind(MediaRenderer) encontrou o erro '%2'. Verifique se o serviço UPnPHost está sendo executado e se o componente UPnPHost do Windows foi instalado adequadamente.
+
+3222091777	O serviço '%1' não foi iniciado corretamente porque CreateMediaDevices encontrou o erro '%2'. Reinicie o computador e tente reiniciar o serviço.
+
+3222091778	Um novo servidor de mídia não foi inicializado porque CoCreateInstance(CLSID_UPnPRegistrar) encontrou o erro '%1'. Verifique se o serviço UPnPHost está sendo executado e se o componente UPnPHost do Windows foi instalado adequadamente.
+
+3222091779	Um novo servidor de mídia não foi inicializado porque QueryInterface(IUPnPReregistrar) encontrou o erro '%1'. Verifique se o serviço UPnPHost está sendo executado e se o componente UPnPHost do Windows foi instalado adequadamente.
+
+3222091780	Um novo servidor de mídia não foi inicializado porque GetFriendlyName() encontrou o erro '%1'. No Windows Media Player, desative o compartilhamento de mídia, altere o nome da biblioteca compartilhada e ative o compartilhamento novamente.
+
+3222091781	Um novo servidor de mídia não foi inicializado porque GetSerialNumber() encontrou o erro '%1'. No Windows Media Player, desative o compartilhamento de mídia e, em seguida, ative-o novamente.
+
+3222091782	Um novo servidor de mídia não foi inicializado porque o nome do modelo não foi recuperado devido ao erro '%1'. Exclua o valor 'ModelName' na chave do Registro HKLM\SOFTWARE\Microsoft\Windows Media Player NSS\3.0 e reinicie o serviço WMPNetworkSvc.
+
+3222091783	Um novo servidor de mídia não foi inicializado devido ao erro de falta de memória '%1'. Feche outros programas ou reinicie o computador e o serviço WMPNetworkSvc.
+
+3222091784	Um novo servidor de mídia não foi inicializado porque WMCreateDeviceRegistration() encontrou o erro '%1'. Os componentes DRM do Windows Media do computador podem estar danificados. Verifique se os arquivos protegidos estão sendo executados corretamente no Windows Media Player e reinicie o serviço WMPNetworkSvc.
+
+3222091785	Um novo servidor de mídia não foi inicializado porque a geração de documentos do dispositivo encontrou o erro '%1'. Reinicie o computador e o serviço WMPNetworkSvc. Se o problema persistir, reinstale o Windows Media Player, se possível.
+
+3222091786	Um novo servidor de mídia não foi inicializado porque RegisterRunningDevice() encontrou o erro '%1'. Reinicie o computador e tente reiniciar o serviço WMPNetworkSvc.
+
+3222091787	Um novo servidor de mídia não foi inicializado porque a chave do Registro 'HKLM\SOFTWARE\Microsoft\Windows Media Player NSS\3.0\Media Servers' não foi atualizada (erro '%1'). Exclua essa chave do Registro e reinicie o serviço WMPNetworkSvc.
+
+3222091788	Um novo servidor de mídia não foi inicializado devido ao erro '%1'. Reinicie o computador e o serviço WMPNetworkSvc. Se o problema persistir, no Windows Media Player, desative e ative novamente o compartilhamento da mídia.
+
+3222091789	Um novo servidor de mídia não foi inicializado o Mecanismo de Entrega do Windows Media não foi inicializado devido ao erro '%1'. Reinicie o computador e o serviço WMPNetworkSvc. Se o problema persistir, reinstale o Windows Media Player, se possível.
+
+3222091790	O novo servidor de mídia não foi inicializado porque não é possível executar componentes DRM necessários com um depurador anexado. Remova o depurador da máquina ou do serviço WMPNetworkSvc e, em seguida, reinicie o serviço WMPNetworkSvc.
+
+3222091791	O mecanismo de entrega de mídia de ID '%1' não foi inicializado porque o número de série do provedor de conteúdo não foi recuperado devido ao erro '%2'. No Windows Media Player, desative o compartilhamento de mídia e ative-o novamente. Se o problema persistir, reinstale o Windows Media Player, se possível.
+
+3222091792	O mecanismo de entrega de mídia de ID '%1' não foi inicializado devido ao erro '%2'. Reinicie o computador e o serviço WMPNetworkSvc. Se o problema persistir, reinstale o Windows Media Player, se possível.
+
+3222091793	O mecanismo de entrega de mídia de ID '%1' não foi inicializado devido ao erro '%2' durante o acréscimo da URL '%3!S!'. Reinicie o computador e o serviço WMPNetworkSvc. Se o problema persistir, reinstale o Windows Media Player, se possível.
+
+3222091794	O mecanismo de entrega de mídia de ID '%1' não foi inicializado devido ao erro de falta de memória '%2'. Feche outros programas ou reinicie o computador e tente reiniciar o serviço WMPNetworkSvc.
+
+3222091795	O mecanismo de entrega de mídia de ID '%1' não foi inicializado porque MFCreateNetVRoot() encontrou o erro '%2'. Reinicie o computador e o serviço WMPNetworkSvc.
+
+3222091796	O mecanismo de entrega de mídia de ID '%1' não foi inicializado porque RegisterDelegate() encontrou o erro '%2'. Reinicie o computador e tente reiniciar o serviço WMPNetworkSvc.
+
+3222091797	O mecanismo de entrega de mídia de ID '%1' não foi inicializado porque GetSupportedProfiles() encontrou o erro '%2'. Reinicie o computador e tente reiniciar o serviço WMPNetworkSvc.
+
+3222091798	O mecanismo de entrega de mídia de ID '%1' não foi inicializado porque a enumeração de perfis de conteúdo encontrou o erro '%2'. Reinicie o computador e tente reiniciar o serviço WMPNetworkSvc.
+
+3222091799	O mecanismo de entrega de mídia de ID '%1' não foi inicializado porque AddProfile() encontrou o erro '%2'. Reinicie o computador e tente reiniciar o serviço WMPNetworkSvc.
+
+3222091800	O suporte para IPv4 foi desabilitado no WMPNetworkSvc porque NotifyAddrChange encontrou o erro '%1'. Para habilitar o suporte para IPv4, reinicie o serviço WMPNetworkSvc.
+
+3222091801	O suporte para IPv4 foi desabilitado no WMPNetworkSvc porque a recuperação da tabela de endereços IP encontrou o erro '%1'. Para habilitar o suporte para IPv4, reinicie o serviço WMPNetworkSvc.
+
+3222091802	Falha na detecção de proximidade porque o serviço não conseguiu abrir uma porta de rede para se comunicar com o dispositivo. Espere dois minutos e tente conectar-se ao dispositivo novamente.
+
+3222091803	Falha na detecção de proximidade porque a resposta do dispositivo não foi válida. Verifique se o dispositivo está executando o firmware mais recente e se a conexão de rede entre o computador e o dispositivo está funcionando corretamente. Em seguida tente conectar-se ao dispositivo novamente.
+
+3222091804	Falha na detecção de proximidade porque o dispositivo fica muito longe do computador. O melhor tempo de proximidade detectado foi de %1 milissegundos.
+
+3222091805	Falha na detecção de proximidade devido ao erro desconhecido '%1'. O melhor tempo de proximidade detectado foi de %2 milissegundos.
+
+3222091806	Um dispositivo com o endereço de IP '%2!S!' falhou ao se registrar para recuperação de conteúdo protegido devido ao erro de dados inválidos '%1'. Verifique se o dispositivo está executando o firmware mais recente e se a conexão de rede entre o computador e o dispositivo está funcionando corretamente. Em seguida tente conectar-se ao dispositivo novamente.
+
+3222091807	Um dispositivo com o endereço de IP '%1!S!' falhou ao se registrar para recuperação de conteúdo protegido. O dispositivo passou um certificado corrompido ou não foi possível verificar a assinatura no certificado. Verifique se o dispositivo está executando o firmware mais recente e se a conexão de rede entre o computador e o dispositivo está funcionando corretamente. Em seguida tente conectar-se ao dispositivo novamente.
+
+3222091808	Um dispositivo com o endereço de IP '%1!S!' falhou ao se registrar para recuperação de conteúdo protegido porque o certificado do dispositivo foi revogado. Entre em contato com o fabricante do dispositivo para obter instruções sobre como atualizar o dispositivo e tente conectar o dispositivo novamente.
+
+3222091809	Um dispositivo com o endereço de IP '%1!S!' falhou ao se registrar para recuperação de conteúdo protegido porque a Lista de Certificados Revogados não é válida ou está corrompida. Reinicie o computador e tente conectar-se novamente ao dispositivo. Se o erro persistir, pode ser necessário redefinir o sistema Windows Media DRM no computador.
+
+3222091810	Um dispositivo com o endereço de IP '%2!S!' falhou ao se registrar para recuperação de conteúdo protegido devido ao erro desconhecido '%1'.
+
+3222091811	O dispositivo com endereço IP '%1!S!' não se registrou para recuperação de conteúdo protegido porque não é possível executar componentes DRM necessários com um depurador anexado. Remova o depurador da máquina ou do serviço WMPNetworkSvc e, em seguida, reinicie o serviço WMPNetworkSvc.
+
+3222091812	O mecanismo de entrega de mídia não foi inicializado porque não foi possível recuperar um certificado SSL no repositório de certificados do sistema da máquina local. Erro '%1' encontrado. No Windows Media Player, desative o compartilhamento de mídia e, em seguida, reative-o.
+

@@ -1,0 +1,377 @@
+{
+ "generated_by": "analysis/tools/typelib.py",
+ "generated_at": "2026-10-14 21:48:10Z",
+ "source": {
+  "artifact": "analysis/report/resources/wmprph_exe/typelib/typelib_1_1.tlb",
+  "module": "wmprph_exe",
+  "resource_name": "1",
+  "payload_sha256": "69159d45512455882f4cd35fd44b6586d2ce781d99c767201d2f6de18d84e9b4",
+  "file": "analysis/report/resources/wmprph_exe/typelib/typelib_1_1.tlb"
+ },
+ "format": "MSFT (ICreateTypeLib2), version field 0x00010002",
+ "header": {
+  "magic": "MSFT",
+  "version_field": "0x00010002",
+  "lcid": "0x0409",
+  "lcid2": 0,
+  "syskind": "SYS_WIN64",
+  "varflags": "0x00000043",
+  "version": "1.0",
+  "flags": "0x00000000",
+  "nrtypeinfos": 1,
+  "library_guid": "{FA258721-CF24-45D7-A9CB-80047D7FEC35}",
+  "posguid": 0,
+  "name_table_entries": 9,
+  "nametablechars": 145,
+  "help_string": null,
+  "help_file": null,
+  "nimpinfos": 1,
+  "dispatchpos": 1
+ },
+ "segments": [
+  {
+   "index": 0,
+   "offset": 328,
+   "length": 100,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 1,
+   "offset": 652,
+   "length": 12,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 2,
+   "offset": 664,
+   "length": 28,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 3,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 4,
+   "offset": 428,
+   "length": 128,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 5,
+   "offset": 556,
+   "length": 96,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 6,
+   "offset": 692,
+   "length": 512,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 7,
+   "offset": 1204,
+   "length": 264,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 8,
+   "offset": 1468,
+   "length": 132,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 9,
+   "offset": 1600,
+   "length": 16,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 10,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 11,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 12,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 13,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 14,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 15,
+   "offset": 16948,
+   "length": 1616,
+   "res08": 0,
+   "res0c": 0
+  }
+ ],
+ "typeinfos": [
+  {
+   "index": 0,
+   "typeinfo_offset": 0,
+   "kind": "TKIND_DISPATCH",
+   "kind_id": 4,
+   "name": "IWMPRichPreviewLauncher",
+   "name_offset": 36,
+   "guid": "{F826A914-4075-4672-8312-5F91CDF3C69E}",
+   "posguid": 72,
+   "flags": "0x00001140",
+   "typekind_raw": "0x00004234",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": "V",
+   "member_counts": {
+    "functions": 4,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 88,
+   "size": 8,
+   "memoffset": 1616,
+   "datatype1": 1,
+   "datatype2": 458754,
+   "help_context": 0,
+   "functions": [
+    {
+     "index": 0,
+     "name": "LaunchFullPlayer",
+     "memid": 1610743808,
+     "vtable_offset_bytes": 56,
+     "vtable_slot": 7,
+     "vtable_offset_raw": "0x0038",
+     "funcdescsize": 52,
+     "fkccic": "0x00000409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 0,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": []
+    },
+    {
+     "index": 1,
+     "name": "GetPreviewPaneColor",
+     "memid": 1610743809,
+     "vtable_offset_bytes": 64,
+     "vtable_slot": 8,
+     "vtable_offset_raw": "0x0040",
+     "funcdescsize": 76,
+     "fkccic": "0x00014409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "pbstrColor",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff7fff8",
+        "points_to": {
+         "vt": 8,
+         "vt_name": "VT_BSTR",
+         "rendered": "BSTR",
+         "inline": true
+        },
+        "rendered": "BSTR*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "name": "CreateThumbnail",
+     "memid": 1610743810,
+     "vtable_offset_bytes": 72,
+     "vtable_slot": 9,
+     "vtable_offset_raw": "0x0048",
+     "funcdescsize": 76,
+     "fkccic": "0x00024409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "pbstrThumbName",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff7fff8",
+        "points_to": {
+         "vt": 8,
+         "vt_name": "VT_BSTR",
+         "rendered": "BSTR",
+         "inline": true
+        },
+        "rendered": "BSTR*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "name": "IsPerceivedTypeVideo",
+     "memid": 1610743811,
+     "vtable_offset_bytes": 80,
+     "vtable_slot": 10,
+     "vtable_offset_raw": "0x0050",
+     "funcdescsize": 76,
+     "fkccic": "0x00034409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "pbType",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff4fff5",
+        "points_to": {
+         "vt": 11,
+         "vt_name": "VT_BOOL",
+         "rendered": "VARIANT_BOOL",
+         "inline": true
+        },
+        "rendered": "VARIANT_BOOL*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ]
+    }
+   ],
+   "variables": [],
+   "implements": [],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  }
+ ],
+ "notes": [],
+ "guid_cross_check": {
+  "image": "bin/wmprph.exe",
+  "library_guid": {
+   "name": "<library>",
+   "guid": "{FA258721-CF24-45D7-A9CB-80047D7FEC35}",
+   "found": true,
+   "file_offset": "0xcf0",
+   "occurrences": 2
+  },
+  "guids": [
+   {
+    "name": "<library>",
+    "guid": "{FA258721-CF24-45D7-A9CB-80047D7FEC35}",
+    "found": true,
+    "file_offset": "0xcf0",
+    "occurrences": 2
+   },
+   {
+    "name": "IWMPRichPreviewLauncher",
+    "guid": "{F826A914-4075-4672-8312-5F91CDF3C69E}",
+    "found": true,
+    "file_offset": "0xd10",
+    "occurrences": 2
+   }
+  ],
+  "summary": "2/2 recovered GUIDs present as 16-byte constants in wmprph.exe"
+ }
+}

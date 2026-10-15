@@ -1,0 +1,2 @@
+# Exported symbols — bin/pt-BR/wmlaunch.exe.mui (SHA-256 bdc4a23d97dafb70a4d6fe38e834cfcf0b241456982cb87cf076e7c217553bd1)
+# (no exported symbols; this image is an executable or a resource-only module)

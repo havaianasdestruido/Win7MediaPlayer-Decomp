@@ -1,0 +1,1588 @@
+{
+ "module": "wmpnssci_dll",
+ "artifact": "bin/wmpnssci.dll",
+ "sha256": "3a3871983f2d9a57739c70365dc3f417d9bf02f5c0c4cc3272ea9f3d380ef962",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 331776,
+  "size": 226096,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "REGISTRY": 2,
+  "RT_GROUP_ICON": 3,
+  "RT_ICON": 39,
+  "RT_MANIFEST": 1,
+  "RT_VERSION": 1,
+  "TYPELIB": 1
+ },
+ "pefile_walk_count": 48,
+ "walker_cross_check": {
+  "raw_walker": 48,
+  "pefile_walker": 48,
+  "agree": true
+ },
+ "messages_total": 0,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f048",
+   "data_entry_offset": "0x4f4b8",
+   "depth": 3,
+   "data_rva": 557624,
+   "size": 248,
+   "sha256": "2c44d39596d424fd6546f72ff778680f4cac7a60985fac3dda410ff1fc716b65",
+   "bytes_read": 248,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "language_tag": "en-US",
+    "localized_type_ids": [],
+    "localized_type_names": [],
+    "matches_sibling": null,
+    "matches_same_artifact": null
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/MUI/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "REGISTRY"
+    },
+    {
+     "kind": "id",
+     "id": 100
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f060",
+   "data_entry_offset": "0x4f4c8",
+   "depth": 3,
+   "data_rva": 336000,
+   "size": 119,
+   "sha256": "5609d558509e25f9305c9d784995c6d1247dae4230be4ddc1c8c4d5476404e48",
+   "bytes_read": 119,
+   "truncated": false,
+   "type": "REGISTRY",
+   "name": "100",
+   "language": "en-US",
+   "decoded": {
+    "format": "ATL registrar script (RGS)",
+    "bytes": 119,
+    "guids": [],
+    "statement_lines": 11
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/REGISTRY/100_en-US.rgs"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "REGISTRY"
+    },
+    {
+     "kind": "id",
+     "id": 301
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f078",
+   "data_entry_offset": "0x4f4d8",
+   "depth": 3,
+   "data_rva": 336120,
+   "size": 641,
+   "sha256": "07e8b5a0e76445555ad91f0f2fb73e391261bae2bdf591374699c9c1b0fc4515",
+   "bytes_read": 641,
+   "truncated": false,
+   "type": "REGISTRY",
+   "name": "301",
+   "language": "en-US",
+   "decoded": {
+    "format": "ATL registrar script (RGS)",
+    "bytes": 641,
+    "guids": [
+     "{453E9E02-8BA4-474C-BFA0-37727E44F6AE}",
+     "{92498132-4D1A-4297-9B78-9E2E4BA99C07}"
+    ],
+    "statement_lines": 26
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/REGISTRY/301_en-US.rgs"
+  },
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "TYPELIB"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f090",
+   "data_entry_offset": "0x4f4e8",
+   "depth": 3,
+   "data_rva": 336768,
+   "size": 9524,
+   "sha256": "ba725589c858299e955526c85e77366feec84f4758f2da2dd8ac4e7033719825",
+   "bytes_read": 9524,
+   "truncated": false,
+   "type": "TYPELIB",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "format": "MSFT type library",
+    "version_field": "0x00010002",
+    "lcid": "0x0409",
+    "type_count": 14,
+    "decoded_by": "analysis/tools/typelib.py"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/TYPELIB/typelib_1_en-US.tlb"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f0a8",
+   "data_entry_offset": "0x4f4f8",
+   "depth": 3,
+   "data_rva": 346296,
+   "size": 1640,
+   "sha256": "92c68651b5ead19794b7e87418337f06649f2d1e49d9880e8e98ab7b12b526c0",
+   "bytes_read": 1640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1640,
+    "sha256": "92c68651b5ead19794b7e87418337f06649f2d1e49d9880e8e98ab7b12b526c0"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/1_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f0c0",
+   "data_entry_offset": "0x4f508",
+   "depth": 3,
+   "data_rva": 347936,
+   "size": 744,
+   "sha256": "c38740a0597e9950f7832ac221b3ae1aa2c992f9558c704059821182a3731573",
+   "bytes_read": 744,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "2",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 744,
+    "sha256": "c38740a0597e9950f7832ac221b3ae1aa2c992f9558c704059821182a3731573"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/2_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f0d8",
+   "data_entry_offset": "0x4f518",
+   "depth": 3,
+   "data_rva": 348680,
+   "size": 488,
+   "sha256": "1837795fffe1836adc8e1f59772430ed41c09bfd8f46eca854bcb4a5400fc2e8",
+   "bytes_read": 488,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "3",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 488,
+    "sha256": "1837795fffe1836adc8e1f59772430ed41c09bfd8f46eca854bcb4a5400fc2e8"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/3_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 4
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f0f0",
+   "data_entry_offset": "0x4f528",
+   "depth": 3,
+   "data_rva": 349168,
+   "size": 296,
+   "sha256": "ffe3312c74a2c44c433bafd4530ad72e97f8b6b762e3661b1b498f96a8c76efd",
+   "bytes_read": 296,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "4",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 296,
+    "sha256": "ffe3312c74a2c44c433bafd4530ad72e97f8b6b762e3661b1b498f96a8c76efd"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/4_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 5
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f108",
+   "data_entry_offset": "0x4f538",
+   "depth": 3,
+   "data_rva": 349464,
+   "size": 3752,
+   "sha256": "fe6aee4d07d8b6f9ee60a72e61236387a1e78ffa3a4413b338d18a37a0333aa5",
+   "bytes_read": 3752,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "5",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 3752,
+    "sha256": "fe6aee4d07d8b6f9ee60a72e61236387a1e78ffa3a4413b338d18a37a0333aa5"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/5_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 6
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f120",
+   "data_entry_offset": "0x4f548",
+   "depth": 3,
+   "data_rva": 353216,
+   "size": 2216,
+   "sha256": "8164dfc94e5c64bd7e37dfdd82d450cfa4106b41c9b848d77c921c43676564ea",
+   "bytes_read": 2216,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "6",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2216,
+    "sha256": "8164dfc94e5c64bd7e37dfdd82d450cfa4106b41c9b848d77c921c43676564ea"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/6_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 7
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f138",
+   "data_entry_offset": "0x4f558",
+   "depth": 3,
+   "data_rva": 355432,
+   "size": 1736,
+   "sha256": "e81bb9678f3a98e6e64408551a19c2bed92858e2654e1179a342a19c9b5c48ae",
+   "bytes_read": 1736,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "7",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1736,
+    "sha256": "e81bb9678f3a98e6e64408551a19c2bed92858e2654e1179a342a19c9b5c48ae"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/7_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 8
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f150",
+   "data_entry_offset": "0x4f568",
+   "depth": 3,
+   "data_rva": 357168,
+   "size": 1384,
+   "sha256": "67133246edf1456bcca1050184a326851437caf6b5d200a577b4aa3b1404359d",
+   "bytes_read": 1384,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "8",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1384,
+    "sha256": "67133246edf1456bcca1050184a326851437caf6b5d200a577b4aa3b1404359d"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/8_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 9
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f168",
+   "data_entry_offset": "0x4f578",
+   "depth": 3,
+   "data_rva": 358552,
+   "size": 40845,
+   "sha256": "adf678c34f725c16789fee83aed3009d33e1de9c2a1cf76d87f3d64515235dd1",
+   "bytes_read": 40845,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "9",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 40845,
+    "sha256": "adf678c34f725c16789fee83aed3009d33e1de9c2a1cf76d87f3d64515235dd1"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/9_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 10
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f180",
+   "data_entry_offset": "0x4f588",
+   "depth": 3,
+   "data_rva": 399400,
+   "size": 9640,
+   "sha256": "5d8f4d7e9db8340d17086ae0f2da96eedbf1dd1d9ebf032cb505ab52bafc5258",
+   "bytes_read": 9640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "10",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 9640,
+    "sha256": "5d8f4d7e9db8340d17086ae0f2da96eedbf1dd1d9ebf032cb505ab52bafc5258"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/10_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 11
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f198",
+   "data_entry_offset": "0x4f598",
+   "depth": 3,
+   "data_rva": 409040,
+   "size": 4264,
+   "sha256": "b65408aac7feaf89313398eca175adbfe240994514ed9ad6c14952c7c198b1f4",
+   "bytes_read": 4264,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "11",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 4264,
+    "sha256": "b65408aac7feaf89313398eca175adbfe240994514ed9ad6c14952c7c198b1f4"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/11_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 12
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f1b0",
+   "data_entry_offset": "0x4f5a8",
+   "depth": 3,
+   "data_rva": 413304,
+   "size": 2440,
+   "sha256": "1b00af0877e453592352d211c278d0081419e0e8eeaafa1ca24db8d29a53378a",
+   "bytes_read": 2440,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "12",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2440,
+    "sha256": "1b00af0877e453592352d211c278d0081419e0e8eeaafa1ca24db8d29a53378a"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/12_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 13
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f1c8",
+   "data_entry_offset": "0x4f5b8",
+   "depth": 3,
+   "data_rva": 415744,
+   "size": 1128,
+   "sha256": "34b0e1568108cb9d38add5f3247d36c62fcaf443ad6e7e69efc5ac0a025e84ca",
+   "bytes_read": 1128,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "13",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1128,
+    "sha256": "34b0e1568108cb9d38add5f3247d36c62fcaf443ad6e7e69efc5ac0a025e84ca"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/13_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f1e0",
+   "data_entry_offset": "0x4f5c8",
+   "depth": 3,
+   "data_rva": 417064,
+   "size": 1640,
+   "sha256": "4eeaacd8194d4fc207632afdf6e1138f5f7a58b66d2a0bf8fd10c4cad19788c0",
+   "bytes_read": 1640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "14",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1640,
+    "sha256": "4eeaacd8194d4fc207632afdf6e1138f5f7a58b66d2a0bf8fd10c4cad19788c0"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/14_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 15
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f1f8",
+   "data_entry_offset": "0x4f5d8",
+   "depth": 3,
+   "data_rva": 418704,
+   "size": 744,
+   "sha256": "d328a1341b4a912367aba07b75f414dd1ac9132401731dc3ff787046020203ad",
+   "bytes_read": 744,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "15",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 744,
+    "sha256": "d328a1341b4a912367aba07b75f414dd1ac9132401731dc3ff787046020203ad"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/15_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f210",
+   "data_entry_offset": "0x4f5e8",
+   "depth": 3,
+   "data_rva": 419448,
+   "size": 488,
+   "sha256": "b55fba0dae01aadf8e19e557bd61adb1060c6dd7c329d9965bef772ba2c0db85",
+   "bytes_read": 488,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "16",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 488,
+    "sha256": "b55fba0dae01aadf8e19e557bd61adb1060c6dd7c329d9965bef772ba2c0db85"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/16_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 17
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f228",
+   "data_entry_offset": "0x4f5f8",
+   "depth": 3,
+   "data_rva": 419936,
+   "size": 296,
+   "sha256": "8f6e3debedb90f3fbc1f73457568e655c9a632a047a9f51f42c681d8109de1ba",
+   "bytes_read": 296,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "17",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 296,
+    "sha256": "8f6e3debedb90f3fbc1f73457568e655c9a632a047a9f51f42c681d8109de1ba"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/17_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 18
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f240",
+   "data_entry_offset": "0x4f608",
+   "depth": 3,
+   "data_rva": 420232,
+   "size": 3752,
+   "sha256": "a16f91ee9bbeea4ab736993f90f4f5cd6afd799ad647b4fb60eaa974e32a677a",
+   "bytes_read": 3752,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "18",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 3752,
+    "sha256": "a16f91ee9bbeea4ab736993f90f4f5cd6afd799ad647b4fb60eaa974e32a677a"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/18_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 19
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f258",
+   "data_entry_offset": "0x4f618",
+   "depth": 3,
+   "data_rva": 423984,
+   "size": 2216,
+   "sha256": "a94c56ab991dfcca8caf7d1fa921209315f3efed9744c2eed0be8d37007ed2da",
+   "bytes_read": 2216,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "19",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2216,
+    "sha256": "a94c56ab991dfcca8caf7d1fa921209315f3efed9744c2eed0be8d37007ed2da"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/19_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 20
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f270",
+   "data_entry_offset": "0x4f628",
+   "depth": 3,
+   "data_rva": 426200,
+   "size": 1736,
+   "sha256": "298ddcdcfffe38a4141848649babd58f1fe7a5dd98b17147c026ef40560b61d7",
+   "bytes_read": 1736,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "20",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1736,
+    "sha256": "298ddcdcfffe38a4141848649babd58f1fe7a5dd98b17147c026ef40560b61d7"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/20_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 21
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f288",
+   "data_entry_offset": "0x4f638",
+   "depth": 3,
+   "data_rva": 427936,
+   "size": 1384,
+   "sha256": "d346d4a7ef3664e35714242e8332478920cdd1f93954916765e64c4435b103c9",
+   "bytes_read": 1384,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "21",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1384,
+    "sha256": "d346d4a7ef3664e35714242e8332478920cdd1f93954916765e64c4435b103c9"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/21_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 22
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f2a0",
+   "data_entry_offset": "0x4f648",
+   "depth": 3,
+   "data_rva": 429320,
+   "size": 37998,
+   "sha256": "5ba32d3b08f8a38b3eeed2fdf21560b02e3bffa02e6a5f8f791ce27bf4933194",
+   "bytes_read": 37998,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "22",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 37998,
+    "sha256": "5ba32d3b08f8a38b3eeed2fdf21560b02e3bffa02e6a5f8f791ce27bf4933194"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/22_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 23
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f2b8",
+   "data_entry_offset": "0x4f658",
+   "depth": 3,
+   "data_rva": 467320,
+   "size": 9640,
+   "sha256": "45bde6583d8aa313f85bc751a2b4016782d7dcd12d4771f4d211ed16350e4346",
+   "bytes_read": 9640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "23",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 9640,
+    "sha256": "45bde6583d8aa313f85bc751a2b4016782d7dcd12d4771f4d211ed16350e4346"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/23_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 24
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f2d0",
+   "data_entry_offset": "0x4f668",
+   "depth": 3,
+   "data_rva": 476960,
+   "size": 4264,
+   "sha256": "167ffb1312165b7bec8721ca9bf078e8e6a2f2b75bb78b3630494f6bf8780b66",
+   "bytes_read": 4264,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "24",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 4264,
+    "sha256": "167ffb1312165b7bec8721ca9bf078e8e6a2f2b75bb78b3630494f6bf8780b66"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/24_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 25
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f2e8",
+   "data_entry_offset": "0x4f678",
+   "depth": 3,
+   "data_rva": 481224,
+   "size": 2440,
+   "sha256": "9dbbdda09316d8fcf4d8ffc00a8bf24b274a66c7b05586451448b7b78a5a91f7",
+   "bytes_read": 2440,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "25",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2440,
+    "sha256": "9dbbdda09316d8fcf4d8ffc00a8bf24b274a66c7b05586451448b7b78a5a91f7"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/25_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 26
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f300",
+   "data_entry_offset": "0x4f688",
+   "depth": 3,
+   "data_rva": 483664,
+   "size": 1128,
+   "sha256": "ce8a720ad6af9591d5095d16e1c7ab0f7c7be9fb8cd923f3372beba4942a6e75",
+   "bytes_read": 1128,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "26",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1128,
+    "sha256": "ce8a720ad6af9591d5095d16e1c7ab0f7c7be9fb8cd923f3372beba4942a6e75"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/26_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 27
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f318",
+   "data_entry_offset": "0x4f698",
+   "depth": 3,
+   "data_rva": 484984,
+   "size": 1640,
+   "sha256": "6b0660ecd4e3abb15e4146d464be770816e28f3b091d2f8d757f6885dd937a47",
+   "bytes_read": 1640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "27",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1640,
+    "sha256": "6b0660ecd4e3abb15e4146d464be770816e28f3b091d2f8d757f6885dd937a47"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/27_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 28
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f330",
+   "data_entry_offset": "0x4f6a8",
+   "depth": 3,
+   "data_rva": 486624,
+   "size": 744,
+   "sha256": "dfc02e0b9a9371c9b4cb40287307bf33855467d07801465e00755b6eba0d49f8",
+   "bytes_read": 744,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "28",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 744,
+    "sha256": "dfc02e0b9a9371c9b4cb40287307bf33855467d07801465e00755b6eba0d49f8"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/28_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 29
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f348",
+   "data_entry_offset": "0x4f6b8",
+   "depth": 3,
+   "data_rva": 487368,
+   "size": 488,
+   "sha256": "4afdafe1552a379b0fb7a1f0af27217e3b0979ca200a5f4557a5cc07abd01890",
+   "bytes_read": 488,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "29",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 488,
+    "sha256": "4afdafe1552a379b0fb7a1f0af27217e3b0979ca200a5f4557a5cc07abd01890"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/29_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 30
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f360",
+   "data_entry_offset": "0x4f6c8",
+   "depth": 3,
+   "data_rva": 487856,
+   "size": 296,
+   "sha256": "f28bbf2ddf70ab3ebd82364ea864614920534c3f5cf5955b094a514b6ad79622",
+   "bytes_read": 296,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "30",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 296,
+    "sha256": "f28bbf2ddf70ab3ebd82364ea864614920534c3f5cf5955b094a514b6ad79622"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/30_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 31
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f378",
+   "data_entry_offset": "0x4f6d8",
+   "depth": 3,
+   "data_rva": 488152,
+   "size": 3752,
+   "sha256": "cd8895e4004d2f5a2e8166b325aaf902bea740c0eb23be85bd6d6d79054ed236",
+   "bytes_read": 3752,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "31",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 3752,
+    "sha256": "cd8895e4004d2f5a2e8166b325aaf902bea740c0eb23be85bd6d6d79054ed236"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/31_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 32
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f390",
+   "data_entry_offset": "0x4f6e8",
+   "depth": 3,
+   "data_rva": 491904,
+   "size": 2216,
+   "sha256": "aea7367259c50fb3be885cc90cde2883ef43816a54278856d1124d666cdefcbe",
+   "bytes_read": 2216,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "32",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2216,
+    "sha256": "aea7367259c50fb3be885cc90cde2883ef43816a54278856d1124d666cdefcbe"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/32_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 33
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f3a8",
+   "data_entry_offset": "0x4f6f8",
+   "depth": 3,
+   "data_rva": 494120,
+   "size": 1736,
+   "sha256": "8dc7eef1f5ac2527f15276c93dac718071626bf5f2d6c1c06dd936fcbb39fd52",
+   "bytes_read": 1736,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "33",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1736,
+    "sha256": "8dc7eef1f5ac2527f15276c93dac718071626bf5f2d6c1c06dd936fcbb39fd52"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/33_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 34
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f3c0",
+   "data_entry_offset": "0x4f708",
+   "depth": 3,
+   "data_rva": 495856,
+   "size": 1384,
+   "sha256": "458a4179d46599c90f84fa97ea5116c914756e47bbe14bb1aeabf92f3285faf5",
+   "bytes_read": 1384,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "34",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1384,
+    "sha256": "458a4179d46599c90f84fa97ea5116c914756e47bbe14bb1aeabf92f3285faf5"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/34_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 35
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f3d8",
+   "data_entry_offset": "0x4f718",
+   "depth": 3,
+   "data_rva": 497240,
+   "size": 42716,
+   "sha256": "26e85b9e212754640577efc419f8e63209f8eeb72f99a81ada842e8ec52db7f9",
+   "bytes_read": 42716,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "35",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 42716,
+    "sha256": "26e85b9e212754640577efc419f8e63209f8eeb72f99a81ada842e8ec52db7f9"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/35_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 36
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f3f0",
+   "data_entry_offset": "0x4f728",
+   "depth": 3,
+   "data_rva": 539960,
+   "size": 9640,
+   "sha256": "1c65762409b3845ffed0c52627950d86183c42a3c1197a88f651824e32023cdf",
+   "bytes_read": 9640,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "36",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 9640,
+    "sha256": "1c65762409b3845ffed0c52627950d86183c42a3c1197a88f651824e32023cdf"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/36_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 37
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f408",
+   "data_entry_offset": "0x4f738",
+   "depth": 3,
+   "data_rva": 549600,
+   "size": 4264,
+   "sha256": "f0b780a6d46e47aaa647824337523c03032beef8d8a9f4e7f729ca19e91ad2ed",
+   "bytes_read": 4264,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "37",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 4264,
+    "sha256": "f0b780a6d46e47aaa647824337523c03032beef8d8a9f4e7f729ca19e91ad2ed"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/37_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 38
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f420",
+   "data_entry_offset": "0x4f748",
+   "depth": 3,
+   "data_rva": 553864,
+   "size": 2440,
+   "sha256": "a768cd13e83ad4ec2fda967503f1b0745f948296c990598f92b306b100b01104",
+   "bytes_read": 2440,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "38",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 2440,
+    "sha256": "a768cd13e83ad4ec2fda967503f1b0745f948296c990598f92b306b100b01104"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/38_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 3
+    },
+    {
+     "kind": "id",
+     "id": 39
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f438",
+   "data_entry_offset": "0x4f758",
+   "depth": 3,
+   "data_rva": 556304,
+   "size": 1128,
+   "sha256": "a505748d5a24e19700c06d96632de7fe2e7f9a532c8056868254396e3c778e18",
+   "bytes_read": 1128,
+   "truncated": false,
+   "type": "RT_ICON",
+   "name": "39",
+   "language": "en-US",
+   "decoded": {
+    "bytes": 1128,
+    "sha256": "a505748d5a24e19700c06d96632de7fe2e7f9a532c8056868254396e3c778e18"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_ICON/raw/39_en-US.bin"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 600
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f450",
+   "data_entry_offset": "0x4f768",
+   "depth": 3,
+   "data_rva": 416872,
+   "size": 188,
+   "sha256": "babfddc0e7d3a257c10d780dd104748222da353f0baec59b28b912f6a972a73c",
+   "bytes_read": 188,
+   "truncated": false,
+   "type": "RT_GROUP_ICON",
+   "name": "600",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_GROUP_ICON/600_en-US.ico",
+   "decoded": {
+    "ico_bytes": 70787
+   }
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 601
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f468",
+   "data_entry_offset": "0x4f778",
+   "depth": 3,
+   "data_rva": 484792,
+   "size": 188,
+   "sha256": "b211c9761747ff73ee5487d8d91e3c0d00e11938f40e0a010f7fdb1230e13430",
+   "bytes_read": 188,
+   "truncated": false,
+   "type": "RT_GROUP_ICON",
+   "name": "601",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_GROUP_ICON/601_en-US.ico",
+   "decoded": {
+    "ico_bytes": 67940
+   }
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 14
+    },
+    {
+     "kind": "id",
+     "id": 602
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f480",
+   "data_entry_offset": "0x4f788",
+   "depth": 3,
+   "data_rva": 557432,
+   "size": 188,
+   "sha256": "95402254ef84248dba0c603cc55fd5774e3aa62d3d6724432892a25f29a85a55",
+   "bytes_read": 188,
+   "truncated": false,
+   "type": "RT_GROUP_ICON",
+   "name": "602",
+   "language": "en-US",
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_GROUP_ICON/602_en-US.ico",
+   "decoded": {
+    "ico_bytes": 72658
+   }
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f498",
+   "data_entry_offset": "0x4f798",
+   "depth": 3,
+   "data_rva": 335008,
+   "size": 988,
+   "sha256": "a4b0f4b1350e5a3b2d5fbdc74d45efc13bff17f1a5189a33935635bcea18c130",
+   "bytes_read": 988,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "en-US",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Windows Media Player Network Sharing Service Control Interface DLL",
+    "FileVersion": "12.0.7600.16385 (win7_rtm.090713-1255)",
+    "InternalName": "",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation. All rights reserved.",
+    "OriginalFilename": "WMPNSSCI.DLL",
+    "ProductName": "Microsoft\u00c2\u00ae Windows\u00c2\u00ae Operating System",
+    "ProductVersion": "12.0.7600.16385",
+    "StringFileInfo_utf8": {
+     "LegalCopyright": "\u00a9 Microsoft Corporation. All rights reserved.",
+     "ProductName": "Microsoft\u00ae Windows\u00ae Operating System"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_VERSION/1_en-US.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 24
+    },
+    {
+     "kind": "id",
+     "id": 2
+    },
+    {
+     "kind": "id",
+     "id": 1033
+    }
+   ],
+   "entry_offset": "0x4f4b0",
+   "data_entry_offset": "0x4f7a8",
+   "depth": 3,
+   "data_rva": 334320,
+   "size": 682,
+   "sha256": "0b00fe5b48fde6d6541a699b2890d977b4ed251fa7be9896acd0be8070ee60fe",
+   "bytes_read": 682,
+   "truncated": false,
+   "type": "RT_MANIFEST",
+   "name": "2",
+   "language": "en-US",
+   "decoded": {
+    "first_line": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>",
+    "root_element": "assembly"
+   },
+   "extracted": "analysis/report/resources/wmpnssci_dll/RT_MANIFEST/2_en-US.xml"
+  }
+ ]
+}

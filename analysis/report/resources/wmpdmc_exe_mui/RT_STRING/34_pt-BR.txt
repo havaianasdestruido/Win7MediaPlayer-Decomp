@@ -1,0 +1,4 @@
+531	Horizontal
+532	Usado para alterar a área de exibição horizontal
+533	Vertical
+534	Usado para alterar a área de exibição vertical

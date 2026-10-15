@@ -1,0 +1,147 @@
+{
+ "module": "wmplayer_exe_mui",
+ "artifact": "bin/pt-BR/wmplayer.exe.mui",
+ "sha256": "27ad95b6130d6f394bf74fe9c550cb65b166f7b05301ab5effd0f5b4ae62a714",
+ "generated_at": "2026-10-14 22:39:39Z",
+ "resource_directory": {
+  "index": 2,
+  "name": "RESOURCE",
+  "rva": 4096,
+  "size": 2472,
+  "present": true
+ },
+ "type_counts": {
+  "MUI": 1,
+  "RT_MESSAGETABLE": 1,
+  "RT_VERSION": 1
+ },
+ "pefile_walk_count": 3,
+ "walker_cross_check": {
+  "raw_walker": 3,
+  "pefile_walker": 3,
+  "agree": true
+ },
+ "messages_total": 4,
+ "resources": [
+  {
+   "path": [
+    {
+     "kind": "name",
+     "name": "MUI"
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x280",
+   "data_entry_offset": "0x2b8",
+   "depth": 3,
+   "data_rva": 4336,
+   "size": 184,
+   "sha256": "6798a99eb0dbbd585ad0fd74901473d08ce0d1ee5314a42c94a4793945a6a70f",
+   "bytes_read": 184,
+   "truncated": false,
+   "type": "MUI",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "language_tag": "pt-BR",
+    "localized_type_ids": [
+     3,
+     11,
+     14,
+     16
+    ],
+    "localized_type_names": [
+     "RT_ICON",
+     "RT_MESSAGETABLE",
+     "RT_GROUP_ICON",
+     "RT_VERSION"
+    ],
+    "matches_sibling": null,
+    "matches_same_artifact": false
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe_mui/MUI/1_pt-BR.json"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 11
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x298",
+   "data_entry_offset": "0x2c8",
+   "depth": 3,
+   "data_rva": 4520,
+   "size": 1088,
+   "sha256": "646bd5e68e429c2b9d15af7f08e69651c83f2ee93d841085c4d59ba19904e485",
+   "bytes_read": 1088,
+   "truncated": false,
+   "type": "RT_MESSAGETABLE",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "messages": 4,
+    "blocks": 1
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe_mui/RT_MESSAGETABLE/1_pt-BR.txt"
+  },
+  {
+   "path": [
+    {
+     "kind": "id",
+     "id": 16
+    },
+    {
+     "kind": "id",
+     "id": 1
+    },
+    {
+     "kind": "id",
+     "id": 1046
+    }
+   ],
+   "entry_offset": "0x2b0",
+   "data_entry_offset": "0x2d8",
+   "depth": 3,
+   "data_rva": 5608,
+   "size": 960,
+   "sha256": "539565fcbfbfbd41ac0f2644bcbf55c71a3c39b7936f1000389f1d4a5725b62f",
+   "bytes_read": 960,
+   "truncated": false,
+   "type": "RT_VERSION",
+   "name": "1",
+   "language": "pt-BR",
+   "decoded": {
+    "CompanyName": "Microsoft Corporation",
+    "FileDescription": "Windows Media Player",
+    "FileVersion": "12.0.7601.23517 (win7sp1_ldr.160812-0732)",
+    "InternalName": "wmplayer.exe",
+    "LegalCopyright": "\u00c2\u00a9 Microsoft Corporation.  Todos os direitos reservados.",
+    "OriginalFilename": "wmplayer.exe.mui",
+    "ProductName": "Sistema Operacional Microsoft\u00c2\u00ae Windows\u00c2\u00ae",
+    "ProductVersion": "12.0.7601.23517",
+    "StringFileInfo_utf8": {
+     "LegalCopyright": "\u00a9 Microsoft Corporation.  Todos os direitos reservados.",
+     "ProductName": "Sistema Operacional Microsoft\u00ae Windows\u00ae"
+    },
+    "encoding_note": null
+   },
+   "extracted": "analysis/report/resources/wmplayer_exe_mui/RT_VERSION/1_pt-BR.json"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+150	Saia do Windows Media Player e de todos os outros programas antes de continuar com a instalação.
+151	Outra instalação de programa não foi concluída. Reinicie o Windows para concluir a instalação antes de iniciar outra. Clique em Cancelar, reinicie o Windows e tente instalar o Windows Media Player novamente.
+152	O Windows pode usar a Interface do Usuário Multilíngue (MUI). Depois de concluída a instalação, você poderá instalar os pacotes de idioma apropriados do Windows Media Player para habilitar os recursos de troca de idiomas.
+153	Espaço em disco insuficiente
+154	Não há espaço livre suficiente no disco para instalar o Windows Media Player. São necessários pelo menos mais %lu MB de espaço. Libere espaço em seu disco rígido e continue com a instalação.
+155	Uma versão mais recente do Windows Media Player já está instalada.
+156	Há uma versão mais recente do Windows Media Player (%s) já instalada no computador. Não é possível usar um pacote de instalação mais antigo (%s) para instalar arquivos ou reparar a versão atual do Player.
+157	Privilégios Insuficientes
+158	Para atualizar o Windows com o Windows Media Player, você precisa estar conectado neste computador como um administrador ou um membro do grupo Administradores. Clique em Concluir, faça logoff do computador e, depois, faça logon como administrador.
+159	Versão da Interface do Usuário Multilíngue (MUI) do Windows detectada

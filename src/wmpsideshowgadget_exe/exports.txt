@@ -1,0 +1,4 @@
+# Exported symbols — bin/WMPSideShowGadget.exe (SHA-256 0f8f45cd381f60a41cca4834188157d25906911108d7280cb2540d2245327a9d)
+# Image export name: WMPSideShowGadget.exe
+
+    1  0x0001c598  Microsoft_WDF_UMDF_Version

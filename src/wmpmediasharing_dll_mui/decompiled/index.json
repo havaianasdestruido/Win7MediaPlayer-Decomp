@@ -1,0 +1,39 @@
+{
+ "module": "wmpmediasharing_dll_mui",
+ "artifact": "bin/pt-BR/WMPMediaSharing.dll.mui",
+ "sha256": "84218d150099d2bb3bdfd874b366770f681c7f3ab956954aee64e40789d99ae6",
+ "generated_at": "2026-10-14 21:59:03Z",
+ "decompiler": {
+  "name": "angr",
+  "version": "9.2.213",
+  "analysis": "CFGFast + Decompiler"
+ },
+ "image": {
+  "machine": "IMAGE_FILE_MACHINE_AMD64",
+  "image_base": "0x180000000",
+  "entry_point_rva": "0x0",
+  "entry_point_va": "0x180000000",
+  "sections": [
+   {
+    "name": ".rsrc",
+    "rva": "0x1000",
+    "vsize": 4096,
+    "raw": "0x200",
+    "rawsize": 2048,
+    "entropy": 3.9484
+   }
+  ]
+ },
+ "functions": [],
+ "cfg": {
+  "seconds": 0.07,
+  "function_count": 0,
+  "edge_count": 0
+ },
+ "limitations": [
+  "pseudocode is decompiler output, not original source",
+  "functions reachable only through data (vtables/callbacks) may be absent",
+  "no dynamic analysis was performed"
+ ],
+ "note": "no functions recovered by CFGFast \u2014 image has no executable code section (resource-only module such as a .mui payload)"
+}

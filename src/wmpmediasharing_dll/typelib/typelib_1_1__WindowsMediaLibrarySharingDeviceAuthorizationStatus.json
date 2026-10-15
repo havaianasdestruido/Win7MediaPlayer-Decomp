@@ -1,0 +1,2094 @@
+{
+ "generated_by": "analysis/tools/typelib.py",
+ "generated_at": "2026-10-14 21:48:10Z",
+ "source": {
+  "artifact": "analysis/report/resources/wmpmediasharing_dll/typelib/typelib_1_1.tlb",
+  "module": "wmpmediasharing_dll",
+  "resource_name": "1",
+  "payload_sha256": "0e03eeb9818afd62952a556941296ea3af08c4e491e1c65c5811c1f0d64ed615",
+  "file": "analysis/report/resources/wmpmediasharing_dll/typelib/typelib_1_1.tlb"
+ },
+ "format": "MSFT (ICreateTypeLib2), version field 0x00010002",
+ "header": {
+  "magic": "MSFT",
+  "version_field": "0x00010002",
+  "lcid": "0x0409",
+  "lcid2": 0,
+  "syskind": "SYS_WIN64",
+  "varflags": "0x00000043",
+  "version": "1.0",
+  "flags": "0x00000000",
+  "nrtypeinfos": 7,
+  "library_guid": "{C21E9CE5-B317-463B-A1B1-B5E36EED59D0}",
+  "posguid": 0,
+  "name_table_entries": 45,
+  "nametablechars": 887,
+  "help_string": null,
+  "help_file": null,
+  "nimpinfos": 1,
+  "dispatchpos": 1
+ },
+ "segments": [
+  {
+   "index": 0,
+   "offset": 352,
+   "length": 700,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 1,
+   "offset": 1412,
+   "length": 12,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 2,
+   "offset": 1424,
+   "length": 28,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 3,
+   "offset": 1396,
+   "length": 16,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 4,
+   "offset": 1052,
+   "length": 128,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 5,
+   "offset": 1180,
+   "length": 216,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 6,
+   "offset": 1452,
+   "length": 512,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 7,
+   "offset": 1964,
+   "length": 1500,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 8,
+   "offset": 3464,
+   "length": 1364,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 9,
+   "offset": 4828,
+   "length": 144,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 10,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 11,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 12,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 13,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 14,
+   "offset": 4294967295,
+   "length": 0,
+   "res08": 4294967295,
+   "res0c": 15
+  },
+  {
+   "index": 15,
+   "offset": 8480,
+   "length": 4972,
+   "res08": 0,
+   "res0c": 0
+  }
+ ],
+ "typeinfos": [
+  {
+   "index": 0,
+   "typeinfo_offset": 0,
+   "kind": "TKIND_ENUM",
+   "kind_id": 0,
+   "name": "WindowsMediaLibrarySharingDeviceAuthorizationStatus",
+   "name_offset": 20,
+   "guid": null,
+   "posguid": -1,
+   "flags": "0x00000000",
+   "typekind_raw": "0x00002120",
+   "cbAlignment": 4,
+   "version": "0.0",
+   "docstring": "2",
+   "member_counts": {
+    "functions": 0,
+    "variables": 3
+   },
+   "cImplTypes": 0,
+   "cbSizeVft": 0,
+   "size": 4,
+   "memoffset": 4972,
+   "datatype1": 4294967295,
+   "datatype2": 0,
+   "help_context": 0,
+   "functions": [],
+   "variables": [
+    {
+     "index": 0,
+     "name": "DEVICE_AUTHORIZATION_UNKNOWN",
+     "memid": 1073741824,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946157056,
+     "flags": "0x00000000",
+     "const_value": 0,
+     "const_vt": "VT_I4"
+    },
+    {
+     "index": 1,
+     "name": "DEVICE_AUTHORIZATION_ALLOWED",
+     "memid": 1073741825,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946157055,
+     "flags": "0x00000000",
+     "const_value": 1,
+     "const_vt": "VT_I4"
+    },
+    {
+     "index": 2,
+     "name": "DEVICE_AUTHORIZATION_DENIED",
+     "memid": 1073741826,
+     "var_kind": "VAR_CONST",
+     "type": {
+      "vt": 22,
+      "vt_name": "VT_INT",
+      "rendered": "int",
+      "inline": true
+     },
+     "value_or_offset": -1946157054,
+     "flags": "0x00000000",
+     "const_value": 2,
+     "const_vt": "VT_I4"
+    }
+   ],
+   "implements": [],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 1,
+   "typeinfo_offset": 100,
+   "kind": "TKIND_INTERFACE",
+   "kind_id": 3,
+   "name": "IWindowsMediaLibrarySharingDeviceProperty",
+   "name_offset": 204,
+   "guid": "{81E26927-7A7D-40A7-81D4-BDDC02960E3E}",
+   "posguid": 24,
+   "flags": "0x00001100",
+   "typekind_raw": "0x00014223",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": "]",
+   "member_counts": {
+    "functions": 2,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 72,
+   "size": 8,
+   "memoffset": 5096,
+   "datatype1": 1,
+   "datatype2": 458754,
+   "help_context": 0,
+   "functions": [
+    {
+     "index": 0,
+     "name": "Name",
+     "memid": 1,
+     "vtable_offset_bytes": 56,
+     "vtable_slot": 7,
+     "vtable_offset_raw": "0x0038",
+     "funcdescsize": 76,
+     "fkccic": "0x00004411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "Name",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff7fff8",
+        "points_to": {
+         "vt": 8,
+         "vt_name": "VT_BSTR",
+         "rendered": "BSTR",
+         "inline": true
+        },
+        "rendered": "BSTR*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "\u0019"
+    },
+    {
+     "index": 1,
+     "name": "Value",
+     "memid": 0,
+     "vtable_offset_bytes": 64,
+     "vtable_slot": 8,
+     "vtable_offset_raw": "0x0040",
+     "funcdescsize": 76,
+     "fkccic": "0x00014411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "Value",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff3fff4",
+        "points_to": {
+         "vt": 12,
+         "vt_name": "VT_VARIANT",
+         "rendered": "VARIANT",
+         "inline": true
+        },
+        "rendered": "VARIANT*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "\u001a"
+    }
+   ],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x01000001",
+     "flags": "0xff000000",
+     "imported": null,
+     "name": "<external hRef 0x01000001>",
+     "impl_flags": ""
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 2,
+   "typeinfo_offset": 200,
+   "kind": "TKIND_INTERFACE",
+   "kind_id": 3,
+   "name": "IWindowsMediaLibrarySharingDeviceProperties",
+   "name_offset": 296,
+   "guid": "{C4623214-6B06-40C5-A623-B2FF4C076BFD}",
+   "posguid": 96,
+   "flags": "0x00001100",
+   "typekind_raw": "0x00024223",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": "_",
+   "member_counts": {
+    "functions": 3,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 80,
+   "size": 8,
+   "memoffset": 5212,
+   "datatype1": 1,
+   "datatype2": 458754,
+   "help_context": 0,
+   "functions": [
+    {
+     "index": 0,
+     "name": "Item",
+     "memid": 0,
+     "vtable_offset_bytes": 56,
+     "vtable_slot": 7,
+     "vtable_offset_raw": "0x0038",
+     "funcdescsize": 100,
+     "fkccic": "0x00004411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 2,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "index",
+       "type": {
+        "vt": 3,
+        "vt_name": "VT_I4",
+        "rendered": "long",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "property",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000018",
+        "points_to": {
+         "vt": 26,
+         "vt_name": "VT_PTR",
+         "flags": [],
+         "union": "0x00000010",
+         "points_to": {
+          "vt": 29,
+          "vt_name": "VT_USERDEFINED",
+          "flags": [],
+          "union": "0x00000064",
+          "typeinfo_index": 1,
+          "rendered": "IWindowsMediaLibrarySharingDeviceProperty"
+         },
+         "rendered": "IWindowsMediaLibrarySharingDeviceProperty*"
+        },
+        "rendered": "IWindowsMediaLibrarySharingDeviceProperty**"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "F"
+    },
+    {
+     "index": 1,
+     "name": "Count",
+     "memid": 1,
+     "vtable_offset_bytes": 64,
+     "vtable_slot": 8,
+     "vtable_offset_raw": "0x0040",
+     "funcdescsize": 76,
+     "fkccic": "0x00014411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "Count",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ffcfffd",
+        "points_to": {
+         "vt": 3,
+         "vt_name": "VT_I4",
+         "rendered": "long",
+         "inline": true
+        },
+        "rendered": "long*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "/"
+    },
+    {
+     "index": 2,
+     "name": "GetProperty",
+     "memid": 2,
+     "vtable_offset_bytes": 72,
+     "vtable_slot": 9,
+     "vtable_offset_raw": "0x0048",
+     "funcdescsize": 100,
+     "fkccic": "0x00024409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 2,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "Name",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "property",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000018",
+        "points_to": {
+         "vt": 26,
+         "vt_name": "VT_PTR",
+         "flags": [],
+         "union": "0x00000010",
+         "points_to": {
+          "vt": 29,
+          "vt_name": "VT_USERDEFINED",
+          "flags": [],
+          "union": "0x00000064",
+          "typeinfo_index": 1,
+          "rendered": "IWindowsMediaLibrarySharingDeviceProperty"
+         },
+         "rendered": "IWindowsMediaLibrarySharingDeviceProperty*"
+        },
+        "rendered": "IWindowsMediaLibrarySharingDeviceProperty**"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "5"
+    }
+   ],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x01000001",
+     "flags": "0xff000000",
+     "imported": null,
+     "name": "<external hRef 0x01000001>",
+     "impl_flags": ""
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 3,
+   "typeinfo_offset": 300,
+   "kind": "TKIND_INTERFACE",
+   "kind_id": 3,
+   "name": "IWindowsMediaLibrarySharingDevice",
+   "name_offset": 452,
+   "guid": "{3DCCC293-4FD9-4191-A25B-8E57C5D27BD4}",
+   "posguid": 120,
+   "flags": "0x00001100",
+   "typekind_raw": "0x00034223",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": "U",
+   "member_counts": {
+    "functions": 4,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 88,
+   "size": 8,
+   "memoffset": 5408,
+   "datatype1": 1,
+   "datatype2": 458754,
+   "help_context": 0,
+   "functions": [
+    {
+     "index": 0,
+     "name": "DeviceID",
+     "memid": 1,
+     "vtable_offset_bytes": 56,
+     "vtable_slot": 7,
+     "vtable_offset_raw": "0x0038",
+     "funcdescsize": 76,
+     "fkccic": "0x00004411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "DeviceID",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff7fff8",
+        "points_to": {
+         "vt": 8,
+         "vt_name": "VT_BSTR",
+         "rendered": "BSTR",
+         "inline": true
+        },
+        "rendered": "BSTR*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "\u001d"
+    },
+    {
+     "index": 1,
+     "name": "Authorization",
+     "memid": 2,
+     "vtable_offset_bytes": 64,
+     "vtable_slot": 8,
+     "vtable_offset_raw": "0x0040",
+     "funcdescsize": 76,
+     "fkccic": "0x00024411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "Authorization",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000030",
+        "points_to": {
+         "vt": 29,
+         "vt_name": "VT_USERDEFINED",
+         "flags": [],
+         "union": "0x00000000",
+         "typeinfo_index": 0,
+         "rendered": "WindowsMediaLibrarySharingDeviceAuthorizationStatus"
+        },
+        "rendered": "WindowsMediaLibrarySharingDeviceAuthorizationStatus*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "5"
+    },
+    {
+     "index": 2,
+     "name": "Authorization",
+     "memid": 2,
+     "vtable_offset_bytes": 72,
+     "vtable_slot": 9,
+     "vtable_offset_raw": "0x0048",
+     "funcdescsize": 68,
+     "fkccic": "0x00010421",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYPUT",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "<unnamed>",
+       "type": {
+        "vt": 29,
+        "vt_name": "VT_USERDEFINED",
+        "flags": [],
+        "union": "0x00000000",
+        "typeinfo_index": 0,
+        "rendered": "WindowsMediaLibrarySharingDeviceAuthorizationStatus"
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "5"
+    },
+    {
+     "index": 3,
+     "name": "Properties",
+     "memid": 3,
+     "vtable_offset_bytes": 80,
+     "vtable_slot": 10,
+     "vtable_offset_raw": "0x0050",
+     "funcdescsize": 84,
+     "fkccic": "0x00034411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "deviceProperties",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000048",
+        "points_to": {
+         "vt": 26,
+         "vt_name": "VT_PTR",
+         "flags": [],
+         "union": "0x00000040",
+         "points_to": {
+          "vt": 29,
+          "vt_name": "VT_USERDEFINED",
+          "flags": [],
+          "union": "0x000000c8",
+          "typeinfo_index": 2,
+          "rendered": "IWindowsMediaLibrarySharingDeviceProperties"
+         },
+         "rendered": "IWindowsMediaLibrarySharingDeviceProperties*"
+        },
+        "rendered": "IWindowsMediaLibrarySharingDeviceProperties**"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "."
+    }
+   ],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x01000001",
+     "flags": "0xff000000",
+     "imported": null,
+     "name": "<external hRef 0x01000001>",
+     "impl_flags": ""
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 4,
+   "typeinfo_offset": 400,
+   "kind": "TKIND_INTERFACE",
+   "kind_id": 3,
+   "name": "IWindowsMediaLibrarySharingDevices",
+   "name_offset": 600,
+   "guid": "{1803F9D6-FE6D-4546-BF5B-992FE8EC12D1}",
+   "posguid": 144,
+   "flags": "0x00001100",
+   "typekind_raw": "0x00044223",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": "V",
+   "member_counts": {
+    "functions": 3,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 80,
+   "size": 8,
+   "memoffset": 5636,
+   "datatype1": 1,
+   "datatype2": 458754,
+   "help_context": 0,
+   "functions": [
+    {
+     "index": 0,
+     "name": "Item",
+     "memid": 0,
+     "vtable_offset_bytes": 56,
+     "vtable_slot": 7,
+     "vtable_offset_raw": "0x0038",
+     "funcdescsize": 100,
+     "fkccic": "0x00004411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 2,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "index",
+       "type": {
+        "vt": 3,
+        "vt_name": "VT_I4",
+        "rendered": "long",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "device",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000060",
+        "points_to": {
+         "vt": 26,
+         "vt_name": "VT_PTR",
+         "flags": [],
+         "union": "0x00000058",
+         "points_to": {
+          "vt": 29,
+          "vt_name": "VT_USERDEFINED",
+          "flags": [],
+          "union": "0x0000012c",
+          "typeinfo_index": 3,
+          "rendered": "IWindowsMediaLibrarySharingDevice"
+         },
+         "rendered": "IWindowsMediaLibrarySharingDevice*"
+        },
+        "rendered": "IWindowsMediaLibrarySharingDevice**"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "F"
+    },
+    {
+     "index": 1,
+     "name": "Count",
+     "memid": 1,
+     "vtable_offset_bytes": 64,
+     "vtable_slot": 8,
+     "vtable_offset_raw": "0x0040",
+     "funcdescsize": 76,
+     "fkccic": "0x00014411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "Count",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ffcfffd",
+        "points_to": {
+         "vt": 3,
+         "vt_name": "VT_I4",
+         "rendered": "long",
+         "inline": true
+        },
+        "rendered": "long*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": "/"
+    },
+    {
+     "index": 2,
+     "name": "GetDevice",
+     "memid": 2,
+     "vtable_offset_bytes": 72,
+     "vtable_slot": 9,
+     "vtable_offset_raw": "0x0048",
+     "funcdescsize": 100,
+     "fkccic": "0x00024409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 2,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "DeviceID",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "device",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000060",
+        "points_to": {
+         "vt": 26,
+         "vt_name": "VT_PTR",
+         "flags": [],
+         "union": "0x00000058",
+         "points_to": {
+          "vt": 29,
+          "vt_name": "VT_USERDEFINED",
+          "flags": [],
+          "union": "0x0000012c",
+          "typeinfo_index": 3,
+          "rendered": "IWindowsMediaLibrarySharingDevice"
+         },
+         "rendered": "IWindowsMediaLibrarySharingDevice*"
+        },
+        "rendered": "IWindowsMediaLibrarySharingDevice**"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ],
+     "help_context": 0,
+     "help_string": ":"
+    }
+   ],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x01000001",
+     "flags": "0xff000000",
+     "imported": null,
+     "name": "<external hRef 0x01000001>",
+     "impl_flags": ""
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 5,
+   "typeinfo_offset": 500,
+   "kind": "TKIND_INTERFACE",
+   "kind_id": 3,
+   "name": "IWindowsMediaLibrarySharingServices",
+   "name_offset": 692,
+   "guid": "{01F5F85E-0A81-40DA-A7C8-21EF3AF8440C}",
+   "posguid": 168,
+   "flags": "0x00001100",
+   "typekind_raw": "0x00054223",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": "W",
+   "member_counts": {
+    "functions": 19,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 208,
+   "size": 8,
+   "memoffset": 5832,
+   "datatype1": 1,
+   "datatype2": 458754,
+   "help_context": 0,
+   "functions": [
+    {
+     "index": 0,
+     "name": "showShareMediaCPL",
+     "memid": 1610743808,
+     "vtable_offset_bytes": 56,
+     "vtable_slot": 7,
+     "vtable_offset_raw": "0x0038",
+     "funcdescsize": 68,
+     "fkccic": "0x00000409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "device",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 1,
+     "name": "userHomeMediaSharingState",
+     "memid": 1610743809,
+     "vtable_offset_bytes": 64,
+     "vtable_slot": 8,
+     "vtable_offset_raw": "0x0040",
+     "funcdescsize": 76,
+     "fkccic": "0x00024411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "sharingEnabled",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff4fff5",
+        "points_to": {
+         "vt": 11,
+         "vt_name": "VT_BOOL",
+         "rendered": "VARIANT_BOOL",
+         "inline": true
+        },
+        "rendered": "VARIANT_BOOL*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 2,
+     "name": "userHomeMediaSharingState",
+     "memid": 1610743809,
+     "vtable_offset_bytes": 72,
+     "vtable_slot": 9,
+     "vtable_offset_raw": "0x0048",
+     "funcdescsize": 68,
+     "fkccic": "0x00010421",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYPUT",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "<unnamed>",
+       "type": {
+        "vt": 11,
+        "vt_name": "VT_BOOL",
+        "rendered": "VARIANT_BOOL",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 3,
+     "name": "userHomeMediaSharingLibraryName",
+     "memid": 1610743811,
+     "vtable_offset_bytes": 80,
+     "vtable_slot": 10,
+     "vtable_offset_raw": "0x0050",
+     "funcdescsize": 76,
+     "fkccic": "0x00044411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "libraryName",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff7fff8",
+        "points_to": {
+         "vt": 8,
+         "vt_name": "VT_BSTR",
+         "rendered": "BSTR",
+         "inline": true
+        },
+        "rendered": "BSTR*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 4,
+     "name": "userHomeMediaSharingLibraryName",
+     "memid": 1610743811,
+     "vtable_offset_bytes": 88,
+     "vtable_slot": 11,
+     "vtable_offset_raw": "0x0058",
+     "funcdescsize": 68,
+     "fkccic": "0x00030421",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYPUT",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "<unnamed>",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 5,
+     "name": "computerHomeMediaSharingAllowedState",
+     "memid": 1610743813,
+     "vtable_offset_bytes": 96,
+     "vtable_slot": 12,
+     "vtable_offset_raw": "0x0060",
+     "funcdescsize": 76,
+     "fkccic": "0x00064411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "sharingAllowed",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff4fff5",
+        "points_to": {
+         "vt": 11,
+         "vt_name": "VT_BOOL",
+         "rendered": "VARIANT_BOOL",
+         "inline": true
+        },
+        "rendered": "VARIANT_BOOL*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 6,
+     "name": "computerHomeMediaSharingAllowedState",
+     "memid": 1610743813,
+     "vtable_offset_bytes": 104,
+     "vtable_slot": 13,
+     "vtable_offset_raw": "0x0068",
+     "funcdescsize": 68,
+     "fkccic": "0x00050421",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYPUT",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "<unnamed>",
+       "type": {
+        "vt": 11,
+        "vt_name": "VT_BOOL",
+        "rendered": "VARIANT_BOOL",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 7,
+     "name": "userInternetMediaSharingState",
+     "memid": 1610743815,
+     "vtable_offset_bytes": 112,
+     "vtable_slot": 14,
+     "vtable_offset_raw": "0x0070",
+     "funcdescsize": 76,
+     "fkccic": "0x00084411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "sharingEnabled",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff4fff5",
+        "points_to": {
+         "vt": 11,
+         "vt_name": "VT_BOOL",
+         "rendered": "VARIANT_BOOL",
+         "inline": true
+        },
+        "rendered": "VARIANT_BOOL*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 8,
+     "name": "userInternetMediaSharingState",
+     "memid": 1610743815,
+     "vtable_offset_bytes": 120,
+     "vtable_slot": 15,
+     "vtable_offset_raw": "0x0078",
+     "funcdescsize": 68,
+     "fkccic": "0x00070421",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYPUT",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "<unnamed>",
+       "type": {
+        "vt": 11,
+        "vt_name": "VT_BOOL",
+        "rendered": "VARIANT_BOOL",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 9,
+     "name": "computerInternetMediaSharingAllowedState",
+     "memid": 1610743817,
+     "vtable_offset_bytes": 128,
+     "vtable_slot": 16,
+     "vtable_offset_raw": "0x0080",
+     "funcdescsize": 76,
+     "fkccic": "0x000a4411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "sharingAllowed",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff4fff5",
+        "points_to": {
+         "vt": 11,
+         "vt_name": "VT_BOOL",
+         "rendered": "VARIANT_BOOL",
+         "inline": true
+        },
+        "rendered": "VARIANT_BOOL*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 10,
+     "name": "computerInternetMediaSharingAllowedState",
+     "memid": 1610743817,
+     "vtable_offset_bytes": 136,
+     "vtable_slot": 17,
+     "vtable_offset_raw": "0x0088",
+     "funcdescsize": 68,
+     "fkccic": "0x00090421",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYPUT",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "<unnamed>",
+       "type": {
+        "vt": 11,
+        "vt_name": "VT_BOOL",
+        "rendered": "VARIANT_BOOL",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 11,
+     "name": "internetMediaSharingSecurityGroup",
+     "memid": 1610743819,
+     "vtable_offset_bytes": 144,
+     "vtable_slot": 18,
+     "vtable_offset_raw": "0x0090",
+     "funcdescsize": 76,
+     "fkccic": "0x000c4411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "securityGroup",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff7fff8",
+        "points_to": {
+         "vt": 8,
+         "vt_name": "VT_BSTR",
+         "rendered": "BSTR",
+         "inline": true
+        },
+        "rendered": "BSTR*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 12,
+     "name": "internetMediaSharingSecurityGroup",
+     "memid": 1610743819,
+     "vtable_offset_bytes": 152,
+     "vtable_slot": 19,
+     "vtable_offset_raw": "0x0098",
+     "funcdescsize": 68,
+     "fkccic": "0x000b0421",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYPUT",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "<unnamed>",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 13,
+     "name": "allowSharingToAllDevices",
+     "memid": 1610743821,
+     "vtable_offset_bytes": 160,
+     "vtable_slot": 20,
+     "vtable_offset_raw": "0x00a0",
+     "funcdescsize": 76,
+     "fkccic": "0x000e4411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "sharingEnabled",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff4fff5",
+        "points_to": {
+         "vt": 11,
+         "vt_name": "VT_BOOL",
+         "rendered": "VARIANT_BOOL",
+         "inline": true
+        },
+        "rendered": "VARIANT_BOOL*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 14,
+     "name": "allowSharingToAllDevices",
+     "memid": 1610743821,
+     "vtable_offset_bytes": 168,
+     "vtable_slot": 21,
+     "vtable_offset_raw": "0x00a8",
+     "funcdescsize": 68,
+     "fkccic": "0x000d0421",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYPUT",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "<unnamed>",
+       "type": {
+        "vt": 11,
+        "vt_name": "VT_BOOL",
+        "rendered": "VARIANT_BOOL",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 15,
+     "name": "setDefaultAuthorization",
+     "memid": 1610743823,
+     "vtable_offset_bytes": 176,
+     "vtable_slot": 22,
+     "vtable_offset_raw": "0x00b0",
+     "funcdescsize": 100,
+     "fkccic": "0x000f0409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 3,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "MACAddresses",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "friendlyName",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "Authorization",
+       "type": {
+        "vt": 11,
+        "vt_name": "VT_BOOL",
+        "rendered": "VARIANT_BOOL",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 16,
+     "name": "setAuthorizationState",
+     "memid": 1610743824,
+     "vtable_offset_bytes": 184,
+     "vtable_slot": 23,
+     "vtable_offset_raw": "0x00b8",
+     "funcdescsize": 84,
+     "fkccic": "0x00100409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 2,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "MACAddress",
+       "type": {
+        "vt": 8,
+        "vt_name": "VT_BSTR",
+        "rendered": "BSTR",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      },
+      {
+       "name": "authorizationState",
+       "type": {
+        "vt": 11,
+        "vt_name": "VT_BOOL",
+        "rendered": "VARIANT_BOOL",
+        "inline": true
+       },
+       "flags": "0x00000001",
+       "flags_decoded": [
+        "IN"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 17,
+     "name": "getAllDevices",
+     "memid": 1610743825,
+     "vtable_offset_bytes": 192,
+     "vtable_slot": 24,
+     "vtable_offset_raw": "0x00c0",
+     "funcdescsize": 84,
+     "fkccic": "0x00114409",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_FUNC",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "devices",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x00000080",
+        "points_to": {
+         "vt": 26,
+         "vt_name": "VT_PTR",
+         "flags": [],
+         "union": "0x00000078",
+         "points_to": {
+          "vt": 29,
+          "vt_name": "VT_USERDEFINED",
+          "flags": [],
+          "union": "0x00000190",
+          "typeinfo_index": 4,
+          "rendered": "IWindowsMediaLibrarySharingDevices"
+         },
+         "rendered": "IWindowsMediaLibrarySharingDevices*"
+        },
+        "rendered": "IWindowsMediaLibrarySharingDevices**"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ]
+    },
+    {
+     "index": 18,
+     "name": "customSettingsApplied",
+     "memid": 1610743826,
+     "vtable_offset_bytes": 200,
+     "vtable_slot": 25,
+     "vtable_offset_raw": "0x00c8",
+     "funcdescsize": 76,
+     "fkccic": "0x00124411",
+     "funckind": "FUNC_PUREVIRTUAL",
+     "invkind": "INVOKE_PROPERTYGET",
+     "callconv": "CC_STDCALL",
+     "nrargs": 1,
+     "nroargs": 0,
+     "flags": "0x00000000",
+     "return_type": {
+      "vt": 25,
+      "vt_name": "VT_HRESULT",
+      "rendered": "HRESULT",
+      "inline": true
+     },
+     "params": [
+      {
+       "name": "customSettingsApplied",
+       "type": {
+        "vt": 26,
+        "vt_name": "VT_PTR",
+        "flags": [],
+        "union": "0x-7ff4fff5",
+        "points_to": {
+         "vt": 11,
+         "vt_name": "VT_BOOL",
+         "rendered": "VARIANT_BOOL",
+         "inline": true
+        },
+        "rendered": "VARIANT_BOOL*"
+       },
+       "flags": "0x0000000a",
+       "flags_decoded": [
+        "OUT",
+        "RETVAL"
+       ]
+      }
+     ]
+    }
+   ],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x01000001",
+     "flags": "0xff000000",
+     "imported": null,
+     "name": "<external hRef 0x01000001>",
+     "impl_flags": ""
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  },
+  {
+   "index": 6,
+   "typeinfo_offset": 600,
+   "kind": "TKIND_COCLASS",
+   "kind_id": 5,
+   "name": "WindowsMediaLibrarySharingServices",
+   "name_offset": 1452,
+   "guid": "{AD581B00-7B64-4E59-A38D-D2C5BF51DDB3}",
+   "posguid": 192,
+   "flags": "0x00000002",
+   "typekind_raw": "0x00064225",
+   "cbAlignment": 8,
+   "version": "0.0",
+   "docstring": "\u00fb",
+   "member_counts": {
+    "functions": 0,
+    "variables": 0
+   },
+   "cImplTypes": 1,
+   "cbSizeVft": 0,
+   "size": 8,
+   "memoffset": 6784,
+   "datatype1": 0,
+   "datatype2": 0,
+   "help_context": 0,
+   "functions": [],
+   "variables": [],
+   "implements": [
+    {
+     "reftype": "0x000001f4",
+     "flags": "0x00000001",
+     "typeinfo_index": 5,
+     "name": "IWindowsMediaLibrarySharingServices",
+     "guid": "{01F5F85E-0A81-40DA-A7C8-21EF3AF8440C}",
+     "impl_flags": "DEFAULT"
+    }
+   ],
+   "property_pairs": [],
+   "raw_fields": {
+    "res2": 0,
+    "res3": 0,
+    "res4": 3,
+    "res5": 0,
+    "res7": 0,
+    "res8": 0,
+    "res9": 0,
+    "resA": 0,
+    "res18": 0,
+    "res19": 4294967295,
+    "oCustData": 4294967295
+   }
+  }
+ ],
+ "notes": [],
+ "guid_cross_check": {
+  "image": "bin/WMPMediaSharing.dll",
+  "library_guid": {
+   "name": "<library>",
+   "guid": "{C21E9CE5-B317-463B-A1B1-B5E36EED59D0}",
+   "found": true,
+   "file_offset": "0x10f0",
+   "occurrences": 2
+  },
+  "guids": [
+   {
+    "name": "<library>",
+    "guid": "{C21E9CE5-B317-463B-A1B1-B5E36EED59D0}",
+    "found": true,
+    "file_offset": "0x10f0",
+    "occurrences": 2
+   },
+   {
+    "name": "IWindowsMediaLibrarySharingDeviceProperty",
+    "guid": "{81E26927-7A7D-40A7-81D4-BDDC02960E3E}",
+    "found": true,
+    "file_offset": "0x25d94",
+    "occurrences": 1
+   },
+   {
+    "name": "IWindowsMediaLibrarySharingDeviceProperties",
+    "guid": "{C4623214-6B06-40C5-A623-B2FF4C076BFD}",
+    "found": true,
+    "file_offset": "0x25ddc",
+    "occurrences": 1
+   },
+   {
+    "name": "IWindowsMediaLibrarySharingDevice",
+    "guid": "{3DCCC293-4FD9-4191-A25B-8E57C5D27BD4}",
+    "found": true,
+    "file_offset": "0x25df4",
+    "occurrences": 1
+   },
+   {
+    "name": "IWindowsMediaLibrarySharingDevices",
+    "guid": "{1803F9D6-FE6D-4546-BF5B-992FE8EC12D1}",
+    "found": true,
+    "file_offset": "0x18c0",
+    "occurrences": 2
+   },
+   {
+    "name": "IWindowsMediaLibrarySharingServices",
+    "guid": "{01F5F85E-0A81-40DA-A7C8-21EF3AF8440C}",
+    "found": true,
+    "file_offset": "0x11a8",
+    "occurrences": 2
+   },
+   {
+    "name": "WindowsMediaLibrarySharingServices",
+    "guid": "{AD581B00-7B64-4E59-A38D-D2C5BF51DDB3}",
+    "found": true,
+    "file_offset": "0x1188",
+    "occurrences": 2
+   }
+  ],
+  "summary": "7/7 recovered GUIDs present as 16-byte constants in WMPMediaSharing.dll"
+ }
+}

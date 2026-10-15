@@ -1,0 +1,367 @@
+{
+ "module": "wmpdmccore_dll_mui",
+ "artifact": "bin/pt-BR/WMPDMCCore.dll.mui",
+ "counts": {
+  "ascii": 4,
+  "utf16": 30,
+  "unique": 32
+ },
+ "strings": [
+  {
+   "text": "!This program cannot be run in DOS mode.",
+   "offset": "0x4d",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "RichE",
+   "offset": "0xa0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": ".rsrc",
+   "offset": "0x1c0",
+   "kind": "ascii",
+   "rva": null,
+   "va": null,
+   "tags": []
+  },
+  {
+   "text": "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD",
+   "offset": "0x914",
+   "kind": "ascii",
+   "rva": "0x1714",
+   "va": "0x180001714",
+   "tags": []
+  },
+  {
+   "text": "pt-BR",
+   "offset": "0x3e0",
+   "kind": "utf16",
+   "rva": "0x11e0",
+   "va": "0x1800011e0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMPDMCCore",
+   "offset": "0x3fa",
+   "kind": "utf16",
+   "rva": "0x11fa",
+   "va": "0x1800011fa",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Informa",
+   "offset": "0x450",
+   "kind": "utf16",
+   "rva": "0x1250",
+   "va": "0x180001250",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Iniciar",
+   "offset": "0x470",
+   "kind": "utf16",
+   "rva": "0x1270",
+   "va": "0x180001270",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Parar",
+   "offset": "0x488",
+   "kind": "utf16",
+   "rva": "0x1288",
+   "va": "0x180001288",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft-Windows-WMPDMCCore",
+   "offset": "0x4bc",
+   "kind": "utf16",
+   "rva": "0x12bc",
+   "va": "0x1800012bc",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VS_VERSION_INFO",
+   "offset": "0x502",
+   "kind": "utf16",
+   "rva": "0x1302",
+   "va": "0x180001302",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "StringFileInfo",
+   "offset": "0x55e",
+   "kind": "utf16",
+   "rva": "0x135e",
+   "va": "0x18000135e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "041604B0",
+   "offset": "0x582",
+   "kind": "utf16",
+   "rva": "0x1382",
+   "va": "0x180001382",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "CompanyName",
+   "offset": "0x59a",
+   "kind": "utf16",
+   "rva": "0x139a",
+   "va": "0x18000139a",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Microsoft Corporation",
+   "offset": "0x5b4",
+   "kind": "utf16",
+   "rva": "0x13b4",
+   "va": "0x1800013b4",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileDescription",
+   "offset": "0x5e6",
+   "kind": "utf16",
+   "rva": "0x13e6",
+   "va": "0x1800013e6",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Biblioteca do Controlador de M",
+   "offset": "0x608",
+   "kind": "utf16",
+   "rva": "0x1408",
+   "va": "0x180001408",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "dia Digital do Windows Media Player",
+   "offset": "0x646",
+   "kind": "utf16",
+   "rva": "0x1446",
+   "va": "0x180001446",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "FileVersion",
+   "offset": "0x696",
+   "kind": "utf16",
+   "rva": "0x1496",
+   "va": "0x180001496",
+   "tags": [
+    "api-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "offset": "0x6b0",
+   "kind": "utf16",
+   "rva": "0x14b0",
+   "va": "0x1800014b0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "InternalName",
+   "offset": "0x706",
+   "kind": "utf16",
+   "rva": "0x1506",
+   "va": "0x180001506",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "LegalCopyright",
+   "offset": "0x73e",
+   "kind": "utf16",
+   "rva": "0x153e",
+   "va": "0x18000153e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Microsoft Corporation. Todos os direitos reservados.",
+   "offset": "0x75e",
+   "kind": "utf16",
+   "rva": "0x155e",
+   "va": "0x18000155e",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "OriginalFilename",
+   "offset": "0x7d2",
+   "kind": "utf16",
+   "rva": "0x15d2",
+   "va": "0x1800015d2",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "WMPDMCCore.dll.mui",
+   "offset": "0x7f4",
+   "kind": "utf16",
+   "rva": "0x15f4",
+   "va": "0x1800015f4",
+   "tags": [
+    "module-name",
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductName",
+   "offset": "0x822",
+   "kind": "utf16",
+   "rva": "0x1622",
+   "va": "0x180001622",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Sistema Operacional Microsoft",
+   "offset": "0x83c",
+   "kind": "utf16",
+   "rva": "0x163c",
+   "va": "0x18000163c",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": " Windows",
+   "offset": "0x878",
+   "kind": "utf16",
+   "rva": "0x1678",
+   "va": "0x180001678",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "ProductVersion",
+   "offset": "0x892",
+   "kind": "utf16",
+   "rva": "0x1692",
+   "va": "0x180001692",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "12.0.7600.16385",
+   "offset": "0x8b0",
+   "kind": "utf16",
+   "rva": "0x16b0",
+   "va": "0x1800016b0",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "VarFileInfo",
+   "offset": "0x8d6",
+   "kind": "utf16",
+   "rva": "0x16d6",
+   "va": "0x1800016d6",
+   "tags": [
+    "utf16le"
+   ]
+  },
+  {
+   "text": "Translation",
+   "offset": "0x8f6",
+   "kind": "utf16",
+   "rva": "0x16f6",
+   "va": "0x1800016f6",
+   "tags": [
+    "utf16le"
+   ]
+  }
+ ],
+ "by_tag": {
+  "api-name": [
+   "CompanyName",
+   "FileDescription",
+   "FileVersion"
+  ],
+  "module-name": [
+   "WMPDMCCore.dll.mui"
+  ],
+  "utf16le": [
+   " Microsoft Corporation. Todos os direitos reservados.",
+   " Windows",
+   "041604B0",
+   "12.0.7600.16385",
+   "12.0.7600.16385 (win7_rtm.090713-1255)",
+   "Biblioteca do Controlador de M",
+   "CompanyName",
+   "FileDescription",
+   "FileVersion",
+   "Informa",
+   "Iniciar",
+   "InternalName",
+   "LegalCopyright",
+   "Microsoft Corporation",
+   "Microsoft-Windows-WMPDMCCore",
+   "OriginalFilename",
+   "Parar",
+   "ProductName",
+   "ProductVersion",
+   "Sistema Operacional Microsoft",
+   "StringFileInfo",
+   "Translation",
+   "VS_VERSION_INFO",
+   "VarFileInfo",
+   "WMPDMCCore",
+   "WMPDMCCore.dll.mui",
+   "dia Digital do Windows Media Player",
+   "pt-BR"
+  ]
+ }
+}

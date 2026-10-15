@@ -1,0 +1,39 @@
+{
+ "module": "mpvis_dll_mui",
+ "artifact": "bin/pt-BR/mpvis.dll.mui",
+ "sha256": "781a2dd1ca11e2654bec3d601a3b286dc289f13c8408f41126420ee6181de7c5",
+ "generated_at": "2026-10-14 21:59:06Z",
+ "decompiler": {
+  "name": "angr",
+  "version": "9.2.213",
+  "analysis": "CFGFast + Decompiler"
+ },
+ "image": {
+  "machine": "IMAGE_FILE_MACHINE_AMD64",
+  "image_base": "0x180000000",
+  "entry_point_rva": "0x0",
+  "entry_point_va": "0x180000000",
+  "sections": [
+   {
+    "name": ".rsrc",
+    "rva": "0x1000",
+    "vsize": 4096,
+    "raw": "0x200",
+    "rawsize": 2048,
+    "entropy": 3.8145
+   }
+  ]
+ },
+ "functions": [],
+ "cfg": {
+  "seconds": 0.06,
+  "function_count": 0,
+  "edge_count": 0
+ },
+ "limitations": [
+  "pseudocode is decompiler output, not original source",
+  "functions reachable only through data (vtables/callbacks) may be absent",
+  "no dynamic analysis was performed"
+ ],
+ "note": "no functions recovered by CFGFast \u2014 image has no executable code section (resource-only module such as a .mui payload)"
+}

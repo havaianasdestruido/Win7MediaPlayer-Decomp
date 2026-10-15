@@ -1,0 +1,8 @@
+1000	faixas
+1001	faixa
+1002	Tempo decorrido
+1003	Volume
+1004	Reproduzir ou pausar
+1005	Faixa anterior
+1006	Próxima faixa
+1007	Reproduzir

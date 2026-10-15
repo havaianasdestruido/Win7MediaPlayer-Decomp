@@ -1,0 +1,12 @@
+272	O Windows Media Player será revertido para a versão anterior instalada em seu computador. Deseja continuar?
+274	É necessário reiniciar o Windows agora. Salve seu trabalho, saia de todos os programas e, em seguida, reinicie o Windows.
+275	 - falha na reversão.
+276	Para reverter para a versão anterior do Windows Media Player que havia no computador, você deve ter feito logon no computador como administrador ou membro do grupo Administradores. Clique em OK, faça logoff do computador e faça logon como administrador.
+277	Dependências de programa estão impedindo a reversão.
+278	Os seguintes programas dependem desta versão do Tempo de Execução do Windows Media Format para serem executados de forma apropriada e devem ser removidos antes de você reverter para a versão anterior do Tempo de Execução de Formatação do Windows Media. A instalação será encerrada sem fazer quaisquer alterações em seu computador.
+279	O Tempo de Execução do Windows Media Format será revertido para a versão anterior instalada em seu computador. Deseja continuar?
+280	Se você reverter o Tempo de Execução de Formatação do Windows Media para a versão anterior que havia no computador, outros programas que exigem o Tempo de Execução poderão ser afetados. Talvez você precise removê-los e instalá-los novamente. Tem certeza de que deseja continuar?
+281	Se você reverter o Tempo de Execução de Formatação do Windows Media para uma versão anterior, os direitos de uso de mídia dos arquivos protegidos serão excluídos. Talvez você possa baixar novos direitos de uso de mídia para alguns arquivos, mas não será possível reproduzir arquivos que exijam a versão mais recente do Tempo de Execução de Formatação do Windows Media.
+282	&Deseja prosseguir com a reversão?
+283	Dependências de programa estão impedindo a reversão.
+284	Talvez seja necessário remover e, em seguida, instalar os seguintes programas novamente quando a reversão tiver sido concluída.
