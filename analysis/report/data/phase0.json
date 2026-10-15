@@ -1,0 +1,185 @@
+{
+  "generated_by": "analysis/tools/phase0_check.py",
+  "generated_at": "2026-10-15 20:32:46Z",
+  "all_passed": true,
+  "p0_1": {
+    "passed": true,
+    "git_diff_against_5c564f7_empty": true,
+    "readonly_tool_audit": {
+      "scripts_scanned": 14,
+      "write_violations": [],
+      "passed": true
+    },
+    "manifest_verification_checks": {
+      "upstream_initial_7808d47_matches": "53/53",
+      "upstream_moved_5c564f7_matches": "53/53",
+      "inventory_json_hash_matches": "53/53",
+      "winsxs_package_manifest_mapped": "53/53",
+      "pe_optional_header_checksum_valid": "28/28",
+      "pe_servicing_wave_mapped": "28/28",
+      "embedded_rt_manifest_modules": "12/16 (13 XML manifests)",
+      "winbindex_filename_tracked": "43/53",
+      "winbindex_static_asset_sha256_exact": "7/7 unchanged Win7->Win10 assets"
+    }
+  },
+  "p0_2": {
+    "passed": true,
+    "tools": {
+      "python": {
+        "version": "3.11.2",
+        "required": ">=3.11",
+        "ok": true
+      },
+      "angr": {
+        "version": "9.2.213",
+        "required": "9.2.213",
+        "ok": true
+      },
+      "claripy": {
+        "version": "9.2.213",
+        "required": "9.2.213",
+        "ok": true
+      },
+      "cle": {
+        "version": "9.2.213",
+        "required": "9.2.213",
+        "ok": true
+      },
+      "pyvex": {
+        "version": "9.2.213",
+        "required": "9.2.213",
+        "ok": true
+      },
+      "archinfo": {
+        "version": "9.2.213",
+        "required": "9.2.213",
+        "ok": true
+      },
+      "pefile": {
+        "version": "2024.8.26",
+        "required": "2024.8.26",
+        "ok": true
+      },
+      "capstone": {
+        "version": "5.0.6",
+        "required": "5.0.6",
+        "ok": true
+      },
+      "pyelftools": {
+        "version": "0.33",
+        "required": "0.33",
+        "ok": true
+      },
+      "bitstring": {
+        "version": "3.1.9",
+        "required": "3.1.9 (<4)",
+        "ok": true
+      },
+      "node": {
+        "version": "22.22.3",
+        "required": ">=22.0",
+        "ok": true
+      },
+      "rea": {
+        "version": "6.5.0",
+        "required": "6.5.0",
+        "ok": true
+      },
+      "cmake": {
+        "version": "4.4.4",
+        "required": ">=4.4",
+        "ok": true
+      },
+      "ninja": {
+        "version": "1.13.2",
+        "required": ">=1.13",
+        "ok": true
+      },
+      "objdump": {
+        "version": "2.40",
+        "required": ">=2.40",
+        "ok": true
+      },
+      "gcc": {
+        "version": "12.2.0",
+        "required": ">=12.0",
+        "ok": true
+      }
+    }
+  },
+  "p0_3": {
+    "passed": true,
+    "reproducibility": {
+      "passed": true,
+      "checks": {
+        "peutils_and_pefile": {
+          "subject": "bin/wmpconfig.exe",
+          "run1_sha256": "51ae027a1b2b1d94a1c3038e1a67af26f67e188e476b65e5bb488ce409596618",
+          "run2_sha256": "51ae027a1b2b1d94a1c3038e1a67af26f67e188e476b65e5bb488ce409596618",
+          "deterministic": true
+        },
+        "capstone_x86_64": {
+          "subject": "bin/wmpconfig.exe @ 0x1000015cc (256B)",
+          "run1_sha256": "7906a8736ab486e87d23bb172fb6c41f7c1281a4520ecc18186b159d5bf2caba",
+          "run2_sha256": "7906a8736ab486e87d23bb172fb6c41f7c1281a4520ecc18186b159d5bf2caba",
+          "deterministic": true
+        },
+        "gnu_objdump": {
+          "subject": "bin/wmpconfig.exe @ 0x1000015cc..0x1000016cc",
+          "run1_sha256": "db58dd286f4b436db57e90b189e50ea90c2e72ea6409023b0cd349928d107064",
+          "run2_sha256": "db58dd286f4b436db57e90b189e50ea90c2e72ea6409023b0cd349928d107064",
+          "deterministic": true
+        },
+        "angr_cfgfast": {
+          "subject": "bin/wmpconfig.exe",
+          "functions_discovered": 58,
+          "run1_sha256": "07a192c944daf3fbb79e0f9d575623d6710a453845ada3b4b2076689c7c6eb7f",
+          "run2_sha256": "07a192c944daf3fbb79e0f9d575623d6710a453845ada3b4b2076689c7c6eb7f",
+          "deterministic": true
+        },
+        "rea_pe_resources": {
+          "subject": "bin/wmpconfig.exe",
+          "run1_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "run2_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "deterministic": true
+        }
+      }
+    },
+    "methodology_versions": {
+      "passed": true,
+      "methodology_file": "analysis/report/methodology.md",
+      "version_matches": {
+        "Python": true,
+        "angr": true,
+        "pefile": true,
+        "capstone": true,
+        "bitstring": true,
+        "pyelftools": true,
+        "GNU objdump": true,
+        "Node.js": true,
+        "REA": true,
+        "cmake": true,
+        "ninja": true
+      }
+    },
+    "evidence_conventions": {
+      "passed": true,
+      "rea_evidence": {
+        "manifest": "analysis/report/rea-evidence/manifest.json",
+        "total_operations": 168,
+        "digest_and_schema_verified": 168,
+        "gzip_archived_files": 16
+      },
+      "resource_archive": {
+        "modules_indexed": 28,
+        "walker_cross_check_agree": "28/28",
+        "total_payloads_archived": 539
+      },
+      "decompiled_provenance": {
+        "total_c_files": 888,
+        "provenance_headers_verified": 888,
+        "module_indexes_with_sha256": "28/28"
+      }
+    }
+  }
+}
