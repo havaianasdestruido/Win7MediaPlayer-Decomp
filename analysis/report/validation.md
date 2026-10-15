@@ -224,14 +224,14 @@ name / language triple to the same bytes in the same image, not merely to the sa
 ## 7. Reproduction
 
 ```bash
-# environment
-pip3 install --break-system-packages --only-binary=:all: angr pefile capstone pyelftools cmake ninja
-pip3 install --break-system-packages --only-binary=:all: "bitstring<4"
-npm i -g rea-agents@6.5.0
+# Phase 0: environment setup & prerequisite validation
+bash    analysis/tools/setup_env.sh
+python3 analysis/tools/manifest_verify.py           # P0.1 authenticity & Microsoft manifests
+python3 analysis/tools/phase0_check.py              # P0.1–P0.3 prerequisite & toolchain checks
 
 # checks A–C (each is idempotent; outputs land under analysis/report/)
 python3 analysis/tools/inventory.py
-python3 analysis/tools/rea_batch.py                 # REA evidence ledger (162 operations)
+python3 analysis/tools/rea_batch.py                 # REA evidence ledger (168 operations)
 python3 analysis/tools/resources.py                 # 539 resources + decoders
 python3 analysis/tools/strings_scan.py
 python3 analysis/tools/typelib.py                   # 5 shipped type libraries
@@ -240,7 +240,7 @@ python3 analysis/tools/disasm.py                    # check B
 python3 analysis/tools/recon_build.py --build       # check A
 
 # check D
-git diff --name-only origin/main HEAD -- bin/       # expect no output
+git diff --name-only 5c564f7 HEAD -- bin/           # expect no output
 ```
 
 Every generated artifact records its own tool version and source digest, so a rerun can be

@@ -56,10 +56,14 @@ finding in this repository depends on it.
 ## 3. Reproducing the analysis
 
 ```bash
-# 0. toolchain (wheel-only install; no compilation needed)
-pip3 install --break-system-packages --only-binary=:all: angr pefile capstone pyelftools cmake ninja
-pip3 install --break-system-packages --only-binary=:all: "bitstring<4"
-npm i -g rea-agents@6.5.0            # REA CLI (invoked as `npx rea`)
+# 0. Phase 0: environment provisioning, authenticity & toolchain validation
+bash    analysis/tools/setup_env.sh
+python3 analysis/tools/manifest_verify.py
+python3 analysis/tools/phase0_check.py
+
+# (or manual install with pinned requirements.txt)
+sudo pip3 install --break-system-packages --prefer-binary -r requirements.txt
+sudo npm i -g rea-agents@6.5.0       # REA CLI (invoked as `rea` or `npx rea`)
 
 # 1. inventory / identification
 python3 analysis/tools/inventory.py
