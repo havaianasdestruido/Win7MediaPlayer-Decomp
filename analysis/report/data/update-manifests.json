@@ -1,0 +1,3118 @@
+{
+  "generated_by": "analysis/tools/manifest_verify.py",
+  "generated_at": "2026-10-15 20:26:38Z",
+  "total_files": 53,
+  "pe_files": 28,
+  "non_pe_files": 25,
+  "checks": {
+    "upstream_initial_7808d47_matches": "53/53",
+    "upstream_moved_5c564f7_matches": "53/53",
+    "inventory_json_hash_matches": "53/53",
+    "winsxs_package_manifest_mapped": "53/53",
+    "pe_optional_header_checksum_valid": "28/28",
+    "pe_servicing_wave_mapped": "28/28",
+    "embedded_rt_manifest_modules": "12/16 (13 XML manifests)",
+    "winbindex_filename_tracked": "43/53",
+    "winbindex_static_asset_sha256_exact": "7/7 unchanged Win7->Win10 assets"
+  },
+  "all_passed": true,
+  "cbs_packages": {
+    "Microsoft-Windows-WMPNetworkSharingService-Package": 31,
+    "Microsoft-Windows-MediaPlayer-Package": 22
+  },
+  "servicing_waves_summary": [
+    {
+      "wave_id": "2009-07_Win7_RTM",
+      "release_name": "Windows 7 RTM (Build 7600.16385)",
+      "kb_article": "RTM (Base OS Media)",
+      "os_build": "6.1.7600.16385",
+      "wmp_version": "12.0.7600.16385",
+      "branch": "win7_rtm",
+      "build_Timestamp_tag": "090713-1255",
+      "compile_date_utc": "2009-07-14",
+      "release_date": "2009-07-22",
+      "branch_tag": "win7_rtm.090713-1255",
+      "pe_count": 18
+    },
+    {
+      "wave_id": "2010-11_Win7_SP1_RTM",
+      "release_name": "Windows 7 Service Pack 1 RTM (Build 7601.17514)",
+      "kb_article": "KB976932",
+      "os_build": "6.1.7601.17514",
+      "wmp_version": "12.0.7601.17514",
+      "branch": "win7sp1_rtm",
+      "build_Timestamp_tag": "101119-1850",
+      "compile_date_utc": "2010-11-20",
+      "release_date": "2011-02-22",
+      "branch_tag": "win7sp1_rtm.101119-1850",
+      "pe_count": 5
+    },
+    {
+      "wave_id": "2016-03_Win7_SP1_LDR",
+      "release_name": "Windows 7 SP1 March 2016 LDR / May 2016 Convenience Rollup (Build 7601.23403)",
+      "kb_article": "KB3150513 / KB3125574",
+      "os_build": "6.1.7601.23403",
+      "wmp_version": "12.0.7601.23403",
+      "branch": "win7sp1_ldr",
+      "build_Timestamp_tag": "160325-0600",
+      "compile_date_utc": "2016-03-25",
+      "release_date": "2016-05-17",
+      "branch_tag": "win7sp1_ldr.160325-0600",
+      "pe_count": 1
+    },
+    {
+      "wave_id": "2016-08_Win7_SP1_LDR",
+      "release_name": "Windows 7 SP1 August 2016 Update Rollup (Build 7601.23517)",
+      "kb_article": "KB3179573",
+      "os_build": "6.1.7601.23517",
+      "wmp_version": "12.0.7601.23517",
+      "branch": "win7sp1_ldr",
+      "build_Timestamp_tag": "160812-0732",
+      "compile_date_utc": "2016-08-12",
+      "release_date": "2016-08-16",
+      "branch_tag": "win7sp1_ldr.160812-0732",
+      "pe_count": 1
+    },
+    {
+      "wave_id": "2019-06_Win7_SP1_LDR",
+      "release_name": "Windows 7 SP1 July 2019 Security Monthly Quality Rollup (Build 7601.24499)",
+      "kb_article": "KB4507449 / KB4507456",
+      "os_build": "6.1.7601.24499",
+      "wmp_version": "12.0.7601.24499",
+      "branch": "win7sp1_ldr",
+      "build_Timestamp_tag": "190612-0600",
+      "compile_date_utc": "2019-06-12",
+      "release_date": "2019-07-09",
+      "branch_tag": "win7sp1_ldr.190612-0600",
+      "pe_count": 3
+    }
+  ],
+  "files": [
+    {
+      "path": "bin/WMPDMC.exe",
+      "name": "WMPDMC.exe",
+      "slug": "wmpdmc_exe",
+      "format": "pe",
+      "size": 1212928,
+      "hashes": {
+        "sha256": "3f6564d520c416147702a463a50724fd36c46c3a44a8447af89788586fc5efee",
+        "sha1": "bdb7a9d3a36d5a292c2bff4ffc98f43efa0e8b08",
+        "md5": "81dc020e3eff281f41fcc12a09329eb5",
+        "git_blob_sha1": "6ed0731dd4fa4777495d79b8316a7e06ff013ec4"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPDMC-UX",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.system32)\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 107,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1290252004,
+        "timestamp_utc": "2010-11-20 11:20:04 UTC",
+        "header_checksum": 1266514,
+        "computed_checksum": 1266514,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "WMPDMC.pdb",
+        "pdb_guid": "d785fdcf-f6fd-4cc9-ada8-64a7fdc26272",
+        "pdb_sym_id": "D785FDCFF6FD4CC9ADA864A7FDC262721",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpdmc_exe/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7601.17514 (win7sp1_rtm.101119-1850)",
+          "product_version_string": "12.0.7601.17514",
+          "original_filename": "WMPDMC.exe",
+          "internal_name": "WMPDMC",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player Digital Media Controller Application",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7sp1_rtm.101119-1850"
+        },
+        "servicing_wave": {
+          "wave_id": "2010-11_Win7_SP1_RTM",
+          "release_name": "Windows 7 Service Pack 1 RTM (Build 7601.17514)",
+          "kb_article": "KB976932",
+          "os_build": "6.1.7601.17514",
+          "wmp_version": "12.0.7601.17514",
+          "branch": "win7sp1_rtm",
+          "build_Timestamp_tag": "101119-1850",
+          "compile_date_utc": "2010-11-20",
+          "release_date": "2011-02-22"
+        },
+        "embedded_manifests": [
+          {
+            "resource_file": "analysis/report/resources/wmpdmc_exe/RT_MANIFEST/1_en-US.xml",
+            "sha256": "d377c9a6b42116ed338162538657cea1a1081e35f88ba530aff1d695731bb3e4",
+            "assembly_identity": {
+              "name": "WMPDMC",
+              "processorArchitecture": "amd64",
+              "version": "1.0.0.0",
+              "type": "win32"
+            },
+            "description": "Windows Shell",
+            "dependent_assemblies": [
+              {
+                "type": "win32",
+                "name": "Microsoft.Windows.Common-Controls",
+                "version": "6.0.0.0",
+                "processorArchitecture": "*",
+                "publicKeyToken": "6595b64144ccf1df",
+                "language": "*"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "bin/WMPDMCCore.dll",
+      "name": "WMPDMCCore.dll",
+      "slug": "wmpdmccore_dll",
+      "format": "pe",
+      "size": 426496,
+      "hashes": {
+        "sha256": "9334fde75c4e6d018f3c698b0a6b5d415f65d71716906af037147b61b3911242",
+        "sha1": "1f1b4cc3ccf9dad9e45d92334d951907405388bc",
+        "md5": "312cd9d6bea144924bd5b7a9cf79ce4a",
+        "git_blob_sha1": "91e5266c9daf076ddd0220349f3a13426a11eae5"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPDMCCore-API",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.system32)\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 0,
+        "exact_sha256": false
+      },
+      "pe_authenticity": {
+        "timestamp": 1458932785,
+        "timestamp_utc": "2016-03-25 19:06:25 UTC",
+        "header_checksum": 444588,
+        "computed_checksum": 444588,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "WMPDMCCore.pdb",
+        "pdb_guid": "e6cb94a9-5b3a-4e3c-b321-46653cccc026",
+        "pdb_sym_id": "E6CB94A95B3A4E3CB32146653CCCC0261",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpdmccore_dll/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7601.23403 (win7sp1_ldr.160325-0600)",
+          "product_version_string": "12.0.7601.23403",
+          "original_filename": "WMPDMCCore.dll",
+          "internal_name": "WMPDMCCore",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player Digital Media Controller Library",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7sp1_ldr.160325-0600"
+        },
+        "servicing_wave": {
+          "wave_id": "2016-03_Win7_SP1_LDR",
+          "release_name": "Windows 7 SP1 March 2016 LDR / May 2016 Convenience Rollup (Build 7601.23403)",
+          "kb_article": "KB3150513 / KB3125574",
+          "os_build": "6.1.7601.23403",
+          "wmp_version": "12.0.7601.23403",
+          "branch": "win7sp1_ldr",
+          "build_Timestamp_tag": "160325-0600",
+          "compile_date_utc": "2016-03-25",
+          "release_date": "2016-05-17"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/WMPMediaSharing.dll",
+      "name": "WMPMediaSharing.dll",
+      "slug": "wmpmediasharing_dll",
+      "format": "pe",
+      "size": 163840,
+      "hashes": {
+        "sha256": "714d193de7f062968c11a8a946f1fa066d03e1fc5a7bd90dbabc372605416413",
+        "sha1": "9c6c98c22f9eaf37a16013f467c34a0d04a7fa25",
+        "md5": "139677bb4ca72dbb99fdf80e74fa0b95",
+        "git_blob_sha1": "77bea528d81d743508bc693a82b83f2c180626b5"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-PublicAPI",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 70,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247535378,
+        "timestamp_utc": "2009-07-14 01:36:18 UTC",
+        "header_checksum": 183469,
+        "computed_checksum": 183469,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "WMPMediaSharing.pdb",
+        "pdb_guid": "67234a67-aa45-468b-9dc8-35eb633d038e",
+        "pdb_sym_id": "67234A67AA45468B9DC835EB633D038E1",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpmediasharing_dll/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "WMPMediaSharing.DLL",
+          "internal_name": "",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player Media Sharing Interface DLL",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/WMPNSSUI.dll",
+      "name": "WMPNSSUI.dll",
+      "slug": "wmpnssui_dll",
+      "format": "pe",
+      "size": 34816,
+      "hashes": {
+        "sha256": "28d793e5077afb34b57fd3ac404413a60f06a3985fcc4aa16cccb8525411f8bb",
+        "sha1": "dc8915c815edde23175155952d599caca136331a",
+        "md5": "cf557645f3606c6d6a1fb4482d798e65",
+        "git_blob_sha1": "7e82b4d640b9ebc41b56f3aa84b7c72a36963248"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSSUI",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 34,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247535380,
+        "timestamp_utc": "2009-07-14 01:36:20 UTC",
+        "header_checksum": 68430,
+        "computed_checksum": 68430,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "wmpnssui.pdb",
+        "pdb_guid": "fe0fc4fa-6666-4943-8285-6a3835417ff5",
+        "pdb_sym_id": "FE0FC4FA6666494382856A3835417FF51",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpnssui_dll/RT_VERSION/1_en-US.json",
+          "file_version_string": "6.1.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "6.1.7600.16385",
+          "original_filename": "WMPNSSUI.dll",
+          "internal_name": "WMPNSSUI",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player WMPNSS Shell Extensions",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": [
+          {
+            "resource_file": "analysis/report/resources/wmpnssui_dll/RT_MANIFEST/2_en-US.xml",
+            "sha256": "4ce30b03f7f6766e2f62f7c3ec0936a3dc9a23c83083d729ab598bd25d90db97",
+            "assembly_identity": {
+              "name": "Microsoft.Windows.MultiMedia.wmpnssui",
+              "processorArchitecture": "amd64",
+              "version": "5.1.0.0",
+              "type": "win32"
+            },
+            "description": "Windows Shell",
+            "dependent_assemblies": [
+              {
+                "type": "win32",
+                "name": "Microsoft.Windows.Common-Controls",
+                "version": "6.0.0.0",
+                "processorArchitecture": "amd64",
+                "publicKeyToken": "6595b64144ccf1df",
+                "language": "*"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "bin/WMPSideShowGadget.exe",
+      "name": "WMPSideShowGadget.exe",
+      "slug": "wmpsideshowgadget_exe",
+      "format": "pe",
+      "size": 165888,
+      "hashes": {
+        "sha256": "0f8f45cd381f60a41cca4834188157d25906911108d7280cb2540d2245327a9d",
+        "sha1": "46d456e7430a44de995f77be4abeab16ec2738eb",
+        "md5": "55a5e5ae40755556942c30548550e4c3",
+        "git_blob_sha1": "9ce8914b6df842908dd2951009330a8b16f28354"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-SideShow-Gadget",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 7,
+        "exact_sha256": false,
+        "signing_status": [
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531041,
+        "timestamp_utc": "2009-07-14 00:24:01 UTC",
+        "header_checksum": 231269,
+        "computed_checksum": 231269,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "WMPSideShowGadget.pdb",
+        "pdb_guid": "4fff873d-14ef-4e3d-b15d-c9f6a38b8f04",
+        "pdb_sym_id": "4FFF873D14EF4E3DB15DC9F6A38B8F041",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpsideshowgadget_exe/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "WMPSideShowGadget",
+          "internal_name": "WMPSideShowGadget",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player Gadget for Windows SideShow capable devices",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": [
+          {
+            "resource_file": "analysis/report/resources/wmpsideshowgadget_exe/RT_MANIFEST/1_en-US.xml",
+            "sha256": "bcc0a858e060d371e2c1dc86732433a83b437c7e20c64b844b2992f305d939bf",
+            "assembly_identity": {
+              "version": "5.1.0.0",
+              "processorArchitecture": "amd64",
+              "name": "Microsoft.Windows.MediaPlayer.WMPSideShowGadget",
+              "type": "win32"
+            },
+            "description": "Windows Media Player Gadget for Windows SideShow capable devices",
+            "requested_execution_level": {
+              "level": "asInvoker",
+              "uiAccess": "false"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "bin/mpvis.DLL",
+      "name": "mpvis.DLL",
+      "slug": "mpvis_dll",
+      "format": "pe",
+      "size": 293376,
+      "hashes": {
+        "sha256": "5b1cf8de17dc039349e1af0bc0d728e3de3c0a96d9c50e81fc909b8ceb4927e0",
+        "sha1": "77ea07025653b66b013842936b9fa0e14b9c2fe9",
+        "md5": "b4a9ce21915c96a1baa89fa884ea1c6c",
+        "git_blob_sha1": "de3c17dfb6a255cb2122408cadd1b4bd6eaf8c37"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Vis",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 62,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247534973,
+        "timestamp_utc": "2009-07-14 01:29:33 UTC",
+        "header_checksum": 306427,
+        "computed_checksum": 306427,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "mpvis.pdb",
+        "pdb_guid": "050e18ca-951f-4020-a117-f9aeababfcd2",
+        "pdb_sym_id": "050E18CA951F4020A117F9AEABABFCD21",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/mpvis_dll/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "mpvis.dll",
+          "internal_name": "mpvis.dll",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player Visualization",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/setup_wm.exe",
+      "name": "setup_wm.exe",
+      "slug": "setup_wm_exe",
+      "format": "pe",
+      "size": 2078208,
+      "hashes": {
+        "sha256": "f069226052de289452ef5ff9dd67557193c15308c5351bc7b70b6692b350951b",
+        "sha1": "47cd90ab0b86b5de7b8c000f48b5d161baa705a6",
+        "md5": "6fc498ef39e925c25eac3b6f8f45207f",
+        "git_blob_sha1": "6dca4158e87b75cb93949f2ce07e35142fb3d57d"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Setup",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 105,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1290251864,
+        "timestamp_utc": "2010-11-20 11:17:44 UTC",
+        "header_checksum": 2129206,
+        "computed_checksum": 2129206,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "setup_wm.pdb",
+        "pdb_guid": "b16b2303-6dc3-4a20-a4e7-a2d35ef66a99",
+        "pdb_sym_id": "B16B23036DC34A20A4E7A2D35EF66A991",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/setup_wm_exe/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7601.17514 (win7sp1_rtm.101119-1850)",
+          "product_version_string": "12.0.7601.17514",
+          "original_filename": "setup_wm.exe",
+          "internal_name": "setup_wm.exe",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Microsoft Windows Media Configuration Utility",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7sp1_rtm.101119-1850"
+        },
+        "servicing_wave": {
+          "wave_id": "2010-11_Win7_SP1_RTM",
+          "release_name": "Windows 7 Service Pack 1 RTM (Build 7601.17514)",
+          "kb_article": "KB976932",
+          "os_build": "6.1.7601.17514",
+          "wmp_version": "12.0.7601.17514",
+          "branch": "win7sp1_rtm",
+          "build_Timestamp_tag": "101119-1850",
+          "compile_date_utc": "2010-11-20",
+          "release_date": "2011-02-22"
+        },
+        "embedded_manifests": [
+          {
+            "resource_file": "analysis/report/resources/setup_wm_exe/RT_MANIFEST/1_en-US.xml",
+            "sha256": "b4fa16345f78a12b00ed348d4e1a219e7a221549640fb739759a1a4e78210fea",
+            "assembly_identity": {
+              "version": "11.0.0.0",
+              "processorArchitecture": "amd64",
+              "name": "Microsoft.Windows.MediaPlayer.SetupWM",
+              "type": "win32"
+            },
+            "dpi_aware": "true",
+            "description": "Windows Media Player Setup",
+            "dependent_assemblies": [
+              {
+                "type": "win32",
+                "name": "Microsoft.Windows.Common-Controls",
+                "version": "6.0.0.0",
+                "processorArchitecture": "*",
+                "publicKeyToken": "6595b64144ccf1df",
+                "language": "*"
+              }
+            ],
+            "requested_execution_level": {
+              "level": "asInvoker",
+              "uiAccess": "false"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "bin/wmlaunch.exe",
+      "name": "wmlaunch.exe",
+      "slug": "wmlaunch_exe",
+      "format": "pe",
+      "size": 263168,
+      "hashes": {
+        "sha256": "8ea713b95f32c31a11bb1dded4cc8b9620014600f122fff3852c082d9af67b1b",
+        "sha1": "9e6a0421c29afdee8263c5a49bc1bfab67c79708",
+        "md5": "1e7509c70109ef997489c8e368b67223",
+        "git_blob_sha1": "c20c14435d2c49c4f7f10443675fe133be2c316a"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-autoplay",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 105,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1290251844,
+        "timestamp_utc": "2010-11-20 11:17:24 UTC",
+        "header_checksum": 266296,
+        "computed_checksum": 266296,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "wmlaunch.pdb",
+        "pdb_guid": "503b5cae-0d7a-47f5-9752-b093a0065823",
+        "pdb_sym_id": "503B5CAE0D7A47F59752B093A00658231",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmlaunch_exe/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7601.17514 (win7sp1_rtm.101119-1850)",
+          "product_version_string": "12.0.7601.17514",
+          "original_filename": "wmlaunch.exe",
+          "internal_name": "wmlaunch.exe",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player Launcher",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7sp1_rtm.101119-1850"
+        },
+        "servicing_wave": {
+          "wave_id": "2010-11_Win7_SP1_RTM",
+          "release_name": "Windows 7 Service Pack 1 RTM (Build 7601.17514)",
+          "kb_article": "KB976932",
+          "os_build": "6.1.7601.17514",
+          "wmp_version": "12.0.7601.17514",
+          "branch": "win7sp1_rtm",
+          "build_Timestamp_tag": "101119-1850",
+          "compile_date_utc": "2010-11-20",
+          "release_date": "2011-02-22"
+        },
+        "embedded_manifests": [
+          {
+            "resource_file": "analysis/report/resources/wmlaunch_exe/RT_MANIFEST/1_en-US.xml",
+            "sha256": "11e1a2d696e6c09cb9510a5331d1bfd141859be7bdd3c40c3e311829cde9b3a7",
+            "assembly_identity": {
+              "version": "5.1.0.0",
+              "processorArchitecture": "amd64",
+              "name": "Microsoft.Windows.MediaPlayer.WMLaunch",
+              "type": "win32"
+            },
+            "description": "Windows Media Player Launcher",
+            "requested_execution_level": {
+              "level": "asInvoker",
+              "uiAccess": "false"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "bin/wmpconfig.exe",
+      "name": "wmpconfig.exe",
+      "slug": "wmpconfig_exe",
+      "format": "pe",
+      "size": 102400,
+      "hashes": {
+        "sha256": "0f1726e36b8a016069b7d9eef811f5ca3799bfed355423f70f51947e67d2ef4f",
+        "sha1": "36cd70c3601dd0b298754597ec892228c45e6ebb",
+        "md5": "80e585b2a17061624b445b36f14fceda",
+        "git_blob_sha1": "c8e420674a8ef1a0b5bc287c779beee6cfcf9ab5"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Core",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 93,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1560351058,
+        "timestamp_utc": "2019-06-12 14:50:58 UTC",
+        "header_checksum": 146634,
+        "computed_checksum": 146634,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "wmpconfig.pdb",
+        "pdb_guid": "9225daea-eb68-413d-9d35-ff11de181265",
+        "pdb_sym_id": "9225DAEAEB68413D9D35FF11DE1812651",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpconfig_exe/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7601.24499 (win7sp1_ldr.190612-0600)",
+          "product_version_string": "12.0.7601.24499",
+          "original_filename": "wmpconfig.exe",
+          "internal_name": "wmpconfig",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player Configuration",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7sp1_ldr.190612-0600"
+        },
+        "servicing_wave": {
+          "wave_id": "2019-06_Win7_SP1_LDR",
+          "release_name": "Windows 7 SP1 July 2019 Security Monthly Quality Rollup (Build 7601.24499)",
+          "kb_article": "KB4507449 / KB4507456",
+          "os_build": "6.1.7601.24499",
+          "wmp_version": "12.0.7601.24499",
+          "branch": "win7sp1_ldr",
+          "build_Timestamp_tag": "190612-0600",
+          "compile_date_utc": "2019-06-12",
+          "release_date": "2019-07-09"
+        },
+        "embedded_manifests": [
+          {
+            "resource_file": "analysis/report/resources/wmpconfig_exe/RT_MANIFEST/1_en-US.xml",
+            "sha256": "839fb479b5d6ea3221a58cdad85ceca08bbf35bdefb6497781fedc0703648646",
+            "assembly_identity": {
+              "name": "wmpconfig",
+              "processorArchitecture": "X86",
+              "type": "win32",
+              "version": "11.0.0.6000"
+            },
+            "description": "Application to perform setup tasks for HME.",
+            "requested_execution_level": {
+              "level": "requireAdministrator",
+              "uiAccess": "false"
+            }
+          },
+          {
+            "resource_file": "analysis/report/resources/wmpconfig_exe/RT_MANIFEST/99_en-US.xml",
+            "sha256": "9700fe7a9a0aac99a651ee034be92d8b605be6e7260b803a4fe649e1c0069a6e",
+            "assembly_identity": {
+              "name": "wmpconfig",
+              "processorArchitecture": "X86",
+              "type": "win32",
+              "version": "11.0.0.6000"
+            },
+            "description": "Application to perform setup tasks for HME.",
+            "requested_execution_level": {
+              "level": "requireAdministrator",
+              "uiAccess": "false"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "bin/wmpenc.exe",
+      "name": "wmpenc.exe",
+      "slug": "wmpenc_exe",
+      "format": "pe",
+      "size": 27648,
+      "hashes": {
+        "sha256": "b8b174ae012a8a25a9d706f7f169e7a2553ab8ffe0ccef2beb34fe803ec0634a",
+        "sha1": "88996b6f3c01f6d6e637bc2e8267bf6fdd6856a3",
+        "md5": "5a4bfdf154358ee76321e09e9ae161b1",
+        "git_blob_sha1": "016bb4357e4164d917442c610833f650e44b5bd7"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-WMPEnc",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 0,
+        "exact_sha256": false
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531027,
+        "timestamp_utc": "2009-07-14 00:23:47 UTC",
+        "header_checksum": 43033,
+        "computed_checksum": 43033,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "wmpenc.pdb",
+        "pdb_guid": "857db842-385c-49eb-bd06-db2d780e37ad",
+        "pdb_sym_id": "857DB842385C49EBBD06DB2D780E37AD1",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpenc_exe/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "wmpenc.exe",
+          "internal_name": "wmpenc.exe",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player Encoder Helper",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": [
+          {
+            "resource_file": "analysis/report/resources/wmpenc_exe/RT_MANIFEST/1_en-US.xml",
+            "sha256": "087c9d261686983b26122d331a51e8c0891213df06557e4745e9882a9fb3fe63",
+            "assembly_identity": {
+              "version": "5.1.0.0",
+              "processorArchitecture": "amd64",
+              "name": "Microsoft.Windows.MediaPlayer.WMPEnc",
+              "type": "win32"
+            },
+            "description": "Windows Media Player Encoder Helper",
+            "requested_execution_level": {
+              "level": "asInvoker",
+              "uiAccess": "false"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "bin/wmplayer.exe",
+      "name": "wmplayer.exe",
+      "slug": "wmplayer_exe",
+      "format": "pe",
+      "size": 167424,
+      "hashes": {
+        "sha256": "883d9616dfc7586fa88c58013f70e055df9328f3cfc3ef39898c15c6970fb0db",
+        "sha1": "8d83a31beeb4b36859308c9994fdd1e6fd1585d3",
+        "md5": "efd855f025c76a6dfff54f2eb62d34de",
+        "git_blob_sha1": "ee705ae1bde7dbebfa9f975f7f17defa388d3467"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Core",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 144,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1560351055,
+        "timestamp_utc": "2019-06-12 14:50:55 UTC",
+        "header_checksum": 193595,
+        "computed_checksum": 193595,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "wmplayer.pdb",
+        "pdb_guid": "e1c0b5e7-c4be-4c95-b79f-df4a59f1d100",
+        "pdb_sym_id": "E1C0B5E7C4BE4C95B79FDF4A59F1D1001",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmplayer_exe/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7601.24499 (win7sp1_ldr.190612-0600)",
+          "product_version_string": "12.0.7601.24499",
+          "original_filename": "wmplayer.exe",
+          "internal_name": "wmplayer.exe",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7sp1_ldr.190612-0600"
+        },
+        "servicing_wave": {
+          "wave_id": "2019-06_Win7_SP1_LDR",
+          "release_name": "Windows 7 SP1 July 2019 Security Monthly Quality Rollup (Build 7601.24499)",
+          "kb_article": "KB4507449 / KB4507456",
+          "os_build": "6.1.7601.24499",
+          "wmp_version": "12.0.7601.24499",
+          "branch": "win7sp1_ldr",
+          "build_Timestamp_tag": "190612-0600",
+          "compile_date_utc": "2019-06-12",
+          "release_date": "2019-07-09"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/wmpnetwk.exe",
+      "name": "wmpnetwk.exe",
+      "slug": "wmpnetwk_exe",
+      "format": "pe",
+      "size": 1525248,
+      "hashes": {
+        "sha256": "306467d280e99d0616e839278a4db5bed684f002ae284c3678cabb5251459cb3",
+        "sha1": "64638c3ff08eecd62e2b24708cf5b5f111c05e3d",
+        "md5": "a9f3bfc9345f49614d5859ec95b9e994",
+        "git_blob_sha1": "b1b7ac004dddfe3f3cdc628e69724c173d742aff"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 53,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1290251903,
+        "timestamp_utc": "2010-11-20 11:18:23 UTC",
+        "header_checksum": 1536603,
+        "computed_checksum": 1536603,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "WMPNetwk.pdb",
+        "pdb_guid": "59103d4a-8e99-4c02-b52f-700e66db951f",
+        "pdb_sym_id": "59103D4A8E994C02B52F700E66DB951F1",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpnetwk_exe/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7601.17514 (win7sp1_rtm.101119-1850)",
+          "product_version_string": "12.0.7601.17514",
+          "original_filename": "WMPNetwk.exe",
+          "internal_name": "Windows Media Player Network Sharing Service",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player Network Sharing Service",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7sp1_rtm.101119-1850"
+        },
+        "servicing_wave": {
+          "wave_id": "2010-11_Win7_SP1_RTM",
+          "release_name": "Windows 7 Service Pack 1 RTM (Build 7601.17514)",
+          "kb_article": "KB976932",
+          "os_build": "6.1.7601.17514",
+          "wmp_version": "12.0.7601.17514",
+          "branch": "win7sp1_rtm",
+          "build_Timestamp_tag": "101119-1850",
+          "compile_date_utc": "2010-11-20",
+          "release_date": "2011-02-22"
+        },
+        "embedded_manifests": [
+          {
+            "resource_file": "analysis/report/resources/wmpnetwk_exe/RT_MANIFEST/1_en-US.xml",
+            "sha256": "3a3fd8faea8d7e9655781a46a8c6f4a553d3f97fd16ff50ae243da503a9c7b6c",
+            "assembly_identity": {
+              "version": "11.0.0.6000",
+              "processorArchitecture": "X86",
+              "name": "wmpnetwk",
+              "type": "win32"
+            },
+            "description": "Media Sharing Service",
+            "requested_execution_level": {
+              "level": "asInvoker",
+              "uiAccess": "false"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "bin/wmpnscfg.exe",
+      "name": "wmpnscfg.exe",
+      "slug": "wmpnscfg_exe",
+      "format": "pe",
+      "size": 70656,
+      "hashes": {
+        "sha256": "10888bb9c3799e1e8b010c0f9088ced376aad63a509fce1727c457b022cdc717",
+        "sha1": "57f5b40476bc6e501fbd7cf2e075b05c0337b2c1",
+        "md5": "6699a112a3bdc9b52338512894eba9d6",
+        "git_blob_sha1": "70fd5f9c3693b603895fccfbc16763530ae6a0a3"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-UX",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 18,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531046,
+        "timestamp_utc": "2009-07-14 00:24:06 UTC",
+        "header_checksum": 87746,
+        "computed_checksum": 87746,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "WMPNSCFG.pdb",
+        "pdb_guid": "20681113-0f0c-4562-a824-2a09bc5df38a",
+        "pdb_sym_id": "206811130F0C4562A8242A09BC5DF38A1",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpnscfg_exe/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "WMPNSCFG.EXE",
+          "internal_name": "",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player Network Sharing Service Configuration Application",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": [
+          {
+            "resource_file": "analysis/report/resources/wmpnscfg_exe/RT_MANIFEST/1_en-US.xml",
+            "sha256": "5afd2af92ccc02006951d4fc8d118e4a3a39b6a1d5ea2aa7618dfa7d9b8324dd",
+            "assembly_identity": {
+              "version": "5.1.0.0",
+              "processorArchitecture": "amd64",
+              "name": "Microsoft.WindowsMediaPlayerNSS.ConfigurationManager",
+              "type": "win32"
+            },
+            "description": "Windows Media Player Network Sharing Service Configuration Manager.",
+            "dependent_assemblies": [
+              {
+                "type": "win32",
+                "name": "Microsoft.Windows.Common-Controls",
+                "version": "6.0.0.0",
+                "processorArchitecture": "amd64",
+                "publicKeyToken": "6595b64144ccf1df",
+                "language": "*"
+              }
+            ],
+            "requested_execution_level": {
+              "level": "asInvoker",
+              "uiAccess": "false"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "bin/wmpnssci.dll",
+      "name": "wmpnssci.dll",
+      "slug": "wmpnssci_dll",
+      "format": "pe",
+      "size": 553472,
+      "hashes": {
+        "sha256": "3a3871983f2d9a57739c70365dc3f417d9bf02f5c0c4cc3272ea9f3d380ef962",
+        "sha1": "c3d1d75fde40db9b6c1768da68dda7f869785582",
+        "md5": "c7494c67a6bf6fe914808e42f8265fef",
+        "git_blob_sha1": "c863db4976c40a34b61b04c211e57ac5a84106c7"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-API",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 72,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247535379,
+        "timestamp_utc": "2009-07-14 01:36:19 UTC",
+        "header_checksum": 617146,
+        "computed_checksum": 617146,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "wmpnssci.pdb",
+        "pdb_guid": "dcde99d4-9c18-4823-8ad2-3ed92045fb56",
+        "pdb_sym_id": "DCDE99D49C1848238AD23ED92045FB561",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpnssci_dll/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "WMPNSSCI.DLL",
+          "internal_name": "",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player Network Sharing Service Control Interface DLL",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": [
+          {
+            "resource_file": "analysis/report/resources/wmpnssci_dll/RT_MANIFEST/2_en-US.xml",
+            "sha256": "0b00fe5b48fde6d6541a699b2890d977b4ed251fa7be9896acd0be8070ee60fe",
+            "assembly_identity": {
+              "name": "WindowsShell",
+              "processorArchitecture": "amd64",
+              "version": "5.1.0.0",
+              "type": "win32"
+            },
+            "description": "Windows Shell",
+            "dependent_assemblies": [
+              {
+                "type": "win32",
+                "name": "Microsoft.Windows.Common-Controls",
+                "version": "6.0.0.0",
+                "processorArchitecture": "amd64",
+                "publicKeyToken": "6595b64144ccf1df",
+                "language": "*"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "bin/wmprph.exe",
+      "name": "wmprph.exe",
+      "slug": "wmprph_exe",
+      "format": "pe",
+      "size": 75776,
+      "hashes": {
+        "sha256": "395fce3d66ab1ed9a4fb2238172eaefc5cf78fc7a8b34c30686d638d16d9efca",
+        "sha1": "94cf4cf573df5691513d38156fd6bcee66c21f7b",
+        "md5": "b540d64efe0e63286a4c0bba9a4c7a21",
+        "git_blob_sha1": "a60ef6ce625f4288a87972b9f3a02168300aa9c1"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-ShellPreview",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 81,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531032,
+        "timestamp_utc": "2009-07-14 00:23:52 UTC",
+        "header_checksum": 128648,
+        "computed_checksum": 128648,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "wmprph.pdb",
+        "pdb_guid": "bf08005a-d460-42f7-a80d-cb4ac84a94e3",
+        "pdb_sym_id": "BF08005AD46042F7A80DCB4AC84A94E31",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmprph_exe/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "wmprph.exe",
+          "internal_name": "wmprph.exe",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player Rich Preview Handler",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": [
+          {
+            "resource_file": "analysis/report/resources/wmprph_exe/RT_MANIFEST/1_en-US.xml",
+            "sha256": "5ba9d396773cfbd92ed18794caa287b3321d909ffbe5255a448a0cd9a08ffd32",
+            "assembly_identity": {
+              "version": "5.1.0.0",
+              "processorArchitecture": "amd64",
+              "name": "Microsoft.Windows.MediaPlayer.WMPRPH",
+              "type": "win32"
+            },
+            "description": "Windows Media Player Rich Preview Handler",
+            "dependent_assemblies": [
+              {
+                "type": "win32",
+                "name": "Microsoft.Windows.Common-Controls",
+                "version": "6.0.0.0",
+                "processorArchitecture": "*",
+                "publicKeyToken": "6595b64144ccf1df",
+                "language": "*"
+              }
+            ],
+            "requested_execution_level": {
+              "level": "asInvoker",
+              "uiAccess": "false"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "bin/wmpshare.exe",
+      "name": "wmpshare.exe",
+      "slug": "wmpshare_exe",
+      "format": "pe",
+      "size": 102912,
+      "hashes": {
+        "sha256": "ab95a6aa118e853d71b326b68a409f24a6276f47e34ca9e8049f7d49b4825a51",
+        "sha1": "5a0d8bbc80d35a71be1f86307a8295d06016fd55",
+        "md5": "c31a4b0bbcbd96107943d700906a5aad",
+        "git_blob_sha1": "59ec6d106bc761eac59aebd1ea2e82b8f996cb27"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Core",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 162,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1560351054,
+        "timestamp_utc": "2019-06-12 14:50:54 UTC",
+        "header_checksum": 128997,
+        "computed_checksum": 128997,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": "wmpshare.pdb",
+        "pdb_guid": "62bfbbc0-5768-4a8a-a9ee-00a3925d0037",
+        "pdb_sym_id": "62BFBBC057684A8AA9EE00A3925D00371",
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpshare_exe/RT_VERSION/1_en-US.json",
+          "file_version_string": "12.0.7601.24499 (win7sp1_ldr.190612-0600)",
+          "product_version_string": "12.0.7601.24499",
+          "original_filename": "wmpshare.exe",
+          "internal_name": "wmpshare.exe",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player Folder Sharing Executable",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7sp1_ldr.190612-0600"
+        },
+        "servicing_wave": {
+          "wave_id": "2019-06_Win7_SP1_LDR",
+          "release_name": "Windows 7 SP1 July 2019 Security Monthly Quality Rollup (Build 7601.24499)",
+          "kb_article": "KB4507449 / KB4507456",
+          "os_build": "6.1.7601.24499",
+          "wmp_version": "12.0.7601.24499",
+          "branch": "win7sp1_ldr",
+          "build_Timestamp_tag": "190612-0600",
+          "compile_date_utc": "2019-06-12",
+          "release_date": "2019-07-09"
+        },
+        "embedded_manifests": [
+          {
+            "resource_file": "analysis/report/resources/wmpshare_exe/RT_MANIFEST/1_en-US.xml",
+            "sha256": "0929990617f45ce56c6492dddfed77d8b3b7c442f5fe7d75859a8fe293b1e364",
+            "assembly_identity": {
+              "name": "wmpshare",
+              "processorArchitecture": "X86",
+              "type": "win32",
+              "version": "11.0.0.6000"
+            },
+            "description": "Application to share folders containing media to the media sharing service.",
+            "requested_execution_level": {
+              "level": "asInvoker",
+              "uiAccess": "false"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "path": "bin/pt-BR/WMPDMC.exe.mui",
+      "name": "WMPDMC.exe.mui",
+      "slug": "wmpdmc_exe_mui",
+      "format": "pe",
+      "size": 16896,
+      "hashes": {
+        "sha256": "a3ac34616e24ec5580fe2eec9775ff265db6ebae5e0a833aeadd05809c9de87a",
+        "sha1": "84578506823a4d90c6303af9113c1eed67c2f42b",
+        "md5": "d3ff8f3674070f24640d336cc3048aac",
+        "git_blob_sha1": "721d9a4aad5ec566aa6615d3b03d6991ddf8ef0b"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPDMC-UX.Resources",
+        "arch": "amd64",
+        "language": "pt-BR",
+        "destination_path": "$(runtime.system32)\\pt-BR\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 15,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531025,
+        "timestamp_utc": "2009-07-14 00:23:45 UTC",
+        "header_checksum": 50555,
+        "computed_checksum": 50555,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": null,
+        "pdb_guid": null,
+        "pdb_sym_id": null,
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpdmc_exe_mui/RT_VERSION/1_pt-BR.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "WMPDMC.exe.mui",
+          "internal_name": "WMPDMC",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Aplicativo Controlador de M\u00c3\u00addia Digital do Windows Media Player",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/pt-BR/WMPDMCCore.dll.mui",
+      "name": "WMPDMCCore.dll.mui",
+      "slug": "wmpdmccore_dll_mui",
+      "format": "pe",
+      "size": 2560,
+      "hashes": {
+        "sha256": "680979d9d171a607492d67d7ed1393f07d906bd6ab35a29aadfe3bce9e2a6611",
+        "sha1": "dcd725f996161eb7bf8d8519e5668af24c66c25b",
+        "md5": "616fcc7be19b5ed3fb21a5b682890dca",
+        "git_blob_sha1": "a8ba5eb9c59087dac34dfcec4f0d124f4943d35d"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPDMCCore-API.Resources",
+        "arch": "amd64",
+        "language": "pt-BR",
+        "destination_path": "$(runtime.system32)\\pt-BR\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 0,
+        "exact_sha256": false
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531003,
+        "timestamp_utc": "2009-07-14 00:23:23 UTC",
+        "header_checksum": 60379,
+        "computed_checksum": 60379,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": null,
+        "pdb_guid": null,
+        "pdb_sym_id": null,
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpdmccore_dll_mui/RT_VERSION/1_pt-BR.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "WMPDMCCore.dll.mui",
+          "internal_name": "WMPDMCCore",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Biblioteca do Controlador de M\u00c3\u00addia Digital do Windows Media Player",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/pt-BR/WMPMediaSharing.dll.mui",
+      "name": "WMPMediaSharing.dll.mui",
+      "slug": "wmpmediasharing_dll_mui",
+      "format": "pe",
+      "size": 2560,
+      "hashes": {
+        "sha256": "84218d150099d2bb3bdfd874b366770f681c7f3ab956954aee64e40789d99ae6",
+        "sha1": "5aea5d4ed53e3f85603c69a58d89cefc0af78b9e",
+        "md5": "9afba12e49c3ae3e5d41b0b8da28f0bc",
+        "git_blob_sha1": "60cb4be077c9e925263baece84ec5afd9bb4eaae"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-PublicAPI.Resources",
+        "arch": "amd64",
+        "language": "pt-BR",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\pt-BR\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 170,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531033,
+        "timestamp_utc": "2009-07-14 00:23:53 UTC",
+        "header_checksum": 22208,
+        "computed_checksum": 22208,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": null,
+        "pdb_guid": null,
+        "pdb_sym_id": null,
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpmediasharing_dll_mui/RT_VERSION/1_pt-BR.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "WMPMediaSharing.DLL.MUI",
+          "internal_name": "",
+          "company_name": "Microsoft Corporation",
+          "file_description": "DLL de Interface de Compartilhamento de M\u00c3\u00addia do Windows Media Player",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/pt-BR/WMPSideShowGadget.exe.mui",
+      "name": "WMPSideShowGadget.exe.mui",
+      "slug": "wmpsideshowgadget_exe_mui",
+      "format": "pe",
+      "size": 3584,
+      "hashes": {
+        "sha256": "1718e05409e1926f8814a89bed277ed9a77c2d0f8f5f7fead42c65cd3e886321",
+        "sha1": "e9580ae7ce45e666029f3fb0520bd6a21612db80",
+        "md5": "fb4ac4050a9336a436ac0c8731403a7a",
+        "git_blob_sha1": "2f20f4b669a590369407f7ac186e927e99ff2cdf"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-SideShow-Gadget.Resources",
+        "arch": "amd64",
+        "language": "pt-BR",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\pt-BR\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 3,
+        "exact_sha256": false,
+        "signing_status": [
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531036,
+        "timestamp_utc": "2009-07-14 00:23:56 UTC",
+        "header_checksum": 38983,
+        "computed_checksum": 38983,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": null,
+        "pdb_guid": null,
+        "pdb_sym_id": null,
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpsideshowgadget_exe_mui/RT_VERSION/1_pt-BR.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "WMPSideShowGadget",
+          "internal_name": "WMPSideShowGadget",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Gadget do Windows Media Player para dispositivos compat\u00c3\u00adveis com o Windows SideShow",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/pt-BR/mpvis.dll.mui",
+      "name": "mpvis.dll.mui",
+      "slug": "mpvis_dll_mui",
+      "format": "pe",
+      "size": 2560,
+      "hashes": {
+        "sha256": "781a2dd1ca11e2654bec3d601a3b286dc289f13c8408f41126420ee6181de7c5",
+        "sha1": "bbce9f1e34a99623ece86222a06c4ecac2832ad4",
+        "md5": "fd979efa299333b47edc6bda4a72980c",
+        "git_blob_sha1": "3f15388c56316876b3f91f65f8c28e33f43229b8"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Vis.Resources",
+        "arch": "amd64",
+        "language": "pt-BR",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\pt-BR\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 244,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531028,
+        "timestamp_utc": "2009-07-14 00:23:48 UTC",
+        "header_checksum": 20436,
+        "computed_checksum": 20436,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": null,
+        "pdb_guid": null,
+        "pdb_sym_id": null,
+        "version_resource": {
+          "resource_file": "analysis/report/resources/mpvis_dll_mui/RT_VERSION/1_pt-BR.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "mpvis.dll.mui",
+          "internal_name": "mpvis.dll",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Visualiza\u00c3\u00a7\u00c3\u00a3o do Windows Media Player",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/pt-BR/setup_wm.exe.mui",
+      "name": "setup_wm.exe.mui",
+      "slug": "setup_wm_exe_mui",
+      "format": "pe",
+      "size": 60928,
+      "hashes": {
+        "sha256": "f3837229bf6be289b39b2c5e8462654552c5b9f1bfb0d8e2f8f7bbe5a3165d56",
+        "sha1": "f24599aeb27c235ffb198d330014210930a835c6",
+        "md5": "1c915f980eca4468ebb4c801abb711f9",
+        "git_blob_sha1": "203fbe33669019abae48faa2405d0fc5ed9ecec5"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Setup.Resources",
+        "arch": "amd64",
+        "language": "pt-BR",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\pt-BR\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 360,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531033,
+        "timestamp_utc": "2009-07-14 00:23:53 UTC",
+        "header_checksum": 119774,
+        "computed_checksum": 119774,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": null,
+        "pdb_guid": null,
+        "pdb_sym_id": null,
+        "version_resource": {
+          "resource_file": "analysis/report/resources/setup_wm_exe_mui/RT_VERSION/1_pt-BR.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "setup_wm.exe.mui",
+          "internal_name": "setup_wm.exe",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Utilit\u00c3\u00a1rio de Configura\u00c3\u00a7\u00c3\u00a3o do Microsoft Windows Media",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/pt-BR/wmlaunch.exe.mui",
+      "name": "wmlaunch.exe.mui",
+      "slug": "wmlaunch_exe_mui",
+      "format": "pe",
+      "size": 2048,
+      "hashes": {
+        "sha256": "bdc4a23d97dafb70a4d6fe38e834cfcf0b241456982cb87cf076e7c217553bd1",
+        "sha1": "bf8583bc4735a788f3d86017b557576b67aa0c93",
+        "md5": "3bf671292b1b6412d07c77bf75f12322",
+        "git_blob_sha1": "7739e3e85fedc106118fe34018b47bb61f979eb8"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-autoplay.Resources",
+        "arch": "amd64",
+        "language": "pt-BR",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\pt-BR\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 244,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531027,
+        "timestamp_utc": "2009-07-14 00:23:47 UTC",
+        "header_checksum": 7145,
+        "computed_checksum": 7145,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": null,
+        "pdb_guid": null,
+        "pdb_sym_id": null,
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmlaunch_exe_mui/RT_VERSION/1_pt-BR.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "wmlaunch.exe.mui",
+          "internal_name": "wmlaunch.exe",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Iniciador do Windows Media Player",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/pt-BR/wmplayer.exe.mui",
+      "name": "wmplayer.exe.mui",
+      "slug": "wmplayer_exe_mui",
+      "format": "pe",
+      "size": 3072,
+      "hashes": {
+        "sha256": "27ad95b6130d6f394bf74fe9c550cb65b166f7b05301ab5effd0f5b4ae62a714",
+        "sha1": "3ebf3743945da3f81d928618e710304b36fec311",
+        "md5": "89b75647a238653db7ca7cdcdf1a1701",
+        "git_blob_sha1": "a673e427ae3e41617695865e39669e16c2a89c3e"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Core.Resources",
+        "arch": "amd64",
+        "language": "pt-BR",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\pt-BR\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 871,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1471020174,
+        "timestamp_utc": "2016-08-12 16:42:54 UTC",
+        "header_checksum": 5811,
+        "computed_checksum": 5811,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": null,
+        "pdb_guid": null,
+        "pdb_sym_id": null,
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmplayer_exe_mui/RT_VERSION/1_pt-BR.json",
+          "file_version_string": "12.0.7601.23517 (win7sp1_ldr.160812-0732)",
+          "product_version_string": "12.0.7601.23517",
+          "original_filename": "wmplayer.exe.mui",
+          "internal_name": "wmplayer.exe",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Windows Media Player",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7sp1_ldr.160812-0732"
+        },
+        "servicing_wave": {
+          "wave_id": "2016-08_Win7_SP1_LDR",
+          "release_name": "Windows 7 SP1 August 2016 Update Rollup (Build 7601.23517)",
+          "kb_article": "KB3179573",
+          "os_build": "6.1.7601.23517",
+          "wmp_version": "12.0.7601.23517",
+          "branch": "win7sp1_ldr",
+          "build_Timestamp_tag": "160812-0732",
+          "compile_date_utc": "2016-08-12",
+          "release_date": "2016-08-16"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/pt-BR/wmpnetwk.exe.mui",
+      "name": "wmpnetwk.exe.mui",
+      "slug": "wmpnetwk_exe_mui",
+      "format": "pe",
+      "size": 39424,
+      "hashes": {
+        "sha256": "d8728825ec8dc4a3c42c1621da4b632167582512da73b391ca21f8b5026a7fd9",
+        "sha1": "252a41ef6ee359e7ab227db1d101aaf05c355a35",
+        "md5": "49663f2a847e129a759a9c54f49bbe43",
+        "git_blob_sha1": "f9f9f54dfc2835d7a0f6dc14e03a3188172254f7"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service.Resources",
+        "arch": "amd64",
+        "language": "pt-BR",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\pt-BR\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 430,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531035,
+        "timestamp_utc": "2009-07-14 00:23:55 UTC",
+        "header_checksum": 79319,
+        "computed_checksum": 79319,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": null,
+        "pdb_guid": null,
+        "pdb_sym_id": null,
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpnetwk_exe_mui/RT_VERSION/1_pt-BR.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "WMPNetwk.exe.mui",
+          "internal_name": "Windows Media Player Network Sharing Service",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Servi\u00c3\u00a7o de Compartilhamento de Rede do Windows Media Player",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/pt-BR/wmpnscfg.exe.mui",
+      "name": "wmpnscfg.exe.mui",
+      "slug": "wmpnscfg_exe_mui",
+      "format": "pe",
+      "size": 3072,
+      "hashes": {
+        "sha256": "45bf774e8ba7f906c6556ab1e08fd7b69a5a4da6fc75f4ccc62ab167333ba11d",
+        "sha1": "2ba87721f6c20fadbb4b9e648440c443bf7c8972",
+        "md5": "c45a0663d186b5c83d5d5466c7c443a8",
+        "git_blob_sha1": "adbb68acfd0f7b938ea4bf12f2f3687cbc7ebe4b"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-UX.Resources",
+        "arch": "amd64",
+        "language": "pt-BR",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\pt-BR\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 240,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1290251868,
+        "timestamp_utc": "2010-11-20 11:17:48 UTC",
+        "header_checksum": 40836,
+        "computed_checksum": 40836,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": null,
+        "pdb_guid": null,
+        "pdb_sym_id": null,
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpnscfg_exe_mui/RT_VERSION/1_pt-BR.json",
+          "file_version_string": "12.0.7601.17514 (win7sp1_rtm.101119-1850)",
+          "product_version_string": "12.0.7601.17514",
+          "original_filename": "WMPNSCFG.EXE.MUI",
+          "internal_name": "",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Aplicativo de Configura\u00c3\u00a7\u00c3\u00a3o do Servi\u00c3\u00a7o de compartilhamento de rede do Windows Media Player",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7sp1_rtm.101119-1850"
+        },
+        "servicing_wave": {
+          "wave_id": "2010-11_Win7_SP1_RTM",
+          "release_name": "Windows 7 Service Pack 1 RTM (Build 7601.17514)",
+          "kb_article": "KB976932",
+          "os_build": "6.1.7601.17514",
+          "wmp_version": "12.0.7601.17514",
+          "branch": "win7sp1_rtm",
+          "build_Timestamp_tag": "101119-1850",
+          "compile_date_utc": "2010-11-20",
+          "release_date": "2011-02-22"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/pt-BR/wmpnssci.dll.mui",
+      "name": "wmpnssci.dll.mui",
+      "slug": "wmpnssci_dll_mui",
+      "format": "pe",
+      "size": 4096,
+      "hashes": {
+        "sha256": "2b59918607d8e28691e6d1f9ebf2e8d80b14ecd55925f7b87f069aa75c43fe54",
+        "sha1": "d87ec8ffceb391e2e410c7bc8d60568d12557278",
+        "md5": "74a0206591168d671f6b2627de7fba38",
+        "git_blob_sha1": "6facf2ff3a004eb3f05f9990f3cb3b68a184e795"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-API.Resources",
+        "arch": "amd64",
+        "language": "pt-BR",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\pt-BR\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 244,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531035,
+        "timestamp_utc": "2009-07-14 00:23:55 UTC",
+        "header_checksum": 6824,
+        "computed_checksum": 6824,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": null,
+        "pdb_guid": null,
+        "pdb_sym_id": null,
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpnssci_dll_mui/RT_VERSION/1_pt-BR.json",
+          "file_version_string": "12.0.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "12.0.7600.16385",
+          "original_filename": "WMPNSSCI.DLL.MUI",
+          "internal_name": "",
+          "company_name": "Microsoft Corporation",
+          "file_description": "DLL de Interface de Controle de Servi\u00c3\u00a7o de Compartilhamento de Rede do Windows Media Player",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/pt-BR/wmpnssui.dll.mui",
+      "name": "wmpnssui.dll.mui",
+      "slug": "wmpnssui_dll_mui",
+      "format": "pe",
+      "size": 2560,
+      "hashes": {
+        "sha256": "15d5f17f3d3f7a5de60e2c2e73bd39da274236c14da785ce20a5fefbf7240dfb",
+        "sha1": "8457d9807ef953af53f21c9180ebaeed6f435948",
+        "md5": "5a12c68363d34b228a682c11e3f44406",
+        "git_blob_sha1": "88576bc423396fb56829c09ed4634fdc049ff7dc"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSSUI.Resources",
+        "arch": "amd64",
+        "language": "pt-BR",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\pt-BR\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 274,
+        "exact_sha256": false,
+        "signing_status": [
+          "Signed",
+          "Unsigned"
+        ]
+      },
+      "pe_authenticity": {
+        "timestamp": 1247531005,
+        "timestamp_utc": "2009-07-14 00:23:25 UTC",
+        "header_checksum": 25594,
+        "computed_checksum": 25594,
+        "checksum_valid": true,
+        "authenticode_present": false,
+        "signing_method": "WinSxS External Catalog (.cat)",
+        "pdb": null,
+        "pdb_guid": null,
+        "pdb_sym_id": null,
+        "version_resource": {
+          "resource_file": "analysis/report/resources/wmpnssui_dll_mui/RT_VERSION/1_pt-BR.json",
+          "file_version_string": "6.1.7600.16385 (win7_rtm.090713-1255)",
+          "product_version_string": "6.1.7600.16385",
+          "original_filename": "WMPNSSUI.dll.mui",
+          "internal_name": "WMPNSSUI",
+          "company_name": "Microsoft Corporation",
+          "file_description": "Extens\u00c3\u00b5es do shell WMPNSS do Windows Media Player",
+          "fixed_file_version": "",
+          "fixed_product_version": "",
+          "branch_tag": "win7_rtm.090713-1255"
+        },
+        "servicing_wave": {
+          "wave_id": "2009-07_Win7_RTM",
+          "release_name": "Windows 7 RTM (Build 7600.16385)",
+          "kb_article": "RTM (Base OS Media)",
+          "os_build": "6.1.7600.16385",
+          "wmp_version": "12.0.7600.16385",
+          "branch": "win7_rtm",
+          "build_Timestamp_tag": "090713-1255",
+          "compile_date_utc": "2009-07-14",
+          "release_date": "2009-07-22"
+        },
+        "embedded_manifests": []
+      }
+    },
+    {
+      "path": "bin/Media Renderer/DMR_120.jpg",
+      "name": "DMR_120.jpg",
+      "slug": "dmr_120_jpg",
+      "format": "jpeg",
+      "size": 2979,
+      "hashes": {
+        "sha256": "83d1112aa2e413d4a486d721cd2ed1ad8492b12f45f21aa5e0a7d20f205c6b21",
+        "sha1": "50cc81600eabb296005efc43bd3271cc757efdc1",
+        "md5": "21f20df23a68df69ef3ad52729112a46",
+        "git_blob_sha1": "b0ad8fe357c286dae93017207b47543f5a829cea"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Core",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Media Renderer\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": true,
+        "matched_sha256": "83d1112aa2e413d4a486d721cd2ed1ad8492b12f45f21aa5e0a7d20f205c6b21",
+        "matched_kb": "KB4019474 / Win10 1507 BASE",
+        "matched_assembly": "amd64_microsoft-windows-mediaplayer-core_31bf3856ad364e35_10.0.10240.17319_none_13600dd7e9ce5e86"
+      }
+    },
+    {
+      "path": "bin/Media Renderer/DMR_120.png",
+      "name": "DMR_120.png",
+      "slug": "dmr_120_png",
+      "format": "png",
+      "size": 14876,
+      "hashes": {
+        "sha256": "3333f59302ef7e8ffd539240953fc1e87750afa97b0ce44ea9e5eabbdbe25e7c",
+        "sha1": "4a6a1b13f85bfe01ea1d33c5bafb61fd852bbcbf",
+        "md5": "dfbbac0d295667b11e56bcd3feba4985",
+        "git_blob_sha1": "f9fbd8f23b22fb4108f0c87bdbbebade8a02957e"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Core",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Media Renderer\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 2,
+        "exact_sha256": true,
+        "matched_sha256": "3333f59302ef7e8ffd539240953fc1e87750afa97b0ce44ea9e5eabbdbe25e7c",
+        "matched_kb": "KB4019474 / Win10 1507 BASE",
+        "matched_assembly": "amd64_microsoft-windows-mediaplayer-core_31bf3856ad364e35_10.0.10240.17319_none_13600dd7e9ce5e86"
+      }
+    },
+    {
+      "path": "bin/Media Renderer/DMR_48.jpg",
+      "name": "DMR_48.jpg",
+      "slug": "dmr_48_jpg",
+      "format": "jpeg",
+      "size": 1220,
+      "hashes": {
+        "sha256": "e010cdbed55de0c5e76f5431efbb898c8092ca72e3c5a2ad62798956791494ba",
+        "sha1": "f80695b0ada31f584864e2672cc5d378462f53ba",
+        "md5": "0b7afb925c14a552cbf4574fcb6b9fc3",
+        "git_blob_sha1": "b27b820aa5d33361ba1401e6140d7895fdb2cbf6"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Core",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Media Renderer\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": true,
+        "matched_sha256": "e010cdbed55de0c5e76f5431efbb898c8092ca72e3c5a2ad62798956791494ba",
+        "matched_kb": "KB4019474 / Win10 1507 BASE",
+        "matched_assembly": "amd64_microsoft-windows-mediaplayer-core_31bf3856ad364e35_10.0.10240.17319_none_13600dd7e9ce5e86"
+      }
+    },
+    {
+      "path": "bin/Media Renderer/DMR_48.png",
+      "name": "DMR_48.png",
+      "slug": "dmr_48_png",
+      "format": "png",
+      "size": 4265,
+      "hashes": {
+        "sha256": "cf3a8637d69d8a7499a126ff43fbc6524a0298c1138f3fea9edd99cec8bfddbf",
+        "sha1": "555d52fd294114759a85bba0bd19dc8cad83b3de",
+        "md5": "214bc188d7afd7e7e3ed9283a9b47df3",
+        "git_blob_sha1": "42d7a3274765bf7d3827bf919db7ddd59a7e0297"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Core",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Media Renderer\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 2,
+        "exact_sha256": true,
+        "matched_sha256": "cf3a8637d69d8a7499a126ff43fbc6524a0298c1138f3fea9edd99cec8bfddbf",
+        "matched_kb": "KB4019474 / Win10 1507 BASE",
+        "matched_assembly": "amd64_microsoft-windows-mediaplayer-core_31bf3856ad364e35_10.0.10240.17319_none_13600dd7e9ce5e86"
+      }
+    },
+    {
+      "path": "bin/Media Renderer/RenderingControl.xml",
+      "name": "RenderingControl.xml",
+      "slug": "renderingcontrol_xml",
+      "format": "xml",
+      "size": 6363,
+      "hashes": {
+        "sha256": "7a3d9382d9e7a29916cb9c6374a20952f5cc05d5ae7bd82d0e37b3de3cfad013",
+        "sha1": "d961380d0671e7349facb9db5b796cac57caf754",
+        "md5": "95a9a13f87f930eac6cccb1bd64964c2",
+        "git_blob_sha1": "7b30fcf98e64840d10c4906af1100ea759873244"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Core",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Media Renderer\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": true,
+        "matched_sha256": "7a3d9382d9e7a29916cb9c6374a20952f5cc05d5ae7bd82d0e37b3de3cfad013",
+        "matched_kb": "KB4019474 / Win10 1507 BASE",
+        "matched_assembly": "amd64_microsoft-windows-mediaplayer-core_31bf3856ad364e35_10.0.10240.17319_none_13600dd7e9ce5e86"
+      }
+    },
+    {
+      "path": "bin/Media Renderer/avtransport.xml",
+      "name": "avtransport.xml",
+      "slug": "avtransport_xml",
+      "format": "xml",
+      "size": 19842,
+      "hashes": {
+        "sha256": "57f71724bc3cfa3fe88978a31ae9e2c05fe15a018c9a663e2dd4996734f2e7ba",
+        "sha1": "ab346d7da7fb2f04c6c8faadc9027a65c3c1ac0b",
+        "md5": "e141c227123e53d4a4ed5c4b70d34417",
+        "git_blob_sha1": "1547793c2449fb63c7020104f885fc9a41374d19"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Core",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Media Renderer\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Media Renderer/connectionmanager_dmr.xml",
+      "name": "connectionmanager_dmr.xml",
+      "slug": "connectionmanager_dmr_xml",
+      "format": "xml",
+      "size": 5375,
+      "hashes": {
+        "sha256": "844647e920ed1f9f1bd4986a95a40c9c63b60a58b73ce8a93096a2a514557612",
+        "sha1": "5bf41a40cdb51209127a33c759dac64c15c130a2",
+        "md5": "edab8a347903b7e298600155dc6cf9e3",
+        "git_blob_sha1": "21558e77e729d3d10eaff012ebac5c7eb0d37c65"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Core",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Media Renderer\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/ConnectionManager.xml",
+      "name": "ConnectionManager.xml",
+      "slug": "connectionmanager_xml",
+      "format": "xml",
+      "size": 5422,
+      "hashes": {
+        "sha256": "b886d9ae8f761fd9b330ba44e88c3c320ec4311ce17fa0b41011aa0980c6f034",
+        "sha1": "9cc54ee0c69b5c33d619c26a5be8667565850a8a",
+        "md5": "ce3888f53930ec6f439805ee97370a45",
+        "git_blob_sha1": "4de3692342e8ec46700cc3a3892735db1d690649"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": true,
+        "matched_sha256": "b886d9ae8f761fd9b330ba44e88c3c320ec4311ce17fa0b41011aa0980c6f034",
+        "matched_kb": "KB4019474 / Win10 1507 BASE",
+        "matched_assembly": "amd64_microsoft-windows-wmpnss-service_31bf3856ad364e35_10.0.10240.17184_none_0b7a6d01694ad555"
+      }
+    },
+    {
+      "path": "bin/Network Sharing/ContentDirectory.xml",
+      "name": "ContentDirectory.xml",
+      "slug": "contentdirectory_xml",
+      "format": "xml",
+      "size": 8338,
+      "hashes": {
+        "sha256": "823ebbd988df34051e95dec9f8a9989b8e421c5091539eb005974680de1d5490",
+        "sha1": "66c17c7f1c667a27490ce3a6e30fa23c65dacb33",
+        "md5": "ff202f1ccc7197c7519381c82eb8da07",
+        "git_blob_sha1": "23afa64e8e9d398d04e982b7226ffaf4073a1d3a"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/MediaReceiverRegistrar.xml",
+      "name": "MediaReceiverRegistrar.xml",
+      "slug": "mediareceiverregistrar_xml",
+      "format": "xml",
+      "size": 2574,
+      "hashes": {
+        "sha256": "d59932d1b8e0ee0565663c00ecc8f4f18f4aa5f9a56fadee0b3b1769b27e9fc6",
+        "sha1": "5ee93cd69b8e867d955482a96ae2afe398746275",
+        "md5": "0e760cfb5a5ad11f78d63162df29e9a4",
+        "git_blob_sha1": "fb9daae9864c55b72a3d999e288ad8fec1ad9df8"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": true,
+        "matched_sha256": "d59932d1b8e0ee0565663c00ecc8f4f18f4aa5f9a56fadee0b3b1769b27e9fc6",
+        "matched_kb": "KB4019474 / Win10 1507 BASE",
+        "matched_assembly": "amd64_microsoft-windows-wmpnss-service_31bf3856ad364e35_10.0.10240.17184_none_0b7a6d01694ad555"
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_bw120.jpg",
+      "name": "wmpnss_bw120.jpg",
+      "slug": "wmpnss_bw120_jpg",
+      "format": "jpeg",
+      "size": 21330,
+      "hashes": {
+        "sha256": "1c9a4ab040d7be032f440c11486079331a924aae46303d365835f0f8a5cda107",
+        "sha1": "705586cec12ec04518e3366d38df7f4a02195866",
+        "md5": "06fccb176159f88166b81d419d24ce11",
+        "git_blob_sha1": "4780ff057bc92d9ce0878c2928c3c757b79a7b19"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 0,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_bw120.png",
+      "name": "wmpnss_bw120.png",
+      "slug": "wmpnss_bw120_png",
+      "format": "png",
+      "size": 6434,
+      "hashes": {
+        "sha256": "2d651398020f9e675d77f72eb4f16c2653e8154359c298d22b6811724d005193",
+        "sha1": "d2e7d8b6706b42686e7fae67bda5c0bde7cbab09",
+        "md5": "37472b25881d841d02356269405b1940",
+        "git_blob_sha1": "d5407bb7c503b470712417dd2984764f8a0f58a3"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 0,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_bw32.bmp",
+      "name": "wmpnss_bw32.bmp",
+      "slug": "wmpnss_bw32_bmp",
+      "format": "bmp",
+      "size": 3128,
+      "hashes": {
+        "sha256": "99a5a8c31077a337f2bd2093870bba186dd6f2d7247fce3518fc6fe7450e504d",
+        "sha1": "fdb792b319a45f5f359373b4c0c599b111caaa6a",
+        "md5": "1d1904dac5853da5deba5593980698e1",
+        "git_blob_sha1": "20ca25f63f8916751ad8f9d7ce0c27b25999cc8c"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 0,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_bw32.jpg",
+      "name": "wmpnss_bw32.jpg",
+      "slug": "wmpnss_bw32_jpg",
+      "format": "jpeg",
+      "size": 8991,
+      "hashes": {
+        "sha256": "3934e3763d4e06b31703e1a8506b89b1416cad414f0b73ed2b04c45fcfa68e20",
+        "sha1": "a805c1b89da759a32af3008583a3041edb9f03b5",
+        "md5": "74afd2b836fc414ed0f1bee4e9ead97d",
+        "git_blob_sha1": "963ead24a17588b2a1d059b6881949ac91af0803"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 0,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_bw48.bmp",
+      "name": "wmpnss_bw48.bmp",
+      "slug": "wmpnss_bw48_bmp",
+      "format": "bmp",
+      "size": 2432,
+      "hashes": {
+        "sha256": "b9cc4a8423bc8eb98b7489cdb16724fbc48eff6b252e25f10900a5c3d0d33fd3",
+        "sha1": "9cc627c5539ffe5520cfedf2e48ed088037c1a51",
+        "md5": "9b60435efd28ea8be0799812ae695b19",
+        "git_blob_sha1": "ead02b08d09ebdddd6255f4082f33ffb206bfc0f"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 0,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_bw48.jpg",
+      "name": "wmpnss_bw48.jpg",
+      "slug": "wmpnss_bw48_jpg",
+      "format": "jpeg",
+      "size": 10912,
+      "hashes": {
+        "sha256": "44933d806b1ed7fa62eef61720020073e031d77d0b1ddc0e4e2d9a9f88fd741c",
+        "sha1": "c0fceb32eb9e5fb6dd5a17634f66ea77915c9f62",
+        "md5": "3ee04d61bbe83d3e2e5c1ab5087a9d30",
+        "git_blob_sha1": "86e9f5374ecfe2f445e3deab836c9b4076b3c7b0"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 0,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_bw48.png",
+      "name": "wmpnss_bw48.png",
+      "slug": "wmpnss_bw48_png",
+      "format": "png",
+      "size": 4124,
+      "hashes": {
+        "sha256": "ce37f0615a65c8afc00d960f48351819b330584d56df0974c72cbbf777b9537a",
+        "sha1": "9cb2ea0a302139fd77da5ae661b74577d65c01ea",
+        "md5": "313f449faa2333475c863cad5a66460d",
+        "git_blob_sha1": "52b846e74297ff5cdba416e54f1610768bb069eb"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 0,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_color120.jpg",
+      "name": "wmpnss_color120.jpg",
+      "slug": "wmpnss_color120_jpg",
+      "format": "jpeg",
+      "size": 22408,
+      "hashes": {
+        "sha256": "733a15c2a97ed50eec6e099da73f236db23540d980741ba3a2e1d5fd52e966cf",
+        "sha1": "a674312717fcc508d3b81bcc6bec5473d7202920",
+        "md5": "1400376ca677384a7667abd83a158180",
+        "git_blob_sha1": "08c4a118dc0521a751256d362812046a8945fa06"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_color120.png",
+      "name": "wmpnss_color120.png",
+      "slug": "wmpnss_color120_png",
+      "format": "png",
+      "size": 12107,
+      "hashes": {
+        "sha256": "e58320cc772c56338f8e578aabe24f809bdab3d07af3de9f7a770f246dec33d6",
+        "sha1": "1093e734d3939766d2f55e568be2f2be5ed69457",
+        "md5": "539d2c888bc4425d1b3e1c68fd438242",
+        "git_blob_sha1": "c9463c0861ac7b1f49c885f8db2a9b56ee4064e1"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_color32.bmp",
+      "name": "wmpnss_color32.bmp",
+      "slug": "wmpnss_color32_bmp",
+      "format": "bmp",
+      "size": 3128,
+      "hashes": {
+        "sha256": "327f1042f88af4f4340b60a20fb92c0de1fdbed79382ad0b928740314bb03251",
+        "sha1": "54d2361e179bcfc55d6b59ac4aa3764492ac14b4",
+        "md5": "ef70e843dd3af9a47c7f0ecc3e910168",
+        "git_blob_sha1": "785e5d35253fa30682f3d2fc1755c9a9b09b7fc7"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_color32.jpg",
+      "name": "wmpnss_color32.jpg",
+      "slug": "wmpnss_color32_jpg",
+      "format": "jpeg",
+      "size": 9421,
+      "hashes": {
+        "sha256": "60781d90fc965cd7e814bfb6c58b70832153305095ae2296140973b7c9041586",
+        "sha1": "122bf0e8ce67feb16547312f7595e4a1c5980c20",
+        "md5": "5e2f0cabf9058f13bdbfd2803ada8a7e",
+        "git_blob_sha1": "68005a201435e4f6c9ebbd2f64696da45aa594fc"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_color48.bmp",
+      "name": "wmpnss_color48.bmp",
+      "slug": "wmpnss_color48_bmp",
+      "format": "bmp",
+      "size": 6968,
+      "hashes": {
+        "sha256": "9aa9d9cfa29fa94c1b8618f8e42091af182361712deba183c59b943502243341",
+        "sha1": "5229b9a8a4fefa9ad50aa7852760cf7b8a608793",
+        "md5": "6bd5c0d960a1e17156595077b36a69f1",
+        "git_blob_sha1": "59c5fd26f06964652ee0030f62b7f4ff732e5957"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_color48.jpg",
+      "name": "wmpnss_color48.jpg",
+      "slug": "wmpnss_color48_jpg",
+      "format": "jpeg",
+      "size": 11397,
+      "hashes": {
+        "sha256": "66a92ab66713946fa082816fb75a612a5df34447d440d2d878c06644d90e5523",
+        "sha1": "7e1d446277ca9dd6ca946b16f235cda679f881ff",
+        "md5": "dc8426557b06e2621ba06684f2201edd",
+        "git_blob_sha1": "d5b686eae5955ef8ea4b46645989764a622d680d"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Network Sharing/wmpnss_color48.png",
+      "name": "wmpnss_color48.png",
+      "slug": "wmpnss_color48_png",
+      "format": "png",
+      "size": 5426,
+      "hashes": {
+        "sha256": "414e561aa9a0f1dbabafd056f9c5fddebaefe3fe123b3cd37a8299bcccee6f3f",
+        "sha1": "51f18c04ffe00061b7b7052cac71989e7c379bad",
+        "md5": "340cf64a0fbf561fee46ae2bb9c49b63",
+        "git_blob_sha1": "dbc987f9ccb918391d57d27103df75dc5dfa6e99"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-WMPNetworkSharingService-Package",
+        "winsxs_assembly": "Microsoft-Windows-WMPNSS-Service",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Network Sharing\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 1,
+        "exact_sha256": false
+      }
+    },
+    {
+      "path": "bin/Skins/Revert.wmz",
+      "name": "Revert.wmz",
+      "slug": "revert_wmz",
+      "format": "zip",
+      "size": 67209,
+      "hashes": {
+        "sha256": "f305ecc2626811dbc3b5753a57f6fa1b0d7ed8c221bd2c21712e97b4215b5fc2",
+        "sha1": "b05c37cb1fd1f907ceb18f810e39752cf0a51f43",
+        "md5": "01d2b74cebeaa4b213b41c06a098e9c9",
+        "git_blob_sha1": "2e190a024fab24e3bf892a5bcd35ae20a7c1d20b"
+      },
+      "integrity": {
+        "matches_initial_commit_7808d47": true,
+        "matches_moved_commit_5c564f7": true,
+        "matches_head": true,
+        "matches_inventory_json": true
+      },
+      "winsxs_manifest": {
+        "cbs_package": "Microsoft-Windows-MediaPlayer-Package",
+        "winsxs_assembly": "Microsoft-Windows-MediaPlayer-Skins",
+        "arch": "amd64",
+        "language": "neutral",
+        "destination_path": "$(runtime.programFiles)\\Windows Media Player\\Skins\\",
+        "public_key_token": "31bf3856ad364e35"
+      },
+      "winbindex": {
+        "entries": 893,
+        "exact_sha256": false
+      }
+    }
+  ]
+}
